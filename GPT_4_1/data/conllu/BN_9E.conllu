@@ -1,0 +1,532 @@
+# text = Hier ist der Text in Deutscher Leichter Sprache:
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=13|end_char=17
+5	in	in	ADP	APPR	_	8	case	_	start_char=18|end_char=20
+6	Deutscher	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	start_char=21|end_char=30
+7	Leichter	Leichter	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	start_char=31|end_char=39
+8	Sprache	Sprache	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=40|end_char=47|SpaceAfter=No
+9	:	:	PUNCT	$.	_	2	punct	_	start_char=47|end_char=48|SpacesAfter=\n\n
+
+# text = **Eintrag ins Wählerverzeichnis für die Landtagswahl am 9.
+# sent_id = 1
+1-2	*	_	_	_	_	_	_	_	start_char=50|end_char=51|SpaceAfter=No
+1	<SOS>n	<SOS>n	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
+2	de*	de*	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	*	*	PUNCT	$(	_	1	punct	_	start_char=51|end_char=52|SpaceAfter=No
+4	Eintrag	Eintrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=52|end_char=59
+5-6	ins	_	_	_	_	_	_	_	start_char=60|end_char=63
+5	in	in	ADP	APPR	_	7	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Wählerverzeichnis	Wählerverzeichnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=64|end_char=81
+8	für	für	ADP	APPR	_	10	case	_	start_char=82|end_char=85
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=86|end_char=89
+10	Landtagswahl	Landtagswahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=90|end_char=102
+11-12	am	_	_	_	_	_	_	_	start_char=103|end_char=105
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+13	9.	9.	ADJ	ADJA	Degree=Pos|NumType=Ord	10	nmod	_	start_char=106|end_char=108
+
+# text = Oktober 2022
+# sent_id = 2
+1	Oktober	Oktober	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=109|end_char=116
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=117|end_char=121|SpaceAfter=No
+
+# text = *
+# sent_id = 3
+1	*	*	PUNCT	$(	_	0	root	_	start_char=121|end_char=122|SpaceAfter=No
+
+# text = *
+# sent_id = 4
+1	*	*	PUNCT	$(	_	0	root	_	start_char=122|end_char=123|SpacesAfter=\n\n
+
+# text = Sehr geehrte Damen und Herren,
+# sent_id = 5
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	start_char=125|end_char=129
+2	geehrte	geehrt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=130|end_char=137
+3	Damen	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=138|end_char=143
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=144|end_char=147
+5	Herren	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	start_char=148|end_char=154|SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	start_char=154|end_char=155|SpacesAfter=\n\n
+
+# text = am 9.
+# sent_id = 6
+1-2	am	_	_	_	_	_	_	_	start_char=157|end_char=159
+1	an	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	9	9	NUM	CARD	NumType=Card	0	root	_	start_char=160|end_char=161|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=161|end_char=162
+
+# text = Oktober 2022 ist die Landtagswahl in Niedersachsen.
+# sent_id = 7
+1	Oktober	Oktober	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	start_char=163|end_char=170
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=171|end_char=175
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=176|end_char=179
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=180|end_char=183
+5	Landtagswahl	Landtagswahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=184|end_char=196
+6	in	in	ADP	APPR	_	7	case	_	start_char=197|end_char=199
+7	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=200|end_char=213|SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=213|end_char=214|SpacesAfter=\n\n
+
+# text = Sie dürfen wählen, wenn: - Sie die deutsche Staatsangehörigkeit haben - Sie seit mindestens 3 Monaten in Niedersachsen wohnen
+# sent_id = 8
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=216|end_char=219
+2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=220|end_char=226
+3	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=227|end_char=233|SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=233|end_char=234
+5	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=235|end_char=239|SpaceAfter=No
+6	:	:	PUNCT	$.	_	12	punct	_	start_char=239|end_char=240|SpacesAfter=\n
+7	-	-	PUNCT	$(	_	12	punct	_	start_char=241|end_char=242
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=243|end_char=246
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=247|end_char=250
+10	deutsche	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=251|end_char=259
+11	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=260|end_char=279
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=280|end_char=285|SpacesAfter=\n
+13	-	-	PUNCT	$(	_	21	punct	_	start_char=286|end_char=287
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	21	nsubj	_	start_char=288|end_char=291
+15	seit	seit	ADP	APPR	_	18	case	_	start_char=292|end_char=296
+16	mindestens	mindestens	ADV	ADV	_	17	advmod	_	start_char=297|end_char=307
+17	3	3	NUM	CARD	NumType=Card	18	nummod	_	start_char=308|end_char=309
+18	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	start_char=310|end_char=317
+19	in	in	ADP	APPR	_	20	case	_	start_char=318|end_char=320
+20	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=321|end_char=334
+21	wohnen	wohnen	VERB	VVFIN	VerbForm=Inf	12	conj	_	start_char=335|end_char=341|SpacesAfter=\n\n
+
+# text = Wenn Sie vor kurzem umgezogen sind, gibt es verschiedene Regeln:
+# sent_id = 9
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=343|end_char=347
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=348|end_char=351
+3	vor	vor	ADP	APPR	_	4	case	_	start_char=352|end_char=355
+4	kurzem	Kurz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=356|end_char=362
+5	umgezogen	umziehen	VERB	VVPP	VerbForm=Part	8	advcl	_	start_char=363|end_char=372
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=373|end_char=377|SpaceAfter=No
+7	,	,	PUNCT	$,	_	5	punct	_	start_char=377|end_char=378
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=379|end_char=383
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=384|end_char=386
+10	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=387|end_char=399
+11	Regeln	Regel|Regeln	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	start_char=400|end_char=406|SpaceAfter=No
+12	:	:	PUNCT	$.	_	8	punct	_	start_char=406|end_char=407|SpacesAfter=\n\n
+
+# text = **1.
+# sent_id = 10
+1	*	*	X	XY	_	0	root	_	start_char=409|end_char=410|SpaceAfter=No
+2	*1	*1	NUM	XY	NumType=Card	1	dep	_	start_char=410|end_char=412|SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=412|end_char=413
+
+# text = Sie sind neu nach Braunschweig gezogen.
+# sent_id = 11
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=414|end_char=417
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=418|end_char=422
+3	neu	neu	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=423|end_char=426
+4	nach	nach	ADP	APPR	_	5	case	_	start_char=427|end_char=431
+5	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=432|end_char=444
+6	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=445|end_char=452|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=452|end_char=453
+
+# text = Sie kommen aus einem anderen Bundesland und sind nach dem 9.
+# sent_id = 12
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=454|end_char=457
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=458|end_char=464
+3	aus	aus	ADP	APPR	_	6	case	_	start_char=465|end_char=468
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=469|end_char=474
+5	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	6	det	_	start_char=475|end_char=482
+6	Bundesland	Bundesland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=483|end_char=493
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=494|end_char=497
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=498|end_char=502
+9	nach	nach	ADP	APPR	_	11	case	_	start_char=503|end_char=507
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=508|end_char=511
+11	9	9	NUM	CARD	NumType=Card	8	obl	_	start_char=512|end_char=513|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=513|end_char=514
+
+# text = Juli 2022 erst nach Braunschweig gekommen.
+# sent_id = 13
+1	Juli	Juli	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	dep	_	start_char=515|end_char=519
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=520|end_char=524
+3	erst	erst	ADV	ADV	_	6	advmod	_	start_char=525|end_char=529
+4	nach	nach	ADP	APPR	_	5	case	_	start_char=530|end_char=534
+5	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=535|end_char=547
+6	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=548|end_char=556|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=556|end_char=557|SpaceAfter=No
+
+# text = ** - Sie dürfen am 9. Oktober 2022 nicht wählen.
+# sent_id = 14
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=557|end_char=559|SpacesAfter=\n
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=560|end_char=561
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=562|end_char=565
+4	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=566|end_char=572
+5-6	am	_	_	_	_	_	_	_	start_char=573|end_char=575
+5	an	an	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	9.	9.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	8	amod	_	start_char=576|end_char=578
+8	Oktober	Oktober	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=579|end_char=586
+9	2022	2022	NUM	CARD	NumType=Card	8	nmod	_	start_char=587|end_char=591
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=592|end_char=597
+11	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=598|end_char=604|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=604|end_char=605|SpacesAfter=\s\n
+
+# text = - Das liegt daran, dass Sie noch nicht 3 Monate in Niedersachsen wohnen.
+# sent_id = 15
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=607|end_char=608
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=609|end_char=612
+3	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=613|end_char=618
+4	daran	daran	ADV	PAV	PronType=Dem	3	advmod	_	start_char=619|end_char=624|SpaceAfter=No
+5	,	,	PUNCT	$,	_	14	punct	_	start_char=624|end_char=625
+6	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=626|end_char=630
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=631|end_char=634
+8	noch	noch	ADV	ADV	_	9	advmod	_	start_char=635|end_char=639
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=640|end_char=645
+10	3	3	NUM	CARD	NumType=Card	11	nummod	_	start_char=646|end_char=647
+11	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	start_char=648|end_char=654
+12	in	in	ADP	APPR	_	13	case	_	start_char=655|end_char=657
+13	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=658|end_char=671
+14	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=672|end_char=678|SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=678|end_char=679|SpacesAfter=\n\n
+
+# text = **2.
+# sent_id = 16
+1	**2	**2	X	XY	_	0	root	_	start_char=681|end_char=684|SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=684|end_char=685
+
+# text = Sie sind neu nach Braunschweig gezogen.
+# sent_id = 17
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=686|end_char=689
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=690|end_char=694
+3	neu	neu	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=695|end_char=698
+4	nach	nach	ADP	APPR	_	5	case	_	start_char=699|end_char=703
+5	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=704|end_char=716
+6	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=717|end_char=724|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=724|end_char=725
+
+# text = Sie kommen aus einer anderen Stadt oder Gemeinde in Niedersachsen und sind nach dem 28.
+# sent_id = 18
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=726|end_char=729
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=730|end_char=736
+3	aus	aus	ADP	APPR	_	6	case	_	start_char=737|end_char=740
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=741|end_char=746
+5	anderen	anderer	DET	ADJA	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	start_char=747|end_char=754
+6	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=755|end_char=760
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=761|end_char=765
+8	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	start_char=766|end_char=774
+9	in	in	ADP	APPR	_	10	case	_	start_char=775|end_char=777
+10	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=778|end_char=791
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=792|end_char=795
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=796|end_char=800
+13	nach	nach	ADP	APPR	_	15	case	_	start_char=801|end_char=805
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=806|end_char=809
+15	28	28	NUM	CARD	NumType=Card	12	obl	_	start_char=810|end_char=812|SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=812|end_char=813
+
+# text = August 2022 erst nach Braunschweig gekommen.
+# sent_id = 19
+1	August	August	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	dep	_	start_char=814|end_char=820
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=821|end_char=825
+3	erst	erst	ADV	ADV	_	6	advmod	_	start_char=826|end_char=830
+4	nach	nach	ADP	APPR	_	5	case	_	start_char=831|end_char=835
+5	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=836|end_char=848
+6	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=849|end_char=857|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=857|end_char=858|SpaceAfter=No
+
+# text = ** - Ihr Name steht nicht im Wählerverzeichnis von Braunschweig.
+# sent_id = 20
+1	**	**	PUNCT	$(	_	5	punct	_	start_char=858|end_char=860|SpacesAfter=\n
+2	-	-	PUNCT	$(	_	5	punct	_	start_char=861|end_char=862
+3	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=863|end_char=866
+4	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=867|end_char=871
+5	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=872|end_char=877
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=878|end_char=883
+7-8	im	_	_	_	_	_	_	_	start_char=884|end_char=886
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Wählerverzeichnis	Wählerverzeichnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=887|end_char=904
+10	von	von	ADP	APPR	_	11	case	_	start_char=905|end_char=908
+11	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=909|end_char=921|SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=921|end_char=922|SpacesAfter=\n
+
+# text = - Sie können trotzdem wählen: - Sie können am 9.
+# sent_id = 21
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=923|end_char=924
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=925|end_char=928
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=929|end_char=935
+4	trotzdem	trotzdem	ADV	PAV	_	5	advmod	_	start_char=936|end_char=944
+5	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=945|end_char=951|SpaceAfter=No
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=951|end_char=952|SpacesAfter=\n\s\s\s\s
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=957|end_char=958
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=959|end_char=962
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=963|end_char=969
+10-11	am	_	_	_	_	_	_	_	start_char=970|end_char=972
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+12	9.	9.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	9	obl	_	start_char=973|end_char=975
+
+# text = Oktober 2022 in Ihrer alten Stadt oder Gemeinde wählen.
+# sent_id = 22
+1	Oktober	Oktober	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	dep	_	start_char=976|end_char=983
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=984|end_char=988
+3	in	in	ADP	APPR	_	6	case	_	start_char=989|end_char=991
+4	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=992|end_char=997
+5	alten	alt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=998|end_char=1003
+6	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=1004|end_char=1009
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1010|end_char=1014
+8	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	start_char=1015|end_char=1023
+9	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1024|end_char=1030|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1030|end_char=1031|SpacesAfter=\n\s\s\s\s
+
+# text = - Oder Sie beantragen in Ihrer alten Stadt oder Gemeinde Briefwahl.
+# sent_id = 23
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1036|end_char=1037
+2	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=1038|end_char=1042
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1043|end_char=1046
+4	beantragen	beantragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1047|end_char=1057
+5	in	in	ADP	APPR	_	8	case	_	start_char=1058|end_char=1060
+6	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=1061|end_char=1066
+7	alten	alt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=1067|end_char=1072
+8	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=1073|end_char=1078
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1079|end_char=1083
+10	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	start_char=1084|end_char=1092
+11	Briefwahl	Briefwahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	start_char=1093|end_char=1102|SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=1102|end_char=1103|SpacesAfter=\n\n
+
+# text = **3.
+# sent_id = 24
+1	**3	**3	X	XY	_	0	root	_	start_char=1105|end_char=1108|SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=1108|end_char=1109
+
+# text = Sie sind innerhalb von Braunschweig umgezogen.
+# sent_id = 25
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1110|end_char=1113
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1114|end_char=1118
+3	innerhalb	innerhalb	ADP	ADV	_	5	case	_	start_char=1119|end_char=1128
+4	von	von	ADP	APPR	_	5	case	_	start_char=1129|end_char=1132
+5	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=1133|end_char=1145
+6	umgezogen	umziehen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=1146|end_char=1155|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1155|end_char=1156
+
+# text = Sie sind nach dem 28.
+# sent_id = 26
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1157|end_char=1160
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1161|end_char=1165
+3	nach	nach	ADP	APPR	_	5	case	_	start_char=1166|end_char=1170
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1171|end_char=1174
+5	28	28	NUM	CARD	NumType=Card	2	obl	_	start_char=1175|end_char=1177|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1177|end_char=1178
+
+# text = August 2022 umgezogen.
+# sent_id = 27
+1	August	August	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	start_char=1179|end_char=1185
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=1186|end_char=1190
+3	umgezogen	umziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1191|end_char=1200|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=1200|end_char=1201|SpaceAfter=No
+
+# text = ** - Ihr Name steht noch im alten Wahllokal im Wählerverzeichnis.
+# sent_id = 28
+1	**	**	PUNCT	$(	_	5	punct	_	start_char=1201|end_char=1203|SpacesAfter=\n
+2	-	-	PUNCT	$(	_	3	punct	_	start_char=1204|end_char=1205
+3	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=1206|end_char=1209
+4	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1210|end_char=1214
+5	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1215|end_char=1220
+6	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1221|end_char=1225
+7-8	im	_	_	_	_	_	_	_	start_char=1226|end_char=1228
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	alten	alt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=1229|end_char=1234
+10	Wahllokal	Wahllokal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=1235|end_char=1244
+11-12	im	_	_	_	_	_	_	_	start_char=1245|end_char=1247
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Wählerverzeichnis	Wählerverzeichnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	start_char=1248|end_char=1265|SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=1265|end_char=1266|SpacesAfter=\n
+
+# text = - Sie können trotzdem wählen: - Sie gehen am 9.
+# sent_id = 29
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1267|end_char=1268
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1269|end_char=1272
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1273|end_char=1279
+4	trotzdem	trotzdem	ADV	PAV	_	5	advmod	_	start_char=1280|end_char=1288
+5	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1289|end_char=1295|SpaceAfter=No
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=1295|end_char=1296|SpacesAfter=\n\s\s\s\s
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=1301|end_char=1302
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=1303|end_char=1306
+9	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=1307|end_char=1312
+10-11	am	_	_	_	_	_	_	_	start_char=1313|end_char=1315
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+12	9.	9.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	9	obl	_	start_char=1316|end_char=1318
+
+# text = Oktober 2022 in das Wahllokal, das auf Ihrer Wahlbenachrichtigung steht.
+# sent_id = 30
+1	Oktober	Oktober	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	start_char=1319|end_char=1326
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=1327|end_char=1331
+3	in	in	ADP	APPR	_	5	case	_	start_char=1332|end_char=1334
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1335|end_char=1338
+5	Wahllokal	Wahllokal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=1339|end_char=1348|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1348|end_char=1349
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=1350|end_char=1353
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=1354|end_char=1357
+9	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1358|end_char=1363
+10	Wahlbenachrichtigung	Wahlbenachrichtigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=1364|end_char=1384
+11	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=1385|end_char=1390|SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=1390|end_char=1391|SpacesAfter=\n\s\s\s\s
+
+# text = - Oder Sie beantragen Briefwahl beim Wahlamt.
+# sent_id = 31
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1396|end_char=1397
+2	Oder	Oder	CCONJ	KON	_	4	cc	_	start_char=1398|end_char=1402
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1403|end_char=1406
+4	beantragen	beantragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1407|end_char=1417
+5	Briefwahl	Briefwahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1418|end_char=1427
+6-7	beim	_	_	_	_	_	_	_	start_char=1428|end_char=1432
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Wahlamt	Wahlamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1433|end_char=1440|SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1440|end_char=1441|SpacesAfter=\n\n
+
+# text = **4.
+# sent_id = 32
+1	**4	**4	NUM	CARD	NumType=Card	0	root	_	start_char=1443|end_char=1446|SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=1446|end_char=1447
+
+# text = Sie sind nach dem 28.
+# sent_id = 33
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1448|end_char=1451
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1452|end_char=1456
+3	nach	nach	ADP	APPR	_	5	case	_	start_char=1457|end_char=1461
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1462|end_char=1465
+5	28	28	NUM	CARD	NumType=Card	2	obl	_	start_char=1466|end_char=1468|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1468|end_char=1469
+
+# text = August 2022 aus Braunschweig weggezogen.
+# sent_id = 34
+1	August	August	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	start_char=1470|end_char=1476
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=1477|end_char=1481
+3	aus	aus	ADP	APPR	_	4	case	_	start_char=1482|end_char=1485
+4	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=1486|end_char=1498
+5	weggezogen	wegziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1499|end_char=1509|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1509|end_char=1510
+
+# text = Sie wohnen jetzt in einer anderen Stadt oder Gemeinde in Niedersachsen.
+# sent_id = 35
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1511|end_char=1514
+2	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1515|end_char=1521
+3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	start_char=1522|end_char=1527
+4	in	in	ADP	APPR	_	7	case	_	start_char=1528|end_char=1530
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1531|end_char=1536
+6	anderen	anderer	DET	ADJA	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	start_char=1537|end_char=1544
+7	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=1545|end_char=1550
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1551|end_char=1555
+9	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=1556|end_char=1564
+10	in	in	ADP	APPR	_	11	case	_	start_char=1565|end_char=1567
+11	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=1568|end_char=1581|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1581|end_char=1582|SpaceAfter=No
+
+# text = ** - Ihr Name steht noch im Wählerverzeichnis von Braunschweig.
+# sent_id = 36
+1	**	**	PUNCT	$(	_	5	punct	_	start_char=1582|end_char=1584|SpacesAfter=\n
+2	-	-	PUNCT	$(	_	4	punct	_	start_char=1585|end_char=1586
+3	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=1587|end_char=1590
+4	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1591|end_char=1595
+5	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1596|end_char=1601
+6	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1602|end_char=1606
+7-8	im	_	_	_	_	_	_	_	start_char=1607|end_char=1609
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Wählerverzeichnis	Wählerverzeichnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=1610|end_char=1627
+10	von	von	ADP	APPR	_	11	case	_	start_char=1628|end_char=1631
+11	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=1632|end_char=1644|SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=1644|end_char=1645|SpacesAfter=\n
+
+# text = - Sie können trotzdem wählen: - Sie gehen am 9.
+# sent_id = 37
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1646|end_char=1647
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1648|end_char=1651
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1652|end_char=1658
+4	trotzdem	trotzdem	ADV	PAV	_	5	advmod	_	start_char=1659|end_char=1667
+5	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1668|end_char=1674|SpaceAfter=No
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=1674|end_char=1675|SpacesAfter=\n\s\s\s\s
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=1680|end_char=1681
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=1682|end_char=1685
+9	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=1686|end_char=1691
+10-11	am	_	_	_	_	_	_	_	start_char=1692|end_char=1694
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+12	9.	9.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	9	obl	_	start_char=1695|end_char=1697
+
+# text = Oktober 2022 in das Wahllokal, das auf Ihrer Wahlbenachrichtigung steht.
+# sent_id = 38
+1	Oktober	Oktober	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	start_char=1698|end_char=1705
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=1706|end_char=1710
+3	in	in	ADP	APPR	_	5	case	_	start_char=1711|end_char=1713
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1714|end_char=1717
+5	Wahllokal	Wahllokal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=1718|end_char=1727|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1727|end_char=1728
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=1729|end_char=1732
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=1733|end_char=1736
+9	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1737|end_char=1742
+10	Wahlbenachrichtigung	Wahlbenachrichtigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=1743|end_char=1763
+11	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=1764|end_char=1769|SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=1769|end_char=1770|SpacesAfter=\n\s\s\s\s
+
+# text = - Oder Sie beantragen Briefwahl beim Wahlamt der Stadt Braunschweig.
+# sent_id = 39
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1775|end_char=1776
+2	Oder	Oder	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1777|end_char=1781
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1782|end_char=1785
+4	beantragen	beantragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1786|end_char=1796
+5	Briefwahl	Briefwahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1797|end_char=1806
+6-7	beim	_	_	_	_	_	_	_	start_char=1807|end_char=1811
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Wahlamt	Wahlamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1812|end_char=1819
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1820|end_char=1823
+10	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=1824|end_char=1829
+11	Braunschweig	Braunschweig	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	appos	_	start_char=1830|end_char=1842|SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=1842|end_char=1843|SpacesAfter=\n\n
+
+# text = **Haben Sie Fragen zum Wählen?** Oder haben Sie bis zum 18. September 2022 keine Wahlbenachrichtigung bekommen, obwohl Sie glauben, wählen zu dürfen?
+# sent_id = 40
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=1845|end_char=1847|SpaceAfter=No
+2	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1847|end_char=1852
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1853|end_char=1856
+4	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1857|end_char=1863
+5-6	zum	_	_	_	_	_	_	_	start_char=1864|end_char=1867
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Wählen	Wählen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=1868|end_char=1874|SpaceAfter=No
+8	?	?	PUNCT	$.	_	2	punct	_	start_char=1874|end_char=1875|SpaceAfter=No
+9	*	*	PUNCT	$(	_	23	punct	_	start_char=1875|end_char=1876|SpaceAfter=No
+10	*	*	PUNCT	$(	_	23	punct	_	start_char=1876|end_char=1877|SpacesAfter=\n
+11	Oder	Oder	ADV	ADV	_	23	advmod	_	start_char=1878|end_char=1882
+12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=1883|end_char=1888
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	23	nsubj	_	start_char=1889|end_char=1892
+14	bis	bis	ADP	APPR	_	19	case	_	start_char=1893|end_char=1896
+15-16	zum	_	_	_	_	_	_	_	start_char=1897|end_char=1900
+15	zu	zu	ADP	APPR	_	19	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+17	18	18	NUM	CARD	NumType=Card	19	nummod	_	start_char=1901|end_char=1903|SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=1903|end_char=1904
+19	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	start_char=1905|end_char=1914
+20	2022	2022	NUM	CARD	NumType=Card	19	nmod	_	start_char=1915|end_char=1919
+21	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	22	det	_	start_char=1920|end_char=1925
+22	Wahlbenachrichtigung	Wahlbenachrichtigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1926|end_char=1946
+23	bekommen	bekommen	VERB	VVPP	VerbForm=Part	2	conj	_	start_char=1947|end_char=1955|SpaceAfter=No
+24	,	,	PUNCT	$,	_	27	punct	_	start_char=1955|end_char=1956
+25	obwohl	obwohl	SCONJ	KOUS	_	27	mark	_	start_char=1957|end_char=1963
+26	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	27	nsubj	_	start_char=1964|end_char=1967
+27	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	start_char=1968|end_char=1975|SpaceAfter=No
+28	,	,	PUNCT	$,	_	29	punct	_	start_char=1975|end_char=1976
+29	wählen	wählen	VERB	VVINF	VerbForm=Inf	27	xcomp	_	start_char=1977|end_char=1983
+30	zu	zu	PART	PTKZU	_	29	mark	_	start_char=1984|end_char=1986
+31	dürfen	dürfen	AUX	VMINF	VerbForm=Inf	29	aux	_	start_char=1987|end_char=1993|SpaceAfter=No
+32	?	?	PUNCT	$.	_	23	punct	_	start_char=1993|end_char=1994|SpacesAfter=\n
+
+# text = Bitte melden Sie sich bei uns.
+# sent_id = 41
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=1995|end_char=2000
+2	melden	melden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2001|end_char=2007
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2008|end_char=2011
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=2012|end_char=2016
+5	bei	bei	ADP	APPR	_	6	case	_	start_char=2017|end_char=2020
+6	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	obl	_	start_char=2021|end_char=2024|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=2024|end_char=2025|SpaceAfter=No
+

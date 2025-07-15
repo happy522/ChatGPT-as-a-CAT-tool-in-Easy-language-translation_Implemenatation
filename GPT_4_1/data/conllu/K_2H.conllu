@@ -1,0 +1,225 @@
+# text = Gerne!
+# sent_id = 0
+1	Gerne	gerne	ADV	ADV	_	0	root	_	start_char=0|end_char=5|SpaceAfter=No
+2	!	!	PUNCT	$.	_	1	punct	_	start_char=5|end_char=6
+
+# text = Hier ist der Text unter Beachtung Ihrer Vorgaben:
+# sent_id = 1
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=7|end_char=11
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=12|end_char=15
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=16|end_char=19
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=20|end_char=24
+5	unter	unter	ADP	APPR	_	6	case	_	start_char=25|end_char=30
+6	Beachtung	Beachtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=31|end_char=40
+7	Ihrer	Ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=41|end_char=46
+8	Vorgaben	Vorgabe	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=47|end_char=55|SpaceAfter=No
+9	:	:	PUNCT	$.	_	2	punct	_	start_char=55|end_char=56|SpacesAfter=\n\n
+
+# text = **Hilfe für junge Volljährige
+# sent_id = 2
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=58|end_char=60|SpaceAfter=No
+2	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=60|end_char=65
+3	für	für	ADP	APPR	_	5	case	_	start_char=66|end_char=69
+4	junge	jung	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=70|end_char=75
+5	Volljährige	Volljähriger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	start_char=76|end_char=87|SpaceAfter=No
+
+# text = *
+# sent_id = 3
+1	*	*	PUNCT	$(	_	0	root	_	start_char=87|end_char=88|SpaceAfter=No
+
+# text = *
+# sent_id = 4
+1	*	*	PUNCT	$(	_	0	root	_	start_char=88|end_char=89|SpacesAfter=\n\n
+
+# text = Junge Erwachsene können Hilfe bekommen.
+# sent_id = 5
+1	Junge	jung	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=91|end_char=96
+2	Erwachsene	Erwachsene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=97|end_char=107
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=108|end_char=114
+4	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=115|end_char=120
+5	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=121|end_char=129|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=129|end_char=130|SpacesAfter=\s\s\n
+
+# text = Die Hilfe ist meist für Menschen von 18 bis 21 Jahren.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=133|end_char=136
+2	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=137|end_char=142
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=143|end_char=146
+4	meist	meist	ADV	ADV	_	3	advmod	_	start_char=147|end_char=152
+5	für	für	ADP	APPR	_	6	case	_	start_char=153|end_char=156
+6	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	start_char=157|end_char=165
+7	von	von	ADP	APPR	_	11	case	_	start_char=166|end_char=169
+8	18	18	NUM	CARD	NumType=Card	11	nummod	_	start_char=170|end_char=172
+9	bis	bis	ADP	KON	_	10	case	_	start_char=173|end_char=176
+10	21	21	NUM	CARD	NumType=Card	11	nmod	_	start_char=177|end_char=179
+11	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	start_char=180|end_char=186|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=186|end_char=187|SpacesAfter=\s\s\n
+
+# text = Manchmal gibt es auch Hilfe für Menschen, die älter als 21 Jahre sind.
+# sent_id = 7
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=190|end_char=198
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=199|end_char=203
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=204|end_char=206
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=207|end_char=211
+5	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=212|end_char=217
+6	für	für	ADP	APPR	_	7	case	_	start_char=218|end_char=221
+7	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	start_char=222|end_char=230|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=230|end_char=231
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=232|end_char=235
+10	älter	alt	ADJ	ADJD	Degree=Cmp	5	acl	_	start_char=236|end_char=241
+11	als	als	ADP	KOKOM	_	13	case	_	start_char=242|end_char=245
+12	21	21	NUM	CARD	NumType=Card	13	nummod	_	start_char=246|end_char=248
+13	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	nmod	_	start_char=249|end_char=254
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=255|end_char=259|SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=259|end_char=260|SpacesAfter=\n\n
+
+# text = Man bekommt die Hilfe, wenn man sie braucht.
+# sent_id = 8
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=262|end_char=265
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=266|end_char=273
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=274|end_char=277
+4	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=278|end_char=283|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=283|end_char=284
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=285|end_char=289
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=290|end_char=293
+8	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=294|end_char=297
+9	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=298|end_char=305|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=305|end_char=306|SpacesAfter=\s\s\n
+
+# text = Man bekommt sie, wenn man Unterstützung für das eigene Leben oder die Entwicklung braucht.
+# sent_id = 9
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=309|end_char=312
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=313|end_char=320
+3	sie	sie	PRON	PPER	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=321|end_char=324|SpaceAfter=No
+4	,	,	PUNCT	$,	_	15	punct	_	start_char=324|end_char=325
+5	wenn	wenn	SCONJ	KOUS	_	15	mark	_	start_char=326|end_char=330
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=331|end_char=334
+7	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=335|end_char=348
+8	für	für	ADP	APPR	_	11	case	_	start_char=349|end_char=352
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=353|end_char=356
+10	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=357|end_char=363
+11	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=364|end_char=369
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=370|end_char=374
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=375|end_char=378
+14	Entwicklung	Entwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	start_char=379|end_char=390
+15	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=391|end_char=398|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=398|end_char=399|SpacesAfter=\s\s\n
+
+# text = Man bekommt sie auch, wenn man im Alltag Probleme hat oder benachteiligt ist.
+# sent_id = 10
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=402|end_char=405
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=406|end_char=413
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=414|end_char=417
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=418|end_char=422|SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=422|end_char=423
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=424|end_char=428
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=429|end_char=432
+8-9	im	_	_	_	_	_	_	_	start_char=433|end_char=435
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=436|end_char=442
+11	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=443|end_char=451
+12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=452|end_char=455
+13	oder	oder	CCONJ	KON	_	14	cc	_	start_char=456|end_char=460
+14	benachteiligt	benachteiligen	ADJ	VVPP	Degree=Pos|VerbForm=Part	12	conj	_	start_char=461|end_char=474
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=475|end_char=478|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=478|end_char=479|SpacesAfter=\n\n
+
+# text = Sie müssen zum Jugendamt gehen.
+# sent_id = 11
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=481|end_char=484
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=485|end_char=491
+3-4	zum	_	_	_	_	_	_	_	start_char=492|end_char=495
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Jugendamt	Jugendamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=496|end_char=505
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=506|end_char=511|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=511|end_char=512|SpacesAfter=\s\s\n
+
+# text = Das Jugendamt prüft alles und entscheidet, ob Sie Hilfe bekommen.
+# sent_id = 12
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=515|end_char=518
+2	Jugendamt	Jugendamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=519|end_char=528
+3	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=529|end_char=534
+4	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	_	start_char=535|end_char=540
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=541|end_char=544
+6	entscheidet	entscheiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=545|end_char=556|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=556|end_char=557
+8	ob	ob	SCONJ	KOUS	_	11	mark	_	start_char=558|end_char=560
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=561|end_char=564
+10	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=565|end_char=570
+11	bekommen	bekommen	VERB	VVPP	VerbForm=Part	6	ccomp	_	start_char=571|end_char=579|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=579|end_char=580|SpacesAfter=\n\n
+
+# text = Manchmal müssen Sie Unterlagen abgeben.
+# sent_id = 13
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=582|end_char=590
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=591|end_char=597
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=598|end_char=601
+4	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=602|end_char=612
+5	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=613|end_char=620|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=620|end_char=621|SpacesAfter=\s\s\n
+
+# text = Welche Unterlagen das sind, entscheidet das Jugendamt.
+# sent_id = 14
+1	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	2	det	_	start_char=624|end_char=630
+2	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=631|end_char=641
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	ccomp	_	start_char=642|end_char=645
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=646|end_char=650|SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	start_char=650|end_char=651
+6	entscheidet	entscheiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=652|end_char=663
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=664|end_char=667
+8	Jugendamt	Jugendamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=668|end_char=677|SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=677|end_char=678|SpacesAfter=\n\n
+
+# text = Das Jugendamt bezahlt die Hilfe.
+# sent_id = 15
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=680|end_char=683
+2	Jugendamt	Jugendamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=684|end_char=693
+3	bezahlt	bezahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=694|end_char=701
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=702|end_char=705
+5	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=706|end_char=711|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=711|end_char=712|SpacesAfter=\s\s\n
+
+# text = Wenn Sie in einer Einrichtung wohnen, müssen Sie vielleicht etwas bezahlen.
+# sent_id = 16
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=715|end_char=719
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=720|end_char=723
+3	in	in	ADP	APPR	_	5	case	_	start_char=724|end_char=726
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=727|end_char=732
+5	Einrichtung	Einrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=733|end_char=744
+6	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=745|end_char=751|SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=751|end_char=752
+8	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=753|end_char=759
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=760|end_char=763
+10	vielleicht	vielleicht	ADV	ADV	_	12	advmod	_	start_char=764|end_char=774
+11	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	12	obj	_	start_char=775|end_char=780
+12	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=781|end_char=789|SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=789|end_char=790|SpacesAfter=\s\s\n
+
+# text = Das Jugendamt entscheidet, wie viel Sie zahlen müssen.
+# sent_id = 17
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=793|end_char=796
+2	Jugendamt	Jugendamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=797|end_char=806
+3	entscheidet	entscheiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=807|end_char=818|SpaceAfter=No
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=818|end_char=819
+5	wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	start_char=820|end_char=823
+6	viel	viel	DET	PIAT	PronType=Ind	7	det	_	start_char=824|end_char=828
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=829|end_char=832
+8	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	start_char=833|end_char=839
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=840|end_char=846|SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=846|end_char=847|SpacesAfter=\n\n
+
+# text = Sie müssen die Hilfe beim Jugendamt beantragen.
+# sent_id = 18
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=849|end_char=852
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=853|end_char=859
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=860|end_char=863
+4	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=864|end_char=869
+5-6	beim	_	_	_	_	_	_	_	start_char=870|end_char=874
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Jugendamt	Jugendamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=875|end_char=884
+8	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=885|end_char=895|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=895|end_char=896|SpaceAfter=No
+

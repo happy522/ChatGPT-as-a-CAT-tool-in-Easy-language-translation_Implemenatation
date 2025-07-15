@@ -1,0 +1,567 @@
+# text = Gerne, hier ist der Text in Deutscher Leichter Sprache:
+# sent_id = 0
+1	Gerne	gerne	ADV	ADV	_	4	advmod	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=5|end_char=6
+3	hier	hier	ADV	ADV	_	1	advmod	_	start_char=7|end_char=11
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=12|end_char=15
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=16|end_char=19
+6	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=20|end_char=24
+7	in	in	ADP	APPR	_	10	case	_	start_char=25|end_char=27
+8	Deutscher	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	start_char=28|end_char=37
+9	Leichter	Leichter	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	start_char=38|end_char=46
+10	Sprache	Sprache	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=47|end_char=54|SpaceAfter=No
+11	:	:	PUNCT	$.	_	4	punct	_	start_char=54|end_char=55|SpacesAfter=\n\n
+
+# text = **Ehefähigkeitszeugnis bekommen
+# sent_id = 1
+1-2	**	_	_	_	_	_	_	_	start_char=57|end_char=59|SpaceAfter=No
+1	*n	*n	X	NE	_	4	dep	_	_
+2	de*	de*	DET	ART	Case=Nom|Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=59|end_char=79
+4	bekommen	bekommen	VERB	VVPP	VerbForm=Inf	0	root	_	start_char=80|end_char=88|SpaceAfter=No
+
+# text = *
+# sent_id = 2
+1	*	*	PUNCT	$(	_	0	root	_	start_char=88|end_char=89|SpaceAfter=No
+
+# text = *
+# sent_id = 3
+1	*	*	PUNCT	$(	_	0	root	_	start_char=89|end_char=90|SpacesAfter=\n\n
+
+# text = Ein Ehefähigkeitszeugnis ist ein wichtiges Papier.
+# sent_id = 4
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=92|end_char=95
+2	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=96|end_char=116
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=117|end_char=120
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=121|end_char=124
+5	wichtiges	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=125|end_char=134
+6	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=135|end_char=141|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=141|end_char=142
+
+# text = Es sagt: Die zwei Menschen dürfen nach deutschem Recht heiraten.
+# sent_id = 5
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=143|end_char=145
+2	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=146|end_char=150|SpaceAfter=No
+3	:	:	PUNCT	$.	_	11	punct	_	start_char=150|end_char=151
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=152|end_char=155
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	start_char=156|end_char=160
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=161|end_char=169
+7	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=170|end_char=176
+8	nach	nach	ADP	APPR	_	10	case	_	start_char=177|end_char=181
+9	deutschem	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=182|end_char=191
+10	Recht	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=192|end_char=197
+11	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	2	parataxis	_	start_char=198|end_char=206|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=206|end_char=207
+
+# text = Es gibt kein Problem für die Ehe.
+# sent_id = 6
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=208|end_char=210
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=211|end_char=215
+3	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	det	_	start_char=216|end_char=220
+4	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=221|end_char=228
+5	für	für	ADP	APPR	_	7	case	_	start_char=229|end_char=232
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=233|end_char=236
+7	Ehe	Ehe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=237|end_char=240|SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=240|end_char=241|SpacesAfter=\n\n
+
+# text = **Was müssen Sie tun, wenn Sie im Ausland heiraten wollen?
+# sent_id = 7
+1	**	**	PUNCT	$(	_	5	punct	_	start_char=243|end_char=245|SpaceAfter=No
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=245|end_char=248
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=249|end_char=255
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=256|end_char=259
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=260|end_char=263|SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=263|end_char=264
+7	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=265|end_char=269
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	start_char=270|end_char=273
+9-10	im	_	_	_	_	_	_	_	start_char=274|end_char=276
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=277|end_char=284
+12	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	5	advcl	_	start_char=285|end_char=293
+13	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=294|end_char=300|SpaceAfter=No
+14	?	?	PUNCT	$.	_	5	punct	_	start_char=300|end_char=301|SpaceAfter=No
+
+# text = *
+# sent_id = 8
+1	*	*	PUNCT	$(	_	0	root	_	start_char=301|end_char=302|SpaceAfter=No
+
+# text = *
+# sent_id = 9
+1	*	*	PUNCT	$(	_	0	root	_	start_char=302|end_char=303|SpacesAfter=\n\n
+
+# text = Wenn Sie im Ausland heiraten möchten, fragen Sie bitte im Konsulat oder in der Botschaft, welche Papiere Sie brauchen.
+# sent_id = 10
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=305|end_char=309
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	start_char=310|end_char=313
+3-4	im	_	_	_	_	_	_	_	start_char=314|end_char=316
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=317|end_char=324
+6	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=325|end_char=333
+7	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=334|end_char=341|SpaceAfter=No
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=341|end_char=342
+9	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=343|end_char=349
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=350|end_char=353
+11	bitte	bitten	ADV	ADV	_	9	advmod	_	start_char=354|end_char=359
+12-13	im	_	_	_	_	_	_	_	start_char=360|end_char=362
+12	in	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Konsulat	Konsulat	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=363|end_char=371
+15	oder	oder	CCONJ	KON	_	18	cc	_	start_char=372|end_char=376
+16	in	in	ADP	APPR	_	18	case	_	start_char=377|end_char=379
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=380|end_char=383
+18	Botschaft	Botschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	start_char=384|end_char=393|SpaceAfter=No
+19	,	,	PUNCT	$,	_	23	punct	_	start_char=393|end_char=394
+20	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	21	det	_	start_char=395|end_char=401
+21	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	start_char=402|end_char=409
+22	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	23	obj	_	start_char=410|end_char=413
+23	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	start_char=414|end_char=422|SpaceAfter=No
+24	.	.	PUNCT	$.	_	9	punct	_	start_char=422|end_char=423|SpacesAfter=\n\n
+
+# text = Manchmal reicht eine „erweiterte Meldebescheinigung“.
+# sent_id = 11
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=425|end_char=433
+2	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=434|end_char=440
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=441|end_char=445
+4	„	"	PUNCT	$(	_	6	punct	_	start_char=446|end_char=447|SpaceAfter=No
+5	erweiterte	erweitert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=447|end_char=457
+6	Meldebescheinigung	Meldebescheinigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=458|end_char=476|SpaceAfter=No
+7	“	"	PUNCT	$(	_	6	punct	_	start_char=476|end_char=477|SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=477|end_char=478
+
+# text = In dieser steht Ihr Familienstand.
+# sent_id = 12
+1	In	in	ADP	APPR	_	2	case	_	start_char=479|end_char=481
+2	dieser	dieser	DET	PDS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	obl	_	start_char=482|end_char=488
+3	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=489|end_char=494
+4	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=495|end_char=498
+5	Familienstand	Familienstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=499|end_char=512|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=512|end_char=513
+
+# text = Die bekommen Sie im Bürgerbüro.
+# sent_id = 13
+1	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	2	obj	_	start_char=514|end_char=517
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=518|end_char=526
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=527|end_char=530
+4-5	im	_	_	_	_	_	_	_	start_char=531|end_char=533
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Bürgerbüro	Bürgerbüro	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=534|end_char=544|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=544|end_char=545|SpacesAfter=\n\n
+
+# text = Sind Sie deutsche Staatsbürgerin oder deutscher Staatsbürger und brauchen ein Ehefähigkeitszeugnis?
+# sent_id = 14
+1	Sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=547|end_char=551
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=552|end_char=555
+3	deutsche	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=556|end_char=564
+4	Staatsbürgerin	Staatsbürgerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=565|end_char=579
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=580|end_char=584
+6	deutscher	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=585|end_char=594
+7	Staatsbürger	Staatsbürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	start_char=595|end_char=607
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=608|end_char=611
+9	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=612|end_char=620
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=621|end_char=624
+11	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=625|end_char=645|SpaceAfter=No
+12	?	?	PUNCT	$.	_	4	punct	_	start_char=645|end_char=646
+
+# text = Sie müssen dieses beim Standesamt Ihrer Stadt oder Gemeinde beantragen.
+# sent_id = 15
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=647|end_char=650
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=651|end_char=657
+3	dieses	dieser	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	start_char=658|end_char=664
+4-5	beim	_	_	_	_	_	_	_	start_char=665|end_char=669
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=670|end_char=680
+7	Ihrer	Ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=681|end_char=686
+8	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=687|end_char=692
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=693|end_char=697
+10	Gemeinde	Gemeinde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	start_char=698|end_char=706
+11	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=707|end_char=717|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=717|end_char=718|SpacesAfter=\n\n
+
+# text = Wenn Sie nicht mehr in Deutschland wohnen: Gehen Sie zum Standesamt, das für Ihren letzten Wohnort in Deutschland zuständig ist.
+# sent_id = 16
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=720|end_char=724
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=725|end_char=728
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=729|end_char=734
+4	mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=735|end_char=739
+5	in	in	ADP	APPR	_	6	case	_	start_char=740|end_char=742
+6	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=743|end_char=754
+7	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=755|end_char=761|SpaceAfter=No
+8	:	:	PUNCT	$.	_	9	punct	_	start_char=761|end_char=762
+9	Gehen	Gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=763|end_char=768
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=769|end_char=772
+11-12	zum	_	_	_	_	_	_	_	start_char=773|end_char=776
+11	zu	zu	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=777|end_char=787|SpaceAfter=No
+14	,	,	PUNCT	$,	_	22	punct	_	start_char=787|end_char=788
+15	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	22	nsubj	_	start_char=789|end_char=792
+16	für	für	ADP	APPR	_	19	case	_	start_char=793|end_char=796
+17	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	start_char=797|end_char=802
+18	letzten	letzt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=803|end_char=810
+19	Wohnort	Wohnort	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	start_char=811|end_char=818
+20	in	in	ADP	APPR	_	21	case	_	start_char=819|end_char=821
+21	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	start_char=822|end_char=833
+22	zuständig	zuständig	ADJ	ADJD	Degree=Pos	13	acl	_	start_char=834|end_char=843
+23	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=844|end_char=847|SpaceAfter=No
+24	.	.	PUNCT	$.	_	9	punct	_	start_char=847|end_char=848|SpacesAfter=\n\n
+
+# text = **Wie läuft das ab?
+# sent_id = 17
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=850|end_char=852|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=852|end_char=855
+3	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=856|end_char=861
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=862|end_char=865
+5	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=866|end_char=868|SpaceAfter=No
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=868|end_char=869|SpaceAfter=No
+
+# text = *
+# sent_id = 18
+1	*	*	PUNCT	$(	_	0	root	_	start_char=869|end_char=870|SpaceAfter=No
+
+# text = *
+# sent_id = 19
+1	*	*	PUNCT	$(	_	0	root	_	start_char=870|end_char=871|SpacesAfter=\n\n
+
+# text = Lassen Sie sich beraten: Fragen Sie im Standesamt, welche Papiere Sie genau brauchen.
+# sent_id = 20
+1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=873|end_char=879
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=880|end_char=883
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=884|end_char=888
+4	beraten	beraten	VERB	VVINF	VerbForm=Inf	1	xcomp	_	start_char=889|end_char=896|SpaceAfter=No
+5	:	:	PUNCT	$.	_	6	punct	_	start_char=896|end_char=897
+6	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=898|end_char=904
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=905|end_char=908
+8-9	im	_	_	_	_	_	_	_	start_char=909|end_char=911
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=912|end_char=922|SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=922|end_char=923
+12	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	det	_	start_char=924|end_char=930
+13	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	start_char=931|end_char=938
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	obj	_	start_char=939|end_char=942
+15	genau	genau	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=943|end_char=948
+16	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=949|end_char=957|SpaceAfter=No
+17	.	.	PUNCT	$.	_	1	punct	_	start_char=957|end_char=958|SpacesAfter=\n\n
+
+# text = Wenn alle Papiere da sind, können Sie einen Termin im Standesamt machen.
+# sent_id = 21
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=960|end_char=964
+2	alle	alle	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	3	det	_	start_char=965|end_char=969
+3	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=970|end_char=977
+4	da	da	ADV	ADV	_	5	advmod	_	start_char=978|end_char=980
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=981|end_char=985|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=985|end_char=986
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=987|end_char=993
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=994|end_char=997
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=998|end_char=1003
+10	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=1004|end_char=1010
+11-12	im	_	_	_	_	_	_	_	start_char=1011|end_char=1013
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	start_char=1014|end_char=1024
+14	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1025|end_char=1031|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=1031|end_char=1032
+
+# text = Oder Sie schicken die Papiere und den Antrag per Post an das Standesamt.
+# sent_id = 22
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=1033|end_char=1037
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1038|end_char=1041
+3	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1042|end_char=1050
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1051|end_char=1054
+5	Papiere	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=1055|end_char=1062
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=1063|end_char=1066
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1067|end_char=1070
+8	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	start_char=1071|end_char=1077
+9	per	per	ADP	APPR	_	10	case	_	start_char=1078|end_char=1081
+10	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=1082|end_char=1086
+11	an	an	ADP	APPR	_	13	case	_	start_char=1087|end_char=1089
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=1090|end_char=1093
+13	Standesamt	Standesamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=1094|end_char=1104|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=1104|end_char=1105|SpacesAfter=\n\n
+
+# text = **Was brauchen Sie dafür?
+# sent_id = 23
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=1107|end_char=1109|SpaceAfter=No
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=1109|end_char=1112
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1113|end_char=1121
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=1122|end_char=1125
+5	dafür	dafür	ADV	PAV	PronType=Dem	3	advmod	_	start_char=1126|end_char=1131|SpaceAfter=No
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=1131|end_char=1132|SpaceAfter=No
+
+# text = *
+# sent_id = 24
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1132|end_char=1133|SpaceAfter=No
+
+# text = *
+# sent_id = 25
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1133|end_char=1134|SpacesAfter=\n\n
+
+# text = Sie müssen einen Antrag stellen (mündlich oder schriftlich).
+# sent_id = 26
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1136|end_char=1139
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1140|end_char=1146
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1147|end_char=1152
+4	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1153|end_char=1159
+5	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1160|end_char=1167
+6	(	(	PUNCT	$(	_	7	punct	_	start_char=1168|end_char=1169|SpaceAfter=No
+7	mündlich	mündlich	ADJ	ADJD	Degree=Pos	5	appos	_	start_char=1169|end_char=1177
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1178|end_char=1182
+9	schriftlich	schriftlich	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=1183|end_char=1194|SpaceAfter=No
+10	)	)	PUNCT	$(	_	7	punct	_	start_char=1194|end_char=1195|SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1195|end_char=1196
+
+# text = Sie müssen die nötigen Papiere im Standesamt abgeben.
+# sent_id = 27
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=1197|end_char=1200
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1201|end_char=1207
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1208|end_char=1211
+4	nötigen	nötig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=1212|end_char=1219
+5	Papiere	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=1220|end_char=1227
+6-7	im	_	_	_	_	_	_	_	start_char=1228|end_char=1230
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1231|end_char=1241
+9	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1242|end_char=1249|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1249|end_char=1250|SpacesAfter=\n\n
+
+# text = Welche Papiere Sie brauchen, ist unterschiedlich.
+# sent_id = 28
+1	Welche	welcher	DET	PWAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	2	det	_	start_char=1252|end_char=1258
+2	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1259|end_char=1266
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	obj	_	start_char=1267|end_char=1270
+4	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	csubj	_	start_char=1271|end_char=1279|SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1279|end_char=1280
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1281|end_char=1284
+7	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1285|end_char=1300|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1300|end_char=1301
+
+# text = Fragen Sie im Standesamt, welche Papiere für Sie wichtig sind.
+# sent_id = 29
+1	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1302|end_char=1308
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1309|end_char=1312
+3-4	im	_	_	_	_	_	_	_	start_char=1313|end_char=1315
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=1316|end_char=1326|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1326|end_char=1327
+7	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	8	det	_	start_char=1328|end_char=1334
+8	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=1335|end_char=1342
+9	für	für	ADP	APPR	_	10	case	_	start_char=1343|end_char=1346
+10	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	nmod	_	start_char=1347|end_char=1350
+11	wichtig	wichtig	ADJ	ADJD	Degree=Pos	5	acl	_	start_char=1351|end_char=1358
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=1359|end_char=1363|SpaceAfter=No
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=1363|end_char=1364|SpacesAfter=\n\n
+
+# text = **Wie viel kostet es?
+# sent_id = 30
+1	**	**	PUNCT	$(	_	4	punct	_	start_char=1366|end_char=1368|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	PronType=Int	4	advmod	_	start_char=1368|end_char=1371
+3	viel	viel	DET	PIS	PronType=Ind	4	nsubj	_	start_char=1372|end_char=1376
+4	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1377|end_char=1383
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1384|end_char=1386|SpaceAfter=No
+6	?	?	PUNCT	$.	_	4	punct	_	start_char=1386|end_char=1387|SpaceAfter=No
+
+# text = *
+# sent_id = 31
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1387|end_char=1388|SpaceAfter=No
+
+# text = *
+# sent_id = 32
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1388|end_char=1389|SpacesAfter=\n\n
+
+# text = Das Ehefähigkeitszeugnis kostet 50 Euro.
+# sent_id = 33
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1391|end_char=1394
+2	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1395|end_char=1415
+3	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1416|end_char=1422
+4	50	50	NUM	CARD	NumType=Card	5	nummod	_	start_char=1423|end_char=1425
+5	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1426|end_char=1430|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1430|end_char=1431
+
+# text = In besonderen Fällen kann es mehr kosten.
+# sent_id = 34
+1	In	in	ADP	APPR	_	3	case	_	start_char=1432|end_char=1434
+2	besonderen	besonder	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=1435|end_char=1445
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	start_char=1446|end_char=1452
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1453|end_char=1457
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=1458|end_char=1460
+6	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	7	advmod	_	start_char=1461|end_char=1465
+7	kosten	kosten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1466|end_char=1472|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1472|end_char=1473|SpacesAfter=\n\n
+
+# text = **Wie lange ist das Papier gültig?
+# sent_id = 35
+1	**	**	PUNCT	$(	_	7	punct	_	start_char=1475|end_char=1477|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1477|end_char=1480
+3	lange	lange	ADV	ADV	_	7	advmod	_	start_char=1481|end_char=1486
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1487|end_char=1490
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1491|end_char=1494
+6	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=1495|end_char=1501
+7	gültig	gültig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1502|end_char=1508|SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=1508|end_char=1509|SpaceAfter=No
+
+# text = *
+# sent_id = 36
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1509|end_char=1510|SpaceAfter=No
+
+# text = *
+# sent_id = 37
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1510|end_char=1511|SpacesAfter=\n\n
+
+# text = Das Ehefähigkeitszeugnis gilt nur 6 Monate ab dem Tag, an dem es ausgestellt wurde.
+# sent_id = 38
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1513|end_char=1516
+2	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1517|end_char=1537
+3	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1538|end_char=1542
+4	nur	nur	ADV	ADV	_	5	advmod	_	start_char=1543|end_char=1546
+5	6	6	NUM	CARD	NumType=Card	6	nummod	_	start_char=1547|end_char=1548
+6	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	start_char=1549|end_char=1555
+7	ab	ab	ADP	APPR	_	9	case	_	start_char=1556|end_char=1558
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1559|end_char=1562
+9	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=1563|end_char=1566|SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=1566|end_char=1567
+11	an	an	ADP	APPR	_	12	case	_	start_char=1568|end_char=1570
+12	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	obl	_	start_char=1571|end_char=1574
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	start_char=1575|end_char=1577
+14	ausgestellt	ausstellen	VERB	VVPP	VerbForm=Part	9	acl	_	start_char=1578|end_char=1589
+15	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	14	aux:pass	_	start_char=1590|end_char=1595|SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=1595|end_char=1596|SpacesAfter=\n\n
+
+# text = **Wie lange dauert es, bis Sie das Papier bekommen?
+# sent_id = 39
+1	**	**	PUNCT	$(	_	4	punct	_	start_char=1598|end_char=1600|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1600|end_char=1603
+3	lange	lange	ADV	ADV	_	4	advmod	_	start_char=1604|end_char=1609
+4	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1610|end_char=1616
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=1617|end_char=1619|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1619|end_char=1620
+7	bis	bis	SCONJ	KOUS	_	11	mark	_	start_char=1621|end_char=1624
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=1625|end_char=1628
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1629|end_char=1632
+10	Papier	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1633|end_char=1639
+11	bekommen	bekommen	VERB	VVPP	VerbForm=Part	4	advcl	_	start_char=1640|end_char=1648|SpaceAfter=No
+12	?	?	PUNCT	$.	_	4	punct	_	start_char=1648|end_char=1649|SpaceAfter=No
+
+# text = *
+# sent_id = 40
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1649|end_char=1650|SpaceAfter=No
+
+# text = *
+# sent_id = 41
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1650|end_char=1651|SpacesAfter=\n\n
+
+# text = Die Bearbeitung dauert unterschiedlich lange.
+# sent_id = 42
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1653|end_char=1656
+2	Bearbeitung	Bearbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1657|end_char=1668
+3	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1669|end_char=1675
+4	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=1676|end_char=1691
+5	lange	lang	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=1692|end_char=1697|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1697|end_char=1698|SpacesAfter=\n\n
+
+# text = Manchmal bekommen Sie das Ehefähigkeitszeugnis direkt, wenn Sie alle Papiere dabei haben und einen Termin gemacht haben.
+# sent_id = 43
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=1700|end_char=1708
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1709|end_char=1717
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1718|end_char=1721
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1722|end_char=1725
+5	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=1726|end_char=1746
+6	direkt	direkt	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=1747|end_char=1753|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=1753|end_char=1754
+8	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=1755|end_char=1759
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	start_char=1760|end_char=1763
+10	alle	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	11	det	_	start_char=1764|end_char=1768
+11	Papiere	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=1769|end_char=1776
+12	dabei	dabei	ADV	PAV	_	13	advmod	_	start_char=1777|end_char=1782
+13	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=1783|end_char=1788
+14	und	und	CCONJ	KON	_	17	cc	_	start_char=1789|end_char=1792
+15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=1793|end_char=1798
+16	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=1799|end_char=1805
+17	gemacht	machen	VERB	VVPP	VerbForm=Part	13	conj	_	start_char=1806|end_char=1813
+18	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=1814|end_char=1819|SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=1819|end_char=1820|SpacesAfter=\n\n
+
+# text = **Welche wichtigen Links und Gesetze gibt es dazu?
+# sent_id = 44
+1-2	**	_	_	_	_	_	_	_	start_char=1822|end_char=1824|SpaceAfter=No
+1	*n	*n	X	NE	_	8	advmod	_	_
+2	de*	de*	ADP	APPR	_	5	case	_	_
+3	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	5	det	_	start_char=1824|end_char=1830
+4	wichtigen	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1831|end_char=1840
+5	Links	links	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	start_char=1841|end_char=1846
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1847|end_char=1850
+7	Gesetze	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	start_char=1851|end_char=1858
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1859|end_char=1863
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=1864|end_char=1866
+10	dazu	dazu	ADV	PAV	PronType=Dem	8	advmod	_	start_char=1867|end_char=1871|SpaceAfter=No
+11	?	?	PUNCT	$.	_	8	punct	_	start_char=1871|end_char=1872|SpaceAfter=No
+
+# text = *
+# sent_id = 45
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1872|end_char=1873|SpaceAfter=No
+
+# text = *
+# sent_id = 46
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1873|end_char=1874|SpacesAfter=\n\n
+
+# text = -
+# sent_id = 47
+1	-	-	PUNCT	$(	_	0	root	_	start_char=1876|end_char=1877
+
+# text = Für das Ehefähigkeitszeugnis brauchen Sie zum Beispiel die Meldebescheinigung.
+# sent_id = 48
+1	Für	für	ADP	APPR	_	3	case	_	start_char=1878|end_char=1881
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=1882|end_char=1885
+3	Ehefähigkeitszeugnis	Ehefähigkeitszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=1886|end_char=1906
+4	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1907|end_char=1915
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=1916|end_char=1919
+6-7	zum	_	_	_	_	_	_	_	start_char=1920|end_char=1923
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1924|end_char=1932
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1933|end_char=1936
+10	Meldebescheinigung	Meldebescheinigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1937|end_char=1955|SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1955|end_char=1956|SpacesAfter=\n
+
+# text = - Rechtsgrundlage: § 39 Personenstandsgesetz (PStG) - Mehr Infos: Auswärtiges Amt – Webseiten der deutschen Auslandsvertretungen
+# sent_id = 49
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1957|end_char=1958
+2	Rechtsgrundlage	Rechtsgrundlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1959|end_char=1974|SpaceAfter=No
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=1974|end_char=1975
+4	§	§	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	start_char=1976|end_char=1977
+5	39	39	NUM	CARD	NumType=Card	4	nummod	_	start_char=1978|end_char=1980
+6	Personenstandsgesetz	Personenstandsgesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	start_char=1981|end_char=2001
+7	(	(	PUNCT	$(	_	8	punct	_	start_char=2002|end_char=2003|SpaceAfter=No
+8	PStG	PStG	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	start_char=2003|end_char=2007|SpaceAfter=No
+9	)	)	PUNCT	$(	_	8	punct	_	start_char=2007|end_char=2008|SpacesAfter=\n
+10	-	-	PUNCT	$(	_	12	punct	_	start_char=2009|end_char=2010
+11	Mehr	mehr	DET	PIAT	PronType=Ind	12	det	_	start_char=2011|end_char=2015
+12	Infos	Info	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	start_char=2016|end_char=2021|SpaceAfter=No
+13	:	:	PUNCT	$.	_	15	punct	_	start_char=2021|end_char=2022
+14	Auswärtiges	Auswärtiges	PROPN	ADJA	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	start_char=2023|end_char=2034
+15	Amt	Amt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	12	appos	_	start_char=2035|end_char=2038
+16	–	–	PUNCT	$(	_	17	punct	_	start_char=2039|end_char=2040
+17	Webseiten	Webseiten	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	15	appos	_	start_char=2041|end_char=2050
+18	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=2051|end_char=2054
+19	deutschen	deutsch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Plur	20	amod	_	start_char=2055|end_char=2064
+20	Auslandsvertretungen	Auslandsvertretung	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	start_char=2065|end_char=2085|SpacesAfter=\n\n
+
+# text = Falls Sie noch Fragen haben, helfen wir Ihnen gern weiter.
+# sent_id = 50
+1	Falls	Fall	SCONJ	KOUS	_	5	mark	_	start_char=2087|end_char=2092
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=2093|end_char=2096
+3	noch	noch	ADV	ADV	_	5	advmod	_	start_char=2097|end_char=2101
+4	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=2102|end_char=2108
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=2109|end_char=2114|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=2114|end_char=2115
+7	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2116|end_char=2122
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=2123|end_char=2126
+9	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	obl:arg	_	start_char=2127|end_char=2132
+10	gern	gern	ADV	ADV	_	7	advmod	_	start_char=2133|end_char=2137
+11	weiter	weiter	ADV	PTKVZ	_	7	compound:prt	_	start_char=2138|end_char=2144|SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=2144|end_char=2145|SpaceAfter=No
+
