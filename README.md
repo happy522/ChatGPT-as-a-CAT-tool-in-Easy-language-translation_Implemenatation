@@ -1,4 +1,5 @@
 
+
 # ChatGPT as a CAT tool in Easy language translation
 
 This repository contains the extension of data used in the paper ["ChatGPT as a CAT tool in Easy language translation"](https://arxiv.org/pdf/2308.11563) by Silvana Deilen, Sergio Hernández Garrido, Ekaterina Lapshinova-Koltunski and Christiane Maaß.
@@ -16,7 +17,10 @@ Linguistic approach:linguistischer Ansatz (Sprachebenen): reformuliere den Text,
 - ohne Nebensätze und mit einfachen syntaktischen Strukturen (Satzebene)
 - füge Erklärungen für schwierige Wörter hinzu (Wortebene)
 
+---
 ## Folder Structure
+
+```plaintext
 .
 ├── Implementation_Chatgpt_as_a_cat_eye_tool_4_1  # General script for processing data and generating outputs       
 ├── GPT_4_0/
@@ -39,6 +43,10 @@ Linguistic approach:linguistischer Ansatz (Sprachebenen): reformuliere den Text,
 │   ├── plots/
 │   ├── Holistic_and_Linguistic_Data_GPT-4.1.csv
 │   └── Complexity_Matrix_GPT-4.1.csv
+````
+
+---
+
 
 
 
