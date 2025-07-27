@@ -23,7 +23,7 @@ Linguistic approach:linguistischer Ansatz (Sprachebenen): reformuliere den Text,
 ```plaintext
 .
 ├── Implementation_Chatgpt_as_a_cat_eye_tool_4_1  # General script for processing data and generating outputs       
-├── GPT_4_0/
+├── LLM Name/
 │   ├── data/
 │   │   ├── conll/             # Parsed linguistic annotation files
 │   │   │   ├── *E.conll      # Holistic outputs
@@ -31,18 +31,8 @@ Linguistic approach:linguistischer Ansatz (Sprachebenen): reformuliere den Text,
 │   │   │   ├── *B.conll      # Original input texts
 │   │   └── txt/               # Raw text files with same naming convention
 │   ├── plots/                 # Visualizations for all complexity measures
-│   ├── Holistic_and_Linguistic_Data_GPT-4.0.csv
-│   └── Complexity_Matrix_GPT-4.0.csv
-├── GPT_4_1/
-│   ├── data/
-│   │   ├── conll/
-│   │   │   ├── *_E.conll
-│   │   │   ├── *_H.conll
-│   │   │   ├── *_B.conll
-│   │   └── txt/
-│   ├── plots/
-│   ├── Holistic_and_Linguistic_Data_GPT-4.1.csv
-│   └── Complexity_Matrix_GPT-4.1.csv
+│   ├── Holistic_and_Linguistic_Data_LLM Name.csv
+│   └── Complexity_Matrix_LLM Name.csv
 ````
 
 ---
