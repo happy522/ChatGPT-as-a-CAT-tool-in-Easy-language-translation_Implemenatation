@@ -1,0 +1,224 @@
+# text = Funde Find etwas Wertvolles?
+# sent_id = 0
+1	Funde	Fund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=0|end_char=5|SpacesAfter=\s\s
+2	Find	Find	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7|end_char=11
+3	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	start_char=12|end_char=17
+4	Wertvolles	Wertvoll	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=18|end_char=28|SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=28|end_char=29
+
+# text = Mehr als 10 Euro? Abgeben!
+# sent_id = 1
+1	Mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=30|end_char=34
+2	als	als	ADP	KOKOM	_	4	case	_	start_char=35|end_char=38
+3	10	10	NUM	CARD	NumType=Card	4	nummod	_	start_char=39|end_char=41
+4	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obl	_	start_char=42|end_char=46|SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=46|end_char=47
+6	Abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=48|end_char=55|SpaceAfter=No
+7	!	!	PUNCT	$.	_	6	punct	_	start_char=55|end_char=56|SpacesAfter=\s\s
+
+# text = Wohin?
+# sent_id = 2
+1	Wohin	wohin	ADV	PWAV	PronType=Int	0	root	_	start_char=58|end_char=63|SpaceAfter=No
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=63|end_char=64|SpacesAfter=\s\s
+
+# text = Gib es dem Fundbüro!
+# sent_id = 3
+1	Gib	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=66|end_char=69
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	start_char=70|end_char=72
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=73|end_char=76
+4	Fundbüro	Fundbüro	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl:arg	_	start_char=77|end_char=85|SpaceAfter=No
+5	!	!	PUNCT	$.	_	1	punct	_	start_char=85|end_char=86
+
+# text = Im Ort differences ab.
+# sent_id = 4
+1-2	Im	_	_	_	_	_	_	_	start_char=87|end_char=89
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=90|end_char=93
+4	differences	differences	PROPN	NE	Case=Dat|Number=Sing	3	appos	_	start_char=94|end_char=105
+5	ab	ab	ADP	PTKVZ	_	0	root	_	start_char=106|end_char=108|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=108|end_char=109
+
+# text = Fundbüro macht Notizen.
+# sent_id = 5
+1	Fundbüro	Fundbüro	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=110|end_char=118
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=119|end_char=124
+3	Notizen	Notiz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=125|end_char=132|SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=132|end_char=133
+
+# text = Was ist es?
+# sent_id = 6
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=134|end_char=137
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=138|end_char=141
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=142|end_char=144|SpaceAfter=No
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=144|end_char=145
+
+# text = Wo und wann hast du es gefunden?
+# sent_id = 7
+1	Wo	wo	ADV	PWAV	PronType=Int	7	advmod	_	start_char=146|end_char=148
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=149|end_char=152
+3	wann	wann	ADV	PWAV	PronType=Int	1	conj	_	start_char=153|end_char=157
+4	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=158|end_char=162
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	start_char=163|end_char=165
+6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=166|end_char=168
+7	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=169|end_char=177|SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=177|end_char=178
+
+# text = Wer bist du? Warum?
+# sent_id = 8
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=179|end_char=182
+2	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=183|end_char=187
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=188|end_char=190|SpaceAfter=No
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=190|end_char=191|SpacesAfter=\s\s
+5	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	start_char=193|end_char=198|SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=198|end_char=199|SpacesAfter=\s\s
+
+# text = Notizen sind wichtig.
+# sent_id = 9
+1	Notizen	Notiz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=201|end_char=208
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=209|end_char=213
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=214|end_char=221|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=221|end_char=222
+
+# text = Finderlohn später.
+# sent_id = 10
+1	Finderlohn	Finderlohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=223|end_char=233
+2	später	spät	ADJ	ADJD	Degree=Cmp	1	amod	_	start_char=234|end_char=240|SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=240|end_char=241
+
+# text = Oder du bekommst es zurück.
+# sent_id = 11
+1	Oder	Oder	SCONJ	KON	_	3	cc	_	start_char=242|end_char=246
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	start_char=247|end_char=249
+3	bekommst	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=250|end_char=258
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=259|end_char=261
+5	zurück	zurück	ADV	PTKVZ	_	3	compound:prt	_	start_char=262|end_char=268|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=268|end_char=269
+
+# text = Wenn niemand Besitzer findet.
+# sent_id = 12
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=270|end_char=274
+2	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=275|end_char=282
+3	Besitzer	Besitzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	start_char=283|end_char=291
+4	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=292|end_char=298|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=298|end_char=299|SpacesAfter=\s\s
+
+# text = Aufbewahrung Fundsachen mindesten six Monate.
+# sent_id = 13
+1	Aufbewahrung	Aufbewahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=301|end_char=313|SpacesAfter=\s\s
+2	Fundsachen	Fundsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	appos	_	start_char=315|end_char=325
+3	mindesten	minder	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=326|end_char=335
+4	six	six	NUM	CARD	NumType=Card	5	nummod	_	start_char=336|end_char=339
+5	Monate	Monat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	dep	_	start_char=340|end_char=346|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=346|end_char=347
+
+# text = Kein Besitzer?belongs to you as Finder!
+# sent_id = 14
+1	Kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	2	det	_	start_char=348|end_char=352
+2	Besitzer	Besitzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=353|end_char=361|SpaceAfter=No
+3	?belongs	?belongs	X	FM	Foreign=Yes	2	appos	_	start_char=361|end_char=369
+4	to	to	X	FM	Foreign=Yes	2	flat	_	start_char=370|end_char=372
+5	you	you	X	FM	Foreign=Yes	2	flat	_	start_char=373|end_char=376
+6	as	as	DET	FM	Definite=Def|Foreign=Yes|PronType=Art	3	flat	_	start_char=377|end_char=379
+7	Finder	Finder	NOUN	FM	Foreign=Yes	2	flat	_	start_char=380|end_char=386|SpaceAfter=No
+8	!	!	PUNCT	$.	_	2	punct	_	start_char=386|end_char=387
+
+# text = Public building or bus? gehört Stadt oder Gemeinde.
+# sent_id = 15
+1	Public	Public	PROPN	FM	Foreign=Yes	6	nsubj	_	start_char=388|end_char=394
+2	building	building	PROPN	FM	Foreign=Yes	1	flat	_	start_char=395|end_char=403
+3	or	or	PROPN	FM	Foreign=Yes	1	flat	_	start_char=404|end_char=406
+4	bus	bus	PROPN	FM	Foreign=Yes	1	flat	_	start_char=407|end_char=410|SpaceAfter=No
+5	?	?	PUNCT	$.	_	1	punct	_	start_char=410|end_char=411
+6	gehört	gehören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=412|end_char=418
+7	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	start_char=419|end_char=424
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=425|end_char=429
+9	Gemeinde	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=430|end_char=438|SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=438|end_char=439|SpacesAfter=\s\s
+
+# text = Weiter? Versteigerung.
+# sent_id = 16
+1	Weiter	weiter	ADV	ADV	_	3	dep	_	start_char=441|end_char=447|SpaceAfter=No
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=447|end_char=448|SpacesAfter=\s\s
+3	Versteigerung	Versteigerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=450|end_char=463|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=463|end_char=464
+
+# text = Geld in Gemeinde-Haushalt.
+# sent_id = 17
+1	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=465|end_char=469
+2	in	in	ADP	APPR	_	5	case	_	start_char=470|end_char=472
+3	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	compound	_	start_char=473|end_char=481|SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=481|end_char=482|SpaceAfter=No
+5	Haushalt	Haushalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=482|end_char=490|SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	start_char=490|end_char=491|SpacesAfter=\s\s
+
+# text = Tiere Text zu verwirrt.
+# sent_id = 18
+1	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=493|end_char=498|SpacesAfter=\s\s
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	start_char=500|end_char=504
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=505|end_char=507
+4	verwirrt	verwirrt	ADJ	ADJD	Degree=Pos	0	root	_	start_char=508|end_char=516|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=516|end_char=517
+
+# text = Nicht klar.
+# sent_id = 19
+1	Nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=518|end_char=523
+2	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=524|end_char=528|SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=528|end_char=529|SpacesAfter=\s\s
+
+# text = Erklärungen: Finderlohn: Geld für Finder als Dank.
+# sent_id = 20
+1	Erklärungen	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=531|end_char=542|SpaceAfter=No
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=542|end_char=543|SpacesAfter=\s\s
+3	Finderlohn	Finderlohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=545|end_char=555|SpaceAfter=No
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=555|end_char=556
+5	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	start_char=557|end_char=561
+6	für	für	ADP	APPR	_	7	case	_	start_char=562|end_char=565
+7	Finder	Finder	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	start_char=566|end_char=572
+8	als	als	ADP	KOKOM	_	9	case	_	start_char=573|end_char=576
+9	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=577|end_char=581|SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	start_char=581|end_char=582|SpacesAfter=\s\s
+
+# text = Versteigerung: Verkauf von Sachen an höchsten Gebot.
+# sent_id = 21
+1	Versteigerung	Versteigerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=584|end_char=597|SpaceAfter=No
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=597|end_char=598
+3	Verkauf	Verkauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=599|end_char=606
+4	von	von	ADP	APPR	_	5	case	_	start_char=607|end_char=610
+5	Sachen	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=611|end_char=617
+6	an	an	ADP	APPR	_	8	case	_	start_char=618|end_char=620
+7	höchsten	hoch	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	8	amod	_	start_char=621|end_char=629
+8	Gebot	Gebot	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	nmod	_	start_char=630|end_char=635|SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=635|end_char=636|SpacesAfter=\s\s
+
+# text = Haushalt: Geld für Gemeinde-Aufgaben.
+# sent_id = 22
+1	Haushalt	Haushalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=638|end_char=646|SpaceAfter=No
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=646|end_char=647
+3	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	start_char=648|end_char=652
+4	für	für	ADP	APPR	_	7	case	_	start_char=653|end_char=656
+5	Gemeinde	Gemeinde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	start_char=657|end_char=665|SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=665|end_char=666|SpaceAfter=No
+7	Aufgaben	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	start_char=666|end_char=674|SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=674|end_char=675|SpacesAfter=\s\s
+
+# text = Wertvoll: Sachs mit hohem Preis.
+# sent_id = 23
+1	Wertvoll	wertvoll	ADJ	ADJD	Degree=Pos	0	root	_	start_char=677|end_char=685|SpaceAfter=No
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=685|end_char=686
+3	Sachs	Sachs	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=687|end_char=692
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=693|end_char=696
+5	hohem	hoch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=697|end_char=702
+6	Preis	Preis	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=703|end_char=708|SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=708|end_char=709|SpacesAfter=\s\s
+
+# text = Gemeinde: lokale Regierung einer Stadt.
+# sent_id = 24
+1	Gemeinde	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=711|end_char=719|SpaceAfter=No
+2	:	:	PUNCT	$.	_	4	punct	_	start_char=719|end_char=720
+3	lokale	lokal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=721|end_char=727
+4	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=728|end_char=737
+5	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=738|end_char=743
+6	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=744|end_char=749|SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=749|end_char=750|SpaceAfter=No
+

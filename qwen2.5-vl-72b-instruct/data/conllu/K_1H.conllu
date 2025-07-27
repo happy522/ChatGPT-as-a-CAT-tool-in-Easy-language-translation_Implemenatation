@@ -1,0 +1,586 @@
+# text = ### Wichtige Informationen zur Aufenthaltserlaubnis #### Was ist eine Aufenthaltserlaubnis?
+# sent_id = 0
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=0|end_char=3
+2	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=4|end_char=12
+3	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=13|end_char=26
+4-5	zur	_	_	_	_	_	_	_	start_char=27|end_char=30
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=31|end_char=51|SpacesAfter=\s\s
+7	####	####	PUNCT	$(	_	11	punct	_	start_char=53|end_char=57
+8	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	start_char=58|end_char=61
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=62|end_char=65
+10	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=66|end_char=70
+11	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	start_char=71|end_char=91|SpaceAfter=No
+12	?	?	PUNCT	$.	_	11	punct	_	start_char=91|end_char=92
+
+# text = Eine Aufenthaltserlaubnis ist ein Dokument.
+# sent_id = 1
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=93|end_char=97
+2	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=98|end_char=118
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=119|end_char=122
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=123|end_char=126
+5	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=127|end_char=135|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=135|end_char=136
+
+# text = Dieses Dokument gibt Ihnen die Erlaubnis, in Deutschland zu bleiben.
+# sent_id = 2
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=137|end_char=143
+2	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=144|end_char=152
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=153|end_char=157
+4	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	obl:arg	_	start_char=158|end_char=163
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=164|end_char=167
+6	Erlaubnis	Erlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=168|end_char=177|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=177|end_char=178
+8	in	in	ADP	APPR	_	9	case	_	start_char=179|end_char=181
+9	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=182|end_char=193
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=194|end_char=196
+11	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=197|end_char=204|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=204|end_char=205
+
+# text = Aber Sie haben keinen Job nehmen dürfen.
+# sent_id = 3
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=206|end_char=210
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=211|end_char=214
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=215|end_char=220
+4	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	start_char=221|end_char=227
+5	Job	Job	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=228|end_char=231
+6	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=232|end_char=238
+7	dürfen	dürfen	AUX	VMINF	VerbForm=Inf	6	aux	_	start_char=239|end_char=245|SpaceAfter=No
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=245|end_char=246
+
+# text = Das ist anders, wenn man Arbeitserlaubnis hat.
+# sent_id = 4
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=247|end_char=250
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=251|end_char=254
+3	anders	anders	ADV	ADV	_	0	root	_	start_char=255|end_char=261|SpaceAfter=No
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=261|end_char=262
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=263|end_char=267
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=268|end_char=271
+7	Arbeitserlaubnis	Arbeitserlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=272|end_char=288
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=289|end_char=292|SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=292|end_char=293
+
+# text = Arbeitserlaubnis ist was, das Sie bekommen können.
+# sent_id = 5
+1	Arbeitserlaubnis	Arbeitserlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=294|end_char=310
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=311|end_char=314
+3	was	was	PRON	PIS	Gender=Neut|Number=Sing|PronType=Int,Rel	0	root	_	start_char=315|end_char=318|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=318|end_char=319
+5	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	obj	_	start_char=320|end_char=323
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=324|end_char=327
+7	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	3	acl	_	start_char=328|end_char=336
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=337|end_char=343|SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=343|end_char=344|SpacesAfter=\s\s
+
+# text = #### Wann braucht man eine Aufenthaltserlaubnis?
+# sent_id = 6
+1	####	####	PUNCT	$(	_	3	punct	_	start_char=346|end_char=350
+2	Wann	wann	ADV	PWAV	PronType=Int	3	advmod	_	start_char=351|end_char=355
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=356|end_char=363
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=364|end_char=367
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=368|end_char=372
+6	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=373|end_char=393|SpaceAfter=No
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=393|end_char=394
+
+# text = Man braucht sie zum Beispiel, wenn: - Man einen Aufenthalt in Deutschland für kurze Zeit möchte.
+# sent_id = 7
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=395|end_char=398
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=399|end_char=406
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=407|end_char=410
+4-5	zum	_	_	_	_	_	_	_	start_char=411|end_char=414
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=415|end_char=423|SpaceAfter=No
+7	,	,	PUNCT	$,	_	19	punct	_	start_char=423|end_char=424
+8	wenn	wenn	SCONJ	KOUS	_	19	mark	_	start_char=425|end_char=429|SpaceAfter=No
+9	:	:	PUNCT	$.	_	19	punct	_	start_char=429|end_char=430
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=431|end_char=432
+11	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	start_char=433|end_char=436
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=437|end_char=442
+13	Aufenthalt	Aufenthalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=443|end_char=453
+14	in	in	ADP	APPR	_	15	case	_	start_char=454|end_char=456
+15	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	start_char=457|end_char=468
+16	für	für	ADP	APPR	_	18	case	_	start_char=469|end_char=472
+17	kurze	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=473|end_char=478
+18	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	start_char=479|end_char=483
+19	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=484|end_char=490|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=490|end_char=491
+
+# text = Zum Beispiel, um einem Kranken zu helfen.
+# sent_id = 8
+1-2	Zum	_	_	_	_	_	_	_	start_char=492|end_char=495
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=496|end_char=504|SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=504|end_char=505
+5	um	um	ADP	KOUI	_	9	mark	_	start_char=506|end_char=508
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=509|end_char=514
+7	Kranken	Kranke	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl:arg	_	start_char=515|end_char=522
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=523|end_char=525
+9	helfen	helfen	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=526|end_char=532|SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=532|end_char=533
+
+# text = - Man hier leben möchte, weil man medizinische Hilfe braucht.
+# sent_id = 9
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=534|end_char=535
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=536|end_char=539
+3	hier	hier	ADV	ADV	_	4	advmod	_	start_char=540|end_char=544
+4	leben	leben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=545|end_char=550
+5	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=551|end_char=557|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=557|end_char=558
+7	weil	weil	SCONJ	KOUS	_	11	mark	_	start_char=559|end_char=563
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=564|end_char=567
+9	medizinische	medizinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=568|end_char=580
+10	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=581|end_char=586
+11	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=587|end_char=594|SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=594|end_char=595
+
+# text = - Man hier studieren will.
+# sent_id = 10
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=596|end_char=597
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=598|end_char=601
+3	hier	hier	ADV	ADV	_	4	advmod	_	start_char=602|end_char=606
+4	studieren	studieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=607|end_char=616
+5	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=617|end_char=621|SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=621|end_char=622
+
+# text = - Man aus wichtigem persönlichen Grund hierbleiben möchte.
+# sent_id = 11
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=623|end_char=624
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=625|end_char=628
+3	aus	aus	ADP	APPR	_	6	case	_	start_char=629|end_char=632
+4	wichtigem	wichtigem	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=633|end_char=642
+5	persönlichen	persönlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=643|end_char=655
+6	Grund	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=656|end_char=661
+7	hierbleiben	hierbleiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=662|end_char=673
+8	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=674|end_char=680|SpaceAfter=No
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=680|end_char=681|SpacesAfter=\s\s
+
+# text = #### Wo und wie bekommt man die Aufenthaltserlaubnis?
+# sent_id = 12
+1	####	####	PUNCT	$(	_	5	punct	_	start_char=683|end_char=687
+2	Wo	wo	ADV	PWAV	PronType=Int	5	advmod	_	start_char=688|end_char=690
+3	und	und	CCONJ	KON	_	5	cc	_	start_char=691|end_char=694
+4	wie	wie	ADV	PWAV	_	5	advmod	_	start_char=695|end_char=698
+5	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=699|end_char=706
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=707|end_char=710
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=711|end_char=714
+8	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=715|end_char=735|SpaceAfter=No
+9	?	?	PUNCT	$.	_	5	punct	_	start_char=735|end_char=736
+
+# text = - Man muss persönlich zur Ausländerbehörde gehen.
+# sent_id = 13
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=737|end_char=738
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=739|end_char=742
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=743|end_char=747
+4	persönlich	persönlich	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=748|end_char=758
+5-6	zur	_	_	_	_	_	_	_	start_char=759|end_char=762
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Ausländerbehörde	Ausländerbehörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=763|end_char=779
+8	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=780|end_char=785|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=785|end_char=786
+
+# text = Das ist eine Stelle, die mit dem Aufenthalt von Ausländern beschäftigt ist.
+# sent_id = 14
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=787|end_char=790
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=791|end_char=794
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=795|end_char=799
+4	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=800|end_char=806|SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=806|end_char=807
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	12	nsubj	_	start_char=808|end_char=811
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=812|end_char=815
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=816|end_char=819
+9	Aufenthalt	Aufenthalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	start_char=820|end_char=830
+10	von	von	ADP	APPR	_	11	case	_	start_char=831|end_char=834
+11	Ausländern	Ausländer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	start_char=835|end_char=845
+12	beschäftigt	beschäftigen	ADJ	VVPP	Degree=Pos|VerbForm=Part	4	acl	_	start_char=846|end_char=857
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=858|end_char=861|SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=861|end_char=862
+
+# text = - Vorher muss man sich anmelden.
+# sent_id = 15
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=863|end_char=864
+2	Vorher	vorher	ADV	ADV	_	6	advmod	_	start_char=865|end_char=871
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=872|end_char=876
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=877|end_char=880
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=881|end_char=885
+6	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=886|end_char=894|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=894|end_char=895
+
+# text = In der Regel, kann man das online machen.
+# sent_id = 16
+1	In	in	ADP	APPR	_	3	case	_	start_char=896|end_char=898
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=899|end_char=902
+3	Regel	Regel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=903|end_char=908|SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=908|end_char=909
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=910|end_char=914
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=915|end_char=918
+7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	obj	_	start_char=919|end_char=922
+8	online	online	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=923|end_char=929
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=930|end_char=936|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=936|end_char=937
+
+# text = - Man zieht sich Ausschreibungen an.
+# sent_id = 17
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=938|end_char=939
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=940|end_char=943
+3	zieht	zeihen|ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=944|end_char=949
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=950|end_char=954
+5	Ausschreibungen	Ausschreibung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=955|end_char=970
+6	an	an	ADP	PTKVZ	_	3	compound:prt	_	start_char=971|end_char=973|SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=973|end_char=974
+
+# text = Ausschreibungen sind die Dinge, die man braucht, wenn man einen Antrag macht.
+# sent_id = 18
+1	Ausschreibungen	Ausschreibung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=975|end_char=990
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=991|end_char=995
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=996|end_char=999
+4	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=1000|end_char=1005|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=1005|end_char=1006
+6	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	8	obj	_	start_char=1007|end_char=1010
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1011|end_char=1014
+8	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=1015|end_char=1022|SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=1022|end_char=1023
+10	wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=1024|end_char=1028
+11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=1029|end_char=1032
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=1033|end_char=1038
+13	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=1039|end_char=1045
+14	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=1046|end_char=1051|SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=1051|end_char=1052
+
+# text = Der Antrag muss vorbereitet werden.
+# sent_id = 19
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1053|end_char=1056
+2	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=1057|end_char=1063
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1064|end_char=1068
+4	vorbereitet	vorbereiten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1069|end_char=1080
+5	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	4	aux:pass	_	start_char=1081|end_char=1087|SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=1087|end_char=1088
+
+# text = - Man gibt Fingerabdrücke ab.
+# sent_id = 20
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1089|end_char=1090
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1091|end_char=1094
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1095|end_char=1099
+4	Fingerabdrücke	Fingerabdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1100|end_char=1114
+5	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	start_char=1115|end_char=1117|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1117|end_char=1118
+
+# text = Fingerabdrücke sind die Linien auf den Fingerkuppen.
+# sent_id = 21
+1	Fingerabdrücke	Fingerabdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1119|end_char=1133
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1134|end_char=1138
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1139|end_char=1142
+4	Linien	Linie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1143|end_char=1149
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=1150|end_char=1153
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=1154|end_char=1157
+7	Fingerkuppen	Fingerkuppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=1158|end_char=1170|SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=1170|end_char=1171
+
+# text = - Wenn der Antrag okay ist, erhält man die Karte.
+# sent_id = 22
+1	-	-	PUNCT	$(	_	8	punct	_	start_char=1172|end_char=1173
+2	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1174|end_char=1178
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1179|end_char=1182
+4	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1183|end_char=1189
+5	okay	Okay	ADJ	ADJD	Degree=Pos	8	advcl	_	start_char=1190|end_char=1194
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1195|end_char=1198|SpaceAfter=No
+7	,	,	PUNCT	$,	_	5	punct	_	start_char=1198|end_char=1199
+8	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1200|end_char=1206
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1207|end_char=1210
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1211|end_char=1214
+11	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1215|end_char=1220|SpaceAfter=No
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=1220|end_char=1221
+
+# text = Das geht durch die Bundesdruckerei.
+# sent_id = 23
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1222|end_char=1225
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1226|end_char=1230
+3	durch	durch	ADP	APPR	_	5	case	_	start_char=1231|end_char=1236
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1237|end_char=1240
+5	Bundesdruckerei	Bundesdruckerei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=1241|end_char=1256|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=1256|end_char=1257
+
+# text = Bundesdruckerei ist eine Stelle, die solche Dokumente erstellt.
+# sent_id = 24
+1	Bundesdruckerei	Bundesdruckerei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1258|end_char=1273
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1274|end_char=1277
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1278|end_char=1282
+4	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1283|end_char=1289|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1289|end_char=1290
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=1291|end_char=1294
+7	solche	solcher	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	start_char=1295|end_char=1301
+8	Dokumente	Dokument	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=1302|end_char=1311
+9	erstellt	erstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=1312|end_char=1320|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=1320|end_char=1321|SpacesAfter=\s\s
+
+# text = #### Was braucht man für die Aufenthaltserlaubnis?
+# sent_id = 25
+1	####	####	PUNCT	$(	_	3	punct	_	start_char=1323|end_char=1327
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=1328|end_char=1331
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1332|end_char=1339
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1340|end_char=1343
+5	für	für	ADP	APPR	_	7	case	_	start_char=1344|end_char=1347
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1348|end_char=1351
+7	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=1352|end_char=1372|SpaceAfter=No
+8	?	?	PUNCT	$.	_	3	punct	_	start_char=1372|end_char=1373
+
+# text = - Einen Antrag.
+# sent_id = 26
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1374|end_char=1375
+2	Einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=1376|end_char=1381
+3	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	start_char=1382|end_char=1388|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=1388|end_char=1389
+
+# text = Das ist ein Stück Papier, auf dem man die Informationen schreibt.
+# sent_id = 27
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=1390|end_char=1393
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1394|end_char=1397
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1398|end_char=1401
+4	Stück	Stück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	start_char=1402|end_char=1407
+5	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1408|end_char=1414|SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=1414|end_char=1415
+7	auf	auf	ADP	APPR	_	8	case	_	start_char=1416|end_char=1419
+8	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	12	obl	_	start_char=1420|end_char=1423
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=1424|end_char=1427
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=1428|end_char=1431
+11	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=1432|end_char=1445
+12	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=1446|end_char=1454|SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=1454|end_char=1455
+
+# text = - Ein Foto von sich.
+# sent_id = 28
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1456|end_char=1457
+2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=1458|end_char=1461
+3	Foto	Foto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1462|end_char=1466
+4	von	von	ADP	APPR	_	5	case	_	start_char=1467|end_char=1470
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	nmod	_	start_char=1471|end_char=1475|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1475|end_char=1476
+
+# text = Das reduziert Verwechslungen.
+# sent_id = 29
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1477|end_char=1480
+2	reduziert	reduzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1481|end_char=1490
+3	Verwechslungen	Verwechslung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1491|end_char=1505|SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=1505|end_char=1506
+
+# text = - einen legitimen Nachweis.
+# sent_id = 30
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=1507|end_char=1508
+2	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=1509|end_char=1514
+3	legitimen	legitim	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1515|end_char=1524
+4	Nachweis	Nachweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	start_char=1525|end_char=1533|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1533|end_char=1534
+
+# text = Legitim ist, wenn der Nachweis nachgewiesen, also zutreffend ist.
+# sent_id = 31
+1	Legitim	legitim	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1535|end_char=1542
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=1543|end_char=1546|SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=1546|end_char=1547
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1548|end_char=1552
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1553|end_char=1556
+6	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	start_char=1557|end_char=1565
+7	nachgewiesen	nachweisen	VERB	VVPP	VerbForm=Part	1	advcl	_	start_char=1566|end_char=1578|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=1578|end_char=1579
+9	also	also	ADV	ADV	_	10	advmod	_	start_char=1580|end_char=1584
+10	zutreffend	zutreffend	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=1585|end_char=1595
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1596|end_char=1599|SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=1599|end_char=1600
+
+# text = - anderen Dingen, die möglicherweise relevant sind.
+# sent_id = 32
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=1601|end_char=1602
+2	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	3	det	_	start_char=1603|end_char=1610
+3	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	0	root	_	start_char=1611|end_char=1617|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=1617|end_char=1618
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	7	nsubj	_	start_char=1619|end_char=1622
+6	möglicherweise	möglicherweise	ADV	ADV	_	7	advmod	_	start_char=1623|end_char=1637
+7	relevant	relevant	ADJ	ADJD	Degree=Pos	3	acl	_	start_char=1638|end_char=1646
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1647|end_char=1651|SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1651|end_char=1652|SpacesAfter=\s\s
+
+# text = #### Wie viel kostet die Aufenthaltserlaubnis?
+# sent_id = 33
+1	####	####	PUNCT	$(	_	4	punct	_	start_char=1654|end_char=1658
+2	Wie	wie	ADV	PWAV	PronType=Int	4	advmod	_	start_char=1659|end_char=1662
+3	viel	viel	DET	PIS	PronType=Ind	4	nsubj	_	start_char=1663|end_char=1667
+4	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1668|end_char=1674
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1675|end_char=1678
+6	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1679|end_char=1699|SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	start_char=1699|end_char=1700
+
+# text = - 100 Euro für Erwachsene oder 50 Euro für Jugendliche unter 18 Jahren.
+# sent_id = 34
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1701|end_char=1702
+2	100	100	NUM	CARD	NumType=Card	3	nummod	_	start_char=1703|end_char=1706
+3	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1707|end_char=1711
+4	für	für	ADP	APPR	_	5	case	_	start_char=1712|end_char=1715
+5	Erwachsene	Erwachsene	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	start_char=1716|end_char=1726
+6	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1727|end_char=1731
+7	50	50	NUM	CARD	NumType=Card	8	nummod	_	start_char=1732|end_char=1734
+8	Euro	Euro	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	start_char=1735|end_char=1739
+9	für	für	ADP	APPR	_	10	case	_	start_char=1740|end_char=1743
+10	Jugendliche	Jugendliche	NOUN	NN	Case=Acc|Number=Plur	3	nmod	_	start_char=1744|end_char=1755
+11	unter	unter	ADP	APPR	_	13	case	_	start_char=1756|end_char=1761
+12	18	18	NUM	CARD	NumType=Card	13	nummod	_	start_char=1762|end_char=1764
+13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	nmod	_	start_char=1765|end_char=1771|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=1771|end_char=1772
+
+# text = - Manchmal muss man keinen Preis zahlen.
+# sent_id = 35
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1773|end_char=1774
+2	Manchmal	manchmal	ADV	ADV	_	7	advmod	_	start_char=1775|end_char=1783
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1784|end_char=1788
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1789|end_char=1792
+5	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	6	det	_	start_char=1793|end_char=1799
+6	Preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=1800|end_char=1805
+7	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1806|end_char=1812|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1812|end_char=1813
+
+# text = Das passiert, wenn man Hilfe bekommt.
+# sent_id = 36
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1814|end_char=1817
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1818|end_char=1826|SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=1826|end_char=1827
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1828|end_char=1832
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1833|end_char=1836
+6	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1837|end_char=1842
+7	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=1843|end_char=1850|SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1850|end_char=1851|SpacesAfter=\s\s
+
+# text = #### Wie lange darf man mit dieser Aufenthaltserlaubnis bleiben?
+# sent_id = 37
+1	####	####	PUNCT	$(	_	9	punct	_	start_char=1853|end_char=1857
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1858|end_char=1861
+3	lange	lange	ADV	ADV	_	9	advmod	_	start_char=1862|end_char=1867
+4	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1868|end_char=1872
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1873|end_char=1876
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=1877|end_char=1880
+7	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=1881|end_char=1887
+8	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=1888|end_char=1908
+9	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1909|end_char=1916|SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=1916|end_char=1917
+
+# text = - Meistens ist die Aufenthaltserlaubnis für sechs Monate gültig.
+# sent_id = 38
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1918|end_char=1919
+2	Meistens	meistens	ADV	ADV	_	9	advmod	_	start_char=1920|end_char=1928
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1929|end_char=1932
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1933|end_char=1936
+5	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1937|end_char=1957
+6	für	für	ADP	APPR	_	8	case	_	start_char=1958|end_char=1961
+7	sechs	sechs	NUM	CARD	NumType=Card	8	nummod	_	start_char=1962|end_char=1967
+8	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	start_char=1968|end_char=1974
+9	gültig	gültig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1975|end_char=1981|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1981|end_char=1982
+
+# text = Das ist etwa die Hälfte eines Jahres.
+# sent_id = 39
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=1983|end_char=1986
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1987|end_char=1990
+3	etwa	etwa	ADV	ADV	_	5	advmod	_	start_char=1991|end_char=1995
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1996|end_char=1999
+5	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2000|end_char=2006
+6	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2007|end_char=2012
+7	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=2013|end_char=2019|SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=2019|end_char=2020
+
+# text = - Wenn man schon länger in Deutschland ist, kann es zwei Jahre sein.
+# sent_id = 40
+1	-	-	PUNCT	$(	_	13	punct	_	start_char=2021|end_char=2022
+2	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=2023|end_char=2027
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=2028|end_char=2031
+4	schon	schon	ADV	ADV	_	5	advmod	_	start_char=2032|end_char=2037
+5	länger	lang	ADJ	ADJD	Degree=Cmp	8	advmod	_	start_char=2038|end_char=2044
+6	in	in	ADP	APPR	_	7	case	_	start_char=2045|end_char=2047
+7	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=2048|end_char=2059
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=2060|end_char=2063|SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=2063|end_char=2064
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2065|end_char=2069
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=2070|end_char=2072
+12	zwei	zwei	NUM	CARD	NumType=Card	13	nummod	_	start_char=2073|end_char=2077
+13	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	start_char=2078|end_char=2083
+14	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	start_char=2084|end_char=2088|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=2088|end_char=2089|SpacesAfter=\s\s
+
+# text = #### Was braucht man noch? - Man muss auf die Antworten der Ausländerbehörde warten.
+# sent_id = 41
+1	####	####	PUNCT	$(	_	3	punct	_	start_char=2091|end_char=2095
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=2096|end_char=2099
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2100|end_char=2107
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=2108|end_char=2111
+5	noch?	noch?	ADV	ADV	_	3	advmod	_	start_char=2112|end_char=2117|SpacesAfter=\s\s
+6	-	-	PUNCT	$(	_	3	punct	_	start_char=2119|end_char=2120
+7	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=2121|end_char=2124
+8	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2125|end_char=2129
+9	auf	auf	ADP	APPR	_	11	case	_	start_char=2130|end_char=2133
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=2134|end_char=2137
+11	Antworten	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	start_char=2138|end_char=2147
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=2148|end_char=2151
+13	Ausländerbehörde	Ausländerbehörde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=2152|end_char=2168
+14	warten	warten	VERB	VVINF	VerbForm=Inf	3	ccomp	_	start_char=2169|end_char=2175|SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=2175|end_char=2176
+
+# text = Das kann eine Zeit dauern.
+# sent_id = 42
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2177|end_char=2180
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2181|end_char=2185
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=2186|end_char=2190
+4	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=2191|end_char=2195
+5	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2196|end_char=2202|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2202|end_char=2203
+
+# text = - Manchmal sind Anwälte hilfreich.
+# sent_id = 43
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2204|end_char=2205
+2	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=2206|end_char=2214
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2215|end_char=2219
+4	Anwälte	Anwalt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=2220|end_char=2227
+5	hilfreich	hilfreich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2228|end_char=2237|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2237|end_char=2238
+
+# text = Sie helfen bei schwierigen Fragen.
+# sent_id = 44
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2239|end_char=2242
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2243|end_char=2249
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=2250|end_char=2253
+4	schwierigen	schwierig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2254|end_char=2265
+5	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=2266|end_char=2272|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2272|end_char=2273|SpacesAfter=\s\s
+
+# text = #### Was sind die Regeln?
+# sent_id = 45
+1	####	####	PUNCT	$(	_	5	punct	_	start_char=2275|end_char=2279
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=2280|end_char=2283
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2284|end_char=2288
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2289|end_char=2292
+5	Regeln	Regel|Regeln	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2293|end_char=2299|SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=2299|end_char=2300
+
+# text = Dazu kann man in speziellen Sätzen von Gesetzen schauen.
+# sent_id = 46
+1	Dazu	dazu	ADV	PAV	PronType=Dem	9	advmod	_	start_char=2301|end_char=2305
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2306|end_char=2310
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=2311|end_char=2314
+4	in	in	ADP	APPR	_	6	case	_	start_char=2315|end_char=2317
+5	speziellen	speziell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=2318|end_char=2328
+6	Sätzen	Satz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	start_char=2329|end_char=2335
+7	von	von	ADP	APPR	_	8	case	_	start_char=2336|end_char=2339
+8	Gesetzen	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	start_char=2340|end_char=2348
+9	schauen	schauen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2349|end_char=2356|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2356|end_char=2357
+
+# text = Abschnitte von Gesetzen werden von der Ausländerbehörde erklärt.
+# sent_id = 47
+1	Abschnitte	Abschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=2358|end_char=2368
+2	von	von	ADP	APPR	_	3	case	_	start_char=2369|end_char=2372
+3	Gesetzen	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	start_char=2373|end_char=2381
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=2382|end_char=2388
+5	von	von	ADP	APPR	_	7	case	_	start_char=2389|end_char=2392
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2393|end_char=2396
+7	Ausländerbehörde	Ausländerbehörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl:agent	_	start_char=2397|end_char=2413
+8	erklärt	erklären	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2414|end_char=2421|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2421|end_char=2422|SpaceAfter=No
+

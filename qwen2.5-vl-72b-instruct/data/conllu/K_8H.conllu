@@ -1,0 +1,268 @@
+# text = Hier ist der Text, nach den vorgegebenen Anforderungen umformuliert: ### Ummeldung in eine neue Wohnung #### Informationen Musst du in eine Wohnung ziehen?
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	10	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=13|end_char=17|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=17|end_char=18
+6	nach	nach	ADP	APPR	_	9	case	_	start_char=19|end_char=23
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=24|end_char=27
+8	vorgegebenen	vorgegeben	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=28|end_char=40
+9	Anforderungen	Anforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	start_char=41|end_char=54
+10	umformuliert	umformulieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=55|end_char=67|SpaceAfter=No
+11	:	:	PUNCT	$.	_	13	punct	_	start_char=67|end_char=68|SpacesAfter=\s\s
+12	###	###	PUNCT	$(	_	13	punct	_	start_char=70|end_char=73
+13	Ummeldung	Ummeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	start_char=74|end_char=83
+14	in	in	ADP	APPR	_	17	case	_	start_char=84|end_char=86
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=87|end_char=91
+16	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=92|end_char=96
+17	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=97|end_char=104|SpacesAfter=\s\s
+18	####	####	PUNCT	$(	_	13	punct	_	start_char=106|end_char=110
+19	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	start_char=111|end_char=124|SpacesAfter=\s\s
+20	Musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=126|end_char=131
+21	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	start_char=132|end_char=134
+22	in	in	ADP	APPR	_	24	case	_	start_char=135|end_char=137
+23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=138|end_char=142
+24	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	start_char=143|end_char=150
+25	ziehen	ziehen	VERB	VVINF	VerbForm=Inf	10	parataxis	_	start_char=151|end_char=157|SpaceAfter=No
+26	?	?	PUNCT	$.	_	25	punct	_	start_char=157|end_char=158
+
+# text = Meld dich dann um.
+# sent_id = 1
+1	Meld	meld	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=159|end_char=163
+2	dich	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=164|end_char=168
+3	dann	dann	ADV	ADV	_	1	advmod	_	start_char=169|end_char=173
+4	um	um	ADP	PTKVZ	_	1	compound:prt	_	start_char=174|end_char=176|SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	start_char=176|end_char=177
+
+# text = Das ist wichtig: **Termine machen:** Du kannst einen Termin im Internet machen.
+# sent_id = 2
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=178|end_char=181
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=182|end_char=185
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=186|end_char=193|SpaceAfter=No
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=193|end_char=194|SpacesAfter=\s\s
+5	**	**	PUNCT	$(	_	7	punct	_	start_char=196|end_char=198|SpaceAfter=No
+6	Termine	Termin	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=198|end_char=205
+7	machen	machen	VERB	VVINF	VerbForm=Inf	3	parataxis	_	start_char=206|end_char=212|SpaceAfter=No
+8	:	:	PUNCT	$.	_	18	punct	_	start_char=212|end_char=213|SpaceAfter=No
+9	*	*	PUNCT	$(	_	18	punct	_	start_char=213|end_char=214|SpaceAfter=No
+10	*	*	X	XY	_	18	parataxis	_	start_char=214|end_char=215|SpacesAfter=\s\s
+11	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	start_char=217|end_char=219
+12	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=220|end_char=226
+13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=227|end_char=232
+14	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=233|end_char=239
+15-16	im	_	_	_	_	_	_	_	start_char=240|end_char=242
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=243|end_char=251
+18	machen	machen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	start_char=252|end_char=258|SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=258|end_char=259
+
+# text = Such auf dieser Website: https://termin.goettingen.de/ Möchtest du einen Termin für mehrere Leute machen?
+# sent_id = 3
+1	Such	Such	NOUN	PTKANT	Case=Nom|Number=Sing	14	parataxis	_	start_char=260|end_char=264
+2	auf	auf	ADP	APPR	_	4	case	_	start_char=265|end_char=268
+3	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=269|end_char=275
+4	Website	Website	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=276|end_char=283|SpaceAfter=No
+5	:	:	PUNCT	$.	_	14	punct	_	start_char=283|end_char=284
+6	https://termin.goettingen.de/	https://termin.goettingen.de/	X	NE	_	14	parataxis	_	start_char=285|end_char=314|SpacesAfter=\s\s
+7	Möchtest	mögen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=316|end_char=324
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	start_char=325|end_char=327
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=328|end_char=333
+10	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=334|end_char=340
+11	für	für	ADP	APPR	_	13	case	_	start_char=341|end_char=344
+12	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	13	det	_	start_char=345|end_char=352
+13	Leute	Leute	NOUN	NN	Case=Acc|Number=Plur	10	nmod	_	start_char=353|end_char=358
+14	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=359|end_char=365|SpaceAfter=No
+15	?	?	PUNCT	$.	_	14	punct	_	start_char=365|end_char=366
+
+# text = Das kannst du auch.
+# sent_id = 4
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=367|end_char=370
+2	kannst	können	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=371|end_char=377
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=378|end_char=380
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=381|end_char=385|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=385|end_char=386|SpacesAfter=\s\s
+
+# text = **Termin löschen:** Löschst du nicht den Termin?
+# sent_id = 5
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=388|end_char=390|SpaceAfter=No
+2	Termin	Termin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	start_char=390|end_char=396
+3	löschen	löschen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=397|end_char=404|SpaceAfter=No
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=404|end_char=405|SpaceAfter=No
+5	*	*	X	XY	_	7	advmod	_	start_char=405|end_char=406|SpaceAfter=No
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=406|end_char=407|SpacesAfter=\s\s
+7	Löschst	löschen	VERB	VVIMP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=409|end_char=416
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	start_char=417|end_char=419
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=420|end_char=425
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=426|end_char=429
+11	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=430|end_char=436|SpaceAfter=No
+12	?	?	PUNCT	$.	_	7	punct	_	start_char=436|end_char=437
+
+# text = Bevor du nicht gehst, solltest du ihn löschen.
+# sent_id = 6
+1	Bevor	bevor	SCONJ	KOUS	_	4	mark	_	start_char=438|end_char=443
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=444|end_char=446
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=447|end_char=452
+4	gehst	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=453|end_char=458|SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=458|end_char=459
+6	solltest	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=460|end_char=468
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=469|end_char=471
+8	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=472|end_char=475
+9	löschen	löschen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=476|end_char=483|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=483|end_char=484
+
+# text = Andere können ihn dann nutzen.
+# sent_id = 7
+1	Andere	anderer	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	5	nsubj	_	start_char=485|end_char=491
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=492|end_char=498
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=499|end_char=502
+4	dann	dann	ADV	ADV	_	5	advmod	_	start_char=503|end_char=507
+5	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=508|end_char=514|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=514|end_char=515|SpacesAfter=\s\s
+
+# text = #### Was ist eine Wohnung?
+# sent_id = 8
+1	####	####	PUNCT	$(	_	5	punct	_	start_char=517|end_char=521
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=522|end_char=525
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=526|end_char=529
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=530|end_char=534
+5	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=535|end_char=542|SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=542|end_char=543|SpacesAfter=\s\s
+
+# text = Eine Wohnung ist ein Raum (Platz), wo jemand wohnt.
+# sent_id = 9
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=545|end_char=549
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=550|end_char=557
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=558|end_char=561
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=562|end_char=565
+5	Raum	Raum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=566|end_char=570
+6	(	(	PUNCT	$(	_	7	punct	_	start_char=571|end_char=572|SpaceAfter=No
+7	Platz	Platz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=572|end_char=577|SpaceAfter=No
+8	)	)	PUNCT	$(	_	7	punct	_	start_char=577|end_char=578|SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=578|end_char=579
+10	wo	wo	ADV	PWAV	PronType=Int	12	advmod	_	start_char=580|end_char=582
+11	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=583|end_char=589
+12	wohnt	wohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=590|end_char=595|SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=595|end_char=596|SpacesAfter=\s\s
+
+# text = **Ebra - dies ist nicht klar und braucht eine Erklärung** Définition des Wortes ist nicht klar und braucht eine weitere Deutung.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=598|end_char=600|SpaceAfter=No
+2	Ebra	Ebra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=600|end_char=604
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=605|end_char=606
+4	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=607|end_char=611
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=612|end_char=615
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=616|end_char=621
+7	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=622|end_char=626
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=627|end_char=630
+9	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=631|end_char=638
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=639|end_char=643
+11	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=644|end_char=653|SpaceAfter=No
+12	*	*	PUNCT	$(	_	19	punct	_	start_char=653|end_char=654|SpaceAfter=No
+13	*	*	PUNCT	$(	_	14	punct	_	start_char=654|end_char=655|SpacesAfter=\s\s
+14	Définition	Définition	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=657|end_char=667
+15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=668|end_char=671
+16	Wortes	Wort	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=672|end_char=678
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=679|end_char=682
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	start_char=683|end_char=688
+19	klar	klar	ADJ	ADJD	Degree=Pos	7	parataxis	_	start_char=689|end_char=693
+20	und	und	CCONJ	KON	_	21	cc	_	start_char=694|end_char=697
+21	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	start_char=698|end_char=705
+22	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=706|end_char=710
+23	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	24	amod	_	start_char=711|end_char=718
+24	Deutung	Deutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=719|end_char=726|SpaceAfter=No
+25	.	.	PUNCT	$.	_	7	punct	_	start_char=726|end_char=727|SpacesAfter=\s\s
+
+# text = **PSKL, SDF, Rebuild - dies sind Wörter die erklärt werden müssen**
+# sent_id = 11
+1	**PSKL	**PSKL	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=729|end_char=735|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=735|end_char=736
+3	SDF	SDF	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=737|end_char=740|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=740|end_char=741
+5	Rebuild	Rebuild	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=742|end_char=749
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=750|end_char=751
+7	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=752|end_char=756
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=757|end_char=761
+9	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=762|end_char=768
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj:pass	_	start_char=769|end_char=772
+11	erklärt	erklären	VERB	VVPP	VerbForm=Part	9	acl	_	start_char=773|end_char=780
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	start_char=781|end_char=787
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=788|end_char=794|SpaceAfter=No
+14	*	*	PUNCT	$(	_	9	punct	_	start_char=794|end_char=795|SpaceAfter=No
+15	*	*	PUNCT	$(	_	9	punct	_	start_char=795|end_char=796|SpacesAfter=\s\s
+
+# text = Diese Wörter sind unklar und brauchen eine Erklärung.
+# sent_id = 12
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=798|end_char=803
+2	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=804|end_char=810
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=811|end_char=815
+4	unklar	unklar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=816|end_char=822
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=823|end_char=826
+6	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=827|end_char=835
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=836|end_char=840
+8	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=841|end_char=850|SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=850|end_char=851|SpacesAfter=\s\s
+
+# text = **shapes, Arbeit, Bnrag, menmost, whatsmostwhatping, mgreaker - dies sind Wörter die erklärt werden müssen**
+# sent_id = 13
+1	**shapes	**shapes	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=853|end_char=861|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=861|end_char=862
+3	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=863|end_char=869|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=869|end_char=870
+5	Bnrag	Bnrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=871|end_char=876|SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=876|end_char=877
+7	menmost	menmost	ADJ	ADJD	Degree=Pos	1	conj	_	start_char=878|end_char=885|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=885|end_char=886
+9	whatsmostwhatping	Whatsmostwhatping	NOUN	NN	Case=Nom|Number=Sing	1	conj	_	start_char=887|end_char=904|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=904|end_char=905
+11	mgreaker	mgreaker	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=906|end_char=914
+12	-	-	PUNCT	$(	_	11	punct	_	start_char=915|end_char=916
+13	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=917|end_char=921
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=922|end_char=926
+15	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=927|end_char=933
+16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj:pass	_	start_char=934|end_char=937
+17	erklärt	erklären	VERB	VVPP	VerbForm=Part	15	acl	_	start_char=938|end_char=945
+18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	start_char=946|end_char=952
+19	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=953|end_char=959|SpaceAfter=No
+20	*	*	PUNCT	$(	_	17	punct	_	start_char=959|end_char=960|SpaceAfter=No
+21	*	*	PUNCT	$(	_	1	punct	_	start_char=960|end_char=961|SpacesAfter=\s\s
+
+# text = Diese Wörter sind unklar und brauchen eine Erklärung.
+# sent_id = 14
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=963|end_char=968
+2	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=969|end_char=975
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=976|end_char=980
+4	unklar	unklar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=981|end_char=987
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=988|end_char=991
+6	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=992|end_char=1000
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1001|end_char=1005
+8	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=1006|end_char=1015|SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1015|end_char=1016|SpacesAfter=\s\s
+
+# text = Die Löschung von Nebensätzen, die Vereinfachung der syntaktischen Strukturen und die Erklärungen für schwierige Wörter ergibt einen einfacheren und verständlicheren Text.
+# sent_id = 15
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1018|end_char=1021
+2	Löschung	Löschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=1022|end_char=1030
+3	von	von	ADP	APPR	_	4	case	_	start_char=1031|end_char=1034
+4	Nebensätzen	Nebensatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	start_char=1035|end_char=1046|SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=1046|end_char=1047
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1048|end_char=1051
+7	Vereinfachung	Vereinfachung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=1052|end_char=1065
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1066|end_char=1069
+9	syntaktischen	syntaktisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1070|end_char=1083
+10	Strukturen	Struktur	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=1084|end_char=1094
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=1095|end_char=1098
+12	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=1099|end_char=1102
+13	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	start_char=1103|end_char=1114
+14	für	für	ADP	APPR	_	16	case	_	start_char=1115|end_char=1118
+15	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	start_char=1119|end_char=1129
+16	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	start_char=1130|end_char=1136
+17	ergibt	ergeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1137|end_char=1143
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=1144|end_char=1149
+19	einfacheren	einfach	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	22	amod	_	start_char=1150|end_char=1161
+20	und	und	CCONJ	KON	_	21	cc	_	start_char=1162|end_char=1165
+21	verständlicheren	verständlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	start_char=1166|end_char=1182
+22	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=1183|end_char=1187|SpaceAfter=No
+23	.	.	PUNCT	$.	_	17	punct	_	start_char=1187|end_char=1188|SpaceAfter=No
+

@@ -1,0 +1,396 @@
+# text = Die Wohnung: Du kannst mehrere Wohnungen in Deutschland haben.
+# sent_id = 0
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=4|end_char=11|SpaceAfter=No
+3	:	:	PUNCT	$.	_	10	punct	_	start_char=11|end_char=12|SpacesAfter=\s\s
+4	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	start_char=14|end_char=16
+5	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=17|end_char=23
+6	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=24|end_char=31
+7	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=32|end_char=41
+8	in	in	ADP	APPR	_	9	case	_	start_char=42|end_char=44
+9	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=45|end_char=56
+10	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=57|end_char=62|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=62|end_char=63
+
+# text = Aber du hast nur eine Hauptwohnung.
+# sent_id = 1
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=64|end_char=68
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	start_char=69|end_char=71
+3	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=72|end_char=76
+4	nur	nur	ADV	ADV	_	3	advmod	_	start_char=77|end_char=80
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=81|end_char=85
+6	Hauptwohnung	Hauptwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=86|end_char=98|SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=98|end_char=99
+
+# text = Das ist die Wohnung, in der du am meisten bist.
+# sent_id = 2
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=100|end_char=103
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=104|end_char=107
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=108|end_char=111
+4	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=112|end_char=119|SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=119|end_char=120
+6	in	in	ADP	APPR	_	7	case	_	start_char=121|end_char=123
+7	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	12	obl	_	start_char=124|end_char=127
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=128|end_char=130
+9-10	am	_	_	_	_	_	_	_	start_char=131|end_char=133
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	meisten	meist	DET	PIS	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	start_char=134|end_char=141
+12	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=142|end_char=146|SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=146|end_char=147
+
+# text = Alle anderen Wohnungen sind Nebenwohnungen.
+# sent_id = 3
+1	Alle	alle	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	start_char=148|end_char=152
+2	anderen	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	start_char=153|end_char=160
+3	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=161|end_char=170
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=171|end_char=175
+5	Nebenwohnungen	Nebenwohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=176|end_char=190|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=190|end_char=191|SpacesAfter=\s\s\s
+
+# text = Wenn du deine Hauptwohnung änderst, musst du das melden.
+# sent_id = 4
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=194|end_char=198
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=199|end_char=201
+3	deine	dein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=202|end_char=207
+4	Hauptwohnung	Hauptwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=208|end_char=220
+5	änderst	ändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=221|end_char=228|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=228|end_char=229
+7	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=230|end_char=235
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	start_char=236|end_char=238
+9	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	obj	_	start_char=239|end_char=242
+10	melden	melden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=243|end_char=249|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=249|end_char=250
+
+# text = Dann kann deine alte Hauptwohnung zur Nebenwohnung werden.
+# sent_id = 5
+1	Dann	dann	ADV	ADV	_	9	advmod	_	start_char=251|end_char=255
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=256|end_char=260
+3	deine	dein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=261|end_char=266
+4	alte	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=267|end_char=271
+5	Hauptwohnung	Hauptwohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=272|end_char=284
+6-7	zur	_	_	_	_	_	_	_	start_char=285|end_char=288
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Nebenwohnung	Nebenwohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	xcomp	_	start_char=289|end_char=301
+9	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=302|end_char=308|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=308|end_char=309
+
+# text = Du musst das innerhalb von zwei Wochen machen.
+# sent_id = 6
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	start_char=310|end_char=312
+2	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=313|end_char=318
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obj	_	start_char=319|end_char=322
+4	innerhalb	innerhalb	ADP	ADV	_	7	case	_	start_char=323|end_char=332
+5	von	von	ADP	APPR	_	7	case	_	start_char=333|end_char=336
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	start_char=337|end_char=341
+7	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	start_char=342|end_char=348
+8	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=349|end_char=355|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=355|end_char=356
+
+# text = Du musst keine formelle Unterlagen ausfüllen.
+# sent_id = 7
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	start_char=357|end_char=359
+2	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=360|end_char=365
+3	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	5	det	_	start_char=366|end_char=371
+4	formelle	formell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=372|end_char=380
+5	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=381|end_char=391
+6	ausfüllen	ausfüllen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=392|end_char=401|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=401|end_char=402
+
+# text = Nur deine Unterschrift ist wichtig.
+# sent_id = 8
+1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=403|end_char=406
+2	deine	dein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=407|end_char=412
+3	Unterschrift	Unterschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=413|end_char=425
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=426|end_char=429
+5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=430|end_char=437|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=437|end_char=438|SpacesAfter=\s\s
+
+# text = Wenn Hildesheim deine neue Hauptwohnung wird, musst du manchmal die neue Adresse für dein Auto anmelden.
+# sent_id = 9
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=440|end_char=444
+2	Hildesheim	Hildesheim	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=445|end_char=455
+3	deine	dein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=456|end_char=461
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=462|end_char=466
+5	Hauptwohnung	Hauptwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=467|end_char=479
+6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=480|end_char=484|SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=484|end_char=485
+8	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=486|end_char=491
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=492|end_char=494
+10	manchmal	manchmal	ADV	ADV	_	17	advmod	_	start_char=495|end_char=503
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=504|end_char=507
+12	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=508|end_char=512
+13	Adresse	Adresse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=513|end_char=520
+14	für	für	ADP	APPR	_	16	case	_	start_char=521|end_char=524
+15	dein	dein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=525|end_char=529
+16	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	start_char=530|end_char=534
+17	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=535|end_char=543|SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=543|end_char=544
+
+# text = Bitte bringe dein Auto-Ausweis oder die Zulassungspapiere mit.
+# sent_id = 10
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=545|end_char=550
+2	bringe	bringen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=551|end_char=557
+3	dein	dein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=558|end_char=562
+4	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	compound	_	start_char=563|end_char=567|SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=567|end_char=568|SpaceAfter=No
+6	Ausweis	Ausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=568|end_char=575
+7	oder	oder	CCONJ	KON	_	9	cc	_	start_char=576|end_char=580
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=581|end_char=584
+9	Zulassungspapiere	Zulassungspapier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	start_char=585|end_char=602
+10	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	start_char=603|end_char=606|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=606|end_char=607
+
+# text = Das kostet 10,70 Euro.
+# sent_id = 11
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=608|end_char=611
+2	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=612|end_char=618
+3	10,70	10,70	NUM	CARD	NumType=Card	4	nummod	_	start_char=619|end_char=624
+4	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=625|end_char=629|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=629|end_char=630
+
+# text = Wenn du ganz neue Papiere für dein Auto brauchst, kostet das 11,50 Euro.
+# sent_id = 12
+1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=631|end_char=635
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=636|end_char=638
+3	ganz	ganz	ADV	ADV	_	4	advmod	_	start_char=639|end_char=643
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=644|end_char=648
+5	Papiere	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=649|end_char=656
+6	für	für	ADP	APPR	_	8	case	_	start_char=657|end_char=660
+7	dein	dein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=661|end_char=665
+8	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	start_char=666|end_char=670
+9	brauchst	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=671|end_char=679|SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	start_char=679|end_char=680
+11	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=681|end_char=687
+12	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=688|end_char=691
+13	11,50	11,50	NUM	CARD	NumType=Card	14	nummod	_	start_char=692|end_char=697
+14	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	start_char=698|end_char=702|SpaceAfter=No
+15	.	.	PUNCT	$.	_	11	punct	_	start_char=702|end_char=703|SpacesAfter=\s\s
+
+# text = Was brauchst du? - Deinen Ausweis oder Reisepass.
+# sent_id = 13
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=705|end_char=708
+2	brauchst	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=709|end_char=717
+3	du?	du?	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=718|end_char=721|SpacesAfter=\s\s
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=723|end_char=724
+5	Deinen	dein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=725|end_char=731
+6	Ausweis	Ausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	start_char=732|end_char=739
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=740|end_char=744
+8	Reisepass	Reisepass	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	start_char=745|end_char=754|SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=754|end_char=755
+
+# text = Bringe für jedes Kind seinen Kinderausweis mit.
+# sent_id = 14
+1	Bringe	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=756|end_char=762
+2	für	für	ADP	APPR	_	4	case	_	start_char=763|end_char=766
+3	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	4	det	_	start_char=767|end_char=772
+4	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=773|end_char=777
+5	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=778|end_char=784
+6	Kinderausweis	Kinderausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=785|end_char=798
+7	mit	mit	ADP	PTKVZ	_	1	compound:prt	_	start_char=799|end_char=802|SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=802|end_char=803
+
+# text = - Eine letzte offizielle Urkunde, wie eine Geburts- oder Heiratsurkunde.
+# sent_id = 15
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=804|end_char=805
+2	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=806|end_char=810
+3	letzte	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=811|end_char=817
+4	offizielle	offiziell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=818|end_char=828
+5	Urkunde	Urkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=829|end_char=836|SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=836|end_char=837
+7	wie	wie	ADP	KOKOM	_	9	case	_	start_char=838|end_char=841
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=842|end_char=846
+9	Geburts	Geburts	NOUN	TRUNC	_	5	nmod	_	start_char=847|end_char=854|SpaceAfter=No
+10	-	-	PUNCT	$(	_	12	punct	_	start_char=854|end_char=855
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=856|end_char=860
+12	Heiratsurkunde	Heiratsurkunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	start_char=861|end_char=875|SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=875|end_char=876|SpacesAfter=\s\s
+
+# text = Das kostet: Die Adresse-Anmeldung kostet nichts.
+# sent_id = 16
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=878|end_char=881
+2	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=882|end_char=888|SpaceAfter=No
+3	:	:	PUNCT	$.	_	8	punct	_	start_char=888|end_char=889|SpacesAfter=\s\s
+4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=891|end_char=894
+5	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	start_char=895|end_char=902|SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=902|end_char=903|SpaceAfter=No
+7	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=903|end_char=912
+8	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=913|end_char=919
+9	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	8	obj	_	start_char=920|end_char=926|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=926|end_char=927
+
+# text = Auto-Umle markets 10,70 Euro.
+# sent_id = 17
+1	Auto	Auto	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	start_char=928|end_char=932|SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=932|end_char=933|SpaceAfter=No
+3	Umle	Umle	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=933|end_char=937
+4	markets	markets	PROPN	NE	Case=Nom|Number=Sing	3	flat	_	start_char=938|end_char=945
+5	10,70	10,70	NUM	CARD	NumType=Card	6	nummod	_	start_char=946|end_char=951
+6	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	3	appos	_	start_char=952|end_char=956|SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=956|end_char=957
+
+# text = Neue Auto-Papiere kosten 11,50 Euro.
+# sent_id = 18
+1	Neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=958|end_char=962
+2	Auto	Auto	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=963|end_char=967|SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=967|end_char=968|SpaceAfter=No
+4	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=968|end_char=975
+5	kosten	kosten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=976|end_char=982
+6	11,50	11,50	NUM	CARD	NumType=Card	7	nummod	_	start_char=983|end_char=988
+7	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=989|end_char=993|SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=993|end_char=994|SpacesAfter=\s\s
+
+# text = Wie bezahlst du?
+# sent_id = 19
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=996|end_char=999
+2	bezahlst	bezahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1000|end_char=1008
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=1009|end_char=1011|SpaceAfter=No
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=1011|end_char=1012|SpacesAfter=\s\s
+
+# text = Es gibt viele verschiedene Möglichkeiten, wie du es bezahlen kannst.
+# sent_id = 20
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1014|end_char=1016
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1017|end_char=1021
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=1022|end_char=1027
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1028|end_char=1040
+5	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1041|end_char=1054|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=1054|end_char=1055
+7	wie	wie	SCONJ	KOUS	_	10	mark	_	start_char=1056|end_char=1059
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	start_char=1060|end_char=1062
+9	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=1063|end_char=1065
+10	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	2	advcl	_	start_char=1066|end_char=1074
+11	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1075|end_char=1081|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1081|end_char=1082
+
+# text = Finde Infos dazu auf der Seite des Stadtbüros.
+# sent_id = 21
+1	Finde	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1083|end_char=1088
+2	Infos	Info	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	1	obj	_	start_char=1089|end_char=1094
+3	dazu	dazu	ADV	PAV	PronType=Dem	1	advmod	_	start_char=1095|end_char=1099
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=1100|end_char=1103
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1104|end_char=1107
+6	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=1108|end_char=1113
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1114|end_char=1117
+8	Stadtbüros	Stadtbüro	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=1118|end_char=1128|SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=1128|end_char=1129|SpacesAfter=\s\s
+
+# text = Wie machst du einen Termin?
+# sent_id = 22
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=1131|end_char=1134
+2	machst	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1135|end_char=1141
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=1142|end_char=1144
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1145|end_char=1150
+5	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1151|end_char=1157|SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=1157|end_char=1158|SpacesAfter=\s\s
+
+# text = Das Stadtbüro ist nicht immer geöffnet.
+# sent_id = 23
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1160|end_char=1163
+2	Stadtbüro	Stadtbüro	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1164|end_char=1173
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1174|end_char=1177
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1178|end_char=1183
+5	immer	immer	ADV	ADV	_	6	advmod	_	start_char=1184|end_char=1189
+6	geöffnet	öffnen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=1190|end_char=1198|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1198|end_char=1199
+
+# text = Bitte schau auf der Seite des Stadtbüros nach den Öffnungszeiten.
+# sent_id = 24
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=1200|end_char=1205
+2	schau	schauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1206|end_char=1211
+3	auf	auf	ADP	APPR	_	5	case	_	start_char=1212|end_char=1215
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1216|end_char=1219
+5	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=1220|end_char=1225
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1226|end_char=1229
+7	Stadtbüros	Stadtbüro	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=1230|end_char=1240
+8	nach	nach	ADP	APPR	_	10	case	_	start_char=1241|end_char=1245
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=1246|end_char=1249
+10	Öffnungszeiten	Öffnungszeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=1250|end_char=1264|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1264|end_char=1265
+
+# text = Du kannst nur kommen, wenn du einen Termin hast.
+# sent_id = 25
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=1266|end_char=1268
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1269|end_char=1275
+3	nur	nur	ADV	ADV	_	4	advmod	_	start_char=1276|end_char=1279
+4	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1280|end_char=1286|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=1286|end_char=1287
+6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=1288|end_char=1292
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=1293|end_char=1295
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1296|end_char=1301
+9	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=1302|end_char=1308
+10	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=1309|end_char=1313|SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1313|end_char=1314
+
+# text = Frag bitte per E-Mail, nicht am Telefon.
+# sent_id = 26
+1	Frag	Frag	NOUN	PTKANT	Case=Nom|Number=Sing	2	nsubj	_	start_char=1315|end_char=1319
+2	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1320|end_char=1325
+3	per	per	ADP	APPR	_	6	case	_	start_char=1326|end_char=1329
+4	E	E	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=1330|end_char=1331|SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=1331|end_char=1332|SpaceAfter=No
+6	Mail	Mail	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=1332|end_char=1336|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=1336|end_char=1337
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=1338|end_char=1343
+9-10	am	_	_	_	_	_	_	_	start_char=1344|end_char=1346
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Telefon	Telefon	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=1347|end_char=1354|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1354|end_char=1355|SpacesAfter=\s\s
+
+# text = Hier sind die Öffnungszeiten: - Montag und Dienstag von 7:30 bis 15:00 Uhr - Mittwoch von 7:30 bis 12:00 Uhr - Donnerstag von 7:30 bis 18:00 Uhr - Freitag von 7:30 bis 12:00 Uhr - Samstag von 9:00 bis 12:00 Uhr Bitte merke: OHNE TERMIN KOMMST DU NICHT ZUM STADTBÜRO.
+# sent_id = 27
+1	Hier	hier	ADV	ADV	_	44	advmod	_	start_char=1357|end_char=1361
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	start_char=1362|end_char=1366
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1367|end_char=1370
+4	Öffnungszeiten	Öffnungszeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	44	nsubj	_	start_char=1371|end_char=1385|SpaceAfter=No
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=1385|end_char=1386|SpacesAfter=\s\s
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=1388|end_char=1389
+7	Montag	Montag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	start_char=1390|end_char=1396
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=1397|end_char=1400
+9	Dienstag	Dienstag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=1401|end_char=1409
+10	von	von	ADP	APPR	_	14	case	_	start_char=1410|end_char=1413
+11	7:30	7:30	NUM	CARD	NumType=Card	14	nummod	_	start_char=1414|end_char=1418
+12	bis	bis	ADP	APPR	_	13	case	_	start_char=1419|end_char=1422
+13	15:00	15:00	NUM	CARD	NumType=Card	14	nummod	_	start_char=1423|end_char=1428
+14	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=1429|end_char=1432
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=1433|end_char=1434
+16	Mittwoch	Mittwoch	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=1435|end_char=1443
+17	von	von	ADP	APPR	_	21	case	_	start_char=1444|end_char=1447
+18	7:30	7:30	NUM	CARD	NumType=Card	21	nummod	_	start_char=1448|end_char=1452
+19	bis	bis	ADP	APPR	_	20	case	_	start_char=1453|end_char=1456
+20	12:00	12:00	NUM	CARD	NumType=Card	21	nummod	_	start_char=1457|end_char=1462
+21	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	start_char=1463|end_char=1466
+22	-	-	PUNCT	$(	_	23	punct	_	start_char=1467|end_char=1468
+23	Donnerstag	Donnerstag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=1469|end_char=1479
+24	von	von	ADP	APPR	_	28	case	_	start_char=1480|end_char=1483
+25	7:30	7:30	NUM	CARD	NumType=Card	28	nummod	_	start_char=1484|end_char=1488
+26	bis	bis	ADP	APPR	_	27	case	_	start_char=1489|end_char=1492
+27	18:00	18:00	NUM	CARD	NumType=Card	28	nummod	_	start_char=1493|end_char=1498
+28	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	start_char=1499|end_char=1502
+29	-	-	PUNCT	$(	_	30	punct	_	start_char=1503|end_char=1504
+30	Freitag	Freitag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	start_char=1505|end_char=1512
+31	von	von	ADP	APPR	_	35	case	_	start_char=1513|end_char=1516
+32	7:30	7:30	NUM	CARD	NumType=Card	35	nummod	_	start_char=1517|end_char=1521
+33	bis	bis	ADP	APPR	_	34	case	_	start_char=1522|end_char=1525
+34	12:00	12:00	NUM	CARD	NumType=Card	35	nmod	_	start_char=1526|end_char=1531
+35	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	start_char=1532|end_char=1535
+36	-	-	PUNCT	$(	_	37	punct	_	start_char=1536|end_char=1537
+37	Samstag	Samstag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	35	flat	_	start_char=1538|end_char=1545
+38	von	von	ADP	APPR	_	42	case	_	start_char=1546|end_char=1549
+39	9:00	9:00	NUM	CARD	NumType=Card	42	nummod	_	start_char=1550|end_char=1554
+40	bis	bis	ADP	APPR	_	41	case	_	start_char=1555|end_char=1558
+41	12:00	12:00	NUM	CARD	NumType=Card	42	nmod	_	start_char=1559|end_char=1564
+42	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obl	_	start_char=1565|end_char=1568|SpacesAfter=\s\s
+43	Bitte	Bitte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	start_char=1570|end_char=1575
+44	merke	merken	VERB	VVIMP	Number=Sing|VerbForm=Fin	0	root	_	start_char=1576|end_char=1581|SpaceAfter=No
+45	:	:	PUNCT	$.	_	46	punct	_	start_char=1581|end_char=1582|SpacesAfter=\s\s
+46	OHNE	OHNE	PROPN	NE	Case=Nom|Number=Sing	44	appos	_	start_char=1584|end_char=1588
+47	TERMIN	TERMIN	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	46	flat	_	start_char=1589|end_char=1595
+48	KOMMST	KOMMST	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	46	flat	_	start_char=1596|end_char=1602
+49	DU	DU	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	46	flat	_	start_char=1603|end_char=1605
+50	NICHT	nicht	ADV	ADV	_	46	advmod	_	start_char=1606|end_char=1611
+51	ZUM	ZUM	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	46	flat	_	start_char=1612|end_char=1615
+52	STADTBÜRO	STADTBÜRO	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	51	flat	_	start_char=1616|end_char=1625|SpaceAfter=No
+53	.	.	PUNCT	$.	_	44	punct	_	start_char=1625|end_char=1626|SpaceAfter=No
+
