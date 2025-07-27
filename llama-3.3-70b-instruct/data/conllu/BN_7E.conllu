@@ -1,0 +1,372 @@
+# text = Hier ist der Text in der Deutschen Leichten Sprache: **Zweitwohnungssteuer**
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=13|end_char=17
+5	in	in	ADP	APPR	_	9	case	_	start_char=18|end_char=20
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=21|end_char=24
+7	Deutschen	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	start_char=25|end_char=34
+8	Leichten	leicht	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	start_char=35|end_char=43
+9	Sprache	Sprache	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=44|end_char=51|SpaceAfter=No
+10	:	:	PUNCT	$.	_	12	punct	_	start_char=51|end_char=52|SpacesAfter=\s\s
+11	**	**	PUNCT	$(	_	12	punct	_	start_char=54|end_char=56|SpaceAfter=No
+12	Zweitwohnungssteuer	Zweitwohnungssteuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	start_char=56|end_char=75|SpaceAfter=No
+13	*	*	PUNCT	$(	_	12	dep	_	start_char=75|end_char=76|SpaceAfter=No
+14	*	*	PUNCT	$(	_	12	dep	_	start_char=76|end_char=77|SpacesAfter=\s\s
+
+# text = Die Zweitwohnungssteuer ist eine Steuer, die die Stadt Braunschweig erhebt.
+# sent_id = 1
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=79|end_char=82
+2	Zweitwohnungssteuer	Zweitwohnungssteuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=83|end_char=102
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=103|end_char=106
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=107|end_char=111
+5	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=112|end_char=118|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=118|end_char=119
+7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=120|end_char=123
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=124|end_char=127
+9	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=128|end_char=133
+10	Braunschweig	Braunschweig	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	9	appos	_	start_char=134|end_char=146
+11	erhebt	erheben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=147|end_char=153|SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=153|end_char=154
+
+# text = Sie wurde am 16. Februar 2021 beschlossen und gilt ab dem 1. Januar 2022.
+# sent_id = 2
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	start_char=155|end_char=158
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=159|end_char=164
+3-4	am	_	_	_	_	_	_	_	start_char=165|end_char=167
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	16.	16.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	6	amod	_	start_char=168|end_char=171
+6	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=172|end_char=179
+7	2021	2021	NUM	CARD	NumType=Card	6	nmod	_	start_char=180|end_char=184
+8	beschlossen	beschließen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=185|end_char=196
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=197|end_char=200
+10	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=201|end_char=205
+11	ab	ab	ADP	APPR	_	14	case	_	start_char=206|end_char=208
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=209|end_char=212
+13	1.	1.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	14	amod	_	start_char=213|end_char=215
+14	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=216|end_char=222
+15	2022	2022	NUM	CARD	NumType=Card	14	nmod	_	start_char=223|end_char=227|SpaceAfter=No
+16	.	.	PUNCT	$.	_	8	punct	_	start_char=227|end_char=228|SpacesAfter=\s\s
+
+# text = **Warum gibt es diese Steuer?**
+# sent_id = 3
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=230|end_char=232|SpaceAfter=No
+2	Warum	warum	ADV	PWAV	PronType=Int	3	advmod	_	start_char=232|end_char=237
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=238|end_char=242
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=243|end_char=245
+5	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=246|end_char=251
+6	Steuer	Steuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	start_char=252|end_char=258|SpaceAfter=No
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=258|end_char=259|SpaceAfter=No
+8	*	*	PUNCT	$(	_	3	punct	_	start_char=259|end_char=260|SpaceAfter=No
+9	*	*	PUNCT	$(	_	3	punct	_	start_char=260|end_char=261|SpacesAfter=\s\s
+
+# text = Die Stadt Braunschweig will, dass alle Menschen, die in Braunschweig wohnen, auch zum Unterhalt der Stadt beitragen.
+# sent_id = 4
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=263|end_char=266
+2	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	start_char=267|end_char=272
+3	Braunschweig	Braunschweig	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	start_char=273|end_char=285
+4	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=286|end_char=290|SpaceAfter=No
+5	,	,	PUNCT	$,	_	21	punct	_	start_char=290|end_char=291
+6	dass	dass	SCONJ	KOUS	_	21	mark	_	start_char=292|end_char=296
+7	alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	8	det	_	start_char=297|end_char=301
+8	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	start_char=302|end_char=310|SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=310|end_char=311
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	start_char=312|end_char=315
+11	in	in	ADP	APPR	_	12	case	_	start_char=316|end_char=318
+12	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	start_char=319|end_char=331
+13	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=332|end_char=338|SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	start_char=338|end_char=339
+15	auch	auch	ADV	ADV	_	18	advmod	_	start_char=340|end_char=344
+16-17	zum	_	_	_	_	_	_	_	start_char=345|end_char=348
+16	zu	zu	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Unterhalt	Unterhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	start_char=349|end_char=358
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=359|end_char=362
+20	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=363|end_char=368
+21	beitragen	beitragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=369|end_char=378|SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	start_char=378|end_char=379
+
+# text = Die Steuer soll helfen, die Kosten für Straßen, Schulen und andere öffentliche Einrichtungen zu finanzieren.
+# sent_id = 5
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=380|end_char=383
+2	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=384|end_char=390
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=391|end_char=395
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=396|end_char=402|SpaceAfter=No
+5	,	,	PUNCT	$,	_	17	punct	_	start_char=402|end_char=403
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=404|end_char=407
+7	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	17	obj	_	start_char=408|end_char=414
+8	für	für	ADP	APPR	_	9	case	_	start_char=415|end_char=418
+9	Straßen	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	start_char=419|end_char=426|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=426|end_char=427
+11	Schulen	Schule	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=428|end_char=435
+12	und	und	CCONJ	KON	_	15	cc	_	start_char=436|end_char=439
+13	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	start_char=440|end_char=446
+14	öffentliche	öffentlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=447|end_char=458
+15	Einrichtungen	Einrichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=459|end_char=472
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=473|end_char=475
+17	finanzieren	finanzieren	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=476|end_char=487|SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	start_char=487|end_char=488|SpacesAfter=\s\s
+
+# text = **Wer muss die Steuer zahlen?**
+# sent_id = 6
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=490|end_char=492|SpaceAfter=No
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=492|end_char=495
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=496|end_char=500
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=501|end_char=504
+5	Steuer	Steuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=505|end_char=511
+6	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=512|end_char=518|SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=518|end_char=519|SpaceAfter=No
+8	*	*	PUNCT	$(	_	6	punct	_	start_char=519|end_char=520|SpaceAfter=No
+9	*	*	PUNCT	$(	_	6	punct	_	start_char=520|end_char=521|SpacesAfter=\s\s
+
+# text = Die Steuer muss jeder zahlen, der eine Zweitwohnung in Braunschweig hat.
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=523|end_char=526
+2	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	start_char=527|end_char=533
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=534|end_char=538
+4	jeder	jeder	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	5	nsubj	_	start_char=539|end_char=544
+5	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=545|end_char=551|SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=551|end_char=552
+7	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	12	nsubj	_	start_char=553|end_char=556
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=557|end_char=561
+9	Zweitwohnung	Zweitwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=562|end_char=574
+10	in	in	ADP	APPR	_	11	case	_	start_char=575|end_char=577
+11	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=578|end_char=590
+12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=591|end_char=594|SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=594|end_char=595
+
+# text = Das bedeutet, dass die Person in dieser Wohnung nicht ihren Hauptwohnsitz hat.
+# sent_id = 8
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=596|end_char=599
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=600|end_char=608|SpaceAfter=No
+3	,	,	PUNCT	$,	_	13	punct	_	start_char=608|end_char=609
+4	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=610|end_char=614
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=615|end_char=618
+6	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=619|end_char=625
+7	in	in	ADP	APPR	_	9	case	_	start_char=626|end_char=628
+8	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=629|end_char=635
+9	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=636|end_char=643
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=644|end_char=649
+11	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=650|end_char=655
+12	Hauptwohnsitz	Hauptwohnsitz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=656|end_char=669
+13	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=670|end_char=673|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=673|end_char=674|SpacesAfter=\s\s
+
+# text = **Wie hoch ist die Steuer?**
+# sent_id = 9
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=676|end_char=678|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=678|end_char=681
+3	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	start_char=682|end_char=686
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=687|end_char=690
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=691|end_char=694
+6	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=695|end_char=701|SpaceAfter=No
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=701|end_char=702|SpaceAfter=No
+8	*	*	X	XY	_	3	dep	_	start_char=702|end_char=703|SpaceAfter=No
+9	*	*	PUNCT	$(	_	3	punct	_	start_char=703|end_char=704|SpacesAfter=\s\s
+
+# text = Die Steuer beträgt 10% der Miete, die für die Wohnung gezahlt wird.
+# sent_id = 10
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=706|end_char=709
+2	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=710|end_char=716
+3	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=717|end_char=724
+4	10%	10%	NUM	CARD	NumType=Card	3	obj	_	start_char=725|end_char=728
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=729|end_char=732
+6	Miete	Miete	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=733|end_char=738|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=738|end_char=739
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	12	nsubj:pass	_	start_char=740|end_char=743
+9	für	für	ADP	APPR	_	11	case	_	start_char=744|end_char=747
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=748|end_char=751
+11	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=752|end_char=759
+12	gezahlt	zahlen	VERB	VVPP	VerbForm=Part	6	acl	_	start_char=760|end_char=767
+13	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	start_char=768|end_char=772|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=772|end_char=773
+
+# text = Wenn die Wohnung im Eigentum ist oder umsonst überlassen wird, wird die Miete geschätzt.
+# sent_id = 11
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=774|end_char=778
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=779|end_char=782
+3	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=783|end_char=790
+4-5	im	_	_	_	_	_	_	_	start_char=791|end_char=793
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Eigentum	Eigentum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=794|end_char=802
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=803|end_char=806
+8	oder	oder	CCONJ	KON	_	10	cc	_	start_char=807|end_char=811
+9	umsonst	umsonst	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=812|end_char=819
+10	überlassen	überlassen	VERB	VVPP	VerbForm=Part	16	advcl	_	start_char=820|end_char=830
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=831|end_char=835|SpaceAfter=No
+12	,	,	PUNCT	$,	_	7	punct	_	start_char=835|end_char=836
+13	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	start_char=837|end_char=841
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=842|end_char=845
+15	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	start_char=846|end_char=851
+16	geschätzt	schätzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=852|end_char=861|SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=861|end_char=862|SpacesAfter=\s\s
+
+# text = **Wer ist von der Steuer ausgenommen?**
+# sent_id = 12
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=864|end_char=866|SpaceAfter=No
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	7	nsubj:pass	_	start_char=866|end_char=869
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=870|end_char=873
+4	von	von	ADP	APPR	_	6	case	_	start_char=874|end_char=877
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=878|end_char=881
+6	Steuer	Steuer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl:agent	_	start_char=882|end_char=888
+7	ausgenommen	ausgenommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=889|end_char=900|SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=900|end_char=901|SpaceAfter=No
+9	*	*	SYM	XY	_	7	dep	_	start_char=901|end_char=902|SpaceAfter=No
+10	*	*	PUNCT	$(	_	7	punct	_	start_char=902|end_char=903|SpacesAfter=\s\s
+
+# text = Einige Menschen sind von der Steuer ausgenommen, zum Beispiel: * Studierende und Auszubildende, die unter 28 Jahren alt sind und bei ihren Eltern in Braunschweig wohnen.
+# sent_id = 13
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=905|end_char=911
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	start_char=912|end_char=920
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	start_char=921|end_char=925
+4	von	von	ADP	APPR	_	6	case	_	start_char=926|end_char=929
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=930|end_char=933
+6	Steuer	Steuer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl:agent	_	start_char=934|end_char=940
+7	ausgenommen	ausgenommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=941|end_char=952|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=952|end_char=953
+9-10	zum	_	_	_	_	_	_	_	start_char=954|end_char=957
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=958|end_char=966|SpaceAfter=No
+12	:	:	PUNCT	$.	_	14	punct	_	start_char=966|end_char=967|SpacesAfter=\s\s
+13	*	*	PUNCT	$(	_	14	punct	_	start_char=969|end_char=970
+14	Studierende	Studierende	NOUN	NN	Case=Nom|Number=Plur	7	parataxis	_	start_char=971|end_char=982
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=983|end_char=986
+16	Auszubildende	Auszubildender	NOUN	NN	Case=Nom|Number=Plur	14	conj	_	start_char=987|end_char=1000|SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	start_char=1000|end_char=1001
+18	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	22	nsubj	_	start_char=1002|end_char=1005
+19	unter	unter	ADP	APPR	_	21	case	_	start_char=1006|end_char=1011
+20	28	28	NUM	CARD	NumType=Card	21	nummod	_	start_char=1012|end_char=1014
+21	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	start_char=1015|end_char=1021
+22	alt	alt	ADJ	ADJD	Degree=Pos	14	acl	_	start_char=1022|end_char=1025
+23	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=1026|end_char=1030
+24	und	und	CCONJ	KON	_	30	cc	_	start_char=1031|end_char=1034
+25	bei	bei	ADP	APPR	_	27	case	_	start_char=1035|end_char=1038
+26	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	start_char=1039|end_char=1044
+27	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Plur	30	obl	_	start_char=1045|end_char=1051
+28	in	in	ADP	APPR	_	29	case	_	start_char=1052|end_char=1054
+29	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	30	obl	_	start_char=1055|end_char=1067
+30	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	start_char=1068|end_char=1074|SpaceAfter=No
+31	.	.	PUNCT	$.	_	7	punct	_	start_char=1074|end_char=1075
+
+# text = * Menschen, die in ihrer Wohnung therapeutisch oder sozialpädagogisch betreut werden.
+# sent_id = 14
+1	*	*	SYM	XY	_	2	dep	_	start_char=1076|end_char=1077
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1078|end_char=1086|SpaceAfter=No
+3	,	,	PUNCT	$,	_	11	punct	_	start_char=1086|end_char=1087
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj:pass	_	start_char=1088|end_char=1091
+5	in	in	ADP	APPR	_	7	case	_	start_char=1092|end_char=1094
+6	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=1095|end_char=1100
+7	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=1101|end_char=1108
+8	therapeutisch	therapeutisch	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=1109|end_char=1122
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1123|end_char=1127
+10	sozialpädagogisch	sozialpädagogisch	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=1128|end_char=1145
+11	betreut	betreuen	VERB	VVPP	VerbForm=Part	2	acl	_	start_char=1146|end_char=1153
+12	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=1154|end_char=1160|SpaceAfter=No
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=1160|end_char=1161|SpacesAfter=\s\s
+
+# text = **Wie funktioniert das Verfahren?**
+# sent_id = 15
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=1163|end_char=1165|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	_	3	advmod	_	start_char=1165|end_char=1168
+3	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1169|end_char=1181
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1182|end_char=1185
+5	Verfahren	Verfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1186|end_char=1195|SpaceAfter=No
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=1195|end_char=1196|SpaceAfter=No
+7	*	*	PUNCT	$(	_	3	punct	_	start_char=1196|end_char=1197|SpaceAfter=No
+8	*	*	PUNCT	$(	_	3	punct	_	start_char=1197|end_char=1198|SpacesAfter=\s\s
+
+# text = Die Stadt Braunschweig schreibt an alle Menschen, die eine Zweitwohnung in Braunschweig haben, und bittet sie, eine Steuererklärung auszufüllen.
+# sent_id = 16
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1200|end_char=1203
+2	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1204|end_char=1209
+3	Braunschweig	Braunschweig	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	start_char=1210|end_char=1222
+4	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1223|end_char=1231
+5	an	an	ADP	APPR	_	7	case	_	start_char=1232|end_char=1234
+6	alle	alle	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	start_char=1235|end_char=1239
+7	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	start_char=1240|end_char=1248|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=1248|end_char=1249
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj	_	start_char=1250|end_char=1253
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=1254|end_char=1258
+11	Zweitwohnung	Zweitwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=1259|end_char=1271
+12	in	in	ADP	APPR	_	13	case	_	start_char=1272|end_char=1274
+13	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=1275|end_char=1287
+14	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=1288|end_char=1293|SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=1293|end_char=1294
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=1295|end_char=1298
+17	bittet	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=1299|end_char=1305
+18	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	start_char=1306|end_char=1309|SpaceAfter=No
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=1309|end_char=1310
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=1311|end_char=1315
+21	Steuererklärung	Steuererklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=1316|end_char=1331
+22	auszufüllen	ausfüllen	VERB	VVIZU	VerbForm=Inf	17	xcomp	_	start_char=1332|end_char=1343|SpaceAfter=No
+23	.	.	PUNCT	$.	_	4	punct	_	start_char=1343|end_char=1344
+
+# text = Die Steuererklärung muss zurückgesandt werden, damit die Stadt entscheiden kann, ob die Steuer gezahlt werden muss.
+# sent_id = 17
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1345|end_char=1348
+2	Steuererklärung	Steuererklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=1349|end_char=1364
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1365|end_char=1369
+4	zurückgesandt	zurücksenden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1370|end_char=1383
+5	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	4	aux:pass	_	start_char=1384|end_char=1390|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=1390|end_char=1391
+7	damit	damit	SCONJ	KOUS	_	10	mark	_	start_char=1392|end_char=1397
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1398|end_char=1401
+9	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1402|end_char=1407
+10	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	4	advcl	_	start_char=1408|end_char=1419
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1420|end_char=1424|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=1424|end_char=1425
+13	ob	ob	SCONJ	KOUS	_	16	mark	_	start_char=1426|end_char=1428
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1429|end_char=1432
+15	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj:pass	_	start_char=1433|end_char=1439
+16	gezahlt	zahlen	VERB	VVPP	VerbForm=Part	10	ccomp	_	start_char=1440|end_char=1447
+17	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	16	aux:pass	_	start_char=1448|end_char=1454
+18	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1455|end_char=1459|SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	start_char=1459|end_char=1460|SpacesAfter=\s\s
+
+# text = **Wann ist die Steuer fällig?**
+# sent_id = 18
+1	**	**	PUNCT	$(	_	6	punct	_	start_char=1462|end_char=1464|SpaceAfter=No
+2	Wann	wann	ADV	PWAV	_	6	advmod	_	start_char=1464|end_char=1468
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1469|end_char=1472
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1473|end_char=1476
+5	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1477|end_char=1483
+6	fällig	fällig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1484|end_char=1490|SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=1490|end_char=1491|SpaceAfter=No
+8	*	*	SYM	XY	_	6	dep	_	start_char=1491|end_char=1492|SpaceAfter=No
+9	*	*	PUNCT	$(	_	6	punct	_	start_char=1492|end_char=1493|SpacesAfter=\s\s
+
+# text = Die Steuer ist zu je einem Viertel ihres Jahresbetrages am 15. Februar, 15. Mai, 15. August und 15. November fällig.
+# sent_id = 19
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1495|end_char=1498
+2	Steuer	Steuer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	start_char=1499|end_char=1505
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	start_char=1506|end_char=1509
+4	zu	zu	ADP	APPR	_	7	case	_	start_char=1510|end_char=1512
+5	je	je	ADV	ADV	_	6	advmod	_	start_char=1513|end_char=1515
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1516|end_char=1521
+7	Viertel	Viertel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	nmod	_	start_char=1522|end_char=1529
+8	ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=1530|end_char=1535
+9	Jahresbetrages	Jahresbetrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=1536|end_char=1550
+10-11	am	_	_	_	_	_	_	_	start_char=1551|end_char=1553
+10	an	an	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+12	15.	15.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	13	amod	_	start_char=1554|end_char=1557
+13	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	26	nmod	_	start_char=1558|end_char=1565|SpaceAfter=No
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=1565|end_char=1566
+15	15	15	NUM	CARD	NumType=Card	13	conj	_	start_char=1567|end_char=1569|SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=1569|end_char=1570
+17	Mai	Mai	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	start_char=1571|end_char=1574|SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	start_char=1574|end_char=1575
+19	15	15	NUM	CARD	NumType=Card	17	nummod	_	start_char=1576|end_char=1578|SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=1578|end_char=1579
+21	August	August	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	start_char=1580|end_char=1586
+22	und	und	CCONJ	KON	_	25	cc	_	start_char=1587|end_char=1590
+23	15	15	NUM	CARD	NumType=Card	21	conj	_	start_char=1591|end_char=1593|SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	start_char=1593|end_char=1594
+25	November	November	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	start_char=1595|end_char=1603
+26	fällig	fällig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1604|end_char=1610|SpaceAfter=No
+27	.	.	PUNCT	$.	_	3	punct	_	start_char=1610|end_char=1611|SpaceAfter=No
+

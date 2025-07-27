@@ -1,0 +1,245 @@
+# text = **BAföG für Schüler** BAföG ist eine Hilfe für Schüler.
+# sent_id = 0
+1	**BAföG	**BAföG	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=0|end_char=7
+2	für	für	ADP	APPR	_	3	case	_	start_char=8|end_char=11
+3	Schüler	Schüler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	start_char=12|end_char=19|SpaceAfter=No
+4	*	*	PUNCT	$(	_	3	appos	_	start_char=19|end_char=20|SpaceAfter=No
+5	*	*	PUNCT	$(	_	6	punct	_	start_char=20|end_char=21|SpacesAfter=\s\s
+6	BAföG	BAföG	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	start_char=23|end_char=28
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=29|end_char=32
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=33|end_char=37
+9	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=38|end_char=43
+10	für	für	ADP	APPR	_	11	case	_	start_char=44|end_char=47
+11	Schüler	Schüler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	start_char=48|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=55|end_char=56
+
+# text = Sie bekommen Geld, wenn sie nicht genug Geld für ihre Ausbildung haben.
+# sent_id = 1
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=57|end_char=60
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=61|end_char=69
+3	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=70|end_char=74|SpaceAfter=No
+4	,	,	PUNCT	$,	_	13	punct	_	start_char=74|end_char=75
+5	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=76|end_char=80
+6	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=81|end_char=84
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=85|end_char=90
+8	genug	genug	DET	PIAT	PronType=Ind	9	det	_	start_char=91|end_char=96
+9	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=97|end_char=101
+10	für	für	ADP	APPR	_	12	case	_	start_char=102|end_char=105
+11	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=106|end_char=110
+12	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=111|end_char=121
+13	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=122|end_char=127|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=127|end_char=128|SpacesAfter=\s\s
+
+# text = **Wer bekommt BAföG?** Schüler von bestimmten Schulen können BAföG bekommen.
+# sent_id = 2
+1	**	**	PUNCT	$(	_	2	punct	_	start_char=130|end_char=132|SpaceAfter=No
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=132|end_char=135
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	start_char=136|end_char=143
+4	BAföG?	BAföG?	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	start_char=144|end_char=150|SpaceAfter=No
+5	*	*	PUNCT	$(	_	3	advmod	_	start_char=150|end_char=151|SpaceAfter=No
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=151|end_char=152
+7	Schüler	Schüler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=153|end_char=160
+8	von	von	ADP	APPR	_	10	case	_	start_char=161|end_char=164
+9	bestimmten	bestimmt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=165|end_char=175
+10	Schulen	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=176|end_char=183
+11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=184|end_char=190
+12	BAföG	BAföG	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=191|end_char=196
+13	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=197|end_char=205|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=205|end_char=206
+
+# text = Dazu gehören: * Weiterführende Schulen (z.B. ab Klasse 10) * Berufsfachschulen * Fach- und Fachoberschulen **Wie viel Geld bekommt man?**
+# sent_id = 3
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=207|end_char=211
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=212|end_char=219|SpaceAfter=No
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=219|end_char=220
+4	*	*	SYM	XY	_	6	dep	_	start_char=221|end_char=222
+5	Weiterführende	weiterführend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=223|end_char=237
+6	Schulen	Schule	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=238|end_char=245
+7	(	(	PUNCT	$(	_	10	punct	_	start_char=246|end_char=247|SpaceAfter=No
+8	z.B.	z.B.	X	ADV	_	10	advmod	_	start_char=247|end_char=251
+9	ab	ab	ADP	APPR	_	10	case	_	start_char=252|end_char=254
+10	Klasse	Klasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=255|end_char=261
+11	10	10	NUM	CARD	NumType=Card	10	appos	_	start_char=262|end_char=264|SpaceAfter=No
+12	)	)	PUNCT	$(	_	10	punct	_	start_char=264|end_char=265
+13	*	*	PUNCT	$(	_	14	punct	_	start_char=266|end_char=267
+14	Berufsfachschulen	Berufsfachschule	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	appos	_	start_char=268|end_char=285
+15	*	*	PUNCT	$(	_	16	punct	_	start_char=286|end_char=287
+16	Fach	Fach	NOUN	TRUNC	_	14	appos	_	start_char=288|end_char=292|SpaceAfter=No
+17	-	-	PUNCT	$(	_	19	punct	_	start_char=292|end_char=293
+18	und	und	CCONJ	KON	_	19	cc	_	start_char=294|end_char=297
+19	Fachoberschulen	Fachoberschule	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	conj	_	start_char=298|end_char=313|SpacesAfter=\s\s
+20	**	**	PUNCT	$(	_	24	punct	_	start_char=315|end_char=317|SpaceAfter=No
+21	Wie	wie	ADV	PWAV	PronType=Int	24	advmod	_	start_char=317|end_char=320
+22	viel	viel	DET	PIAT	PronType=Ind	23	det	_	start_char=321|end_char=325
+23	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	start_char=326|end_char=330
+24	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=331|end_char=338
+25	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	start_char=339|end_char=342|SpaceAfter=No
+26	?	?	PUNCT	$.	_	24	punct	_	start_char=342|end_char=343|SpaceAfter=No
+27	*	*	PUNCT	$(	_	24	punct	_	start_char=343|end_char=344|SpaceAfter=No
+28	*	*	PUNCT	$(	_	2	punct	_	start_char=344|end_char=345
+
+# text = Das hängt vom Einkommen (das ist das Geld, das man verdient) und Vermögen (das sind die Dinge, die man besitzt, wie z.B. ein Haus oder Geld auf der Bank) ab.
+# sent_id = 4
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=346|end_char=349
+2	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=350|end_char=355
+3-4	vom	_	_	_	_	_	_	_	start_char=356|end_char=359
+3	von	von	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Einkommen	Einkommen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=360|end_char=369
+6	(	(	PUNCT	$(	_	10	punct	_	start_char=370|end_char=371|SpaceAfter=No
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=371|end_char=374
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=375|end_char=378
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=379|end_char=382
+10	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=383|end_char=387|SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=387|end_char=388
+12	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	obj	_	start_char=389|end_char=392
+13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=393|end_char=396
+14	verdient	verdienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=397|end_char=405|SpaceAfter=No
+15	)	)	PUNCT	$(	_	10	punct	_	start_char=405|end_char=406
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=407|end_char=410
+17	Vermögen	Vermögen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	start_char=411|end_char=419
+18	(	(	PUNCT	$(	_	22	punct	_	start_char=420|end_char=421|SpaceAfter=No
+19	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	22	nsubj	_	start_char=421|end_char=424
+20	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=425|end_char=429
+21	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	22	det	_	start_char=430|end_char=433
+22	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	17	appos	_	start_char=434|end_char=439|SpaceAfter=No
+23	,	,	PUNCT	$,	_	26	punct	_	start_char=439|end_char=440
+24	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	26	obj	_	start_char=441|end_char=444
+25	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	26	nsubj	_	start_char=445|end_char=448
+26	besitzt	besitzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	start_char=449|end_char=456|SpaceAfter=No
+27	,	,	PUNCT	$,	_	31	punct	_	start_char=456|end_char=457
+28	wie	wie	ADP	KOKOM	_	31	case	_	start_char=458|end_char=461
+29	z.B.	z.B.	X	ADV	_	31	dep	_	start_char=462|end_char=466
+30	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	31	det	_	start_char=467|end_char=470
+31	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	conj	_	start_char=471|end_char=475
+32	oder	oder	CCONJ	KON	_	33	cc	_	start_char=476|end_char=480
+33	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	31	conj	_	start_char=481|end_char=485
+34	auf	auf	ADP	APPR	_	36	case	_	start_char=486|end_char=489
+35	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=490|end_char=493
+36	Bank	Bank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	nmod	_	start_char=494|end_char=498|SpaceAfter=No
+37	)	)	PUNCT	$(	_	31	punct	_	start_char=498|end_char=499
+38	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=500|end_char=502|SpaceAfter=No
+39	.	.	PUNCT	$.	_	2	punct	_	start_char=502|end_char=503
+
+# text = Es hängt auch vom Einkommen der Eltern ab.
+# sent_id = 5
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=504|end_char=506
+2	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=507|end_char=512
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=513|end_char=517
+4-5	vom	_	_	_	_	_	_	_	start_char=518|end_char=521
+4	von	von	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Einkommen	Einkommen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=522|end_char=531
+7	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=532|end_char=535
+8	Eltern	Eltern	NOUN	NN	Case=Gen|Number=Plur	6	nmod	_	start_char=536|end_char=542
+9	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=543|end_char=545|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=545|end_char=546|SpacesAfter=\s\s
+
+# text = **Wie kann man BAföG beantragen?**
+# sent_id = 6
+1	**	**	PUNCT	$(	_	6	punct	_	start_char=548|end_char=550|SpaceAfter=No
+2	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=550|end_char=553
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=554|end_char=558
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=559|end_char=562
+5	BAföG	BAföG	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=563|end_char=568
+6	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=569|end_char=579|SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=579|end_char=580|SpaceAfter=No
+8	*	*	PUNCT	$(	_	6	punct	_	start_char=580|end_char=581|SpaceAfter=No
+9	*	*	PUNCT	$(	_	6	punct	_	start_char=581|end_char=582
+
+# text = Man muss einen Antrag stellen.
+# sent_id = 7
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=583|end_char=586
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=587|end_char=591
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=592|end_char=597
+4	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=598|end_char=604
+5	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=605|end_char=612|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=612|end_char=613
+
+# text = Den Antrag kann man beim Amt für Ausbildungsförderung stellen.
+# sent_id = 8
+1	Den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=614|end_char=617
+2	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=618|end_char=624
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=625|end_char=629
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=630|end_char=633
+5-6	beim	_	_	_	_	_	_	_	start_char=634|end_char=638
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=639|end_char=642
+8	für	für	ADP	APPR	_	9	case	_	start_char=643|end_char=646
+9	Ausbildungsförderung	Ausbildungsförderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=647|end_char=667
+10	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=668|end_char=675|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=675|end_char=676|SpacesAfter=\s\s
+
+# text = **Was benötigt man?**
+# sent_id = 9
+1	**	**	PUNCT	$(	_	3	punct	_	start_char=678|end_char=680|SpaceAfter=No
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=680|end_char=683
+3	benötigt	benötigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=684|end_char=692
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=693|end_char=696|SpaceAfter=No
+5	?	?	PUNCT	$.	_	3	punct	_	start_char=696|end_char=697|SpaceAfter=No
+6	*	*	X	XY	_	3	dep	_	start_char=697|end_char=698|SpaceAfter=No
+7	*	*	PUNCT	$(	_	3	punct	_	start_char=698|end_char=699
+
+# text = Man benötigt Antragformulare.
+# sent_id = 10
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=700|end_char=703
+2	benötigt	benötigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=704|end_char=712
+3	Antragformulare	Antragformular	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=713|end_char=728|SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=728|end_char=729
+
+# text = Die Formulare kann man im Amt oder online herunterladen.
+# sent_id = 11
+1	Die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=730|end_char=733
+2	Formulare	Formular	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=734|end_char=743
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=744|end_char=748
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=749|end_char=752
+5-6	im	_	_	_	_	_	_	_	start_char=753|end_char=755
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=756|end_char=759
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=760|end_char=764
+9	online	online	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=765|end_char=771
+10	herunterladen	herunterladen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=772|end_char=785|SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=785|end_char=786|SpacesAfter=\s\s
+
+# text = Hinweis: Ich habe den Text vereinfacht und unwichtige Informationen entfernt.
+# sent_id = 12
+1	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=788|end_char=795|SpaceAfter=No
+2	:	:	PUNCT	$.	_	7	punct	_	start_char=795|end_char=796
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=797|end_char=800
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=801|end_char=805
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=806|end_char=809
+6	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=810|end_char=814
+7	vereinfacht	vereinfachen	VERB	VVPP	VerbForm=Part	1	appos	_	start_char=815|end_char=826
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=827|end_char=830
+9	unwichtige	unwichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=831|end_char=841
+10	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=842|end_char=855
+11	entfernt	entfernen	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=856|end_char=864|SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=864|end_char=865
+
+# text = Ich habe auch einfache syntaktische Strukturen verwendet und Erklärungen für schwierige Wörter wie "Einkommen" und "Vermögen" hinzugefügt.
+# sent_id = 13
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=866|end_char=869
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=870|end_char=874
+3	auch	auch	ADV	ADV	_	7	advmod	_	start_char=875|end_char=879
+4	einfache	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=880|end_char=888
+5	syntaktische	syntaktisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=889|end_char=901
+6	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=902|end_char=912
+7	verwendet	verwenden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=913|end_char=922
+8	und	und	CCONJ	KON	_	21	cc	_	start_char=923|end_char=926
+9	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	start_char=927|end_char=938
+10	für	für	ADP	APPR	_	12	case	_	start_char=939|end_char=942
+11	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	start_char=943|end_char=953
+12	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	start_char=954|end_char=960
+13	wie	wie	ADP	KOKOM	_	15	case	_	start_char=961|end_char=964
+14	"	"	PUNCT	$(	_	15	punct	_	start_char=965|end_char=966|SpaceAfter=No
+15	Einkommen	Einkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	start_char=966|end_char=975|SpaceAfter=No
+16	"	"	PUNCT	$(	_	15	punct	_	start_char=975|end_char=976
+17	und	und	CCONJ	KON	_	19	cc	_	start_char=977|end_char=980
+18	"	"	PUNCT	$(	_	19	punct	_	start_char=981|end_char=982|SpaceAfter=No
+19	Vermögen	Vermögen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	conj	_	start_char=982|end_char=990|SpaceAfter=No
+20	"	"	PUNCT	$(	_	19	punct	_	start_char=990|end_char=991
+21	hinzugefügt	hinzufügen	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=992|end_char=1003|SpaceAfter=No
+22	.	.	PUNCT	$.	_	7	punct	_	start_char=1003|end_char=1004|SpaceAfter=No
+
