@@ -32,7 +32,8 @@ Linguistic approach:linguistischer Ansatz (Sprachebenen): reformuliere den Text,
 │   │   └── txt/               # Raw text files with same naming convention
 │   ├── plots/                 # Visualizations for all complexity measures
 │   ├── Holistic_and_Linguistic_Data_LLM Name.csv
-│   └── Complexity_Matrix_LLM Name.csv
+│   ├── Complexity_Matrix_LLM Name.csv
+|   └── textLABindices.csv
 ````
 
 ---
