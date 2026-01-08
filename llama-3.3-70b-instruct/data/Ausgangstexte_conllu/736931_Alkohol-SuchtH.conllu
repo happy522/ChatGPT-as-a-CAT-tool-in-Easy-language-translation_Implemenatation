@@ -1,0 +1,405 @@
+# text = **Alkoholsucht** Alkoholsucht ist ein großes Problem für die Gesundheit.
+# sent_id = 0
+1-2	*	_	_	_	_	_	_	_	SpaceAfter=No|start_char=0|end_char=1
+1	<SOS>n	<SOS>n	NOUN	NN	Case=Nom|Number=Sing	12	dep	_	_
+2	de*	de*	PUNCT	$(	_	3	punct	_	_
+3-4	*	_	_	_	_	_	_	_	SpaceAfter=No|start_char=1|end_char=2
+3	<SOS>n	<SOS>n	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	_
+4	de*	de*	PUNCT	$(	_	5	punct	_	_
+5	Alkoholsucht	Alkoholsucht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No|start_char=2|end_char=14
+6	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=14|end_char=15
+7	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=15|end_char=16
+8	Alkoholsucht	Alkoholsucht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=18|end_char=30
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=31|end_char=34
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=35|end_char=38
+11	großes	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=39|end_char=45
+12	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=46|end_char=53
+13	für	für	ADP	APPR	_	15	case	_	start_char=54|end_char=57
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=58|end_char=61
+15	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=62|end_char=72
+16	.	.	PUNCT	$.	_	12	punct	_	start_char=72|end_char=73
+
+# text = Wenn du Probleme mit Alkohol hast, solltest du mit deinem Arzt sprechen.
+# sent_id = 1
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=74|end_char=78
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	start_char=79|end_char=81
+3	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=82|end_char=90
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=91|end_char=94
+5	Alkohol	Alkohol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=95|end_char=102
+6	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No|start_char=103|end_char=107
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=107|end_char=108
+8	solltest	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=109|end_char=117
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=118|end_char=120
+10	mit	mit	ADP	APPR	_	12	case	_	start_char=121|end_char=124
+11	deinem	dein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=125|end_char=131
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=132|end_char=136
+13	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=137|end_char=145
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=145|end_char=146
+
+# text = Es gibt Tests, die helfen können, zu sehen, ob du ein Problem mit Alkohol hast.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=147|end_char=149
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=150|end_char=154
+3	Tests	Test	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=155|end_char=160
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=160|end_char=161
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	6	nsubj	_	start_char=162|end_char=165
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	3	acl	_	start_char=166|end_char=172
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=173|end_char=179
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=179|end_char=180
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=181|end_char=183
+10	sehen	sehen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=184|end_char=189
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=189|end_char=190
+12	ob	ob	SCONJ	KOUS	_	18	mark	_	start_char=191|end_char=193
+13	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	start_char=194|end_char=196
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=197|end_char=200
+15	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=201|end_char=208
+16	mit	mit	ADP	APPR	_	17	case	_	start_char=209|end_char=212
+17	Alkohol	Alkohol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	start_char=213|end_char=220
+18	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No|start_char=221|end_char=225
+19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=225|end_char=226
+
+# text = **Was ist Alkoholsucht?** Alkoholsucht bedeutet, dass man zu viel Alkohol trinkt und nicht mehr aufhören kann.
+# sent_id = 3
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=228|end_char=230
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=230|end_char=233
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=234|end_char=237
+4	Alkoholsucht	Alkoholsucht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=238|end_char=250
+5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=250|end_char=251
+6	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=251|end_char=252
+7	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s|start_char=252|end_char=253
+8	Alkoholsucht	Alkoholsucht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=255|end_char=267
+9	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|start_char=268|end_char=276
+10	,	,	PUNCT	$,	_	16	punct	_	start_char=276|end_char=277
+11	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=278|end_char=282
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=283|end_char=286
+13	zu	zu	ADP	APPR	_	15	case	_	start_char=287|end_char=289
+14	viel	viel	DET	PIAT	PronType=Ind	15	det	_	start_char=290|end_char=294
+15	Alkohol	Alkohol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=295|end_char=302
+16	trinkt	trinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	start_char=303|end_char=309
+17	und	und	CCONJ	KON	_	20	cc	_	start_char=310|end_char=313
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	start_char=314|end_char=319
+19	mehr	mehr	ADV	ADV	_	20	advmod	_	start_char=320|end_char=324
+20	aufhören	aufhören	VERB	VVINF	VerbForm=Inf	16	conj	_	start_char=325|end_char=333
+21	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No|start_char=334|end_char=338
+22	.	.	PUNCT	$.	_	4	punct	_	start_char=338|end_char=339
+
+# text = Das kann zu körperlichen, psychischen und sozialen Problemen führen.
+# sent_id = 4
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=340|end_char=343
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=344|end_char=348
+3	zu	zu	ADP	APPR	_	9	case	_	start_char=349|end_char=351
+4	körperlichen	körperlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No|start_char=352|end_char=364
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=364|end_char=365
+6	psychischen	psychisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	start_char=366|end_char=377
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=378|end_char=381
+8	sozialen	sozial	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	conj	_	start_char=382|end_char=390
+9	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=391|end_char=400
+10	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=401|end_char=407
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=407|end_char=408
+
+# text = **Psychische Probleme** sind Probleme mit deinen Gedanken und Gefühlen.
+# sent_id = 5
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=409|end_char=411
+2	Psychische	psychisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=411|end_char=421
+3	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No|start_char=422|end_char=430
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=430|end_char=431
+5	*	*	PUNCT	$(	_	3	appos	_	start_char=431|end_char=432
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=433|end_char=437
+7	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=438|end_char=446
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=447|end_char=450
+9	deinen	dein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=451|end_char=457
+10	Gedanken	Gedanke	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	start_char=458|end_char=466
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=467|end_char=470
+12	Gefühlen	Gefühl	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No|start_char=471|end_char=479
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=479|end_char=480
+
+# text = **Soziale Probleme** sind Probleme mit deinen Beziehungen zu anderen Menschen.
+# sent_id = 6
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=481|end_char=483
+2	Soziale	sozial	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=483|end_char=490
+3	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No|start_char=491|end_char=499
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=499|end_char=500
+5	*	*	PUNCT	$(	_	3	appos	_	start_char=500|end_char=501
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=502|end_char=506
+7	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=507|end_char=515
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=516|end_char=519
+9	deinen	dein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=520|end_char=526
+10	Beziehungen	Beziehung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=527|end_char=538
+11	zu	zu	ADP	APPR	_	13	case	_	start_char=539|end_char=541
+12	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	start_char=542|end_char=549
+13	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No|start_char=550|end_char=558
+14	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=558|end_char=559
+
+# text = **Wie gefährlich ist Alkoholkonsum?**
+# sent_id = 7
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=561|end_char=563
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=563|end_char=566
+3	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=567|end_char=577
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=578|end_char=581
+5	Alkoholkonsum	Alkoholkonsum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=582|end_char=595
+6	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=595|end_char=596
+7	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=596|end_char=597
+8	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=597|end_char=598
+
+# text = Es gibt kein sicheres Maß an Alkohol, das man trinken kann, ohne dass es gefährlich wird.
+# sent_id = 8
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=600|end_char=602
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=603|end_char=607
+3	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	5	det	_	start_char=608|end_char=612
+4	sicheres	sicher	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=613|end_char=621
+5	Maß	Maß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=622|end_char=625
+6	an	an	ADP	APPR	_	7	case	_	start_char=626|end_char=628
+7	Alkohol	Alkohol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=629|end_char=636
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=636|end_char=637
+9	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obj	_	start_char=638|end_char=641
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=642|end_char=645
+11	trinken	trinken	VERB	VVINF	VerbForm=Inf	7	acl	_	start_char=646|end_char=653
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|start_char=654|end_char=658
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=658|end_char=659
+14	ohne	ohne	ADP	KOUI	_	18	mark	_	start_char=660|end_char=664
+15	dass	dass	SCONJ	KOUS	_	18	mark	_	start_char=665|end_char=669
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=670|end_char=672
+17	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	18	xcomp	_	start_char=673|end_char=683
+18	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No|start_char=684|end_char=688
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=688|end_char=689
+
+# text = Wenn du regelmäßig mehr als 12 Gramm Alkohol pro Tag trinkst, ist das ein Problem.
+# sent_id = 9
+1	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=690|end_char=694
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=695|end_char=697
+3	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=698|end_char=708
+4	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=709|end_char=713
+5	als	als	ADP	KOKOM	_	7	case	_	start_char=714|end_char=717
+6	12	12	NUM	CARD	NumType=Card	7	nummod	_	start_char=718|end_char=720
+7	Gramm	Gramm	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	nmod	_	start_char=721|end_char=726
+8	Alkohol	Alkohol	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=727|end_char=734
+9	pro	pro	ADP	APPR	_	10	case	_	start_char=735|end_char=738
+10	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=739|end_char=742
+11	trinkst	trinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No|start_char=743|end_char=750
+12	,	,	PUNCT	$,	_	11	punct	_	start_char=750|end_char=751
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=752|end_char=755
+14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=756|end_char=759
+15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=760|end_char=763
+16	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=764|end_char=771
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=771|end_char=772
+
+# text = **Regelmäßig** bedeutet, dass du jeden Tag oder fast jeden Tag Alkohol trinkst.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=773|end_char=775
+2	Regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	5	advmod	_	SpaceAfter=No|start_char=775|end_char=785
+3	*	*	PUNCT	$(	_	2	advmod	_	SpaceAfter=No|start_char=785|end_char=786
+4	*	*	PUNCT	$(	_	5	advmod	_	start_char=786|end_char=787
+5	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=788|end_char=796
+6	,	,	PUNCT	$,	_	16	punct	_	start_char=796|end_char=797
+7	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=798|end_char=802
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	start_char=803|end_char=805
+9	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	10	det	_	start_char=806|end_char=811
+10	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	start_char=812|end_char=815
+11	oder	oder	CCONJ	KON	_	14	cc	_	start_char=816|end_char=820
+12	fast	fast	ADV	ADV	_	13	advmod	_	start_char=821|end_char=825
+13	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	14	det	_	start_char=826|end_char=831
+14	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	start_char=832|end_char=835
+15	Alkohol	Alkohol	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=836|end_char=843
+16	trinkst	trinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No|start_char=844|end_char=851
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=851|end_char=852
+
+# text = **Symptome** Alkoholkonsum kann zu verschiedenen Symptomen führen, wie zum Beispiel: * Koordinations- und Bewegungsstörungen (du kannst dich nicht mehr gut bewegen) * undeutliche Aussprache (du sprichst nicht mehr klar) * Erweiterung der Blutgefäße (deine Blutgefäße werden größer) * vermehrtes Schwitzen (du schwitzt mehr als normal) * gesteigerte Harnbildung (du musst öfter auf die Toilette) **Hilfe** Wenn du Probleme mit Alkohol hast, solltest du mit deinem Arzt sprechen.
+# sent_id = 11
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=854|end_char=856
+2	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No|start_char=856|end_char=864
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=864|end_char=865
+4	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=865|end_char=866
+5	Alkoholkonsum	Alkoholkonsum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=868|end_char=881
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=882|end_char=886
+7	zu	zu	ADP	APPR	_	9	case	_	start_char=887|end_char=889
+8	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=890|end_char=903
+9	Symptomen	Symptom	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=904|end_char=913
+10	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=914|end_char=920
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=920|end_char=921
+12	wie	wie	ADP	KOKOM	_	15	case	_	start_char=922|end_char=925
+13-14	zum	_	_	_	_	_	_	_	start_char=926|end_char=929
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|start_char=930|end_char=938
+16	:	:	PUNCT	$.	_	18	punct	_	SpacesAfter=\s\s|start_char=938|end_char=939
+17	*	*	PUNCT	$(	_	18	punct	_	start_char=941|end_char=942
+18	Koordinations	Koordination	NOUN	TRUNC	_	10	parataxis	_	SpaceAfter=No|start_char=943|end_char=956
+19	-	-	PUNCT	$(	_	21	punct	_	start_char=956|end_char=957
+20	und	und	CCONJ	KON	_	21	cc	_	start_char=958|end_char=961
+21	Bewegungsstörungen	Bewegungsstörung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	conj	_	start_char=962|end_char=980
+22	(	(	PUNCT	$(	_	29	punct	_	SpaceAfter=No|start_char=981|end_char=982
+23	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	_	start_char=982|end_char=984
+24	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=985|end_char=991
+25	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	29	obj	_	start_char=992|end_char=996
+26	nicht	nicht	PART	PTKNEG	Polarity=Neg	29	advmod	_	start_char=997|end_char=1002
+27	mehr	mehr	ADV	ADV	_	26	advmod	_	start_char=1003|end_char=1007
+28	gut	gut	ADJ	ADJD	Degree=Pos	29	advmod	_	start_char=1008|end_char=1011
+29	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	18	parataxis	_	SpaceAfter=No|start_char=1012|end_char=1019
+30	)	)	PUNCT	$(	_	29	punct	_	start_char=1019|end_char=1020
+31	*	*	PUNCT	$(	_	33	punct	_	start_char=1021|end_char=1022
+32	undeutliche	undeutlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=1023|end_char=1034
+33	Aussprache	Aussprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	start_char=1035|end_char=1045
+34	(	(	PUNCT	$(	_	36	punct	_	SpaceAfter=No|start_char=1046|end_char=1047
+35	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	36	nsubj	_	start_char=1047|end_char=1049
+36	sprichst	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	parataxis	_	start_char=1050|end_char=1058
+37	nicht	nicht	PART	PTKNEG	Polarity=Neg	36	advmod	_	start_char=1059|end_char=1064
+38	mehr	mehr	ADV	ADV	_	39	advmod	_	start_char=1065|end_char=1069
+39	klar	klar	ADJ	ADJD	Degree=Pos	36	advmod	_	SpaceAfter=No|start_char=1070|end_char=1074
+40	)	)	PUNCT	$(	_	36	punct	_	start_char=1074|end_char=1075
+41	*	*	PUNCT	$(	_	42	punct	_	start_char=1076|end_char=1077
+42	Erweiterung	Erweiterung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	conj	_	start_char=1078|end_char=1089
+43	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	44	det	_	start_char=1090|end_char=1093
+44	Blutgefäße	Blutgefäß	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	start_char=1094|end_char=1104
+45	(	(	PUNCT	$(	_	48	punct	_	SpaceAfter=No|start_char=1105|end_char=1106
+46	deine	dein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	det:poss	_	start_char=1106|end_char=1111
+47	Blutgefäße	Blutgefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	start_char=1112|end_char=1122
+48	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	parataxis	_	start_char=1123|end_char=1129
+49	größer	groß	ADJ	ADJD	Degree=Cmp	42	parataxis	_	SpaceAfter=No|start_char=1130|end_char=1136
+50	)	)	PUNCT	$(	_	49	punct	_	start_char=1136|end_char=1137
+51	*	*	PUNCT	$(	_	53	cc	_	start_char=1138|end_char=1139
+52	vermehrtes	vermehrtes	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	53	amod	_	start_char=1140|end_char=1150
+53	Schwitzen	Schwitzen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	42	conj	_	start_char=1151|end_char=1160
+54	(	(	PUNCT	$(	_	56	punct	_	SpaceAfter=No|start_char=1161|end_char=1162
+55	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	56	nsubj	_	start_char=1162|end_char=1164
+56	schwitzt	schwitzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	parataxis	_	start_char=1165|end_char=1173
+57	mehr	mehr	ADV	ADV	_	56	advmod	_	start_char=1174|end_char=1178
+58	als	als	ADP	KOKOM	_	59	case	_	start_char=1179|end_char=1182
+59	normal	normal	ADJ	ADJD	Degree=Pos	56	amod	_	SpaceAfter=No|start_char=1183|end_char=1189
+60	)	)	PUNCT	$(	_	56	punct	_	start_char=1189|end_char=1190
+61	*	*	PUNCT	$(	_	63	punct	_	start_char=1191|end_char=1192
+62	gesteigerte	gesteigert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	63	amod	_	start_char=1193|end_char=1204
+63	Harnbildung	Harnbildung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	53	appos	_	start_char=1205|end_char=1216
+64	(	(	PUNCT	$(	_	66	punct	_	SpaceAfter=No|start_char=1217|end_char=1218
+65	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	66	nsubj	_	start_char=1218|end_char=1220
+66	musst	müssen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	63	parataxis	_	start_char=1221|end_char=1226
+67	öfter	oft	ADV	ADV	_	66	advmod	_	start_char=1227|end_char=1232
+68	auf	auf	ADP	APPR	_	70	case	_	start_char=1233|end_char=1236
+69	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	start_char=1237|end_char=1240
+70	Toilette	Toilette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	66	obl	_	SpaceAfter=No|start_char=1241|end_char=1249
+71	)	)	PUNCT	$(	_	66	punct	_	SpacesAfter=\s\s|start_char=1249|end_char=1250
+72	*	*	PUNCT	$(	_	74	punct	_	SpaceAfter=No|start_char=1252|end_char=1253
+73	*	*	PUNCT	$(	_	74	case	_	SpaceAfter=No|start_char=1253|end_char=1254
+74	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	66	obj	_	SpaceAfter=No|start_char=1254|end_char=1259
+75	*	*	PUNCT	$(	_	82	punct	_	SpaceAfter=No|start_char=1259|end_char=1260
+76	*	*	PUNCT	$(	_	82	punct	_	SpacesAfter=\s\s|start_char=1260|end_char=1261
+77	Wenn	wenn	SCONJ	KOUS	_	82	mark	_	start_char=1263|end_char=1267
+78	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	82	nsubj	_	start_char=1268|end_char=1270
+79	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	82	obj	_	start_char=1271|end_char=1279
+80	mit	mit	ADP	APPR	_	81	case	_	start_char=1280|end_char=1283
+81	Alkohol	Alkohol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	82	obl	_	start_char=1284|end_char=1291
+82	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	89	advcl	_	SpaceAfter=No|start_char=1292|end_char=1296
+83	,	,	PUNCT	$,	_	82	punct	_	start_char=1296|end_char=1297
+84	solltest	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	89	aux	_	start_char=1298|end_char=1306
+85	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	89	nsubj	_	start_char=1307|end_char=1309
+86	mit	mit	ADP	APPR	_	88	case	_	start_char=1310|end_char=1313
+87	deinem	dein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	88	det:poss	_	start_char=1314|end_char=1320
+88	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	89	obl	_	start_char=1321|end_char=1325
+89	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=1326|end_char=1334
+90	.	.	PUNCT	$.	_	10	punct	_	start_char=1334|end_char=1335
+
+# text = Es gibt auch Beratungsstellen, die helfen können.
+# sent_id = 12
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1336|end_char=1338
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1339|end_char=1343
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1344|end_char=1348
+4	Beratungsstellen	Beratungsstelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=1349|end_char=1365
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=1365|end_char=1366
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	7	nsubj	_	start_char=1367|end_char=1370
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	4	acl	_	start_char=1371|end_char=1377
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No|start_char=1378|end_char=1384
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1384|end_char=1385
+
+# text = Die Therapie für Alkoholsucht besteht darin, die Motivation zu erhöhen, um aufzuhören, und ein Leben in guter Qualität zu ermöglichen.
+# sent_id = 13
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1386|end_char=1389
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1390|end_char=1398
+3	für	für	ADP	APPR	_	4	case	_	start_char=1399|end_char=1402
+4	Alkoholsucht	Alkoholsucht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1403|end_char=1415
+5	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1416|end_char=1423
+6	darin	darin	ADV	PAV	PronType=Dem	5	advmod	_	SpaceAfter=No|start_char=1424|end_char=1429
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=1429|end_char=1430
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1431|end_char=1434
+9	Motivation	Motivation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=1435|end_char=1445
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=1446|end_char=1448
+11	erhöhen	erhöhen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|start_char=1449|end_char=1456
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=1456|end_char=1457
+13	um	um	ADP	KOUI	_	14	mark	_	start_char=1458|end_char=1460
+14	aufzuhören	aufhören	VERB	VVIZU	VerbForm=Inf	5	advcl	_	SpaceAfter=No|start_char=1461|end_char=1471
+15	,	,	PUNCT	$,	_	23	punct	_	start_char=1471|end_char=1472
+16	und	und	CCONJ	KON	_	23	cc	_	start_char=1473|end_char=1476
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=1477|end_char=1480
+18	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	start_char=1481|end_char=1486
+19	in	in	ADP	APPR	_	21	case	_	start_char=1487|end_char=1489
+20	guter	gut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=1490|end_char=1495
+21	Qualität	Qualität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	start_char=1496|end_char=1504
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=1505|end_char=1507
+23	ermöglichen	ermöglichen	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No|start_char=1508|end_char=1519
+24	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1519|end_char=1520
+
+# text = Ich habe den Text wie folgt vereinfacht: * Ich habe unwichtige Informationen entfernt (Textebene) * Ich habe Nebensätze entfernt und einfache syntaktische Strukturen verwendet (Satzebene) * Ich habe Erklärungen für schwierige Wörter hinzugefügt (Wortebene) Ich hoffe, das hilft!
+# sent_id = 14
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=1522|end_char=1525
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1526|end_char=1530
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1531|end_char=1534
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=1535|end_char=1539
+5	wie	wie	ADP	KOKOM	_	6	case	_	start_char=1540|end_char=1543
+6	folgt	folgen	VERB	ADJD	_	7	xcomp	_	start_char=1544|end_char=1549
+7	vereinfacht	vereinfachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1550|end_char=1561
+8	:	:	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=1561|end_char=1562
+9	*	*	PUNCT	$(	_	14	punct	_	start_char=1564|end_char=1565
+10	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=1566|end_char=1569
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1570|end_char=1574
+12	unwichtige	unwichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1575|end_char=1585
+13	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=1586|end_char=1599
+14	entfernt	entfernen	VERB	VVPP	VerbForm=Part	7	parataxis	_	start_char=1600|end_char=1608
+15	(	(	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=1609|end_char=1610
+16	Textebene	Textebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No|start_char=1610|end_char=1619
+17	)	)	PUNCT	$(	_	16	punct	_	start_char=1619|end_char=1620
+18	*	*	PUNCT	$(	_	22	punct	_	start_char=1621|end_char=1622
+19	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=1623|end_char=1626
+20	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=1627|end_char=1631
+21	Nebensätze	Nebensatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	start_char=1632|end_char=1642
+22	entfernt	entfernen	VERB	VVPP	VerbForm=Part	14	conj	_	start_char=1643|end_char=1651
+23	und	und	CCONJ	KON	_	27	cc	_	start_char=1652|end_char=1655
+24	einfache	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=1656|end_char=1664
+25	syntaktische	syntaktisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=1665|end_char=1677
+26	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	start_char=1678|end_char=1688
+27	verwendet	verwenden	VERB	VVPP	VerbForm=Part	22	conj	_	start_char=1689|end_char=1698
+28	(	(	PUNCT	$(	_	29	punct	_	SpaceAfter=No|start_char=1699|end_char=1700
+29	Satzebene	Satzebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	appos	_	SpaceAfter=No|start_char=1700|end_char=1709
+30	)	)	PUNCT	$(	_	29	punct	_	start_char=1709|end_char=1710
+31	*	*	PUNCT	$(	_	38	punct	_	start_char=1711|end_char=1712
+32	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	start_char=1713|end_char=1716
+33	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	aux	_	start_char=1717|end_char=1721
+34	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	38	obj	_	start_char=1722|end_char=1733
+35	für	für	ADP	APPR	_	37	case	_	start_char=1734|end_char=1737
+36	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	37	amod	_	start_char=1738|end_char=1748
+37	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	34	nmod	_	start_char=1749|end_char=1755
+38	hinzugefügt	hinzufügen	VERB	VVPP	VerbForm=Part	27	ccomp	_	start_char=1756|end_char=1767
+39	(	(	PUNCT	$(	_	40	punct	_	SpaceAfter=No|start_char=1768|end_char=1769
+40	Wortebene	Wortebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	appos	_	SpaceAfter=No|start_char=1769|end_char=1778
+41	)	)	PUNCT	$(	_	40	punct	_	SpacesAfter=\s\s|start_char=1778|end_char=1779
+42	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	start_char=1781|end_char=1784
+43	hoffe	hoffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	parataxis	_	SpaceAfter=No|start_char=1785|end_char=1790
+44	,	,	PUNCT	$,	_	46	punct	_	start_char=1790|end_char=1791
+45	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	46	nsubj	_	start_char=1792|end_char=1795
+46	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	SpaceAfter=No|start_char=1796|end_char=1801
+47	!	!	PUNCT	$.	_	7	punct	_	start_char=1801|end_char=1802
+
+# text = Wenn du noch Fragen hast, stehe ich gerne zur Verfügung.
+# sent_id = 15
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1803|end_char=1807
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1808|end_char=1810
+3	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1811|end_char=1815
+4	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=1816|end_char=1822
+5	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=1823|end_char=1827
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=1827|end_char=1828
+7	stehe	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1829|end_char=1834
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=1835|end_char=1838
+9	gerne	gerne	ADV	ADV	_	7	advmod	_	start_char=1839|end_char=1844
+10-11	zur	_	_	_	_	_	_	_	start_char=1845|end_char=1848
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|start_char=1849|end_char=1858
+13	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1858|end_char=1859
+

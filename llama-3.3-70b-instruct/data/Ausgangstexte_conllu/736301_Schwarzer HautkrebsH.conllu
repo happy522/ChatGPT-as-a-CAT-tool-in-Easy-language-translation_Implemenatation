@@ -1,0 +1,406 @@
+# text = **Was ist ein Melanom?**
+# sent_id = 0
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=2|end_char=5
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6|end_char=9
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=10|end_char=13
+5	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=14|end_char=21
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=21|end_char=22
+7	*	*	PUNCT	$(	_	5	dep	_	SpaceAfter=No|start_char=22|end_char=23
+8	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=23|end_char=24
+
+# text = Ein Melanom ist ein bösartiger Tumor auf der Haut.
+# sent_id = 1
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=26|end_char=29
+2	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=30|end_char=37
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=38|end_char=41
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=42|end_char=45
+5	bösartiger	bösartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=46|end_char=56
+6	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=57|end_char=62
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=63|end_char=66
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=67|end_char=70
+9	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=71|end_char=75
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=75|end_char=76
+
+# text = Es entsteht oft durch zu viel Sonnenlicht.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=77|end_char=79
+2	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=80|end_char=88
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=89|end_char=92
+4	durch	durch	ADP	APPR	_	7	case	_	start_char=93|end_char=98
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=99|end_char=101
+6	viel	viel	DET	PIAT	PronType=Ind	7	det	_	start_char=102|end_char=106
+7	Sonnenlicht	Sonnenlicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=107|end_char=118
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=118|end_char=119
+
+# text = **Wie entsteht ein Melanom?**
+# sent_id = 3
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=122|end_char=124
+2	Wie	wie	ADV	PWAV	_	3	advmod	_	start_char=124|end_char=127
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=128|end_char=136
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=137|end_char=140
+5	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=141|end_char=148
+6	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=148|end_char=149
+7	*	*	X	XY	_	3	dep	_	SpaceAfter=No|start_char=149|end_char=150
+8	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=150|end_char=151
+
+# text = Ein Melanom entsteht, wenn Hautzellen falsch wachsen.
+# sent_id = 4
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=153|end_char=156
+2	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=157|end_char=164
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=165|end_char=173
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=173|end_char=174
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=175|end_char=179
+6	Hautzellen	Hautzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=180|end_char=190
+7	falsch	falsch	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=191|end_char=197
+8	wachsen	wachsen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=198|end_char=205
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=205|end_char=206
+
+# text = Zu viel Sonnenlicht kann das verursachen.
+# sent_id = 5
+1	Zu	zu	ADP	APPR	_	3	case	_	start_char=207|end_char=209
+2	viel	viel	DET	PIAT	PronType=Ind	3	det	_	start_char=210|end_char=214
+3	Sonnenlicht	Sonnenlicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=215|end_char=226
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=227|end_char=231
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=232|end_char=235
+6	verursachen	verursachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=236|end_char=247
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=247|end_char=248
+
+# text = **Symptome**
+# sent_id = 6
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=250|end_char=252
+2	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=252|end_char=260
+3	*	*	PUNCT	$(	_	2	dep	_	SpaceAfter=No|start_char=260|end_char=261
+4	*	*	PUNCT	$(	_	2	dep	_	SpacesAfter=\s\s|start_char=261|end_char=262
+
+# text = Ein Melanom kann überall auf der Haut auftreten.
+# sent_id = 7
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=264|end_char=267
+2	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=268|end_char=275
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=276|end_char=280
+4	überall	überall	ADV	ADV	_	8	advmod	_	start_char=281|end_char=288
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=289|end_char=292
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=293|end_char=296
+7	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=297|end_char=301
+8	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=302|end_char=311
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=311|end_char=312
+
+# text = Es gibt einige Anzeichen: * Asymmetrie: Wenn ein Leberfleck nicht rund ist.
+# sent_id = 8
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=313|end_char=315
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=316|end_char=320
+3	einige	einige	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=321|end_char=327
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=328|end_char=337
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=337|end_char=338
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=339|end_char=340
+7	Asymmetrie	Asymmetrie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|start_char=341|end_char=351
+8	:	:	PUNCT	$.	_	13	punct	_	start_char=351|end_char=352
+9	Wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=353|end_char=357
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=358|end_char=361
+11	Leberfleck	Leberfleck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=362|end_char=372
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=373|end_char=378
+13	rund	rund	ADJ	ADJD	Degree=Pos	7	advcl	_	start_char=379|end_char=383
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No|start_char=384|end_char=387
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=387|end_char=388
+
+# text = * Begrenzung: Wenn ein Leberfleck unregelmäßig begrenzt ist.
+# sent_id = 9
+1	*	*	SYM	$(	_	2	dep	_	start_char=390|end_char=391
+2	Begrenzung	Begrenzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=392|end_char=402
+3	:	:	PUNCT	$.	_	8	punct	_	start_char=402|end_char=403
+4	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=404|end_char=408
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=409|end_char=412
+6	Leberfleck	Leberfleck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=413|end_char=423
+7	unregelmäßig	unregelmäßig	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=424|end_char=436
+8	begrenzt	begrenzen	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=437|end_char=445
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=446|end_char=449
+10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s|start_char=449|end_char=450
+
+# text = * Farbveränderung: Wenn ein Leberfleck mehrere Farben hat.
+# sent_id = 10
+1	*	*	PUNCT	$(	_	2	advmod	_	start_char=452|end_char=453
+2	Farbveränderung	Farbveränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=454|end_char=469
+3	:	:	PUNCT	$.	_	9	punct	_	start_char=469|end_char=470
+4	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=471|end_char=475
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=476|end_char=479
+6	Leberfleck	Leberfleck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=480|end_char=490
+7	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	start_char=491|end_char=498
+8	Farben	Farbe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=499|end_char=505
+9	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=506|end_char=509
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=509|end_char=510
+
+# text = * Durchmesser: Wenn ein Leberfleck größer als 5 Millimeter ist.
+# sent_id = 11
+1	*	*	X	XY	_	2	dep	_	start_char=512|end_char=513
+2	Durchmesser	Durchmesser	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=514|end_char=525
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=525|end_char=526
+4	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=527|end_char=531
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=532|end_char=535
+6	Leberfleck	Leberfleck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=536|end_char=546
+7	größer	groß	ADJ	ADJD	Degree=Cmp	2	advcl	_	start_char=547|end_char=553
+8	als	als	ADP	KOKOM	_	10	case	_	start_char=554|end_char=557
+9	5	5	NUM	CARD	NumType=Card	10	nummod	_	start_char=558|end_char=559
+10	Millimeter	Millimeter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	start_char=560|end_char=570
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No|start_char=571|end_char=574
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=574|end_char=575
+
+# text = * Erhabenheit: Wenn ein Leberfleck einen Knoten bildet.
+# sent_id = 12
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=577|end_char=578
+2	Erhabenheit	Erhabenheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=579|end_char=590
+3	:	:	PUNCT	$.	_	9	punct	_	start_char=590|end_char=591
+4	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=592|end_char=596
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=597|end_char=600
+6	Leberfleck	Leberfleck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=601|end_char=611
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=612|end_char=617
+8	Knoten	Knoten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=618|end_char=624
+9	bildet	bilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=625|end_char=631
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=631|end_char=632
+
+# text = Wenn Sie eines dieser Anzeichen bemerken, sollten Sie zum Arzt gehen.
+# sent_id = 13
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=634|end_char=638
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=639|end_char=642
+3	eines	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	obj	_	start_char=643|end_char=648
+4	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=649|end_char=655
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	start_char=656|end_char=665
+6	bemerken	bemerken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No|start_char=666|end_char=674
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=674|end_char=675
+8	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=676|end_char=683
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	start_char=684|end_char=687
+10-11	zum	_	_	_	_	_	_	_	start_char=688|end_char=691
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=692|end_char=696
+13	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=697|end_char=702
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s|start_char=702|end_char=703
+
+# text = **Behandlung** Die beste Behandlung ist die chirurgische Entfernung des Tumors.
+# sent_id = 14
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=705|end_char=707
+2	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	dep	_	SpaceAfter=No|start_char=707|end_char=717
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=717|end_char=718
+4	*	*	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=718|end_char=719
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=721|end_char=724
+6	beste	gut	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	7	amod	_	start_char=725|end_char=730
+7	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=731|end_char=741
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=742|end_char=745
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=746|end_char=749
+10	chirurgische	chirurgisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=750|end_char=762
+11	Entfernung	Entfernung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=763|end_char=773
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=774|end_char=777
+13	Tumors	Tumor	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=778|end_char=784
+14	.	.	PUNCT	$.	_	11	punct	_	start_char=784|end_char=785
+
+# text = Wenn das Melanom früh entdeckt wird, ist die Prognose sehr gut.
+# sent_id = 15
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=786|end_char=790
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=791|end_char=794
+3	Melanom	Melanom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	start_char=795|end_char=802
+4	früh	früh	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=803|end_char=807
+5	entdeckt	entdecken	VERB	VVPP	VerbForm=Part	12	advcl	_	start_char=808|end_char=816
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	SpaceAfter=No|start_char=817|end_char=821
+7	,	,	PUNCT	$,	_	5	punct	_	start_char=821|end_char=822
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=823|end_char=826
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=827|end_char=830
+10	Prognose	Prognose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=831|end_char=839
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	start_char=840|end_char=844
+12	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=845|end_char=848
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=848|end_char=849
+
+# text = **Vorsorge** Sie können das Risiko senken, indem Sie zu viel Sonnenlicht vermeiden.
+# sent_id = 16
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=851|end_char=853
+2	Vorsorge	Vorsorge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No|start_char=853|end_char=861
+3	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=861|end_char=862
+4	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s|start_char=862|end_char=863
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=865|end_char=868
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=869|end_char=875
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=876|end_char=879
+8	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=880|end_char=886
+9	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=887|end_char=893
+10	,	,	PUNCT	$,	_	16	punct	_	start_char=893|end_char=894
+11	indem	indem	SCONJ	KOUS	_	16	mark	_	start_char=895|end_char=900
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=901|end_char=904
+13	zu	zu	ADV	PTKA	_	14	advmod	_	start_char=905|end_char=907
+14	viel	viel	DET	PIAT	PronType=Ind	15	det	_	start_char=908|end_char=912
+15	Sonnenlicht	Sonnenlicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=913|end_char=924
+16	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No|start_char=925|end_char=934
+17	.	.	PUNCT	$.	_	9	punct	_	start_char=934|end_char=935
+
+# text = Regelmäßige Arztbesuche sind auch wichtig.
+# sent_id = 17
+1	Regelmäßige	regelmäßig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=936|end_char=947
+2	Arztbesuche	Arztbesuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=948|end_char=959
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=960|end_char=964
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=965|end_char=969
+5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=970|end_char=977
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=977|end_char=978
+
+# text = **Wichtiger Hinweis** Dieser Text enthält nur allgemeine Hinweise.
+# sent_id = 18
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=980|end_char=982
+2	Wichtiger	Wichtiger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=982|end_char=991
+3	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=992|end_char=999
+4	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=999|end_char=1000
+5	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=1000|end_char=1001
+6	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=1003|end_char=1009
+7	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1010|end_char=1014
+8	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1015|end_char=1022
+9	nur	nur	ADV	ADV	_	8	advmod	_	start_char=1023|end_char=1026
+10	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=1027|end_char=1037
+11	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|start_char=1038|end_char=1046
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=1046|end_char=1047
+
+# text = Bitte gehen Sie zum Arzt, wenn Sie Symptome haben oder Fragen haben.
+# sent_id = 19
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=1048|end_char=1053
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1054|end_char=1059
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1060|end_char=1063
+4-5	zum	_	_	_	_	_	_	_	start_char=1064|end_char=1067
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1068|end_char=1072
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=1072|end_char=1073
+8	wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=1074|end_char=1078
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=1079|end_char=1082
+10	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=1083|end_char=1091
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=1092|end_char=1097
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=1098|end_char=1102
+13	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=1103|end_char=1109
+14	haben	haben	VERB	VAINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No|start_char=1110|end_char=1115
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=1115|end_char=1116
+
+# text = Erklärungen für schwierige Wörter: * **Bösartiger Tumor**: Ein Tumor, der sich schnell vermehrt und andere Teile des Körpers schädigen kann.
+# sent_id = 20
+1	Erklärungen	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1118|end_char=1129
+2	für	für	ADP	APPR	_	4	case	_	start_char=1130|end_char=1133
+3	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=1134|end_char=1144
+4	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No|start_char=1145|end_char=1151
+5	:	:	PUNCT	$.	_	10	punct	_	start_char=1151|end_char=1152
+6	*	*	PUNCT	$(	_	10	punct	_	start_char=1153|end_char=1154
+7	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=1155|end_char=1156
+8	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=1156|end_char=1157
+9	Bösartiger	Bösartiger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=1157|end_char=1167
+10	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|start_char=1168|end_char=1173
+11	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=1173|end_char=1174
+12	*	*	PUNCT	$(	_	15	dep	_	SpaceAfter=No|start_char=1174|end_char=1175
+13	:	:	PUNCT	$.	_	15	punct	_	start_char=1175|end_char=1176
+14	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=1177|end_char=1180
+15	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|start_char=1181|end_char=1186
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=1186|end_char=1187
+17	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	20	nsubj	_	start_char=1188|end_char=1191
+18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	start_char=1192|end_char=1196
+19	schnell	schnell	ADJ	ADJD	Degree=Pos	20	advmod	_	start_char=1197|end_char=1204
+20	vermehrt	vermehren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	start_char=1205|end_char=1213
+21	und	und	CCONJ	KON	_	26	cc	_	start_char=1214|end_char=1217
+22	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	start_char=1218|end_char=1224
+23	Teile	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	obj	_	start_char=1225|end_char=1230
+24	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=1231|end_char=1234
+25	Körpers	Körper	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	start_char=1235|end_char=1242
+26	schädigen	schädigen	VERB	VVINF	VerbForm=Inf	20	conj	_	start_char=1243|end_char=1252
+27	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No|start_char=1253|end_char=1257
+28	.	.	PUNCT	$.	_	1	punct	_	start_char=1257|end_char=1258
+
+# text = * **Asymmetrie**: Wenn etwas nicht symmetrisch ist, bedeutet es, dass es nicht gleichmäßig oder rund ist.
+# sent_id = 21
+1	*	*	PUNCT	$(	_	14	dep	_	start_char=1259|end_char=1260
+2	*	*	SYM	$(	_	14	dep	_	SpaceAfter=No|start_char=1261|end_char=1262
+3	*	*	SYM	XY	_	4	dep	_	SpaceAfter=No|start_char=1262|end_char=1263
+4	Asymmetrie	Asymmetrie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|start_char=1263|end_char=1273
+5	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1273|end_char=1274
+6	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1274|end_char=1275
+7	:	:	PUNCT	$.	_	11	punct	_	start_char=1275|end_char=1276
+8	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=1277|end_char=1281
+9	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	11	nsubj	_	start_char=1282|end_char=1287
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=1288|end_char=1293
+11	symmetrisch	symmetrisch	ADJ	ADJD	Degree=Pos	14	advcl	_	start_char=1294|end_char=1305
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No|start_char=1306|end_char=1309
+13	,	,	PUNCT	$,	_	11	punct	_	start_char=1309|end_char=1310
+14	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1311|end_char=1319
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	SpaceAfter=No|start_char=1320|end_char=1322
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=1322|end_char=1323
+17	dass	dass	SCONJ	KOUS	_	20	mark	_	start_char=1324|end_char=1328
+18	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1329|end_char=1331
+19	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	start_char=1332|end_char=1337
+20	gleichmäßig	gleichmäßig	ADJ	ADJD	Degree=Pos	14	ccomp	_	start_char=1338|end_char=1349
+21	oder	oder	CCONJ	KON	_	22	cc	_	start_char=1350|end_char=1354
+22	rund	rund	ADJ	ADJD	Degree=Pos	20	conj	_	start_char=1355|end_char=1359
+23	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No|start_char=1360|end_char=1363
+24	.	.	PUNCT	$.	_	14	punct	_	start_char=1363|end_char=1364
+
+# text = * **Begrenzung**: Die Grenze oder der Rand eines Objekts.
+# sent_id = 22
+1	*	*	PUNCT	$(	_	9	dep	_	start_char=1365|end_char=1366
+2	*	*	SYM	$(	_	4	cc	_	SpaceAfter=No|start_char=1367|end_char=1368
+3	*	*	SYM	XY	_	4	dep	_	SpaceAfter=No|start_char=1368|end_char=1369
+4	Begrenzung	Begrenzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1369|end_char=1379
+5	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=1379|end_char=1380
+6	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=1380|end_char=1381
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=1381|end_char=1382
+8	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1383|end_char=1386
+9	Grenze	Grenze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=1387|end_char=1393
+10	oder	oder	CCONJ	KON	_	12	cc	_	start_char=1394|end_char=1398
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=1399|end_char=1402
+12	Rand	Rand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=1403|end_char=1407
+13	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1408|end_char=1413
+14	Objekts	Objekt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=1414|end_char=1421
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=1421|end_char=1422
+
+# text = * **Metastasierung**: Wenn ein Tumor sich auf andere Teile des Körpers ausbreitet.
+# sent_id = 23
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=1423|end_char=1424
+2	*	*	SYM	$(	_	4	cc	_	SpaceAfter=No|start_char=1425|end_char=1426
+3	*	*	SYM	XY	_	4	dep	_	SpaceAfter=No|start_char=1426|end_char=1427
+4	Metastasierung	Metastasierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	SpaceAfter=No|start_char=1427|end_char=1441
+5	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1441|end_char=1442
+6	*	*	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=1442|end_char=1443
+7	:	:	PUNCT	$.	_	17	punct	_	start_char=1443|end_char=1444
+8	Wenn	wenn	SCONJ	KOUS	_	17	mark	_	start_char=1445|end_char=1449
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1450|end_char=1453
+10	Tumor	Tumor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=1454|end_char=1459
+11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	start_char=1460|end_char=1464
+12	auf	auf	ADP	APPR	_	14	case	_	start_char=1465|end_char=1468
+13	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	start_char=1469|end_char=1475
+14	Teile	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	start_char=1476|end_char=1481
+15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=1482|end_char=1485
+16	Körpers	Körper	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=1486|end_char=1493
+17	ausbreitet	ausbreiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No|start_char=1494|end_char=1504
+18	.	.	PUNCT	$.	_	6	punct	_	start_char=1504|end_char=1505
+
+# text = * **Prognose**: Die Vorhersage, wie eine Krankheit verlaufen wird.
+# sent_id = 24
+1	*	*	SYM	$(	_	9	dep	_	start_char=1506|end_char=1507
+2	*	*	SYM	$(	_	1	appos	_	SpaceAfter=No|start_char=1508|end_char=1509
+3	*	*	SYM	XY	_	4	dep	_	SpaceAfter=No|start_char=1509|end_char=1510
+4	Prognose	Prognose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	dep	_	SpaceAfter=No|start_char=1510|end_char=1518
+5	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1518|end_char=1519
+6	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=1519|end_char=1520
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=1520|end_char=1521
+8	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1522|end_char=1525
+9	Vorhersage	Vorhersage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1526|end_char=1536
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=1536|end_char=1537
+11	wie	wie	SCONJ	KOUS	_	14	mark	_	start_char=1538|end_char=1541
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=1542|end_char=1546
+13	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=1547|end_char=1556
+14	verlaufen	verlaufen	VERB	VVPP	VerbForm=Part	9	advcl	_	start_char=1557|end_char=1566
+15	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	SpaceAfter=No|start_char=1567|end_char=1571
+16	.	.	PUNCT	$.	_	1	punct	_	start_char=1571|end_char=1572
+
+# text = * **Chirurgische Entfernung**: Die operative Entfernung eines Tumors.
+# sent_id = 25
+1	*	*	PUNCT	$(	_	5	dep	_	start_char=1573|end_char=1574
+2	*	*	SYM	$(	_	5	cc	_	SpaceAfter=No|start_char=1575|end_char=1576
+3	*	*	SYM	XY	_	5	dep	_	SpaceAfter=No|start_char=1576|end_char=1577
+4	Chirurgische	chirurgisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1577|end_char=1589
+5	Entfernung	Entfernung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1590|end_char=1600
+6	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1600|end_char=1601
+7	*	*	PUNCT	$(	_	5	appos	_	SpaceAfter=No|start_char=1601|end_char=1602
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=1602|end_char=1603
+9	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1604|end_char=1607
+10	operative	operativ	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1608|end_char=1617
+11	Entfernung	Entfernung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=1618|end_char=1628
+12	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=1629|end_char=1634
+13	Tumors	Tumor	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=1635|end_char=1641
+14	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1641|end_char=1642
+

@@ -1,0 +1,416 @@
+# text = **Blutdruck digital managen** Bluthochdruck ist ein großes Problem.
+# sent_id = 0
+1-2	**	_	_	_	_	_	_	_	SpaceAfter=No|start_char=0|end_char=2
+1	*n	*n	X	NE	_	5	dep	_	_
+2	de*	de*	PUNCT	$(	_	1	punct	_	_
+3	Blutdruck	Blutdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2|end_char=11
+4	digital	digital	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=12|end_char=19
+5	managen	managen	VERB	VVINF	VerbForm=Inf	12	csubj	_	SpaceAfter=No|start_char=20|end_char=27
+6	*	*	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=27|end_char=28
+7	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=28|end_char=29
+8	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=31|end_char=44
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=45|end_char=48
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=49|end_char=52
+11	großes	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=53|end_char=59
+12	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=60|end_char=67
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=67|end_char=68
+
+# text = Viele Menschen haben Bluthochdruck.
+# sent_id = 1
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=69|end_char=74
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=75|end_char=83
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=84|end_char=89
+4	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=90|end_char=103
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=103|end_char=104
+
+# text = Mit Hilfe von Gesundheits-Apps können sie ihre Werte besser kontrollieren.
+# sent_id = 2
+1	Mit	mit	ADP	APPR	_	2	case	_	start_char=105|end_char=108
+2	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=109|end_char=114
+3	von	von	ADP	APPR	_	6	case	_	start_char=115|end_char=118
+4	Gesundheits	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	compound	_	SpaceAfter=No|start_char=119|end_char=130
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=130|end_char=131
+6	Apps	App	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	start_char=131|end_char=135
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=136|end_char=142
+8	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=143|end_char=146
+9	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=147|end_char=151
+10	Werte	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	start_char=152|end_char=157
+11	besser	gut	ADJ	ADJD	Degree=Cmp	12	advmod	_	start_char=158|end_char=164
+12	kontrollieren	kontrollieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=165|end_char=178
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=178|end_char=179
+
+# text = **Was sind Gesundheits-Apps?**
+# sent_id = 3
+1	**	**	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=181|end_char=183
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=183|end_char=186
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=187|end_char=191
+4	Gesundheits	Gesundheit	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	compound	_	SpaceAfter=No|start_char=192|end_char=203
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=203|end_char=204
+6	Apps	App	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=204|end_char=208
+7	?	?	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=208|end_char=209
+8	*	*	SYM	$(	_	6	dep	_	SpaceAfter=No|start_char=209|end_char=210
+9	*	*	PUNCT	$(	_	6	dep	_	start_char=210|end_char=211
+
+# text = Gesundheits-Apps sind Computerprogramme, die auf einem Smartphone oder Tablet laufen und helfen, die Gesundheit zu überwachen.
+# sent_id = 4
+1	Gesundheits	Gesundheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	SpaceAfter=No|start_char=212|end_char=223
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=223|end_char=224
+3	Apps	App	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=224|end_char=228
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=229|end_char=233
+5	Computerprogramme	Computerprogramm	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=234|end_char=251
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=251|end_char=252
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	start_char=253|end_char=256
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=257|end_char=260
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=261|end_char=266
+10	Smartphone	Smartphone	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	start_char=267|end_char=277
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=278|end_char=282
+12	Tablet	Tablet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	start_char=283|end_char=289
+13	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=290|end_char=296
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=297|end_char=300
+15	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No|start_char=301|end_char=307
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=307|end_char=308
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=309|end_char=312
+18	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=313|end_char=323
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=324|end_char=326
+20	überwachen	überwachen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No|start_char=327|end_char=337
+21	.	.	PUNCT	$.	_	5	punct	_	start_char=337|end_char=338
+
+# text = **Gesundheit** bedeutet, dass man körperlich und geistig fit ist.
+# sent_id = 5
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=339|end_char=341
+2	Gesundheit	Gesundheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=341|end_char=351
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=351|end_char=352
+4	*	*	PUNCT	$(	_	2	punct	_	start_char=352|end_char=353
+5	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=354|end_char=362
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=362|end_char=363
+7	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=364|end_char=368
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=369|end_char=372
+9	körperlich	körperlich	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=373|end_char=383
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=384|end_char=387
+11	geistig	geistig	ADJ	ADJD	Degree=Pos	9	conj	_	start_char=388|end_char=395
+12	fit	fit	ADJ	ADJD	Degree=Pos	5	ccomp	_	start_char=396|end_char=399
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No|start_char=400|end_char=403
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=403|end_char=404
+
+# text = **Wie helfen Gesundheits-Apps?** * Sie helfen, den Blutdruck zu überwachen.
+# sent_id = 6
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=406|end_char=408
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=408|end_char=411
+3	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=412|end_char=418
+4	Gesundheits	Gesundheit	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	compound	_	SpaceAfter=No|start_char=419|end_char=430
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=430|end_char=431
+6	Apps	App	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=431|end_char=435
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=435|end_char=436
+8	**	**	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s|start_char=436|end_char=438
+9	*	*	PUNCT	$(	_	11	punct	_	start_char=440|end_char=441
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=442|end_char=445
+11	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No|start_char=446|end_char=452
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=452|end_char=453
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=454|end_char=457
+14	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=458|end_char=467
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=468|end_char=470
+16	überwachen	überwachen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No|start_char=471|end_char=481
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=481|end_char=482
+
+# text = * Sie unterstützen die Therapie.
+# sent_id = 7
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=483|end_char=484
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=485|end_char=488
+3	unterstützen	unterstützen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=489|end_char=501
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=502|end_char=505
+5	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=506|end_char=514
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=514|end_char=515
+
+# text = **Therapie** bedeutet, dass man eine Krankheit oder ein Gesundheitsproblem behandelt.
+# sent_id = 8
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=516|end_char=518
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=518|end_char=526
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=526|end_char=527
+4	*	*	PUNCT	$(	_	2	advmod	_	start_char=527|end_char=528
+5	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=529|end_char=537
+6	,	,	PUNCT	$,	_	14	punct	_	start_char=537|end_char=538
+7	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=539|end_char=543
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=544|end_char=547
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=548|end_char=552
+10	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=553|end_char=562
+11	oder	oder	CCONJ	KON	_	13	cc	_	start_char=563|end_char=567
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=568|end_char=571
+13	Gesundheitsproblem	Gesundheitsproblem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	start_char=572|end_char=590
+14	behandelt	behandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No|start_char=591|end_char=600
+15	.	.	PUNCT	$.	_	5	punct	_	start_char=600|end_char=601
+
+# text = * Sie können auch andere Daten wie Puls, Blutzucker und Bewegung erfassen.
+# sent_id = 9
+1	*	*	PUNCT	$(	_	13	cc	_	start_char=602|end_char=603
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=604|end_char=607
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=608|end_char=614
+4	auch	auch	ADV	ADV	_	13	advmod	_	start_char=615|end_char=619
+5	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	start_char=620|end_char=626
+6	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=627|end_char=632
+7	wie	wie	ADP	KOKOM	_	8	case	_	start_char=633|end_char=636
+8	Puls	Puls	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=637|end_char=641
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=641|end_char=642
+10	Blutzucker	Blutzucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=643|end_char=653
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=654|end_char=657
+12	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	start_char=658|end_char=666
+13	erfassen	erfassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=667|end_char=675
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=675|end_char=676
+
+# text = **Puls** ist die Anzahl der Herzschläge pro Minute.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=677|end_char=679
+2	Puls	Puls	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=679|end_char=683
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=683|end_char=684
+4	*	*	PUNCT	$(	_	2	punct	_	start_char=684|end_char=685
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=686|end_char=689
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=690|end_char=693
+7	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=694|end_char=700
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=701|end_char=704
+9	Herzschläge	Herzschlag	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=705|end_char=716
+10	pro	pro	ADP	APPR	_	11	case	_	start_char=717|end_char=720
+11	Minute	Minute	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=721|end_char=727
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=727|end_char=728
+
+# text = **Blutzucker** ist der Zuckerwert im Blut.
+# sent_id = 11
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=729|end_char=731
+2	Blutzucker	Blutzucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=731|end_char=741
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=741|end_char=742
+4	*	*	PUNCT	$(	_	2	punct	_	start_char=742|end_char=743
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=744|end_char=747
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=748|end_char=751
+7	Zuckerwert	Zuckerwert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=752|end_char=762
+8-9	im	_	_	_	_	_	_	_	start_char=763|end_char=765
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=766|end_char=770
+11	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=770|end_char=771
+
+# text = **Was ist ein digitales Tagebuch?**
+# sent_id = 12
+1	**	**	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=773|end_char=775
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=775|end_char=778
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=779|end_char=782
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=783|end_char=786
+5	digitales	digital	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=787|end_char=796
+6	Tagebuch	Tagebuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=797|end_char=805
+7	?	?	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=805|end_char=806
+8	*	*	PUNCT	$(	_	6	dep	_	SpaceAfter=No|start_char=806|end_char=807
+9	*	*	PUNCT	$(	_	6	punct	_	start_char=807|end_char=808
+
+# text = Ein digitales Tagebuch ist ein Computerprogramm, das die Gesundheitsdaten aufzeichnet und speichert.
+# sent_id = 13
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=809|end_char=812
+2	digitales	digital	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=813|end_char=822
+3	Tagebuch	Tagebuch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=823|end_char=831
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=832|end_char=835
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=836|end_char=839
+6	Computerprogramm	Computerprogramm	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=840|end_char=856
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=856|end_char=857
+8	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=858|end_char=861
+9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=862|end_char=865
+10	Gesundheitsdaten	Gesundheitsdatum	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=866|end_char=882
+11	aufzeichnet	aufzeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=883|end_char=894
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=895|end_char=898
+13	speichert	speichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No|start_char=899|end_char=908
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=908|end_char=909
+
+# text = Es hilft, die Werte zu überwachen und die Therapie zu unterstützen.
+# sent_id = 14
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=910|end_char=912
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=913|end_char=918
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=918|end_char=919
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=920|end_char=923
+5	Werte	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=924|end_char=929
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=930|end_char=932
+7	überwachen	überwachen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=933|end_char=943
+8	und	und	CCONJ	KON	_	12	cc	_	start_char=944|end_char=947
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=948|end_char=951
+10	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=952|end_char=960
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=961|end_char=963
+12	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No|start_char=964|end_char=976
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=976|end_char=977
+
+# text = **Wichtige Hinweise** * Smartwatches messen den Blutdruck noch nicht genau genug.
+# sent_id = 15
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=979|end_char=981
+2	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=981|end_char=989
+3	Hinweise	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No|start_char=990|end_char=998
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=998|end_char=999
+5	*	*	PUNCT	$(	_	3	appos	_	SpacesAfter=\s\s|start_char=999|end_char=1000
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=1002|end_char=1003
+7	Smartwatches	Smartwatch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=1004|end_char=1016
+8	messen	messen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1017|end_char=1023
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1024|end_char=1027
+10	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=1028|end_char=1037
+11	noch	noch	ADV	ADV	_	12	advmod	_	start_char=1038|end_char=1042
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=1043|end_char=1048
+13	genau	genau	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=1049|end_char=1054
+14	genug	genug	ADV	ADV	PronType=Ind	8	advmod	_	SpaceAfter=No|start_char=1055|end_char=1060
+15	.	.	PUNCT	$.	_	8	punct	_	start_char=1060|end_char=1061
+
+# text = **Smartwatch** ist eine Uhr, die auf dem Handgelenk getragen wird und viele Funktionen wie ein Smartphone hat.
+# sent_id = 16
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1062|end_char=1064
+2	Smartwatch	Smartwatch	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=1064|end_char=1074
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1074|end_char=1075
+4	*	*	PUNCT	$(	_	2	appos	_	start_char=1075|end_char=1076
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1077|end_char=1080
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1081|end_char=1085
+7	Uhr	Uhr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1086|end_char=1089
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=1089|end_char=1090
+9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	nsubj:pass	_	start_char=1091|end_char=1094
+10	auf	auf	ADP	APPR	_	12	case	_	start_char=1095|end_char=1098
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=1099|end_char=1102
+12	Handgelenk	Handgelenk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	start_char=1103|end_char=1113
+13	getragen	tragen	VERB	VVPP	VerbForm=Part	7	acl	_	start_char=1114|end_char=1122
+14	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	start_char=1123|end_char=1127
+15	und	und	CCONJ	KON	_	21	cc	_	start_char=1128|end_char=1131
+16	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	start_char=1132|end_char=1137
+17	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	start_char=1138|end_char=1148
+18	wie	wie	ADP	KOKOM	_	20	case	_	start_char=1149|end_char=1152
+19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=1153|end_char=1156
+20	Smartphone	Smartphone	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	start_char=1157|end_char=1167
+21	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No|start_char=1168|end_char=1171
+22	.	.	PUNCT	$.	_	7	punct	_	start_char=1171|end_char=1172
+
+# text = * Man sollte die Therapie nicht selbst anpassen, sondern die Daten als Grundlage für den Termin in der Arztpraxis nutzen.
+# sent_id = 17
+1	*	*	PUNCT	$(	_	8	cc	_	start_char=1173|end_char=1174
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1175|end_char=1178
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=1179|end_char=1185
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1186|end_char=1189
+5	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1190|end_char=1198
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=1199|end_char=1204
+7	selbst	selbst	ADV	ADV	_	6	advmod	_	start_char=1205|end_char=1211
+8	anpassen	anpassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1212|end_char=1220
+9	,	,	PUNCT	$,	_	21	punct	_	start_char=1220|end_char=1221
+10	sondern	sondern	CCONJ	KON	_	21	cc	_	start_char=1222|end_char=1229
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=1230|end_char=1233
+12	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	21	obj	_	start_char=1234|end_char=1239
+13	als	als	ADP	KOKOM	_	14	case	_	start_char=1240|end_char=1243
+14	Grundlage	Grundlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	start_char=1244|end_char=1253
+15	für	für	ADP	APPR	_	17	case	_	start_char=1254|end_char=1257
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=1258|end_char=1261
+17	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	start_char=1262|end_char=1268
+18	in	in	ADP	APPR	_	20	case	_	start_char=1269|end_char=1271
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1272|end_char=1275
+20	Arztpraxis	Arztpraxis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	start_char=1276|end_char=1286
+21	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No|start_char=1287|end_char=1293
+22	.	.	PUNCT	$.	_	8	punct	_	start_char=1293|end_char=1294
+
+# text = *
+# sent_id = 18
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1295|end_char=1296
+
+# text = Die Deutsche Hochdruckliga prüft Gesundheits-Apps, um sicherzustellen, dass sie gut sind.
+# sent_id = 19
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1297|end_char=1300
+2	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=1301|end_char=1309
+3	Hochdruckliga	Hochdruckliga	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1310|end_char=1323
+4	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1324|end_char=1329
+5	Gesundheits	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	compound	_	SpaceAfter=No|start_char=1330|end_char=1341
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1341|end_char=1342
+7	Apps	App	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|start_char=1342|end_char=1346
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=1346|end_char=1347
+9	um	um	ADP	KOUI	_	10	mark	_	start_char=1348|end_char=1350
+10	sicherzustellen	sicherstellen	VERB	VVIZU	VerbForm=Inf	4	advcl	_	SpaceAfter=No|start_char=1351|end_char=1366
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=1366|end_char=1367
+12	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=1368|end_char=1372
+13	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=1373|end_char=1376
+14	gut	gut	ADJ	ADJD	Degree=Pos	10	ccomp	_	start_char=1377|end_char=1380
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|start_char=1381|end_char=1385
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=1385|end_char=1386
+
+# text = **Deutsche Hochdruckliga** ist eine Organisation, die sich mit dem Thema Bluthochdruck beschäftigt.
+# sent_id = 20
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1387|end_char=1389
+2	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=1389|end_char=1397
+3	Hochdruckliga	Hochdruckliga	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=1398|end_char=1411
+4	*	*	PUNCT	$(	_	3	appos	_	SpaceAfter=No|start_char=1411|end_char=1412
+5	*	*	PUNCT	$(	_	3	appos	_	start_char=1412|end_char=1413
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1414|end_char=1417
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1418|end_char=1422
+8	Organisation	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1423|end_char=1435
+9	,	,	PUNCT	$,	_	16	punct	_	start_char=1435|end_char=1436
+10	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=1437|end_char=1440
+11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	start_char=1441|end_char=1445
+12	mit	mit	ADP	APPR	_	14	case	_	start_char=1446|end_char=1449
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=1450|end_char=1453
+14	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=1454|end_char=1459
+15	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	appos	_	start_char=1460|end_char=1473
+16	beschäftigt	beschäftigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=1474|end_char=1485
+17	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1485|end_char=1486
+
+# text = Ich habe den Text wie folgt vereinfacht: * Ich habe unwichtige Informationen entfernt.
+# sent_id = 21
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=1488|end_char=1491
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1492|end_char=1496
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1497|end_char=1500
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=1501|end_char=1505
+5	wie	wie	ADP	KOKOM	_	6	case	_	start_char=1506|end_char=1509
+6	folgt	folgen	VERB	ADJD	_	7	xcomp	_	start_char=1510|end_char=1515
+7	vereinfacht	vereinfachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1516|end_char=1527
+8	:	:	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=1527|end_char=1528
+9	*	*	PUNCT	$(	_	14	punct	_	start_char=1530|end_char=1531
+10	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=1532|end_char=1535
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1536|end_char=1540
+12	unwichtige	unwichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1541|end_char=1551
+13	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=1552|end_char=1565
+14	entfernt	entfernen	VERB	VVPP	VerbForm=Part	7	parataxis	_	SpaceAfter=No|start_char=1566|end_char=1574
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=1574|end_char=1575
+
+# text = * Ich habe Nebensätze entfernt und einfache syntaktische Strukturen verwendet.
+# sent_id = 22
+1	*	*	PUNCT	$(	_	5	cc	_	start_char=1576|end_char=1577
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1578|end_char=1581
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1582|end_char=1586
+4	Nebensätze	Nebensatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=1587|end_char=1597
+5	entfernt	entfernen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1598|end_char=1606
+6	und	und	CCONJ	KON	_	10	cc	_	start_char=1607|end_char=1610
+7	einfache	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=1611|end_char=1619
+8	syntaktische	syntaktisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=1620|end_char=1632
+9	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=1633|end_char=1643
+10	verwendet	verwenden	VERB	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No|start_char=1644|end_char=1653
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1653|end_char=1654
+
+# text = * Ich habe Erklärungen für schwierige Wörter hinzugefügt, wie z.B. **Gesundheit**, **Therapie**, **Puls**, **Blutzucker** und **Smartwatch**.
+# sent_id = 23
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1655|end_char=1656
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=1657|end_char=1660
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1661|end_char=1665
+4	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1666|end_char=1677
+5	für	für	ADP	APPR	_	7	case	_	start_char=1678|end_char=1681
+6	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=1682|end_char=1692
+7	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=1693|end_char=1699
+8	hinzugefügt	hinzufügen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1700|end_char=1711
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=1711|end_char=1712
+10	wie	wie	ADP	KOKOM	_	13	case	_	start_char=1713|end_char=1716
+11	z.B.	z.B.	X	ADV	_	13	dep	_	start_char=1717|end_char=1721
+12	**	**	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=1722|end_char=1724
+13	Gesundheit	Gesundheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No|start_char=1724|end_char=1734
+14	*	*	PUNCT	$(	_	13	appos	_	SpaceAfter=No|start_char=1734|end_char=1735
+15	*	*	PUNCT	$(	_	13	appos	_	SpaceAfter=No|start_char=1735|end_char=1736
+16	,	,	PUNCT	$,	_	19	punct	_	start_char=1736|end_char=1737
+17	*	*	SYM	XY	_	13	conj	_	SpaceAfter=No|start_char=1738|end_char=1739
+18	*	*	PUNCT	$(	_	19	punct	_	SpaceAfter=No|start_char=1739|end_char=1740
+19	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|start_char=1740|end_char=1748
+20	*	*	PUNCT	$(	_	19	punct	_	SpaceAfter=No|start_char=1748|end_char=1749
+21	*	*	PUNCT	$(	_	19	appos	_	SpaceAfter=No|start_char=1749|end_char=1750
+22	,	,	PUNCT	$,	_	24	punct	_	start_char=1750|end_char=1751
+23	**	**	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=1752|end_char=1754
+24	Puls	Puls	NOUN	NN	Case=Nom|Number=Sing	19	appos	_	SpaceAfter=No|start_char=1754|end_char=1758
+25	*	*	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=1758|end_char=1759
+26	*	*	PUNCT	$(	_	24	appos	_	SpaceAfter=No|start_char=1759|end_char=1760
+27	,	,	PUNCT	$,	_	29	punct	_	start_char=1760|end_char=1761
+28	**	**	PUNCT	$(	_	29	punct	_	SpaceAfter=No|start_char=1762|end_char=1764
+29	Blutzucker	Blutzucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No|start_char=1764|end_char=1774
+30	*	*	PUNCT	$(	_	29	appos	_	SpaceAfter=No|start_char=1774|end_char=1775
+31	*	*	PUNCT	$(	_	29	appos	_	start_char=1775|end_char=1776
+32	und	und	CCONJ	KON	_	34	cc	_	start_char=1777|end_char=1780
+33	**	**	PUNCT	$(	_	34	punct	_	SpaceAfter=No|start_char=1781|end_char=1783
+34	Smartwatch	Smartwatch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No|start_char=1783|end_char=1793
+35	*	*	PUNCT	$(	_	34	appos	_	SpaceAfter=No|start_char=1793|end_char=1794
+36	*	*	PUNCT	$(	_	34	punct	_	SpaceAfter=No|start_char=1794|end_char=1795
+37	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=1795|end_char=1796
+

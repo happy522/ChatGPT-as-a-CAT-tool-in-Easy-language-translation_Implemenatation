@@ -1,0 +1,526 @@
+# text = Hier ist der Text in der Deutschen Leichten Sprache: **Herzinfarkt erkennen und behandeln**
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=13|end_char=17
+5	in	in	ADP	APPR	_	9	case	_	start_char=18|end_char=20
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=21|end_char=24
+7	Deutschen	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	start_char=25|end_char=34
+8	Leichten	leicht	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	start_char=35|end_char=43
+9	Sprache	Sprache	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=44|end_char=51
+10	:	:	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=51|end_char=52
+11	*	*	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=54|end_char=55
+12	*	*	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=55|end_char=56
+13	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=56|end_char=67
+14	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	9	parataxis	_	start_char=68|end_char=76
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=77|end_char=80
+16	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No|start_char=81|end_char=90
+17	*	*	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=90|end_char=91
+18	*	*	PUNCT	$(	_	14	dep	_	SpacesAfter=\s\s|start_char=91|end_char=92
+
+# text = Ein Herzinfarkt ist sehr gefährlich.
+# sent_id = 1
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=94|end_char=97
+2	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=98|end_char=109
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=110|end_char=113
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=114|end_char=118
+5	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=119|end_char=129
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=129|end_char=130
+
+# text = Wir erklären, wie Sie ihn erkennen können, wie es dazu kommt, wie die Behandlung aussieht und wie Sie ihn vorbeugen können.
+# sent_id = 2
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=131|end_char=134
+2	erklären	erklären	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=135|end_char=143
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=143|end_char=144
+4	wie	wie	SCONJ	KOUS	_	7	mark	_	start_char=145|end_char=148
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=149|end_char=152
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=153|end_char=156
+7	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=157|end_char=165
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No|start_char=166|end_char=172
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=172|end_char=173
+10	wie	wie	SCONJ	KOUS	_	13	mark	_	start_char=174|end_char=177
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=178|end_char=180
+12	dazu	dazu	ADV	PAV	PronType=Dem	13	advmod	_	start_char=181|end_char=185
+13	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No|start_char=186|end_char=191
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=191|end_char=192
+15	wie	wie	SCONJ	KOUS	_	18	mark	_	start_char=193|end_char=196
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=197|end_char=200
+17	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=201|end_char=211
+18	aussieht	aussehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	start_char=212|end_char=220
+19	und	und	CCONJ	KON	_	23	cc	_	start_char=221|end_char=224
+20	wie	wie	SCONJ	KOUS	_	23	mark	_	start_char=225|end_char=228
+21	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=229|end_char=232
+22	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=233|end_char=236
+23	vorbeugen	vorbeugen	VERB	VVINF	VerbForm=Inf	18	conj	_	start_char=237|end_char=246
+24	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No|start_char=247|end_char=253
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=253|end_char=254
+
+# text = **Was ist ein Herzinfarkt?**
+# sent_id = 3
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=256|end_char=258
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=258|end_char=261
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=262|end_char=265
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=266|end_char=269
+5	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=270|end_char=281
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=281|end_char=282
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=282|end_char=283
+8	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=283|end_char=284
+
+# text = Ein Herzinfarkt ist, wenn das Herz nicht genug Blut bekommt.
+# sent_id = 4
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=286|end_char=289
+2	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=290|end_char=301
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No|start_char=302|end_char=305
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=305|end_char=306
+5	wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=307|end_char=311
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=312|end_char=315
+7	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=316|end_char=320
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=321|end_char=326
+9	genug	genug	ADV	PIAT	PronType=Ind	11	advmod	_	start_char=327|end_char=332
+10	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=333|end_char=337
+11	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=338|end_char=345
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=345|end_char=346
+
+# text = Das kann passieren, wenn ein Gefäß im Herzen verstopft ist.
+# sent_id = 5
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=347|end_char=350
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=351|end_char=355
+3	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=356|end_char=365
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=365|end_char=366
+5	wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=367|end_char=371
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=372|end_char=375
+7	Gefäß	Gefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=376|end_char=381
+8-9	im	_	_	_	_	_	_	_	start_char=382|end_char=384
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Herzen	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=385|end_char=391
+11	verstopft	verstopfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	3	advcl	_	start_char=392|end_char=401
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No|start_char=402|end_char=405
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=405|end_char=406
+
+# text = Wenn das passiert, sterben Teile des Herzens ab.
+# sent_id = 6
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=407|end_char=411
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=412|end_char=415
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No|start_char=416|end_char=424
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=424|end_char=425
+5	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=426|end_char=433
+6	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=434|end_char=439
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=440|end_char=443
+8	Herzens	Herz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=444|end_char=451
+9	ab	ab	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No|start_char=452|end_char=454
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=454|end_char=455
+
+# text = Das ist sehr gefährlich.
+# sent_id = 7
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=456|end_char=459
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=460|end_char=463
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	start_char=464|end_char=468
+4	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=469|end_char=479
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=479|end_char=480
+
+# text = **Ursachen** Ein Herzinfarkt kommt oft durch eine Verstopfung der Gefäße im Herzen.
+# sent_id = 8
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=482|end_char=484
+2	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No|start_char=484|end_char=492
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=492|end_char=493
+4	*	*	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=493|end_char=494
+5	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=496|end_char=499
+6	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=500|end_char=511
+7	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=512|end_char=517
+8	oft	oft	ADV	ADV	_	7	advmod	_	start_char=518|end_char=521
+9	durch	durch	ADP	APPR	_	11	case	_	start_char=522|end_char=527
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=528|end_char=532
+11	Verstopfung	Verstopfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=533|end_char=544
+12	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=545|end_char=548
+13	Gefäße	Gefäß	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=549|end_char=555
+14-15	im	_	_	_	_	_	_	_	start_char=556|end_char=558
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Herzen	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=559|end_char=565
+17	.	.	PUNCT	$.	_	7	punct	_	start_char=565|end_char=566
+
+# text = Das kann passieren, wenn die Gefäße durch Fett und andere Dinge verstopft sind.
+# sent_id = 9
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=567|end_char=570
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=571|end_char=575
+3	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=576|end_char=585
+4	,	,	PUNCT	$,	_	13	punct	_	start_char=585|end_char=586
+5	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=587|end_char=591
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=592|end_char=595
+7	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	start_char=596|end_char=602
+8	durch	durch	ADP	APPR	_	9	case	_	start_char=603|end_char=608
+9	Fett	Fett	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	start_char=609|end_char=613
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=614|end_char=617
+11	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	12	det	_	start_char=618|end_char=624
+12	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	conj	_	start_char=625|end_char=630
+13	verstopft	verstopfen	VERB	VVPP	VerbForm=Part	3	advcl	_	start_char=631|end_char=640
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	SpaceAfter=No|start_char=641|end_char=645
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=645|end_char=646
+
+# text = Rauchen, Bluthochdruck und Diabetes können auch dazu beitragen.
+# sent_id = 10
+1	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=647|end_char=654
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=654|end_char=655
+3	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=656|end_char=669
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=670|end_char=673
+5	Diabetes	Diabetes	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=674|end_char=682
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=683|end_char=689
+7	auch	auch	ADV	ADV	_	9	advmod	_	start_char=690|end_char=694
+8	dazu	dazu	ADV	PAV	PronType=Dem	9	advmod	_	start_char=695|end_char=699
+9	beitragen	beitragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=700|end_char=709
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=709|end_char=710
+
+# text = **Risikofaktoren** Es gibt einige Dinge, die das Risiko für einen Herzinfarkt erhöhen.
+# sent_id = 11
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=712|end_char=714
+2	Risikofaktoren	Risikofaktor	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No|start_char=714|end_char=728
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=728|end_char=729
+4	*	*	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=729|end_char=730
+5	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=732|end_char=734
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=735|end_char=739
+7	einige	einige	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	start_char=740|end_char=746
+8	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No|start_char=747|end_char=752
+9	,	,	PUNCT	$,	_	16	punct	_	start_char=752|end_char=753
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	start_char=754|end_char=757
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=758|end_char=761
+12	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=762|end_char=768
+13	für	für	ADP	APPR	_	15	case	_	start_char=769|end_char=772
+14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=773|end_char=778
+15	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	start_char=779|end_char=790
+16	erhöhen	erhöhen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=791|end_char=798
+17	.	.	PUNCT	$.	_	6	punct	_	start_char=798|end_char=799
+
+# text = Dazu gehören: * Rauchen * Bluthochdruck * Diabetes * Übergewicht * Wenig Bewegung * Ungesunde Ernährung **Symptome**
+# sent_id = 12
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=800|end_char=804
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=805|end_char=812
+3	:	:	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=812|end_char=813
+4	*	*	PUNCT	$(	_	5	punct	_	start_char=815|end_char=816
+5	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=817|end_char=824
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=825|end_char=826
+7	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	start_char=827|end_char=840
+8	*	*	SYM	$(	_	7	appos	_	start_char=841|end_char=842
+9	Diabetes	Diabetes	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	start_char=843|end_char=851
+10	*	*	SYM	XY	_	11	appos	_	start_char=852|end_char=853
+11	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=854|end_char=865
+12	*	*	SYM	XY	_	14	cc	_	start_char=866|end_char=867
+13	Wenig	wenig	DET	PIAT	PronType=Ind	14	det	_	start_char=868|end_char=873
+14	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=874|end_char=882
+15	*	*	PUNCT	$(	_	17	punct	_	start_char=883|end_char=884
+16	Ungesunde	ungesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=885|end_char=894
+17	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpacesAfter=\s\s|start_char=895|end_char=904
+18	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=906|end_char=907
+19	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=907|end_char=908
+20	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	appos	_	SpaceAfter=No|start_char=908|end_char=916
+21	*	*	PUNCT	$(	_	20	dep	_	SpaceAfter=No|start_char=916|end_char=917
+22	*	*	PUNCT	$(	_	5	dep	_	SpacesAfter=\s\s|start_char=917|end_char=918
+
+# text = Ein Herzinfarkt kann durch starke Schmerzen in der Brust oder im Arm auftreten.
+# sent_id = 13
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=920|end_char=923
+2	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=924|end_char=935
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=936|end_char=940
+4	durch	durch	ADP	APPR	_	6	case	_	start_char=941|end_char=946
+5	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=947|end_char=953
+6	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	start_char=954|end_char=963
+7	in	in	ADP	APPR	_	9	case	_	start_char=964|end_char=966
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=967|end_char=970
+9	Brust	Brust	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=971|end_char=976
+10	oder	oder	CCONJ	KON	_	13	cc	_	start_char=977|end_char=981
+11-12	im	_	_	_	_	_	_	_	start_char=982|end_char=984
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Arm	Arm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=985|end_char=988
+14	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=989|end_char=998
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=998|end_char=999
+
+# text = Man kann auch Atemnot, Übelkeit oder Schwindel haben.
+# sent_id = 14
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1000|end_char=1003
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1004|end_char=1008
+3	auch	auch	ADV	ADV	_	9	advmod	_	start_char=1009|end_char=1013
+4	Atemnot	Atemnot	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|start_char=1014|end_char=1021
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=1021|end_char=1022
+6	Übelkeit	Übelkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=1023|end_char=1031
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1032|end_char=1036
+8	Schwindel	Schwindel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	start_char=1037|end_char=1046
+9	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1047|end_char=1052
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1052|end_char=1053
+
+# text = Es ist wichtig, dass Sie sofort den Notarzt rufen, wenn Sie diese Symptome haben.
+# sent_id = 15
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=1054|end_char=1056
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1057|end_char=1060
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1061|end_char=1068
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=1068|end_char=1069
+5	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=1070|end_char=1074
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	start_char=1075|end_char=1078
+7	sofort	sofort	ADV	ADV	_	10	advmod	_	start_char=1079|end_char=1085
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1086|end_char=1089
+9	Notarzt	Notarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=1090|end_char=1097
+10	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	SpaceAfter=No|start_char=1098|end_char=1103
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=1103|end_char=1104
+12	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=1105|end_char=1109
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=1110|end_char=1113
+14	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	15	det	_	start_char=1114|end_char=1119
+15	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	start_char=1120|end_char=1128
+16	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|start_char=1129|end_char=1134
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1134|end_char=1135
+
+# text = **Vorboten eines Herzinfarktes** Manchmal gibt es Vorboten eines Herzinfarktes.
+# sent_id = 16
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1137|end_char=1139
+2	Vorboten	Vorbote	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	dep	_	start_char=1139|end_char=1147
+3	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1148|end_char=1153
+4	Herzinfarktes	Herzinfarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=1154|end_char=1167
+5	*	*	PUNCT	$(	_	2	advmod	_	SpaceAfter=No|start_char=1167|end_char=1168
+6	*	*	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=1168|end_char=1169
+7	Manchmal	manchmal	ADV	ADV	_	8	advmod	_	start_char=1171|end_char=1179
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1180|end_char=1184
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=1185|end_char=1187
+10	Vorboten	Vorbote	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1188|end_char=1196
+11	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=1197|end_char=1202
+12	Herzinfarktes	Herzinfarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=1203|end_char=1216
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=1216|end_char=1217
+
+# text = Dazu gehören Schmerzen in der Brust oder im Arm, die bei Anstrengung auftreten.
+# sent_id = 17
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=1218|end_char=1222
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1223|end_char=1230
+3	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1231|end_char=1240
+4	in	in	ADP	APPR	_	6	case	_	start_char=1241|end_char=1243
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1244|end_char=1247
+6	Brust	Brust	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=1248|end_char=1253
+7	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1254|end_char=1258
+8-9	im	_	_	_	_	_	_	_	start_char=1259|end_char=1261
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Arm	Arm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|start_char=1262|end_char=1265
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=1265|end_char=1266
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	15	nsubj	_	start_char=1267|end_char=1270
+13	bei	bei	ADP	APPR	_	14	case	_	start_char=1271|end_char=1274
+14	Anstrengung	Anstrengung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=1275|end_char=1286
+15	auftreten	auftreten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No|start_char=1287|end_char=1296
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=1296|end_char=1297
+
+# text = Wenn Sie diese Symptome haben, sollten Sie sofort zum Arzt gehen.
+# sent_id = 18
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1298|end_char=1302
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=1303|end_char=1306
+3	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=1307|end_char=1312
+4	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=1313|end_char=1321
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No|start_char=1322|end_char=1327
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=1327|end_char=1328
+7	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=1329|end_char=1336
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	start_char=1337|end_char=1340
+9	sofort	sofort	ADV	ADV	_	13	advmod	_	start_char=1341|end_char=1347
+10-11	zum	_	_	_	_	_	_	_	start_char=1348|end_char=1351
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=1352|end_char=1356
+13	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1357|end_char=1362
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s|start_char=1362|end_char=1363
+
+# text = **Diagnose** Der Arzt kann durch ein EKG und eine Blutuntersuchung feststellen, ob Sie einen Herzinfarkt haben.
+# sent_id = 19
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1365|end_char=1367
+2	Diagnose	Diagnose	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No|start_char=1367|end_char=1375
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1375|end_char=1376
+4	*	*	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=1376|end_char=1377
+5	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1379|end_char=1382
+6	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=1383|end_char=1387
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1388|end_char=1392
+8	durch	durch	ADP	APPR	_	10	case	_	start_char=1393|end_char=1398
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1399|end_char=1402
+10	EKG	EKG	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	start_char=1403|end_char=1406
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=1407|end_char=1410
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=1411|end_char=1415
+13	Blutuntersuchung	Blutuntersuchung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	start_char=1416|end_char=1432
+14	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1433|end_char=1444
+15	,	,	PUNCT	$,	_	20	punct	_	start_char=1444|end_char=1445
+16	ob	ob	SCONJ	KOUS	_	20	mark	_	start_char=1446|end_char=1448
+17	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=1449|end_char=1452
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	19	det	_	start_char=1453|end_char=1458
+19	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=1459|end_char=1470
+20	haben	haben	VERB	VAINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	SpaceAfter=No|start_char=1471|end_char=1476
+21	.	.	PUNCT	$.	_	14	punct	_	start_char=1476|end_char=1477
+
+# text = Es ist wichtig, dass Sie sofort zum Arzt gehen, wenn Sie Symptome haben.
+# sent_id = 20
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=1478|end_char=1480
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1481|end_char=1484
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1485|end_char=1492
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=1492|end_char=1493
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=1494|end_char=1498
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	start_char=1499|end_char=1502
+7	sofort	sofort	ADV	ADV	_	11	advmod	_	start_char=1503|end_char=1509
+8-9	zum	_	_	_	_	_	_	_	start_char=1510|end_char=1513
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=1514|end_char=1518
+11	gehen	gehen	VERB	VVINF	VerbForm=Inf	3	csubj	_	SpaceAfter=No|start_char=1519|end_char=1524
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=1524|end_char=1525
+13	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=1526|end_char=1530
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	start_char=1531|end_char=1534
+15	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	start_char=1535|end_char=1543
+16	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No|start_char=1544|end_char=1549
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1549|end_char=1550
+
+# text = **Therapie** Die Behandlung eines Herzinfarktes ist sehr wichtig.
+# sent_id = 21
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1552|end_char=1554
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|start_char=1554|end_char=1562
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1562|end_char=1563
+4	*	*	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\s|start_char=1563|end_char=1564
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1566|end_char=1569
+6	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1570|end_char=1580
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1581|end_char=1586
+8	Herzinfarktes	Herzinfarkt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=1587|end_char=1600
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=1601|end_char=1604
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	start_char=1605|end_char=1609
+11	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1610|end_char=1617
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1617|end_char=1618
+
+# text = Der Arzt kann Medikamente verabreichen, um die Schmerzen zu lindern und die Blutgerinnung zu verhindern.
+# sent_id = 22
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1619|end_char=1622
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1623|end_char=1627
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1628|end_char=1632
+4	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=1633|end_char=1644
+5	verabreichen	verabreichen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1645|end_char=1657
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1657|end_char=1658
+7	um	um	ADP	KOUI	_	11	mark	_	start_char=1659|end_char=1661
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=1662|end_char=1665
+9	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=1666|end_char=1675
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=1676|end_char=1678
+11	lindern	lindern	VERB	VVINF	VerbForm=Inf	5	advcl	_	start_char=1679|end_char=1686
+12	und	und	CCONJ	KON	_	16	cc	_	start_char=1687|end_char=1690
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=1691|end_char=1694
+14	Blutgerinnung	Blutgerinnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=1695|end_char=1708
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=1709|end_char=1711
+16	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No|start_char=1712|end_char=1722
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=1722|end_char=1723
+
+# text = Es gibt auch Möglichkeiten, das verstopfte Gefäß wieder zu öffnen.
+# sent_id = 23
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1724|end_char=1726
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1727|end_char=1731
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1732|end_char=1736
+4	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=1737|end_char=1750
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=1750|end_char=1751
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=1752|end_char=1755
+7	verstopfte	verstopfen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=1756|end_char=1766
+8	Gefäß	Gefäß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1767|end_char=1772
+9	wieder	wieder	ADV	ADV	_	11	advmod	_	start_char=1773|end_char=1779
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=1780|end_char=1782
+11	öffnen	öffnen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|start_char=1783|end_char=1789
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=1789|end_char=1790
+
+# text = **Mögliche Komplikationen** Ein Herzinfarkt kann zu Komplikationen wie Herzrhythmusstörungen oder Herzschwäche führen.
+# sent_id = 24
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1792|end_char=1794
+2	Mögliche	föglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=1794|end_char=1802
+3	Komplikationen	Komplikation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No|start_char=1803|end_char=1817
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1817|end_char=1818
+5	*	*	PUNCT	$(	_	15	punct	_	SpacesAfter=\s\s|start_char=1818|end_char=1819
+6	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1821|end_char=1824
+7	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1825|end_char=1836
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=1837|end_char=1841
+9	zu	zu	ADP	APPR	_	10	case	_	start_char=1842|end_char=1844
+10	Komplikationen	Komplikation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	start_char=1845|end_char=1859
+11	wie	wie	ADP	KOKOM	_	12	case	_	start_char=1860|end_char=1863
+12	Herzrhythmusstörungen	Herzrhythmusstörung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	start_char=1864|end_char=1885
+13	oder	oder	CCONJ	KON	_	14	cc	_	start_char=1886|end_char=1890
+14	Herzschwäche	Herzschwäche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	start_char=1891|end_char=1903
+15	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1904|end_char=1910
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=1910|end_char=1911
+
+# text = Es ist wichtig, dass Sie nach einem Herzinfarkt regelmäßig zum Arzt gehen, um sicherzustellen, dass Sie keine Komplikationen haben.
+# sent_id = 25
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=1912|end_char=1914
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1915|end_char=1918
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1919|end_char=1926
+4	,	,	PUNCT	$,	_	14	punct	_	start_char=1926|end_char=1927
+5	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=1928|end_char=1932
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=1933|end_char=1936
+7	nach	nach	ADP	APPR	_	9	case	_	start_char=1937|end_char=1941
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=1942|end_char=1947
+9	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=1948|end_char=1959
+10	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=1960|end_char=1970
+11-12	zum	_	_	_	_	_	_	_	start_char=1971|end_char=1974
+11	zu	zu	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=1975|end_char=1979
+14	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	SpaceAfter=No|start_char=1980|end_char=1985
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=1985|end_char=1986
+16	um	um	ADP	KOUI	_	17	mark	_	start_char=1987|end_char=1989
+17	sicherzustellen	sicherstellen	VERB	VVIZU	VerbForm=Inf	14	advcl	_	SpaceAfter=No|start_char=1990|end_char=2005
+18	,	,	PUNCT	$,	_	23	punct	_	start_char=2005|end_char=2006
+19	dass	dass	SCONJ	KOUS	_	23	mark	_	start_char=2007|end_char=2011
+20	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=2012|end_char=2015
+21	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	22	det	_	start_char=2016|end_char=2021
+22	Komplikationen	Komplikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obj	_	start_char=2022|end_char=2036
+23	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No|start_char=2037|end_char=2042
+24	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=2042|end_char=2043
+
+# text = **Einem Herzinfarkt vorbeugen** Sie können einem Herzinfarkt vorbeugen, indem Sie: * Rauchen aufhören * Gesund essen * Regelmäßig Bewegung treiben * Übergewicht abbauen * Bluthochdruck behandeln lassen
+# sent_id = 26
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=2045|end_char=2047
+2	Einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=2047|end_char=2052
+3	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl:arg	_	start_char=2053|end_char=2064
+4	vorbeugen	vorbeugen	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No|start_char=2065|end_char=2074
+5	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=2074|end_char=2075
+6	*	*	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s|start_char=2075|end_char=2076
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=2078|end_char=2081
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2082|end_char=2088
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=2089|end_char=2094
+10	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl:arg	_	start_char=2095|end_char=2106
+11	vorbeugen	vorbeugen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2107|end_char=2116
+12	,	,	PUNCT	$,	_	18	punct	_	start_char=2116|end_char=2117
+13	indem	indem	SCONJ	KOUS	_	18	mark	_	start_char=2118|end_char=2123
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	nsubj	_	SpaceAfter=No|start_char=2124|end_char=2127
+15	:	:	PUNCT	$.	_	18	punct	_	SpacesAfter=\s\s|start_char=2127|end_char=2128
+16	*	*	PUNCT	$(	_	18	punct	_	start_char=2130|end_char=2131
+17	Rauchen	Rauchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	nsubj	_	start_char=2132|end_char=2139
+18	aufhören	aufhören	VERB	VVINF	VerbForm=Inf	11	parataxis	_	start_char=2140|end_char=2148
+19	*	*	PUNCT	$(	_	21	punct	_	start_char=2149|end_char=2150
+20	Gesund	Gesund	ADJ	ADJD	Degree=Pos	21	advmod	_	start_char=2151|end_char=2157
+21	essen	essen	NOUN	NN	_	18	parataxis	_	start_char=2158|end_char=2163
+22	*	*	PUNCT	$(	_	25	punct	_	start_char=2164|end_char=2165
+23	Regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	25	advmod	_	start_char=2166|end_char=2176
+24	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	nsubj	_	start_char=2177|end_char=2185
+25	treiben	treiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=2186|end_char=2193
+26	*	*	PUNCT	$(	_	25	mark	_	start_char=2194|end_char=2195
+27	Übergewicht	Übergewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	start_char=2196|end_char=2207
+28	abbauen	abbauen	VERB	VVINF	VerbForm=Inf	25	conj	_	start_char=2208|end_char=2215
+29	*	*	PUNCT	$(	_	32	cc	_	start_char=2216|end_char=2217
+30	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	start_char=2218|end_char=2231
+31	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	32	xcomp	_	start_char=2232|end_char=2241
+32	lassen	lassen	VERB	VVINF	VerbForm=Inf	25	conj	_	SpacesAfter=\s\s|start_char=2242|end_char=2248
+
+# text = Es ist wichtig, dass Sie sich um Ihre Gesundheit kümmern, um das Risiko für einen Herzinfarkt zu reduzieren.
+# sent_id = 27
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=2250|end_char=2252
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2253|end_char=2256
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2257|end_char=2264
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=2264|end_char=2265
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=2266|end_char=2270
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=2271|end_char=2274
+7	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	start_char=2275|end_char=2279
+8	um	um	ADP	APPR	_	10	case	_	start_char=2280|end_char=2282
+9	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=2283|end_char=2287
+10	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=2288|end_char=2298
+11	kümmern	kümmern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	SpaceAfter=No|start_char=2299|end_char=2306
+12	,	,	PUNCT	$,	_	20	punct	_	start_char=2306|end_char=2307
+13	um	um	ADP	KOUI	_	20	mark	_	start_char=2308|end_char=2310
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=2311|end_char=2314
+15	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	start_char=2315|end_char=2321
+16	für	für	ADP	APPR	_	18	case	_	start_char=2322|end_char=2325
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=2326|end_char=2331
+18	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	start_char=2332|end_char=2343
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=2344|end_char=2346
+20	reduzieren	reduzieren	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No|start_char=2347|end_char=2357
+21	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=2357|end_char=2358
+
