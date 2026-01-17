@@ -1,0 +1,345 @@
+# text = **Impfungen für Kinder und Erwachsene** Impfungen schützen vor Krankheiten.
+# sent_id = 0
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=2|end_char=11
+3	für	für	ADP	APPR	_	4	case	_	start_char=12|end_char=15
+4	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	start_char=16|end_char=22
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=23|end_char=26
+6	Erwachsene	Erwachsene	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No|start_char=27|end_char=37
+7	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=37|end_char=38
+8	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s\s|start_char=38|end_char=39
+9	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=42|end_char=51
+10	schützen	schützen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=52|end_char=60
+11	vor	vor	ADP	APPR	_	12	case	_	start_char=61|end_char=64
+12	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|start_char=65|end_char=76
+13	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s\s|start_char=76|end_char=77
+
+# text = **Was ist eine Impfung?** Impfungen helfen dem Körper, Abwehrstoffe zu bilden.
+# sent_id = 1
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=80|end_char=82
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=82|end_char=85
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=86|end_char=89
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=90|end_char=94
+5	Impfung	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=95|end_char=102
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=102|end_char=103
+7	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=103|end_char=104
+8	*	*	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\s\s|start_char=104|end_char=105
+9	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=108|end_char=117
+10	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=118|end_char=124
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=125|end_char=128
+12	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl:arg	_	SpaceAfter=No|start_char=129|end_char=135
+13	,	,	PUNCT	$,	_	16	punct	_	start_char=135|end_char=136
+14	Abwehrstoffe	Abwehrstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=137|end_char=149
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=150|end_char=152
+16	bilden	bilden	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No|start_char=153|end_char=159
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=159|end_char=160
+
+# text = Diese heißen Antikörper.
+# sent_id = 2
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	start_char=161|end_char=166
+2	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=167|end_char=173
+3	Antikörper	Antikörper	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=174|end_char=184
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=184|end_char=185
+
+# text = Sie bekämpfen die Krankheitserreger.
+# sent_id = 3
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=186|end_char=189
+2	bekämpfen	bekämpfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=190|end_char=199
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=200|end_char=203
+4	Krankheitserreger	Krankheitserreger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=204|end_char=221
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=221|end_char=222
+
+# text = Manchmal bekommt man Teile von Erregern.
+# sent_id = 4
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=223|end_char=231
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=232|end_char=239
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=240|end_char=243
+4	Teile	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=244|end_char=249
+5	von	von	ADP	APPR	_	6	case	_	start_char=250|end_char=253
+6	Erregern	Erreger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=254|end_char=262
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=262|end_char=263
+
+# text = Manchmal bekommt man unschädliche Erreger.
+# sent_id = 5
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=264|end_char=272
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=273|end_char=280
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=281|end_char=284
+4	unschädliche	unschädlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=285|end_char=297
+5	Erreger	Erreger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=298|end_char=305
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=305|end_char=306
+
+# text = Impfungen können als Spritze oder als Flüssigkeit zum Schlucken gegeben werden.
+# sent_id = 6
+1	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	start_char=307|end_char=316
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=317|end_char=323
+3	als	als	ADP	KOKOM	_	4	case	_	start_char=324|end_char=327
+4	Spritze	Spritze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	start_char=328|end_char=335
+5	oder	oder	CCONJ	KON	_	7	cc	_	start_char=336|end_char=340
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=341|end_char=344
+7	Flüssigkeit	Flüssigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=345|end_char=356
+8-9	zum	_	_	_	_	_	_	_	start_char=357|end_char=360
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Schlucken	Schluck	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=361|end_char=370
+11	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=371|end_char=378
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	SpaceAfter=No|start_char=379|end_char=385
+13	.	.	PUNCT	$.	_	11	punct	_	start_char=385|end_char=386
+
+# text = mRNA-Impfungen sind neu.
+# sent_id = 7
+1	mRNA	mRNA	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	SpaceAfter=No|start_char=387|end_char=391
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=391|end_char=392
+3	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=392|end_char=401
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=402|end_char=406
+5	neu	neu	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=407|end_char=410
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=410|end_char=411
+
+# text = Der Körper wird angeregt, Teile des Virus selbst zu erzeugen.
+# sent_id = 8
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=412|end_char=415
+2	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=416|end_char=422
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=423|end_char=427
+4	angeregt	anregen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=428|end_char=436
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=436|end_char=437
+6	Teile	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=438|end_char=443
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=444|end_char=447
+8	Virus	Virus	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=448|end_char=453
+9	selbst	selbst	ADV	ADV	_	11	advmod	_	start_char=454|end_char=460
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=461|end_char=463
+11	erzeugen	erzeugen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|start_char=464|end_char=472
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s\s|start_char=472|end_char=473
+
+# text = **Totimpfstoff und Lebendimpfstoff** Totimpfstoffe enthalten Teile von Erregern oder abgetötete Erreger.
+# sent_id = 9
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=476|end_char=478
+2	Totimpfstoff	Totimpfstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=478|end_char=490
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=491|end_char=494
+4	Lebendimpfstoff	Lebendimpfstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|start_char=495|end_char=510
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=510|end_char=511
+6	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s\s|start_char=511|end_char=512
+7	Totimpfstoffe	Totimpfstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=515|end_char=528
+8	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=529|end_char=538
+9	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	start_char=539|end_char=544
+10	von	von	ADP	APPR	_	11	case	_	start_char=545|end_char=548
+11	Erregern	Erreger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	start_char=549|end_char=557
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=558|end_char=562
+13	abgetötete	abgetötet	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=563|end_char=573
+14	Erreger	Erreger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No|start_char=574|end_char=581
+15	.	.	PUNCT	$.	_	8	punct	_	start_char=581|end_char=582
+
+# text = Lebendimpfstoffe enthalten unschädlich gemachte Erreger.
+# sent_id = 10
+1	Lebendimpfstoffe	Lebendimpfstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=583|end_char=599
+2	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=600|end_char=609
+3	unschädlich	unschädlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=610|end_char=621
+4	gemachte	gemacht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=622|end_char=630
+5	Erreger	Erreger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=631|end_char=638
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=638|end_char=639
+
+# text = Lebendimpfstoffe werden in der Schwangerschaft nicht empfohlen.
+# sent_id = 11
+1	Lebendimpfstoffe	Lebendimpfstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	start_char=640|end_char=656
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	start_char=657|end_char=663
+3	in	in	ADP	APPR	_	5	case	_	start_char=664|end_char=666
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=667|end_char=670
+5	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=671|end_char=686
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=687|end_char=692
+7	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=693|end_char=702
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=702|end_char=703
+
+# text = Genbasierte Impfstoffe, wie mRNA, regen den Körper zur Produktion von Erregerbestandteilen an.
+# sent_id = 12
+1	Genbasierte	genbasiert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=704|end_char=715
+2	Impfstoffe	Impfstoff	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No|start_char=716|end_char=726
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=726|end_char=727
+4	wie	wie	ADP	KOKOM	_	5	case	_	start_char=728|end_char=731
+5	mRNA	mRNA	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=732|end_char=736
+6	,	,	PUNCT	$,	_	2	punct	_	start_char=736|end_char=737
+7	regen	reg	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=738|end_char=743
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=744|end_char=747
+9	Körper	Körper	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=748|end_char=754
+10-11	zur	_	_	_	_	_	_	_	start_char=755|end_char=758
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Produktion	Produktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=759|end_char=769
+13	von	von	ADP	APPR	_	14	case	_	start_char=770|end_char=773
+14	Erregerbestandteilen	Erregerbestandteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	start_char=774|end_char=794
+15	an	an	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No|start_char=795|end_char=797
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=797|end_char=798
+
+# text = Beispiele für Impfstoffe: Tetanus (Wundstarrkrampf), Diphterie, Hepatitis und Masern.
+# sent_id = 13
+1	Beispiele	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=799|end_char=808
+2	für	für	ADP	APPR	_	3	case	_	start_char=809|end_char=812
+3	Impfstoffe	Impfstoff	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No|start_char=813|end_char=823
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=823|end_char=824
+5	Tetanus	Tetanus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	start_char=825|end_char=832
+6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=833|end_char=834
+7	Wundstarrkrampf	Wundstarrkrampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|start_char=834|end_char=849
+8	)	)	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=849|end_char=850
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=850|end_char=851
+10	Diphterie	Diphterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|start_char=852|end_char=861
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=861|end_char=862
+12	Hepatitis	Hepatitis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=863|end_char=872
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=873|end_char=876
+14	Masern	Maser	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No|start_char=877|end_char=883
+15	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s\s|start_char=883|end_char=884
+
+# text = **Warum impfen?** Impfungen verhindern Infektionen.
+# sent_id = 14
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=887|end_char=889
+2	Warum	warum	ADV	PWAV	PronType=Int	3	advmod	_	start_char=889|end_char=894
+3	impfen	impfen	VERB	VVINF	VerbForm=Inf	8	ccomp	_	SpaceAfter=No|start_char=895|end_char=901
+4	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=901|end_char=902
+5	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=902|end_char=903
+6	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s\s|start_char=903|end_char=904
+7	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=907|end_char=916
+8	verhindern	verhindern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=917|end_char=927
+9	Infektionen	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|start_char=928|end_char=939
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=939|end_char=940
+
+# text = Wenn viele Menschen immun sind, breiten sich Erreger weniger aus.
+# sent_id = 15
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=941|end_char=945
+2	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=946|end_char=951
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=952|end_char=960
+4	immun	immun	ADJ	ADJD	Degree=Pos	7	advcl	_	start_char=961|end_char=966
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|start_char=967|end_char=971
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=971|end_char=972
+7	breiten	breit	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=973|end_char=980
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=981|end_char=985
+9	Erreger	Erreger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=986|end_char=993
+10	weniger	weniger	ADV	ADV	_	7	advmod	_	start_char=994|end_char=1001
+11	aus	aus	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No|start_char=1002|end_char=1005
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=1005|end_char=1006
+
+# text = Manche Krankheiten sind durch Impfungen selten geworden.
+# sent_id = 16
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=1007|end_char=1013
+2	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=1014|end_char=1025
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1026|end_char=1030
+4	durch	durch	ADP	APPR	_	5	case	_	start_char=1031|end_char=1036
+5	Impfungen	Impfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	start_char=1037|end_char=1046
+6	selten	selten	ADJ	ADJD	Degree=Pos	7	xcomp	_	start_char=1047|end_char=1053
+7	geworden	werden	AUX	VAPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1054|end_char=1062
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1062|end_char=1063
+
+# text = In Deutschland empfiehlt die Ständige Impfkommission (Stiko) Impfungen.
+# sent_id = 17
+1	In	in	ADP	APPR	_	2	case	_	start_char=1064|end_char=1066
+2	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=1067|end_char=1078
+3	empfiehlt	empfehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1079|end_char=1088
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1089|end_char=1092
+5	Ständige	ständig	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	start_char=1093|end_char=1101
+6	Impfkommission	Impfkommission	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1102|end_char=1116
+7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1117|end_char=1118
+8	Stiko	Stiko	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|start_char=1118|end_char=1123
+9	)	)	PUNCT	$(	_	8	punct	_	start_char=1123|end_char=1124
+10	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=1125|end_char=1134
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s\s|start_char=1134|end_char=1135
+
+# text = **Wer zahlt für Impfungen?**
+# sent_id = 18
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1138|end_char=1140
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=1140|end_char=1143
+3	zahlt	zahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1144|end_char=1149
+4	für	für	ADP	APPR	_	5	case	_	start_char=1150|end_char=1153
+5	Impfungen	Impfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|start_char=1154|end_char=1163
+6	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1163|end_char=1164
+7	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1164|end_char=1165
+8	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s\s|start_char=1165|end_char=1166
+
+# text = Die Krankenkassen übernehmen die Kosten für empfohlene Impfungen.
+# sent_id = 19
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1169|end_char=1172
+2	Krankenkassen	Krankenkasse	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1173|end_char=1186
+3	übernehmen	übernehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1187|end_char=1197
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1198|end_char=1201
+5	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	3	obj	_	start_char=1202|end_char=1208
+6	für	für	ADP	APPR	_	8	case	_	start_char=1209|end_char=1212
+7	empfohlene	empfohlen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1213|end_char=1223
+8	Impfungen	Impfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|start_char=1224|end_char=1233
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1233|end_char=1234
+
+# text = Reiseimpfungen zahlen oft die Reisenden selbst.
+# sent_id = 20
+1	Reiseimpfungen	Reiseimpfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1235|end_char=1249
+2	zahlen	zahlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1250|end_char=1256
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=1257|end_char=1260
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1261|end_char=1264
+5	Reisenden	Reisende	NOUN	NN	Case=Nom|Number=Plur	2	obj	_	start_char=1265|end_char=1274
+6	selbst	selbst	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1275|end_char=1281
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=1281|end_char=1282
+
+# text = **Nebenwirkungen** Impfreaktionen sind normale Nebenwirkungen wie Schmerzen oder Fieber.
+# sent_id = 21
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1285|end_char=1287
+2	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No|start_char=1287|end_char=1301
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1301|end_char=1302
+4	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s\s|start_char=1302|end_char=1303
+5	Impfreaktionen	Impfreaktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=1306|end_char=1320
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1321|end_char=1325
+7	normale	normal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1326|end_char=1333
+8	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1334|end_char=1348
+9	wie	wie	ADP	KOKOM	_	10	case	_	start_char=1349|end_char=1352
+10	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	start_char=1353|end_char=1362
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=1363|end_char=1367
+12	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|start_char=1368|end_char=1374
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=1374|end_char=1375
+
+# text = Impfkomplikationen sind ernster und müssen gemeldet werden.
+# sent_id = 22
+1	Impfkomplikationen	Impfkomplikation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1376|end_char=1394
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1395|end_char=1399
+3	ernster	ernst	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=1400|end_char=1407
+4	und	und	CCONJ	KON	_	6	cc	_	start_char=1408|end_char=1411
+5	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1412|end_char=1418
+6	gemeldet	melden	VERB	VVPP	VerbForm=Part	3	conj	_	start_char=1419|end_char=1427
+7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	SpaceAfter=No|start_char=1428|end_char=1434
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s\s|start_char=1434|end_char=1435
+
+# text = **Wann keine Impfung?**
+# sent_id = 23
+1	**	**	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1438|end_char=1440
+2	Wann	wann	ADV	PWAV	PronType=Int	4	advmod	_	start_char=1440|end_char=1444
+3	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	4	det	_	start_char=1445|end_char=1450
+4	Impfung	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1451|end_char=1458
+5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=1458|end_char=1459
+6	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1459|end_char=1460
+7	*	*	PUNCT	$(	_	4	dep	_	SpacesAfter=\s\s\s|start_char=1460|end_char=1461
+
+# text = Manchmal ist eine Impfung nicht möglich.
+# sent_id = 24
+1	Manchmal	manchmal	ADV	ADV	_	6	advmod	_	start_char=1464|end_char=1472
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1473|end_char=1476
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1477|end_char=1481
+4	Impfung	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1482|end_char=1489
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1490|end_char=1495
+6	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1496|end_char=1503
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1503|end_char=1504
+
+# text = Gründe sind Schwangerschaft, starker Krankheit oder Allergie gegen Bestandteile.
+# sent_id = 25
+1	Gründe	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1505|end_char=1511
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1512|end_char=1516
+3	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1517|end_char=1532
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=1532|end_char=1533
+5	starker	stark	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1534|end_char=1541
+6	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	start_char=1542|end_char=1551
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1552|end_char=1556
+8	Allergie	Allergie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	start_char=1557|end_char=1565
+9	gegen	gegen	ADP	APPR	_	10	case	_	start_char=1566|end_char=1571
+10	Bestandteile	Bestandteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No|start_char=1572|end_char=1584
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1584|end_char=1585
+
+# text = Bei einer Erkältung kann man geimpft werden.
+# sent_id = 26
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=1586|end_char=1589
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1590|end_char=1595
+3	Erkältung	Erkältung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=1596|end_char=1605
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1606|end_char=1610
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj:pass	_	start_char=1611|end_char=1614
+6	geimpft	impfen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1615|end_char=1622
+7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	SpaceAfter=No|start_char=1623|end_char=1629
+8	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=1629|end_char=1630
+

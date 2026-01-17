@@ -1,0 +1,291 @@
+# text = Psychotherapie hilft bei seelischen Problemen.
+# sent_id = 0
+1	Psychotherapie	Psychotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=14
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=15|end_char=20
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=21|end_char=24
+4	seelischen	seelisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=25|end_char=35
+5	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|start_char=36|end_char=45
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=45|end_char=46
+
+# text = Beispiele sind Depressionen und Traumata.
+# sent_id = 1
+1	Beispiele	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=47|end_char=56
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=57|end_char=61
+3	Depressionen	Depression	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=62|end_char=74
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=75|end_char=78
+5	Traumata	Trauma	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No|start_char=79|end_char=87
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=87|end_char=88
+
+# text = Die Therapie wird von Psychotherapeuten angeboten.
+# sent_id = 2
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=89|end_char=92
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=93|end_char=101
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=102|end_char=106
+4	von	von	ADP	APPR	_	5	case	_	start_char=107|end_char=110
+5	Psychotherapeuten	Psychotherapeut	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl:agent	_	start_char=111|end_char=128
+6	angeboten	anbieten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=129|end_char=138
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=138|end_char=139
+
+# text = Sie helfen, wenn man sich seelisch sehr schlecht fühlt.
+# sent_id = 3
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=140|end_char=143
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=144|end_char=150
+3	,	,	PUNCT	$,	_	10	punct	_	start_char=150|end_char=151
+4	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=152|end_char=156
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=157|end_char=160
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=161|end_char=165
+7	seelisch	seelisch	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=166|end_char=174
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=175|end_char=179
+9	schlecht	schlecht	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=180|end_char=188
+10	fühlt	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=189|end_char=194
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=194|end_char=195
+
+# text = Psychisch bedeutet, etwas betrifft die Seele und Gefühle.
+# sent_id = 4
+1	Psychisch	psychisch	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=198|end_char=207
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=208|end_char=216
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=216|end_char=217
+4	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	start_char=218|end_char=223
+5	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=224|end_char=232
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=233|end_char=236
+7	Seele	Seele	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=237|end_char=242
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=243|end_char=246
+9	Gefühle	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No|start_char=247|end_char=254
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=254|end_char=255
+
+# text = Wenn Ängste oder Traurigkeit lange andauern, sollte man einen Psychotherapeuten aufsuchen.
+# sent_id = 5
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=256|end_char=260
+2	Ängste	Angst	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=261|end_char=267
+3	oder	oder	CCONJ	KON	_	4	cc	_	start_char=268|end_char=272
+4	Traurigkeit	Traurigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=273|end_char=284
+5	lange	lange	ADV	ADV	_	6	advmod	_	start_char=285|end_char=290
+6	andauern	andauern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=291|end_char=299
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=299|end_char=300
+8	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=301|end_char=307
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=308|end_char=311
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=312|end_char=317
+11	Psychotherapeuten	Psychotherapeut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=318|end_char=335
+12	aufsuchen	aufsuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=336|end_char=345
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=345|end_char=346
+
+# text = Dafür braucht man nur seine Krankenversicherungskarte.
+# sent_id = 6
+1	Dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	start_char=347|end_char=352
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=353|end_char=360
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=361|end_char=364
+4	nur	nur	ADV	ADV	_	2	advmod	_	start_char=365|end_char=368
+5	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=369|end_char=374
+6	Krankenversicherungskarte	Krankenversicherungskarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=375|end_char=400
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=400|end_char=401
+
+# text = Psychotherapeuten sind Menschen, die anderen bei seelischen Problemen helfen.
+# sent_id = 7
+1	Psychotherapeuten	Psychotherapeut	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=404|end_char=421
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=422|end_char=426
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=427|end_char=435
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=435|end_char=436
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=437|end_char=440
+6	anderen	anderer	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	10	obj	_	start_char=441|end_char=448
+7	bei	bei	ADP	APPR	_	9	case	_	start_char=449|end_char=452
+8	seelischen	seelisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=453|end_char=463
+9	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=464|end_char=473
+10	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No|start_char=474|end_char=480
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=480|end_char=481
+
+# text = Psychiater dürfen auch Medikamente geben.
+# sent_id = 8
+1	Psychiater	Psychiater	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=482|end_char=492
+2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=493|end_char=499
+3	auch	auch	ADV	ADV	_	5	advmod	_	start_char=500|end_char=504
+4	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=505|end_char=516
+5	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=517|end_char=522
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=522|end_char=523
+
+# text = Psychologen helfen ohne Medikamente.
+# sent_id = 9
+1	Psychologen	Psychologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=524|end_char=535
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=536|end_char=542
+3	ohne	ohne	ADP	APPR	_	4	case	_	start_char=543|end_char=547
+4	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|start_char=548|end_char=559
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=559|end_char=560
+
+# text = Eine Therapie kann ambulant oder stationär sein.
+# sent_id = 10
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=563|end_char=567
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=568|end_char=576
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=577|end_char=581
+4	ambulant	ambulant	ADJ	ADJD	Degree=Pos	0	root	_	start_char=582|end_char=590
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=591|end_char=595
+6	stationär	stationär	ADJ	ADJD	Degree=Pos	4	conj	_	start_char=596|end_char=605
+7	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No|start_char=606|end_char=610
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=610|end_char=611
+
+# text = Ambulant heißt, man besucht den Therapeuten regelmäßig, lebt aber weiter zuhause.
+# sent_id = 11
+1	Ambulant	Ambulant	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=612|end_char=620
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=621|end_char=626
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=626|end_char=627
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=628|end_char=631
+5	besucht	besuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=632|end_char=639
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=640|end_char=643
+7	Therapeuten	Therapeut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=644|end_char=655
+8	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	5	advmod	_	SpaceAfter=No|start_char=656|end_char=666
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=666|end_char=667
+10	lebt	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=668|end_char=672
+11	aber	aber	ADV	ADV	_	10	advmod	_	start_char=673|end_char=677
+12	weiter	weiter	ADV	ADV	_	10	advmod	_	start_char=678|end_char=684
+13	zuhause	zuhause	ADV	PTKVZ	_	10	compound:prt	_	SpaceAfter=No|start_char=685|end_char=692
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=692|end_char=693
+
+# text = Stationär bedeutet, man bleibt für die Dauer der Therapie in einer Klinik.
+# sent_id = 12
+1	Stationär	Stationär	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=694|end_char=703
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=704|end_char=712
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=712|end_char=713
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=714|end_char=717
+5	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=718|end_char=724
+6	für	für	ADP	APPR	_	8	case	_	start_char=725|end_char=728
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=729|end_char=732
+8	Dauer	Dauer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=733|end_char=738
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=739|end_char=742
+10	Therapie	Therapie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=743|end_char=751
+11	in	in	ADP	APPR	_	13	case	_	start_char=752|end_char=754
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=755|end_char=760
+13	Klinik	Klinik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=761|end_char=767
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=767|end_char=768
+
+# text = Es gibt verschiedene Therapieformen.
+# sent_id = 13
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=771|end_char=773
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=774|end_char=778
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=779|end_char=791
+4	Therapieformen	Therapieform	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=792|end_char=806
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=806|end_char=807
+
+# text = Verhaltenstherapie hilft, Verhaltensweisen zu verbessern.
+# sent_id = 14
+1	Verhaltenstherapie	Verhaltenstherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=808|end_char=826
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=827|end_char=832
+3	,	,	PUNCT	$,	_	6	punct	_	start_char=832|end_char=833
+4	Verhaltensweisen	Verhaltensweise	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=834|end_char=850
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=851|end_char=853
+6	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=854|end_char=864
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=864|end_char=865
+
+# text = Tiefenpsychologische Therapie macht innere Konflikte bewusst.
+# sent_id = 15
+1	Tiefenpsychologische	tiefenpsychologisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=866|end_char=886
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=887|end_char=895
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=896|end_char=901
+4	innere	inner	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=902|end_char=908
+5	Konflikte	Konflikt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nsubj	_	start_char=909|end_char=918
+6	bewusst	bewußt	ADJ	ADJD	Degree=Pos	3	xcomp	_	SpaceAfter=No|start_char=919|end_char=926
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=926|end_char=927
+
+# text = Psychoanalyse geht in die Vergangenheit.
+# sent_id = 16
+1	Psychoanalyse	Psychoanalyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=928|end_char=941
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=942|end_char=946
+3	in	in	ADP	APPR	_	5	case	_	start_char=947|end_char=949
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=950|end_char=953
+5	Vergangenheit	Vergangenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=954|end_char=967
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=967|end_char=968
+
+# text = Systemische Therapie betrachtet Beziehungen.
+# sent_id = 17
+1	Systemische	systemisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=969|end_char=980
+2	Therapie	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=981|end_char=989
+3	betrachtet	betrachten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=990|end_char=1000
+4	Beziehungen	Beziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=1001|end_char=1012
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s\s|start_char=1012|end_char=1013
+
+# text = Die Krankenkasse zahlt die Therapie, wenn sie notwendig ist.
+# sent_id = 18
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1016|end_char=1019
+2	Krankenkasse	Krankenkasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1020|end_char=1032
+3	zahlt	zahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1033|end_char=1038
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1039|end_char=1042
+5	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=1043|end_char=1051
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=1051|end_char=1052
+7	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=1053|end_char=1057
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=1058|end_char=1061
+9	notwendig	notwendig	ADJ	ADJD	Degree=Pos	3	advcl	_	start_char=1062|end_char=1071
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No|start_char=1072|end_char=1075
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1075|end_char=1076
+
+# text = Privatversicherte müssen die Kostenübernahme vorher klären.
+# sent_id = 19
+1	Privatversicherte	Privatversichert	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=1077|end_char=1094
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1095|end_char=1101
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1102|end_char=1105
+4	Kostenübernahme	Kostenübernahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=1106|end_char=1121
+5	vorher	vorher	ADV	ADV	_	6	advmod	_	start_char=1122|end_char=1128
+6	klären	klären	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1129|end_char=1135
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s\s|start_char=1135|end_char=1136
+
+# text = Patienten brauchen Geduld, um einen Therapieplatz zu bekommen.
+# sent_id = 20
+1	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1139|end_char=1148
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1149|end_char=1157
+3	Geduld	Geduld	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=1158|end_char=1164
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=1164|end_char=1165
+5	um	um	ADP	KOUI	_	9	mark	_	start_char=1166|end_char=1168
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1169|end_char=1174
+7	Therapieplatz	Therapieplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=1175|end_char=1188
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=1189|end_char=1191
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=1192|end_char=1200
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1200|end_char=1201
+
+# text = Wartezeit ist unterschiedlich lang.
+# sent_id = 21
+1	Wartezeit	Wartezeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1202|end_char=1211
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1212|end_char=1215
+3	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1216|end_char=1231
+4	lang	lang	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1232|end_char=1236
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s\s|start_char=1236|end_char=1237
+
+# text = Eine Therapiesitzung dauert 50 Minuten.
+# sent_id = 22
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=1240|end_char=1244
+2	Therapiesitzung	Therapiesitzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1245|end_char=1260
+3	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1261|end_char=1267
+4	50	50	NUM	CARD	NumType=Card	5	nummod	_	start_char=1268|end_char=1270
+5	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=1271|end_char=1278
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1278|end_char=1279
+
+# text = Manche gehen oft zur Therapie, andere weniger.
+# sent_id = 23
+1	Manche	mancher	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	2	nsubj	_	start_char=1280|end_char=1286
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1287|end_char=1292
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=1293|end_char=1296
+4-5	zur	_	_	_	_	_	_	_	start_char=1297|end_char=1300
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Therapie	Therapie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1301|end_char=1309
+7	,	,	PUNCT	$,	_	8	punct	_	start_char=1309|end_char=1310
+8	andere	anderer	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	2	conj	_	start_char=1311|end_char=1317
+9	weniger	weniger	ADV	ADV	_	8	advmod	_	SpaceAfter=No|start_char=1318|end_char=1325
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1325|end_char=1326
+
+# text = Wenn die Beziehung zwischen Patient und Therapeut schwierig ist, kann man die Therapie abbrechen und wechseln.
+# sent_id = 24
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1327|end_char=1331
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1332|end_char=1335
+3	Beziehung	Beziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1336|end_char=1345
+4	zwischen	zwischen	ADP	APPR	_	5	case	_	start_char=1346|end_char=1354
+5	Patient	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=1355|end_char=1362
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1363|end_char=1366
+7	Therapeut	Therapeut	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	start_char=1367|end_char=1376
+8	schwierig	schwierig	ADJ	ADJD	Degree=Pos	15	advcl	_	start_char=1377|end_char=1386
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=1387|end_char=1390
+10	,	,	PUNCT	$,	_	8	punct	_	start_char=1390|end_char=1391
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=1392|end_char=1396
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=1397|end_char=1400
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=1401|end_char=1404
+14	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=1405|end_char=1413
+15	abbrechen	abbrechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1414|end_char=1423
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=1424|end_char=1427
+17	wechseln	wechseln	VERB	VVINF	VerbForm=Inf	15	conj	_	SpaceAfter=No|start_char=1428|end_char=1436
+18	.	.	PUNCT	$.	_	15	punct	_	SpaceAfter=No|start_char=1436|end_char=1437
+

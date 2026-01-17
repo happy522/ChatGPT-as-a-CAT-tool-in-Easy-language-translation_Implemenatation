@@ -1,0 +1,373 @@
+# text = Hier ist der Text nach Ihren Vorgaben reformuliert: --- **Medikamente: Antibiotika richtig einnehmen** Antibiotika töten Bakterien.
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	8	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=13|end_char=17
+5	nach	nach	ADP	APPR	_	7	case	_	start_char=18|end_char=22
+6	Ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=23|end_char=28
+7	Vorgaben	Vorgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	start_char=29|end_char=37
+8	reformuliert	reformulieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=38|end_char=50
+9	:	:	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s\s|start_char=50|end_char=51
+10	---	---	PUNCT	$(	_	12	punct	_	SpacesAfter=\s\s|start_char=54|end_char=57
+11	**	**	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=59|end_char=61
+12	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	parataxis	_	SpaceAfter=No|start_char=61|end_char=72
+13	:	:	PUNCT	$.	_	16	punct	_	start_char=72|end_char=73
+14	Antibiotika	Antibiotikum	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	start_char=74|end_char=85
+15	richtig	richtig	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=86|end_char=93
+16	einnehmen	einnehmen	VERB	VVINF	VerbForm=Inf	12	parataxis	_	SpaceAfter=No|start_char=94|end_char=103
+17	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=103|end_char=104
+18	*	*	PUNCT	$(	_	20	punct	_	SpacesAfter=\s\s\s|start_char=104|end_char=105
+19	Antibiotika	Antibiotikum	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	start_char=108|end_char=119
+20	töten	töten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=120|end_char=125
+21	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No|start_char=126|end_char=135
+22	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=135|end_char=136
+
+# text = Bakterien sind kleine Lebewesen, die krank machen können.
+# sent_id = 1
+1	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=138|end_char=147
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=148|end_char=152
+3	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=153|end_char=159
+4	Lebewesen	Lebewesen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=160|end_char=169
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=169|end_char=170
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=171|end_char=174
+7	krank	krank	ADJ	ADJD	Degree=Pos	8	xcomp	_	start_char=175|end_char=180
+8	machen	machen	VERB	VVINF	VerbForm=Inf	4	acl	_	start_char=181|end_char=187
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|start_char=188|end_char=194
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=194|end_char=195
+
+# text = Ein Antibiotikum hilft nur, wenn Sie es richtig nehmen.
+# sent_id = 2
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=197|end_char=200
+2	Antibiotikum	Antibiotikum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=201|end_char=213
+3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=214|end_char=219
+4	nur	nur	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=220|end_char=223
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=223|end_char=224
+6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=225|end_char=229
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	start_char=230|end_char=233
+8	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=234|end_char=236
+9	richtig	richtig	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=237|end_char=244
+10	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=245|end_char=251
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s\s|start_char=251|end_char=252
+
+# text = **Wann braucht man ein Antibiotikum?**
+# sent_id = 3
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=255|end_char=257
+2	Wann	wann	ADV	PWAV	_	3	advmod	_	start_char=257|end_char=261
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=262|end_char=269
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=270|end_char=273
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=274|end_char=277
+6	Antibiotikum	Antibiotikum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|start_char=278|end_char=290
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=290|end_char=291
+8	*	*	PUNCT	$(	_	3	dep	_	SpaceAfter=No|start_char=291|end_char=292
+9	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=292|end_char=293
+
+# text = Antibiotika helfen bei Infektionen mit Bakterien.
+# sent_id = 4
+1	Antibiotika	Antibiotikum	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=295|end_char=306
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=307|end_char=313
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=314|end_char=317
+4	Infektionen	Infektion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=318|end_char=329
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=330|end_char=333
+6	Bakterien	Bakterium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=334|end_char=343
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=343|end_char=344
+
+# text = Infektion heißt: eine Krankheit durch Bakterien.
+# sent_id = 5
+1	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=346|end_char=355
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=356|end_char=361
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=361|end_char=362
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=363|end_char=367
+5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=368|end_char=377
+6	durch	durch	ADP	APPR	_	7	case	_	start_char=378|end_char=383
+7	Bakterien	Bakterium	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|start_char=384|end_char=393
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=393|end_char=394
+
+# text = Zum Beispiel bei Blasenentzündung oder Lungenentzündung.
+# sent_id = 6
+1-2	Zum	_	_	_	_	_	_	_	start_char=396|end_char=399
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=400|end_char=408
+4	bei	bei	ADP	APPR	_	5	case	_	start_char=409|end_char=412
+5	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	start_char=413|end_char=429
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=430|end_char=434
+7	Lungenentzündung	Lungenentzündung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|start_char=435|end_char=451
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=451|end_char=452
+
+# text = Antibiotika helfen nicht gegen Viren.
+# sent_id = 7
+1	Antibiotika	Antibiotikum	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=454|end_char=465
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=466|end_char=472
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=473|end_char=478
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=479|end_char=484
+5	Viren	Virus	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|start_char=485|end_char=490
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=490|end_char=491
+
+# text = Viren sind andere Krankheitserreger, zum Beispiel bei Grippe.
+# sent_id = 8
+1	Viren	Virus	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=493|end_char=498
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=499|end_char=503
+3	andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=504|end_char=510
+4	Krankheitserreger	Krankheitserreger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=511|end_char=528
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=528|end_char=529
+6-7	zum	_	_	_	_	_	_	_	start_char=530|end_char=533
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	start_char=534|end_char=542
+9	bei	bei	ADP	APPR	_	10	case	_	start_char=543|end_char=546
+10	Grippe	Grippe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=547|end_char=553
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s\s|start_char=553|end_char=554
+
+# text = **Wie muss man ein Antibiotikum nehmen?**
+# sent_id = 9
+1	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=557|end_char=559
+2	Wie	wie	ADV	PWAV	PronType=Int	7	advmod	_	start_char=559|end_char=562
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=563|end_char=567
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=568|end_char=571
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=572|end_char=575
+6	Antibiotikum	Antibiotikum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=576|end_char=588
+7	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=589|end_char=595
+8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=595|end_char=596
+9	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=596|end_char=597
+10	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=597|end_char=598
+
+# text = Der Arzt oder die Ärztin erklärt, wie oft Sie das Medikament nehmen sollen.
+# sent_id = 10
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=600|end_char=603
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=604|end_char=608
+3	oder	oder	CCONJ	KON	_	5	cc	_	start_char=609|end_char=613
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=614|end_char=617
+5	Ärztin	Ärztin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=618|end_char=624
+6	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=625|end_char=632
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=632|end_char=633
+8	wie	wie	ADV	PWAV	PronType=Int	13	advmod	_	start_char=634|end_char=637
+9	oft	oft	ADV	ADV	_	13	advmod	_	start_char=638|end_char=641
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=642|end_char=645
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=646|end_char=649
+12	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=650|end_char=660
+13	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	start_char=661|end_char=667
+14	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No|start_char=668|end_char=674
+15	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=674|end_char=675
+
+# text = Oft steht es auch auf dem Rezept.
+# sent_id = 11
+1	Oft	oft	ADV	ADV	_	2	advmod	_	start_char=677|end_char=680
+2	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=681|end_char=686
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=687|end_char=689
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=690|end_char=694
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=695|end_char=698
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=699|end_char=702
+7	Rezept	Rezept	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=703|end_char=709
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=709|end_char=710
+
+# text = Wenn Sie nicht wissen, wie Sie das Antibiotikum nehmen, fragen Sie im Krankenhaus, beim Arzt oder in der Apotheke.
+# sent_id = 12
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=712|end_char=716
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=717|end_char=720
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=721|end_char=726
+4	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=727|end_char=733
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=733|end_char=734
+6	wie	wie	SCONJ	KOUS	_	10	mark	_	start_char=735|end_char=738
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=739|end_char=742
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=743|end_char=746
+9	Antibiotikum	Antibiotikum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=747|end_char=759
+10	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No|start_char=760|end_char=766
+11	,	,	PUNCT	$,	_	4	punct	_	start_char=766|end_char=767
+12	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=768|end_char=774
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=775|end_char=778
+14-15	im	_	_	_	_	_	_	_	start_char=779|end_char=781
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Krankenhaus	Krankenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|start_char=782|end_char=793
+17	,	,	PUNCT	$,	_	20	punct	_	start_char=793|end_char=794
+18-19	beim	_	_	_	_	_	_	_	start_char=795|end_char=799
+18	bei	bei	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	conj	_	start_char=800|end_char=804
+21	oder	oder	CCONJ	KON	_	24	cc	_	start_char=805|end_char=809
+22	in	in	ADP	APPR	_	24	case	_	start_char=810|end_char=812
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=813|end_char=816
+24	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No|start_char=817|end_char=825
+25	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s\s|start_char=825|end_char=826
+
+# text = Wichtig: Nehmen Sie das Antibiotikum immer genau nach Anleitung.
+# sent_id = 13
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=829|end_char=836
+2	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=836|end_char=837
+3	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=839|end_char=845
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=846|end_char=849
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=850|end_char=853
+6	Antibiotikum	Antibiotikum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=854|end_char=866
+7	immer	immer	ADV	ADV	_	8	advmod	_	start_char=867|end_char=872
+8	genau	genau	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=873|end_char=878
+9	nach	nach	ADP	APPR	_	10	case	_	start_char=879|end_char=883
+10	Anleitung	Anleitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=884|end_char=893
+11	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s\s|start_char=893|end_char=894
+
+# text = - „1x1 täglich“: Sie nehmen die Tablette oder Salbe alle 24 Stunden.
+# sent_id = 14
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=897|end_char=898
+2	„	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=899|end_char=900
+3	1x1	1x1	NUM	CARD	NumType=Card	4	nummod	_	start_char=900|end_char=903
+4	täglich	täglich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=904|end_char=911
+5	“	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=911|end_char=912
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=912|end_char=913
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=914|end_char=917
+8	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=918|end_char=924
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=925|end_char=928
+10	Tablette	Tablette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=929|end_char=937
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=938|end_char=942
+12	Salbe	Salbe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	start_char=943|end_char=948
+13	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	15	det	_	start_char=949|end_char=953
+14	24	24	NUM	CARD	NumType=Card	15	nummod	_	start_char=954|end_char=956
+15	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|start_char=957|end_char=964
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=964|end_char=965
+
+# text = - „2x1 pro Tag“: Sie nehmen die Tablette alle 12 Stunden.
+# sent_id = 15
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=967|end_char=968
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=969|end_char=970
+3	2x1	2x1	NUM	CARD	NumType=Card	0	root	_	start_char=970|end_char=973
+4	pro	pro	ADP	APPR	_	5	case	_	start_char=974|end_char=977
+5	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=978|end_char=981
+6	“	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=981|end_char=982
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=982|end_char=983
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=984|end_char=987
+9	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=988|end_char=994
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=995|end_char=998
+11	Tablette	Tablette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=999|end_char=1007
+12	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	14	det	_	start_char=1008|end_char=1012
+13	12	12	NUM	CARD	NumType=Card	14	nummod	_	start_char=1013|end_char=1015
+14	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|start_char=1016|end_char=1023
+15	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1023|end_char=1024
+
+# text = - „3x1 am Tag“: Sie nehmen die Tablette alle 8 Stunden.
+# sent_id = 16
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=1026|end_char=1027
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1028|end_char=1029
+3	3x1	3x1	PROPN	CARD	NumType=Card	10	dep	_	start_char=1029|end_char=1032
+4-5	am	_	_	_	_	_	_	_	start_char=1033|end_char=1035
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1036|end_char=1039
+7	“	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1039|end_char=1040
+8	:	:	PUNCT	$.	_	10	punct	_	start_char=1040|end_char=1041
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=1042|end_char=1045
+10	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1046|end_char=1052
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1053|end_char=1056
+12	Tablette	Tablette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1057|end_char=1065
+13	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	15	det	_	start_char=1066|end_char=1070
+14	8	8	NUM	CARD	NumType=Card	15	nummod	_	start_char=1071|end_char=1072
+15	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|start_char=1073|end_char=1080
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s\s|start_char=1080|end_char=1081
+
+# text = Lesen Sie die Packungsbeilage.
+# sent_id = 17
+1	Lesen	Lesen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1084|end_char=1089
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1090|end_char=1093
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1094|end_char=1097
+4	Packungsbeilage	Packungsbeilage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|start_char=1098|end_char=1113
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s|start_char=1113|end_char=1114
+
+# text = Packungsbeilage heißt: der Zettel in der Medikamentenpackung mit allen Infos.
+# sent_id = 18
+1	Packungsbeilage	Packungsbeilage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=1116|end_char=1131
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1132|end_char=1137
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=1137|end_char=1138
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1139|end_char=1142
+5	Zettel	Zettel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	start_char=1143|end_char=1149
+6	in	in	ADP	APPR	_	8	case	_	start_char=1150|end_char=1152
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1153|end_char=1156
+8	Medikamentenpackung	Medikamentenpackung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=1157|end_char=1176
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=1177|end_char=1180
+10	allen	alle	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	11	det	_	start_char=1181|end_char=1186
+11	Infos	Info	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|start_char=1187|end_char=1192
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=1192|end_char=1193
+
+# text = Manchmal sollen Sie das Mittel vor dem Essen nehmen.
+# sent_id = 19
+1	Manchmal	manchmal	ADV	ADV	_	9	advmod	_	start_char=1196|end_char=1204
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1205|end_char=1211
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	start_char=1212|end_char=1215
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1216|end_char=1219
+5	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1220|end_char=1226
+6	vor	vor	ADP	APPR	_	8	case	_	start_char=1227|end_char=1230
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=1231|end_char=1234
+8	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1235|end_char=1240
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1241|end_char=1247
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1247|end_char=1248
+
+# text = Das heißt: 30 bis 60 Minuten vor dem Essen.
+# sent_id = 20
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1250|end_char=1253
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1254|end_char=1259
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=1259|end_char=1260
+4	30	30	NUM	CARD	NumType=Card	7	nummod	_	start_char=1261|end_char=1263
+5	bis	bis	ADP	KON	_	6	case	_	start_char=1264|end_char=1267
+6	60	60	NUM	CARD	NumType=Card	7	nmod	_	start_char=1268|end_char=1270
+7	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=1271|end_char=1278
+8	vor	vor	ADP	APPR	_	10	case	_	start_char=1279|end_char=1282
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1283|end_char=1286
+10	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1287|end_char=1292
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=1292|end_char=1293
+
+# text = Manchmal sollen Sie das Mittel zum Essen nehmen.
+# sent_id = 21
+1	Manchmal	manchmal	ADV	ADV	_	9	advmod	_	start_char=1295|end_char=1303
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1304|end_char=1310
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	start_char=1311|end_char=1314
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1315|end_char=1318
+5	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1319|end_char=1325
+6-7	zum	_	_	_	_	_	_	_	start_char=1326|end_char=1329
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1330|end_char=1335
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1336|end_char=1342
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1342|end_char=1343
+
+# text = Das heißt: direkt beim Essen.
+# sent_id = 22
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1345|end_char=1348
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1349|end_char=1354
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=1354|end_char=1355
+4	direkt	direkt	ADJ	ADJD	Degree=Pos	7	amod	_	start_char=1356|end_char=1362
+5-6	beim	_	_	_	_	_	_	_	start_char=1363|end_char=1367
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1368|end_char=1373
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=1373|end_char=1374
+
+# text = **Wie nehmen Sie Antibiotika richtig ein?** Nehmen Sie die Tablette mit viel Leitungswasser.
+# sent_id = 23
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1377|end_char=1379
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1379|end_char=1382
+3	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1383|end_char=1389
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=1390|end_char=1393
+5	Antibiotika	Antibiotikum	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1394|end_char=1405
+6	richtig	richtig	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=1406|end_char=1413
+7	ein	ein	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=1414|end_char=1417
+8	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1417|end_char=1418
+9	*	*	X	XY	_	3	dep	_	SpaceAfter=No|start_char=1418|end_char=1419
+10	*	*	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s|start_char=1419|end_char=1420
+11	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1422|end_char=1428
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=1429|end_char=1432
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=1433|end_char=1436
+14	Tablette	Tablette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=1437|end_char=1445
+15	mit	mit	ADP	APPR	_	17	case	_	start_char=1446|end_char=1449
+16	viel	viel	DET	PIAT	PronType=Ind	17	det	_	start_char=1450|end_char=1454
+17	Leitungswasser	Leitungswasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=1455|end_char=1469
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1469|end_char=1470
+
+# text = Nehmen Sie kein Milch, keinen Tee, keinen
+# sent_id = 24
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1472|end_char=1478
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1479|end_char=1482
+3	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	det	_	start_char=1483|end_char=1487
+4	Milch	Milch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No|start_char=1488|end_char=1493
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=1493|end_char=1494
+6	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	7	det	_	start_char=1495|end_char=1501
+7	Tee	Tee	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|start_char=1502|end_char=1505
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=1505|end_char=1506
+9	keinen	kein	DET	PIS	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	4	conj	_	SpaceAfter=No|start_char=1507|end_char=1513
+

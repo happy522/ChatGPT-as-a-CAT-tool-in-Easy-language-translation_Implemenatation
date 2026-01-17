@@ -1,0 +1,554 @@
+# text = **Wechseljahre: Was passiert und wie kann man helfen** **Was sind Wechseljahre?**
+# sent_id = 0
+1-2	*	_	_	_	_	_	_	_	SpaceAfter=No|start_char=0|end_char=1
+1	<SOS>n	<SOS>n	X	NE	Case=Nom|Number=Sing	2	dep	_	_
+2	de*	de*	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1|end_char=2
+4	Wechseljahre	Wechseljahre	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	appos	_	SpaceAfter=No|start_char=2|end_char=14
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=14|end_char=15
+6	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=16|end_char=19
+7	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=20|end_char=28
+8	und	und	CCONJ	KON	_	12	cc	_	start_char=29|end_char=32
+9	wie	wie	ADV	PWAV	PronType=Int	12	advmod	_	start_char=33|end_char=36
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=37|end_char=41
+11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=42|end_char=45
+12	helfen	helfen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No|start_char=46|end_char=52
+13	*	*	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=52|end_char=53
+14	*	*	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s|start_char=53|end_char=54
+15	**	**	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=56|end_char=58
+16	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	18	nsubj	_	start_char=58|end_char=61
+17	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=62|end_char=66
+18	Wechseljahre	Wechseljahre	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	parataxis	_	SpaceAfter=No|start_char=67|end_char=79
+19	?	?	PUNCT	$.	_	18	punct	_	SpaceAfter=No|start_char=79|end_char=80
+20	*	*	SYM	$(	_	18	punct	_	SpaceAfter=No|start_char=80|end_char=81
+21	*	*	PUNCT	$(	_	18	punct	_	start_char=81|end_char=82
+
+# text = Wechseljahre sind die Zeit, in der Frauen keine Kinder mehr bekommen können.
+# sent_id = 1
+1	Wechseljahre	Wechseljahre	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=83|end_char=95
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=96|end_char=100
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=101|end_char=104
+4	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=105|end_char=109
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=109|end_char=110
+6	in	in	ADP	APPR	_	7	case	_	start_char=111|end_char=113
+7	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	12	obl	_	start_char=114|end_char=117
+8	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	nsubj	_	start_char=118|end_char=124
+9	keine	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Neg	10	det	_	start_char=125|end_char=130
+10	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=131|end_char=137
+11	mehr	mehr	ADV	ADV	_	12	advmod	_	start_char=138|end_char=142
+12	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	4	acl	_	start_char=143|end_char=151
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=152|end_char=158
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=158|end_char=159
+
+# text = Frauen bekommen das zwischen 40 und 50 Jahren.
+# sent_id = 2
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=160|end_char=166
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=167|end_char=175
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=176|end_char=179
+4	zwischen	zwischen	ADP	APPR	_	8	case	_	start_char=180|end_char=188
+5	40	40	NUM	CARD	NumType=Card	8	nummod	_	start_char=189|end_char=191
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=192|end_char=195
+7	50	50	NUM	CARD	NumType=Card	5	conj	_	start_char=196|end_char=198
+8	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No|start_char=199|end_char=205
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=205|end_char=206
+
+# text = Die Monatsblutungen werden unregelmäßig.
+# sent_id = 3
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=207|end_char=210
+2	Monatsblutungen	Monatsblutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=211|end_char=226
+3	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=227|end_char=233
+4	unregelmäßig	unregelmäßig	ADJ	ADJD	Degree=Pos	3	xcomp	_	SpaceAfter=No|start_char=234|end_char=246
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=246|end_char=247
+
+# text = Sie hören irgendwann ganz auf.
+# sent_id = 4
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=248|end_char=251
+2	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=252|end_char=257
+3	irgendwann	irgendwann	ADV	ADV	_	2	advmod	_	start_char=258|end_char=268
+4	ganz	ganz	ADV	ADV	_	2	advmod	_	start_char=269|end_char=273
+5	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=274|end_char=277
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=277|end_char=278
+
+# text = Das nennt man Menopause.
+# sent_id = 5
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=279|end_char=282
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=283|end_char=288
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=289|end_char=292
+4	Menopause	Menopause	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=293|end_char=302
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=302|end_char=303
+
+# text = Danach kann eine Frau keine Kinder mehr bekommen.
+# sent_id = 6
+1	Danach	danach	ADV	PAV	_	8	advmod	_	start_char=304|end_char=310
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=311|end_char=315
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=316|end_char=320
+4	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=321|end_char=325
+5	keine	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Neg	6	det	_	start_char=326|end_char=331
+6	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=332|end_char=338
+7	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=339|end_char=343
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=344|end_char=352
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=352|end_char=353
+
+# text = **Was kann man fühlen?**
+# sent_id = 7
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=355|end_char=357
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=357|end_char=360
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=361|end_char=365
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=366|end_char=369
+5	fühlen	fühlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=370|end_char=376
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=376|end_char=377
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=377|end_char=378
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=378|end_char=379
+
+# text = In den Wechseljahren kann man verschiedene Dinge fühlen.
+# sent_id = 8
+1	In	in	ADP	APPR	_	3	case	_	start_char=380|end_char=382
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=383|end_char=386
+3	Wechseljahren	Wechseljahre	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=387|end_char=400
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=401|end_char=405
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=406|end_char=409
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=410|end_char=422
+7	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=423|end_char=428
+8	fühlen	fühlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=429|end_char=435
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=435|end_char=436
+
+# text = Die Monatsblutungen werden unregelmäßig.
+# sent_id = 9
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=437|end_char=440
+2	Monatsblutungen	Monatsblutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=441|end_char=456
+3	werden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=457|end_char=463
+4	unregelmäßig	unregelmäßig	ADJ	ADJD	Degree=Pos	3	xcomp	_	SpaceAfter=No|start_char=464|end_char=476
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=476|end_char=477
+
+# text = Man kann plötzlich warm werden und schwitzen.
+# sent_id = 10
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=478|end_char=481
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=482|end_char=486
+3	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=487|end_char=496
+4	warm	warm	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=497|end_char=501
+5	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=502|end_char=508
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=509|end_char=512
+7	schwitzen	schwitzen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No|start_char=513|end_char=522
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=522|end_char=523
+
+# text = Das nennt man Hitzewallungen.
+# sent_id = 11
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=524|end_char=527
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=528|end_char=533
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=534|end_char=537
+4	Hitzewallungen	Hitzewallung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=538|end_char=552
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=552|end_char=553
+
+# text = Man kann schlecht schlafen.
+# sent_id = 12
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=554|end_char=557
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=558|end_char=562
+3	schlecht	schlecht	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=563|end_char=571
+4	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=572|end_char=580
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=580|end_char=581
+
+# text = Man kann traurig oder nervös sein.
+# sent_id = 13
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=582|end_char=585
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=586|end_char=590
+3	traurig	traurig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=591|end_char=598
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=599|end_char=603
+5	nervös	nervös	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=604|end_char=610
+6	sein	sein	AUX	VAINF	VerbForm=Inf	3	cop	_	SpaceAfter=No|start_char=611|end_char=615
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=615|end_char=616
+
+# text = Man kann an Gewicht zunehmen.
+# sent_id = 14
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=617|end_char=620
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=621|end_char=625
+3	an	an	ADP	APPR	_	4	case	_	start_char=626|end_char=628
+4	Gewicht	Gewicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=629|end_char=636
+5	zunehmen	zunehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=637|end_char=645
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=645|end_char=646
+
+# text = Die Vagina kann trocken werden.
+# sent_id = 15
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=647|end_char=650
+2	Vagina	Vagina	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=651|end_char=657
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=658|end_char=662
+4	trocken	trocken	ADJ	ADJD	Degree=Pos	0	root	_	start_char=663|end_char=670
+5	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	4	aux:pass	_	SpaceAfter=No|start_char=671|end_char=677
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=677|end_char=678
+
+# text = Beim Sex kann es wehtun.
+# sent_id = 16
+1-2	Beim	_	_	_	_	_	_	_	start_char=679|end_char=683
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Sex	Sex	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=684|end_char=687
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=688|end_char=692
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=693|end_char=695
+6	wehtun	wehtun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=696|end_char=702
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=702|end_char=703
+
+# text = Das passiert, weil der Körper weniger Hormone macht.
+# sent_id = 17
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=705|end_char=708
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=709|end_char=717
+3	,	,	PUNCT	$,	_	9	punct	_	start_char=717|end_char=718
+4	weil	weil	SCONJ	KOUS	_	9	mark	_	start_char=719|end_char=723
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=724|end_char=727
+6	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=728|end_char=734
+7	weniger	wenig	DET	PIAT	PronType=Ind	8	det	_	start_char=735|end_char=742
+8	Hormone	Hormon	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=743|end_char=750
+9	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=751|end_char=756
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=756|end_char=757
+
+# text = Hormone sind Stoffe im Körper, die bestimmte Funktionen steuern.
+# sent_id = 18
+1	Hormone	Hormon	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=758|end_char=765
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=766|end_char=770
+3	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=771|end_char=777
+4-5	im	_	_	_	_	_	_	_	start_char=778|end_char=780
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=781|end_char=787
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=787|end_char=788
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=789|end_char=792
+9	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=793|end_char=802
+10	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=803|end_char=813
+11	steuern	steuern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=814|end_char=821
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=821|end_char=822
+
+# text = Das ist normal, aber es kann unangenehm sein.
+# sent_id = 19
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=823|end_char=826
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=827|end_char=830
+3	normal	normal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=831|end_char=837
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=837|end_char=838
+5	aber	aber	CCONJ	KON	_	8	cc	_	start_char=839|end_char=843
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=844|end_char=846
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=847|end_char=851
+8	unangenehm	unangenehm	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=852|end_char=862
+9	sein	sein	AUX	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No|start_char=863|end_char=867
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=867|end_char=868
+
+# text = **Was kann man tun?**
+# sent_id = 20
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=870|end_char=872
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=872|end_char=875
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=876|end_char=880
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=881|end_char=884
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=885|end_char=888
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=888|end_char=889
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=889|end_char=890
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=890|end_char=891
+
+# text = Wenn die Beschwerden stark sind, kann man zum Arzt gehen.
+# sent_id = 21
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=892|end_char=896
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=897|end_char=900
+3	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=901|end_char=912
+4	stark	stark	ADJ	ADJD	Degree=Pos	12	advcl	_	start_char=913|end_char=918
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|start_char=919|end_char=923
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=923|end_char=924
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=925|end_char=929
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=930|end_char=933
+9-10	zum	_	_	_	_	_	_	_	start_char=934|end_char=937
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=938|end_char=942
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=943|end_char=948
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=948|end_char=949
+
+# text = Der Arzt kann verschiedene Dinge vorschlagen.
+# sent_id = 22
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=950|end_char=953
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=954|end_char=958
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=959|end_char=963
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=964|end_char=976
+5	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=977|end_char=982
+6	vorschlagen	vorschlagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=983|end_char=994
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=994|end_char=995
+
+# text = Man kann Hormone nehmen.
+# sent_id = 23
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=996|end_char=999
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1000|end_char=1004
+3	Hormone	Hormon	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=1005|end_char=1012
+4	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1013|end_char=1019
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1019|end_char=1020
+
+# text = Das kann die Beschwerden lindern.
+# sent_id = 24
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=1021|end_char=1024
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1025|end_char=1029
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1030|end_char=1033
+4	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=1034|end_char=1045
+5	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1046|end_char=1053
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1053|end_char=1054
+
+# text = Man muss aber die Vorteile und Risiken genau betrachten.
+# sent_id = 25
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1055|end_char=1058
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1059|end_char=1063
+3	aber	aber	ADV	ADV	_	9	advmod	_	start_char=1064|end_char=1068
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1069|end_char=1072
+5	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=1073|end_char=1081
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1082|end_char=1085
+7	Risiken	Risiko	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=1086|end_char=1093
+8	genau	genau	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=1094|end_char=1099
+9	betrachten	betrachten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1100|end_char=1110
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1110|end_char=1111
+
+# text = Man kann pflanzliche Mittel oder Phytoöstrogene probieren.
+# sent_id = 26
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1112|end_char=1115
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1116|end_char=1120
+3	pflanzliche	pflanzlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=1121|end_char=1132
+4	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=1133|end_char=1139
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=1140|end_char=1144
+6	Phytoöstrogene	Phytoöstrogene	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	start_char=1145|end_char=1159
+7	probieren	probieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1160|end_char=1169
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1169|end_char=1170
+
+# text = Phytoöstrogene sind pflanzliche Stoffe, die wie Hormone wirken.
+# sent_id = 27
+1	Phytoöstrogene	Phytoöstrogene	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1171|end_char=1185
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1186|end_char=1190
+3	pflanzliche	pflanzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=1191|end_char=1202
+4	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=1203|end_char=1209
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1209|end_char=1210
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	9	nsubj	_	start_char=1211|end_char=1214
+7	wie	wie	ADP	KOKOM	_	8	case	_	start_char=1215|end_char=1218
+8	Hormone	Hormon	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obl	_	start_char=1219|end_char=1226
+9	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No|start_char=1227|end_char=1233
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=1233|end_char=1234
+
+# text = Man muss vorsichtig sein.
+# sent_id = 28
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1235|end_char=1238
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1239|end_char=1243
+3	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1244|end_char=1254
+4	sein	sein	AUX	VAINF	VerbForm=Inf	3	cop	_	SpaceAfter=No|start_char=1255|end_char=1259
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=1259|end_char=1260
+
+# text = Manche Mittel sind nicht gut getestet.
+# sent_id = 29
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=1261|end_char=1267
+2	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=1268|end_char=1274
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1275|end_char=1279
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1280|end_char=1285
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=1286|end_char=1289
+6	getestet	testen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1290|end_char=1298
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1298|end_char=1299
+
+# text = Man kann versuchen, einen gesunden Lebensstil zu haben.
+# sent_id = 30
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1300|end_char=1303
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1304|end_char=1308
+3	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1309|end_char=1318
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=1318|end_char=1319
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1320|end_char=1325
+6	gesunden	gesund	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1326|end_char=1334
+7	Lebensstil	Lebensstil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=1335|end_char=1345
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=1346|end_char=1348
+9	haben	haben	VERB	VAINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|start_char=1349|end_char=1354
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=1354|end_char=1355
+
+# text = Man sollte gesund essen, viel bewegen, nicht rauchen und nicht viel Alkohol trinken.
+# sent_id = 31
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=1356|end_char=1359
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=1360|end_char=1366
+3	gesund	gesund	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1367|end_char=1373
+4	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1374|end_char=1379
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=1379|end_char=1380
+6	viel	viel	DET	PIS	PronType=Ind	7	nsubj	_	start_char=1381|end_char=1385
+7	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No|start_char=1386|end_char=1393
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=1393|end_char=1394
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=1395|end_char=1400
+10	rauchen	rauchen	VERB	VVINF	VerbForm=Inf	7	conj	_	start_char=1401|end_char=1408
+11	und	und	CCONJ	KON	_	15	cc	_	start_char=1409|end_char=1412
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=1413|end_char=1418
+13	viel	viel	DET	PIAT	PronType=Ind	14	det	_	start_char=1419|end_char=1423
+14	Alkohol	Alkohol	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=1424|end_char=1431
+15	trinken	trinken	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=1432|end_char=1439
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=1439|end_char=1440
+
+# text = **Was ist mit der Verhütung?**
+# sent_id = 32
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1442|end_char=1444
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=1444|end_char=1447
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1448|end_char=1451
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=1452|end_char=1455
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1456|end_char=1459
+6	Verhütung	Verhütung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=1460|end_char=1469
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1469|end_char=1470
+8	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1470|end_char=1471
+9	*	*	PUNCT	$(	_	3	punct	_	start_char=1471|end_char=1472
+
+# text = Auch in den Wechseljahren kann man noch schwanger werden.
+# sent_id = 33
+1	Auch	auch	ADV	ADV	_	4	advmod	_	start_char=1473|end_char=1477
+2	in	in	ADP	APPR	_	4	case	_	start_char=1478|end_char=1480
+3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1481|end_char=1484
+4	Wechseljahren	Wechseljahre	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=1485|end_char=1498
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1499|end_char=1503
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj:pass	_	start_char=1504|end_char=1507
+7	noch	noch	ADV	ADV	_	8	advmod	_	start_char=1508|end_char=1512
+8	schwanger	schwanger	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1513|end_char=1522
+9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	SpaceAfter=No|start_char=1523|end_char=1529
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=1529|end_char=1530
+
+# text = Deshalb sollte man weiterhin verhüten.
+# sent_id = 34
+1	Deshalb	deshalb	ADV	PAV	_	5	advmod	_	start_char=1531|end_char=1538
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=1539|end_char=1545
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1546|end_char=1549
+4	weiterhin	weiterhin	ADV	ADV	_	5	advmod	_	start_char=1550|end_char=1559
+5	verhüten	verhüten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1560|end_char=1568
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1568|end_char=1569
+
+# text = Man sollte das machen, bis der Arzt sagt, dass es nicht mehr nötig ist.
+# sent_id = 35
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=1570|end_char=1573
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=1574|end_char=1580
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	obj	_	start_char=1581|end_char=1584
+4	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1585|end_char=1591
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1591|end_char=1592
+6	bis	bis	SCONJ	KOUS	_	9	mark	_	start_char=1593|end_char=1596
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1597|end_char=1600
+8	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1601|end_char=1605
+9	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No|start_char=1606|end_char=1610
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=1610|end_char=1611
+11	dass	dass	SCONJ	KOUS	_	15	mark	_	start_char=1612|end_char=1616
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=1617|end_char=1619
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=1620|end_char=1625
+14	mehr	mehr	ADV	ADV	_	13	advmod	_	start_char=1626|end_char=1630
+15	nötig	nötig	ADJ	ADJD	Degree=Pos	9	ccomp	_	start_char=1631|end_char=1636
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No|start_char=1637|end_char=1640
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=1640|end_char=1641
+
+# text = **Was ist mit Männern?**
+# sent_id = 36
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1643|end_char=1645
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=1645|end_char=1648
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1649|end_char=1652
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=1653|end_char=1656
+5	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|start_char=1657|end_char=1664
+6	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1664|end_char=1665
+7	*	*	SYM	XY	_	3	dep	_	SpaceAfter=No|start_char=1665|end_char=1666
+8	*	*	PUNCT	$(	_	3	punct	_	start_char=1666|end_char=1667
+
+# text = Männer haben auch hormonelle Veränderungen im Alter.
+# sent_id = 37
+1	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1668|end_char=1674
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1675|end_char=1680
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1681|end_char=1685
+4	hormonelle	hormonell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1686|end_char=1696
+5	Veränderungen	Veränderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1697|end_char=1710
+6-7	im	_	_	_	_	_	_	_	start_char=1711|end_char=1713
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=1714|end_char=1719
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1719|end_char=1720
+
+# text = Aber es ist nicht so deutlich wie bei Frauen.
+# sent_id = 38
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=1721|end_char=1725
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1726|end_char=1728
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1729|end_char=1732
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1733|end_char=1738
+5	so	so	ADV	ADV	_	6	advmod	_	start_char=1739|end_char=1741
+6	deutlich	deutlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1742|end_char=1750
+7	wie	wie	ADP	KOKOM	_	9	case	_	start_char=1751|end_char=1754
+8	bei	bei	ADP	APPR	_	9	case	_	start_char=1755|end_char=1758
+9	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=1759|end_char=1765
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=1765|end_char=1766
+
+# text = Nur wenige Männer haben einen Testosteronmangel.
+# sent_id = 39
+1	Nur	nur	ADV	ADV	_	2	advmod	_	start_char=1767|end_char=1770
+2	wenige	wenig	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=1771|end_char=1777
+3	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1778|end_char=1784
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1785|end_char=1790
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=1791|end_char=1796
+6	Testosteronmangel	Testosteronmangel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|start_char=1797|end_char=1814
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=1814|end_char=1815
+
+# text = Testosteron ist ein Hormon, das bei Männern wichtig ist.
+# sent_id = 40
+1	Testosteron	Testosteron	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1816|end_char=1827
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1828|end_char=1831
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1832|end_char=1835
+4	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1836|end_char=1842
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1842|end_char=1843
+6	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=1844|end_char=1847
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=1848|end_char=1851
+8	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	start_char=1852|end_char=1859
+9	wichtig	wichtig	ADJ	ADJD	Degree=Pos	4	acl	_	start_char=1860|end_char=1867
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No|start_char=1868|end_char=1871
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=1871|end_char=1872
+
+# text = Wenn sie einen Testosteronmangel haben, muss er behandelt werden.
+# sent_id = 41
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1873|end_char=1877
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1878|end_char=1881
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1882|end_char=1887
+4	Testosteronmangel	Testosteronmangel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1888|end_char=1905
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No|start_char=1906|end_char=1911
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=1911|end_char=1912
+7	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1913|end_char=1917
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	start_char=1918|end_char=1920
+9	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1921|end_char=1930
+10	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	SpaceAfter=No|start_char=1931|end_char=1937
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1937|end_char=1938
+
+# text = **Wichtiger Hinweis:** Dieser Text gibt nur allgemeine Informationen.
+# sent_id = 42
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1940|end_char=1942
+2	Wichtiger	Wichtiger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=1942|end_char=1951
+3	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=1952|end_char=1959
+4	:	:	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=1959|end_char=1960
+5	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1960|end_char=1961
+6	*	*	PUNCT	$(	_	9	punct	_	start_char=1961|end_char=1962
+7	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=1963|end_char=1969
+8	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1970|end_char=1974
+9	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1975|end_char=1979
+10	nur	nur	ADV	ADV	_	9	advmod	_	start_char=1980|end_char=1983
+11	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1984|end_char=1994
+12	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|start_char=1995|end_char=2008
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=2008|end_char=2009
+
+# text = Wenn du Probleme hast, solltest du immer zum Arzt gehen.
+# sent_id = 43
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=2010|end_char=2014
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=2015|end_char=2017
+3	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=2018|end_char=2026
+4	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=2027|end_char=2031
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=2031|end_char=2032
+6	solltest	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2033|end_char=2041
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=2042|end_char=2044
+8	immer	immer	ADV	ADV	_	12	advmod	_	start_char=2045|end_char=2050
+9-10	zum	_	_	_	_	_	_	_	start_char=2051|end_char=2054
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=2055|end_char=2059
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2060|end_char=2065
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=2065|end_char=2066
+
+# text = Der Arzt kann dir helfen.
+# sent_id = 44
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2067|end_char=2070
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2071|end_char=2075
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2076|end_char=2080
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl:arg	_	start_char=2081|end_char=2084
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2085|end_char=2091
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2091|end_char=2092
+
+# text = Er kann dir den richtigen Rat geben.
+# sent_id = 45
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=2093|end_char=2095
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2096|end_char=2100
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	obl:arg	_	start_char=2101|end_char=2104
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2105|end_char=2108
+5	richtigen	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=2109|end_char=2118
+6	Rat	Rat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=2119|end_char=2122
+7	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2123|end_char=2128
+8	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=2128|end_char=2129
+
