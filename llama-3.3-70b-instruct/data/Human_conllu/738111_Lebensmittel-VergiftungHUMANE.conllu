@@ -1,0 +1,570 @@
+# text = Der Text ist bereits in einfacher Sprache geschrieben.
+# sent_id = 0
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=4|end_char=8
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	start_char=9|end_char=12
+4	bereits	bereits	ADV	ADV	_	8	advmod	_	start_char=13|end_char=20
+5	in	in	ADP	APPR	_	7	case	_	start_char=21|end_char=23
+6	einfacher	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=24|end_char=33
+7	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=34|end_char=41
+8	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=42|end_char=53
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=53|end_char=54
+
+# text = Es gibt jedoch einige Möglichkeiten, ihn noch einfacher und verständlicher zu machen.
+# sent_id = 1
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=55|end_char=57
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=58|end_char=62
+3	jedoch	jedoch	ADV	ADV	_	2	advmod	_	start_char=63|end_char=69
+4	einige	einige	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=70|end_char=76
+5	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=77|end_char=90
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=90|end_char=91
+7	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=92|end_char=95
+8	noch	noch	ADV	ADV	_	9	advmod	_	start_char=96|end_char=100
+9	einfacher	einfach	ADJ	ADJD	Degree=Cmp	13	advmod	_	start_char=101|end_char=110
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=111|end_char=114
+11	verständlicher	verständlich	ADJ	ADJD	Degree=Cmp	9	conj	_	start_char=115|end_char=129
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=130|end_char=132
+13	machen	machen	VERB	VVINF	VerbForm=Inf	5	acl	_	SpaceAfter=No|start_char=133|end_char=139
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=139|end_char=140
+
+# text = Hier ist eine überarbeitete Version des Textes in deutscher Leichter Sprache: **Lebensmittel-Vergiftung** Dieser Text informiert über Lebensmittel-Erkrankungen.
+# sent_id = 2
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=141|end_char=145
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=146|end_char=149
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=150|end_char=154
+4	überarbeitete	überarbeitet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=155|end_char=168
+5	Version	Version	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=169|end_char=176
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=177|end_char=180
+7	Textes	Text	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=181|end_char=187
+8	in	in	ADP	APPR	_	11	case	_	start_char=188|end_char=190
+9	deutscher	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=191|end_char=200
+10	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=201|end_char=209
+11	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=210|end_char=217
+12	:	:	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s|start_char=217|end_char=218
+13	*	*	PUNCT	$(	_	17	parataxis	_	SpaceAfter=No|start_char=220|end_char=221
+14	*	*	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=221|end_char=222
+15	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	SpaceAfter=No|start_char=222|end_char=234
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=234|end_char=235
+17	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|start_char=235|end_char=245
+18	*	*	PUNCT	$(	_	22	punct	_	SpaceAfter=No|start_char=245|end_char=246
+19	*	*	PUNCT	$(	_	22	punct	_	SpacesAfter=\s\s|start_char=246|end_char=247
+20	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	start_char=249|end_char=255
+21	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=256|end_char=260
+22	informiert	informieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	start_char=261|end_char=271
+23	über	über	ADP	APPR	_	26	case	_	start_char=272|end_char=276
+24	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	compound	_	SpaceAfter=No|start_char=277|end_char=289
+25	-	-	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=289|end_char=290
+26	Erkrankungen	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No|start_char=290|end_char=302
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=302|end_char=303
+
+# text = **Was ist der Unterschied zwischen Vergiftung und Infektion?**
+# sent_id = 3
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=305|end_char=307
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=307|end_char=310
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=311|end_char=314
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=315|end_char=318
+5	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=319|end_char=330
+6	zwischen	zwischen	ADP	APPR	_	7	case	_	start_char=331|end_char=339
+7	Vergiftung	Vergiftung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=340|end_char=350
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=351|end_char=354
+9	Infektion	Infektion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|start_char=355|end_char=364
+10	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=364|end_char=365
+11	*	*	X	XY	_	5	dep	_	SpaceAfter=No|start_char=365|end_char=366
+12	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=366|end_char=367
+
+# text = Lebensmittel-Vergiftung und Lebensmittel-Infektion sind zwei verschiedene Arten von Erkrankungen, die durch Lebensmittel verursacht werden.
+# sent_id = 4
+1	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	SpaceAfter=No|start_char=369|end_char=381
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=381|end_char=382
+3	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=382|end_char=392
+4	und	und	CCONJ	KON	_	7	cc	_	start_char=393|end_char=396
+5	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=397|end_char=409
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=409|end_char=410
+7	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=410|end_char=419
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=420|end_char=424
+9	zwei	zwei	NUM	CARD	NumType=Card	11	nummod	_	start_char=425|end_char=429
+10	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=430|end_char=442
+11	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=443|end_char=448
+12	von	von	ADP	APPR	_	13	case	_	start_char=449|end_char=452
+13	Erkrankungen	Erkrankung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No|start_char=453|end_char=465
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=465|end_char=466
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	18	nsubj:pass	_	start_char=467|end_char=470
+16	durch	durch	ADP	APPR	_	17	case	_	start_char=471|end_char=476
+17	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obl	_	start_char=477|end_char=489
+18	verursacht	verursachen	VERB	VVPP	VerbForm=Part	11	acl	_	start_char=490|end_char=500
+19	werden	werden	AUX	VAFIN	Number=Plur|VerbForm=Inf|Voice=Pass	18	aux:pass	_	SpaceAfter=No|start_char=501|end_char=507
+20	.	.	PUNCT	$.	_	11	punct	_	start_char=507|end_char=508
+
+# text = Viele Menschen wissen nicht, was der Unterschied zwischen den beiden ist.
+# sent_id = 5
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=509|end_char=514
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=515|end_char=523
+3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=524|end_char=530
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No|start_char=531|end_char=536
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=536|end_char=537
+6	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=538|end_char=541
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=542|end_char=545
+8	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	start_char=546|end_char=557
+9	zwischen	zwischen	ADP	APPR	_	11	case	_	start_char=558|end_char=566
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=567|end_char=570
+11	beiden	beide	DET	PIS	Case=Dat|Number=Plur|NumType=Card|PronType=Tot	8	nmod	_	start_char=571|end_char=577
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=578|end_char=581
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=581|end_char=582
+
+# text = **Lebensmittel-Vergiftung** Eine Lebensmittel-Vergiftung ist eine Vergiftung, die durch Giftstoffe im Essen verursacht wird.
+# sent_id = 6
+1	**	**	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=584|end_char=586
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=586|end_char=598
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=598|end_char=599
+4	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No|start_char=599|end_char=609
+5	*	*	PUNCT	$(	_	13	dep	_	SpaceAfter=No|start_char=609|end_char=610
+6	*	*	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\s|start_char=610|end_char=611
+7	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=613|end_char=617
+8	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No|start_char=618|end_char=630
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=630|end_char=631
+10	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=631|end_char=641
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=642|end_char=645
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=646|end_char=650
+13	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=651|end_char=661
+14	,	,	PUNCT	$,	_	21	punct	_	start_char=661|end_char=662
+15	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	21	nsubj:pass	_	start_char=663|end_char=666
+16	durch	durch	ADP	APPR	_	17	case	_	start_char=667|end_char=672
+17	Giftstoffe	Giftstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	start_char=673|end_char=683
+18-19	im	_	_	_	_	_	_	_	start_char=684|end_char=686
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=687|end_char=692
+21	verursacht	verursachen	VERB	VVPP	VerbForm=Part	13	acl	_	start_char=693|end_char=703
+22	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	SpaceAfter=No|start_char=704|end_char=708
+23	.	.	PUNCT	$.	_	13	punct	_	start_char=708|end_char=709
+
+# text = Diese Giftstoffe können von Bakterien oder Schimmelpilzen stammen.
+# sent_id = 7
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=710|end_char=715
+2	Giftstoffe	Giftstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=716|end_char=726
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=727|end_char=733
+4	von	von	ADP	APPR	_	5	case	_	start_char=734|end_char=737
+5	Bakterien	Bakterium	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=738|end_char=747
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=748|end_char=752
+7	Schimmelpilzen	Schimmelpilz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=753|end_char=767
+8	stammen	stammen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=768|end_char=775
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=775|end_char=776
+
+# text = Eine Lebensmittel-Vergiftung ist nicht ansteckend, da die Giftstoffe nicht von Person zu Person übertragen werden können.
+# sent_id = 8
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=777|end_char=781
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=782|end_char=794
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=794|end_char=795
+4	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=795|end_char=805
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=806|end_char=809
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=810|end_char=815
+7	ansteckend	ansteckend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=816|end_char=826
+8	,	,	PUNCT	$,	_	17	punct	_	start_char=826|end_char=827
+9	da	da	SCONJ	KOUS	_	17	mark	_	start_char=828|end_char=830
+10	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=831|end_char=834
+11	Giftstoffe	Giftstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj:pass	_	start_char=835|end_char=845
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=846|end_char=851
+13	von	von	ADP	APPR	_	14	case	_	start_char=852|end_char=855
+14	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl:agent	_	start_char=856|end_char=862
+15	zu	zu	ADP	APPR	_	16	case	_	start_char=863|end_char=865
+16	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=866|end_char=872
+17	übertragen	übertragen	VERB	VVPP	VerbForm=Part	7	advcl	_	start_char=873|end_char=883
+18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	start_char=884|end_char=890
+19	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No|start_char=891|end_char=897
+20	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=897|end_char=898
+
+# text = **Lebensmittel-Infektion** Eine Lebensmittel-Infektion ist eine Infektion, die durch Bakterien oder Viren im Essen verursacht wird.
+# sent_id = 9
+1	**	**	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=900|end_char=902
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=902|end_char=914
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=914|end_char=915
+4	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No|start_char=915|end_char=924
+5	*	*	PUNCT	$(	_	13	dep	_	SpaceAfter=No|start_char=924|end_char=925
+6	*	*	PUNCT	$(	_	13	punct	_	SpacesAfter=\s\s|start_char=925|end_char=926
+7	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=928|end_char=932
+8	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No|start_char=933|end_char=945
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=945|end_char=946
+10	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=946|end_char=955
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=956|end_char=959
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=960|end_char=964
+13	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=965|end_char=974
+14	,	,	PUNCT	$,	_	23	punct	_	start_char=974|end_char=975
+15	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	23	nsubj:pass	_	start_char=976|end_char=979
+16	durch	durch	ADP	APPR	_	17	case	_	start_char=980|end_char=985
+17	Bakterien	Bakterium	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	start_char=986|end_char=995
+18	oder	oder	CCONJ	KON	_	19	cc	_	start_char=996|end_char=1000
+19	Viren	Virus	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	conj	_	start_char=1001|end_char=1006
+20-21	im	_	_	_	_	_	_	_	start_char=1007|end_char=1009
+20	in	in	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	start_char=1010|end_char=1015
+23	verursacht	verursachen	VERB	VVPP	VerbForm=Part	13	acl	_	start_char=1016|end_char=1026
+24	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	aux:pass	_	SpaceAfter=No|start_char=1027|end_char=1031
+25	.	.	PUNCT	$.	_	13	punct	_	start_char=1031|end_char=1032
+
+# text = Diese Bakterien oder Viren können sich im Körper vermehren und eine Infektion verursachen.
+# sent_id = 10
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1033|end_char=1038
+2	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=1039|end_char=1048
+3	oder	oder	CCONJ	KON	_	4	cc	_	start_char=1049|end_char=1053
+4	Viren	Virus	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=1054|end_char=1059
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1060|end_char=1066
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=1067|end_char=1071
+7-8	im	_	_	_	_	_	_	_	start_char=1072|end_char=1074
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1075|end_char=1081
+10	vermehren	vermehren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1082|end_char=1091
+11	und	und	CCONJ	KON	_	14	cc	_	start_char=1092|end_char=1095
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=1096|end_char=1100
+13	Infektion	Infektion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=1101|end_char=1110
+14	verursachen	verursachen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=1111|end_char=1122
+15	.	.	PUNCT	$.	_	10	punct	_	start_char=1122|end_char=1123
+
+# text = Eine Lebensmittel-Infektion ist ansteckend, da die Bakterien oder Viren von Person zu Person übertragen werden können.
+# sent_id = 11
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1124|end_char=1128
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=1129|end_char=1141
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1141|end_char=1142
+4	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1142|end_char=1151
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1152|end_char=1155
+6	ansteckend	ansteckend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1156|end_char=1166
+7	,	,	PUNCT	$,	_	17	punct	_	start_char=1166|end_char=1167
+8	da	da	SCONJ	KOUS	_	17	mark	_	start_char=1168|end_char=1170
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=1171|end_char=1174
+10	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj:pass	_	start_char=1175|end_char=1184
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=1185|end_char=1189
+12	Viren	Virus	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	start_char=1190|end_char=1195
+13	von	von	ADP	APPR	_	14	case	_	start_char=1196|end_char=1199
+14	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl:agent	_	start_char=1200|end_char=1206
+15	zu	zu	ADP	APPR	_	16	case	_	start_char=1207|end_char=1209
+16	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=1210|end_char=1216
+17	übertragen	übertragen	VERB	VVPP	VerbForm=Part	6	advcl	_	start_char=1217|end_char=1227
+18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	start_char=1228|end_char=1234
+19	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No|start_char=1235|end_char=1241
+20	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1241|end_char=1242
+
+# text = **Woran kann man eine Lebensmittel-Erkrankung erkennen?**
+# sent_id = 12
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1244|end_char=1246
+2	Woran	woran	ADV	ADV	_	9	advmod	_	start_char=1246|end_char=1251
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1252|end_char=1256
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1257|end_char=1260
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1261|end_char=1265
+6	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=1266|end_char=1278
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1278|end_char=1279
+8	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1279|end_char=1289
+9	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1290|end_char=1298
+10	?	?	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=1298|end_char=1299
+11	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1299|end_char=1300
+12	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s|start_char=1300|end_char=1301
+
+# text = Eine Lebensmittel-Vergiftung kann durch folgende Symptome erkennbar sein: * Übelkeit * Bauchschmerzen * Erbrechen * Durchfall Diese Symptome können nach wenigen Stunden auftreten und oft auch schnell wieder verschwinden.
+# sent_id = 13
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1303|end_char=1307
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=1308|end_char=1320
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1320|end_char=1321
+4	Vergiftung	Vergiftung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1321|end_char=1331
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1332|end_char=1336
+6	durch	durch	ADP	APPR	_	8	case	_	start_char=1337|end_char=1342
+7	folgende	folgend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=1343|end_char=1351
+8	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	start_char=1352|end_char=1360
+9	erkennbar	erkennbar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1361|end_char=1370
+10	sein	sein	AUX	VAINF	VerbForm=Inf	9	cop	_	SpaceAfter=No|start_char=1371|end_char=1375
+11	:	:	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s|start_char=1375|end_char=1376
+12	*	*	PUNCT	$(	_	13	punct	_	start_char=1378|end_char=1379
+13	Übelkeit	Übelkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	start_char=1380|end_char=1388
+14	*	*	PUNCT	$(	_	15	punct	_	start_char=1389|end_char=1390
+15	Bauchschmerzen	Bauchschmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	appos	_	start_char=1391|end_char=1405
+16	*	*	PUNCT	$(	_	17	punct	_	start_char=1406|end_char=1407
+17	Erbrechen	Erbrechen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	appos	_	start_char=1408|end_char=1417
+18	*	*	PUNCT	$(	_	19	punct	_	start_char=1418|end_char=1419
+19	Durchfall	Durchfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpacesAfter=\s\s|start_char=1420|end_char=1429
+20	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	21	det	_	start_char=1431|end_char=1436
+21	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	start_char=1437|end_char=1445
+22	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=1446|end_char=1452
+23	nach	nach	ADP	APPR	_	25	case	_	start_char=1453|end_char=1457
+24	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	25	det	_	start_char=1458|end_char=1465
+25	Stunden	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	obl	_	start_char=1466|end_char=1473
+26	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	9	parataxis	_	start_char=1474|end_char=1483
+27	und	und	CCONJ	KON	_	32	cc	_	start_char=1484|end_char=1487
+28	oft	oft	ADV	ADV	_	32	advmod	_	start_char=1488|end_char=1491
+29	auch	auch	ADV	ADV	_	30	advmod	_	start_char=1492|end_char=1496
+30	schnell	schnell	ADJ	ADJD	Degree=Pos	32	advmod	_	start_char=1497|end_char=1504
+31	wieder	wieder	ADV	ADV	_	32	advmod	_	start_char=1505|end_char=1511
+32	verschwinden	verschwinden	VERB	VVINF	VerbForm=Inf	26	conj	_	SpaceAfter=No|start_char=1512|end_char=1524
+33	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1524|end_char=1525
+
+# text = Eine Lebensmittel-Infektion kann durch ähnliche Symptome erkennbar sein, aber die Symptome können auch später auftreten.
+# sent_id = 14
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1527|end_char=1531
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=1532|end_char=1544
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1544|end_char=1545
+4	Infektion	Infektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1545|end_char=1554
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1555|end_char=1559
+6	durch	durch	ADP	APPR	_	8	case	_	start_char=1560|end_char=1565
+7	ähnliche	ähnlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=1566|end_char=1574
+8	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	start_char=1575|end_char=1583
+9	erkennbar	erkennbar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1584|end_char=1593
+10	sein	sein	AUX	VAINF	VerbForm=Inf	9	cop	_	SpaceAfter=No|start_char=1594|end_char=1598
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=1598|end_char=1599
+12	aber	aber	CCONJ	KON	_	18	cc	_	start_char=1600|end_char=1604
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=1605|end_char=1608
+14	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=1609|end_char=1617
+15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=1618|end_char=1624
+16	auch	auch	ADV	ADV	_	17	advmod	_	start_char=1625|end_char=1629
+17	später	spät	ADJ	ADJD	Degree=Cmp	18	advmod	_	start_char=1630|end_char=1636
+18	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No|start_char=1637|end_char=1646
+19	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1646|end_char=1647
+
+# text = **Warum kann eine Lebensmittel-Erkrankung gefährlich sein?**
+# sent_id = 15
+1	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1649|end_char=1651
+2	Warum	warum	ADV	PWAV	PronType=Int	8	advmod	_	start_char=1651|end_char=1656
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1657|end_char=1661
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1662|end_char=1666
+5	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=1667|end_char=1679
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1679|end_char=1680
+7	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1680|end_char=1690
+8	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1691|end_char=1701
+9	sein	sein	AUX	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No|start_char=1702|end_char=1706
+10	?	?	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=1706|end_char=1707
+11	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1707|end_char=1708
+12	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=1708|end_char=1709
+
+# text = Eine Lebensmittel-Erkrankung kann sehr gefährlich sein, insbesondere für Menschen mit einem schwachen Immunsystem, wie Babys, kleine Kinder, schwangere Frauen, alte Menschen und kranke Menschen.
+# sent_id = 16
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1711|end_char=1715
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No|start_char=1716|end_char=1728
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1728|end_char=1729
+4	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=1729|end_char=1739
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1740|end_char=1744
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	start_char=1745|end_char=1749
+7	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1750|end_char=1760
+8	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No|start_char=1761|end_char=1765
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=1765|end_char=1766
+10	insbesondere	insbesondere	ADV	ADV	_	12	advmod	_	start_char=1767|end_char=1779
+11	für	für	ADP	APPR	_	12	case	_	start_char=1780|end_char=1783
+12	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	start_char=1784|end_char=1792
+13	mit	mit	ADP	APPR	_	16	case	_	start_char=1793|end_char=1796
+14	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=1797|end_char=1802
+15	schwachen	schwach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=1803|end_char=1812
+16	Immunsystem	Immunsystem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=1813|end_char=1824
+17	,	,	PUNCT	$,	_	19	punct	_	start_char=1824|end_char=1825
+18	wie	wie	ADP	KOKOM	_	19	case	_	start_char=1826|end_char=1829
+19	Babys	Baby	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No|start_char=1830|end_char=1835
+20	,	,	PUNCT	$,	_	22	punct	_	start_char=1835|end_char=1836
+21	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	start_char=1837|end_char=1843
+22	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	conj	_	SpaceAfter=No|start_char=1844|end_char=1850
+23	,	,	PUNCT	$,	_	25	punct	_	start_char=1850|end_char=1851
+24	schwangere	schwanger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=1852|end_char=1862
+25	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No|start_char=1863|end_char=1869
+26	,	,	PUNCT	$,	_	28	punct	_	start_char=1869|end_char=1870
+27	alte	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	start_char=1871|end_char=1875
+28	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	conj	_	start_char=1876|end_char=1884
+29	und	und	CCONJ	KON	_	31	cc	_	start_char=1885|end_char=1888
+30	kranke	krank	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	start_char=1889|end_char=1895
+31	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No|start_char=1896|end_char=1904
+32	.	.	PUNCT	$.	_	7	punct	_	start_char=1904|end_char=1905
+
+# text = Wenn Sie Symptome einer Lebensmittel-Erkrankung haben, sollten Sie sofort zum Arzt gehen.
+# sent_id = 17
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1906|end_char=1910
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=1911|end_char=1914
+3	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	obj	_	start_char=1915|end_char=1923
+4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1924|end_char=1929
+5	Lebensmittel	Lebensmittel	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=1930|end_char=1942
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1942|end_char=1943
+7	Erkrankung	Erkrankung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=1943|end_char=1953
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No|start_char=1954|end_char=1959
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=1959|end_char=1960
+10	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=1961|end_char=1968
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	start_char=1969|end_char=1972
+12	sofort	sofort	ADV	ADV	_	16	advmod	_	start_char=1973|end_char=1979
+13-14	zum	_	_	_	_	_	_	_	start_char=1980|end_char=1983
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=1984|end_char=1988
+16	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1989|end_char=1994
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\s\s|start_char=1994|end_char=1995
+
+# text = **Welche Lebensmittel sind oft für eine Lebensmittel-Erkrankung verantwortlich?**
+# sent_id = 18
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1997|end_char=1999
+2	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=1999|end_char=2005
+3	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=2006|end_char=2018
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2019|end_char=2023
+5	oft	oft	ADV	ADV	_	11	advmod	_	start_char=2024|end_char=2027
+6	für	für	ADP	APPR	_	10	case	_	start_char=2028|end_char=2031
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=2032|end_char=2036
+8	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No|start_char=2037|end_char=2049
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=2049|end_char=2050
+10	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=2050|end_char=2060
+11	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2061|end_char=2075
+12	?	?	PUNCT	$.	_	11	punct	_	SpaceAfter=No|start_char=2075|end_char=2076
+13	*	*	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=2076|end_char=2077
+14	*	*	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s|start_char=2077|end_char=2078
+
+# text = Einige Lebensmittel sind häufiger mit Krankheitserregern belastet als andere.
+# sent_id = 19
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=2080|end_char=2086
+2	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=2087|end_char=2099
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2100|end_char=2104
+4	häufiger	häufig	ADJ	ADJD	Degree=Cmp	7	advmod	_	start_char=2105|end_char=2113
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=2114|end_char=2117
+6	Krankheitserregern	Krankheitserreger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	start_char=2118|end_char=2136
+7	belastet	belastet	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=2137|end_char=2145
+8	als	als	ADP	KOKOM	_	9	case	_	start_char=2146|end_char=2149
+9	andere	anderer	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	7	nmod	_	SpaceAfter=No|start_char=2150|end_char=2156
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=2156|end_char=2157
+
+# text = Dazu gehören: * Rohes Fleisch * Rohes Geflügel * Rohfisch * Rohmilch * Rohmilch-Produkte **Wie kann man eine Lebensmittel-Erkrankung vermeiden?**
+# sent_id = 20
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2158|end_char=2162
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=2163|end_char=2170
+3	:	:	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=2170|end_char=2171
+4	*	*	PUNCT	$(	_	6	punct	_	start_char=2173|end_char=2174
+5	Rohes	roh	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=2175|end_char=2180
+6	Fleisch	Fleisch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=2181|end_char=2188
+7	*	*	PUNCT	$(	_	9	punct	_	start_char=2189|end_char=2190
+8	Rohes	roh	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=2191|end_char=2196
+9	Geflügel	Geflügel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	start_char=2197|end_char=2205
+10	*	*	PUNCT	$(	_	11	punct	_	start_char=2206|end_char=2207
+11	Rohfisch	Rohfisch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=2208|end_char=2216
+12	*	*	PUNCT	$(	_	13	punct	_	start_char=2217|end_char=2218
+13	Rohmilch	Rohmilch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	start_char=2219|end_char=2227
+14	*	*	PUNCT	$(	_	17	punct	_	start_char=2228|end_char=2229
+15	Rohmilch	Rohmilch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	SpaceAfter=No|start_char=2230|end_char=2238
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=2238|end_char=2239
+17	Produkte	Produkt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	conj	_	SpacesAfter=\s\s|start_char=2239|end_char=2247
+18	**	**	PUNCT	$(	_	26	punct	_	SpaceAfter=No|start_char=2249|end_char=2251
+19	Wie	wie	ADV	PWAV	_	26	advmod	_	start_char=2251|end_char=2254
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=2255|end_char=2259
+21	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	26	nsubj	_	start_char=2260|end_char=2263
+22	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	25	det	_	start_char=2264|end_char=2268
+23	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	compound	_	SpaceAfter=No|start_char=2269|end_char=2281
+24	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No|start_char=2281|end_char=2282
+25	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	start_char=2282|end_char=2292
+26	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=2293|end_char=2302
+27	?	?	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=2302|end_char=2303
+28	**	**	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=2303|end_char=2305
+
+# text = Sie können das Risiko einer Lebensmittel-Erkrankung verkleinern, indem Sie: * Lebensmittel ausreichend lange erhitzen * Ihre Hände gründlich waschen * Lebensmittel getrennt voneinander verarbeiten *
+# sent_id = 21
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=2307|end_char=2310
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2311|end_char=2317
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2318|end_char=2321
+4	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=2322|end_char=2328
+5	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=2329|end_char=2334
+6	Lebensmittel	Lebensmittel	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=2335|end_char=2347
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2347|end_char=2348
+8	Erkrankung	Erkrankung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=2348|end_char=2358
+9	verkleinern	verkleinern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2359|end_char=2370
+10	,	,	PUNCT	$,	_	18	punct	_	start_char=2370|end_char=2371
+11	indem	indem	SCONJ	KOUS	_	18	mark	_	start_char=2372|end_char=2377
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No|start_char=2378|end_char=2381
+13	:	:	PUNCT	$.	_	18	punct	_	SpacesAfter=\s\s|start_char=2381|end_char=2382
+14	*	*	PUNCT	$(	_	18	punct	_	start_char=2384|end_char=2385
+15	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	start_char=2386|end_char=2398
+16	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	17	advmod	_	start_char=2399|end_char=2410
+17	lange	lang	ADJ	ADJD	Degree=Pos	18	advmod	_	start_char=2411|end_char=2416
+18	erhitzen	erhitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=2417|end_char=2425
+19	*	*	PUNCT	$(	_	23	punct	_	start_char=2426|end_char=2427
+20	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	start_char=2428|end_char=2432
+21	Hände	Hand	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	obj	_	start_char=2433|end_char=2438
+22	gründlich	gründlich	ADJ	ADJD	Degree=Pos	23	advmod	_	start_char=2439|end_char=2448
+23	waschen	waschen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=2449|end_char=2456
+24	*	*	PUNCT	$(	_	28	cc	_	start_char=2457|end_char=2458
+25	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	28	obj	_	start_char=2459|end_char=2471
+26	getrennt	trennen	ADJ	VVPP	Degree=Pos|VerbForm=Part	28	advmod	_	start_char=2472|end_char=2480
+27	voneinander	voneinander	ADV	ADV	_	28	advmod	_	start_char=2481|end_char=2492
+28	verarbeiten	verarbeiten	VERB	VVINF	VerbForm=Inf	23	conj	_	start_char=2493|end_char=2504
+29	*	*	PUNCT	$(	_	18	punct	_	start_char=2505|end_char=2506
+
+# text = Die Arbeitsfläche gründlich reinigen * Putzlappen und Putzschwämme regelmäßig austauschen * Tauwasser wegschütten * Lebensmittel im Kühlschrank lagern **Wo kann man noch mehr Informationen erhalten?** Wenn Sie denken, dass Sie eine Lebensmittel-Erkrankung haben, sollten Sie zum Arzt gehen.
+# sent_id = 22
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2507|end_char=2510
+2	Arbeitsfläche	Arbeitsfläche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2511|end_char=2524
+3	gründlich	gründlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2525|end_char=2534
+4	reinigen	reinigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2535|end_char=2543
+5	*	*	PUNCT	$(	_	10	punct	_	start_char=2544|end_char=2545
+6	Putzlappen	Putzlappen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	start_char=2546|end_char=2556
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2557|end_char=2560
+8	Putzschwämme	Putzschwamm	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=2561|end_char=2573
+9	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=2574|end_char=2584
+10	austauschen	austauschen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=2585|end_char=2596
+11	*	*	PUNCT	$(	_	13	punct	_	start_char=2597|end_char=2598
+12	Tauwasser	Tauwasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	nsubj	_	start_char=2599|end_char=2608
+13	wegschütten	wegschütten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=2609|end_char=2620
+14	*	*	PUNCT	$(	_	19	punct	_	start_char=2621|end_char=2622
+15	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	obj	_	start_char=2623|end_char=2635
+16-17	im	_	_	_	_	_	_	_	start_char=2636|end_char=2638
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Kühlschrank	Kühlschrank	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=2639|end_char=2650
+19	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpacesAfter=\s\s|start_char=2651|end_char=2657
+20	**	**	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=2659|end_char=2661
+21	Wo	wo	ADV	PWAV	PronType=Int	27	advmod	_	start_char=2661|end_char=2663
+22	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=2664|end_char=2668
+23	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	27	nsubj	_	start_char=2669|end_char=2672
+24	noch	noch	ADV	ADV	_	25	advmod	_	start_char=2673|end_char=2677
+25	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	26	det	_	start_char=2678|end_char=2682
+26	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	start_char=2683|end_char=2696
+27	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	19	ccomp	_	SpaceAfter=No|start_char=2697|end_char=2705
+28	?	?	PUNCT	$.	_	27	punct	_	SpaceAfter=No|start_char=2705|end_char=2706
+29	*	*	X	$(	_	33	parataxis	_	SpaceAfter=No|start_char=2706|end_char=2707
+30	*	*	PUNCT	$(	_	33	punct	_	SpacesAfter=\s\s|start_char=2707|end_char=2708
+31	Wenn	wenn	SCONJ	KOUS	_	33	mark	_	start_char=2710|end_char=2714
+32	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	33	nsubj	_	start_char=2715|end_char=2718
+33	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	SpaceAfter=No|start_char=2719|end_char=2725
+34	,	,	PUNCT	$,	_	41	punct	_	start_char=2725|end_char=2726
+35	dass	dass	SCONJ	KOUS	_	41	mark	_	start_char=2727|end_char=2731
+36	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	41	nsubj	_	start_char=2732|end_char=2735
+37	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	40	det	_	start_char=2736|end_char=2740
+38	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	40	compound	_	SpaceAfter=No|start_char=2741|end_char=2753
+39	-	-	PUNCT	$(	_	38	punct	_	SpaceAfter=No|start_char=2753|end_char=2754
+40	Erkrankung	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	41	obj	_	start_char=2754|end_char=2764
+41	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	SpaceAfter=No|start_char=2765|end_char=2770
+42	,	,	PUNCT	$,	_	41	punct	_	start_char=2770|end_char=2771
+43	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	48	aux	_	start_char=2772|end_char=2779
+44	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	48	nsubj	_	start_char=2780|end_char=2783
+45-46	zum	_	_	_	_	_	_	_	start_char=2784|end_char=2787
+45	zu	zu	ADP	APPR	_	47	case	_	_
+46	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	48	obl	_	start_char=2788|end_char=2792
+48	gehen	gehen	VERB	VVINF	VerbForm=Inf	29	ccomp	_	SpaceAfter=No|start_char=2793|end_char=2798
+49	.	.	PUNCT	$.	_	48	punct	_	start_char=2798|end_char=2799
+
+# text = Der Arzt kann Ihnen alle wichtigen Informationen geben.
+# sent_id = 23
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2800|end_char=2803
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=2804|end_char=2808
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2809|end_char=2813
+4	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	obl:arg	_	start_char=2814|end_char=2819
+5	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	7	det	_	start_char=2820|end_char=2824
+6	wichtigen	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=2825|end_char=2834
+7	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=2835|end_char=2848
+8	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2849|end_char=2854
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2854|end_char=2855
+
+# text = Wenn Sie noch mehr über Lebensmittel-Erkrankungen lesen möchten, können Sie auf unsere Website gehen.
+# sent_id = 24
+1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=2856|end_char=2860
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	start_char=2861|end_char=2864
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=2865|end_char=2869
+4	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=2870|end_char=2874
+5	über	über	ADP	APPR	_	8	case	_	start_char=2875|end_char=2879
+6	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	compound	_	SpaceAfter=No|start_char=2880|end_char=2892
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2892|end_char=2893
+8	Erkrankungen	Erkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	start_char=2893|end_char=2905
+9	lesen	lesen	VERB	VVINF	VerbForm=Inf	17	advcl	_	start_char=2906|end_char=2911
+10	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No|start_char=2912|end_char=2919
+11	,	,	PUNCT	$,	_	9	punct	_	start_char=2919|end_char=2920
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=2921|end_char=2927
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	17	nsubj	_	start_char=2928|end_char=2931
+14	auf	auf	ADP	APPR	_	16	case	_	start_char=2932|end_char=2935
+15	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=2936|end_char=2942
+16	Website	Website	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=2943|end_char=2950
+17	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2951|end_char=2956
+18	.	.	PUNCT	$.	_	17	punct	_	SpaceAfter=No|start_char=2956|end_char=2957
+

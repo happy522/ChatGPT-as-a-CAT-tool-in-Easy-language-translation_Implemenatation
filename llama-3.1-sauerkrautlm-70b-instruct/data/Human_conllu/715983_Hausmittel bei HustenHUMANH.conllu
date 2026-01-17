@@ -1,0 +1,519 @@
+# text = Hier ist eine vereinfachte Version des Textes: **Hausmittel gegen Husten** Husten ist keine Krankheit.
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=9|end_char=13
+4	vereinfachte	vereinfacht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=14|end_char=26
+5	Version	Version	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=27|end_char=34
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=35|end_char=38
+7	Textes	Text	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=39|end_char=45
+8	:	:	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=45|end_char=46
+9	**	**	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=48|end_char=50
+10	Hausmittel	Hausmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	start_char=50|end_char=60
+11	gegen	gegen	ADP	APPR	_	12	case	_	start_char=61|end_char=66
+12	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=67|end_char=73
+13	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=73|end_char=74
+14	*	*	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s|start_char=74|end_char=75
+15	Husten	Husten	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=77|end_char=83
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=84|end_char=87
+17	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	18	det	_	start_char=88|end_char=93
+18	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=94|end_char=103
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=103|end_char=104
+
+# text = Es ist eine Reaktion unseres Körpers.
+# sent_id = 1
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=105|end_char=107
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=108|end_char=111
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=112|end_char=116
+4	Reaktion	Reaktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=117|end_char=125
+5	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=126|end_char=133
+6	Körpers	Körper	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=134|end_char=141
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=141|end_char=142
+
+# text = **Warum husten Menschen?**
+# sent_id = 2
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=144|end_char=146
+2	Warum	warum	ADV	PWAV	PronType=Int	3	advmod	_	start_char=146|end_char=151
+3	husten	husen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=152|end_char=158
+4	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=159|end_char=167
+5	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=167|end_char=168
+6	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=168|end_char=169
+7	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=169|end_char=170
+
+# text = Wenn wir eine Erkältung haben, husten wir.
+# sent_id = 3
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=172|end_char=176
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=177|end_char=180
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=181|end_char=185
+4	Erkältung	Erkältung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=186|end_char=195
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=196|end_char=201
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=201|end_char=202
+7	husten	husen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=203|end_char=209
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No|start_char=210|end_char=213
+9	.	.	PUNCT	$.	_	7	punct	_	start_char=213|end_char=214
+
+# text = Husten hilft nostro Propheten aus dem Körper herauszustoßen.
+# sent_id = 4
+1	Husten	Husten	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=215|end_char=221
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=222|end_char=227
+3	nostro	nostro	PROPN	NE	_	2	obj	_	start_char=228|end_char=234
+4	Propheten	Prophet	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=235|end_char=244
+5	aus	aus	ADP	APPR	_	7	case	_	start_char=245|end_char=248
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=249|end_char=252
+7	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=253|end_char=259
+8	herauszustoßen	herausstoßen	VERB	VVIZU	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=260|end_char=274
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=274|end_char=275
+
+# text = Manchmal kann Husten ein Anzeichen für eine Krankheit sein.
+# sent_id = 5
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=276|end_char=284
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=285|end_char=289
+3	Husten	Husten	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=290|end_char=296
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=297|end_char=300
+5	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=301|end_char=310
+6	für	für	ADP	APPR	_	8	case	_	start_char=311|end_char=314
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=315|end_char=319
+8	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=320|end_char=329
+9	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	SpaceAfter=No|start_char=330|end_char=334
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=334|end_char=335
+
+# text = Dann sollten Sie mit Ihrem Arzt sprechen.
+# sent_id = 6
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=336|end_char=340
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=341|end_char=348
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=349|end_char=352
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=353|end_char=356
+5	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=357|end_char=362
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=363|end_char=367
+7	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=368|end_char=376
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=376|end_char=377
+
+# text = **Helfen Hausmittel gegen Husten?**
+# sent_id = 7
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=379|end_char=381
+2	Helfen	Helf	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=381|end_char=387
+3	Hausmittel	Hausmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=388|end_char=398
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=399|end_char=404
+5	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=405|end_char=411
+6	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=411|end_char=412
+7	*	*	SYM	$(	_	3	dep	_	SpaceAfter=No|start_char=412|end_char=413
+8	*	*	PUNCT	$(	_	3	dep	_	SpacesAfter=\s\s|start_char=413|end_char=414
+
+# text = Bei einer Erkältung geht Husten oft ohne Behandlung vorbei.
+# sent_id = 8
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=416|end_char=419
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=420|end_char=425
+3	Erkältung	Erkältung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=426|end_char=435
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=436|end_char=440
+5	Husten	Husten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=441|end_char=447
+6	oft	oft	ADV	ADV	_	4	advmod	_	start_char=448|end_char=451
+7	ohne	ohne	ADP	APPR	_	8	case	_	start_char=452|end_char=456
+8	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=457|end_char=467
+9	vorbei	vorbei	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=468|end_char=474
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=474|end_char=475
+
+# text = Es gibt verschiedene Hausmittel gegen Husten, aber ihre Wirkung ist nicht immer bewiesen.
+# sent_id = 9
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=476|end_char=478
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=479|end_char=483
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=484|end_char=496
+4	Hausmittel	Hausmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=497|end_char=507
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=508|end_char=513
+6	Husten	Husten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=514|end_char=520
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=520|end_char=521
+8	aber	aber	CCONJ	KON	_	14	cc	_	start_char=522|end_char=526
+9	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=527|end_char=531
+10	Wirkung	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=532|end_char=539
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=540|end_char=543
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=544|end_char=549
+13	immer	immer	ADV	ADV	_	14	advmod	_	start_char=550|end_char=555
+14	bewiesen	beweisen	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	conj	_	SpaceAfter=No|start_char=556|end_char=564
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=564|end_char=565
+
+# text = **Viele trinken gegen Husten** Das Trinken von Flüssigkeit hilft, die Schleimhäute feucht zu halten.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=567|end_char=569
+2	Viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	3	nsubj	_	start_char=569|end_char=574
+3	trinken	trinken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=575|end_char=582
+4	gegen	gegen	ADP	APPR	_	5	case	_	start_char=583|end_char=588
+5	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|start_char=589|end_char=595
+6	*	*	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=595|end_char=596
+7	*	*	PUNCT	$(	_	12	punct	_	SpacesAfter=\s\s|start_char=596|end_char=597
+8	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=599|end_char=602
+9	Trinken	Trinken	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=603|end_char=610
+10	von	von	ADP	APPR	_	11	case	_	start_char=611|end_char=614
+11	Flüssigkeit	Flüssigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=615|end_char=626
+12	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No|start_char=627|end_char=632
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=632|end_char=633
+14	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=634|end_char=637
+15	Schleimhäute	Schleimhaut	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	start_char=638|end_char=650
+16	feucht	feucht	ADJ	ADJD	Degree=Pos	18	xcomp	_	start_char=651|end_char=657
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=658|end_char=660
+18	halten	halten	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|start_char=661|end_char=667
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=667|end_char=668
+
+# text = Das lindert den Hustenreiz und löst den Schleim auf.
+# sent_id = 11
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=669|end_char=672
+2	lindert	lindern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=673|end_char=680
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=681|end_char=684
+4	Hustenreiz	Hustenreiz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=685|end_char=695
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=696|end_char=699
+6	löst	lösen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=700|end_char=704
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=705|end_char=708
+8	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=709|end_char=716
+9	auf	auf	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No|start_char=717|end_char=720
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=720|end_char=721
+
+# text = *Achtung: Wenn Sie eine Herz- oder Nierenkrankheit haben, sollten Sie vorher mit Ihrem Arzt sprechen, bevor Sie viel trinken.* **Husten-Teas** Sie können auch Husten-Teas trinken, die spezifische Heilpflanzen enthalten, wie z.B. Thymian.
+# sent_id = 12
+1	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=723|end_char=724
+2	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No|start_char=724|end_char=731
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=731|end_char=732
+4	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=733|end_char=737
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=738|end_char=741
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=742|end_char=746
+7	Herz	Herz	NOUN	TRUNC	_	11	obj	_	SpaceAfter=No|start_char=747|end_char=751
+8	-	-	PUNCT	$(	_	10	punct	_	start_char=751|end_char=752
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=753|end_char=757
+10	Nierenkrankheit	Nierenkrankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=758|end_char=773
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No|start_char=774|end_char=779
+12	,	,	PUNCT	$,	_	11	punct	_	start_char=779|end_char=780
+13	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	start_char=781|end_char=788
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	19	nsubj	_	start_char=789|end_char=792
+15	vorher	vorher	ADV	ADV	_	19	advmod	_	start_char=793|end_char=799
+16	mit	mit	ADP	APPR	_	18	case	_	start_char=800|end_char=803
+17	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	start_char=804|end_char=809
+18	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=810|end_char=814
+19	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=815|end_char=823
+20	,	,	PUNCT	$,	_	24	punct	_	start_char=823|end_char=824
+21	bevor	bevor	SCONJ	KOUS	_	24	mark	_	start_char=825|end_char=830
+22	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	24	nsubj	_	start_char=831|end_char=834
+23	viel	viel	DET	PIS	PronType=Ind	24	obj	_	start_char=835|end_char=839
+24	trinken	trinken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No|start_char=840|end_char=847
+25	.	.	PUNCT	$.	_	30	punct	_	SpaceAfter=No|start_char=847|end_char=848
+26	*	*	PUNCT	$(	_	30	punct	_	SpacesAfter=\s\s|start_char=848|end_char=849
+27	**	**	PUNCT	$(	_	30	punct	_	SpaceAfter=No|start_char=851|end_char=853
+28	Husten	Husten	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	30	compound	_	SpaceAfter=No|start_char=853|end_char=859
+29	-	-	PUNCT	$(	_	28	punct	_	SpaceAfter=No|start_char=859|end_char=860
+30	Teas	Teas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No|start_char=860|end_char=864
+31	*	*	PUNCT	$(	_	39	punct	_	SpaceAfter=No|start_char=864|end_char=865
+32	*	*	PUNCT	$(	_	39	punct	_	SpacesAfter=\s\s|start_char=865|end_char=866
+33	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	start_char=868|end_char=871
+34	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	start_char=872|end_char=878
+35	auch	auch	ADV	ADV	_	39	advmod	_	start_char=879|end_char=883
+36	Husten	Husten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	38	compound	_	SpaceAfter=No|start_char=884|end_char=890
+37	-	-	PUNCT	$(	_	36	punct	_	SpaceAfter=No|start_char=890|end_char=891
+38	Teas	Teas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	39	obj	_	start_char=891|end_char=895
+39	trinken	trinken	VERB	VVINF	VerbForm=Inf	30	parataxis	_	SpaceAfter=No|start_char=896|end_char=903
+40	,	,	PUNCT	$,	_	44	punct	_	start_char=903|end_char=904
+41	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	44	nsubj	_	start_char=905|end_char=908
+42	spezifische	spezifisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	43	amod	_	start_char=909|end_char=920
+43	Heilpflanzen	Heilpflanze	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	44	obj	_	start_char=921|end_char=933
+44	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	acl	_	SpaceAfter=No|start_char=934|end_char=943
+45	,	,	PUNCT	$,	_	48	punct	_	start_char=943|end_char=944
+46	wie	wie	ADP	KOKOM	_	48	case	_	start_char=945|end_char=948
+47	z.B.	z.B.	X	ADV	_	48	advmod	_	start_char=949|end_char=953
+48	Thymian	Thymian	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No|start_char=954|end_char=961
+49	.	.	PUNCT	$.	_	19	punct	_	start_char=961|end_char=962
+
+# text = Diese Heilpflanzen sollen den Schleim lösen oder den Hustenreiz lindern.
+# sent_id = 13
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=963|end_char=968
+2	Heilpflanzen	Heilpflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=969|end_char=981
+3	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=982|end_char=988
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=989|end_char=992
+5	Schleim	Schleim	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=993|end_char=1000
+6	lösen	lösen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1001|end_char=1006
+7	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1007|end_char=1011
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1012|end_char=1015
+9	Hustenreiz	Hustenreiz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=1016|end_char=1026
+10	lindern	lindern	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No|start_char=1027|end_char=1034
+11	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1034|end_char=1035
+
+# text = **Inhalieren gegen Husten** Inhalieren ist das Einatmen von Wasserdampf.
+# sent_id = 14
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1037|end_char=1039
+2	Inhalieren	Inhalier	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1039|end_char=1049
+3	gegen	gegen	ADP	APPR	_	4	case	_	start_char=1050|end_char=1055
+4	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=1056|end_char=1062
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1062|end_char=1063
+6	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=1063|end_char=1064
+7	Inhalieren	Inhalier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=1066|end_char=1076
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1077|end_char=1080
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1081|end_char=1084
+10	Einatmen	Einatmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1085|end_char=1093
+11	von	von	ADP	APPR	_	12	case	_	start_char=1094|end_char=1097
+12	Wasserdampf	Wasserdampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=1098|end_char=1109
+13	.	.	PUNCT	$.	_	10	punct	_	start_char=1109|end_char=1110
+
+# text = Dies hilft, die Schleimhäute zu befeuchten.
+# sent_id = 15
+1	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1111|end_char=1115
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1116|end_char=1121
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=1121|end_char=1122
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1123|end_char=1126
+5	Schleimhäute	Schleimhaut	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=1127|end_char=1139
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=1140|end_char=1142
+7	befeuchten	befeuchten	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=1143|end_char=1153
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1153|end_char=1154
+
+# text = Sie können auch Salbei verwenden.
+# sent_id = 16
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1155|end_char=1158
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1159|end_char=1165
+3	auch	auch	ADV	ADV	_	5	advmod	_	start_char=1166|end_char=1170
+4	Salbei	Salbei	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1171|end_char=1177
+5	verwenden	verwenden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1178|end_char=1187
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1187|end_char=1188
+
+# text = *Achtung: Kinder und Menschen mit Asthma sollten nicht mit ätherischen Ölen inhalieren.* **Hustensaft selber machen**
+# sent_id = 17
+1	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1190|end_char=1191
+2	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1191|end_char=1198
+3	:	:	PUNCT	$.	_	14	punct	_	start_char=1198|end_char=1199
+4	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=1200|end_char=1206
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=1207|end_char=1210
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	start_char=1211|end_char=1219
+7	mit	mit	ADP	APPR	_	8	case	_	start_char=1220|end_char=1223
+8	Asthma	Asthma	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1224|end_char=1230
+9	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=1231|end_char=1238
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=1239|end_char=1244
+11	mit	mit	ADP	APPR	_	13	case	_	start_char=1245|end_char=1248
+12	ätherischen	ätherisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	start_char=1249|end_char=1260
+13	Ölen	Öl	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	start_char=1261|end_char=1265
+14	inhalieren	inhalieren	VERB	VVINF	VerbForm=Inf	2	parataxis	_	SpaceAfter=No|start_char=1266|end_char=1276
+15	.	.	PUNCT	$.	_	20	punct	_	SpaceAfter=No|start_char=1276|end_char=1277
+16	*	*	PUNCT	$(	_	20	punct	_	SpacesAfter=\s\s|start_char=1277|end_char=1278
+17	**	**	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=1280|end_char=1282
+18	Hustensaft	Hustensaft	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=1282|end_char=1292
+19	selber	selber	DET	PIS	PronType=Ind	20	advmod	_	start_char=1293|end_char=1299
+20	machen	machen	VERB	VVINF	Number=Plur|VerbForm=Inf	14	parataxis	_	SpaceAfter=No|start_char=1300|end_char=1306
+21	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=1306|end_char=1307
+22	*	*	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\s|start_char=1307|end_char=1308
+
+# text = Sie können Hustensaft selber machen, indem Sie Zwiebeln mit Zucker vermischen und den Sud abkühlen lassen.
+# sent_id = 18
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1310|end_char=1313
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1314|end_char=1320
+3	Hustensaft	Hustensaft	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1321|end_char=1331
+4	selber	selber	DET	PIS	PronType=Ind	5	obj	_	start_char=1332|end_char=1338
+5	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1339|end_char=1345
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=1345|end_char=1346
+7	indem	indem	SCONJ	KOUS	_	12	mark	_	start_char=1347|end_char=1352
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=1353|end_char=1356
+9	Zwiebeln	Zwiebel|Zwiebeln	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=1357|end_char=1365
+10	mit	mit	ADP	APPR	_	11	case	_	start_char=1366|end_char=1369
+11	Zucker	Zucker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1370|end_char=1376
+12	vermischen	vermischen	VERB	VVINF	VerbForm=Inf	5	advcl	_	start_char=1377|end_char=1387
+13	und	und	CCONJ	KON	_	17	cc	_	start_char=1388|end_char=1391
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=1392|end_char=1395
+15	Sud	Sud	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=1396|end_char=1399
+16	abkühlen	abkühlen	VERB	VVINF	VerbForm=Inf	17	xcomp	_	start_char=1400|end_char=1408
+17	lassen	lassen	VERB	VVINF	VerbForm=Inf	12	conj	_	SpaceAfter=No|start_char=1409|end_char=1415
+18	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1415|end_char=1416
+
+# text = **Kartoffelwickel gegen Husten** Kartoffelwickel können auch den Husten lindern.
+# sent_id = 19
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1418|end_char=1420
+2	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1420|end_char=1435
+3	gegen	gegen	ADP	APPR	_	4	case	_	start_char=1436|end_char=1441
+4	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=1442|end_char=1448
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1448|end_char=1449
+6	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=1449|end_char=1450
+7	Kartoffelwickel	Kartoffelwickel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=1452|end_char=1467
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1468|end_char=1474
+9	auch	auch	ADV	ADV	_	12	advmod	_	start_char=1475|end_char=1479
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=1480|end_char=1483
+11	Husten	Husten	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obj	_	start_char=1484|end_char=1490
+12	lindern	lindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1491|end_char=1498
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=1498|end_char=1499
+
+# text = Sie können Kartoffeln kachen, zerdrücken und auf Ihre Brust legen.
+# sent_id = 20
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1500|end_char=1503
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1504|end_char=1510
+3	Kartoffeln	Kartoffel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=1511|end_char=1521
+4	kachen	kachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1522|end_char=1528
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=1528|end_char=1529
+6	zerdrücken	zerdrücken	VERB	VVINF	VerbForm=Inf	4	conj	_	start_char=1530|end_char=1540
+7	und	und	CCONJ	KON	_	11	cc	_	start_char=1541|end_char=1544
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=1545|end_char=1548
+9	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1549|end_char=1553
+10	Brust	Brust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=1554|end_char=1559
+11	legen	legen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No|start_char=1560|end_char=1565
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=1565|end_char=1566
+
+# text = **Wo bekommen Sie noch mehr Informationen?** Wenn Sie Husten haben und Fieber oder Ihr Husten nicht besser wird, sollten Sie zum Arzt gehen.
+# sent_id = 21
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1568|end_char=1570
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1570|end_char=1572
+3	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	start_char=1573|end_char=1581
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=1582|end_char=1585
+5	noch	noch	ADV	ADV	_	3	advmod	_	start_char=1586|end_char=1590
+6	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	7	det	_	start_char=1591|end_char=1595
+7	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=1596|end_char=1609
+8	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1609|end_char=1610
+9	*	*	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=1610|end_char=1611
+10	*	*	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\s|start_char=1611|end_char=1612
+11	Wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=1614|end_char=1618
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=1619|end_char=1622
+13	Husten	Husten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=1623|end_char=1629
+14	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=1630|end_char=1635
+15	und	und	CCONJ	KON	_	22	cc	_	start_char=1636|end_char=1639
+16	Fieber	Fieber	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	nsubj	_	start_char=1640|end_char=1646
+17	oder	oder	CCONJ	KON	_	19	cc	_	start_char=1647|end_char=1651
+18	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	start_char=1652|end_char=1655
+19	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	conj	_	start_char=1656|end_char=1662
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	start_char=1663|end_char=1668
+21	besser	gut	ADJ	ADJD	Degree=Cmp	22	xcomp	_	start_char=1669|end_char=1675
+22	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No|start_char=1676|end_char=1680
+23	,	,	PUNCT	$,	_	14	punct	_	start_char=1680|end_char=1681
+24	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	start_char=1682|end_char=1689
+25	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	29	nsubj	_	start_char=1690|end_char=1693
+26-27	zum	_	_	_	_	_	_	_	start_char=1694|end_char=1697
+26	zu	zu	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	obl	_	start_char=1698|end_char=1702
+29	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1703|end_char=1708
+30	.	.	PUNCT	$.	_	29	punct	_	start_char=1708|end_char=1709
+
+# text = Sie können auch mehr über das Thema Husten lesen.
+# sent_id = 22
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=1710|end_char=1713
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1714|end_char=1720
+3	auch	auch	ADV	ADV	_	9	advmod	_	start_char=1721|end_char=1725
+4	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	9	advmod	_	start_char=1726|end_char=1730
+5	über	über	ADP	APPR	_	7	case	_	start_char=1731|end_char=1735
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=1736|end_char=1739
+7	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	start_char=1740|end_char=1745
+8	Husten	Husten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1746|end_char=1752
+9	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1753|end_char=1758
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1758|end_char=1759
+
+# text = *Bedeutung von schweren Wörtern:* * **Erkältung**: Eine Krankheit, die oft Husten, Schnupfen und Fieber verursacht.
+# sent_id = 23
+1	*	*	PUNCT	$(	_	2	advmod	_	SpaceAfter=No|start_char=1761|end_char=1762
+2	Bedeutung	Bedeutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1762|end_char=1771
+3	von	von	ADP	APPR	_	5	case	_	start_char=1772|end_char=1775
+4	schweren	schwer	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=1776|end_char=1784
+5	Wörtern	Wort	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No|start_char=1785|end_char=1792
+6	:	:	PUNCT	$.	_	11	punct	_	SpaceAfter=No|start_char=1792|end_char=1793
+7	*	*	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s|start_char=1793|end_char=1794
+8	*	*	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s\s|start_char=1796|end_char=1797
+9	*	*	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1800|end_char=1801
+10	*	*	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1801|end_char=1802
+11	Erkältung	Erkältung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|start_char=1802|end_char=1811
+12	*	*	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1811|end_char=1812
+13	*	*	PUNCT	$(	_	11	appos	_	SpaceAfter=No|start_char=1812|end_char=1813
+14	:	:	PUNCT	$.	_	16	punct	_	start_char=1813|end_char=1814
+15	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=1815|end_char=1819
+16	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|start_char=1820|end_char=1829
+17	,	,	PUNCT	$,	_	25	punct	_	start_char=1829|end_char=1830
+18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	25	nsubj	_	start_char=1831|end_char=1834
+19	oft	oft	ADV	ADV	_	25	advmod	_	start_char=1835|end_char=1838
+20	Husten	Husten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No|start_char=1839|end_char=1845
+21	,	,	PUNCT	$,	_	22	punct	_	start_char=1845|end_char=1846
+22	Schnupfen	Schnupfen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	start_char=1847|end_char=1856
+23	und	und	CCONJ	KON	_	24	cc	_	start_char=1857|end_char=1860
+24	Fieber	Fieber	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	conj	_	start_char=1861|end_char=1867
+25	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	SpaceAfter=No|start_char=1868|end_char=1878
+26	.	.	PUNCT	$.	_	2	punct	_	start_char=1878|end_char=1879
+
+# text = * **Krankheitserreger**: Dinge wie Bakterien oder Viren, die uns krank machen.* * **Schleimhäute**: Teile unseres Körpers, die Flüssigkeit produzieren, um uns zu schützen.* * **Hustenreiz**: Das Gefühl, das uns dazu veranlasst, zu husten.* * **Ätherische Öle**: Öle, die oft in Medizin und Kosmetik verwendet werden.* * **Inhalieren**: Dampf einzuatmen, um die Lungen zu befeuchten.
+# sent_id = 24
+1	*	*	SYM	$(	_	0	root	_	SpacesAfter=\s\s\s|start_char=1880|end_char=1881
+2	*	*	SYM	$(	_	1	advmod	_	SpaceAfter=No|start_char=1884|end_char=1885
+3	*	*	SYM	XY	_	4	dep	_	SpaceAfter=No|start_char=1885|end_char=1886
+4	Krankheitserreger	Krankheitserreger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|start_char=1886|end_char=1903
+5	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1903|end_char=1904
+6	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1904|end_char=1905
+7	:	:	PUNCT	$.	_	8	punct	_	start_char=1905|end_char=1906
+8	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	appos	_	start_char=1907|end_char=1912
+9	wie	wie	ADP	KOKOM	_	10	case	_	start_char=1913|end_char=1916
+10	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nmod	_	start_char=1917|end_char=1926
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=1927|end_char=1931
+12	Viren	Virus	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No|start_char=1932|end_char=1937
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=1937|end_char=1938
+14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj	_	start_char=1939|end_char=1942
+15	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	17	obj	_	start_char=1943|end_char=1946
+16	krank	krank	ADJ	ADJD	Degree=Pos	17	xcomp	_	start_char=1947|end_char=1952
+17	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=1953|end_char=1959
+18	.	.	PUNCT	$.	_	22	punct	_	SpaceAfter=No|start_char=1959|end_char=1960
+19	*	*	PUNCT	$(	_	22	punct	_	SpacesAfter=\s\s\s|start_char=1960|end_char=1961
+20	*	*	PUNCT	$(	_	22	punct	_	SpacesAfter=\s\s\s|start_char=1964|end_char=1965
+21	**	**	PUNCT	$(	_	22	punct	_	SpaceAfter=No|start_char=1968|end_char=1970
+22	Schleimhäute	Schleimhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No|start_char=1970|end_char=1982
+23	*	*	PUNCT	$(	_	22	punct	_	SpaceAfter=No|start_char=1982|end_char=1983
+24	*	*	PUNCT	$(	_	22	appos	_	SpaceAfter=No|start_char=1983|end_char=1984
+25	:	:	PUNCT	$.	_	26	punct	_	start_char=1984|end_char=1985
+26	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	appos	_	start_char=1986|end_char=1991
+27	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	28	det:poss	_	start_char=1992|end_char=1999
+28	Körpers	Körper	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No|start_char=2000|end_char=2007
+29	,	,	PUNCT	$,	_	32	punct	_	start_char=2007|end_char=2008
+30	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=2009|end_char=2012
+31	Flüssigkeit	Flüssigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	start_char=2013|end_char=2024
+32	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	SpaceAfter=No|start_char=2025|end_char=2036
+33	,	,	PUNCT	$,	_	37	punct	_	start_char=2036|end_char=2037
+34	um	um	ADP	KOUI	_	37	mark	_	start_char=2038|end_char=2040
+35	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	37	obj	_	start_char=2041|end_char=2044
+36	zu	zu	PART	PTKZU	_	37	mark	_	start_char=2045|end_char=2047
+37	schützen	schützen	VERB	VVINF	VerbForm=Inf	32	advcl	_	SpaceAfter=No|start_char=2048|end_char=2056
+38	.	.	PUNCT	$.	_	45	punct	_	SpaceAfter=No|start_char=2056|end_char=2057
+39	*	*	PUNCT	$(	_	43	punct	_	SpacesAfter=\s\s\s|start_char=2057|end_char=2058
+40	*	*	PUNCT	$(	_	43	punct	_	SpacesAfter=\s\s\s|start_char=2061|end_char=2062
+41	*	*	PUNCT	$(	_	43	punct	_	SpaceAfter=No|start_char=2065|end_char=2066
+42	*	*	PUNCT	$(	_	43	punct	_	SpaceAfter=No|start_char=2066|end_char=2067
+43	Hustenreiz	Hustenreiz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	appos	_	SpaceAfter=No|start_char=2067|end_char=2077
+44	*	*	PUNCT	$(	_	43	punct	_	SpaceAfter=No|start_char=2077|end_char=2078
+45	*	*	PUNCT	$(	_	43	appos	_	SpaceAfter=No|start_char=2078|end_char=2079
+46	:	:	PUNCT	$.	_	48	punct	_	start_char=2079|end_char=2080
+47	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	48	det	_	start_char=2081|end_char=2084
+48	Gefühl	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	43	appos	_	SpaceAfter=No|start_char=2085|end_char=2091
+49	,	,	PUNCT	$,	_	53	punct	_	start_char=2091|end_char=2092
+50	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	53	nsubj	_	start_char=2093|end_char=2096
+51	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	53	obj	_	start_char=2097|end_char=2100
+52	dazu	dazu	ADV	PAV	PronType=Dem	53	advmod	_	start_char=2101|end_char=2105
+53	veranlasst	veranlassen	VERB	VVPP	VerbForm=Part	48	acl	_	SpaceAfter=No|start_char=2106|end_char=2116
+54	,	,	PUNCT	$,	_	56	punct	_	start_char=2116|end_char=2117
+55	zu	zu	PART	PTKZU	_	56	mark	_	start_char=2118|end_char=2120
+56	husten	husen	VERB	VVINF	VerbForm=Inf	53	xcomp	_	SpaceAfter=No|start_char=2121|end_char=2127
+57	.	.	PUNCT	$.	_	63	punct	_	SpaceAfter=No|start_char=2127|end_char=2128
+58	*	*	PUNCT	$(	_	63	punct	_	SpacesAfter=\s\s\s|start_char=2128|end_char=2129
+59	*	*	PUNCT	$(	_	63	punct	_	SpacesAfter=\s\s\s|start_char=2132|end_char=2133
+60	*	*	PUNCT	$(	_	63	punct	_	SpaceAfter=No|start_char=2136|end_char=2137
+61	*	*	PUNCT	$(	_	63	punct	_	SpaceAfter=No|start_char=2137|end_char=2138
+62	Ätherische	etherisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	63	amod	_	start_char=2138|end_char=2148
+63	Öle	Öl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	48	appos	_	SpaceAfter=No|start_char=2149|end_char=2152
+64	*	*	PUNCT	$(	_	63	punct	_	SpaceAfter=No|start_char=2152|end_char=2153
+65	*	*	PUNCT	$(	_	63	appos	_	SpaceAfter=No|start_char=2153|end_char=2154
+66	:	:	PUNCT	$.	_	67	punct	_	start_char=2154|end_char=2155
+67	Öle	Öl	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	63	appos	_	SpaceAfter=No|start_char=2156|end_char=2159
+68	,	,	PUNCT	$,	_	75	punct	_	start_char=2159|end_char=2160
+69	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	75	nsubj:pass	_	start_char=2161|end_char=2164
+70	oft	oft	ADV	ADV	_	75	advmod	_	start_char=2165|end_char=2168
+71	in	in	ADP	APPR	_	72	case	_	start_char=2169|end_char=2171
+72	Medizin	Medizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	75	obl	_	start_char=2172|end_char=2179
+73	und	und	CCONJ	KON	_	74	cc	_	start_char=2180|end_char=2183
+74	Kosmetik	Kosmetik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	72	conj	_	start_char=2184|end_char=2192
+75	verwendet	verwenden	VERB	VVPP	VerbForm=Part	67	acl	_	start_char=2193|end_char=2202
+76	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	75	aux:pass	_	SpaceAfter=No|start_char=2203|end_char=2209
+77	.	.	PUNCT	$.	_	78	punct	_	SpaceAfter=No|start_char=2209|end_char=2210
+78	*	*	SYM	$(	_	75	parataxis	_	SpacesAfter=\s\s\s|start_char=2210|end_char=2211
+79	*	*	SYM	$(	_	75	parataxis	_	SpacesAfter=\s\s\s|start_char=2214|end_char=2215
+80	*	*	SYM	XY	_	82	cc	_	SpaceAfter=No|start_char=2218|end_char=2219
+81	*	*	SYM	XY	_	82	cc	_	SpaceAfter=No|start_char=2219|end_char=2220
+82	Inhalieren	Inhalier	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	87	appos	_	SpaceAfter=No|start_char=2220|end_char=2230
+83	*	*	PUNCT	$(	_	82	punct	_	SpaceAfter=No|start_char=2230|end_char=2231
+84	*	*	PUNCT	$(	_	87	advmod	_	SpaceAfter=No|start_char=2231|end_char=2232
+85	:	:	PUNCT	$.	_	87	punct	_	start_char=2232|end_char=2233
+86	Dampf	Dampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	87	nsubj:pass	_	start_char=2234|end_char=2239
+87	einzuatmen	einatmen	VERB	VVIZU	VerbForm=Inf	75	conj	_	SpaceAfter=No|start_char=2240|end_char=2250
+88	,	,	PUNCT	$,	_	93	punct	_	start_char=2250|end_char=2251
+89	um	um	ADP	KOUI	_	93	mark	_	start_char=2252|end_char=2254
+90	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	91	det	_	start_char=2255|end_char=2258
+91	Lungen	Lunge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	93	obj	_	start_char=2259|end_char=2265
+92	zu	zu	PART	PTKZU	_	93	mark	_	start_char=2266|end_char=2268
+93	befeuchten	befeuchten	VERB	VVINF	VerbForm=Inf	87	advcl	_	SpaceAfter=No|start_char=2269|end_char=2279
+94	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=2279|end_char=2280
+

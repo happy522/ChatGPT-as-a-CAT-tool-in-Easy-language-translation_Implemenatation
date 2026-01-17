@@ -1,0 +1,364 @@
+# text = **Insektenstich: Erste Hilfe** Ein Insektenstich ist normalerweise nicht gefährlich.
+# sent_id = 0
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Insektenstich	Insektenstich	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=2|end_char=15
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=15|end_char=16
+4	Erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	start_char=17|end_char=22
+5	Hilfe	Hilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|start_char=23|end_char=28
+6	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=28|end_char=29
+7	*	*	PUNCT	$(	_	13	punct	_	SpacesAfter=\s\s|start_char=29|end_char=30
+8	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=32|end_char=35
+9	Insektenstich	Insektenstich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=36|end_char=49
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=50|end_char=53
+11	normalerweise	normalerweise	ADV	ADV	_	13	advmod	_	start_char=54|end_char=67
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=68|end_char=73
+13	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	2	parataxis	_	SpaceAfter=No|start_char=74|end_char=84
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=84|end_char=85
+
+# text = Hier ist, wie Sie ihn selbst versorgen können: * Entfernen Sie den Stachel, wenn er noch in der Haut steckt.
+# sent_id = 1
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=86|end_char=90
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=91|end_char=94
+3	,	,	PUNCT	$,	_	8	punct	_	start_char=94|end_char=95
+4	wie	wie	SCONJ	KOUS	_	8	mark	_	start_char=96|end_char=99
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=100|end_char=103
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=104|end_char=107
+7	selbst	selbst	ADV	ADV	_	8	advmod	_	start_char=108|end_char=114
+8	versorgen	versorgen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=115|end_char=124
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|start_char=125|end_char=131
+10	:	:	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=131|end_char=132
+11	*	*	PUNCT	$(	_	12	punct	_	start_char=134|end_char=135
+12	Entfernen	Entfernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=136|end_char=145
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=146|end_char=149
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=150|end_char=153
+15	Stachel	Stachel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|start_char=154|end_char=161
+16	,	,	PUNCT	$,	_	23	punct	_	start_char=161|end_char=162
+17	wenn	wenn	SCONJ	KOUS	_	23	mark	_	start_char=163|end_char=167
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=168|end_char=170
+19	noch	noch	ADV	ADV	_	23	advmod	_	start_char=171|end_char=175
+20	in	in	ADP	APPR	_	22	case	_	start_char=176|end_char=178
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=179|end_char=182
+22	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	start_char=183|end_char=187
+23	steckt	stecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=188|end_char=194
+24	.	.	PUNCT	$.	_	2	punct	_	start_char=194|end_char=195
+
+# text = Benutzen Sie eine **stumpfe Kante** (das ist eine Kante, die nicht scharf ist, wie eine Kreditkarte).
+# sent_id = 2
+1	Benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=196|end_char=204
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=205|end_char=208
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=209|end_char=213
+4	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=214|end_char=215
+5	*stumpfe	*ttumpfe	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=215|end_char=223
+6	Kante	Kante	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|start_char=224|end_char=229
+7	*	*	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=229|end_char=230
+8	*	*	PUNCT	$(	_	13	punct	_	start_char=230|end_char=231
+9	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=232|end_char=233
+10	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=233|end_char=236
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=237|end_char=240
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=241|end_char=245
+13	Kante	Kante	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No|start_char=246|end_char=251
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=251|end_char=252
+15	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=253|end_char=256
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=257|end_char=262
+17	scharf	scharf	ADJ	ADJD	Degree=Pos	13	acl	_	start_char=263|end_char=269
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No|start_char=270|end_char=273
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=273|end_char=274
+20	wie	wie	ADP	KOKOM	_	22	case	_	start_char=275|end_char=278
+21	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	22	det	_	start_char=279|end_char=283
+22	Kreditkarte	Kreditkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=284|end_char=295
+23	)	)	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=295|end_char=296
+24	.	.	PUNCT	$.	_	1	punct	_	start_char=296|end_char=297
+
+# text = * Kühlen Sie den Insektenstich mit einem **Kältepack** (das ist ein Pack, das kalt ist) oder einem Eiswürfel.
+# sent_id = 3
+1	*	*	PUNCT	$(	_	2	advmod	_	start_char=298|end_char=299
+2	Kühlen	kühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=306
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=307|end_char=310
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=311|end_char=314
+5	Insektenstich	Insektenstich	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=315|end_char=328
+6	mit	mit	ADP	APPR	_	10	case	_	start_char=329|end_char=332
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=333|end_char=338
+8	*	*	PUNCT	$(	_	10	compound	_	SpaceAfter=No|start_char=339|end_char=340
+9	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=340|end_char=341
+10	Kältepack	Kältepack	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=341|end_char=350
+11	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=350|end_char=351
+12	*	*	PUNCT	$(	_	17	punct	_	start_char=351|end_char=352
+13	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=353|end_char=354
+14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=354|end_char=357
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=358|end_char=361
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=362|end_char=365
+17	Pack	Pack	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=366|end_char=370
+18	,	,	PUNCT	$,	_	20	punct	_	start_char=370|end_char=371
+19	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	20	nsubj	_	start_char=372|end_char=375
+20	kalt	kalt	ADJ	ADJD	Degree=Pos	17	acl	_	start_char=376|end_char=380
+21	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No|start_char=381|end_char=384
+22	)	)	PUNCT	$(	_	17	punct	_	start_char=384|end_char=385
+23	oder	oder	CCONJ	KON	_	25	cc	_	start_char=386|end_char=390
+24	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	25	det	_	start_char=391|end_char=396
+25	Eiswürfel	Eiswürfel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No|start_char=397|end_char=406
+26	.	.	PUNCT	$.	_	2	punct	_	start_char=406|end_char=407
+
+# text = Legen Sie ein Tuch dazwischen, damit die Haut nicht schaden wird.
+# sent_id = 4
+1	Legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=408|end_char=413
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=414|end_char=417
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=418|end_char=421
+4	Tuch	Tuch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=422|end_char=426
+5	dazwischen	dazwischen	ADV	PTKVZ	_	1	compound:prt	_	SpaceAfter=No|start_char=427|end_char=437
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=437|end_char=438
+7	damit	damit	SCONJ	KOUS	_	11	mark	_	start_char=439|end_char=444
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=445|end_char=448
+9	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=449|end_char=453
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=454|end_char=459
+11	schaden	schaden	VERB	VVINF	VerbForm=Inf	1	advcl	_	start_char=460|end_char=467
+12	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux	_	SpaceAfter=No|start_char=468|end_char=472
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=472|end_char=473
+
+# text = * Cremen Sie den Stich mit einem **Gel** (das ist eine Art von Creme) oder einer **Salbe** (das ist eine Art von Creme, die auf die Haut aufgetragen wird).
+# sent_id = 5
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=474|end_char=475
+2	Cremen	Creme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=476|end_char=482
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=483|end_char=486
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=487|end_char=490
+5	Stich	Stich	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=491|end_char=496
+6	mit	mit	ADP	APPR	_	10	case	_	start_char=497|end_char=500
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=501|end_char=506
+8	*	*	PUNCT	$(	_	10	compound	_	SpaceAfter=No|start_char=507|end_char=508
+9	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=508|end_char=509
+10	Gel	Gel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=509|end_char=512
+11	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=512|end_char=513
+12	*	*	PUNCT	$(	_	17	punct	_	start_char=513|end_char=514
+13	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=515|end_char=516
+14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=516|end_char=519
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=520|end_char=523
+16	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=524|end_char=528
+17	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=529|end_char=532
+18	von	von	ADP	APPR	_	19	case	_	start_char=533|end_char=536
+19	Creme	Creme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=537|end_char=542
+20	)	)	PUNCT	$(	_	17	punct	_	start_char=542|end_char=543
+21	oder	oder	CCONJ	KON	_	24	cc	_	start_char=544|end_char=548
+22	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	24	det	_	start_char=549|end_char=554
+23	**	**	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=555|end_char=557
+24	Salbe	Salbe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|start_char=557|end_char=562
+25	*	*	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=562|end_char=563
+26	*	*	PUNCT	$(	_	31	punct	_	start_char=563|end_char=564
+27	(	(	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=565|end_char=566
+28	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	31	nsubj	_	start_char=566|end_char=569
+29	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=570|end_char=573
+30	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	31	det	_	start_char=574|end_char=578
+31	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	parataxis	_	start_char=579|end_char=582
+32	von	von	ADP	APPR	_	33	case	_	start_char=583|end_char=586
+33	Creme	Creme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No|start_char=587|end_char=592
+34	,	,	PUNCT	$,	_	39	punct	_	start_char=592|end_char=593
+35	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	39	nsubj:pass	_	start_char=594|end_char=597
+36	auf	auf	ADP	APPR	_	38	case	_	start_char=598|end_char=601
+37	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=602|end_char=605
+38	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	obl	_	start_char=606|end_char=610
+39	aufgetragen	auftragen	VERB	VVPP	VerbForm=Part	31	acl	_	start_char=611|end_char=622
+40	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	39	aux:pass	_	SpaceAfter=No|start_char=623|end_char=627
+41	)	)	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=627|end_char=628
+42	.	.	PUNCT	$.	_	2	punct	_	start_char=628|end_char=629
+
+# text = Das hilft gegen den **Juckreiz** (das ist ein Gefühl, dass man kratzen muss).
+# sent_id = 6
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=630|end_char=633
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=634|end_char=639
+3	gegen	gegen	ADP	APPR	_	6	case	_	start_char=640|end_char=645
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=646|end_char=649
+5	**	**	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=650|end_char=652
+6	Juckreiz	Juckreiz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=652|end_char=660
+7	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=660|end_char=661
+8	*	*	PUNCT	$(	_	13	punct	_	start_char=661|end_char=662
+9	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=663|end_char=664
+10	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=664|end_char=667
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=668|end_char=671
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=672|end_char=675
+13	Gefühl	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=676|end_char=682
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=682|end_char=683
+15	dass	dass	SCONJ	KOUS	_	17	mark	_	start_char=684|end_char=688
+16	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	17	nsubj	_	start_char=689|end_char=692
+17	kratzen	kratzen	VERB	VVINF	VerbForm=Inf	13	ccomp	_	start_char=693|end_char=700
+18	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No|start_char=701|end_char=705
+19	)	)	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=705|end_char=706
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=706|end_char=707
+
+# text = Wenn Sie jedoch **allergisch** (das bedeutet, dass Ihr Körper auf bestimmte Dinge reagiert) auf Insektengift reagieren oder wenn der Stich im Mund oder Rachen ist, müssen Sie den Rettungsdienst rufen.
+# sent_id = 7
+1	Wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=709|end_char=713
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	21	nsubj	_	start_char=714|end_char=717
+3	jedoch	jedoch	ADV	ADV	_	21	advmod	_	start_char=718|end_char=724
+4	**allergisch	**allergisch	ADJ	ADJD	Degree=Pos	21	advmod	_	SpaceAfter=No|start_char=725|end_char=737
+5	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=737|end_char=738
+6	*	*	PUNCT	$(	_	4	punct	_	start_char=738|end_char=739
+7	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=740|end_char=741
+8	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=741|end_char=744
+9	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|start_char=745|end_char=753
+10	,	,	PUNCT	$,	_	17	punct	_	start_char=753|end_char=754
+11	dass	dass	SCONJ	KOUS	_	17	mark	_	start_char=755|end_char=759
+12	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=760|end_char=763
+13	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=764|end_char=770
+14	auf	auf	ADP	APPR	_	16	case	_	start_char=771|end_char=774
+15	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	start_char=775|end_char=784
+16	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	start_char=785|end_char=790
+17	reagiert	reagieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No|start_char=791|end_char=799
+18	)	)	PUNCT	$(	_	17	punct	_	start_char=799|end_char=800
+19	auf	auf	ADP	APPR	_	20	case	_	start_char=801|end_char=804
+20	Insektengift	Insektengift	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	start_char=805|end_char=817
+21	reagieren	reagieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	37	advcl	_	start_char=818|end_char=827
+22	oder	oder	CCONJ	KON	_	31	cc	_	start_char=828|end_char=832
+23	wenn	wenn	SCONJ	KOUS	_	31	mark	_	start_char=833|end_char=837
+24	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=838|end_char=841
+25	Stich	Stich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	start_char=842|end_char=847
+26-27	im	_	_	_	_	_	_	_	start_char=848|end_char=850
+26	in	in	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Mund	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	31	obl	_	start_char=851|end_char=855
+29	oder	oder	CCONJ	KON	_	30	cc	_	start_char=856|end_char=860
+30	Rachen	Rachen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	conj	_	start_char=861|end_char=867
+31	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No|start_char=868|end_char=871
+32	,	,	PUNCT	$,	_	21	punct	_	start_char=871|end_char=872
+33	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	start_char=873|end_char=879
+34	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	37	nsubj	_	start_char=880|end_char=883
+35	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=884|end_char=887
+36	Rettungsdienst	Rettungsdienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obj	_	start_char=888|end_char=902
+37	rufen	rufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=903|end_char=908
+38	.	.	PUNCT	$.	_	37	punct	_	SpacesAfter=\s\s|start_char=908|end_char=909
+
+# text = **Wann rufen Sie den Rettungsdienst?** * Wenn der Stich im Mund oder Rachen ist.
+# sent_id = 8
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=911|end_char=913
+2	Wann	wann	ADV	PWAV	_	3	advmod	_	start_char=913|end_char=917
+3	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=918|end_char=923
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=924|end_char=927
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=928|end_char=931
+6	Rettungsdienst	Rettungsdienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=932|end_char=946
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=946|end_char=947
+8	**	**	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s|start_char=947|end_char=949
+9	*	*	PUNCT	$(	_	18	punct	_	start_char=951|end_char=952
+10	Wenn	wenn	SCONJ	KOUS	_	18	mark	_	start_char=953|end_char=957
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=958|end_char=961
+12	Stich	Stich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=962|end_char=967
+13-14	im	_	_	_	_	_	_	_	start_char=968|end_char=970
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Mund	Mund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	start_char=971|end_char=975
+16	oder	oder	CCONJ	KON	_	17	cc	_	start_char=976|end_char=980
+17	Rachen	Rachen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	conj	_	start_char=981|end_char=987
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=988|end_char=991
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=991|end_char=992
+
+# text = * Wenn eine Person sehr viele Insektenstiche gleichzeitig bekommen hat.
+# sent_id = 9
+1	*	*	PUNCT	$(	_	9	advmod	_	start_char=993|end_char=994
+2	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=995|end_char=999
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1000|end_char=1004
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1005|end_char=1011
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=1012|end_char=1016
+6	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=1017|end_char=1022
+7	Insektenstiche	Insektenstich	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=1023|end_char=1037
+8	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=1038|end_char=1050
+9	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1051|end_char=1059
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No|start_char=1060|end_char=1063
+11	.	.	PUNCT	$.	_	9	punct	_	start_char=1063|end_char=1064
+
+# text = * Wenn eine Person allergisch auf den Insektenstich reagiert und Symptome wie **Atemnot** (das bedeutet, dass man nicht mehr atmen kann), **Schwindel** (das bedeutet, dass man sich schwindlig fühlt), **Herzklopfen** (das bedeutet, dass das Herz schnell schlägt) oder **starke Schwellungen** (das bedeutet, dass die Haut stark angeschwollen ist) hat.
+# sent_id = 10
+1	*	*	PUNCT	$(	_	9	advmod	_	start_char=1065|end_char=1066
+2	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=1067|end_char=1071
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1072|end_char=1076
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1077|end_char=1083
+5	allergisch	allergisch	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=1084|end_char=1094
+6	auf	auf	ADP	APPR	_	8	case	_	start_char=1095|end_char=1098
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1099|end_char=1102
+8	Insektenstich	Insektenstich	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=1103|end_char=1116
+9	reagiert	reagieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	77	advcl	_	start_char=1117|end_char=1125
+10	und	und	CCONJ	KON	_	20	cc	_	start_char=1126|end_char=1129
+11	Symptome	Symptom	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	start_char=1130|end_char=1138
+12	wie	wie	ADP	KOKOM	_	13	case	_	start_char=1139|end_char=1142
+13	*	*	X	XY	_	9	obl	_	SpaceAfter=No|start_char=1143|end_char=1144
+14	*	*	PUNCT	$(	_	13	case	_	SpaceAfter=No|start_char=1144|end_char=1145
+15	Atemnot	Atemnot	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No|start_char=1145|end_char=1152
+16	*	*	PUNCT	$(	_	15	case	_	SpaceAfter=No|start_char=1152|end_char=1153
+17	*	*	PUNCT	$(	_	20	punct	_	start_char=1153|end_char=1154
+18	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=1155|end_char=1156
+19	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	20	nsubj	_	start_char=1156|end_char=1159
+20	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No|start_char=1160|end_char=1168
+21	,	,	PUNCT	$,	_	26	punct	_	start_char=1168|end_char=1169
+22	dass	dass	SCONJ	KOUS	_	26	mark	_	start_char=1170|end_char=1174
+23	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	26	nsubj	_	start_char=1175|end_char=1178
+24	nicht	nicht	PART	PTKNEG	Polarity=Neg	26	advmod	_	start_char=1179|end_char=1184
+25	mehr	mehr	ADV	ADV	_	26	advmod	_	start_char=1185|end_char=1189
+26	atmen	atmen	VERB	VVINF	VerbForm=Inf	20	ccomp	_	start_char=1190|end_char=1195
+27	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No|start_char=1196|end_char=1200
+28	)	)	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=1200|end_char=1201
+29	,	,	PUNCT	$,	_	31	punct	_	start_char=1201|end_char=1202
+30	**	**	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=1203|end_char=1205
+31	Schwindel	Schwindel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=1205|end_char=1214
+32	*	*	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=1214|end_char=1215
+33	*	*	PUNCT	$(	_	36	punct	_	start_char=1215|end_char=1216
+34	(	(	PUNCT	$(	_	36	punct	_	SpaceAfter=No|start_char=1217|end_char=1218
+35	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	36	nsubj	_	start_char=1218|end_char=1221
+36	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis	_	SpaceAfter=No|start_char=1222|end_char=1230
+37	,	,	PUNCT	$,	_	42	punct	_	start_char=1230|end_char=1231
+38	dass	dass	SCONJ	KOUS	_	42	mark	_	start_char=1232|end_char=1236
+39	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	42	nsubj	_	start_char=1237|end_char=1240
+40	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	42	obj	_	start_char=1241|end_char=1245
+41	schwindlig	schwindlig	ADJ	ADJD	Degree=Pos	42	xcomp	_	start_char=1246|end_char=1256
+42	fühlt	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	SpaceAfter=No|start_char=1257|end_char=1262
+43	)	)	PUNCT	$(	_	42	punct	_	SpaceAfter=No|start_char=1262|end_char=1263
+44	,	,	PUNCT	$,	_	47	punct	_	start_char=1263|end_char=1264
+45	*	*	PUNCT	$(	_	47	parataxis	_	SpaceAfter=No|start_char=1265|end_char=1266
+46	*	*	PUNCT	$(	_	47	punct	_	SpaceAfter=No|start_char=1266|end_char=1267
+47	Herzklopfen	Herzklopfen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	42	appos	_	SpaceAfter=No|start_char=1267|end_char=1278
+48	*	*	PUNCT	$(	_	47	punct	_	SpaceAfter=No|start_char=1278|end_char=1279
+49	*	*	PUNCT	$(	_	52	punct	_	start_char=1279|end_char=1280
+50	(	(	PUNCT	$(	_	52	punct	_	SpaceAfter=No|start_char=1281|end_char=1282
+51	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	52	nsubj	_	start_char=1282|end_char=1285
+52	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	parataxis	_	SpaceAfter=No|start_char=1286|end_char=1294
+53	,	,	PUNCT	$,	_	58	punct	_	start_char=1294|end_char=1295
+54	dass	dass	SCONJ	KOUS	_	58	mark	_	start_char=1296|end_char=1300
+55	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	56	det	_	start_char=1301|end_char=1304
+56	Herz	Herz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	58	nsubj	_	start_char=1305|end_char=1309
+57	schnell	schnell	ADJ	ADJD	Degree=Pos	58	advmod	_	start_char=1310|end_char=1317
+58	schlägt	schlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	ccomp	_	SpaceAfter=No|start_char=1318|end_char=1325
+59	)	)	PUNCT	$(	_	58	punct	_	start_char=1325|end_char=1326
+60	oder	oder	CCONJ	KON	_	63	cc	_	start_char=1327|end_char=1331
+61	*	*	PUNCT	$(	_	63	advmod	_	SpaceAfter=No|start_char=1332|end_char=1333
+62	*starke	*stark	ADJ	ADJA	Degree=Pos	63	amod	_	start_char=1333|end_char=1340
+63	Schwellungen	Schwellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	52	conj	_	SpaceAfter=No|start_char=1341|end_char=1353
+64	*	*	PUNCT	$(	_	63	punct	_	SpaceAfter=No|start_char=1353|end_char=1354
+65	*	*	PUNCT	$(	_	68	punct	_	start_char=1354|end_char=1355
+66	(	(	PUNCT	$(	_	68	punct	_	SpaceAfter=No|start_char=1356|end_char=1357
+67	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	68	nsubj	_	start_char=1357|end_char=1360
+68	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	parataxis	_	SpaceAfter=No|start_char=1361|end_char=1369
+69	,	,	PUNCT	$,	_	74	punct	_	start_char=1369|end_char=1370
+70	dass	dass	SCONJ	KOUS	_	74	mark	_	start_char=1371|end_char=1375
+71	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	start_char=1376|end_char=1379
+72	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	74	nsubj	_	start_char=1380|end_char=1384
+73	stark	stark	ADJ	ADJD	Degree=Pos	74	advmod	_	start_char=1385|end_char=1390
+74	angeschwollen	angeschwollen	ADJ	VVPP	Degree=Pos|VerbForm=Part	68	ccomp	_	start_char=1391|end_char=1404
+75	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	cop	_	SpaceAfter=No|start_char=1405|end_char=1408
+76	)	)	PUNCT	$(	_	74	punct	_	start_char=1408|end_char=1409
+77	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	ccomp	_	SpaceAfter=No|start_char=1410|end_char=1413
+78	.	.	PUNCT	$.	_	77	punct	_	SpacesAfter=\s\s|start_char=1413|end_char=1414
+
+# text = Sie können noch mehr über Insektenstiche lesen oder ein Video anschauen, um mehr zu erfahren.
+# sent_id = 11
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1416|end_char=1419
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1420|end_char=1426
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=1427|end_char=1431
+4	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=1432|end_char=1436
+5	über	über	ADP	APPR	_	6	case	_	start_char=1437|end_char=1441
+6	Insektenstiche	Insektenstich	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	start_char=1442|end_char=1456
+7	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1457|end_char=1462
+8	oder	oder	CCONJ	KON	_	11	cc	_	start_char=1463|end_char=1467
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1468|end_char=1471
+10	Video	Video	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1472|end_char=1477
+11	anschauen	anschauen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No|start_char=1478|end_char=1487
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=1487|end_char=1488
+13	um	um	ADP	KOUI	_	16	mark	_	start_char=1489|end_char=1491
+14	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	16	obj	_	start_char=1492|end_char=1496
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=1497|end_char=1499
+16	erfahren	erfahren	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No|start_char=1500|end_char=1508
+17	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1508|end_char=1509
+

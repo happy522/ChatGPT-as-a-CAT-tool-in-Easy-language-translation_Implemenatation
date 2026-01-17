@@ -1,0 +1,474 @@
+# text = Hier ist eine reformulierte Version des Textes an der Textebene, Satzebene und Wortebene.
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=9|end_char=13
+4	reformulierte	reformuliert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=14|end_char=27
+5	Version	Version	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=28|end_char=35
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=36|end_char=39
+7	Textes	Text	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=40|end_char=46
+8	an	an	ADP	APPR	_	10	case	_	start_char=47|end_char=49
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=50|end_char=53
+10	Textebene	Textebene	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=54|end_char=63
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=63|end_char=64
+12	Satzebene	Satzebene	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	start_char=65|end_char=74
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=75|end_char=78
+14	Wortebene	Wortebene	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|start_char=79|end_char=88
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=88|end_char=89
+
+# text = **Blasenentzündung** Dieser Text erklärt, was eine Blasenentzündung ist.
+# sent_id = 1
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=91|end_char=93
+2	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=93|end_char=109
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=109|end_char=110
+4	*	*	PUNCT	$(	_	7	punct	_	start_char=110|end_char=111
+5	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=112|end_char=118
+6	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=119|end_char=123
+7	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=124|end_char=131
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=131|end_char=132
+9	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	start_char=133|end_char=136
+10	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=137|end_char=141
+11	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	ccomp	_	start_char=142|end_char=158
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No|start_char=159|end_char=162
+13	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=162|end_char=163
+
+# text = **Was ist eine Blasenentzündung?**
+# sent_id = 2
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=165|end_char=167
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=167|end_char=170
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=171|end_char=174
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=175|end_char=179
+5	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=180|end_char=196
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=196|end_char=197
+7	*	*	PUNCT	$(	_	5	dep	_	SpaceAfter=No|start_char=197|end_char=198
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=198|end_char=199
+
+# text = Die Blase ist Teil des Bauchs.
+# sent_id = 3
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=200|end_char=203
+2	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=204|end_char=209
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=210|end_char=213
+4	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=214|end_char=218
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=219|end_char=222
+6	Bauchs	Bauch	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=223|end_char=229
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=229|end_char=230
+
+# text = Sie sammelt Urin.
+# sent_id = 4
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=231|end_char=234
+2	sammelt	sammeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=235|end_char=242
+3	Urin	Urin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=243|end_char=247
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=247|end_char=248
+
+# text = Wenn die Blase voll ist, muss man auf die Toilette gehen.
+# sent_id = 5
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=249|end_char=253
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=254|end_char=257
+3	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=258|end_char=263
+4	voll	voll	ADJ	ADJD	Degree=Pos	12	advcl	_	start_char=264|end_char=268
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|start_char=269|end_char=272
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=272|end_char=273
+7	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=274|end_char=278
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=279|end_char=282
+9	auf	auf	ADP	APPR	_	11	case	_	start_char=283|end_char=286
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=287|end_char=290
+11	Toilette	Toilette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=291|end_char=299
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=300|end_char=305
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=305|end_char=306
+
+# text = Die Blase ist mit der Harnröhre verbunden.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=307|end_char=310
+2	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=311|end_char=316
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=317|end_char=320
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=321|end_char=324
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=325|end_char=328
+6	Harnröhre	Harnröhre	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=329|end_char=338
+7	verbunden	verbinden	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=339|end_char=348
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=348|end_char=349
+
+# text = Der Urin fließt durch die Harnröhre ab.
+# sent_id = 7
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=350|end_char=353
+2	Urin	Urin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=354|end_char=358
+3	fließt	fließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=359|end_char=365
+4	durch	durch	ADP	APPR	_	6	case	_	start_char=366|end_char=371
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=372|end_char=375
+6	Harnröhre	Harnröhre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=376|end_char=385
+7	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=386|end_char=388
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=388|end_char=389
+
+# text = Die Blase und die Harnröhre können sich entzünden.
+# sent_id = 8
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=391|end_char=394
+2	Blase	Blase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=395|end_char=400
+3	und	und	CCONJ	KON	_	5	cc	_	start_char=401|end_char=404
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=405|end_char=408
+5	Harnröhre	Harnröhre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=409|end_char=418
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=419|end_char=425
+7	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=426|end_char=430
+8	entzünden	entzünden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=431|end_char=440
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=440|end_char=441
+
+# text = Das nennt man Blasenentzündung.
+# sent_id = 9
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=442|end_char=445
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=446|end_char=451
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=452|end_char=455
+4	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=456|end_char=472
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=472|end_char=473
+
+# text = **Was sind die Ursachen für eine Blasenentzündung?** Bakterien sind oft die Ursachen für eine Blasenentzündung.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=475|end_char=477
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=477|end_char=480
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=481|end_char=485
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=486|end_char=489
+5	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=490|end_char=498
+6	für	für	ADP	APPR	_	8	case	_	start_char=499|end_char=502
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=503|end_char=507
+8	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=508|end_char=524
+9	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=524|end_char=525
+10	*	*	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=525|end_char=526
+11	*	*	PUNCT	$(	_	16	punct	_	start_char=526|end_char=527
+12	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=528|end_char=537
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=538|end_char=542
+14	oft	oft	ADV	ADV	_	16	advmod	_	start_char=543|end_char=546
+15	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=547|end_char=550
+16	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	parataxis	_	start_char=551|end_char=559
+17	für	für	ADP	APPR	_	19	case	_	start_char=560|end_char=563
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	19	det	_	start_char=564|end_char=568
+19	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|start_char=569|end_char=585
+20	.	.	PUNCT	$.	_	16	punct	_	start_char=585|end_char=586
+
+# text = Diese Bakterien sind normalerweise im Darm.
+# sent_id = 11
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=587|end_char=592
+2	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=593|end_char=602
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=603|end_char=607
+4	normalerweise	normalerweise	ADV	ADV	_	3	advmod	_	start_char=608|end_char=621
+5-6	im	_	_	_	_	_	_	_	start_char=622|end_char=624
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Darm	Darm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|start_char=625|end_char=629
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=629|end_char=630
+
+# text = Wenn sie in die Harnröhre gelangen, verursachen sie eine Entzündung.
+# sent_id = 12
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=631|end_char=635
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=636|end_char=639
+3	in	in	ADP	APPR	_	5	case	_	start_char=640|end_char=642
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=643|end_char=646
+5	Harnröhre	Harnröhre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=647|end_char=656
+6	gelangen	gelangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=657|end_char=665
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=665|end_char=666
+8	verursachen	verursachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=667|end_char=678
+9	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=679|end_char=682
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=683|end_char=687
+11	Entzündung	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|start_char=688|end_char=698
+12	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=698|end_char=699
+
+# text = (Footnote: Bakterien sind winzige Mikroorganismen, die oft auf uns und um uns herum vorkommen.)
+# sent_id = 13
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=701|end_char=702
+2	Footnote	Footnote	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=702|end_char=710
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=710|end_char=711
+4	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	start_char=712|end_char=721
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=722|end_char=726
+6	winzige	winzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=727|end_char=734
+7	Mikroorganismen	Mikroorganismus	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=735|end_char=750
+8	,	,	PUNCT	$,	_	17	punct	_	start_char=750|end_char=751
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj	_	start_char=752|end_char=755
+10	oft	oft	ADV	ADV	_	17	advmod	_	start_char=756|end_char=759
+11	auf	auf	ADP	APPR	_	12	case	_	start_char=760|end_char=763
+12	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	17	obl	_	start_char=764|end_char=767
+13	und	und	CCONJ	KON	_	15	cc	_	start_char=768|end_char=771
+14	um	um	ADP	APPR	_	15	case	_	start_char=772|end_char=774
+15	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	conj	_	start_char=775|end_char=778
+16	herum	herum	ADV	ADV	_	17	advmod	_	start_char=779|end_char=784
+17	vorkommen	vorkommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No|start_char=785|end_char=794
+18	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=794|end_char=795
+19	)	)	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=795|end_char=796
+
+# text = **Woran erkennt man eine Blasenentzündung?**
+# sent_id = 14
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=798|end_char=800
+2	Woran	woran	ADV	ADV	_	3	advmod	_	start_char=800|end_char=805
+3	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=806|end_char=813
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=814|end_char=817
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=818|end_char=822
+6	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=823|end_char=839
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=839|end_char=840
+8	*	*	PUNCT	$(	_	3	dep	_	SpaceAfter=No|start_char=840|end_char=841
+9	*	*	PUNCT	$(	_	3	punct	_	start_char=841|end_char=842
+
+# text = Es gibt verschiedene Anzeichen für eine Blasenentzündung.
+# sent_id = 15
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=843|end_char=845
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=846|end_char=850
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=851|end_char=863
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=864|end_char=873
+5	für	für	ADP	APPR	_	7	case	_	start_char=874|end_char=877
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=878|end_char=882
+7	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=883|end_char=899
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=899|end_char=900
+
+# text = - Man muss oft auf die Toilette gehen.
+# sent_id = 16
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=902|end_char=903
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=904|end_char=907
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=908|end_char=912
+4	oft	oft	ADV	ADV	_	8	advmod	_	start_char=913|end_char=916
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=917|end_char=920
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=921|end_char=924
+7	Toilette	Toilette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=925|end_char=933
+8	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=934|end_char=939
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=939|end_char=940
+
+# text = - Man hat Schmerzen oder ein brennendes Gefühl beim Wasser lassen.
+# sent_id = 17
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=941|end_char=942
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=943|end_char=946
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=947|end_char=950
+4	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	start_char=951|end_char=960
+5	oder	oder	CCONJ	KON	_	8	cc	_	start_char=961|end_char=965
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=966|end_char=969
+7	brennendes	brennend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=970|end_char=980
+8	Gefühl	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	start_char=981|end_char=987
+9-10	beim	_	_	_	_	_	_	_	start_char=988|end_char=992
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Wasser	Wasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=993|end_char=999
+12	lassen	lassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1000|end_char=1006
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=1006|end_char=1007
+
+# text = - Man hat Schmerzen im Bauch.
+# sent_id = 18
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1008|end_char=1009
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1010|end_char=1013
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1014|end_char=1017
+4	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1018|end_char=1027
+5-6	im	_	_	_	_	_	_	_	start_char=1028|end_char=1030
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bauch	Bauch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=1031|end_char=1036
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=1036|end_char=1037
+
+# text = - Der Urin sieht trüb aus oder riecht nach Urin.
+# sent_id = 19
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1038|end_char=1039
+2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1040|end_char=1043
+3	Urin	Urin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1044|end_char=1048
+4	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1049|end_char=1054
+5	trüb	trüb	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1055|end_char=1059
+6	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	start_char=1060|end_char=1063
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1064|end_char=1068
+8	riecht	riechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=1069|end_char=1075
+9	nach	nach	ADP	APPR	_	10	case	_	start_char=1076|end_char=1080
+10	Urin	Urin	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|start_char=1081|end_char=1085
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=1085|end_char=1086
+
+# text = **Was kann man gegen eine Blasenentzündung tun?**
+# sent_id = 20
+1	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1088|end_char=1090
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=1090|end_char=1093
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1094|end_char=1098
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1099|end_char=1102
+5	gegen	gegen	ADP	APPR	_	7	case	_	start_char=1103|end_char=1108
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1109|end_char=1113
+7	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1114|end_char=1130
+8	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1131|end_char=1134
+9	?	?	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=1134|end_char=1135
+10	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1135|end_char=1136
+11	*	*	PUNCT	$(	_	8	punct	_	start_char=1136|end_char=1137
+
+# text = Eine Blasenentzündung kann von selbst heilen.
+# sent_id = 21
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=1138|end_char=1142
+2	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1143|end_char=1159
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1160|end_char=1164
+4	von	von	ADP	APPR	_	5	case	_	start_char=1165|end_char=1168
+5	selbst	selbst	ADV	ADV	_	6	advmod	_	start_char=1169|end_char=1175
+6	heilen	heilen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1176|end_char=1182
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1182|end_char=1183
+
+# text = Man sollte: - viel trinken;
+# sent_id = 22
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1184|end_char=1187
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=1188|end_char=1194
+3	:	:	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1194|end_char=1195
+4	-	-	PUNCT	$(	_	6	punct	_	start_char=1197|end_char=1198
+5	viel	viel	DET	PIS	PronType=Ind	6	obj	_	start_char=1199|end_char=1203
+6	trinken	trinken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1204|end_char=1211
+7	;	;	PUNCT	$.	_	6	punct	_	start_char=1211|end_char=1212
+
+# text = - sich warm halten;
+# sent_id = 23
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=1213|end_char=1214
+2	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1215|end_char=1219
+3	warm	warm	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1220|end_char=1224
+4	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1225|end_char=1231
+5	;	;	PUNCT	$.	_	4	punct	_	start_char=1231|end_char=1232
+
+# text = - Hausmittel trinken, wie Blasentee oder Nierentee.
+# sent_id = 24
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1233|end_char=1234
+2	Hausmittel	Hausmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1235|end_char=1245
+3	trinken	trinken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1246|end_char=1253
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=1253|end_char=1254
+5	wie	wie	ADP	KOKOM	_	6	case	_	start_char=1255|end_char=1258
+6	Blasentee	Blasentee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	start_char=1259|end_char=1268
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=1269|end_char=1273
+8	Nierentee	Nierentee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|start_char=1274|end_char=1283
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1283|end_char=1284
+
+# text = Einzelne Personen (Schwangere, Menschen ohne Immunsystem, Männer) sollten unbedingt zum Arzt gehen.
+# sent_id = 25
+1	Einzelne	einzeln	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=1286|end_char=1294
+2	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	start_char=1295|end_char=1303
+3	(	(	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1304|end_char=1305
+4	Schwangere	Schwangere	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No|start_char=1305|end_char=1315
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=1315|end_char=1316
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	start_char=1317|end_char=1325
+7	ohne	ohne	ADP	APPR	_	8	case	_	start_char=1326|end_char=1330
+8	Immunsystem	Immunsystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=1331|end_char=1342
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=1342|end_char=1343
+10	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No|start_char=1344|end_char=1350
+11	)	)	PUNCT	$(	_	4	punct	_	start_char=1350|end_char=1351
+12	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	start_char=1352|end_char=1359
+13	unbedingt	unbedingt	ADV	ADV	_	17	advmod	_	start_char=1360|end_char=1369
+14-15	zum	_	_	_	_	_	_	_	start_char=1370|end_char=1373
+14	zu	zu	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	start_char=1374|end_char=1378
+17	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1379|end_char=1384
+18	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s|start_char=1384|end_char=1385
+
+# text = **Wie kann man eine Blasenentzündung vermeiden?**
+# sent_id = 26
+1	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1387|end_char=1389
+2	Wie	wie	ADV	PWAV	PronType=Int	7	advmod	_	start_char=1389|end_char=1392
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1393|end_char=1397
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1398|end_char=1401
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=1402|end_char=1406
+6	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1407|end_char=1423
+7	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1424|end_char=1433
+8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1433|end_char=1434
+9	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1434|end_char=1435
+10	*	*	PUNCT	$(	_	7	punct	_	start_char=1435|end_char=1436
+
+# text = Man kann das Risiko verringern.
+# sent_id = 27
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1437|end_char=1440
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1441|end_char=1445
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=1446|end_char=1449
+4	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=1450|end_char=1456
+5	verringern	verringern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1457|end_char=1467
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1467|end_char=1468
+
+# text = - viel trinken;
+# sent_id = 28
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1470|end_char=1471
+2	viel	viel	DET	PIS	PronType=Ind	3	nsubj	_	start_char=1472|end_char=1476
+3	trinken	trinken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1477|end_char=1484
+4	;	;	PUNCT	$.	_	3	punct	_	start_char=1484|end_char=1485
+
+# text = - oft auf die Toilette gehen;
+# sent_id = 29
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1486|end_char=1487
+2	oft	oft	ADV	ADV	_	6	advmod	_	start_char=1488|end_char=1491
+3	auf	auf	ADP	APPR	_	5	case	_	start_char=1492|end_char=1495
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1496|end_char=1499
+5	Toilette	Toilette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=1500|end_char=1508
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1509|end_char=1514
+7	;	;	PUNCT	$.	_	6	punct	_	start_char=1514|end_char=1515
+
+# text = - sich warm halten.
+# sent_id = 30
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=1516|end_char=1517
+2	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1518|end_char=1522
+3	warm	warm	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1523|end_char=1527
+4	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1528|end_char=1534
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1534|end_char=1535
+
+# text = - Baumwollwäsche tragen und sand waschen.
+# sent_id = 31
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1536|end_char=1537
+2	Baumwollwäsche	Baumwollwäsche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1538|end_char=1552
+3	tragen	tragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1553|end_char=1559
+4	und	und	CCONJ	KON	_	6	cc	_	start_char=1560|end_char=1563
+5	sand	sanden	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=1564|end_char=1568
+6	waschen	waschen	VERB	VVINF	VerbForm=Inf	3	conj	_	SpaceAfter=No|start_char=1569|end_char=1576
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1576|end_char=1577
+
+# text = - Nach dem Baden sich anziehen und trocken werden.
+# sent_id = 32
+1	-	-	PUNCT	$(	_	6	punct	_	start_char=1578|end_char=1579
+2	Nach	nach	ADP	APPR	_	4	case	_	start_char=1580|end_char=1584
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=1585|end_char=1588
+4	Baden	Baden	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=1589|end_char=1594
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=1595|end_char=1599
+6	anziehen	anziehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	start_char=1600|end_char=1608
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=1609|end_char=1612
+8	trocken	trocken	ADJ	ADJD	Degree=Pos	6	conj	_	start_char=1613|end_char=1620
+9	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	SpaceAfter=No|start_char=1621|end_char=1627
+10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1627|end_char=1628
+
+# text = **Wo kann man noch mehr Informationen bekommen?**
+# sent_id = 33
+1	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1630|end_char=1632
+2	Wo	wo	ADV	PWAV	PronType=Int	8	advmod	_	start_char=1632|end_char=1634
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1635|end_char=1639
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1640|end_char=1643
+5	noch	noch	ADV	ADV	_	6	advmod	_	start_char=1644|end_char=1648
+6	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	7	det	_	start_char=1649|end_char=1653
+7	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1654|end_char=1667
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1668|end_char=1676
+9	?	?	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=1676|end_char=1677
+10	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1677|end_char=1678
+11	*	*	PUNCT	$(	_	8	punct	_	start_char=1678|end_char=1679
+
+# text = Wenn man denkt, dass man eine Blasenentzündung hat oder starke Beschwerden hat, sollte man zum Arzt gehen.
+# sent_id = 34
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=1680|end_char=1684
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1685|end_char=1688
+3	denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No|start_char=1689|end_char=1694
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=1694|end_char=1695
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=1696|end_char=1700
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1701|end_char=1704
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1705|end_char=1709
+8	Blasenentzündung	Blasenentzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1710|end_char=1726
+9	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=1727|end_char=1730
+10	oder	oder	CCONJ	KON	_	13	cc	_	start_char=1731|end_char=1735
+11	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1736|end_char=1742
+12	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=1743|end_char=1754
+13	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No|start_char=1755|end_char=1758
+14	,	,	PUNCT	$,	_	3	punct	_	start_char=1758|end_char=1759
+15	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	start_char=1760|end_char=1766
+16	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	20	nsubj	_	start_char=1767|end_char=1770
+17-18	zum	_	_	_	_	_	_	_	start_char=1771|end_char=1774
+17	zu	zu	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	start_char=1775|end_char=1779
+20	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1780|end_char=1785
+21	.	.	PUNCT	$.	_	20	punct	_	start_char=1785|end_char=1786
+
+# text = Online-Plattformen bieten Informationen an, aber ein Arzt kann eine hilfreiche Erklärung geben.
+# sent_id = 35
+1	Online	Online	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	SpaceAfter=No|start_char=1787|end_char=1793
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=1793|end_char=1794
+3	Plattformen	Plattform	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1794|end_char=1805
+4	bieten	bieten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1806|end_char=1812
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=1813|end_char=1826
+6	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=1827|end_char=1829
+7	,	,	PUNCT	$,	_	15	punct	_	start_char=1829|end_char=1830
+8	aber	aber	CCONJ	KON	_	15	cc	_	start_char=1831|end_char=1835
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1836|end_char=1839
+10	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1840|end_char=1844
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=1845|end_char=1849
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1850|end_char=1854
+13	hilfreiche	hilfreich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=1855|end_char=1865
+14	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=1866|end_char=1875
+15	geben	geben	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No|start_char=1876|end_char=1881
+16	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=1881|end_char=1882
+

@@ -1,0 +1,368 @@
+# text = Hier ist die reformulierte Version des Textes: "Der Text ist bereits auf Deutsch und in Deutscher Leichter Sprache verfasst.
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=9|end_char=12
+4	reformulierte	reformuliert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=13|end_char=26
+5	Version	Version	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=27|end_char=34
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=35|end_char=38
+7	Textes	Text	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=39|end_char=45
+8	:	:	PUNCT	$.	_	21	punct	_	SpacesAfter=\s\s|start_char=45|end_char=46
+9	"	"	PUNCT	$(	_	21	punct	_	SpaceAfter=No|start_char=48|end_char=49
+10	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=49|end_char=52
+11	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	start_char=53|end_char=57
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	start_char=58|end_char=61
+13	bereits	bereits	ADV	ADV	_	21	advmod	_	start_char=62|end_char=69
+14	auf	auf	ADP	APPR	_	15	case	_	start_char=70|end_char=73
+15	Deutsch	deutsch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=74|end_char=81
+16	und	und	CCONJ	KON	_	20	cc	_	start_char=82|end_char=85
+17	in	in	ADP	APPR	_	20	case	_	start_char=86|end_char=88
+18	Deutscher	deutsch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	start_char=89|end_char=98
+19	Leichter	Leichter	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	start_char=99|end_char=107
+20	Sprache	Sprache	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	conj	_	start_char=108|end_char=115
+21	verfasst	verfassen	VERB	VVPP	VerbForm=Part	2	parataxis	_	SpaceAfter=No|start_char=116|end_char=124
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s|start_char=124|end_char=125
+
+# text = Dieser Text informiert über Psychotherapie.
+# sent_id = 1
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=128|end_char=134
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=135|end_char=139
+3	informiert	informieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=140|end_char=150
+4	über	über	ADP	APPR	_	5	case	_	start_char=151|end_char=155
+5	Psychotherapie	Psychotherapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=156|end_char=170
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=170|end_char=171
+
+# text = Psychotherapie = Behandlung von psychischen Problemen mit Gesprächen.
+# sent_id = 2
+1	Psychotherapie	Psychotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=172|end_char=186
+2	=	=	PUNCT	$(	_	3	punct	_	start_char=187|end_char=188
+3	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=189|end_char=199
+4	von	von	ADP	APPR	_	6	case	_	start_char=200|end_char=203
+5	psychischen	psychisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=204|end_char=215
+6	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	start_char=216|end_char=225
+7	mit	mit	ADP	APPR	_	8	case	_	start_char=226|end_char=229
+8	Gesprächen	Gespräch	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=230|end_char=240
+9	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s|start_char=240|end_char=241
+
+# text = Wenn Sie den Text in einer anderen Sprache benötigen oder genauere Informationen suchen, lassen Sie es mich wissen!"
+# sent_id = 3
+1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=243|end_char=247
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=248|end_char=251
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=252|end_char=255
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=256|end_char=260
+5	in	in	ADP	APPR	_	8	case	_	start_char=261|end_char=263
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=264|end_char=269
+7	anderen	anderer	DET	ADJA	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	start_char=270|end_char=277
+8	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=278|end_char=285
+9	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=286|end_char=295
+10	oder	oder	CCONJ	KON	_	13	cc	_	start_char=296|end_char=300
+11	genauere	genau	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	12	amod	_	start_char=301|end_char=309
+12	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=310|end_char=323
+13	suchen	suchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No|start_char=324|end_char=330
+14	,	,	PUNCT	$,	_	9	punct	_	start_char=330|end_char=331
+15	lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=332|end_char=338
+16	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	start_char=339|end_char=342
+17	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=343|end_char=345
+18	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	start_char=346|end_char=350
+19	wissen	wissen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No|start_char=351|end_char=357
+20	!	!	PUNCT	$.	_	15	punct	_	SpaceAfter=No|start_char=357|end_char=358
+21	"	"	PUNCT	$(	_	15	punct	_	SpacesAfter=\s\s|start_char=358|end_char=359
+
+# text = Ich habe folgende Änderungen vorgenommen: * Textebene: Entfernte unwichtige Informationen wie die Beilage, dass der Text bereits auf Deutsch verfasst wurde und dass es eine من Übersetzung nicht benötigt.
+# sent_id = 4
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=361|end_char=364
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=365|end_char=369
+3	folgende	folgend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=370|end_char=378
+4	Änderungen	Änderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=379|end_char=389
+5	vorgenommen	vornehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=390|end_char=401
+6	:	:	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=401|end_char=402
+7	*	*	PUNCT	$(	_	8	punct	_	start_char=404|end_char=405
+8	Textebene	Textebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	SpaceAfter=No|start_char=406|end_char=415
+9	:	:	PUNCT	$.	_	12	punct	_	start_char=415|end_char=416
+10	Entfernte	entfernt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=417|end_char=426
+11	unwichtige	unwichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=427|end_char=437
+12	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	appos	_	start_char=438|end_char=451
+13	wie	wie	ADP	KOKOM	_	15	case	_	start_char=452|end_char=455
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=456|end_char=459
+15	Beilage	Beilage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=460|end_char=467
+16	,	,	PUNCT	$,	_	23	punct	_	start_char=467|end_char=468
+17	dass	dass	SCONJ	KOUS	_	23	mark	_	start_char=469|end_char=473
+18	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=474|end_char=477
+19	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	start_char=478|end_char=482
+20	bereits	bereits	ADV	ADV	_	23	advmod	_	start_char=483|end_char=490
+21	auf	auf	ADP	APPR	_	22	case	_	start_char=491|end_char=494
+22	Deutsch	deutsch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	start_char=495|end_char=502
+23	verfasst	verfassen	VERB	VVPP	VerbForm=Part	15	ccomp	_	start_char=503|end_char=511
+24	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	23	aux:pass	_	start_char=512|end_char=517
+25	und	und	CCONJ	KON	_	32	cc	_	start_char=518|end_char=521
+26	dass	dass	SCONJ	KOUS	_	32	mark	_	start_char=522|end_char=526
+27	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	expl	_	start_char=527|end_char=529
+28	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	30	det	_	start_char=530|end_char=534
+29	من	من	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=535|end_char=537
+30	Übersetzung	Übersetzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	start_char=538|end_char=549
+31	nicht	nicht	PART	PTKNEG	Polarity=Neg	32	advmod	_	start_char=550|end_char=555
+32	benötigt	benötigen	VERB	VVPP	VerbForm=Part	23	conj	_	SpaceAfter=No|start_char=556|end_char=564
+33	.	.	PUNCT	$.	_	5	punct	_	start_char=564|end_char=565
+
+# text = * Satzebene: Vereinfachte die syntaktischen Strukturen und entfernte Nebensätze.
+# sent_id = 5
+1	*	*	PUNCT	$(	_	2	dep	_	start_char=566|end_char=567
+2	Satzebene	Satzebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=568|end_char=577
+3	:	:	PUNCT	$.	_	4	punct	_	start_char=577|end_char=578
+4	Vereinfachte	Vereinfachte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=579|end_char=591
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=592|end_char=595
+6	syntaktischen	syntaktisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=596|end_char=609
+7	Strukturen	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	appos	_	start_char=610|end_char=620
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=621|end_char=624
+9	entfernte	entfernt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=625|end_char=634
+10	Nebensätze	Nebensatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No|start_char=635|end_char=645
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=645|end_char=646
+
+# text = * Wortebene: Fügte eine Erklärung für das schwierige Wort "Psychotherapie" hinzu, um es verständlicher zu machen.
+# sent_id = 6
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=647|end_char=648
+2	Wortebene	Wortebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	SpaceAfter=No|start_char=649|end_char=658
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=658|end_char=659
+4	Fügte	fügen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=660|end_char=665
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=666|end_char=670
+6	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=671|end_char=680
+7	für	für	ADP	APPR	_	10	case	_	start_char=681|end_char=684
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=685|end_char=688
+9	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=689|end_char=699
+10	Wort	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	start_char=700|end_char=704
+11	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=705|end_char=706
+12	Psychotherapie	Psychotherapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No|start_char=706|end_char=720
+13	"	"	PUNCT	$(	_	12	punct	_	start_char=720|end_char=721
+14	hinzu	hinzu	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=722|end_char=727
+15	,	,	PUNCT	$,	_	20	punct	_	start_char=727|end_char=728
+16	um	um	ADP	KOUI	_	20	mark	_	start_char=729|end_char=731
+17	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=732|end_char=734
+18	verständlicher	verständlich	ADJ	ADJD	Degree=Cmp	20	xcomp	_	start_char=735|end_char=749
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=750|end_char=752
+20	machen	machen	VERB	VVINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No|start_char=753|end_char=759
+21	.	.	PUNCT	$.	_	4	punct	_	start_char=759|end_char=760
+
+# text = * Übrigens: Konnte die Wendung „Deutsche Leichte Sprache“ nicht direkt übersetzen, aber ausgeklammert, um den Satz einfacher zu machen.
+# sent_id = 7
+1	*	*	PUNCT	$(	_	14	advmod	_	start_char=761|end_char=762
+2	Übrigens	übrigens	ADV	ADV	_	14	advmod	_	SpaceAfter=No|start_char=763|end_char=771
+3	:	:	PUNCT	$.	_	14	punct	_	start_char=771|end_char=772
+4	Konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=773|end_char=779
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=780|end_char=783
+6	Wendung	Wendung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=784|end_char=791
+7	„	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=792|end_char=793
+8	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	start_char=793|end_char=801
+9	Leichte	leicht	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	start_char=802|end_char=809
+10	Sprache	Sprache	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|start_char=810|end_char=817
+11	“	"	PUNCT	$(	_	10	punct	_	start_char=817|end_char=818
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=819|end_char=824
+13	direkt	direkt	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=825|end_char=831
+14	übersetzen	übersetzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=832|end_char=842
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=842|end_char=843
+16	aber	aber	CCONJ	KON	_	17	cc	_	start_char=844|end_char=848
+17	ausgeklammert	ausklammern	VERB	VVPP	VerbForm=Part	14	conj	_	SpaceAfter=No|start_char=849|end_char=862
+18	,	,	PUNCT	$,	_	24	punct	_	start_char=862|end_char=863
+19	um	um	ADP	KOUI	_	24	mark	_	start_char=864|end_char=866
+20	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=867|end_char=870
+21	Satz	Satz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=871|end_char=875
+22	einfacher	einfach	ADJ	ADJD	Degree=Cmp	24	xcomp	_	start_char=876|end_char=885
+23	zu	zu	PART	PTKZU	_	24	mark	_	start_char=886|end_char=888
+24	machen	machen	VERB	VVINF	VerbForm=Inf	17	advcl	_	SpaceAfter=No|start_char=889|end_char=895
+25	.	.	PUNCT	$.	_	14	punct	_	start_char=895|end_char=896
+
+# text = Mein war ein selbst gekonnter Fehler.
+# sent_id = 8
+1	Mein	mein	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=897|end_char=901
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	_	start_char=902|end_char=905
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=906|end_char=909
+4	selbst	selbst	ADV	ADV	_	5	advmod	_	start_char=910|end_char=916
+5	gekonnter	gekonnt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=917|end_char=926
+6	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=927|end_char=933
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=933|end_char=934
+
+# text = Deutsche Leichter Sprache wird üblicherweise zusammen als „Leicht Deutsche Sprache“ diverse geschrieben, kannst mich verbessern.
+# sent_id = 9
+1	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=935|end_char=943
+2	Leichter	Leichter	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=944|end_char=952
+3	Sprache	Sprache	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=953|end_char=960
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	start_char=961|end_char=965
+5	üblicherweise	üblicherweise	ADV	ADV	_	14	advmod	_	start_char=966|end_char=979
+6	zusammen	zusammen	ADV	ADV	_	14	advmod	_	start_char=980|end_char=988
+7	als	als	ADP	KOKOM	_	11	case	_	start_char=989|end_char=992
+8	„	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=993|end_char=994
+9	Leicht	leicht	ADJ	ADJA	Degree=Pos	11	amod	_	start_char=994|end_char=1000
+10	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	start_char=1001|end_char=1009
+11	Sprache	Sprache	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|start_char=1010|end_char=1017
+12	“	"	PUNCT	$(	_	11	punct	_	start_char=1017|end_char=1018
+13	diverse	divers	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nsubj:pass	_	start_char=1019|end_char=1026
+14	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1027|end_char=1038
+15	,	,	PUNCT	$,	_	18	punct	_	start_char=1038|end_char=1039
+16	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=1040|end_char=1046
+17	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	start_char=1047|end_char=1051
+18	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No|start_char=1052|end_char=1062
+19	.	.	PUNCT	$.	_	14	punct	_	start_char=1062|end_char=1063
+
+# text = Ich habe daher diese eckige Bemerkung, llen zu verbessern hinzgefügt, aber aus Gründen des Satzbau verzichtet: „Leichte Deutsche Sprache“ ist eine einfache Sprache für Menschen, die Schwierigkeiten haben, Normales Deutsch zu verstehen.
+# sent_id = 10
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1064|end_char=1067
+2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1068|end_char=1072
+3	daher	daher	ADV	PAV	PronType=Dem	2	advmod	_	start_char=1073|end_char=1078
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=1079|end_char=1084
+5	eckige	eckig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1085|end_char=1091
+6	Bemerkung	Bemerkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=1092|end_char=1101
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=1101|end_char=1102
+8	llen	llen	VERB	VVFIN	VerbForm=Fin	11	xcomp	_	start_char=1103|end_char=1107
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=1108|end_char=1110
+10	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	11	xcomp	_	start_char=1111|end_char=1121
+11	hinzgefügt	hinfügen	VERB	VVPP	VerbForm=Part	6	acl	_	SpaceAfter=No|start_char=1122|end_char=1132
+12	,	,	PUNCT	$,	_	18	punct	_	start_char=1132|end_char=1133
+13	aber	aber	CCONJ	KON	_	18	cc	_	start_char=1134|end_char=1138
+14	aus	aus	ADP	APPR	_	15	case	_	start_char=1139|end_char=1142
+15	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	start_char=1143|end_char=1150
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=1151|end_char=1154
+17	Satzbau	Satzbau	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=1155|end_char=1162
+18	verzichtet	verzichten	VERB	VVPP	VerbForm=Part	11	conj	_	SpaceAfter=No|start_char=1163|end_char=1173
+19	:	:	PUNCT	$.	_	28	punct	_	start_char=1173|end_char=1174
+20	„	"	PUNCT	$(	_	23	punct	_	SpaceAfter=No|start_char=1175|end_char=1176
+21	Leichte	leicht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1176|end_char=1183
+22	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	23	amod	_	start_char=1184|end_char=1192
+23	Sprache	Sprache	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	28	appos	_	SpaceAfter=No|start_char=1193|end_char=1200
+24	“	"	PUNCT	$(	_	23	punct	_	start_char=1200|end_char=1201
+25	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	start_char=1202|end_char=1205
+26	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	28	det	_	start_char=1206|end_char=1210
+27	einfache	einfach	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=1211|end_char=1219
+28	Sprache	Sprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=1220|end_char=1227
+29	für	für	ADP	APPR	_	30	case	_	start_char=1228|end_char=1231
+30	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No|start_char=1232|end_char=1240
+31	,	,	PUNCT	$,	_	34	punct	_	start_char=1240|end_char=1241
+32	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	34	nsubj	_	start_char=1242|end_char=1245
+33	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	start_char=1246|end_char=1261
+34	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	SpaceAfter=No|start_char=1262|end_char=1267
+35	,	,	PUNCT	$,	_	39	punct	_	start_char=1267|end_char=1268
+36	Normales	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	start_char=1269|end_char=1277
+37	Deutsch	deutsch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	39	obj	_	start_char=1278|end_char=1285
+38	zu	zu	PART	PTKZU	_	39	mark	_	start_char=1286|end_char=1288
+39	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	34	xcomp	_	SpaceAfter=No|start_char=1289|end_char=1298
+40	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=1298|end_char=1299
+
+# text = Dieser Fehler (= Hatte zusammen mit der Satzbildung ein Warum: nicht erstvertworden), oder „beziehst sich arolentet durch“ anredeformen.
+# sent_id = 11
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=1301|end_char=1307
+2	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=1308|end_char=1314
+3	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1315|end_char=1316
+4	=	=	PUNCT	$(	_	5	punct	_	start_char=1316|end_char=1317
+5	Hatte	haben	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	start_char=1318|end_char=1323
+6	zusammen	zusammen	ADV	ADV	_	9	advmod	_	start_char=1324|end_char=1332
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=1333|end_char=1336
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1337|end_char=1340
+9	Satzbildung	Satzbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=1341|end_char=1352
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=1353|end_char=1356
+11	Warum	warum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No|start_char=1357|end_char=1362
+12	:	:	PUNCT	$.	_	14	punct	_	start_char=1362|end_char=1363
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=1364|end_char=1369
+14	erstvertworden	erstvertworden	ADJ	ADJD	Degree=Pos	11	appos	_	SpaceAfter=No|start_char=1370|end_char=1384
+15	)	)	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=1384|end_char=1385
+16	,	,	PUNCT	$,	_	19	punct	_	start_char=1385|end_char=1386
+17	oder	oder	CCONJ	KON	_	19	cc	_	start_char=1387|end_char=1391
+18	„	"	PUNCT	$(	_	19	punct	_	SpaceAfter=No|start_char=1392|end_char=1393
+19	beziehst	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1393|end_char=1401
+20	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	start_char=1402|end_char=1406
+21	arolentet	arolentet	PROPN	ADJD	_	19	advmod	_	start_char=1407|end_char=1416
+22	durch	durch	ADP	APPR	_	24	case	_	SpaceAfter=No|start_char=1417|end_char=1422
+23	“	"	PUNCT	$(	_	19	punct	_	start_char=1422|end_char=1423
+24	anredeformen	andeformen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	SpaceAfter=No|start_char=1424|end_char=1436
+25	.	.	PUNCT	$.	_	2	punct	_	start_char=1436|end_char=1437
+
+# text = Dein Schwerelos hat nikht resüliert.
+# sent_id = 12
+1	Dein	dein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=1438|end_char=1442
+2	Schwerelos	Schwerelo	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1443|end_char=1453
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1454|end_char=1457
+4	nikht	nikht	ADV	ADV	_	5	advmod	_	start_char=1458|end_char=1463
+5	resüliert	resülieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1464|end_char=1473
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1473|end_char=1474
+
+# text = Ich korrigierte es zwar nicht, aber nichtsdestotrotz ist die Nachricht üblicherweise als Vorschlag identifizerbar.
+# sent_id = 13
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1475|end_char=1478
+2	korrigierte	korrigieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1479|end_char=1490
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=1491|end_char=1493
+4	zwar	zwar	ADV	ADV	_	2	advmod	_	start_char=1494|end_char=1498
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|start_char=1499|end_char=1504
+6	,	,	PUNCT	$,	_	15	punct	_	start_char=1504|end_char=1505
+7	aber	aber	CCONJ	KON	_	15	cc	_	start_char=1506|end_char=1510
+8	nichtsdestotrotz	nichtsdestotrotz	ADV	ADV	_	15	advmod	_	start_char=1511|end_char=1527
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=1528|end_char=1531
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1532|end_char=1535
+11	Nachricht	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=1536|end_char=1545
+12	üblicherweise	üblicherweise	ADV	ADV	_	15	advmod	_	start_char=1546|end_char=1559
+13	als	als	ADP	KOKOM	_	14	case	_	start_char=1560|end_char=1563
+14	Vorschlag	Vorschlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	start_char=1564|end_char=1573
+15	identifizerbar	identifizerbar	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No|start_char=1574|end_char=1588
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=1588|end_char=1589
+
+# text = In einer Variante hätte es sich aber ohne die Erklärung „Deutsche Leichter Sprache“ gut vàllziehen gelassen möglicherweise gleiche Sprach Lexeme, jedoch galten schließlich für tremitter.form.
+# sent_id = 14
+1	In	in	ADP	APPR	_	3	case	_	start_char=1590|end_char=1592
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1593|end_char=1598
+3	Variante	Variante	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=1599|end_char=1607
+4	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	start_char=1608|end_char=1613
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=1614|end_char=1616
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	start_char=1617|end_char=1621
+7	aber	aber	ADV	ADV	_	18	advmod	_	start_char=1622|end_char=1626
+8	ohne	ohne	ADP	APPR	_	10	case	_	start_char=1627|end_char=1631
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1632|end_char=1635
+10	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	start_char=1636|end_char=1645
+11	„	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=1646|end_char=1647
+12	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	start_char=1647|end_char=1655
+13	Leichter	Leichter	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	start_char=1656|end_char=1664
+14	Sprache	Sprache	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No|start_char=1665|end_char=1672
+15	“	"	PUNCT	$(	_	14	punct	_	start_char=1672|end_char=1673
+16	gut	gut	ADJ	ADJD	Degree=Pos	17	advmod	_	start_char=1674|end_char=1677
+17	vàllziehen	vàllziehen	VERB	VVINF	VerbForm=Inf	18	xcomp	_	start_char=1678|end_char=1688
+18	gelassen	lassen	VERB	VVPP	VerbForm=Part	0	root	_	SpacesAfter=\s\s|start_char=1689|end_char=1697
+19	möglicherweise	möglicherweise	ADV	ADV	_	18	advmod	_	start_char=1699|end_char=1713
+20	gleiche	gleich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=1714|end_char=1721
+21	Sprach	Sprach	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	start_char=1722|end_char=1728
+22	Lexeme	Lexem	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No|start_char=1729|end_char=1735
+23	,	,	PUNCT	$,	_	25	punct	_	start_char=1735|end_char=1736
+24	jedoch	jedoch	ADV	ADV	_	25	advmod	_	start_char=1737|end_char=1743
+25	galten	gelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	start_char=1744|end_char=1750
+26	schließlich	schließlich	ADV	ADV	_	25	advmod	_	start_char=1751|end_char=1762
+27	für	für	ADP	APPR	_	28	case	_	start_char=1763|end_char=1766
+28	tremitter.form	tremitter.form	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No|start_char=1767|end_char=1781
+29	.	.	PUNCT	$.	_	18	punct	_	start_char=1781|end_char=1782
+
+# text = Durch das Infeature Leben hâte lightly auf der Höhere formalen ألما
+# sent_id = 15
+1	Durch	durch	ADP	APPR	_	3	case	_	start_char=1783|end_char=1788
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=1789|end_char=1792
+3	Infeature	Infeature	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=1793|end_char=1802
+4	Leben	Leben	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	flat	_	start_char=1803|end_char=1808
+5	hâte	hâte	PROPN	FM	_	3	flat	_	start_char=1809|end_char=1813
+6	lightly	lightly	PROPN	NE	Foreign=Yes	3	flat	_	start_char=1814|end_char=1821
+7	auf	auf	ADP	APPR	_	11	case	_	start_char=1822|end_char=1825
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1826|end_char=1829
+9	Höhere	hoch	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	start_char=1830|end_char=1836
+10	formalen	formal	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1837|end_char=1845
+11	ألم	ألم	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1846|end_char=1849
+12	ا	ا	PROPN	NE	Case=Dat|Number=Sing	11	flat	_	SpaceAfter=No|start_char=1849|end_char=1850
+
+# text = نEp også Moҫın erstledigen ist der Komplexpositionslätzlich sal Georgian)?
+# sent_id = 16
+1	نEp	نEp	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1850|end_char=1853
+2	også	også	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=1854|end_char=1858
+3	Moҫın	Moҫın	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=1859|end_char=1864
+4	erstledigen	erstledig	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=1865|end_char=1876
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1877|end_char=1880
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1881|end_char=1884
+7	Komplexpositionslätzlich	Komplexpositionslätzlich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1885|end_char=1909
+8	sal	sal	PROPN	NE	Number=Sing	7	appos	_	start_char=1910|end_char=1913
+9	Georgian	Georgian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No|start_char=1914|end_char=1922
+10	)	)	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1922|end_char=1923
+11	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1923|end_char=1924
+
+# text = $
+# sent_id = 17
+1	$	$	X	XY	_	0	root	_	SpaceAfter=No|start_char=1924|end_char=1925
+

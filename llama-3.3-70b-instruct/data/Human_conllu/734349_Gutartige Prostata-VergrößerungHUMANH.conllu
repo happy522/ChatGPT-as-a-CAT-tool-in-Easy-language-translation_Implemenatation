@@ -1,0 +1,429 @@
+# text = **Gutartige Prostata-Vergrößerung: Was ist das?**
+# sent_id = 0
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Gutartige	gutartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2|end_char=11
+3	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No|start_char=12|end_char=20
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=20|end_char=21
+5	Vergrößerung	Vergrößerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=21|end_char=33
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=33|end_char=34
+7	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	_	start_char=35|end_char=38
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=39|end_char=42
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	parataxis	_	SpaceAfter=No|start_char=43|end_char=46
+10	?	?	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=46|end_char=47
+11	*	*	X	XY	_	9	dep	_	SpaceAfter=No|start_char=47|end_char=48
+12	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s|start_char=48|end_char=49
+
+# text = Die Prostata ist ein Teil im Körper von Männern.
+# sent_id = 1
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=51|end_char=54
+2	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=55|end_char=63
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=64|end_char=67
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=68|end_char=71
+5	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=72|end_char=76
+6-7	im	_	_	_	_	_	_	_	start_char=77|end_char=79
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=80|end_char=86
+9	von	von	ADP	APPR	_	10	case	_	start_char=87|end_char=90
+10	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No|start_char=91|end_char=98
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=98|end_char=99
+
+# text = Sie hilft bei der Fortpflanzung.
+# sent_id = 2
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=100|end_char=103
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=104|end_char=109
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=110|end_char=113
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=114|end_char=117
+5	Fortpflanzung	Fortpflanzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=118|end_char=131
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=131|end_char=132
+
+# text = Mit dem Alter kann die Prostata größer werden.
+# sent_id = 3
+1	Mit	mit	ADP	APPR	_	3	case	_	start_char=133|end_char=136
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=137|end_char=140
+3	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=141|end_char=146
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=147|end_char=151
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=152|end_char=155
+6	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=156|end_char=164
+7	größer	groß	ADJ	ADJD	Degree=Cmp	8	xcomp	_	start_char=165|end_char=171
+8	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=172|end_char=178
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=178|end_char=179
+
+# text = Das bedeutet, dass sie sich vergrößert und möglicherweise Probleme verursacht.
+# sent_id = 4
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=180|end_char=183
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=184|end_char=192
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=192|end_char=193
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	start_char=194|end_char=198
+5	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=199|end_char=202
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=203|end_char=207
+7	vergrößert	vergrößern	VERB	VVPP	Number=Sing|VerbForm=Fin	2	ccomp	_	start_char=208|end_char=218
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=219|end_char=222
+9	möglicherweise	möglicherweise	ADV	ADV	_	11	advmod	_	start_char=223|end_char=237
+10	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=238|end_char=246
+11	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No|start_char=247|end_char=257
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=257|end_char=258
+
+# text = **Was passiert, wenn die Prostata größer wird?**
+# sent_id = 5
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=260|end_char=262
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=262|end_char=265
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=266|end_char=274
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=274|end_char=275
+5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=276|end_char=280
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=281|end_char=284
+7	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=285|end_char=293
+8	größer	groß	ADJ	ADJD	Degree=Cmp	9	xcomp	_	start_char=294|end_char=300
+9	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=301|end_char=305
+10	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=305|end_char=306
+11	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=306|end_char=307
+12	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=307|end_char=308
+
+# text = Die vergrößerte Prostata kann die Harnröhre eng machen.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=310|end_char=313
+2	vergrößerte	vergrößert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=314|end_char=325
+3	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=326|end_char=334
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=335|end_char=339
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=340|end_char=343
+6	Harnröhre	Harnröhre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=344|end_char=353
+7	eng	eng	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=354|end_char=357
+8	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=358|end_char=364
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=364|end_char=365
+
+# text = Das kann zu Problemen beim Wasserlassen führen.
+# sent_id = 7
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=366|end_char=369
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=370|end_char=374
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=375|end_char=377
+4	Problemen	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	start_char=378|end_char=387
+5-6	beim	_	_	_	_	_	_	_	start_char=388|end_char=392
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Wasserlassen	Wasserlass	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=393|end_char=405
+8	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=406|end_char=412
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=412|end_char=413
+
+# text = Zum Beispiel: * Es fällt schwer, anzufangen zu urinieren *
+# sent_id = 8
+1-2	Zum	_	_	_	_	_	_	_	start_char=414|end_char=417
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|start_char=418|end_char=426
+4	:	:	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=426|end_char=427
+5	*	*	PUNCT	$(	_	7	punct	_	start_char=429|end_char=430
+6	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	start_char=431|end_char=433
+7	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=434|end_char=439
+8	schwer	schwer	ADJ	ADJD	Degree=Pos	7	advmod	_	SpaceAfter=No|start_char=440|end_char=446
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=446|end_char=447
+10	anzufangen	anfangen	VERB	VVIZU	VerbForm=Inf	12	xcomp	_	start_char=448|end_char=458
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=459|end_char=461
+12	urinieren	urinieren	VERB	VVINF	VerbForm=Inf	7	xcomp	_	start_char=462|end_char=471
+13	*	*	PUNCT	$(	_	7	punct	_	start_char=472|end_char=473
+
+# text = Der Urinstrahl ist schwach *
+# sent_id = 9
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=474|end_char=477
+2	Urinstrahl	Urinstrahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=478|end_char=488
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=489|end_char=492
+4	schwach	schwach	ADJ	ADJD	Degree=Pos	0	root	_	start_char=493|end_char=500
+5	*	*	PUNCT	$(	_	4	punct	_	start_char=501|end_char=502
+
+# text = Das Wasserlassen dauert länger *
+# sent_id = 10
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=503|end_char=506
+2	Wasserlassen	Wasserlass	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=507|end_char=519
+3	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=520|end_char=526
+4	länger	lang	ADJ	ADJD	Degree=Cmp	3	advmod	_	start_char=527|end_char=533
+5	*	*	PUNCT	$(	_	3	compound:prt	_	start_char=534|end_char=535
+
+# text = Nach dem Wasserlassen tropft Urin nach **Warum wird die Prostata größer?**
+# sent_id = 11
+1	Nach	nach	ADP	APPR	_	3	case	_	start_char=536|end_char=540
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=541|end_char=544
+3	Wasserlassen	Wasserlass	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=545|end_char=557
+4	tropft	tropfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=558|end_char=564
+5	Urin	Urin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=565|end_char=569
+6	nach	nach	ADP	APPR	_	4	xcomp	_	SpacesAfter=\s\s|start_char=570|end_char=574
+7	**	**	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=576|end_char=578
+8	Warum	warum	ADV	PWAV	PronType=Int	9	advmod	_	start_char=578|end_char=583
+9	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=584|end_char=588
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=589|end_char=592
+11	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=593|end_char=601
+12	größer	groß	ADJ	ADJD	Degree=Cmp	9	xcomp	_	SpaceAfter=No|start_char=602|end_char=608
+13	?	?	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=608|end_char=609
+14	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=609|end_char=610
+15	*	*	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\s|start_char=610|end_char=611
+
+# text = Die genauen Ursachen sind nicht bekannt.
+# sent_id = 12
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=613|end_char=616
+2	genauen	genau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=617|end_char=624
+3	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=625|end_char=633
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=634|end_char=638
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=639|end_char=644
+6	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=645|end_char=652
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=652|end_char=653
+
+# text = Aber es gibt einige mögliche Gründe: *
+# sent_id = 13
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=654|end_char=658
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=659|end_char=661
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=662|end_char=666
+4	einige	einige	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	start_char=667|end_char=673
+5	mögliche	möglich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=674|end_char=682
+6	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=683|end_char=689
+7	:	:	PUNCT	$.	_	3	punct	_	start_char=689|end_char=690
+8	*	*	PUNCT	$(	_	3	punct	_	start_char=691|end_char=692
+
+# text = Ein Hormon namens Dihydro-Testosteron (ein Hormon ist ein Stoff, der im Körper produziert wird und bestimmte Funktionen steuert) * Veranlagung (wenn andere Männer in der Familie eine vergrößerte Prostata haben) *
+# sent_id = 14
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=693|end_char=696
+2	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	start_char=697|end_char=703
+3	namens	namens	ADP	APPR	_	4	case	_	start_char=704|end_char=710
+4	Dihydro	Dihydro	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=711|end_char=718
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=718|end_char=719
+6	Testosteron	Testosteron	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	flat	_	start_char=719|end_char=730
+7	(	(	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=731|end_char=732
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=732|end_char=735
+9	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=736|end_char=742
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=743|end_char=746
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=747|end_char=750
+12	Stoff	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|start_char=751|end_char=756
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=756|end_char=757
+14	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj:pass	_	start_char=758|end_char=761
+15-16	im	_	_	_	_	_	_	_	start_char=762|end_char=764
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	start_char=765|end_char=771
+18	produziert	produzieren	VERB	VVPP	VerbForm=Part	12	acl	_	start_char=772|end_char=782
+19	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux:pass	_	start_char=783|end_char=787
+20	und	und	CCONJ	KON	_	23	cc	_	start_char=788|end_char=791
+21	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=792|end_char=801
+22	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obj	_	start_char=802|end_char=812
+23	steuert	steuern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	SpaceAfter=No|start_char=813|end_char=820
+24	)	)	PUNCT	$(	_	18	punct	_	start_char=820|end_char=821
+25	*	*	PUNCT	$(	_	26	punct	_	start_char=822|end_char=823
+26	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=824|end_char=835
+27	(	(	PUNCT	$(	_	37	punct	_	SpaceAfter=No|start_char=836|end_char=837
+28	wenn	wenn	SCONJ	KOUS	_	37	mark	_	start_char=837|end_char=841
+29	andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	30	det	_	start_char=842|end_char=848
+30	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	start_char=849|end_char=855
+31	in	in	ADP	APPR	_	33	case	_	start_char=856|end_char=858
+32	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	start_char=859|end_char=862
+33	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	37	obl	_	start_char=863|end_char=870
+34	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	36	det	_	start_char=871|end_char=875
+35	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=876|end_char=887
+36	Prostata	Prostata	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	start_char=888|end_char=896
+37	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No|start_char=897|end_char=902
+38	)	)	PUNCT	$(	_	37	punct	_	start_char=902|end_char=903
+39	*	*	PUNCT	$(	_	26	punct	_	start_char=904|end_char=905
+
+# text = Das Immunsystem (das kann die Prostata angreifen und sie vergrößern) **Was kann man tun?**
+# sent_id = 15
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=906|end_char=909
+2	Immunsystem	Immunsystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=910|end_char=921
+3	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=922|end_char=923
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=923|end_char=926
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=927|end_char=931
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=932|end_char=935
+7	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	start_char=936|end_char=944
+8	angreifen	angreifen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=945|end_char=954
+9	und	und	CCONJ	KON	_	11	cc	_	start_char=955|end_char=958
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=959|end_char=962
+11	vergrößern	vergrößern	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No|start_char=963|end_char=973
+12	)	)	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=973|end_char=974
+13	**	**	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=976|end_char=978
+14	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	17	obj	_	start_char=978|end_char=981
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=982|end_char=986
+16	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	17	nsubj	_	start_char=987|end_char=990
+17	tun	tun	VERB	VVINF	VerbForm=Inf	8	parataxis	_	SpaceAfter=No|start_char=991|end_char=994
+18	?	?	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=994|end_char=995
+19	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=995|end_char=996
+20	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=996|end_char=997
+
+# text = Wenn Sie denken, dass Sie eine gutartige Prostata-Vergrößerung haben, sollten Sie zum Arzt gehen.
+# sent_id = 16
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=999|end_char=1003
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=1004|end_char=1007
+3	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No|start_char=1008|end_char=1014
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=1014|end_char=1015
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=1016|end_char=1020
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=1021|end_char=1024
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=1025|end_char=1029
+8	gutartige	gutartig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1030|end_char=1039
+9	Prostata	Prostata	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No|start_char=1040|end_char=1048
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1048|end_char=1049
+11	Vergrößerung	Vergrößerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1049|end_char=1061
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|start_char=1062|end_char=1067
+13	,	,	PUNCT	$,	_	3	punct	_	start_char=1067|end_char=1068
+14	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	start_char=1069|end_char=1076
+15	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj	_	start_char=1077|end_char=1080
+16-17	zum	_	_	_	_	_	_	_	start_char=1081|end_char=1084
+16	zu	zu	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=1085|end_char=1089
+19	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1090|end_char=1095
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=1095|end_char=1096
+
+# text = Der Arzt kann Sie untersuchen und behandeln.
+# sent_id = 17
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1097|end_char=1100
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1101|end_char=1105
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1106|end_char=1110
+4	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	obj	_	start_char=1111|end_char=1114
+5	untersuchen	untersuchen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1115|end_char=1126
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1127|end_char=1130
+7	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No|start_char=1131|end_char=1140
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=1140|end_char=1141
+
+# text = Es gibt Medikamente, die die Beschwerden lindern können.
+# sent_id = 18
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1142|end_char=1144
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1145|end_char=1149
+3	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=1150|end_char=1161
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=1161|end_char=1162
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=1163|end_char=1166
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=1167|end_char=1170
+7	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1171|end_char=1182
+8	lindern	lindern	VERB	VVINF	VerbForm=Inf	3	acl	_	start_char=1183|end_char=1190
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|start_char=1191|end_char=1197
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1197|end_char=1198
+
+# text = Der Arzt sollte die Prostata regelmäßig untersuchen, um sicherzustellen, dass keine anderen Probleme auftreten.
+# sent_id = 19
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1199|end_char=1202
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1203|end_char=1207
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=1208|end_char=1214
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1215|end_char=1218
+5	Prostata	Prostata	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1219|end_char=1227
+6	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=1228|end_char=1238
+7	untersuchen	untersuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1239|end_char=1250
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=1250|end_char=1251
+9	um	um	ADP	KOUI	_	10	mark	_	start_char=1252|end_char=1254
+10	sicherzustellen	sicherstellen	VERB	VVIZU	VerbForm=Inf	7	advcl	_	SpaceAfter=No|start_char=1255|end_char=1270
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=1270|end_char=1271
+12	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=1272|end_char=1276
+13	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg	15	det	_	start_char=1277|end_char=1282
+14	anderen	anderer	DET	ADJA	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	start_char=1283|end_char=1290
+15	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	start_char=1291|end_char=1299
+16	auftreten	auftreten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No|start_char=1300|end_char=1309
+17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=1309|end_char=1310
+
+# text = **Wichtige Wörter:** * Prostata: ein Teil im Körper von Männern, der bei der Fortpflanzung hilft * Hormon: ein Stoff, der im Körper produziert wird und bestimmte Funktionen steuert * Immunsystem: ein System im Körper, das gegen Krankheiten und Infektionen kämpft * Veranlagung: wenn jemand eine bestimmte Eigenschaft oder Krankheit von seinen Eltern oder Vorfahren geerbt hat
+# sent_id = 20
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1312|end_char=1314
+2	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=1314|end_char=1322
+3	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=1323|end_char=1329
+4	:	:	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1329|end_char=1330
+5	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1330|end_char=1331
+6	*	*	PUNCT	$(	_	8	dep	_	SpacesAfter=\s\s|start_char=1331|end_char=1332
+7	*	*	PUNCT	$(	_	8	punct	_	start_char=1334|end_char=1335
+8	Prostata	Prostata	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|start_char=1336|end_char=1344
+9	:	:	PUNCT	$.	_	11	punct	_	start_char=1344|end_char=1345
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=1346|end_char=1349
+11	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=1350|end_char=1354
+12-13	im	_	_	_	_	_	_	_	start_char=1355|end_char=1357
+12	in	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=1358|end_char=1364
+15	von	von	ADP	APPR	_	16	case	_	start_char=1365|end_char=1368
+16	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No|start_char=1369|end_char=1376
+17	,	,	PUNCT	$,	_	22	punct	_	start_char=1376|end_char=1377
+18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	22	nsubj	_	start_char=1378|end_char=1381
+19	bei	bei	ADP	APPR	_	21	case	_	start_char=1382|end_char=1385
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1386|end_char=1389
+21	Fortpflanzung	Fortpflanzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	start_char=1390|end_char=1403
+22	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	start_char=1404|end_char=1409
+23	*	*	PUNCT	$(	_	22	advmod	_	start_char=1410|end_char=1411
+24	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No|start_char=1412|end_char=1418
+25	:	:	PUNCT	$.	_	27	punct	_	start_char=1418|end_char=1419
+26	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	27	det	_	start_char=1420|end_char=1423
+27	Stoff	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No|start_char=1424|end_char=1429
+28	,	,	PUNCT	$,	_	33	punct	_	start_char=1429|end_char=1430
+29	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	33	nsubj:pass	_	start_char=1431|end_char=1434
+30-31	im	_	_	_	_	_	_	_	start_char=1435|end_char=1437
+30	in	in	ADP	APPR	_	32	case	_	_
+31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	33	obl	_	start_char=1438|end_char=1444
+33	produziert	produzieren	VERB	VVPP	VerbForm=Part	27	acl	_	start_char=1445|end_char=1455
+34	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	aux:pass	_	start_char=1456|end_char=1460
+35	und	und	CCONJ	KON	_	38	cc	_	start_char=1461|end_char=1464
+36	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	start_char=1465|end_char=1474
+37	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	38	obj	_	start_char=1475|end_char=1485
+38	steuert	steuern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	start_char=1486|end_char=1493
+39	*	*	PUNCT	$(	_	40	punct	_	start_char=1494|end_char=1495
+40	Immunsystem	Immunsystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	38	obj	_	SpaceAfter=No|start_char=1496|end_char=1507
+41	:	:	PUNCT	$.	_	43	punct	_	start_char=1507|end_char=1508
+42	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	43	det	_	start_char=1509|end_char=1512
+43	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	40	appos	_	start_char=1513|end_char=1519
+44-45	im	_	_	_	_	_	_	_	start_char=1520|end_char=1522
+44	in	in	ADP	APPR	_	46	case	_	_
+45	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No|start_char=1523|end_char=1529
+47	,	,	PUNCT	$,	_	53	punct	_	start_char=1529|end_char=1530
+48	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	53	nsubj	_	start_char=1531|end_char=1534
+49	gegen	gegen	ADP	APPR	_	50	case	_	start_char=1535|end_char=1540
+50	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	53	obl	_	start_char=1541|end_char=1552
+51	und	und	CCONJ	KON	_	52	cc	_	start_char=1553|end_char=1556
+52	Infektionen	Infektion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	50	conj	_	start_char=1557|end_char=1568
+53	kämpft	kämpfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl	_	start_char=1569|end_char=1575
+54	*	*	PUNCT	$(	_	55	punct	_	start_char=1576|end_char=1577
+55	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	53	obj	_	SpaceAfter=No|start_char=1578|end_char=1589
+56	:	:	PUNCT	$.	_	69	punct	_	start_char=1589|end_char=1590
+57	wenn	wenn	SCONJ	KOUS	_	69	mark	_	start_char=1591|end_char=1595
+58	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	69	nsubj	_	start_char=1596|end_char=1602
+59	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	61	det	_	start_char=1603|end_char=1607
+60	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	start_char=1608|end_char=1617
+61	Eigenschaft	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	69	obj	_	start_char=1618|end_char=1629
+62	oder	oder	CCONJ	KON	_	63	cc	_	start_char=1630|end_char=1634
+63	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	61	conj	_	start_char=1635|end_char=1644
+64	von	von	ADP	APPR	_	66	case	_	start_char=1645|end_char=1648
+65	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	66	det:poss	_	start_char=1649|end_char=1655
+66	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Plur	69	obl	_	start_char=1656|end_char=1662
+67	oder	oder	CCONJ	KON	_	68	cc	_	start_char=1663|end_char=1667
+68	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	66	conj	_	start_char=1668|end_char=1677
+69	geerbt	erben	VERB	VVPP	VerbForm=Part	11	advcl	_	start_char=1678|end_char=1684
+70	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	aux	_	SpacesAfter=\s\s|start_char=1685|end_char=1688
+
+# text = Ich habe den Text vereinfacht, indem ich: * Unwichtige Informationen entfernt habe * Nebensätze und komplexe syntaktische Strukturen vermieden habe * Erklärungen für schwierige Wörter hinzugefügt habe, um den Text besser verständlich zu machen.
+# sent_id = 21
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1690|end_char=1693
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1694|end_char=1698
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1699|end_char=1702
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1703|end_char=1707
+5	vereinfacht	vereinfachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1708|end_char=1719
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=1719|end_char=1720
+7	indem	indem	SCONJ	KOUS	_	13	mark	_	start_char=1721|end_char=1726
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No|start_char=1727|end_char=1730
+9	:	:	PUNCT	$.	_	13	punct	_	start_char=1730|end_char=1731
+10	*	*	PUNCT	$(	_	13	punct	_	start_char=1732|end_char=1733
+11	Unwichtige	unwichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1734|end_char=1744
+12	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nsubj	_	start_char=1745|end_char=1758
+13	entfernt	entfernen	VERB	ADJD	_	5	parataxis	_	start_char=1759|end_char=1767
+14	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=1768|end_char=1772
+15	*	*	PUNCT	$(	_	21	advmod	_	start_char=1773|end_char=1774
+16	Nebensätze	Nebensatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	start_char=1775|end_char=1785
+17	und	und	CCONJ	KON	_	20	cc	_	start_char=1786|end_char=1789
+18	komplexe	komplex	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=1790|end_char=1798
+19	syntaktische	syntaktisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=1799|end_char=1811
+20	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	start_char=1812|end_char=1822
+21	vermieden	vermeiden	VERB	VVPP	VerbForm=Part	5	ccomp	_	start_char=1823|end_char=1832
+22	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=1833|end_char=1837
+23	*	*	PUNCT	$(	_	28	punct	_	start_char=1838|end_char=1839
+24	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	start_char=1840|end_char=1851
+25	für	für	ADP	APPR	_	27	case	_	start_char=1852|end_char=1855
+26	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	27	amod	_	start_char=1856|end_char=1866
+27	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	nmod	_	start_char=1867|end_char=1873
+28	hinzugefügt	hinzufügen	VERB	VVPP	VerbForm=Part	21	conj	_	start_char=1874|end_char=1885
+29	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	SpaceAfter=No|start_char=1886|end_char=1890
+30	,	,	PUNCT	$,	_	37	punct	_	start_char=1890|end_char=1891
+31	um	um	ADP	KOUI	_	37	mark	_	start_char=1892|end_char=1894
+32	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	start_char=1895|end_char=1898
+33	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obj	_	start_char=1899|end_char=1903
+34	besser	gut	ADJ	ADJD	Degree=Cmp	37	advmod	_	start_char=1904|end_char=1910
+35	verständlich	verständlich	ADJ	ADJD	Degree=Pos	37	xcomp	_	start_char=1911|end_char=1923
+36	zu	zu	PART	PTKZU	_	37	mark	_	start_char=1924|end_char=1926
+37	machen	machen	VERB	VVINF	VerbForm=Inf	28	advcl	_	SpaceAfter=No|start_char=1927|end_char=1933
+38	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1933|end_char=1934
+

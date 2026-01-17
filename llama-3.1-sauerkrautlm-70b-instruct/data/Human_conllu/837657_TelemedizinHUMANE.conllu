@@ -1,0 +1,597 @@
+# text = Dieser Text ist ohnehin in einer einfachen, leichten Sprache verfasst worden.
+# sent_id = 0
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=6
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=7|end_char=11
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=12|end_char=15
+4	ohnehin	ohnehin	ADV	ADV	_	11	advmod	_	start_char=16|end_char=23
+5	in	in	ADP	APPR	_	10	case	_	start_char=24|end_char=26
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=27|end_char=32
+7	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No|start_char=33|end_char=42
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=42|end_char=43
+9	leichten	leicht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	start_char=44|end_char=52
+10	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=53|end_char=60
+11	verfasst	verfassen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=61|end_char=69
+12	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	11	aux:pass	_	SpaceAfter=No|start_char=70|end_char=76
+13	.	.	PUNCT	$.	_	11	punct	_	start_char=76|end_char=77
+
+# text = Jedoch kann ich ein paar kleinere Anpassungen vornehmen, um ihn noch leichter zu machen: **Telemedizin** Dieser Text erklärt in einfachen Worten, was Telemedizin ist.
+# sent_id = 1
+1	Jedoch	jedoch	ADV	ADV	_	8	advmod	_	start_char=78|end_char=84
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=85|end_char=89
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=90|end_char=93
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=94|end_char=97
+5	paar	paar	ADJ	PIAT	Degree=Pos	7	nmod	_	start_char=98|end_char=102
+6	kleinere	klein	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	7	amod	_	start_char=103|end_char=111
+7	Anpassungen	Anpassung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=112|end_char=123
+8	vornehmen	vornehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=124|end_char=133
+9	,	,	PUNCT	$,	_	15	punct	_	start_char=133|end_char=134
+10	um	um	ADP	KOUI	_	15	mark	_	start_char=135|end_char=137
+11	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=138|end_char=141
+12	noch	noch	ADV	ADV	_	13	advmod	_	start_char=142|end_char=146
+13	leichter	leicht	ADJ	ADJD	Degree=Cmp	15	xcomp	_	start_char=147|end_char=155
+14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=156|end_char=158
+15	machen	machen	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No|start_char=159|end_char=165
+16	:	:	PUNCT	$.	_	23	punct	_	SpacesAfter=\s\s|start_char=165|end_char=166
+17	**	**	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=168|end_char=170
+18	Telemedizin	Telemedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	parataxis	_	SpaceAfter=No|start_char=170|end_char=181
+19	*	*	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=181|end_char=182
+20	*	*	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s|start_char=182|end_char=183
+21	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	start_char=185|end_char=191
+22	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	start_char=192|end_char=196
+23	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=197|end_char=204
+24	in	in	ADP	APPR	_	26	case	_	start_char=205|end_char=207
+25	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	26	amod	_	start_char=208|end_char=217
+26	Worten	Wort	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|start_char=218|end_char=224
+27	,	,	PUNCT	$,	_	29	punct	_	start_char=224|end_char=225
+28	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	29	nsubj	_	start_char=226|end_char=229
+29	Telemedizin	Telemedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	acl	_	start_char=230|end_char=241
+30	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	SpaceAfter=No|start_char=242|end_char=245
+31	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=245|end_char=246
+
+# text = Telemedizin kann Menschen helfen, die nicht einfach zum Arzt gehen können.
+# sent_id = 2
+1	Telemedizin	Telemedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=248|end_char=259
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=260|end_char=264
+3	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=265|end_char=273
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=274|end_char=280
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=280|end_char=281
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	12	nsubj	_	start_char=282|end_char=285
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=286|end_char=291
+8	einfach	einfach	ADV	ADV	_	12	advmod	_	start_char=292|end_char=299
+9-10	zum	_	_	_	_	_	_	_	start_char=300|end_char=303
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=304|end_char=308
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	3	acl	_	start_char=309|end_char=314
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=315|end_char=321
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=321|end_char=322
+
+# text = Aber für Telemedizin gibt es bestimmte Bedingungen.
+# sent_id = 3
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=323|end_char=327
+2	für	für	ADP	APPR	_	3	case	_	start_char=328|end_char=331
+3	Telemedizin	Telemedizin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=332|end_char=343
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=344|end_char=348
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=349|end_char=351
+6	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=352|end_char=361
+7	Bedingungen	Bedingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No|start_char=362|end_char=373
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=373|end_char=374
+
+# text = Ärzte und Patienten müssen Computer und Smartphones benutzen, um miteinander zu kommunizieren.
+# sent_id = 4
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=375|end_char=380
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=381|end_char=384
+3	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=385|end_char=394
+4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=395|end_char=401
+5	Computer	Computer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=402|end_char=410
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=411|end_char=414
+7	Smartphones	Smartphone	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	start_char=415|end_char=426
+8	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=427|end_char=435
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=435|end_char=436
+10	um	um	ADP	KOUI	_	13	mark	_	start_char=437|end_char=439
+11	miteinander	miteinander	ADV	ADV	_	13	advmod	_	start_char=440|end_char=451
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=452|end_char=454
+13	kommunizieren	kommunizieren	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No|start_char=455|end_char=468
+14	.	.	PUNCT	$.	_	8	punct	_	start_char=468|end_char=469
+
+# text = Außerdem brauchen sie eine schnelle Internetverbindung.
+# sent_id = 5
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	start_char=470|end_char=478
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=479|end_char=487
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=488|end_char=491
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=492|end_char=496
+5	schnelle	schnell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=497|end_char=505
+6	Internetverbindung	Internetverbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=506|end_char=524
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=524|end_char=525
+
+# text = **Was kann Telemedizin tun?**
+# sent_id = 6
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=527|end_char=529
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=529|end_char=532
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=533|end_char=537
+4	Telemedizin	Telemedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	start_char=538|end_char=549
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=550|end_char=553
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=553|end_char=554
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=554|end_char=555
+8	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=555|end_char=556
+
+# text = In einer Videosprechstunde können Ärzte vieles tun: *
+# sent_id = 7
+1	In	in	ADP	APPR	_	3	case	_	start_char=558|end_char=560
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=561|end_char=566
+3	Videosprechstunde	Videosprechstunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=567|end_char=584
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=585|end_char=591
+5	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=592|end_char=597
+6	vieles	viel	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	obj	_	start_char=598|end_char=604
+7	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=605|end_char=608
+8	:	:	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=608|end_char=609
+9	*	*	PUNCT	$(	_	7	punct	_	start_char=611|end_char=612
+
+# text = Die Wunde nach einer Operation untersuchen * Hautveränderungen oder Schwellungen untersuchen * Ergebnisse von Untersuchungen besprechen *
+# sent_id = 8
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=613|end_char=616
+2	Wunde	Wunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=617|end_char=622
+3	nach	nach	ADP	APPR	_	5	case	_	start_char=623|end_char=627
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=628|end_char=633
+5	Operation	Operation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=634|end_char=643
+6	untersuchen	untersuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=644|end_char=655
+7	*	*	PUNCT	$(	_	8	case	_	start_char=656|end_char=657
+8	Hautveränderungen	Hautveränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	start_char=658|end_char=675
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=676|end_char=680
+10	Schwellungen	Schwellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	conj	_	start_char=681|end_char=693
+11	untersuchen	untersuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=694|end_char=705
+12	*	*	PUNCT	$(	_	16	mark	_	start_char=706|end_char=707
+13	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	start_char=708|end_char=718
+14	von	von	ADP	APPR	_	15	case	_	start_char=719|end_char=722
+15	Untersuchungen	Untersuchung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	start_char=723|end_char=737
+16	besprechen	besprechen	VERB	VVFIN	VerbForm=Inf	11	xcomp	_	start_char=738|end_char=748
+17	*	*	PUNCT	$(	_	16	aux	_	start_char=749|end_char=750
+
+# text = Eine Behandlung vorschlagen Dadurch müssen kranke Menschen nicht immer in die Praxis kommen.
+# sent_id = 9
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=751|end_char=755
+2	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	start_char=756|end_char=766
+3	vorschlagen	vorschlagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpacesAfter=\s\s|start_char=767|end_char=778
+4	Dadurch	dadurch	ADV	PAV	PronType=Dem	13	advmod	_	start_char=780|end_char=787
+5	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=788|end_char=794
+6	kranke	krank	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=795|end_char=801
+7	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=802|end_char=810
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=811|end_char=816
+9	immer	immer	ADV	ADV	_	13	advmod	_	start_char=817|end_char=822
+10	in	in	ADP	APPR	_	12	case	_	start_char=823|end_char=825
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=826|end_char=829
+12	Praxis	Praxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=830|end_char=836
+13	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=837|end_char=843
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=843|end_char=844
+
+# text = Es gibt aber noch viele andere Möglichkeiten, wie Telemedizin helfen kann.
+# sent_id = 10
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=845|end_char=847
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=848|end_char=852
+3	aber	aber	ADV	ADV	_	2	advmod	_	start_char=853|end_char=857
+4	noch	noch	ADV	ADV	_	2	advmod	_	start_char=858|end_char=862
+5	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=863|end_char=868
+6	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=869|end_char=875
+7	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=876|end_char=889
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=889|end_char=890
+9	wie	wie	SCONJ	KOUS	_	11	mark	_	start_char=891|end_char=894
+10	Telemedizin	Telemedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=895|end_char=906
+11	helfen	helfen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	start_char=907|end_char=913
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|start_char=914|end_char=918
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=918|end_char=919
+
+# text = **Welche Angebote gibt es?**
+# sent_id = 11
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=921|end_char=923
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Int,Rel	3	det	_	start_char=923|end_char=929
+3	Angebote	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=930|end_char=938
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=939|end_char=943
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No|start_char=944|end_char=946
+6	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=946|end_char=947
+7	*	*	X	XY	_	4	dep	_	SpaceAfter=No|start_char=947|end_char=948
+8	*	*	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\s|start_char=948|end_char=949
+
+# text = Es gibt verschiedene telemedizinische Angebote: * **Telemonitoring**: Chronisch kranke Menschen bekommen spezielle Messgeräte.
+# sent_id = 12
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=951|end_char=953
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=954|end_char=958
+3	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=959|end_char=971
+4	telemedizinische	telemedizinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=972|end_char=988
+5	Angebote	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|start_char=989|end_char=997
+6	:	:	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=997|end_char=998
+7	*	*	PUNCT	$(	_	10	punct	_	start_char=1000|end_char=1001
+8	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=1002|end_char=1003
+9	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=1003|end_char=1004
+10	Telemonitoring	Telemonitoring	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	SpaceAfter=No|start_char=1004|end_char=1018
+11	*	*	PUNCT	$(	_	10	appos	_	SpaceAfter=No|start_char=1018|end_char=1019
+12	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=1019|end_char=1020
+13	:	:	PUNCT	$.	_	17	punct	_	start_char=1020|end_char=1021
+14	Chronisch	chronisch	ADJ	ADJD	Degree=Pos	15	advmod	_	start_char=1022|end_char=1031
+15	kranke	krank	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	start_char=1032|end_char=1038
+16	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=1039|end_char=1047
+17	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1048|end_char=1056
+18	spezielle	speziell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	start_char=1057|end_char=1066
+19	Messgeräte	Messgerät	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	SpaceAfter=No|start_char=1067|end_char=1077
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=1077|end_char=1078
+
+# text = Die Geräte senden die Messwerte automatisch an die Praxis.
+# sent_id = 13
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1079|end_char=1082
+2	Geräte	Gerät	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1083|end_char=1089
+3	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1090|end_char=1096
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1097|end_char=1100
+5	Messwerte	Meßwert	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1101|end_char=1110
+6	automatisch	automatisch	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=1111|end_char=1122
+7	an	an	ADP	APPR	_	9	case	_	start_char=1123|end_char=1125
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1126|end_char=1129
+9	Praxis	Praxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=1130|end_char=1136
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=1136|end_char=1137
+
+# text = Wenn ein Messwert ungewöhnlich ist, bekommt die Praxis eine Nachricht.
+# sent_id = 14
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=1138|end_char=1142
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1143|end_char=1146
+3	Messwert	Messwert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1147|end_char=1155
+4	ungewöhnlich	ungewöhnlich	ADJ	ADJD	Degree=Pos	7	advcl	_	start_char=1156|end_char=1168
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|start_char=1169|end_char=1172
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=1172|end_char=1173
+7	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1174|end_char=1181
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1182|end_char=1185
+9	Praxis	Praxis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=1186|end_char=1192
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=1193|end_char=1197
+11	Nachricht	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|start_char=1198|end_char=1207
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=1207|end_char=1208
+
+# text = * **Telediagnostik**: Ärzte können eine Diagnose stellen, indem sie ein Bild von einer Hautveränderung per App erhalten.
+# sent_id = 15
+1	*	*	PUNCT	$(	_	12	dep	_	start_char=1209|end_char=1210
+2	*	*	SYM	$(	_	1	appos	_	SpaceAfter=No|start_char=1211|end_char=1212
+3	*	*	SYM	XY	_	4	compound	_	SpaceAfter=No|start_char=1212|end_char=1213
+4	Telediagnostik	Telediagnostik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|start_char=1213|end_char=1227
+5	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1227|end_char=1228
+6	*	*	PUNCT	$(	_	12	dep	_	SpaceAfter=No|start_char=1228|end_char=1229
+7	:	:	PUNCT	$.	_	12	punct	_	start_char=1229|end_char=1230
+8	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=1231|end_char=1236
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1237|end_char=1243
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=1244|end_char=1248
+11	Diagnose	Diagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1249|end_char=1257
+12	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1258|end_char=1265
+13	,	,	PUNCT	$,	_	23	punct	_	start_char=1265|end_char=1266
+14	indem	indem	SCONJ	KOUS	_	23	mark	_	start_char=1267|end_char=1272
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=1273|end_char=1276
+16	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=1277|end_char=1280
+17	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	start_char=1281|end_char=1285
+18	von	von	ADP	APPR	_	20	case	_	start_char=1286|end_char=1289
+19	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=1290|end_char=1295
+20	Hautveränderung	Hautveränderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	start_char=1296|end_char=1311
+21	per	per	ADP	APPR	_	22	case	_	start_char=1312|end_char=1315
+22	App	App	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	start_char=1316|end_char=1319
+23	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No|start_char=1320|end_char=1328
+24	.	.	PUNCT	$.	_	12	punct	_	start_char=1328|end_char=1329
+
+# text = Dann können sie einen Befund erstellen und eine Behandlung vorschlagen.
+# sent_id = 16
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=1330|end_char=1334
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1335|end_char=1341
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1342|end_char=1345
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1346|end_char=1351
+5	Befund	Befund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1352|end_char=1358
+6	erstellen	erstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1359|end_char=1368
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=1369|end_char=1372
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=1373|end_char=1377
+9	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1378|end_char=1388
+10	vorschlagen	vorschlagen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No|start_char=1389|end_char=1400
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=1400|end_char=1401
+
+# text = * **Teletherapie**: Ärzte zeigen Patienten, wie eine Behandlung funktioniert.
+# sent_id = 17
+1	*	*	PUNCT	$(	_	9	dep	_	start_char=1402|end_char=1403
+2	*	*	SYM	$(	_	1	appos	_	SpaceAfter=No|start_char=1404|end_char=1405
+3	*	*	SYM	XY	_	4	cc	_	SpaceAfter=No|start_char=1405|end_char=1406
+4	Teletherapie	Teletherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|start_char=1406|end_char=1418
+5	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1418|end_char=1419
+6	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=1419|end_char=1420
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=1420|end_char=1421
+8	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=1422|end_char=1427
+9	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1428|end_char=1434
+10	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|start_char=1435|end_char=1444
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=1444|end_char=1445
+12	wie	wie	SCONJ	KOUS	_	15	mark	_	start_char=1446|end_char=1449
+13	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1450|end_char=1454
+14	Behandlung	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=1455|end_char=1465
+15	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No|start_char=1466|end_char=1478
+16	.	.	PUNCT	$.	_	9	punct	_	start_char=1478|end_char=1479
+
+# text = Sie können gemeinsam Übungen ausprobieren, und der Arzt kann sofort korrigieren, wenn der Patient etwas falsch macht.
+# sent_id = 18
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1480|end_char=1483
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1484|end_char=1490
+3	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=1491|end_char=1500
+4	Übungen	Übung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=1501|end_char=1508
+5	ausprobieren	ausprobieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1509|end_char=1521
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=1521|end_char=1522
+7	und	und	CCONJ	KON	_	12	cc	_	start_char=1523|end_char=1526
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1527|end_char=1530
+9	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=1531|end_char=1535
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1536|end_char=1540
+11	sofort	sofort	ADV	ADV	_	12	advmod	_	start_char=1541|end_char=1547
+12	korrigieren	korrigieren	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No|start_char=1548|end_char=1559
+13	,	,	PUNCT	$,	_	19	punct	_	start_char=1559|end_char=1560
+14	wenn	wenn	SCONJ	KOUS	_	19	mark	_	start_char=1561|end_char=1565
+15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=1566|end_char=1569
+16	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=1570|end_char=1577
+17	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	18	nsubj	_	start_char=1578|end_char=1583
+18	falsch	falsch	ADJ	ADJD	Degree=Pos	19	xcomp	_	start_char=1584|end_char=1590
+19	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=1591|end_char=1596
+20	.	.	PUNCT	$.	_	5	punct	_	start_char=1596|end_char=1597
+
+# text = * **Telekonsil**: Ärzte aus verschiedenen Fachrichtungen sprechen in einer Videokonferenz miteinander, um gemeinsam eine Diagnose oder Therapie zu besprechen.
+# sent_id = 19
+1	*	*	PUNCT	$(	_	12	dep	_	start_char=1598|end_char=1599
+2	*	*	SYM	$(	_	1	appos	_	SpaceAfter=No|start_char=1600|end_char=1601
+3	*	*	SYM	XY	_	4	compound	_	SpaceAfter=No|start_char=1601|end_char=1602
+4	Telekonsil	Telekonsil	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No|start_char=1602|end_char=1612
+5	*	*	PUNCT	$(	_	4	dep	_	SpaceAfter=No|start_char=1612|end_char=1613
+6	*	*	PUNCT	$(	_	12	dep	_	SpaceAfter=No|start_char=1613|end_char=1614
+7	:	:	PUNCT	$.	_	12	punct	_	start_char=1614|end_char=1615
+8	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=1616|end_char=1621
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=1622|end_char=1625
+10	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=1626|end_char=1639
+11	Fachrichtungen	Fachrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=1640|end_char=1654
+12	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1655|end_char=1663
+13	in	in	ADP	APPR	_	15	case	_	start_char=1664|end_char=1666
+14	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=1667|end_char=1672
+15	Videokonferenz	Videokonferenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=1673|end_char=1687
+16	miteinander	miteinander	ADV	ADV	_	12	advmod	_	SpaceAfter=No|start_char=1688|end_char=1699
+17	,	,	PUNCT	$,	_	25	punct	_	start_char=1699|end_char=1700
+18	um	um	ADP	KOUI	_	25	mark	_	start_char=1701|end_char=1703
+19	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	25	advmod	_	start_char=1704|end_char=1713
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	21	det	_	start_char=1714|end_char=1718
+21	Diagnose	Diagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=1719|end_char=1727
+22	oder	oder	CCONJ	KON	_	23	cc	_	start_char=1728|end_char=1732
+23	Therapie	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	start_char=1733|end_char=1741
+24	zu	zu	PART	PTKZU	_	25	mark	_	start_char=1742|end_char=1744
+25	besprechen	besprechen	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No|start_char=1745|end_char=1755
+26	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=1755|end_char=1756
+
+# text = **Welche Schwierigkeiten gibt es?**
+# sent_id = 20
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1758|end_char=1760
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=1760|end_char=1766
+3	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=1767|end_char=1782
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1783|end_char=1787
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No|start_char=1788|end_char=1790
+6	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=1790|end_char=1791
+7	*	*	X	XY	_	4	dep	_	SpaceAfter=No|start_char=1791|end_char=1792
+8	*	*	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\s|start_char=1792|end_char=1793
+
+# text = Es wird noch ein wenig dauern, bis alle Menschen in Deutschland Telemedizin nutzen können.
+# sent_id = 21
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1795|end_char=1797
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux	_	start_char=1798|end_char=1802
+3	noch	noch	ADV	ADV	_	6	advmod	_	start_char=1803|end_char=1807
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1808|end_char=1811
+5	wenig	wenig	DET	PIS	PronType=Ind	6	advmod	_	start_char=1812|end_char=1817
+6	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1818|end_char=1824
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=1824|end_char=1825
+8	bis	bis	SCONJ	KOUS	_	14	mark	_	start_char=1826|end_char=1829
+9	alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	10	det	_	start_char=1830|end_char=1834
+10	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=1835|end_char=1843
+11	in	in	ADP	APPR	_	12	case	_	start_char=1844|end_char=1846
+12	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=1847|end_char=1858
+13	Telemedizin	Telemedizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obj	_	start_char=1859|end_char=1870
+14	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	6	advcl	_	start_char=1871|end_char=1877
+15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No|start_char=1878|end_char=1884
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=1884|end_char=1885
+
+# text = Denn es gibt noch einige Schwierigkeiten: * Gesetzliche Krankenkassen bieten noch nicht viele Angebote an.
+# sent_id = 22
+1	Denn	denn	CCONJ	KON	_	3	cc	_	start_char=1886|end_char=1890
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=1891|end_char=1893
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1894|end_char=1898
+4	noch	noch	ADV	ADV	_	3	advmod	_	start_char=1899|end_char=1903
+5	einige	einige	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=1904|end_char=1910
+6	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=1911|end_char=1926
+7	:	:	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s|start_char=1926|end_char=1927
+8	*	*	PUNCT	$(	_	11	punct	_	start_char=1929|end_char=1930
+9	Gesetzliche	gesetzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1931|end_char=1942
+10	Krankenkassen	Krankenkasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=1943|end_char=1956
+11	bieten	bieten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1957|end_char=1963
+12	noch	noch	ADV	ADV	_	13	advmod	_	start_char=1964|end_char=1968
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=1969|end_char=1974
+14	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	start_char=1975|end_char=1980
+15	Angebote	Angebot	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=1981|end_char=1989
+16	an	an	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No|start_char=1990|end_char=1992
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=1992|end_char=1993
+
+# text = * Sie übernehmen die Kosten nur, wenn es Kassenleistungen sind.
+# sent_id = 23
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1994|end_char=1995
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1996|end_char=1999
+3	übernehmen	übernehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2000|end_char=2010
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2011|end_char=2014
+5	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	3	obj	_	start_char=2015|end_char=2021
+6	nur	nur	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=2022|end_char=2025
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=2025|end_char=2026
+8	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=2027|end_char=2031
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=2032|end_char=2034
+10	Kassenleistungen	Kassenleistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	advcl	_	start_char=2035|end_char=2051
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No|start_char=2052|end_char=2056
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=2056|end_char=2057
+
+# text = *
+# sent_id = 24
+1	*	*	PUNCT	$(	_	0	root	_	start_char=2058|end_char=2059
+
+# text = Die Internetverbindung ist oft nicht gut genug, besonders in ländlichen Regionen.
+# sent_id = 25
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2060|end_char=2063
+2	Internetverbindung	Internetverbindung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2064|end_char=2082
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2083|end_char=2086
+4	oft	oft	ADV	ADV	_	6	advmod	_	start_char=2087|end_char=2090
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2091|end_char=2096
+6	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2097|end_char=2100
+7	genug	genug	ADV	ADV	PronType=Ind	6	advmod	_	SpaceAfter=No|start_char=2101|end_char=2106
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=2106|end_char=2107
+9	besonders	besonders	ADV	ADV	_	12	advmod	_	start_char=2108|end_char=2117
+10	in	in	ADP	APPR	_	12	case	_	start_char=2118|end_char=2120
+11	ländlichen	ländlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=2121|end_char=2131
+12	Regionen	Region	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=2132|end_char=2140
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=2140|end_char=2141
+
+# text = * Einige Menschen kennen sich nicht gut mit der Technik aus.
+# sent_id = 26
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=2142|end_char=2143
+2	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=2144|end_char=2150
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=2151|end_char=2159
+4	kennen	kennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2160|end_char=2166
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=2167|end_char=2171
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=2172|end_char=2177
+7	gut	gut	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2178|end_char=2181
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=2182|end_char=2185
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2186|end_char=2189
+10	Technik	Technik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=2190|end_char=2197
+11	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=2198|end_char=2201
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=2201|end_char=2202
+
+# text = Telemedizin kann den persönlichen Kontakt zum Arzt nicht ersetzen.
+# sent_id = 27
+1	Telemedizin	Telemedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2204|end_char=2215
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2216|end_char=2220
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2221|end_char=2224
+4	persönlichen	persönlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=2225|end_char=2237
+5	Kontakt	Kontakt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=2238|end_char=2245
+6-7	zum	_	_	_	_	_	_	_	start_char=2246|end_char=2249
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=2250|end_char=2254
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=2255|end_char=2260
+10	ersetzen	ersetzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2261|end_char=2269
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2269|end_char=2270
+
+# text = Patienten müssen trotzdem manchmal in die Praxis kommen oder Ärzte müssen zwischendurch Hausbesuche machen.
+# sent_id = 28
+1	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=2271|end_char=2280
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2281|end_char=2287
+3	trotzdem	trotzdem	ADV	PAV	_	8	advmod	_	start_char=2288|end_char=2296
+4	manchmal	manchmal	ADV	ADV	_	8	advmod	_	start_char=2297|end_char=2305
+5	in	in	ADP	APPR	_	7	case	_	start_char=2306|end_char=2308
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2309|end_char=2312
+7	Praxis	Praxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=2313|end_char=2319
+8	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2320|end_char=2326
+9	oder	oder	CCONJ	KON	_	14	cc	_	start_char=2327|end_char=2331
+10	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=2332|end_char=2337
+11	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2338|end_char=2344
+12	zwischendurch	zwischendurch	ADV	ADV	_	14	advmod	_	start_char=2345|end_char=2358
+13	Hausbesuche	Hausbesuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	start_char=2359|end_char=2370
+14	machen	machen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No|start_char=2371|end_char=2377
+15	.	.	PUNCT	$.	_	8	punct	_	start_char=2377|end_char=2378
+
+# text = Für ein Rezept oder eine Krankschreibung muss man heute noch in die Praxis gehen, aber das soll sich bald ändern.
+# sent_id = 29
+1	Für	für	ADP	APPR	_	3	case	_	start_char=2379|end_char=2382
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=2383|end_char=2386
+3	Rezept	Rezept	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	start_char=2387|end_char=2393
+4	oder	oder	CCONJ	KON	_	6	cc	_	start_char=2394|end_char=2398
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=2399|end_char=2403
+6	Krankschreibung	Krankschreibung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	start_char=2404|end_char=2419
+7	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2420|end_char=2424
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=2425|end_char=2428
+9	heute	heute	ADV	ADV	_	14	advmod	_	start_char=2429|end_char=2434
+10	noch	noch	ADV	ADV	_	14	advmod	_	start_char=2435|end_char=2439
+11	in	in	ADP	APPR	_	13	case	_	start_char=2440|end_char=2442
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=2443|end_char=2446
+13	Praxis	Praxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=2447|end_char=2453
+14	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2454|end_char=2459
+15	,	,	PUNCT	$,	_	21	punct	_	start_char=2459|end_char=2460
+16	aber	aber	CCONJ	KON	_	21	cc	_	start_char=2461|end_char=2465
+17	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	21	nsubj	_	start_char=2466|end_char=2469
+18	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=2470|end_char=2474
+19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	start_char=2475|end_char=2479
+20	bald	bald	ADV	ADV	_	21	advmod	_	start_char=2480|end_char=2484
+21	ändern	ändern	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No|start_char=2485|end_char=2491
+22	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=2491|end_char=2492
+
+# text = **Wo kann ich mehr erfahren?**
+# sent_id = 30
+1	**	**	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2494|end_char=2496
+2	Wo	wo	ADV	PWAV	PronType=Int	6	advmod	_	start_char=2496|end_char=2498
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2499|end_char=2503
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2504|end_char=2507
+5	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=2508|end_char=2512
+6	erfahren	erfahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2513|end_char=2521
+7	?	?	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=2521|end_char=2522
+8	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2522|end_char=2523
+9	*	*	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\s|start_char=2523|end_char=2524
+
+# text = Hier finden Sie Informationen: * Bei Ihrer Krankenkasse * Bei örtlichen Ärztekammern * Bei kassenärztlichen Vereinigungen **Wo bekomme ich noch mehr Informationen?**
+# sent_id = 31
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=2526|end_char=2530
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2531|end_char=2537
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2538|end_char=2541
+4	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=2542|end_char=2555
+5	:	:	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s|start_char=2555|end_char=2556
+6	*	*	PUNCT	$(	_	20	punct	_	start_char=2558|end_char=2559
+7	Bei	bei	ADP	APPR	_	9	case	_	start_char=2560|end_char=2563
+8	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=2564|end_char=2569
+9	Krankenkasse	Krankenkasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	start_char=2570|end_char=2582
+10	*	*	PUNCT	$(	_	13	punct	_	start_char=2583|end_char=2584
+11	Bei	bei	ADP	APPR	_	13	case	_	start_char=2585|end_char=2588
+12	örtlichen	örtlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=2589|end_char=2598
+13	Ärztekammern	Ärztekammer	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	start_char=2599|end_char=2611
+14	*	*	PUNCT	$(	_	17	punct	_	start_char=2612|end_char=2613
+15	Bei	bei	ADP	APPR	_	17	case	_	start_char=2614|end_char=2617
+16	kassenärztlichen	kassenärztlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=2618|end_char=2634
+17	Vereinigungen	Vereinigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	SpacesAfter=\s\s|start_char=2635|end_char=2648
+18	**	**	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=2650|end_char=2652
+19	Wo	wo	ADV	PWAV	PronType=Int	20	advmod	_	start_char=2652|end_char=2654
+20	bekomme	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2655|end_char=2662
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=2663|end_char=2666
+22	noch	noch	ADV	ADV	_	23	advmod	_	start_char=2667|end_char=2671
+23	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	24	det	_	start_char=2672|end_char=2676
+24	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No|start_char=2677|end_char=2690
+25	?	?	PUNCT	$.	_	20	punct	_	SpaceAfter=No|start_char=2690|end_char=2691
+26	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=2691|end_char=2692
+27	*	*	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\s|start_char=2692|end_char=2693
+
+# text = Sie möchten noch mehr über Telemedizin lesen?
+# sent_id = 32
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=2695|end_char=2698
+2	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=2699|end_char=2706
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=2707|end_char=2711
+4	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=2712|end_char=2716
+5	über	über	ADP	APPR	_	6	case	_	start_char=2717|end_char=2721
+6	Telemedizin	Telemedizin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=2722|end_char=2733
+7	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2734|end_char=2739
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=2739|end_char=2740
+
+# text = Mehr Informationen über Telemedizin finden Sie auf anderen Websites.
+# sent_id = 33
+1	Mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	2	det	_	start_char=2741|end_char=2745
+2	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=2746|end_char=2759
+3	über	über	ADP	APPR	_	4	case	_	start_char=2760|end_char=2764
+4	Telemedizin	Telemedizin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=2765|end_char=2776
+5	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2777|end_char=2783
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=2784|end_char=2787
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=2788|end_char=2791
+8	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	start_char=2792|end_char=2799
+9	Websites	Websites	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|start_char=2800|end_char=2808
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=2808|end_char=2809
+
+# text = Beachten Sie jedoch, dass diese Informationen nicht mehr in einfacher Sprache sind.
+# sent_id = 34
+1	Beachten	beachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2810|end_char=2818
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2819|end_char=2822
+3	jedoch	jedoch	ADV	ADV	_	1	advmod	_	SpaceAfter=No|start_char=2823|end_char=2829
+4	,	,	PUNCT	$,	_	13	punct	_	start_char=2829|end_char=2830
+5	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=2831|end_char=2835
+6	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=2836|end_char=2841
+7	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=2842|end_char=2855
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=2856|end_char=2861
+9	mehr	mehr	ADV	ADV	_	13	advmod	_	start_char=2862|end_char=2866
+10	in	in	ADP	APPR	_	12	case	_	start_char=2867|end_char=2869
+11	einfacher	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=2870|end_char=2879
+12	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=2880|end_char=2887
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No|start_char=2888|end_char=2892
+14	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=2892|end_char=2893
+

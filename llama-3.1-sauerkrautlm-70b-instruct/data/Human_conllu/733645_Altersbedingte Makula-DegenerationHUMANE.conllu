@@ -1,0 +1,470 @@
+# text = Dieser Text war schon in der einfachen Sprache verfasst.
+# sent_id = 0
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=6
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=7|end_char=11
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=12|end_char=15
+4	schon	schon	ADV	ADV	_	9	advmod	_	start_char=16|end_char=21
+5	in	in	ADP	APPR	_	8	case	_	start_char=22|end_char=24
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=25|end_char=28
+7	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=29|end_char=38
+8	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=39|end_char=46
+9	verfasst	verfassen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=47|end_char=55
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=55|end_char=56
+
+# text = Ich kann ihn jedoch in eine noch vereinfachtere Sprache übersetzen, die leichter verständlich ist.
+# sent_id = 1
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=57|end_char=60
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=61|end_char=65
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=66|end_char=69
+4	jedoch	jedoch	ADV	ADV	_	10	advmod	_	start_char=70|end_char=76
+5	in	in	ADP	APPR	_	9	case	_	start_char=77|end_char=79
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=80|end_char=84
+7	noch	noch	ADV	ADV	_	8	advmod	_	start_char=85|end_char=89
+8	vereinfachtere	vereinfachter	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	start_char=90|end_char=104
+9	Sprache	Sprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=105|end_char=112
+10	übersetzen	übersetzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=113|end_char=123
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=123|end_char=124
+12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	14	nsubj	_	start_char=125|end_char=128
+13	leichter	leicht	ADJ	ADJD	Degree=Cmp	14	advmod	_	start_char=129|end_char=137
+14	verständlich	verständlich	ADJ	ADJD	Degree=Pos	9	acl	_	start_char=138|end_char=150
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|start_char=151|end_char=154
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=154|end_char=155
+
+# text = Hier ist die Übersetzung: **Altersbedingte Makula-Degeneration** Eine Makula-Degeneration ist eine Erkrankung des Auges.
+# sent_id = 2
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=157|end_char=161
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=162|end_char=165
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=166|end_char=169
+4	Übersetzung	Übersetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=170|end_char=181
+5	:	:	PUNCT	$.	_	19	punct	_	SpacesAfter=\s\s|start_char=181|end_char=182
+6	**	**	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=184|end_char=186
+7	Altersbedingte	altersbedingt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=186|end_char=200
+8	Makula	Makula	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No|start_char=201|end_char=207
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=207|end_char=208
+10	Degeneration	Degeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|start_char=208|end_char=220
+11	*	*	PUNCT	$(	_	19	punct	_	SpaceAfter=No|start_char=220|end_char=221
+12	*	*	PUNCT	$(	_	19	punct	_	SpacesAfter=\s\s|start_char=221|end_char=222
+13	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=224|end_char=228
+14	Makula	Makula	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	16	compound	_	SpaceAfter=No|start_char=229|end_char=235
+15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=235|end_char=236
+16	Degeneration	Degeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=236|end_char=248
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=249|end_char=252
+18	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	19	det	_	start_char=253|end_char=257
+19	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=258|end_char=268
+20	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=269|end_char=272
+21	Auges	Auge	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|start_char=273|end_char=278
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=278|end_char=279
+
+# text = Sie macht, dass wir schlechter sehen.
+# sent_id = 3
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=280|end_char=283
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=284|end_char=289
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=289|end_char=290
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	start_char=291|end_char=295
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=296|end_char=299
+6	schlechter	schlecht	ADJ	ADJD	Degree=Cmp	7	xcomp	_	start_char=300|end_char=310
+7	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|start_char=311|end_char=316
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=316|end_char=317
+
+# text = **Was ist die Makula?**
+# sent_id = 4
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=319|end_char=321
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=321|end_char=324
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=325|end_char=328
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=329|end_char=332
+5	Makula	Makula	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=333|end_char=339
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=339|end_char=340
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=340|end_char=341
+8	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=341|end_char=342
+
+# text = Die Makula ist ein Teil der Netzhaut im Innern des Auges.
+# sent_id = 5
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=344|end_char=347
+2	Makula	Makula	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=348|end_char=354
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=355|end_char=358
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=359|end_char=362
+5	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=363|end_char=367
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=368|end_char=371
+7	Netzhaut	Netzhaut	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=372|end_char=380
+8-9	im	_	_	_	_	_	_	_	start_char=381|end_char=383
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Innern	Inneres	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=384|end_char=390
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=391|end_char=394
+12	Auges	Auge	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=395|end_char=400
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=400|end_char=401
+
+# text = Dank der Makula können wir scharf sehen.
+# sent_id = 6
+1	Dank	dank	ADP	APPR	_	3	case	_	start_char=402|end_char=406
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=407|end_char=410
+3	Makula	Makula	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=411|end_char=417
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=418|end_char=424
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=425|end_char=428
+6	scharf	scharf	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=429|end_char=435
+7	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=436|end_char=441
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=441|end_char=442
+
+# text = **Wer bekommt eine Makula-Degeneration?**
+# sent_id = 7
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=444|end_char=446
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=446|end_char=449
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=450|end_char=457
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=458|end_char=462
+5	Makula	Makula	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=463|end_char=469
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=469|end_char=470
+7	Degeneration	Degeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=470|end_char=482
+8	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=482|end_char=483
+9	*	*	PUNCT	$(	_	3	dep	_	SpaceAfter=No|start_char=483|end_char=484
+10	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=484|end_char=485
+
+# text = Häufiger erkranken Personen über 60 Jahren an einer Makula-Degeneration.
+# sent_id = 8
+1	Häufiger	häufig	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=487|end_char=495
+2	erkranken	erkranken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=496|end_char=505
+3	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=506|end_char=514
+4	über	über	ADP	ADV	_	6	case	_	start_char=515|end_char=519
+5	60	60	NUM	CARD	NumType=Card	6	nummod	_	start_char=520|end_char=522
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=523|end_char=529
+7	an	an	ADP	APPR	_	11	case	_	start_char=530|end_char=532
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=533|end_char=538
+9	Makula	Makula	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No|start_char=539|end_char=545
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=545|end_char=546
+11	Degeneration	Degeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=546|end_char=558
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=558|end_char=559
+
+# text = Deshalb nennt man sie altersbedingte Makula-Degeneration.
+# sent_id = 9
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=560|end_char=567
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=568|end_char=573
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=574|end_char=577
+4	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=578|end_char=581
+5	altersbedingte	altersbedingt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=582|end_char=596
+6	Makula	Makula	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=597|end_char=603
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=603|end_char=604
+8	Degeneration	Degeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=604|end_char=616
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=616|end_char=617
+
+# text = **Was passiert bei einer Makula-Degeneration?**
+# sent_id = 10
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=619|end_char=621
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=621|end_char=624
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=625|end_char=633
+4	bei	bei	ADP	APPR	_	8	case	_	start_char=634|end_char=637
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=638|end_char=643
+6	Makula	Makula	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=644|end_char=650
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=650|end_char=651
+8	Degeneration	Degeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=651|end_char=663
+9	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=663|end_char=664
+10	*	*	PUNCT	$(	_	3	dep	_	SpaceAfter=No|start_char=664|end_char=665
+11	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=665|end_char=666
+
+# text = Es gibt zwei Arten von Makula-Degeneration: * Feuchte Makula-Degeneration: Neue Gefäße wachsen unter der Makula und können Blut austreten.
+# sent_id = 11
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=668|end_char=670
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=671|end_char=675
+3	zwei	zwei	NUM	CARD	NumType=Card	4	nummod	_	start_char=676|end_char=680
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=681|end_char=686
+5	von	von	ADP	APPR	_	6	case	_	start_char=687|end_char=690
+6	Makula	Makula	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=691|end_char=697
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=697|end_char=698
+8	Degeneration	Degeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No|start_char=698|end_char=710
+9	:	:	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=710|end_char=711
+10	*	*	PUNCT	$(	_	12	punct	_	start_char=713|end_char=714
+11	Feuchte	Feuchte	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=715|end_char=722
+12	Makula	Makula	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|start_char=723|end_char=729
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=729|end_char=730
+14	Degeneration	Degeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	flat	_	SpaceAfter=No|start_char=730|end_char=742
+15	:	:	PUNCT	$.	_	18	punct	_	start_char=742|end_char=743
+16	Neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=744|end_char=748
+17	Gefäße	Gefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=749|end_char=755
+18	wachsen	wachsen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=756|end_char=763
+19	unter	unter	ADP	APPR	_	21	case	_	start_char=764|end_char=769
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=770|end_char=773
+21	Makula	Makula	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=774|end_char=780
+22	und	und	CCONJ	KON	_	25	cc	_	start_char=781|end_char=784
+23	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=785|end_char=791
+24	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	start_char=792|end_char=796
+25	austreten	austreten	VERB	VVINF	VerbForm=Inf	18	conj	_	SpaceAfter=No|start_char=797|end_char=806
+26	.	.	PUNCT	$.	_	2	punct	_	start_char=806|end_char=807
+
+# text = * Trockene Makula-Degeneration: Kleine Teilchen lagern sich auf der Makula ab und schädigen die Sehzellen.
+# sent_id = 12
+1	*	*	PUNCT	$(	_	3	advmod	_	start_char=808|end_char=809
+2	Trockene	trocken	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=810|end_char=818
+3	Makula	Makula	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No|start_char=819|end_char=825
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=825|end_char=826
+5	Degeneration	Degeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=826|end_char=838
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=838|end_char=839
+7	Kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=840|end_char=846
+8	Teilchen	Teilchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=847|end_char=855
+9	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=856|end_char=862
+10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=863|end_char=867
+11	auf	auf	ADP	APPR	_	13	case	_	start_char=868|end_char=871
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=872|end_char=875
+13	Makula	Makula	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=876|end_char=882
+14	ab	ab	ADP	PTKVZ	_	9	compound:prt	_	start_char=883|end_char=885
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=886|end_char=889
+16	schädigen	schädigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=890|end_char=899
+17	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=900|end_char=903
+18	Sehzellen	Sehzelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No|start_char=904|end_char=913
+19	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=913|end_char=914
+
+# text = **Warum bekommen Menschen eine Makula-Degeneration?**
+# sent_id = 13
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=916|end_char=918
+2	Warum	warum	ADV	PWAV	PronType=Int	3	advmod	_	start_char=918|end_char=923
+3	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=924|end_char=932
+4	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=933|end_char=941
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=942|end_char=946
+6	Makula	Makula	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=947|end_char=953
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=953|end_char=954
+8	Degeneration	Degeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=954|end_char=966
+9	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=966|end_char=967
+10	*	*	PUNCT	$(	_	3	dep	_	SpaceAfter=No|start_char=967|end_char=968
+11	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=968|end_char=969
+
+# text = Einige Ursachen sind: * Rauchen * Bluthochdruck * Veranlagung (wenn ein Familienmitglied auch eine Makula-Degeneration hat) * UV-Licht (wenn man oft ohne Sonnenbrille in die Sonne sieht) **Wie erkennt man eine Makula-Degeneration?**
+# sent_id = 14
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=971|end_char=977
+2	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=978|end_char=986
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No|start_char=987|end_char=991
+4	:	:	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=991|end_char=992
+5	*	*	PUNCT	$(	_	6	punct	_	start_char=994|end_char=995
+6	Rauchen	Rauchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=996|end_char=1003
+7	*	*	PUNCT	$(	_	8	punct	_	start_char=1004|end_char=1005
+8	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=1006|end_char=1019
+9	*	*	PUNCT	$(	_	10	punct	_	start_char=1020|end_char=1021
+10	Veranlagung	Veranlagung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=1022|end_char=1033
+11	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=1034|end_char=1035
+12	wenn	wenn	SCONJ	KOUS	_	20	mark	_	start_char=1035|end_char=1039
+13	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1040|end_char=1043
+14	Familienmitglied	Familienmitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	start_char=1044|end_char=1060
+15	auch	auch	ADV	ADV	_	20	advmod	_	start_char=1061|end_char=1065
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	19	det	_	start_char=1066|end_char=1070
+17	Makula	Makula	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	compound	_	SpaceAfter=No|start_char=1071|end_char=1077
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=1077|end_char=1078
+19	Degeneration	Degeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	obj	_	start_char=1078|end_char=1090
+20	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No|start_char=1091|end_char=1094
+21	)	)	PUNCT	$(	_	20	punct	_	start_char=1094|end_char=1095
+22	*	*	PUNCT	$(	_	23	punct	_	start_char=1096|end_char=1097
+23	UV	UV	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No|start_char=1098|end_char=1100
+24	-	-	PUNCT	$(	_	25	punct	_	SpaceAfter=No|start_char=1100|end_char=1101
+25	Licht	Licht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=1101|end_char=1106
+26	(	(	PUNCT	$(	_	35	punct	_	SpaceAfter=No|start_char=1107|end_char=1108
+27	wenn	wenn	SCONJ	KOUS	_	35	mark	_	start_char=1108|end_char=1112
+28	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	35	nsubj	_	start_char=1113|end_char=1116
+29	oft	oft	ADV	ADV	_	35	advmod	_	start_char=1117|end_char=1120
+30	ohne	ohne	ADP	APPR	_	31	case	_	start_char=1121|end_char=1125
+31	Sonnenbrille	Sonnenbrille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	obl	_	start_char=1126|end_char=1138
+32	in	in	ADP	APPR	_	34	case	_	start_char=1139|end_char=1141
+33	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=1142|end_char=1145
+34	Sonne	Sonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	obl	_	start_char=1146|end_char=1151
+35	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	SpaceAfter=No|start_char=1152|end_char=1157
+36	)	)	PUNCT	$(	_	35	punct	_	SpacesAfter=\s\s|start_char=1157|end_char=1158
+37	**	**	PUNCT	$(	_	39	punct	_	SpaceAfter=No|start_char=1160|end_char=1162
+38	Wie	wie	ADV	PWAV	PronType=Int	39	advmod	_	start_char=1162|end_char=1165
+39	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	start_char=1166|end_char=1173
+40	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	39	nsubj	_	start_char=1174|end_char=1177
+41	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	44	det	_	start_char=1178|end_char=1182
+42	Makula	Makula	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	compound	_	SpaceAfter=No|start_char=1183|end_char=1189
+43	-	-	PUNCT	$(	_	42	punct	_	SpaceAfter=No|start_char=1189|end_char=1190
+44	Degeneration	Degeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No|start_char=1190|end_char=1202
+45	?	?	PUNCT	$.	_	39	punct	_	SpaceAfter=No|start_char=1202|end_char=1203
+46	*	*	PUNCT	$(	_	39	punct	_	SpaceAfter=No|start_char=1203|end_char=1204
+47	*	*	PUNCT	$(	_	39	punct	_	SpacesAfter=\s\s|start_char=1204|end_char=1205
+
+# text = Die Anzeichen sind: * Verzerrte Linien * Dunkle Flecken im Sichtfeld * Schlechteres Sehen in der Mitte des Sichtfeldes * Schwierigkeiten beim Lesen **Was kann man tun, wenn man eine Makula-Degeneration hat?** *
+# sent_id = 15
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1207|end_char=1210
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=1211|end_char=1220
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No|start_char=1221|end_char=1225
+4	:	:	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=1225|end_char=1226
+5	*	*	PUNCT	$(	_	7	punct	_	start_char=1228|end_char=1229
+6	Verzerrte	verzerrt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1230|end_char=1239
+7	Linien	Linie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1240|end_char=1246
+8	*	*	PUNCT	$(	_	10	punct	_	start_char=1247|end_char=1248
+9	Dunkle	Dunkles	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1249|end_char=1255
+10	Flecken	Flecken	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	start_char=1256|end_char=1263
+11-12	im	_	_	_	_	_	_	_	start_char=1264|end_char=1266
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Sichtfeld	Sichtfeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	start_char=1267|end_char=1276
+14	*	*	PUNCT	$(	_	16	punct	_	start_char=1277|end_char=1278
+15	Schlechteres	schlecht	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	16	amod	_	start_char=1279|end_char=1291
+16	Sehen	Sehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	start_char=1292|end_char=1297
+17	in	in	ADP	APPR	_	19	case	_	start_char=1298|end_char=1300
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1301|end_char=1304
+19	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=1305|end_char=1310
+20	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=1311|end_char=1314
+21	Sichtfeldes	Sichtfeld	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=1315|end_char=1326
+22	*	*	PUNCT	$(	_	23	punct	_	start_char=1327|end_char=1328
+23	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	start_char=1329|end_char=1344
+24-25	beim	_	_	_	_	_	_	_	start_char=1345|end_char=1349
+24	bei	bei	ADP	APPR	_	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Lesen	Lesen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	SpacesAfter=\s\s|start_char=1350|end_char=1355
+27	**	**	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=1357|end_char=1359
+28	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	31	obj	_	start_char=1359|end_char=1362
+29	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	start_char=1363|end_char=1367
+30	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	31	nsubj	_	start_char=1368|end_char=1371
+31	tun	tun	VERB	VVINF	VerbForm=Inf	7	parataxis	_	SpaceAfter=No|start_char=1372|end_char=1375
+32	,	,	PUNCT	$,	_	39	punct	_	start_char=1375|end_char=1376
+33	wenn	wenn	SCONJ	KOUS	_	39	mark	_	start_char=1377|end_char=1381
+34	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	39	nsubj	_	start_char=1382|end_char=1385
+35	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	38	det	_	start_char=1386|end_char=1390
+36	Makula	Makula	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	compound	_	SpaceAfter=No|start_char=1391|end_char=1397
+37	-	-	PUNCT	$(	_	36	punct	_	SpaceAfter=No|start_char=1397|end_char=1398
+38	Degeneration	Degeneration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	obj	_	start_char=1398|end_char=1410
+39	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	SpaceAfter=No|start_char=1411|end_char=1414
+40	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1414|end_char=1415
+41	**	**	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=1415|end_char=1417
+42	*	*	PUNCT	$(	_	7	punct	_	start_char=1419|end_char=1420
+
+# text = Man kann spezielle Brillen oder Lesehilfen verwenden.
+# sent_id = 16
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1421|end_char=1424
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1425|end_char=1429
+3	spezielle	speziell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1430|end_char=1439
+4	Brillen	Brille	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=1440|end_char=1447
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=1448|end_char=1452
+6	Lesehilfen	Lesehilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	start_char=1453|end_char=1463
+7	verwenden	verwenden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1464|end_char=1473
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1473|end_char=1474
+
+# text = * Eine feuchte Makula-Degeneration kann mit der Anti-VEGF-Therapie behandelt werden.
+# sent_id = 17
+1	*	*	PUNCT	$(	_	14	punct	_	start_char=1475|end_char=1476
+2	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=1477|end_char=1481
+3	feuchte	feucht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1482|end_char=1489
+4	Makula	Makula	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	SpaceAfter=No|start_char=1490|end_char=1496
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1496|end_char=1497
+6	Degeneration	Degeneration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=1497|end_char=1509
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1510|end_char=1514
+8	mit	mit	ADP	APPR	_	11	case	_	start_char=1515|end_char=1518
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1519|end_char=1522
+10	Anti-	Anti-	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No|start_char=1523|end_char=1528
+11	VEGF	VEGF	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|start_char=1528|end_char=1532
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=1532|end_char=1533
+13	Therapie	Therapie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	flat	_	start_char=1533|end_char=1541
+14	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1542|end_char=1551
+15	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	14	aux:pass	_	SpaceAfter=No|start_char=1552|end_char=1558
+16	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=1558|end_char=1559
+
+# text = **Wie kann man einer Makula-Degeneration vorbeugen?** * Lassen Sie Ihre Augen regelmäßig überprüfen.
+# sent_id = 18
+1	**	**	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1561|end_char=1563
+2	Wie	wie	ADV	PWAV	PronType=Int	9	advmod	_	start_char=1563|end_char=1566
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1567|end_char=1571
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1572|end_char=1575
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1576|end_char=1581
+6	Makula	Makula	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=1582|end_char=1588
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1588|end_char=1589
+8	Degeneration	Degeneration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl:arg	_	start_char=1589|end_char=1601
+9	vorbeugen	vorbeugen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1602|end_char=1611
+10	?	?	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=1611|end_char=1612
+11	**	**	PUNCT	$(	_	13	punct	_	SpacesAfter=\s\s|start_char=1612|end_char=1614
+12	*	*	PUNCT	$(	_	13	punct	_	start_char=1616|end_char=1617
+13	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=1618|end_char=1624
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=1625|end_char=1628
+15	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=1629|end_char=1633
+16	Augen	Auge	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=1634|end_char=1639
+17	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=1640|end_char=1650
+18	überprüfen	überprüfen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|start_char=1651|end_char=1661
+19	.	.	PUNCT	$.	_	9	punct	_	start_char=1661|end_char=1662
+
+# text = * Machen Sie den Amsler-Gitter-Test. * Tragen Sie eine Sonnenbrille, wenn Sie in die Sonne sehen.
+# sent_id = 19
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1663|end_char=1664
+2	Machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1665|end_char=1671
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1672|end_char=1675
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1676|end_char=1679
+5	Amsler	Amsler	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No|start_char=1680|end_char=1686
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1686|end_char=1687
+7	Gitter	Gitter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No|start_char=1687|end_char=1693
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1693|end_char=1694
+9	Test	Test	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=1694|end_char=1698
+10	.	.	PUNCT	$.	_	12	punct	_	start_char=1698|end_char=1699
+11	*	*	PUNCT	$(	_	12	punct	_	start_char=1700|end_char=1701
+12	Tragen	Tragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1702|end_char=1708
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=1709|end_char=1712
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=1713|end_char=1717
+15	Sonnenbrille	Sonnenbrille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|start_char=1718|end_char=1730
+16	,	,	PUNCT	$,	_	22	punct	_	start_char=1730|end_char=1731
+17	wenn	wenn	SCONJ	KOUS	_	22	mark	_	start_char=1732|end_char=1736
+18	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	22	nsubj	_	start_char=1737|end_char=1740
+19	in	in	ADP	APPR	_	21	case	_	start_char=1741|end_char=1743
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1744|end_char=1747
+21	Sonne	Sonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	start_char=1748|end_char=1753
+22	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=1754|end_char=1759
+23	.	.	PUNCT	$.	_	2	punct	_	start_char=1759|end_char=1760
+
+# text = * Rennen Sie nicht.
+# sent_id = 20
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1761|end_char=1762
+2	Rennen	Rennen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1763|end_char=1769
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1770|end_char=1773
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|start_char=1774|end_char=1779
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=1779|end_char=1780
+
+# text = * Ernähren Sie sich gesund.
+# sent_id = 21
+1	*	*	PUNCT	$(	_	2	advmod	_	start_char=1781|end_char=1782
+2	Ernähren	ernähren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1783|end_char=1791
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1792|end_char=1795
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	nsubj	_	start_char=1796|end_char=1800
+5	gesund	gesund	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No|start_char=1801|end_char=1807
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=1807|end_char=1808
+
+# text = **Wo kann man mehr Informationen finden?**
+# sent_id = 22
+1	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1810|end_char=1812
+2	Wo	wo	ADV	PWAV	PronType=Int	7	advmod	_	start_char=1812|end_char=1814
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1815|end_char=1819
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1820|end_char=1823
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=1824|end_char=1828
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=1829|end_char=1842
+7	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1843|end_char=1849
+8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1849|end_char=1850
+9	**	**	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=1850|end_char=1852
+
+# text = Sie können hier mehr Informationen finden... Beachten Sie jedoch, dass diese Informationen nicht in einfacher Sprache sind.
+# sent_id = 23
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1854|end_char=1857
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1858|end_char=1864
+3	hier	hier	ADV	ADV	_	6	advmod	_	start_char=1865|end_char=1869
+4	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	5	det	_	start_char=1870|end_char=1874
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=1875|end_char=1888
+6	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1889|end_char=1895
+7	...	...	PUNCT	$(	_	8	punct	_	start_char=1895|end_char=1898
+8	Beachten	beachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=1899|end_char=1907
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=1908|end_char=1911
+10	jedoch	jedoch	ADV	ADV	_	8	advmod	_	SpaceAfter=No|start_char=1912|end_char=1918
+11	,	,	PUNCT	$,	_	19	punct	_	start_char=1918|end_char=1919
+12	dass	dass	SCONJ	KOUS	_	19	mark	_	start_char=1920|end_char=1924
+13	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	start_char=1925|end_char=1930
+14	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	start_char=1931|end_char=1944
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	start_char=1945|end_char=1950
+16	in	in	ADP	APPR	_	18	case	_	start_char=1951|end_char=1953
+17	einfacher	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=1954|end_char=1963
+18	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	start_char=1964|end_char=1971
+19	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No|start_char=1972|end_char=1976
+20	.	.	PUNCT	$.	_	6	punct	_	start_char=1976|end_char=1977
+
+# text = Besuchen Sie am besten einen Arzt, wenn Sie Fragen haben.
+# sent_id = 24
+1	Besuchen	Besuch	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1978|end_char=1986
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1987|end_char=1990
+3-4	am	_	_	_	_	_	_	_	start_char=1991|end_char=1993
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	besten	gut	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	1	obl	_	start_char=1994|end_char=2000
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=2001|end_char=2006
+7	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|start_char=2007|end_char=2011
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=2011|end_char=2012
+9	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=2013|end_char=2017
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=2018|end_char=2021
+11	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=2022|end_char=2028
+12	haben	haben	VERB	VAINF	Number=Plur|Person=3|VerbForm=Fin	1	advcl	_	SpaceAfter=No|start_char=2029|end_char=2034
+13	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=2034|end_char=2035
+
