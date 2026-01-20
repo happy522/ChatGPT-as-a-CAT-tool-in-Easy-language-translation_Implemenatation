@@ -1,757 +1,793 @@
-# text = Alzheimer Krankheit Hier lesen Sie eine Information über die Alzheimer Krankheit in Leichter Sprache.
+# text = Hier ist eine Reformulierung nach Ihrem linguistischen Ansatz: --- **Alzheimer-Krankheit** Alzheimer ist eine Krankheit.
 # sent_id = 0
-1	Alzheimer	Alzheimer	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=9
-2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	start_char=10|end_char=19
-3	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=20|end_char=24
-4	lesen	lesen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=25|end_char=30
-5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=31|end_char=34
-6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=35|end_char=39
-7	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=40|end_char=51
-8	über	über	ADP	APPR	_	11	case	_	start_char=52|end_char=56
-9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=57|end_char=60
-10	Alzheimer	Alzheimer	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	start_char=61|end_char=70
-11	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=71|end_char=80
-12	in	in	ADP	APPR	_	14	case	_	start_char=81|end_char=83
-13	Leichter	Leichter	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	start_char=84|end_char=92
-14	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=93|end_char=100
-15	.	.	PUNCT	$.	_	4	punct	_	start_char=100|end_char=101
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=9|end_char=13
+4	Reformulierung	Reformulierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=14|end_char=28
+5	nach	nach	ADP	APPR	_	8	case	_	start_char=29|end_char=33
+6	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=34|end_char=39
+7	linguistischen	linguistisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=40|end_char=54
+8	Ansatz	Ansatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=55|end_char=61
+9	:	:	PUNCT	$.	_	21	punct	_	start_char=61|end_char=62
+10	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No|start_char=63|end_char=64
+11	--	--	PUNCT	$(	_	15	punct	_	start_char=64|end_char=66
+12	**	**	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=67|end_char=69
+13	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	compound	_	SpaceAfter=No|start_char=69|end_char=78
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=78|end_char=79
+15	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No|start_char=79|end_char=88
+16	*	*	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=88|end_char=89
+17	*	*	PUNCT	$(	_	18	punct	_	start_char=89|end_char=90
+18	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	start_char=91|end_char=100
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=101|end_char=104
+20	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	21	det	_	start_char=105|end_char=109
+21	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=110|end_char=119
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=119|end_char=120
 
-# text = Was ist die Alzheimer Krankheit?
+# text = Sie betrifft das Gehirn.
 # sent_id = 1
-1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=102|end_char=105
-2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=106|end_char=109
-3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=110|end_char=113
-4	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	start_char=114|end_char=123
-5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=124|end_char=133
-6	?	?	PUNCT	$.	_	5	punct	_	start_char=133|end_char=134
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=121|end_char=124
+2	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=125|end_char=133
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=134|end_char=137
+4	Gehirn	Gehirn	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=138|end_char=144
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=144|end_char=145
 
-# text = Bei der Alzheimer Krankheit werden bestimmte Teile im Gehirn krank.
+# text = Gehirn ist das Organ im Kopf, das Denken und Erinnern möglich macht.
 # sent_id = 2
-1	Bei	bei	ADP	APPR	_	4	case	_	start_char=135|end_char=138
-2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=139|end_char=142
-3	Alzheimer	Alzheimer	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	start_char=143|end_char=152
-4	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	start_char=153|end_char=162
-5	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	start_char=163|end_char=169
-6	bestimmte	bestimmt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=170|end_char=179
-7	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=180|end_char=185
-8-9	im	_	_	_	_	_	_	_	start_char=186|end_char=188
-8	in	in	ADP	APPR	_	10	case	_	_
-9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
-10	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=189|end_char=195
-11	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=196|end_char=201
-12	.	.	PUNCT	$.	_	11	punct	_	start_char=201|end_char=202
+1	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=146|end_char=152
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=153|end_char=156
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=157|end_char=160
+4	Organ	Organ	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=161|end_char=166
+5-6	im	_	_	_	_	_	_	_	start_char=167|end_char=169
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Kopf	Kopf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=170|end_char=174
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=174|end_char=175
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=176|end_char=179
+10	Denken	Denken	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	start_char=180|end_char=186
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=187|end_char=190
+12	Erinnern	Erinneres	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	start_char=191|end_char=199
+13	möglich	möglich	ADJ	ADJD	Degree=Pos	14	xcomp	_	start_char=200|end_char=207
+14	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No|start_char=208|end_char=213
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=213|end_char=214
 
-# text = Das Gehirn kann dann nicht mehr richtig arbeiten.
+# text = Bei Alzheimer sterben Nervenzellen.
 # sent_id = 3
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=203|end_char=206
-2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=207|end_char=213
-3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=214|end_char=218
-4	dann	dann	ADV	ADV	_	8	advmod	_	start_char=219|end_char=223
-5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=224|end_char=229
-6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=230|end_char=234
-7	richtig	richtig	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=235|end_char=242
-8	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=243|end_char=251
-9	.	.	PUNCT	$.	_	8	punct	_	start_char=251|end_char=252
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=215|end_char=218
+2	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=219|end_char=228
+3	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=229|end_char=236
+4	Nervenzellen	Nervenzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=237|end_char=249
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=249|end_char=250
 
-# text = Menschen mit Alzheimer vergessen viele Dinge.
+# text = Nervenzellen sind kleine Bausteine im Gehirn.
 # sent_id = 4
-1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=253|end_char=261
-2	mit	mit	ADP	APPR	_	3	case	_	start_char=262|end_char=265
-3	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	start_char=266|end_char=275
-4	vergessen	vergessen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=276|end_char=285
-5	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	start_char=286|end_char=291
-6	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|start_char=292|end_char=297
-7	.	.	PUNCT	$.	_	4	punct	_	start_char=297|end_char=298
+1	Nervenzellen	Nervenzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=251|end_char=263
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=264|end_char=268
+3	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=269|end_char=275
+4	Bausteine	Baustein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=276|end_char=285
+5-6	im	_	_	_	_	_	_	_	start_char=286|end_char=288
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=289|end_char=295
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=295|end_char=296
 
-# text = Sie finden sich oft nicht zurecht.
+# text = Sie helfen beim Denken und Erinnern.
 # sent_id = 5
-1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=299|end_char=302
-2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=303|end_char=309
-3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=310|end_char=314
-4	oft	oft	ADV	ADV	_	2	advmod	_	start_char=315|end_char=318
-5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=319|end_char=324
-6	zurecht	zurecht	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=325|end_char=332
-7	.	.	PUNCT	$.	_	2	punct	_	start_char=332|end_char=333
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=297|end_char=300
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=301|end_char=307
+3-4	beim	_	_	_	_	_	_	_	start_char=308|end_char=312
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Denken	Denken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=313|end_char=319
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=320|end_char=323
+7	Erinnern	Erinneres	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|start_char=324|end_char=332
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=332|end_char=333
 
-# text = Sie können manchmal schwer sprechen.
+# text = Menschen mit Alzheimer vergessen viel.
 # sent_id = 6
-1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=334|end_char=337
-2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=338|end_char=344
-3	manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=345|end_char=353
-4	schwer	schwer	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=354|end_char=360
-5	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=361|end_char=369
-6	.	.	PUNCT	$.	_	5	punct	_	start_char=369|end_char=370
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=334|end_char=342
+2	mit	mit	ADP	APPR	_	3	case	_	start_char=343|end_char=346
+3	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	start_char=347|end_char=356
+4	vergessen	vergessen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=357|end_char=366
+5	viel	viel	DET	PIS	PronType=Ind	4	obj	_	SpaceAfter=No|start_char=367|end_char=371
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=371|end_char=372
 
-# text = Die Alzheimer Krankheit kommt meistens bei älteren Menschen, oft nach 60 Jahren.
+# text = Sie haben Probleme im Alltag.
 # sent_id = 7
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=371|end_char=374
-2	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=375|end_char=384
-3	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=385|end_char=394
-4	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=395|end_char=400
-5	meistens	meistens	ADV	ADV	_	4	advmod	_	start_char=401|end_char=409
-6	bei	bei	ADP	APPR	_	8	case	_	start_char=410|end_char=413
-7	älteren	alt	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur	8	amod	_	start_char=414|end_char=421
-8	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|start_char=422|end_char=430
-9	,	,	PUNCT	$,	_	13	punct	_	start_char=430|end_char=431
-10	oft	oft	ADV	ADV	_	13	advmod	_	start_char=432|end_char=435
-11	nach	nach	ADP	APPR	_	13	case	_	start_char=436|end_char=440
-12	60	60	NUM	CARD	NumType=Card	13	nummod	_	start_char=441|end_char=443
-13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No|start_char=444|end_char=450
-14	.	.	PUNCT	$.	_	4	punct	_	start_char=450|end_char=451
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=373|end_char=376
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=377|end_char=382
+3	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=383|end_char=391
+4-5	im	_	_	_	_	_	_	_	start_char=392|end_char=394
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=395|end_char=401
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=401|end_char=402
 
-# text = Durch die Alzheimer Krankheit bekommen Menschen meistens Demenz.
+# text = Sie können sich schlecht orientieren.
 # sent_id = 8
-1	Durch	durch	ADP	APPR	_	4	case	_	start_char=452|end_char=457
-2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=458|end_char=461
-3	Alzheimer	Alzheimer	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	start_char=462|end_char=471
-4	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=472|end_char=481
-5	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=482|end_char=490
-6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=491|end_char=499
-7	meistens	meistens	ADV	ADV	_	5	advmod	_	start_char=500|end_char=508
-8	Demenz	Demenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|start_char=509|end_char=515
-9	.	.	PUNCT	$.	_	5	punct	_	start_char=515|end_char=516
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=403|end_char=406
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=407|end_char=413
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=414|end_char=418
+4	schlecht	schlecht	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=419|end_char=427
+5	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=428|end_char=439
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=439|end_char=440
 
-# text = Das heißt: Sie vergessen viel und sind oft verwirrt.
+# text = Sie verstehen Wörter manchmal nicht gut.
 # sent_id = 9
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=517|end_char=520
-2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=521|end_char=526
-3	:	:	PUNCT	$.	_	5	punct	_	start_char=526|end_char=527
-4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=528|end_char=531
-5	vergessen	vergessen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=532|end_char=541
-6	viel	viel	DET	PIS	PronType=Ind	5	obj	_	start_char=542|end_char=546
-7	und	und	CCONJ	KON	_	10	cc	_	start_char=547|end_char=550
-8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=551|end_char=555
-9	oft	oft	ADV	ADV	_	10	advmod	_	start_char=556|end_char=559
-10	verwirrt	verwirrt	ADJ	VVPP	Degree=Pos|VerbForm=Part	5	conj	_	SpaceAfter=No|start_char=560|end_char=568
-11	.	.	PUNCT	$.	_	2	punct	_	start_char=568|end_char=569
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=441|end_char=444
+2	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=445|end_char=454
+3	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=455|end_char=461
+4	manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=462|end_char=470
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=471|end_char=476
+6	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=477|end_char=480
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=480|end_char=481
+
+# text = Alzheimer kommt meist bei älteren Menschen.
+# sent_id = 10
+1	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=482|end_char=491
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=492|end_char=497
+3	meist	meist	ADV	ADV	_	2	advmod	_	start_char=498|end_char=503
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=504|end_char=507
+5	älteren	alt	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur	6	amod	_	start_char=508|end_char=515
+6	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|start_char=516|end_char=524
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=524|end_char=525
+
+# text = Älter bedeutet: über 60 Jahre.
+# sent_id = 11
+1	Älter	Älter	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=526|end_char=531
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=532|end_char=540
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=540|end_char=541
+4	über	über	ADP	ADV	_	6	case	_	start_char=542|end_char=546
+5	60	60	NUM	CARD	NumType=Card	6	nummod	_	start_char=547|end_char=549
+6	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|start_char=550|end_char=555
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=555|end_char=556
+
+# text = Die Krankheit ist eine Form von Demenz.
+# sent_id = 12
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=557|end_char=560
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=561|end_char=570
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=571|end_char=574
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=575|end_char=579
+5	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=580|end_char=584
+6	von	von	ADP	APPR	_	7	case	_	start_char=585|end_char=588
+7	Demenz	Demenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=589|end_char=595
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=595|end_char=596
+
+# text = Demenz heißt: Das Gehirn funktioniert schlechter.
+# sent_id = 13
+1	Demenz	Demenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=597|end_char=603
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=604|end_char=609
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=609|end_char=610
+4	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=611|end_char=614
+5	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=615|end_char=621
+6	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=622|end_char=634
+7	schlechter	schlecht	ADJ	ADJD	Degree=Cmp	6	xcomp	_	SpaceAfter=No|start_char=635|end_char=645
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=645|end_char=646
 
 # text = Die Krankheit kann nicht geheilt werden.
-# sent_id = 10
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=570|end_char=573
-2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=574|end_char=583
-3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=584|end_char=588
-4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=589|end_char=594
-5	geheilt	heilen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=595|end_char=602
-6	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	5	aux:pass	_	SpaceAfter=No|start_char=603|end_char=609
-7	.	.	PUNCT	$.	_	5	punct	_	start_char=609|end_char=610
-
-# text = Woran erkennen Sie die Alzheimer Krankheit?
-# sent_id = 11
-1	Woran	woran	ADV	ADV	PronType=Int	2	advmod	_	start_char=611|end_char=616
-2	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=617|end_char=625
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=626|end_char=629
-4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=630|end_char=633
-5	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=634|end_char=643
-6	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=644|end_char=653
-7	?	?	PUNCT	$.	_	2	punct	_	start_char=653|end_char=654
-
-# text = Die Anzeichen bei Alzheimer sind bei jedem Menschen anders.
-# sent_id = 12
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=655|end_char=658
-2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=659|end_char=668
-3	bei	bei	ADP	APPR	_	4	case	_	start_char=669|end_char=672
-4	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=673|end_char=682
-5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=683|end_char=687
-6	bei	bei	ADP	APPR	_	8	case	_	start_char=688|end_char=691
-7	jedem	jeder	DET	PIAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	8	det	_	start_char=692|end_char=697
-8	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=698|end_char=706
-9	anders	anders	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=707|end_char=713
-10	.	.	PUNCT	$.	_	9	punct	_	start_char=713|end_char=714
-
-# text = Typische Anzeichen sind: - Vieles vergessen - Probleme bei einfachen Aufgaben - Schwierigkeiten beim Sprechen - Sich nicht gut orientieren können - Sich schwer konzentrieren können - Nicht logisch denken können - Dinge verwechseln - Verhalten verändert sich - Keine Lust etwas zu machen
-# sent_id = 13
-1	Typische	typisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=715|end_char=723
-2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=724|end_char=733
-3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No|start_char=734|end_char=738
-4	:	:	PUNCT	$.	_	7	punct	_	start_char=738|end_char=739
-5	-	-	PUNCT	$(	_	7	punct	_	start_char=740|end_char=741
-6	Vieles	viel	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	7	nsubj	_	start_char=742|end_char=748
-7	vergessen	vergessen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=749|end_char=758
-8	-	-	PUNCT	$(	_	9	punct	_	start_char=759|end_char=760
-9	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	obj	_	start_char=761|end_char=769
-10	bei	bei	ADP	APPR	_	14	case	_	start_char=770|end_char=773
-11	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=774|end_char=783
-12	Aufgaben	Aufgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	compound	_	start_char=784|end_char=792
-13	-	-	PUNCT	$(	_	12	punct	_	start_char=793|end_char=794
-14	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	obl	_	start_char=795|end_char=810
-15-16	beim	_	_	_	_	_	_	_	start_char=811|end_char=815
-15	bei	bei	ADP	APPR	_	17	case	_	_
-16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
-17	Sprechen	Sprechen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	compound	_	start_char=816|end_char=824
-18	-	-	PUNCT	$(	_	17	punct	_	start_char=825|end_char=826
-19	Sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=827|end_char=831
-20	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	start_char=832|end_char=837
-21	gut	gut	ADJ	ADJD	Degree=Pos	22	advmod	_	start_char=838|end_char=841
-22	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	2	csubj	_	start_char=842|end_char=853
-23	können	können	AUX	VMINF	VerbForm=Inf	22	aux	_	start_char=854|end_char=860
-24	-	-	PUNCT	$(	_	27	punct	_	start_char=861|end_char=862
-25	Sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	27	obj	_	start_char=863|end_char=867
-26	schwer	schwer	ADJ	ADJD	Degree=Pos	27	advmod	_	start_char=868|end_char=874
-27	konzentrieren	konzentrieren	VERB	VVINF	VerbForm=Inf	22	conj	_	start_char=875|end_char=888
-28	können	können	AUX	VMINF	VerbForm=Inf	27	aux	_	start_char=889|end_char=895
-29	-	-	PUNCT	$(	_	32	punct	_	start_char=896|end_char=897
-30	Nicht	nicht	PART	PTKNEG	Polarity=Neg	31	advmod	_	start_char=898|end_char=903
-31	logisch	logisch	ADJ	ADJD	Degree=Pos	32	advmod	_	start_char=904|end_char=911
-32	denken	denken	VERB	VVINF	VerbForm=Inf	27	conj	_	start_char=912|end_char=918
-33	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	start_char=919|end_char=925
-34	-	-	PUNCT	$(	_	32	punct	_	start_char=926|end_char=927
-35	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	36	obj	_	start_char=928|end_char=933
-36	verwechseln	verwechseln	VERB	VVINF	VerbForm=Inf	39	xcomp	_	start_char=934|end_char=945
-37	-	-	PUNCT	$(	_	36	punct	_	start_char=946|end_char=947
-38	Verhalten	Verhalten	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	39	nsubj	_	start_char=948|end_char=957
-39	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	start_char=958|end_char=967
-40	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	39	obj	_	start_char=968|end_char=972
-41	-	-	PUNCT	$(	_	46	punct	_	start_char=973|end_char=974
-42	Keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	43	det	_	start_char=975|end_char=980
-43	Lust	Lust	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	46	obj	_	start_char=981|end_char=985
-44	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	46	obj	_	start_char=986|end_char=991
-45	zu	zu	PART	PTKZU	_	46	mark	_	start_char=992|end_char=994
-46	machen	machen	VERB	VVINF	VerbForm=Inf	39	xcomp	_	start_char=995|end_char=1001
-
-# text = Die Alzheimer Krankheit hat drei Stadien: 1. Frühes Stadium 2. Mittleres Stadium 3. Spätes Stadium Mit der Zeit werden die Beschwerden stärker.
 # sent_id = 14
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1002|end_char=1005
-2	Alzheimer	Alzheimer	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	start_char=1006|end_char=1015
-3	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1016|end_char=1025
-4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1026|end_char=1029
-5	drei	drei	NUM	CARD	NumType=Card	6	nummod	_	start_char=1030|end_char=1034
-6	Stadien	Stadien	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|start_char=1035|end_char=1042
-7	:	:	PUNCT	$.	_	10	punct	_	start_char=1042|end_char=1043
-8	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	10	amod	_	start_char=1044|end_char=1046
-9	Frühes	früh	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=1047|end_char=1053
-10	Stadium	Stadium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	start_char=1054|end_char=1061
-11	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	13	amod	_	start_char=1062|end_char=1064
-12	Mittleres	mittler	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=1065|end_char=1074
-13	Stadium	Stadium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	appos	_	start_char=1075|end_char=1082
-14	3	3	NUM	CARD	NumType=Card	17	nummod	_	SpaceAfter=No|start_char=1083|end_char=1084
-15	.	.	PUNCT	$.	_	14	punct	_	start_char=1084|end_char=1085
-16	Spätes	spät	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=1086|end_char=1092
-17	Stadium	Stadium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	appos	_	start_char=1093|end_char=1100
-18	Mit	mit	ADP	APPR	_	20	case	_	start_char=1101|end_char=1104
-19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1105|end_char=1108
-20	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	start_char=1109|end_char=1113
-21	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	cop	_	start_char=1114|end_char=1120
-22	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=1121|end_char=1124
-23	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	start_char=1125|end_char=1136
-24	stärker	stark	ADJ	ADJD	Degree=Cmp	4	parataxis	_	SpaceAfter=No|start_char=1137|end_char=1144
-25	.	.	PUNCT	$.	_	4	punct	_	start_char=1144|end_char=1145
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=647|end_char=650
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=651|end_char=660
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=661|end_char=665
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=666|end_char=671
+5	geheilt	heilen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=672|end_char=679
+6	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	5	aux:pass	_	SpaceAfter=No|start_char=680|end_char=686
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=686|end_char=687
 
-# text = Was sind die Ursachen der Alzheimer Krankheit?
+# text = **Anzeichen für Alzheimer** Vergesslichkeit ist häufig.
 # sent_id = 15
-1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=1146|end_char=1149
-2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1150|end_char=1154
-3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1155|end_char=1158
-4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1159|end_char=1167
-5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1168|end_char=1171
-6	Alzheimer	Alzheimer	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	start_char=1172|end_char=1181
-7	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=1182|end_char=1191
-8	?	?	PUNCT	$.	_	4	punct	_	start_char=1191|end_char=1192
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=688|end_char=690
+2	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=690|end_char=699
+3	für	für	ADP	APPR	_	4	case	_	start_char=700|end_char=703
+4	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=704|end_char=713
+5	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=713|end_char=714
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=714|end_char=715
+7	Vergesslichkeit	Vergesslichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=716|end_char=731
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=732|end_char=735
+9	häufig	häufig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=736|end_char=742
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=742|end_char=743
 
-# text = Das Gehirn von Menschen mit Alzheimer verändert sich.
+# text = Vergesslichkeit bedeutet: Man erinnert sich nicht mehr gut.
 # sent_id = 16
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1193|end_char=1196
-2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=1197|end_char=1203
-3	von	von	ADP	APPR	_	4	case	_	start_char=1204|end_char=1207
-4	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	start_char=1208|end_char=1216
-5	mit	mit	ADP	APPR	_	6	case	_	start_char=1217|end_char=1220
-6	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=1221|end_char=1230
-7	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1231|end_char=1240
-8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No|start_char=1241|end_char=1245
-9	.	.	PUNCT	$.	_	7	punct	_	start_char=1245|end_char=1246
+1	Vergesslichkeit	Vergesslichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=744|end_char=759
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=760|end_char=768
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=768|end_char=769
+4	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=770|end_char=773
+5	erinnert	erinnern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=774|end_char=782
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=783|end_char=787
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=788|end_char=793
+8	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=794|end_char=798
+9	gut	gut	ADJ	ADJD	Degree=Pos	5	xcomp	_	SpaceAfter=No|start_char=799|end_char=802
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=802|end_char=803
 
-# text = Zum Beispiel lagern sich besondere Stoffe (Beta-Amyloid und Tau-Protein) im Gehirn ab.
+# text = Menschen mit Alzheimer haben Probleme beim Sprechen.
 # sent_id = 17
-1-2	Zum	_	_	_	_	_	_	_	start_char=1247|end_char=1250
-1	Zu	zu	ADP	APPR	_	3	case	_	_
-2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1251|end_char=1259
-4	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1260|end_char=1266
-5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1267|end_char=1271
-6	besondere	besonder	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=1272|end_char=1281
-7	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1282|end_char=1288
-8	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1289|end_char=1290
-9	Beta	Beta	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	SpaceAfter=No|start_char=1290|end_char=1294
-10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1294|end_char=1295
-11	Amyloid	Amyloid	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	flat	_	start_char=1295|end_char=1302
-12	und	und	CCONJ	KON	_	15	cc	_	start_char=1303|end_char=1306
-13	Tau	Tau	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	compound	_	SpaceAfter=No|start_char=1307|end_char=1310
-14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=1310|end_char=1311
-15	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|start_char=1311|end_char=1318
-16	)	)	PUNCT	$(	_	9	punct	_	start_char=1318|end_char=1319
-17-18	im	_	_	_	_	_	_	_	start_char=1320|end_char=1322
-17	in	in	ADP	APPR	_	19	case	_	_
-18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
-19	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1323|end_char=1329
-20	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=1330|end_char=1332
-21	.	.	PUNCT	$.	_	4	punct	_	start_char=1332|end_char=1333
+1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=804|end_char=812
+2	mit	mit	ADP	APPR	_	3	case	_	start_char=813|end_char=816
+3	Alzheimer	Alzheimer	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	start_char=817|end_char=826
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=827|end_char=832
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=833|end_char=841
+6-7	beim	_	_	_	_	_	_	_	start_char=842|end_char=846
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Sprechen	Sprechen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=847|end_char=855
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=855|end_char=856
 
-# text = Im Gehirn gibt es Entzündungen.
+# text = Sie finden sich oft nicht mehr zurecht.
 # sent_id = 18
-1-2	Im	_	_	_	_	_	_	_	start_char=1334|end_char=1336
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=857|end_char=860
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=861|end_char=867
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=868|end_char=872
+4	oft	oft	ADV	ADV	_	2	advmod	_	start_char=873|end_char=876
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=877|end_char=882
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=883|end_char=887
+7	zurecht	zurecht	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=888|end_char=895
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=895|end_char=896
+
+# text = Sie können sich schlecht konzentrieren.
+# sent_id = 19
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=897|end_char=900
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=901|end_char=907
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=908|end_char=912
+4	schlecht	schlecht	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=913|end_char=921
+5	konzentrieren	konzentrieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=922|end_char=935
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=935|end_char=936
+
+# text = Ihr Verhalten verändert sich.
+# sent_id = 20
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=937|end_char=940
+2	Verhalten	Verhalten	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=941|end_char=950
+3	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=951|end_char=960
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No|start_char=961|end_char=965
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=965|end_char=966
+
+# text = Sie wollen weniger machen.
+# sent_id = 21
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=967|end_char=970
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=971|end_char=977
+3	weniger	wenig	DET	PIS	PronType=Ind	4	obj	_	start_char=978|end_char=985
+4	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=986|end_char=992
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=992|end_char=993
+
+# text = **Verlauf der Krankheit** Alzheimer hat drei Phasen.
+# sent_id = 22
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=994|end_char=996
+2	Verlauf	Verlauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=996|end_char=1003
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1004|end_char=1007
+4	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=1008|end_char=1017
+5	*	*	PUNCT	$(	_	4	appos	_	SpaceAfter=No|start_char=1017|end_char=1018
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=1018|end_char=1019
+7	Alzheimer	Alzheimer	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=1020|end_char=1029
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1030|end_char=1033
+9	drei	drei	NUM	CARD	NumType=Card	10	nummod	_	start_char=1034|end_char=1038
+10	Phasen	Phase	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|start_char=1039|end_char=1045
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=1045|end_char=1046
+
+# text = Am Anfang sind die Symptome schwach.
+# sent_id = 23
+1-2	Am	_	_	_	_	_	_	_	start_char=1047|end_char=1049
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=1050|end_char=1056
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1057|end_char=1061
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1062|end_char=1065
+6	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=1066|end_char=1074
+7	schwach	schwach	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1075|end_char=1082
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1082|end_char=1083
+
+# text = Später werden die Probleme stärker.
+# sent_id = 24
+1	Später	spät	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=1084|end_char=1090
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	start_char=1091|end_char=1097
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1098|end_char=1101
+4	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=1102|end_char=1110
+5	stärker	stark	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=1111|end_char=1118
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1118|end_char=1119
+
+# text = Ganz am Ende ist der Alltag sehr schwierig.
+# sent_id = 25
+1	Ganz	ganz	ADV	ADV	_	4	advmod	_	start_char=1120|end_char=1124
+2-3	am	_	_	_	_	_	_	_	start_char=1125|end_char=1127
+2	an	an	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=1128|end_char=1132
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1133|end_char=1136
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1137|end_char=1140
+7	Alltag	Alltag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1141|end_char=1147
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=1148|end_char=1152
+9	schwierig	schwierig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1153|end_char=1162
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1162|end_char=1163
+
+# text = **Wie entsteht Alzheimer?**
+# sent_id = 26
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1164|end_char=1166
+2	Wie	wie	ADV	PWAV	_	3	advmod	_	start_char=1166|end_char=1169
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1170|end_char=1178
+4	Alzheimer	Alzheimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=1179|end_char=1188
+5	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1188|end_char=1189
+6	*	*	X	XY	_	3	dep	_	SpaceAfter=No|start_char=1189|end_char=1190
+7	*	*	PUNCT	$(	_	3	punct	_	start_char=1190|end_char=1191
+
+# text = Alzheimer kommt durch Veränderungen im Gehirn.
+# sent_id = 27
+1	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1192|end_char=1201
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1202|end_char=1207
+3	durch	durch	ADP	APPR	_	4	case	_	start_char=1208|end_char=1213
+4	Veränderungen	Veränderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=1214|end_char=1227
+5-6	im	_	_	_	_	_	_	_	start_char=1228|end_char=1230
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=1231|end_char=1237
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1237|end_char=1238
+
+# text = Im Gehirn lagern sich Eiweiße ab.
+# sent_id = 28
+1-2	Im	_	_	_	_	_	_	_	start_char=1239|end_char=1241
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-3	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1337|end_char=1343
-4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1344|end_char=1348
-5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=1349|end_char=1351
-6	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No|start_char=1352|end_char=1364
-7	.	.	PUNCT	$.	_	4	punct	_	start_char=1364|end_char=1365
+3	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1242|end_char=1248
+4	lagern	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1249|end_char=1255
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1256|end_char=1260
+6	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1261|end_char=1268
+7	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=1269|end_char=1271
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=1271|end_char=1272
 
-# text = Es gibt weniger wichtige Stoffe, die Nachrichten im Gehirn weitergeben.
-# sent_id = 19
-1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1366|end_char=1368
-2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1369|end_char=1373
-3	weniger	wenig	DET	PIAT	PronType=Ind	5	det	_	start_char=1374|end_char=1381
-4	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=1382|end_char=1390
-5	Stoffe	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=1391|end_char=1397
-6	,	,	PUNCT	$,	_	12	punct	_	start_char=1397|end_char=1398
-7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	12	nsubj	_	start_char=1399|end_char=1402
-8	Nachrichten	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=1403|end_char=1414
-9-10	im	_	_	_	_	_	_	_	start_char=1415|end_char=1417
-9	in	in	ADP	APPR	_	11	case	_	_
-10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=1418|end_char=1424
-12	weitergeben	weitergeben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No|start_char=1425|end_char=1436
-13	.	.	PUNCT	$.	_	2	punct	_	start_char=1436|end_char=1437
+# text = Eiweiße sind kleine Teilchen.
+# sent_id = 29
+1	Eiweiße	Eiweiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1273|end_char=1280
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1281|end_char=1285
+3	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=1286|end_char=1292
+4	Teilchen	Teilchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=1293|end_char=1301
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1301|end_char=1302
 
-# text = Dadurch sterben Zellen im Gehirn.
-# sent_id = 20
-1	Dadurch	dadurch	ADV	PAV	PronType=Dem	2	advmod	_	start_char=1438|end_char=1445
-2	sterben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1446|end_char=1453
-3	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1454|end_char=1460
-4-5	im	_	_	_	_	_	_	_	start_char=1461|end_char=1463
+# text = Diese Teilchen heißen Beta-Amyloid und Tau-Protein.
+# sent_id = 30
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1303|end_char=1308
+2	Teilchen	Teilchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1309|end_char=1317
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1318|end_char=1324
+4	Beta	Beta	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	xcomp	_	SpaceAfter=No|start_char=1325|end_char=1329
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1329|end_char=1330
+6	Amyloid	Amyloid	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	flat	_	start_char=1330|end_char=1337
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=1338|end_char=1341
+8	Tau	Tau	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No|start_char=1342|end_char=1345
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1345|end_char=1346
+10	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No|start_char=1346|end_char=1353
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1353|end_char=1354
+
+# text = Es gibt auch Entzündungen.
+# sent_id = 31
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1355|end_char=1357
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1358|end_char=1362
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1363|end_char=1367
+4	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=1368|end_char=1380
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=1380|end_char=1381
+
+# text = Entzündungen bedeuten: Das Gewebe ist gereizt.
+# sent_id = 32
+1	Entzündungen	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1382|end_char=1394
+2	bedeuten	bedeuten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1395|end_char=1403
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=1403|end_char=1404
+4	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1405|end_char=1408
+5	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=1409|end_char=1415
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1416|end_char=1419
+7	gereizt	reizen	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	parataxis	_	SpaceAfter=No|start_char=1420|end_char=1427
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=1427|end_char=1428
+
+# text = Botenstoffe ändern sich.
+# sent_id = 33
+1	Botenstoffe	Botenstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1429|end_char=1440
+2	ändern	ändern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1441|end_char=1447
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No|start_char=1448|end_char=1452
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=1452|end_char=1453
+
+# text = Botenstoffe sind Stoffe im Gehirn, die Nachrichten schicken.
+# sent_id = 34
+1	Botenstoffe	Botenstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1454|end_char=1465
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1466|end_char=1470
+3	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1471|end_char=1477
+4-5	im	_	_	_	_	_	_	_	start_char=1478|end_char=1480
 4	in	in	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1464|end_char=1470
-7	.	.	PUNCT	$.	_	2	punct	_	start_char=1470|end_char=1471
+6	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1481|end_char=1487
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=1487|end_char=1488
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=1489|end_char=1492
+9	Nachrichten	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=1493|end_char=1504
+10	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=1505|end_char=1513
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1513|end_char=1514
 
-# text = Das Gehirn kann dann weniger Informationen speichern.
-# sent_id = 21
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1472|end_char=1475
-2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=1476|end_char=1482
-3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1483|end_char=1487
-4	dann	dann	ADV	ADV	_	7	advmod	_	start_char=1488|end_char=1492
-5	weniger	wenig	DET	PIAT	PronType=Ind	6	det	_	start_char=1493|end_char=1500
-6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=1501|end_char=1514
-7	speichern	speichern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1515|end_char=1524
-8	.	.	PUNCT	$.	_	7	punct	_	start_char=1524|end_char=1525
-
-# text = Die Adern im Gehirn bekommen weniger Sauerstoff.
-# sent_id = 22
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1526|end_char=1529
-2	Adern	Ader	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1530|end_char=1535
-3-4	im	_	_	_	_	_	_	_	start_char=1536|end_char=1538
-3	in	in	ADP	APPR	_	5	case	_	_
-4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=1539|end_char=1545
-6	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1546|end_char=1554
-7	weniger	wenig	DET	PIAT	PronType=Ind	8	det	_	start_char=1555|end_char=1562
-8	Sauerstoff	Sauerstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|start_char=1563|end_char=1573
-9	.	.	PUNCT	$.	_	6	punct	_	start_char=1573|end_char=1574
-
-# text = Man weiß noch nicht ganz genau, warum diese Veränderungen passieren.
-# sent_id = 23
-1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=1575|end_char=1578
-2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1579|end_char=1583
-3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=1584|end_char=1588
-4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=1589|end_char=1594
-5	ganz	ganz	ADV	ADV	_	6	advmod	_	start_char=1595|end_char=1599
-6	genau	genau	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=1600|end_char=1605
-7	,	,	PUNCT	$,	_	11	punct	_	start_char=1605|end_char=1606
-8	warum	warum	ADV	PWAV	PronType=Int	11	advmod	_	start_char=1607|end_char=1612
-9	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	start_char=1613|end_char=1618
-10	Veränderungen	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=1619|end_char=1632
-11	passieren	passieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|start_char=1633|end_char=1642
-12	.	.	PUNCT	$.	_	2	punct	_	start_char=1642|end_char=1643
-
-# text = Manchmal ist die Krankheit erblich.
-# sent_id = 24
-1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=1644|end_char=1652
-2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1653|end_char=1656
-3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1657|end_char=1660
-4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1661|end_char=1670
-5	erblich	erblich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1671|end_char=1678
-6	.	.	PUNCT	$.	_	5	punct	_	start_char=1678|end_char=1679
-
-# text = Das heißt: Die Krankheit kann in der Familie vorkommen.
-# sent_id = 25
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1680|end_char=1683
-2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1684|end_char=1689
-3	:	:	PUNCT	$.	_	10	punct	_	start_char=1689|end_char=1690
-4	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1691|end_char=1694
-5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1695|end_char=1704
-6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1705|end_char=1709
-7	in	in	ADP	APPR	_	9	case	_	start_char=1710|end_char=1712
-8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1713|end_char=1716
-9	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=1717|end_char=1724
-10	vorkommen	vorkommen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	SpaceAfter=No|start_char=1725|end_char=1734
-11	.	.	PUNCT	$.	_	2	punct	_	start_char=1734|end_char=1735
-
-# text = Wenn jemand in der Familie Alzheimer hat, ist das Risiko für andere Familienmitglieder höher.
-# sent_id = 26
-1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1736|end_char=1740
-2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1741|end_char=1747
-3	in	in	ADP	APPR	_	5	case	_	start_char=1748|end_char=1750
-4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1751|end_char=1754
-5	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=1755|end_char=1762
-6	Alzheimer	Alzheimer	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	start_char=1763|end_char=1772
-7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No|start_char=1773|end_char=1776
-8	,	,	PUNCT	$,	_	7	punct	_	start_char=1776|end_char=1777
-9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=1778|end_char=1781
-10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=1782|end_char=1785
-11	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1786|end_char=1792
-12	für	für	ADP	APPR	_	14	case	_	start_char=1793|end_char=1796
-13	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	14	det	_	start_char=1797|end_char=1803
-14	Familienmitglieder	Familienmitglied	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	start_char=1804|end_char=1822
-15	höher	hoch	ADJ	ADJD	Degree=Cmp	11	amod	_	SpaceAfter=No|start_char=1823|end_char=1828
-16	.	.	PUNCT	$.	_	11	punct	_	start_char=1828|end_char=1829
-
-# text = Sehr selten ist die Krankheit in den Genen festgelegt.
-# sent_id = 27
-1	Sehr	sehr	ADV	ADV	_	2	advmod	_	start_char=1830|end_char=1834
-2	selten	selten	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=1835|end_char=1841
-3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1842|end_char=1845
-4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1846|end_char=1849
-5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1850|end_char=1859
-6	in	in	ADP	APPR	_	8	case	_	start_char=1860|end_char=1862
-7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=1863|end_char=1866
-8	Genen	Gen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	start_char=1867|end_char=1872
-9	festgelegt	festlegen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1873|end_char=1883
-10	.	.	PUNCT	$.	_	9	punct	_	start_char=1883|end_char=1884
-
-# text = Dann kann sie von den Eltern zu den Kindern weitergegeben werden.
-# sent_id = 28
-1	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=1885|end_char=1889
-2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1890|end_char=1894
-3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	start_char=1895|end_char=1898
-4	von	von	ADP	APPR	_	6	case	_	start_char=1899|end_char=1902
-5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1903|end_char=1906
-6	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Plur	10	obl:agent	_	start_char=1907|end_char=1913
-7	zu	zu	ADP	APPR	_	9	case	_	start_char=1914|end_char=1916
-8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=1917|end_char=1920
-9	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=1921|end_char=1928
-10	weitergegeben	weitergeben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1929|end_char=1942
-11	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	10	aux:pass	_	SpaceAfter=No|start_char=1943|end_char=1949
-12	.	.	PUNCT	$.	_	10	punct	_	start_char=1949|end_char=1950
-
-# text = In solchen Fällen kann die Krankheit schon bei jungen Menschen auftreten.
-# sent_id = 29
-1	In	in	ADP	APPR	_	3	case	_	start_char=1951|end_char=1953
-2	solchen	solcher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	start_char=1954|end_char=1961
-3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	start_char=1962|end_char=1968
-4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1969|end_char=1973
-5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1974|end_char=1977
-6	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1978|end_char=1987
-7	schon	schon	ADV	ADV	_	11	advmod	_	start_char=1988|end_char=1993
-8	bei	bei	ADP	APPR	_	10	case	_	start_char=1994|end_char=1997
-9	jungen	jung	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=1998|end_char=2004
-10	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	start_char=2005|end_char=2013
-11	auftreten	auftreten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2014|end_char=2023
-12	.	.	PUNCT	$.	_	11	punct	_	start_char=2023|end_char=2024
-
-# text = Was können Sie gegen die Alzheimer Krankheit tun?
-# sent_id = 30
-1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=2025|end_char=2028
-2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2029|end_char=2035
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=2036|end_char=2039
-4	gegen	gegen	ADP	APPR	_	7	case	_	start_char=2040|end_char=2045
-5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2046|end_char=2049
-6	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	start_char=2050|end_char=2059
-7	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=2060|end_char=2069
-8	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2070|end_char=2073
-9	?	?	PUNCT	$.	_	8	punct	_	start_char=2073|end_char=2074
-
-# text = Die Alzheimer Krankheit kann nicht geheilt werden.
-# sent_id = 31
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2075|end_char=2078
-2	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	start_char=2079|end_char=2088
-3	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=2089|end_char=2098
-4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2099|end_char=2103
-5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2104|end_char=2109
-6	geheilt	heilen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2110|end_char=2117
-7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	SpaceAfter=No|start_char=2118|end_char=2124
-8	.	.	PUNCT	$.	_	6	punct	_	start_char=2124|end_char=2125
-
-# text = Aber es gibt verschiedene Möglichkeiten, die Beschwerden zu lindern und den Krankheitsverlauf zu verlangsamen.
-# sent_id = 32
-1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=2126|end_char=2130
-2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=2131|end_char=2133
-3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2134|end_char=2138
-4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2139|end_char=2151
-5	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=2152|end_char=2165
-6	,	,	PUNCT	$,	_	10	punct	_	start_char=2165|end_char=2166
-7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2167|end_char=2170
-8	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=2171|end_char=2182
-9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=2183|end_char=2185
-10	lindern	lindern	VERB	VVINF	VerbForm=Inf	5	xcomp	_	start_char=2186|end_char=2193
-11	und	und	CCONJ	KON	_	15	cc	_	start_char=2194|end_char=2197
-12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=2198|end_char=2201
-13	Krankheitsverlauf	Krankheitsverlauf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=2202|end_char=2219
-14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=2220|end_char=2222
-15	verlangsamen	verlangsamen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=2223|end_char=2235
-16	.	.	PUNCT	$.	_	3	punct	_	start_char=2235|end_char=2236
-
-# text = Ein Arzt kann sagen, welche Therapien helfen können: - Ergotherapie: Übungen für den Alltag. - Logopädie: Übungen zum Sprechen.
-# sent_id = 33
-1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=2237|end_char=2240
-2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2241|end_char=2245
-3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2246|end_char=2250
-4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2251|end_char=2256
-5	,	,	PUNCT	$,	_	8	punct	_	start_char=2256|end_char=2257
-6	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	7	det	_	start_char=2258|end_char=2264
-7	Therapien	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=2265|end_char=2274
-8	helfen	helfen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=2275|end_char=2281
-9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|start_char=2282|end_char=2288
-10	:	:	PUNCT	$.	_	12	punct	_	start_char=2288|end_char=2289
-11	-	-	PUNCT	$(	_	12	punct	_	start_char=2290|end_char=2291
-12	Ergotherapie	Ergotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No|start_char=2292|end_char=2304
-13	:	:	PUNCT	$.	_	14	punct	_	start_char=2304|end_char=2305
-14	Übungen	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	appos	_	start_char=2306|end_char=2313
-15	für	für	ADP	APPR	_	19	case	_	start_char=2314|end_char=2317
-16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=2318|end_char=2321
-17	Alltag.	Alltag.	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	compound	_	start_char=2322|end_char=2329
-18	-	-	PUNCT	$(	_	17	punct	_	start_char=2330|end_char=2331
-19	Logopädie	Logopädie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=2332|end_char=2341
-20	:	:	PUNCT	$.	_	21	punct	_	start_char=2341|end_char=2342
-21	Übungen	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	appos	_	start_char=2343|end_char=2350
-22-23	zum	_	_	_	_	_	_	_	start_char=2351|end_char=2354
-22	zu	zu	ADP	APPR	_	24	case	_	_
-23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
-24	Sprechen	Sprechen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|start_char=2355|end_char=2363
-25	.	.	PUNCT	$.	_	4	punct	_	start_char=2363|end_char=2364
-
-# text = - Physiotherapie: Übungen für die Muskeln und Bewegung.
-# sent_id = 34
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2365|end_char=2366
-2	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2367|end_char=2381
-3	:	:	PUNCT	$.	_	4	punct	_	start_char=2381|end_char=2382
-4	Übungen	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	start_char=2383|end_char=2390
-5	für	für	ADP	APPR	_	7	case	_	start_char=2391|end_char=2394
-6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2395|end_char=2398
-7	Muskeln	Muskel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=2399|end_char=2406
-8	und	und	CCONJ	KON	_	9	cc	_	start_char=2407|end_char=2410
-9	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|start_char=2411|end_char=2419
-10	.	.	PUNCT	$.	_	2	punct	_	start_char=2419|end_char=2420
-
-# text = - Gedächtnistraining: Das Gedächtnis wird geübt.
+# text = Das Gehirn arbeitet immer schlechter.
 # sent_id = 35
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2421|end_char=2422
-2	Gedächtnistraining	Gedächtnistraining	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=2423|end_char=2441
-3	:	:	PUNCT	$.	_	6	punct	_	start_char=2441|end_char=2442
-4	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2443|end_char=2446
-5	Gedächtnis	Gedächtnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=2447|end_char=2457
-6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	start_char=2458|end_char=2462
-7	geübt.	üben	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=2463|end_char=2469
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=1515|end_char=1518
+2	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1519|end_char=1525
+3	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1526|end_char=1534
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=1535|end_char=1540
+5	schlechter	schlecht	ADJ	ADJD	Degree=Cmp	3	xcomp	_	SpaceAfter=No|start_char=1541|end_char=1551
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1551|end_char=1552
 
-# text = - Erinnerungstherapie, Musiktherapie, Kunsttherapie.
+# text = Die genauen Gründe kennt man noch nicht.
 # sent_id = 36
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2470|end_char=2471
-2	Erinnerungstherapie	Erinnerungstherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2472|end_char=2491
-3	,	,	PUNCT	$,	_	4	punct	_	start_char=2491|end_char=2492
-4	Musiktherapie	Musiktherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|start_char=2493|end_char=2506
-5	,	,	PUNCT	$,	_	6	punct	_	start_char=2506|end_char=2507
-6	Kunsttherapie	Kunsttherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|start_char=2508|end_char=2521
-7	.	.	PUNCT	$.	_	2	punct	_	start_char=2521|end_char=2522
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1553|end_char=1556
+2	genauen	genau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=1557|end_char=1564
+3	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=1565|end_char=1571
+4	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1572|end_char=1577
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=1578|end_char=1581
+6	noch	noch	ADV	ADV	_	7	advmod	_	start_char=1582|end_char=1586
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	SpaceAfter=No|start_char=1587|end_char=1592
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=1592|end_char=1593
 
-# text = - Körperliche Übungen.
+# text = Manchmal ist die Krankheit vererbt.
 # sent_id = 37
-1	-	-	PUNCT	$(	_	3	punct	_	start_char=2523|end_char=2524
-2	Körperliche	körperlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=2525|end_char=2536
-3	Übungen	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=2537|end_char=2544
-4	.	.	PUNCT	$.	_	3	punct	_	start_char=2544|end_char=2545
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=1594|end_char=1602
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1603|end_char=1606
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1607|end_char=1610
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=1611|end_char=1620
+5	vererbt	vererben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1621|end_char=1628
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1628|end_char=1629
 
-# text = Auch Medikamente können helfen.
+# text = Vererbt heißt: Eltern geben eine Krankheit an Kinder weiter.
 # sent_id = 38
-1	Auch	auch	ADV	ADV	_	4	advmod	_	start_char=2546|end_char=2550
-2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=2551|end_char=2562
-3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2563|end_char=2569
-4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2570|end_char=2576
-5	.	.	PUNCT	$.	_	4	punct	_	start_char=2576|end_char=2577
+1	Vererbt	vererben	VERB	VVPP	VerbForm=Part	2	acl	_	start_char=1630|end_char=1637
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1638|end_char=1643
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=1643|end_char=1644
+4	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	start_char=1645|end_char=1651
+5	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=1652|end_char=1657
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1658|end_char=1662
+7	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=1663|end_char=1672
+8	an	an	ADP	APPR	_	9	case	_	start_char=1673|end_char=1675
+9	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	start_char=1676|end_char=1682
+10	weiter	weiter	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No|start_char=1683|end_char=1689
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1689|end_char=1690
 
-# text = Haben Sie Beschwerden oder denken, Sie oder ein Familienmitglied könnten Alzheimer haben?
+# text = Das passiert nur selten.
 # sent_id = 39
-1	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2578|end_char=2583
-2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2584|end_char=2587
-3	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=2588|end_char=2599
-4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=2600|end_char=2604
-5	denken	denken	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No|start_char=2605|end_char=2611
-6	,	,	PUNCT	$,	_	13	punct	_	start_char=2611|end_char=2612
-7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=2613|end_char=2616
-8	oder	oder	CCONJ	KON	_	10	cc	_	start_char=2617|end_char=2621
-9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=2622|end_char=2625
-10	Familienmitglied	Familienmitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	start_char=2626|end_char=2642
-11	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=2643|end_char=2650
-12	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=2651|end_char=2660
-13	haben	haben	AUX	VAINF	VerbForm=Inf	1	ccomp	_	SpaceAfter=No|start_char=2661|end_char=2666
-14	?	?	PUNCT	$.	_	1	punct	_	start_char=2666|end_char=2667
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1691|end_char=1694
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1695|end_char=1703
+3	nur	nur	ADV	ADV	_	4	advmod	_	start_char=1704|end_char=1707
+4	selten	selten	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=1708|end_char=1714
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=1714|end_char=1715
 
-# text = Sprechen Sie immer mit einem Arzt.
+# text = **Was kann man tun?**
 # sent_id = 40
-1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2668|end_char=2676
-2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2677|end_char=2680
-3	immer	immer	ADV	ADV	_	1	advmod	_	start_char=2681|end_char=2686
-4	mit	mit	ADP	APPR	_	6	case	_	start_char=2687|end_char=2690
-5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=2691|end_char=2696
-6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|start_char=2697|end_char=2701
-7	.	.	PUNCT	$.	_	1	punct	_	start_char=2701|end_char=2702
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1716|end_char=1718
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=1718|end_char=1721
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1722|end_char=1726
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1727|end_char=1730
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1731|end_char=1734
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1734|end_char=1735
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1735|end_char=1736
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=1736|end_char=1737
 
-# text = Wie können Sie Alzheimer vermeiden?
+# text = Alzheimer kann man nicht heilen.
 # sent_id = 41
-1	Wie	wie	ADV	PWAV	PronType=Int	5	advmod	_	start_char=2703|end_char=2706
-2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2707|end_char=2713
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=2714|end_char=2717
-4	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=2718|end_char=2727
-5	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2728|end_char=2737
-6	?	?	PUNCT	$.	_	5	punct	_	start_char=2737|end_char=2738
+1	Alzheimer	Alzheimer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	start_char=1738|end_char=1747
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1748|end_char=1752
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1753|end_char=1756
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1757|end_char=1762
+5	heilen	heilen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1763|end_char=1769
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1769|end_char=1770
+
+# text = Es gibt Therapien.
+# sent_id = 42
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1771|end_char=1773
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1774|end_char=1778
+3	Therapien	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=1779|end_char=1788
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=1788|end_char=1789
+
+# text = Therapien sind verschiedene Behandlungen: - Ergotherapie: Sie lernen, den Alltag besser zu schaffen.
+# sent_id = 43
+1	Therapien	Therapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1790|end_char=1799
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1800|end_char=1804
+3	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1805|end_char=1817
+4	Behandlungen	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=1818|end_char=1830
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=1830|end_char=1831
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=1832|end_char=1833
+7	Ergotherapie	Ergotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|start_char=1834|end_char=1846
+8	:	:	PUNCT	$.	_	10	punct	_	start_char=1846|end_char=1847
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=1848|end_char=1851
+10	lernen	lernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|start_char=1852|end_char=1858
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=1858|end_char=1859
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=1860|end_char=1863
+13	Alltag	Alltag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=1864|end_char=1870
+14	besser	gut	ADJ	ADJD	Degree=Cmp	16	advmod	_	start_char=1871|end_char=1877
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=1878|end_char=1880
+16	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No|start_char=1881|end_char=1889
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=1889|end_char=1890
+
+# text = - Logopädie: Sie üben Sprechen.
+# sent_id = 44
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1891|end_char=1892
+2	Logopädie	Logopädie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1893|end_char=1902
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=1902|end_char=1903
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1904|end_char=1907
+5	üben	üben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1908|end_char=1912
+6	Sprechen	Sprechen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|start_char=1913|end_char=1921
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=1921|end_char=1922
+
+# text = - Physiotherapie: Sie machen Übungen für Ihren Körper.
+# sent_id = 45
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1923|end_char=1924
+2	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1925|end_char=1939
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=1939|end_char=1940
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1941|end_char=1944
+5	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1945|end_char=1951
+6	Übungen	Übung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=1952|end_char=1959
+7	für	für	ADP	APPR	_	9	case	_	start_char=1960|end_char=1963
+8	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=1964|end_char=1969
+9	Körper	Körper	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=1970|end_char=1976
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=1976|end_char=1977
+
+# text = - Gedächtnistraining: Sie üben Ihr Gedächtnis.
+# sent_id = 46
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1978|end_char=1979
+2	Gedächtnistraining	Gedächtnistraining	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1980|end_char=1998
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=1998|end_char=1999
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=2000|end_char=2003
+5	üben	üben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2004|end_char=2008
+6	Ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=2009|end_char=2012
+7	Gedächtnis	Gedächtnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|start_char=2013|end_char=2023
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=2023|end_char=2024
+
+# text = - Musiktherapie und Kunsttherapie: Musik und Kunst helfen beim Wohlfühlen.
+# sent_id = 47
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2025|end_char=2026
+2	Musiktherapie	Musiktherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2027|end_char=2040
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=2041|end_char=2044
+4	Kunsttherapie	Kunsttherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|start_char=2045|end_char=2058
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=2058|end_char=2059
+6	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=2060|end_char=2065
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2066|end_char=2069
+8	Kunst	Kunst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=2070|end_char=2075
+9	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2076|end_char=2082
+10-11	beim	_	_	_	_	_	_	_	start_char=2083|end_char=2087
+10	bei	bei	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Wohlfühlen	Wohlfühlen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|start_char=2088|end_char=2098
+13	.	.	PUNCT	$.	_	9	punct	_	start_char=2098|end_char=2099
+
+# text = Manchmal gibt es auch Medikamente.
+# sent_id = 48
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=2100|end_char=2108
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2109|end_char=2113
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2114|end_char=2116
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=2117|end_char=2121
+5	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=2122|end_char=2133
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2133|end_char=2134
+
+# text = Medikamente sind Tabletten oder Tropfen, die helfen können.
+# sent_id = 49
+1	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=2135|end_char=2146
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2147|end_char=2151
+3	Tabletten	Tablette	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2152|end_char=2161
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=2162|end_char=2166
+5	Tropfen	Tropfen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No|start_char=2167|end_char=2174
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=2174|end_char=2175
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=2176|end_char=2179
+8	helfen	helfen	VERB	VVINF	VerbForm=Inf	3	acl	_	start_char=2180|end_char=2186
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No|start_char=2187|end_char=2193
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=2193|end_char=2194
+
+# text = Sprechen Sie mit einem Arzt.
+# sent_id = 50
+1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2195|end_char=2203
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2204|end_char=2207
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=2208|end_char=2211
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=2212|end_char=2217
+5	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|start_char=2218|end_char=2222
+6	.	.	PUNCT	$.	_	1	punct	_	start_char=2222|end_char=2223
+
+# text = Arzt ist eine Person, die bei Krankheit hilft.
+# sent_id = 51
+1	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2224|end_char=2228
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2229|end_char=2232
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=2233|end_char=2237
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2238|end_char=2244
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=2244|end_char=2245
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=2246|end_char=2249
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=2250|end_char=2253
+8	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=2254|end_char=2263
+9	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No|start_char=2264|end_char=2269
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=2269|end_char=2270
+
+# text = **Kann man Alzheimer verhindern?**
+# sent_id = 52
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=2271|end_char=2273
+2	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2273|end_char=2277
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=2278|end_char=2281
+4	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=2282|end_char=2291
+5	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2292|end_char=2302
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=2302|end_char=2303
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=2303|end_char=2304
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=2304|end_char=2305
 
 # text = Man kann Alzheimer nicht sicher verhindern.
-# sent_id = 42
-1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=2739|end_char=2742
-2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2743|end_char=2747
-3	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2748|end_char=2757
-4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2758|end_char=2763
-5	sicher	sicher	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=2764|end_char=2770
-6	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2771|end_char=2781
-7	.	.	PUNCT	$.	_	6	punct	_	start_char=2781|end_char=2782
+# sent_id = 53
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=2306|end_char=2309
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2310|end_char=2314
+3	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2315|end_char=2324
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2325|end_char=2330
+5	sicher	sicher	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=2331|end_char=2337
+6	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2338|end_char=2348
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2348|end_char=2349
 
-# text = Aber Sie können das Risiko verringern: - Machen Sie regelmäßig Bewegung.
-# sent_id = 43
-1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=2783|end_char=2787
-2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=2788|end_char=2791
-3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2792|end_char=2798
-4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2799|end_char=2802
-5	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2803|end_char=2809
-6	verringern	verringern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2810|end_char=2820
-7	:	:	PUNCT	$.	_	9	punct	_	start_char=2820|end_char=2821
-8	-	-	PUNCT	$(	_	9	punct	_	start_char=2822|end_char=2823
-9	Machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=2824|end_char=2830
-10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=2831|end_char=2834
-11	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=2835|end_char=2845
-12	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|start_char=2846|end_char=2854
-13	.	.	PUNCT	$.	_	6	punct	_	start_char=2854|end_char=2855
+# text = Einige Dinge helfen aber, das Risiko zu verringern.
+# sent_id = 54
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=2350|end_char=2356
+2	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=2357|end_char=2362
+3	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2363|end_char=2369
+4	aber	aber	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=2370|end_char=2374
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=2374|end_char=2375
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2376|end_char=2379
+7	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=2380|end_char=2386
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=2387|end_char=2389
+9	verringern	verringern	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|start_char=2390|end_char=2400
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=2400|end_char=2401
+
+# text = Risiko heißt:
+# sent_id = 55
+1	Risiko	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	dep	_	start_char=2402|end_char=2408
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=2409|end_char=2414
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=2414|end_char=2415
+
+# text = Die Wahrscheinlichkeit für eine Krankheit wird kleiner.
+# sent_id = 56
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2416|end_char=2419
+2	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2420|end_char=2438
+3	für	für	ADP	APPR	_	5	case	_	start_char=2439|end_char=2442
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=2443|end_char=2447
+5	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=2448|end_char=2457
+6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2458|end_char=2462
+7	kleiner	klein	ADJ	ADJD	Degree=Cmp	6	xcomp	_	SpaceAfter=No|start_char=2463|end_char=2470
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=2470|end_char=2471
+
+# text = - Treiben Sie Sport.
+# sent_id = 57
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2472|end_char=2473
+2	Treiben	Treiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2474|end_char=2481
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2482|end_char=2485
+4	Sport.	Sport.	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	punct	_	start_char=2486|end_char=2492
 
 # text = - Essen Sie gesund. - Treffen Sie andere Menschen.
-# sent_id = 44
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2856|end_char=2857
-2	Essen	essen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2858|end_char=2863
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2864|end_char=2867
-4	gesund	gesund	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No|start_char=2868|end_char=2874
-5	.	.	PUNCT	$.	_	7	punct	_	start_char=2874|end_char=2875
-6	-	-	PUNCT	$(	_	7	punct	_	start_char=2876|end_char=2877
-7	Treffen	Treffen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=2878|end_char=2885
-8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=2886|end_char=2889
-9	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=2890|end_char=2896
-10	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|start_char=2897|end_char=2905
-11	.	.	PUNCT	$.	_	2	punct	_	start_char=2905|end_char=2906
+# sent_id = 58
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2493|end_char=2494
+2	Essen	essen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2495|end_char=2500
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2501|end_char=2504
+4	gesund	gesund	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No|start_char=2505|end_char=2511
+5	.	.	PUNCT	$.	_	7	punct	_	start_char=2511|end_char=2512
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=2513|end_char=2514
+7	Treffen	Treffen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=2515|end_char=2522
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=2523|end_char=2526
+9	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=2527|end_char=2533
+10	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|start_char=2534|end_char=2542
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=2542|end_char=2543
 
 # text = - Rauchen Sie nicht.
-# sent_id = 45
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2907|end_char=2908
-2	Rauchen	Rauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2909|end_char=2916
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2917|end_char=2920
-4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|start_char=2921|end_char=2926
-5	.	.	PUNCT	$.	_	2	punct	_	start_char=2926|end_char=2927
+# sent_id = 59
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2544|end_char=2545
+2	Rauchen	Rauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2546|end_char=2553
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2554|end_char=2557
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|start_char=2558|end_char=2563
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2563|end_char=2564
 
-# text = - Bleiben Sie normalgewichtig.
-# sent_id = 46
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2928|end_char=2929
-2	Bleiben	Bleibe	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2930|end_char=2937
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2938|end_char=2941
-4	normalgewichtig	normalgewichtig	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=2942|end_char=2957
-5	.	.	PUNCT	$.	_	2	punct	_	start_char=2957|end_char=2958
+# text = - Vermeiden Sie Übergewicht.
+# sent_id = 60
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2565|end_char=2566
+2	Vermeiden	vermeiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2567|end_char=2576
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2577|end_char=2580
+4	Übergewicht	Übergewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2581|end_char=2592
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2592|end_char=2593
 
-# text = - Vermeiden Sie hohen Blutzucker.
-# sent_id = 47
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2959|end_char=2960
-2	Vermeiden	vermeiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2961|end_char=2970
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2971|end_char=2974
-4	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=2975|end_char=2980
-5	Blutzucker	Blutzucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2981|end_char=2991
-6	.	.	PUNCT	$.	_	2	punct	_	start_char=2991|end_char=2992
+# text = - Vermeiden Sie Bluthochdruck.
+# sent_id = 61
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2594|end_char=2595
+2	Vermeiden	vermeiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2596|end_char=2605
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2606|end_char=2609
+4	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2610|end_char=2623
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2623|end_char=2624
 
-# text = - Vermeiden Sie hohen Blutdruck.
-# sent_id = 48
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=2993|end_char=2994
-2	Vermeiden	vermeiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2995|end_char=3004
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=3005|end_char=3008
-4	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=3009|end_char=3014
-5	Blutdruck	Blutdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=3015|end_char=3024
-6	.	.	PUNCT	$.	_	2	punct	_	start_char=3024|end_char=3025
+# text = Bluthochdruck bedeutet:
+# sent_id = 62
+1	Bluthochdruck	Bluthochdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2625|end_char=2638
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=2639|end_char=2647
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=2647|end_char=2648
 
-# text = Wo bekommen Sie mehr Informationen?
-# sent_id = 49
-1	Wo	wo	ADV	PWAV	PronType=Int	2	advmod	_	start_char=3026|end_char=3028
-2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3029|end_char=3037
-3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=3038|end_char=3041
-4	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	5	det	_	start_char=3042|end_char=3046
-5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=3047|end_char=3060
-6	?	?	PUNCT	$.	_	2	punct	_	start_char=3060|end_char=3061
+# text = Der Druck in den Blutgefäßen ist zu hoch.
+# sent_id = 63
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2649|end_char=2652
+2	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=2653|end_char=2658
+3	in	in	ADP	APPR	_	5	case	_	start_char=2659|end_char=2661
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2662|end_char=2665
+5	Blutgefäßen	Blutgefäß	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	start_char=2666|end_char=2677
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2678|end_char=2681
+7	zu	zu	ADV	PTKA	_	8	advmod	_	start_char=2682|end_char=2684
+8	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2685|end_char=2689
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2689|end_char=2690
 
-# text = Sie möchten mehr wissen?
-# sent_id = 50
-1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=3062|end_char=3065
-2	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=3066|end_char=3073
-3	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	4	obj	_	start_char=3074|end_char=3078
-4	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3079|end_char=3085
-5	?	?	PUNCT	$.	_	4	punct	_	start_char=3085|end_char=3086
+# text = - Vermeiden Sie Diabetes.
+# sent_id = 64
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2691|end_char=2692
+2	Vermeiden	vermeiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2693|end_char=2702
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2703|end_char=2706
+4	Diabetes	Diabetes	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2707|end_char=2715
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2715|end_char=2716
 
-# text = Es gibt viele Webseiten mit Infos über Alzheimer.
-# sent_id = 51
-1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3087|end_char=3089
-2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3090|end_char=3094
-3	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=3095|end_char=3100
-4	Webseiten	Webseiten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=3101|end_char=3110
-5	mit	mit	ADP	APPR	_	6	case	_	start_char=3111|end_char=3114
-6	Infos	Info	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=3115|end_char=3120
-7	über	über	ADP	APPR	_	8	case	_	start_char=3121|end_char=3125
-8	Alzheimer	Alzheimer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=3126|end_char=3135
-9	.	.	PUNCT	$.	_	2	punct	_	start_char=3135|end_char=3136
+# text = Diabetes ist eine Krankheit mit hohem Zucker im Blut.
+# sent_id = 65
+1	Diabetes	Diabetes	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=2717|end_char=2725
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2726|end_char=2729
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=2730|end_char=2734
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2735|end_char=2744
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=2745|end_char=2748
+6	hohem	hoch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=2749|end_char=2754
+7	Zucker	Zucker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=2755|end_char=2761
+8-9	im	_	_	_	_	_	_	_	start_char=2762|end_char=2764
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=2765|end_char=2769
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=2769|end_char=2770
 
-# text = Achtung: Die Infos sind oft nicht in Leichter Sprache.
-# sent_id = 52
-1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=3137|end_char=3144
-2	:	:	PUNCT	$.	_	1	punct	_	start_char=3144|end_char=3145
-3	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3146|end_char=3149
-4	Infos	Info	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=3150|end_char=3155
-5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3156|end_char=3160
-6	oft	oft	ADV	ADV	_	7	advmod	_	start_char=3161|end_char=3164
-7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3165|end_char=3170
-8	in	in	ADP	APPR	_	10	case	_	start_char=3171|end_char=3173
-9	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=3174|end_char=3182
-10	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No|start_char=3183|end_char=3190
-11	.	.	PUNCT	$.	_	1	punct	_	start_char=3190|end_char=3191
+# text = **Wo gibt es mehr Informationen?** Wenn Sie mehr wissen wollen, schauen Sie ins Internet.
+# sent_id = 66
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=2771|end_char=2773
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=2773|end_char=2775
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	start_char=2776|end_char=2780
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=2781|end_char=2783
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=2784|end_char=2788
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=2789|end_char=2802
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=2802|end_char=2803
+8	*	*	X	XY	_	3	dep	_	SpaceAfter=No|start_char=2803|end_char=2804
+9	*	*	PUNCT	$(	_	13	punct	_	start_char=2804|end_char=2805
+10	Wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=2806|end_char=2810
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=2811|end_char=2814
+12	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	13	obj	_	start_char=2815|end_char=2819
+13	wissen	wissen	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=2820|end_char=2826
+14	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No|start_char=2827|end_char=2833
+15	,	,	PUNCT	$,	_	3	punct	_	start_char=2833|end_char=2834
+16	schauen	schauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2835|end_char=2842
+17	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=2843|end_char=2846
+18-19	ins	_	_	_	_	_	_	_	start_char=2847|end_char=2850
+18	in	in	ADP	APPR	_	20	case	_	_
+19	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Internet	Internet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|start_char=2851|end_char=2859
+21	.	.	PUNCT	$.	_	16	punct	_	start_char=2859|end_char=2860
 
-# text = Wichtig: Dieser Text ersetzt nicht ein Gespräch mit einem Arzt.
-# sent_id = 53
-1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3192|end_char=3199
-2	:	:	PUNCT	$.	_	5	punct	_	start_char=3199|end_char=3200
-3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=3201|end_char=3207
-4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3208|end_char=3212
-5	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=3213|end_char=3220
-6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=3221|end_char=3226
-7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=3227|end_char=3230
-8	Gespräch	Gespräch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=3231|end_char=3239
-9	mit	mit	ADP	APPR	_	11	case	_	start_char=3240|end_char=3243
-10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=3244|end_char=3249
-11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=3250|end_char=3254
-12	.	.	PUNCT	$.	_	1	punct	_	start_char=3254|end_char=3255
+# text = Vorsicht: Viele Texte sind schwierig.
+# sent_id = 67
+1	Vorsicht	Vorsicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2861|end_char=2869
+2	:	:	PUNCT	$.	_	6	punct	_	start_char=2869|end_char=2870
+3	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=2871|end_char=2876
+4	Texte	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=2877|end_char=2882
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2883|end_char=2887
+6	schwierig	schwierig	ADJ	ADJD	Degree=Pos	1	appos	_	SpaceAfter=No|start_char=2888|end_char=2897
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=2897|end_char=2898
 
-# text = Bei Fragen oder Beschwerden sprechen Sie immer mit Ihrem Arzt oder rufen Sie die Arztpraxis an.
-# sent_id = 54
-1	Bei	bei	ADP	APPR	_	2	case	_	start_char=3256|end_char=3259
-2	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	start_char=3260|end_char=3266
-3	oder	oder	CCONJ	KON	_	4	cc	_	start_char=3267|end_char=3271
-4	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	conj	_	start_char=3272|end_char=3283
-5	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3284|end_char=3292
-6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=3293|end_char=3296
-7	immer	immer	ADV	ADV	_	5	advmod	_	start_char=3297|end_char=3302
-8	mit	mit	ADP	APPR	_	10	case	_	start_char=3303|end_char=3306
-9	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=3307|end_char=3312
-10	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	start_char=3313|end_char=3317
-11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=3318|end_char=3322
-12	rufen	rufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=3323|end_char=3328
-13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=3329|end_char=3332
-14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=3333|end_char=3336
-15	Arztpraxis	Arztpraxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=3337|end_char=3347
-16	an	an	ADP	PTKVZ	_	12	compound:prt	_	SpaceAfter=No|start_char=3348|end_char=3350
-17	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=3350|end_char=3351
+# text = Achtung: Sprechen Sie immer mit einem Arzt, wenn Sie krank sind oder Fragen haben.
+# sent_id = 68
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2899|end_char=2906
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=2906|end_char=2907
+3	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=2908|end_char=2916
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=2917|end_char=2920
+5	immer	immer	ADV	ADV	_	3	advmod	_	start_char=2921|end_char=2926
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=2927|end_char=2930
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=2931|end_char=2936
+8	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|start_char=2937|end_char=2941
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=2941|end_char=2942
+10	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=2943|end_char=2947
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=2948|end_char=2951
+12	krank	krank	ADJ	ADJD	Degree=Pos	3	advcl	_	start_char=2952|end_char=2957
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=2958|end_char=2962
+14	oder	oder	CCONJ	KON	_	16	cc	_	start_char=2963|end_char=2967
+15	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	obj	_	start_char=2968|end_char=2974
+16	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No|start_char=2975|end_char=2980
+17	.	.	PUNCT	$.	_	1	punct	_	start_char=2980|end_char=2981
+
+# text = --- Möchten Sie Erklärungen für weitere schwierige Wörter?
+# sent_id = 69
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=2982|end_char=2985
+2	Möchten	Möchten	VERB	VVIMP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2986|end_char=2993
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=2994|end_char=2997
+4	Erklärungen	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2998|end_char=3009
+5	für	für	ADP	APPR	_	8	case	_	start_char=3010|end_char=3013
+6	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	8	amod	_	start_char=3014|end_char=3021
+7	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=3022|end_char=3032
+8	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=3033|end_char=3039
+9	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=3039|end_char=3040
 
