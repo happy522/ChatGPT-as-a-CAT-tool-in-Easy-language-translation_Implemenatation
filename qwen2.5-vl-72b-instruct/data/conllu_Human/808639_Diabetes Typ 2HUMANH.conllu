@@ -1,0 +1,822 @@
+# text = **Zuckerkrankheit (Typ 2)** **Was ist die Zuckerkrankheit?**
+# sent_id = 0
+1-2	*	_	_	_	_	_	_	_	SpaceAfter=No|start_char=0|end_char=1
+1	<SOS>n	<SOS>n	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	de*	de*	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1|end_char=2
+4	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=2|end_char=17
+5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=18|end_char=19
+6	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=19|end_char=22
+7	2	2	NUM	CARD	NumType=Card	6	appos	_	SpaceAfter=No|start_char=23|end_char=24
+8	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=24|end_char=25
+9	*	*	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=25|end_char=26
+10	*	*	PUNCT	$(	_	15	dep	_	SpacesAfter=\s\s|start_char=26|end_char=27
+11	**	**	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=29|end_char=31
+12	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	start_char=31|end_char=34
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=35|end_char=38
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=39|end_char=42
+15	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No|start_char=43|end_char=58
+16	?	?	PUNCT	$.	_	15	punct	_	SpaceAfter=No|start_char=58|end_char=59
+17	*	*	PUNCT	$(	_	15	dep	_	SpaceAfter=No|start_char=59|end_char=60
+18	*	*	PUNCT	$(	_	15	punct	_	SpacesAfter=\s\s|start_char=60|end_char=61
+
+# text = Die Zuckerkrankheit ist eine Krankheit.
+# sent_id = 1
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=63|end_char=66
+2	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=67|end_char=82
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=83|end_char=86
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=87|end_char=91
+5	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=92|end_char=101
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=101|end_char=102
+
+# text = Der Körper nimmt Zucker auf.
+# sent_id = 2
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=103|end_char=106
+2	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=107|end_char=113
+3	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=114|end_char=119
+4	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=120|end_char=126
+5	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=127|end_char=130
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=130|end_char=131
+
+# text = Aber er kann ihn nicht gut nutzen.
+# sent_id = 3
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=132|end_char=136
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=137|end_char=139
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=140|end_char=144
+4	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=145|end_char=148
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=149|end_char=154
+6	gut	gut	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=155|end_char=158
+7	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=159|end_char=165
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=165|end_char=166
+
+# text = Deshalb bleibt der Zucker im Blut.
+# sent_id = 4
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	start_char=167|end_char=174
+2	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=175|end_char=181
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=182|end_char=185
+4	Zucker	Zucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=186|end_char=192
+5-6	im	_	_	_	_	_	_	_	start_char=193|end_char=195
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=196|end_char=200
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=200|end_char=201
+
+# text = Das macht den Körper krank.
+# sent_id = 5
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=202|end_char=205
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=206|end_char=211
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=212|end_char=215
+4	Körper	Körper	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	start_char=216|end_char=222
+5	krank	krank	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=223|end_char=228
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=228|end_char=229
+
+# text = Die Zuckerkrankheit ist eine dauerhafte Krankheit.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=231|end_char=234
+2	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=235|end_char=250
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=251|end_char=254
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=255|end_char=259
+5	dauerhafte	dauerhaft	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=260|end_char=270
+6	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=271|end_char=280
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=280|end_char=281
+
+# text = Sie kann nicht geheilt werden.
+# sent_id = 7
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=282|end_char=285
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=286|end_char=290
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=291|end_char=296
+4	geheilt	heilen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=297|end_char=304
+5	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	4	aux:pass	_	SpaceAfter=No|start_char=305|end_char=311
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=311|end_char=312
+
+# text = Aber man kann sie behandeln.
+# sent_id = 8
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=313|end_char=317
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=318|end_char=321
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=322|end_char=326
+4	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	start_char=327|end_char=330
+5	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=331|end_char=340
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=340|end_char=341
+
+# text = Eine gute Ernährung hilft dabei.
+# sent_id = 9
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=342|end_char=346
+2	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=347|end_char=351
+3	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=352|end_char=361
+4	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=362|end_char=367
+5	dabei	dabei	ADV	PAV	_	4	advmod	_	SpaceAfter=No|start_char=368|end_char=373
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=373|end_char=374
+
+# text = **Was passiert bei der Zuckerkrankheit?**
+# sent_id = 10
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=376|end_char=378
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=378|end_char=381
+3	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=382|end_char=390
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=391|end_char=394
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=395|end_char=398
+6	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=399|end_char=414
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=414|end_char=415
+8	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=415|end_char=416
+9	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=416|end_char=417
+
+# text = Bei der Zuckerkrankheit nimmt der Körper den Zucker nicht auf.
+# sent_id = 11
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=419|end_char=422
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=423|end_char=426
+3	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=427|end_char=442
+4	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=443|end_char=448
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=449|end_char=452
+6	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=453|end_char=459
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=460|end_char=463
+8	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=464|end_char=470
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=471|end_char=476
+10	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=477|end_char=480
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=480|end_char=481
+
+# text = Der Körper braucht Zucker, um Energie zu bekommen.
+# sent_id = 12
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=482|end_char=485
+2	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=486|end_char=492
+3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=493|end_char=500
+4	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=501|end_char=507
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=507|end_char=508
+6	um	um	ADP	KOUI	_	9	mark	_	start_char=509|end_char=511
+7	Energie	Energie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=512|end_char=519
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=520|end_char=522
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No|start_char=523|end_char=531
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=531|end_char=532
+
+# text = Das Hormon Insulin hilft, den Zucker ins Gewebe zu bringen.
+# sent_id = 13
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=534|end_char=537
+2	Hormon	Hormon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=538|end_char=544
+3	Insulin	Insulin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=545|end_char=552
+4	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=553|end_char=558
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=558|end_char=559
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=560|end_char=563
+7	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=564|end_char=570
+8-9	ins	_	_	_	_	_	_	_	start_char=571|end_char=574
+8	in	in	ADP	APPR	_	10	case	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=575|end_char=581
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=582|end_char=584
+12	bringen	bringen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|start_char=585|end_char=592
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=592|end_char=593
+
+# text = Wenn es nicht richtig funktioniert, bleibt der Zucker im Blut.
+# sent_id = 14
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=594|end_char=598
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=599|end_char=601
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=602|end_char=607
+4	richtig	richtig	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=608|end_char=615
+5	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=616|end_char=628
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=628|end_char=629
+7	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=630|end_char=636
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=637|end_char=640
+9	Zucker	Zucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=641|end_char=647
+10-11	im	_	_	_	_	_	_	_	start_char=648|end_char=650
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|start_char=651|end_char=655
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=655|end_char=656
+
+# text = Das macht den Körper krank.
+# sent_id = 15
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=657|end_char=660
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=661|end_char=666
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=667|end_char=670
+4	Körper	Körper	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	start_char=671|end_char=677
+5	krank	krank	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=678|end_char=683
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=683|end_char=684
+
+# text = Ein hoher Zucker im Blut kann viele Probleme machen.
+# sent_id = 16
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=686|end_char=689
+2	hoher	hoch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=690|end_char=695
+3	Zucker	Zucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=696|end_char=702
+4-5	im	_	_	_	_	_	_	_	start_char=703|end_char=705
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=706|end_char=710
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=711|end_char=715
+8	viele	viel	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	start_char=716|end_char=721
+9	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=722|end_char=730
+10	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=731|end_char=737
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=737|end_char=738
+
+# text = Zum Beispiel: - Die Nerven können kaputt gehen.
+# sent_id = 17
+1-2	Zum	_	_	_	_	_	_	_	start_char=739|end_char=742
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|start_char=743|end_char=751
+4	:	:	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=751|end_char=752
+5	-	-	PUNCT	$(	_	10	punct	_	start_char=754|end_char=755
+6	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=756|end_char=759
+7	Nerven	Nerv|Nerven	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=760|end_char=766
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=767|end_char=773
+9	kaputt	kaputt	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=774|end_char=780
+10	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=781|end_char=786
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=786|end_char=787
+
+# text = Dann spürt man Schmerzen nicht mehr.
+# sent_id = 18
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=788|end_char=792
+2	spürt	spüren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=793|end_char=798
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=799|end_char=802
+4	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=803|end_char=812
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=813|end_char=818
+6	mehr	mehr	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=819|end_char=823
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=823|end_char=824
+
+# text = Man kann sich leicht verletzen.
+# sent_id = 19
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=825|end_char=828
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=829|end_char=833
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=834|end_char=838
+4	leicht	leicht	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=839|end_char=845
+5	verletzen	verletzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=846|end_char=855
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=855|end_char=856
+
+# text = - Die Blutgefäße können kaputt gehen.
+# sent_id = 20
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=857|end_char=858
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=859|end_char=862
+3	Blutgefäße	Blutgefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=863|end_char=873
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=874|end_char=880
+5	kaputt	kaputt	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=881|end_char=887
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=888|end_char=893
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=893|end_char=894
+
+# text = Dann kann man einen Herzinfarkt oder Schlaganfall bekommen.
+# sent_id = 21
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=895|end_char=899
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=900|end_char=904
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=905|end_char=908
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=909|end_char=914
+5	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=915|end_char=926
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=927|end_char=931
+7	Schlaganfall	Schlaganfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	start_char=932|end_char=944
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=945|end_char=953
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=953|end_char=954
+
+# text = - Das Auge kann kaputt gehen.
+# sent_id = 22
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=955|end_char=956
+2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=957|end_char=960
+3	Auge	Auge	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=961|end_char=965
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=966|end_char=970
+5	kaputt	kaputt	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=971|end_char=977
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=978|end_char=983
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=983|end_char=984
+
+# text = Dann kann man schlecht sehen oder gar nichts mehr sehen.
+# sent_id = 23
+1	Dann	dann	ADV	ADV	_	5	advmod	_	start_char=985|end_char=989
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=990|end_char=994
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=995|end_char=998
+4	schlecht	schlecht	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=999|end_char=1007
+5	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1008|end_char=1013
+6	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1014|end_char=1018
+7	gar	gar	ADV	ADV	_	8	advmod	_	start_char=1019|end_char=1022
+8	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	10	obj	_	start_char=1023|end_char=1029
+9	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=1030|end_char=1034
+10	sehen	sehen	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No|start_char=1035|end_char=1040
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1040|end_char=1041
+
+# text = - Die Organe können kaputt gehen.
+# sent_id = 24
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1042|end_char=1043
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1044|end_char=1047
+3	Organe	Organ	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=1048|end_char=1054
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1055|end_char=1061
+5	kaputt	kaputt	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=1062|end_char=1068
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1069|end_char=1074
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1074|end_char=1075
+
+# text = Zum Beispiel die Nieren.
+# sent_id = 25
+1-2	Zum	_	_	_	_	_	_	_	start_char=1076|end_char=1079
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1080|end_char=1088
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1089|end_char=1092
+5	Nieren	Niere	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=1093|end_char=1099
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1099|end_char=1100
+
+# text = Wer Zuckerkrankheit hat, muss oft zum Arzt gehen.
+# sent_id = 26
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=1102|end_char=1105
+2	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1106|end_char=1121
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|start_char=1122|end_char=1125
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=1125|end_char=1126
+5	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1127|end_char=1131
+6	oft	oft	ADV	ADV	_	10	advmod	_	start_char=1132|end_char=1135
+7-8	zum	_	_	_	_	_	_	_	start_char=1136|end_char=1139
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1140|end_char=1144
+10	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1145|end_char=1150
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=1150|end_char=1151
+
+# text = **Wie kann man die Zuckerkrankheit erkennen?**
+# sent_id = 27
+1	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1153|end_char=1155
+2	Wie	wie	ADV	PWAV	PronType=Int	7	advmod	_	start_char=1155|end_char=1158
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1159|end_char=1163
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1164|end_char=1167
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1168|end_char=1171
+6	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1172|end_char=1187
+7	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1188|end_char=1196
+8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=1196|end_char=1197
+9	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1197|end_char=1198
+10	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=1198|end_char=1199
+
+# text = Wer Zuckerkrankheit hat, merkt das oft nicht gleich.
+# sent_id = 28
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=1201|end_char=1204
+2	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1205|end_char=1220
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	SpaceAfter=No|start_char=1221|end_char=1224
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=1224|end_char=1225
+5	merkt	merken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1226|end_char=1231
+6	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	start_char=1232|end_char=1235
+7	oft	oft	ADV	ADV	_	5	advmod	_	start_char=1236|end_char=1239
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=1240|end_char=1245
+9	gleich	gleich	ADV	ADV	_	5	advmod	_	SpaceAfter=No|start_char=1246|end_char=1252
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=1252|end_char=1253
+
+# text = Der Arzt kann es mit einem Bluttest feststellen.
+# sent_id = 29
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1254|end_char=1257
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1258|end_char=1262
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1263|end_char=1267
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=1268|end_char=1270
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=1271|end_char=1274
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1275|end_char=1280
+7	Bluttest	Bluttest	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=1281|end_char=1289
+8	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1290|end_char=1301
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1301|end_char=1302
+
+# text = Diese Zeichen zeigen, dass der Zucker im Blut zu hoch ist: - Man muss oft pinkeln.
+# sent_id = 30
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	start_char=1304|end_char=1309
+2	Zeichen	Zeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1310|end_char=1317
+3	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1318|end_char=1324
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=1324|end_char=1325
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=1326|end_char=1330
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1331|end_char=1334
+7	Zucker	Zucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=1335|end_char=1341
+8-9	im	_	_	_	_	_	_	_	start_char=1342|end_char=1344
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=1345|end_char=1349
+11	zu	zu	ADV	PTKA	_	12	advmod	_	start_char=1350|end_char=1352
+12	hoch	hoch	ADJ	ADJD	Degree=Pos	3	ccomp	_	start_char=1353|end_char=1357
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No|start_char=1358|end_char=1361
+14	:	:	PUNCT	$.	_	19	punct	_	SpacesAfter=\s\s|start_char=1361|end_char=1362
+15	-	-	PUNCT	$(	_	19	punct	_	start_char=1364|end_char=1365
+16	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	start_char=1366|end_char=1369
+17	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=1370|end_char=1374
+18	oft	oft	ADV	ADV	_	19	advmod	_	start_char=1375|end_char=1378
+19	pinkeln	pinkeln	VERB	VVINF	VerbForm=Inf	12	parataxis	_	SpaceAfter=No|start_char=1379|end_char=1386
+20	.	.	PUNCT	$.	_	3	punct	_	start_char=1386|end_char=1387
+
+# text = - Man hat großen Durst.
+# sent_id = 31
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1388|end_char=1389
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1390|end_char=1393
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1394|end_char=1397
+4	großen	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1398|end_char=1404
+5	Durst	Durst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=1405|end_char=1410
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1410|end_char=1411
+
+# text = - Man ist müde. - Die Haut ist trocken und juckt.
+# sent_id = 32
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1412|end_char=1413
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=1414|end_char=1417
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1418|end_char=1421
+4	müde	müde	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1422|end_char=1426
+5	.	.	PUNCT	$.	_	10	punct	_	start_char=1426|end_char=1427
+6	-	-	PUNCT	$(	_	10	punct	_	start_char=1428|end_char=1429
+7	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1430|end_char=1433
+8	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1434|end_char=1438
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1439|end_char=1442
+10	trocken	trocken	ADJ	ADJD	Degree=Pos	4	parataxis	_	start_char=1443|end_char=1450
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=1451|end_char=1454
+12	juckt	jucken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No|start_char=1455|end_char=1460
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=1460|end_char=1461
+
+# text = - Man wird oft krank.
+# sent_id = 33
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1462|end_char=1463
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1464|end_char=1467
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	start_char=1468|end_char=1472
+4	oft	oft	ADV	ADV	_	5	advmod	_	start_char=1473|end_char=1476
+5	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1477|end_char=1482
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1482|end_char=1483
+
+# text = - Im Geschlechtsteil gibt es oft Entzündungen.
+# sent_id = 34
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=1484|end_char=1485
+2-3	Im	_	_	_	_	_	_	_	start_char=1486|end_char=1488
+2	In	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Geschlechtsteil	Geschlechtsteil	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=1489|end_char=1504
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1505|end_char=1509
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=1510|end_char=1512
+7	oft	oft	ADV	ADV	_	5	advmod	_	start_char=1513|end_char=1516
+8	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No|start_char=1517|end_char=1529
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=1529|end_char=1530
+
+# text = - Wunden heilen langsam.
+# sent_id = 35
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1531|end_char=1532
+2	Wunden	Wunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1533|end_char=1539
+3	heilen	heilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1540|end_char=1546
+4	langsam	langsam	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=1547|end_char=1554
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1554|end_char=1555
+
+# text = Denkt jemand, dass er Zuckerkrankheit hat, sollte er zum Arzt gehen.
+# sent_id = 36
+1	Denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=1557|end_char=1562
+2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	SpaceAfter=No|start_char=1563|end_char=1569
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=1569|end_char=1570
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	start_char=1571|end_char=1575
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=1576|end_char=1578
+6	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1579|end_char=1594
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No|start_char=1595|end_char=1598
+8	,	,	PUNCT	$,	_	1	punct	_	start_char=1598|end_char=1599
+9	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=1600|end_char=1606
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=1607|end_char=1609
+11-12	zum	_	_	_	_	_	_	_	start_char=1610|end_char=1613
+11	zu	zu	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=1614|end_char=1618
+14	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1619|end_char=1624
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=1624|end_char=1625
+
+# text = Der Arzt kann ihm helfen.
+# sent_id = 37
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1626|end_char=1629
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1630|end_char=1634
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1635|end_char=1639
+4	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:arg	_	start_char=1640|end_char=1643
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1644|end_char=1650
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1650|end_char=1651
+
+# text = **Was macht die Zuckerkrankheit?**
+# sent_id = 38
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1653|end_char=1655
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=1655|end_char=1658
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1659|end_char=1664
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1665|end_char=1668
+5	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=1669|end_char=1684
+6	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1684|end_char=1685
+7	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1685|end_char=1686
+8	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=1686|end_char=1687
+
+# text = Vier Dinge machen die Zuckerkrankheit: - Wenn in der Familie schon jemand Zuckerkrankheit hat.
+# sent_id = 39
+1	Vier	vier	NUM	CARD	NumType=Card	2	nummod	_	start_char=1689|end_char=1693
+2	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1694|end_char=1699
+3	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1700|end_char=1706
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1707|end_char=1710
+5	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=1711|end_char=1726
+6	:	:	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\s|start_char=1726|end_char=1727
+7	-	-	PUNCT	$(	_	15	punct	_	start_char=1729|end_char=1730
+8	Wenn	wenn	SCONJ	KOUS	_	15	mark	_	start_char=1731|end_char=1735
+9	in	in	ADP	APPR	_	11	case	_	start_char=1736|end_char=1738
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1739|end_char=1742
+11	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=1743|end_char=1750
+12	schon	schon	ADV	ADV	_	15	advmod	_	start_char=1751|end_char=1756
+13	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=1757|end_char=1763
+14	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=1764|end_char=1779
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=1780|end_char=1783
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=1783|end_char=1784
+
+# text = - Wenn man ungesund isst.
+# sent_id = 40
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=1785|end_char=1786
+2	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1787|end_char=1791
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1792|end_char=1795
+4	ungesund	ungesund	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=1796|end_char=1804
+5	isst	essen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1805|end_char=1809
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1809|end_char=1810
+
+# text = - Wenn man zu dick ist.
+# sent_id = 41
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=1811|end_char=1812
+2	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1813|end_char=1817
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1818|end_char=1821
+4	zu	zu	ADV	PTKA	_	5	advmod	_	start_char=1822|end_char=1824
+5	dick	dick	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1825|end_char=1829
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No|start_char=1830|end_char=1833
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=1833|end_char=1834
+
+# text = - Wenn man sich zu wenig bewegt.
+# sent_id = 42
+1	-	-	PUNCT	$(	_	7	punct	_	start_char=1835|end_char=1836
+2	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1837|end_char=1841
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1842|end_char=1845
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1846|end_char=1850
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=1851|end_char=1853
+6	wenig	wenig	DET	PIS	PronType=Ind	7	advmod	_	start_char=1854|end_char=1859
+7	bewegt	bewegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1860|end_char=1866
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=1866|end_char=1867
+
+# text = **Was kann man gegen die Zuckerkrankheit tun?**
+# sent_id = 43
+1	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1869|end_char=1871
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=1871|end_char=1874
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1875|end_char=1879
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1880|end_char=1883
+5	gegen	gegen	ADP	APPR	_	7	case	_	start_char=1884|end_char=1889
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1890|end_char=1893
+7	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1894|end_char=1909
+8	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1910|end_char=1913
+9	?	?	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=1913|end_char=1914
+10	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1914|end_char=1915
+11	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=1915|end_char=1916
+
+# text = Wer Zuckerkrankheit hat, kann selbst etwas tun: - Gesund essen.
+# sent_id = 44
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=1918|end_char=1921
+2	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1922|end_char=1937
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=1938|end_char=1941
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=1941|end_char=1942
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1943|end_char=1947
+6	selbst	selbst	ADV	ADV	_	8	advmod	_	start_char=1948|end_char=1954
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	start_char=1955|end_char=1960
+8	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1961|end_char=1964
+9	:	:	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=1964|end_char=1965
+10	-	-	PUNCT	$(	_	12	punct	_	start_char=1967|end_char=1968
+11	Gesund	Gesund	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=1969|end_char=1975
+12	essen	essen	VERB	VVINF	VerbForm=Inf	8	parataxis	_	SpaceAfter=No|start_char=1976|end_char=1981
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=1981|end_char=1982
+
+# text = - Abnehmen, wenn man zu dick ist.
+# sent_id = 45
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1983|end_char=1984
+2	Abnehmen	Abnehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1985|end_char=1993
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=1993|end_char=1994
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1995|end_char=1999
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=2000|end_char=2003
+6	zu	zu	ADV	PTKA	_	7	advmod	_	start_char=2004|end_char=2006
+7	dick	dick	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=2007|end_char=2011
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No|start_char=2012|end_char=2015
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2015|end_char=2016
+
+# text = - Viel bewegen.
+# sent_id = 46
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2017|end_char=2018
+2	Viel	viel	DET	PIS	PronType=Ind	3	obj	_	start_char=2019|end_char=2023
+3	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2024|end_char=2031
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=2031|end_char=2032
+
+# text = Will jemand Hilfe, kann er eine Schulung besuchen.
+# sent_id = 47
+1	Will	wollen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=2034|end_char=2038
+2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	start_char=2039|end_char=2045
+3	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|start_char=2046|end_char=2051
+4	,	,	PUNCT	$,	_	1	punct	_	start_char=2051|end_char=2052
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2053|end_char=2057
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=2058|end_char=2060
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=2061|end_char=2065
+8	Schulung	Schulung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=2066|end_char=2074
+9	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2075|end_char=2083
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2083|end_char=2084
+
+# text = Oder er kann eine Selbsthilfegruppe besuchen.
+# sent_id = 48
+1	Oder	Oder	CCONJ	KON	_	6	cc	_	start_char=2085|end_char=2089
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=2090|end_char=2092
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2093|end_char=2097
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=2098|end_char=2102
+5	Selbsthilfegruppe	Selbsthilfegruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=2103|end_char=2120
+6	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2121|end_char=2129
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2129|end_char=2130
+
+# text = Da trifft er andere Menschen, die auch Zuckerkrankheit haben.
+# sent_id = 49
+1	Da	da	ADV	ADV	_	2	advmod	_	start_char=2131|end_char=2133
+2	trifft	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2134|end_char=2140
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2141|end_char=2143
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=2144|end_char=2150
+5	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=2151|end_char=2159
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=2159|end_char=2160
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=2161|end_char=2164
+8	auch	auch	ADV	ADV	_	10	advmod	_	start_char=2165|end_char=2169
+9	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=2170|end_char=2185
+10	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No|start_char=2186|end_char=2191
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=2191|end_char=2192
+
+# text = Manchmal gibt der Arzt Medikamente.
+# sent_id = 50
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=2194|end_char=2202
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2203|end_char=2207
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2208|end_char=2211
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2212|end_char=2216
+5	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|start_char=2217|end_char=2228
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2228|end_char=2229
+
+# text = Diese Medikamente heißen Anti-Diabetika.
+# sent_id = 51
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=2230|end_char=2235
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=2236|end_char=2247
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2248|end_char=2254
+4	Anti	Anti	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	compound	_	SpaceAfter=No|start_char=2255|end_char=2259
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=2259|end_char=2260
+6	Diabetika	Diabetikum	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No|start_char=2260|end_char=2269
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2269|end_char=2270
+
+# text = Das sind Pillen, die helfen, den Zucker im Blut zu senken.
+# sent_id = 52
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=2271|end_char=2274
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2275|end_char=2279
+3	Pillen	Pille	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=2280|end_char=2286
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=2286|end_char=2287
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	6	nsubj	_	start_char=2288|end_char=2291
+6	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No|start_char=2292|end_char=2298
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=2298|end_char=2299
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=2300|end_char=2303
+9	Zucker	Zucker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=2304|end_char=2310
+10-11	im	_	_	_	_	_	_	_	start_char=2311|end_char=2313
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=2314|end_char=2318
+13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=2319|end_char=2321
+14	senken	senken	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=2322|end_char=2328
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=2328|end_char=2329
+
+# text = Redet mit dem Arzt.
+# sent_id = 53
+1	Redet	Reden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2331|end_char=2336
+2	mit	mit	ADP	APPR	_	4	case	_	start_char=2337|end_char=2340
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2341|end_char=2344
+4	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|start_char=2345|end_char=2349
+5	.	.	PUNCT	$.	_	1	punct	_	start_char=2349|end_char=2350
+
+# text = Der Arzt gibt wichtige Informationen.
+# sent_id = 54
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2351|end_char=2354
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2355|end_char=2359
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2360|end_char=2364
+4	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2365|end_char=2373
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=2374|end_char=2387
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=2387|end_char=2388
+
+# text = **Wie kann man die Zuckerkrankheit verhindern?**
+# sent_id = 55
+1	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=2390|end_char=2392
+2	Wie	wie	ADV	PWAV	PronType=Int	7	advmod	_	start_char=2392|end_char=2395
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2396|end_char=2400
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=2401|end_char=2404
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2405|end_char=2408
+6	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=2409|end_char=2424
+7	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2425|end_char=2435
+8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=2435|end_char=2436
+9	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=2436|end_char=2437
+10	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=2437|end_char=2438
+
+# text = Man kann die Zuckerkrankheit mit einer gesunden Lebensweise verhindern.
+# sent_id = 56
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=2440|end_char=2443
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2444|end_char=2448
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2449|end_char=2452
+4	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=2453|end_char=2468
+5	mit	mit	ADP	APPR	_	8	case	_	start_char=2469|end_char=2472
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=2473|end_char=2478
+7	gesunden	gesund	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=2479|end_char=2487
+8	Lebensweise	Lebensweise	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=2488|end_char=2499
+9	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2500|end_char=2510
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2510|end_char=2511
+
+# text = Zum Beispiel: - Gesund essen. - Abnehmen, wenn man zu dick ist.
+# sent_id = 57
+1-2	Zum	_	_	_	_	_	_	_	start_char=2512|end_char=2515
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=2516|end_char=2524
+4	:	:	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=2524|end_char=2525
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=2527|end_char=2528
+6	Gesund	Gesund	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=2529|end_char=2535
+7	essen	essen	VERB	VVINF	VerbForm=Inf	10	parataxis	_	SpaceAfter=No|start_char=2536|end_char=2541
+8	.	.	PUNCT	$.	_	10	punct	_	start_char=2541|end_char=2542
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=2543|end_char=2544
+10	Abnehmen	Abnehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=2545|end_char=2553
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=2553|end_char=2554
+12	wenn	wenn	SCONJ	KOUS	_	15	mark	_	start_char=2555|end_char=2559
+13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=2560|end_char=2563
+14	zu	zu	ADV	PTKA	_	15	advmod	_	start_char=2564|end_char=2566
+15	dick	dick	ADJ	ADJD	Degree=Pos	10	advcl	_	start_char=2567|end_char=2571
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No|start_char=2572|end_char=2575
+17	.	.	PUNCT	$.	_	7	punct	_	start_char=2575|end_char=2576
+
+# text = - Viel bewegen.
+# sent_id = 58
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2577|end_char=2578
+2	Viel	viel	DET	PIS	PronType=Ind	3	obj	_	start_char=2579|end_char=2583
+3	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2584|end_char=2591
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=2591|end_char=2592
+
+# text = **Wo bekommt man mehr Informationen?** Will jemand mehr über die Zuckerkrankheit erfahren, kann er hier lesen.
+# sent_id = 59
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=2594|end_char=2596
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=2596|end_char=2598
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	start_char=2599|end_char=2606
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=2607|end_char=2610
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=2611|end_char=2615
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=2616|end_char=2629
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=2629|end_char=2630
+8	*	*	X	XY	_	16	mark	_	SpaceAfter=No|start_char=2630|end_char=2631
+9	*	*	PUNCT	$(	_	16	punct	_	SpacesAfter=\s\s|start_char=2631|end_char=2632
+10	Will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=2634|end_char=2638
+11	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=2639|end_char=2645
+12	mehr	mehr	ADV	ADV	_	16	advmod	_	start_char=2646|end_char=2650
+13	über	über	ADP	APPR	_	15	case	_	start_char=2651|end_char=2655
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=2656|end_char=2659
+15	Zuckerkrankheit	Zuckerkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=2660|end_char=2675
+16	erfahren	erfahren	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No|start_char=2676|end_char=2684
+17	,	,	PUNCT	$,	_	16	punct	_	start_char=2684|end_char=2685
+18	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=2686|end_char=2690
+19	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=2691|end_char=2693
+20	hier	hier	ADV	ADV	_	21	advmod	_	start_char=2694|end_char=2698
+21	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2699|end_char=2704
+22	.	.	PUNCT	$.	_	21	punct	_	start_char=2704|end_char=2705
+
+# text = Achtung: Dieser Link führt weg von der einfachen Sprache.
+# sent_id = 60
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2706|end_char=2713
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=2713|end_char=2714
+3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=2715|end_char=2721
+4	Link	Link	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2722|end_char=2726
+5	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=2727|end_char=2732
+6	weg	weg	ADV	ADV	_	5	advmod	_	start_char=2733|end_char=2736
+7	von	von	ADP	APPR	_	10	case	_	start_char=2737|end_char=2740
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2741|end_char=2744
+9	einfachen	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2745|end_char=2754
+10	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|start_char=2755|end_char=2762
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=2762|end_char=2763
+
+# text = Die Informationen sind dann nicht mehr so einfach.
+# sent_id = 61
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2764|end_char=2767
+2	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=2768|end_char=2781
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2782|end_char=2786
+4	dann	dann	ADV	ADV	_	8	advmod	_	start_char=2787|end_char=2791
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=2792|end_char=2797
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=2798|end_char=2802
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=2803|end_char=2805
+8	einfach	einfach	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2806|end_char=2813
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=2813|end_char=2814
+
+# text = Achtung: Dieser Text gibt nur allgemeine Informationen.
+# sent_id = 62
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2816|end_char=2823
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=2823|end_char=2824
+3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=2825|end_char=2831
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2832|end_char=2836
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=2837|end_char=2841
+6	nur	nur	ADV	ADV	_	5	advmod	_	start_char=2842|end_char=2845
+7	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=2846|end_char=2856
+8	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|start_char=2857|end_char=2870
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=2870|end_char=2871
+
+# text = Er ersetzt nicht den Arztbesuch.
+# sent_id = 63
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2872|end_char=2874
+2	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2875|end_char=2882
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=2883|end_char=2888
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2889|end_char=2892
+5	Arztbesuch	Arztbesuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2893|end_char=2903
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=2903|end_char=2904
+
+# text = Nur der Arzt kann genaue Informationen geben.
+# sent_id = 64
+1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=2905|end_char=2908
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=2909|end_char=2912
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2913|end_char=2917
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2918|end_char=2922
+5	genaue	genau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=2923|end_char=2929
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=2930|end_char=2943
+7	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2944|end_char=2949
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2949|end_char=2950
+
+# text = Ist jemand krank oder hat Fragen, sollte er zum Arzt gehen.
+# sent_id = 65
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2951|end_char=2954
+2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=2955|end_char=2961
+3	krank	krank	ADJ	ADJD	Degree=Pos	13	advcl	_	start_char=2962|end_char=2967
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=2968|end_char=2972
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=2973|end_char=2976
+6	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|start_char=2977|end_char=2983
+7	,	,	PUNCT	$,	_	3	punct	_	start_char=2983|end_char=2984
+8	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=2985|end_char=2991
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=2992|end_char=2994
+10-11	zum	_	_	_	_	_	_	_	start_char=2995|end_char=2998
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=2999|end_char=3003
+13	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3004|end_char=3009
+14	.	.	PUNCT	$.	_	13	punct	_	SpaceAfter=No|start_char=3009|end_char=3010
+

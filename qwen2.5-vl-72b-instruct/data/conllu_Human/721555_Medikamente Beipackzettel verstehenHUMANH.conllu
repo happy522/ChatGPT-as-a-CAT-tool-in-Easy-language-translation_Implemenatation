@@ -1,0 +1,410 @@
+# text = **Medikamente: Beipackzettel verstehen**
+# sent_id = 0
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=2|end_char=13
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=13|end_char=14
+4	Beipackzettel	Beipackzettel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=15|end_char=28
+5	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No|start_char=29|end_char=38
+6	*	*	PUNCT	$(	_	5	advmod	_	SpaceAfter=No|start_char=38|end_char=39
+7	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=39|end_char=40
+
+# text = Ein Beipackzettel ist wichtig.
+# sent_id = 1
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=42|end_char=45
+2	Beipackzettel	Beipackzettel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=46|end_char=59
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=60|end_char=63
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=64|end_char=71
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=71|end_char=72
+
+# text = Er gibt Infos über Medikamente.
+# sent_id = 2
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=73|end_char=75
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=76|end_char=80
+3	Infos	Info	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=81|end_char=86
+4	über	über	ADP	APPR	_	5	case	_	start_char=87|end_char=91
+5	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No|start_char=92|end_char=103
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=103|end_char=104
+
+# text = Manchmal heißt er Gebrauchsinformation.
+# sent_id = 3
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=105|end_char=113
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=114|end_char=119
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=120|end_char=122
+4	Gebrauchsinformation	Gebrauchsinformation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=123|end_char=143
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=143|end_char=144
+
+# text = Viele Menschen brauchen ihn.
+# sent_id = 4
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=145|end_char=150
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=151|end_char=159
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=160|end_char=168
+4	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No|start_char=169|end_char=172
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=172|end_char=173
+
+# text = Zum Beispiel Patienten, Ärzte und Apotheker.
+# sent_id = 5
+1-2	Zum	_	_	_	_	_	_	_	start_char=174|end_char=177
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=178|end_char=186
+4	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=187|end_char=196
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=196|end_char=197
+6	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	start_char=198|end_char=203
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=204|end_char=207
+8	Apotheker	Apotheker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No|start_char=208|end_char=217
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=217|end_char=218
+
+# text = Manchmal ist er schwer zu verstehen.
+# sent_id = 6
+1	Manchmal	manchmal	ADV	ADV	_	6	advmod	_	start_char=219|end_char=227
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	start_char=228|end_char=231
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	start_char=232|end_char=234
+4	schwer	schwer	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=235|end_char=241
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=242|end_char=244
+6	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=245|end_char=254
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=254|end_char=255
+
+# text = Der Beipackzettel muss wichtige Infos haben: 1. Wofür hilft das Medikament?
+# sent_id = 7
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=257|end_char=260
+2	Beipackzettel	Beipackzettel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=261|end_char=274
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=275|end_char=279
+4	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=280|end_char=288
+5	Infos	Info	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=289|end_char=294
+6	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=295|end_char=300
+7	:	:	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=300|end_char=301
+8	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	10	advmod	_	start_char=303|end_char=305
+9	Wofür	wofür	ADV	ADV	_	10	advmod	_	start_char=306|end_char=311
+10	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=312|end_char=317
+11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=318|end_char=321
+12	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No|start_char=322|end_char=332
+13	?	?	PUNCT	$.	_	10	punct	_	start_char=332|end_char=333
+
+# text = Es hilft gegen Krankheiten.
+# sent_id = 8
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=334|end_char=336
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=337|end_char=342
+3	gegen	gegen	ADP	APPR	_	4	case	_	start_char=343|end_char=348
+4	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|start_char=349|end_char=360
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=360|end_char=361
+
+# text = 2. Warnhinweise.
+# sent_id = 9
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	amod	_	start_char=363|end_char=365
+2	Warnhinweise	Warnhinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=366|end_char=378
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=378|end_char=379
+
+# text = Man darf das Medikament nicht nehmen, wenn man allergisch ist, schwanger ist oder stillt.
+# sent_id = 10
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=380|end_char=383
+2	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=384|end_char=388
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=389|end_char=392
+4	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=393|end_char=403
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=404|end_char=409
+6	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=410|end_char=416
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=416|end_char=417
+8	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=418|end_char=422
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=423|end_char=426
+10	allergisch	allergisch	ADJ	ADJD	Degree=Pos	6	advcl	_	start_char=427|end_char=437
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No|start_char=438|end_char=441
+12	,	,	PUNCT	$,	_	13	punct	_	start_char=441|end_char=442
+13	schwanger	schwanger	ADJ	ADJD	Degree=Pos	10	conj	_	start_char=443|end_char=452
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=453|end_char=456
+15	oder	oder	CCONJ	KON	_	16	cc	_	start_char=457|end_char=461
+16	stillt	stillen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No|start_char=462|end_char=468
+17	.	.	PUNCT	$.	_	6	punct	_	start_char=468|end_char=469
+
+# text = Man darf es auch nicht mit anderen Medikamenten nehmen.
+# sent_id = 11
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=470|end_char=473
+2	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=474|end_char=478
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=479|end_char=481
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=482|end_char=486
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=487|end_char=492
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=493|end_char=496
+7	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	start_char=497|end_char=504
+8	Medikamenten	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	start_char=505|end_char=517
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=518|end_char=524
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=524|end_char=525
+
+# text = 3. Wie nimmt man das Medikament?
+# sent_id = 12
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=527|end_char=529
+2	Wie	wie	ADV	PWAV	_	3	advmod	_	start_char=530|end_char=533
+3	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=534|end_char=539
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=540|end_char=543
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=544|end_char=547
+6	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|start_char=548|end_char=558
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=558|end_char=559
+
+# text = Man muss wissen, wie viel man nimmt, wann und wie lange.
+# sent_id = 13
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=560|end_char=563
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=564|end_char=568
+3	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=569|end_char=575
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=575|end_char=576
+5	wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	start_char=577|end_char=580
+6	viel	viel	DET	PIS	PronType=Ind	8	nsubj	_	start_char=581|end_char=585
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=586|end_char=589
+8	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|start_char=590|end_char=595
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=595|end_char=596
+10	wann	wann	SCONJ	KOUS	_	8	dep	_	start_char=597|end_char=601
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=602|end_char=605
+12	wie	wie	ADV	KOUS	_	13	advmod	_	start_char=606|end_char=609
+13	lange	lange	ADV	ADV	_	10	conj	_	SpaceAfter=No|start_char=610|end_char=615
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=615|end_char=616
+
+# text = Wenn der Arzt etwas anderes sagt, macht man das.
+# sent_id = 14
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=617|end_char=621
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=622|end_char=625
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=626|end_char=630
+4	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	start_char=631|end_char=636
+5	anderes	anderer	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	start_char=637|end_char=644
+6	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=645|end_char=649
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=649|end_char=650
+8	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=651|end_char=656
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=657|end_char=660
+10	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obj	_	SpaceAfter=No|start_char=661|end_char=664
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=664|end_char=665
+
+# text = Oder man fragt den Apotheker.
+# sent_id = 15
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=666|end_char=670
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=671|end_char=674
+3	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=675|end_char=680
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=681|end_char=684
+5	Apotheker	Apotheker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=685|end_char=694
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=694|end_char=695
+
+# text = 4. Was kann das Medikament machen?
+# sent_id = 16
+1	4.	4.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	dep	_	start_char=697|end_char=699
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	start_char=700|end_char=703
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=704|end_char=708
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=709|end_char=712
+5	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	obj	_	start_char=713|end_char=723
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=724|end_char=730
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=730|end_char=731
+
+# text = Es kann Nebenwirkungen haben.
+# sent_id = 17
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=732|end_char=734
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=735|end_char=739
+3	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=740|end_char=754
+4	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=755|end_char=760
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=760|end_char=761
+
+# text = Nebenwirkungen sind unangenehme Dinge, die passieren können.
+# sent_id = 18
+1	Nebenwirkungen	Nebenwirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=762|end_char=776
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=777|end_char=781
+3	unangenehme	unangenehm	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=782|end_char=793
+4	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=794|end_char=799
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=799|end_char=800
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	7	nsubj	_	start_char=801|end_char=804
+7	passieren	passieren	VERB	VVINF	VerbForm=Inf	4	acl	_	start_char=805|end_char=814
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No|start_char=815|end_char=821
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=821|end_char=822
+
+# text = Es steht auch, wie oft sie passieren.
+# sent_id = 19
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=823|end_char=825
+2	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=826|end_char=831
+3	auch	auch	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=832|end_char=836
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=836|end_char=837
+5	wie	wie	ADV	KOUS	PronType=Int	8	advmod	_	start_char=838|end_char=841
+6	oft	oft	ADV	ADV	_	8	advmod	_	start_char=842|end_char=845
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=846|end_char=849
+8	passieren	passieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|start_char=850|end_char=859
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=859|end_char=860
+
+# text = 5. Wie bewahrt man das Medikament auf?
+# sent_id = 20
+1	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=862|end_char=864
+2	Wie	wie	ADV	PWAV	_	3	advmod	_	start_char=865|end_char=868
+3	bewahrt	bewahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=869|end_char=876
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=877|end_char=880
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=881|end_char=884
+6	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=885|end_char=895
+7	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=896|end_char=899
+8	?	?	PUNCT	$.	_	3	punct	_	start_char=899|end_char=900
+
+# text = Meistens muss es trocken, dunkel und bei normaler Temperatur sein.
+# sent_id = 21
+1	Meistens	meistens	ADV	ADV	_	4	advmod	_	start_char=901|end_char=909
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=910|end_char=914
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=915|end_char=917
+4	trocken	trocken	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=918|end_char=925
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=925|end_char=926
+6	dunkel	dunkel	ADJ	ADJD	Degree=Pos	4	conj	_	start_char=927|end_char=933
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=934|end_char=937
+8	bei	bei	ADP	APPR	_	10	case	_	start_char=938|end_char=941
+9	normaler	normal	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=942|end_char=950
+10	Temperatur	Temperatur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=951|end_char=961
+11	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No|start_char=962|end_char=966
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=966|end_char=967
+
+# text = Manche Medikamente brauchen andere Bedingungen.
+# sent_id = 22
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	start_char=968|end_char=974
+2	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=975|end_char=986
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=987|end_char=995
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=996|end_char=1002
+5	Bedingungen	Bedingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=1003|end_char=1014
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=1014|end_char=1015
+
+# text = Man muss immer auf den Beipackzettel schauen.
+# sent_id = 23
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1016|end_char=1019
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1020|end_char=1024
+3	immer	immer	ADV	ADV	_	7	advmod	_	start_char=1025|end_char=1030
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=1031|end_char=1034
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1035|end_char=1038
+6	Beipackzettel	Beipackzettel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=1039|end_char=1052
+7	schauen	schauen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1053|end_char=1060
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=1060|end_char=1061
+
+# text = 6. Wo gibt es mehr Infos?
+# sent_id = 24
+1	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=1063|end_char=1065
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1066|end_char=1068
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1069|end_char=1073
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=1074|end_char=1076
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=1077|end_char=1081
+6	Infos	Info	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=1082|end_char=1087
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=1087|end_char=1088
+
+# text = Man kann mehr über das Medikament erfahren.
+# sent_id = 25
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1089|end_char=1092
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1093|end_char=1097
+3	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	7	obj	_	start_char=1098|end_char=1102
+4	über	über	ADP	APPR	_	6	case	_	start_char=1103|end_char=1107
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1108|end_char=1111
+6	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=1112|end_char=1122
+7	erfahren	erfahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1123|end_char=1131
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1131|end_char=1132
+
+# text = Zum Beispiel, wie es aussieht, wie viel man nimmt und was drin ist.
+# sent_id = 26
+1-2	Zum	_	_	_	_	_	_	_	start_char=1133|end_char=1136
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1137|end_char=1145
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=1145|end_char=1146
+5	wie	wie	SCONJ	KOUS	_	7	mark	_	start_char=1147|end_char=1150
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=1151|end_char=1153
+7	aussieht	aussehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|start_char=1154|end_char=1162
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=1162|end_char=1163
+9	wie	wie	SCONJ	KOUS	_	12	mark	_	start_char=1164|end_char=1167
+10	viel	viel	DET	PIS	PronType=Ind	12	nsubj	_	start_char=1168|end_char=1172
+11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=1173|end_char=1176
+12	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=1177|end_char=1182
+13	und	und	CCONJ	KON	_	15	cc	_	start_char=1183|end_char=1186
+14	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	start_char=1187|end_char=1190
+15	drin	drin	ADV	ADV	_	12	conj	_	start_char=1191|end_char=1195
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No|start_char=1196|end_char=1199
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1199|end_char=1200
+
+# text = Hat man Fragen, fragt man den Arzt oder Apotheker.
+# sent_id = 27
+1	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=1202|end_char=1205
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	start_char=1206|end_char=1209
+3	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No|start_char=1210|end_char=1216
+4	,	,	PUNCT	$,	_	1	punct	_	start_char=1216|end_char=1217
+5	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1218|end_char=1223
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1224|end_char=1227
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1228|end_char=1231
+8	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1232|end_char=1236
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1237|end_char=1241
+10	Apotheker	Apotheker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|start_char=1242|end_char=1251
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1251|end_char=1252
+
+# text = Man kann auch eine digitale Version des Beipackzettels finden.
+# sent_id = 28
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1253|end_char=1256
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1257|end_char=1261
+3	auch	auch	ADV	ADV	_	9	advmod	_	start_char=1262|end_char=1266
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=1267|end_char=1271
+5	digitale	digital	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1272|end_char=1280
+6	Version	Version	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1281|end_char=1288
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1289|end_char=1292
+8	Beipackzettels	Beipackzettel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=1293|end_char=1307
+9	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1308|end_char=1314
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1314|end_char=1315
+
+# text = Will man mehr wissen, kann man hier lesen.
+# sent_id = 29
+1	Will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1317|end_char=1321
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=1322|end_char=1325
+3	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	4	advmod	_	start_char=1326|end_char=1330
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No|start_char=1331|end_char=1337
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1337|end_char=1338
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1339|end_char=1343
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1344|end_char=1347
+8	hier	hier	ADV	ADV	_	9	advmod	_	start_char=1348|end_char=1352
+9	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1353|end_char=1358
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1358|end_char=1359
+
+# text = Aber die Infos sind nicht in leichter Sprache.
+# sent_id = 30
+1	Aber	aber	CCONJ	KON	_	8	cc	_	start_char=1360|end_char=1364
+2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1365|end_char=1368
+3	Infos	Info	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=1369|end_char=1374
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1375|end_char=1379
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=1380|end_char=1385
+6	in	in	ADP	APPR	_	8	case	_	start_char=1386|end_char=1388
+7	leichter	leicht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=1389|end_char=1397
+8	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1398|end_char=1405
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1405|end_char=1406
+
+# text = Wichtig: Dieser Text gibt nur allgemeine Infos.
+# sent_id = 31
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1408|end_char=1415
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=1415|end_char=1416
+3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=1417|end_char=1423
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1424|end_char=1428
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=1429|end_char=1433
+6	nur	nur	ADV	ADV	_	5	advmod	_	start_char=1434|end_char=1437
+7	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=1438|end_char=1448
+8	Infos	Info	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No|start_char=1449|end_char=1454
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=1454|end_char=1455
+
+# text = Will man ein Medikament nehmen, spricht man vorher mit dem Arzt oder Apotheker.
+# sent_id = 32
+1	Will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1456|end_char=1460
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1461|end_char=1464
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1465|end_char=1468
+4	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=1469|end_char=1479
+5	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	7	advcl	_	SpaceAfter=No|start_char=1480|end_char=1486
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=1486|end_char=1487
+7	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1488|end_char=1495
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=1496|end_char=1499
+9	vorher	vorher	ADV	ADV	_	7	advmod	_	start_char=1500|end_char=1506
+10	mit	mit	ADP	APPR	_	12	case	_	start_char=1507|end_char=1510
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=1511|end_char=1514
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=1515|end_char=1519
+13	oder	oder	CCONJ	KON	_	14	cc	_	start_char=1520|end_char=1524
+14	Apotheker	Apotheker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|start_char=1525|end_char=1534
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=1534|end_char=1535
+
+# text = Man liest auch den Beipackzettel.
+# sent_id = 33
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=1536|end_char=1539
+2	liest	lesen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1540|end_char=1545
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1546|end_char=1550
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1551|end_char=1554
+5	Beipackzettel	Beipackzettel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=1555|end_char=1568
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=1568|end_char=1569
+
+# text = Dann kann man das Medikament nehmen.
+# sent_id = 34
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=1570|end_char=1574
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1575|end_char=1579
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1580|end_char=1583
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1584|end_char=1587
+5	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=1588|end_char=1598
+6	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1599|end_char=1605
+7	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=1605|end_char=1606
+

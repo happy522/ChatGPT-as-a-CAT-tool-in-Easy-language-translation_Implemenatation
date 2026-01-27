@@ -1,0 +1,363 @@
+# text = **Ummeldung einer Wohnung** **Wichtige Informationen** Buchen Sie einen Termin online, bevor Sie kommen.
+# sent_id = 0
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Ummeldung	Ummeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=11
+3	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=12|end_char=17
+4	Wohnung	Wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=18|end_char=25
+5	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=25|end_char=26
+6	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s|start_char=26|end_char=27
+7	**	**	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=29|end_char=31
+8	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=31|end_char=39
+9	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No|start_char=40|end_char=53
+10	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=53|end_char=54
+11	*	*	PUNCT	$(	_	12	advmod	_	SpacesAfter=\s\s|start_char=54|end_char=55
+12	Buchen	Buche	VERB	VVFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=57|end_char=63
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=64|end_char=67
+14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=68|end_char=73
+15	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=74|end_char=80
+16	online	online	ADJ	ADJD	Degree=Pos	12	advmod	_	SpaceAfter=No|start_char=81|end_char=87
+17	,	,	PUNCT	$,	_	20	punct	_	start_char=87|end_char=88
+18	bevor	bevor	SCONJ	KOUS	_	20	mark	_	start_char=89|end_char=94
+19	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	20	nsubj	_	start_char=95|end_char=98
+20	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=99|end_char=105
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=105|end_char=106
+
+# text = Sie können einen Termin für mehrere Personen buchen.
+# sent_id = 1
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=107|end_char=110
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=111|end_char=117
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=118|end_char=123
+4	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=124|end_char=130
+5	für	für	ADP	APPR	_	7	case	_	start_char=131|end_char=134
+6	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=135|end_char=142
+7	Personen	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=143|end_char=151
+8	buchen	buchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=152|end_char=158
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=158|end_char=159
+
+# text = **Was ist Ummeldung?** Ummeldung bedeutet, dass Sie Ihre neue Adresse bei der Stadt anmelden.
+# sent_id = 2
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=161|end_char=163
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=163|end_char=166
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=167|end_char=170
+4	Ummeldung	Ummeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=171|end_char=180
+5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=180|end_char=181
+6	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=181|end_char=182
+7	*	*	PUNCT	$(	_	9	punct	_	start_char=182|end_char=183
+8	Ummeldung	Ummeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=184|end_char=193
+9	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|start_char=194|end_char=202
+10	,	,	PUNCT	$,	_	19	punct	_	start_char=202|end_char=203
+11	dass	dass	SCONJ	KOUS	_	19	mark	_	start_char=204|end_char=208
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj	_	start_char=209|end_char=212
+13	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=213|end_char=217
+14	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=218|end_char=222
+15	Adresse	Adresse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=223|end_char=230
+16	bei	bei	ADP	APPR	_	18	case	_	start_char=231|end_char=234
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=235|end_char=238
+18	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	start_char=239|end_char=244
+19	anmelden	anmelden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No|start_char=245|end_char=253
+20	.	.	PUNCT	$.	_	4	punct	_	start_char=253|end_char=254
+
+# text = Eine Wohnung ist ein Raum, in dem Sie wohnen oder schlafen.
+# sent_id = 3
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=255|end_char=259
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=260|end_char=267
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=268|end_char=271
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=272|end_char=275
+5	Raum	Raum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=276|end_char=280
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=280|end_char=281
+7	in	in	ADP	APPR	_	8	case	_	start_char=282|end_char=284
+8	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	obl	_	start_char=285|end_char=288
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=289|end_char=292
+10	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=293|end_char=299
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=300|end_char=304
+12	schlafen	schlafen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No|start_char=305|end_char=313
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=313|end_char=314
+
+# text = Zum Beispiel ein Haus, eine Wohnung oder ein Zimmer.
+# sent_id = 4
+1-2	Zum	_	_	_	_	_	_	_	start_char=315|end_char=318
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=319|end_char=327
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=328|end_char=331
+5	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=332|end_char=336
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=336|end_char=337
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=338|end_char=342
+8	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=343|end_char=350
+9	oder	oder	CCONJ	KON	_	11	cc	_	start_char=351|end_char=355
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=356|end_char=359
+11	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|start_char=360|end_char=366
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=366|end_char=367
+
+# text = **Wer muss sich ummelden?** * Wenn Sie jünger als 16 Jahre sind, muss Ihre Familie oder Ihr Betreuer (das ist jemand, der für Sie sorgt und Entscheidungen trifft) sich ummelden.
+# sent_id = 5
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=369|end_char=371
+2	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=371|end_char=374
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=375|end_char=379
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=380|end_char=384
+5	ummelden	ummelden	VERB	VVINF	VerbForm=Inf	37	advcl	_	SpaceAfter=No|start_char=385|end_char=393
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=393|end_char=394
+7	**	**	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\s|start_char=394|end_char=396
+8	*	*	PUNCT	$(	_	11	punct	_	start_char=398|end_char=399
+9	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=400|end_char=404
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=405|end_char=408
+11	jünger	jung	ADJ	ADJD	Degree=Cmp	5	advcl	_	start_char=409|end_char=415
+12	als	als	ADP	KOKOM	_	14	case	_	start_char=416|end_char=419
+13	16	16	NUM	CARD	NumType=Card	14	nummod	_	start_char=420|end_char=422
+14	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	start_char=423|end_char=428
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No|start_char=429|end_char=433
+16	,	,	PUNCT	$,	_	5	punct	_	start_char=433|end_char=434
+17	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	start_char=435|end_char=439
+18	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	start_char=440|end_char=444
+19	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	start_char=445|end_char=452
+20	oder	oder	CCONJ	KON	_	22	cc	_	start_char=453|end_char=457
+21	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	start_char=458|end_char=461
+22	Betreuer	Betreuer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	start_char=462|end_char=470
+23	(	(	PUNCT	$(	_	26	punct	_	SpaceAfter=No|start_char=471|end_char=472
+24	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	26	nsubj	_	start_char=472|end_char=475
+25	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	start_char=476|end_char=479
+26	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	22	appos	_	SpaceAfter=No|start_char=480|end_char=486
+27	,	,	PUNCT	$,	_	31	punct	_	start_char=486|end_char=487
+28	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	31	nsubj	_	start_char=488|end_char=491
+29	für	für	ADP	APPR	_	30	case	_	start_char=492|end_char=495
+30	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	31	obl	_	start_char=496|end_char=499
+31	sorgt	sorgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	start_char=500|end_char=505
+32	und	und	CCONJ	KON	_	34	cc	_	start_char=506|end_char=509
+33	Entscheidungen	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	start_char=510|end_char=524
+34	trifft	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	SpaceAfter=No|start_char=525|end_char=531
+35	)	)	PUNCT	$(	_	26	punct	_	start_char=531|end_char=532
+36	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	37	obj	_	start_char=533|end_char=537
+37	ummelden	ummelden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=538|end_char=546
+38	.	.	PUNCT	$.	_	37	punct	_	start_char=546|end_char=547
+
+# text = * Wenn Sie einen Betreuer haben, muss er sich ummelden.
+# sent_id = 6
+1	*	*	PUNCT	$(	_	11	punct	_	start_char=548|end_char=549
+2	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=550|end_char=554
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	start_char=555|end_char=558
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=559|end_char=564
+5	Betreuer	Betreuer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=565|end_char=573
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No|start_char=574|end_char=579
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=579|end_char=580
+8	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=581|end_char=585
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=586|end_char=588
+10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	start_char=589|end_char=593
+11	ummelden	ummelden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=594|end_char=602
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=602|end_char=603
+
+# text = * Sie können sich auch von jemandem vertreten lassen, aber Sie müssen das Meldeformular (das ist ein Dokument, das Sie ausfüllen müssen) unterschreiben.
+# sent_id = 7
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=604|end_char=605
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=606|end_char=609
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=610|end_char=616
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=617|end_char=621
+5	auch	auch	ADV	ADV	_	9	advmod	_	start_char=622|end_char=626
+6	von	von	ADP	APPR	_	7	case	_	start_char=627|end_char=630
+7	jemandem	jemande	DET	PIS	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	start_char=631|end_char=639
+8	vertreten	vertreten	VERB	VVINF	VerbForm=Inf	9	xcomp	_	start_char=640|end_char=649
+9	lassen	lassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=650|end_char=656
+10	,	,	PUNCT	$,	_	27	punct	_	start_char=656|end_char=657
+11	aber	aber	CCONJ	KON	_	27	cc	_	start_char=658|end_char=662
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	27	nsubj	_	start_char=663|end_char=666
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=667|end_char=673
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=674|end_char=677
+15	Meldeformular	Meldeformular	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	nsubj	_	start_char=678|end_char=691
+16	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=692|end_char=693
+17	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	20	nsubj	_	start_char=693|end_char=696
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=697|end_char=700
+19	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=701|end_char=704
+20	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No|start_char=705|end_char=713
+21	,	,	PUNCT	$,	_	24	punct	_	start_char=713|end_char=714
+22	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	24	obj	_	start_char=715|end_char=718
+23	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	24	nsubj	_	start_char=719|end_char=722
+24	ausfüllen	ausfüllen	VERB	VVINF	VerbForm=Inf	20	acl	_	start_char=723|end_char=732
+25	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No|start_char=733|end_char=739
+26	)	)	PUNCT	$(	_	20	punct	_	start_char=739|end_char=740
+27	unterschreiben	unterschreiben	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No|start_char=741|end_char=755
+28	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=755|end_char=756
+
+# text = **Welche Unterlagen benötigen Sie?** * Eine Bestätigung von Ihrem Vermieter (das ist jemand, der Ihnen die Wohnung vermietet) oder dem Eigentümer (das ist jemand, der die Wohnung besitzt) der Wohnung.
+# sent_id = 8
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=758|end_char=760
+2	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	3	det	_	start_char=760|end_char=766
+3	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	start_char=767|end_char=777
+4	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=778|end_char=787
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	SpaceAfter=No|start_char=788|end_char=791
+6	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=791|end_char=792
+7	**	**	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\s|start_char=792|end_char=794
+8	*	*	PUNCT	$(	_	10	punct	_	start_char=796|end_char=797
+9	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=798|end_char=802
+10	Bestätigung	Bestätigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=803|end_char=814
+11	von	von	ADP	APPR	_	13	case	_	start_char=815|end_char=818
+12	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=819|end_char=824
+13	Vermieter	Vermieter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=825|end_char=834
+14	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=835|end_char=836
+15	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=836|end_char=839
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=840|end_char=843
+17	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	appos	_	SpaceAfter=No|start_char=844|end_char=850
+18	,	,	PUNCT	$,	_	23	punct	_	start_char=850|end_char=851
+19	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	23	nsubj	_	start_char=852|end_char=855
+20	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	23	obl:arg	_	start_char=856|end_char=861
+21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=862|end_char=865
+22	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=866|end_char=873
+23	vermietet	vermieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	SpaceAfter=No|start_char=874|end_char=883
+24	)	)	PUNCT	$(	_	17	punct	_	start_char=883|end_char=884
+25	oder	oder	CCONJ	KON	_	27	cc	_	start_char=885|end_char=889
+26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	start_char=890|end_char=893
+27	Eigentümer	Eigentümer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	conj	_	start_char=894|end_char=904
+28	(	(	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=905|end_char=906
+29	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	31	nsubj	_	start_char=906|end_char=909
+30	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=910|end_char=913
+31	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	27	appos	_	SpaceAfter=No|start_char=914|end_char=920
+32	,	,	PUNCT	$,	_	36	punct	_	start_char=920|end_char=921
+33	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	36	nsubj	_	start_char=922|end_char=925
+34	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	start_char=926|end_char=929
+35	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	start_char=930|end_char=937
+36	besitzt	besitzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	SpaceAfter=No|start_char=938|end_char=945
+37	)	)	PUNCT	$(	_	31	punct	_	start_char=945|end_char=946
+38	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	start_char=947|end_char=950
+39	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No|start_char=951|end_char=958
+40	.	.	PUNCT	$.	_	4	punct	_	start_char=958|end_char=959
+
+# text = * Ihren Personalausweis oder Reisepass (das sind Dokumente, die Ihre Identität nachweisen).
+# sent_id = 9
+1	*	*	PUNCT	$(	_	3	advmod	_	start_char=960|end_char=961
+2	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=962|end_char=967
+3	Personalausweis	Personalausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nsubj	_	start_char=968|end_char=983
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=984|end_char=988
+5	Reisepass	Reisepass	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	start_char=989|end_char=998
+6	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=999|end_char=1000
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=1000|end_char=1003
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1004|end_char=1008
+9	Dokumente	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=1009|end_char=1018
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=1018|end_char=1019
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj	_	start_char=1020|end_char=1023
+12	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=1024|end_char=1028
+13	Identität	Identität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=1029|end_char=1038
+14	nachweisen	nachweisen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No|start_char=1039|end_char=1049
+15	)	)	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1049|end_char=1050
+16	.	.	PUNCT	$.	_	9	punct	_	start_char=1050|end_char=1051
+
+# text = * Wenn Sie ein Kind sind, benötigen Sie Ihre Geburtsurkunde (das ist ein Dokument, das Ihre Geburt nachweist).
+# sent_id = 10
+1	*	*	PUNCT	$(	_	8	punct	_	start_char=1052|end_char=1053
+2	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1054|end_char=1058
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=1059|end_char=1062
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1063|end_char=1066
+5	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	advcl	_	start_char=1067|end_char=1071
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No|start_char=1072|end_char=1076
+7	,	,	PUNCT	$,	_	5	punct	_	start_char=1076|end_char=1077
+8	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1078|end_char=1087
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=1088|end_char=1091
+10	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=1092|end_char=1096
+11	Geburtsurkunde	Geburtsurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1097|end_char=1111
+12	(	(	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=1112|end_char=1113
+13	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=1113|end_char=1116
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=1117|end_char=1120
+15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=1121|end_char=1124
+16	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No|start_char=1125|end_char=1133
+17	,	,	PUNCT	$,	_	21	punct	_	start_char=1133|end_char=1134
+18	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	21	nsubj	_	start_char=1135|end_char=1138
+19	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	start_char=1139|end_char=1143
+20	Geburt	Geburt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=1144|end_char=1150
+21	nachweist	nachweisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	SpaceAfter=No|start_char=1151|end_char=1160
+22	)	)	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=1160|end_char=1161
+23	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1161|end_char=1162
+
+# text = **Wichtige Regeln** * Sie müssen sich innerhalb von zwei Wochen nach Einzug in die Wohnung ummelden.
+# sent_id = 11
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1164|end_char=1166
+2	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=1166|end_char=1174
+3	Regeln	Regel|Regeln	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	dep	_	SpaceAfter=No|start_char=1175|end_char=1181
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1181|end_char=1182
+5	*	*	PUNCT	$(	_	19	punct	_	SpacesAfter=\s\s|start_char=1182|end_char=1183
+6	*	*	PUNCT	$(	_	19	punct	_	start_char=1185|end_char=1186
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=1187|end_char=1190
+8	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=1191|end_char=1197
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	start_char=1198|end_char=1202
+10	innerhalb	innerhalb	ADP	ADV	_	13	case	_	start_char=1203|end_char=1212
+11	von	von	ADP	APPR	_	13	case	_	start_char=1213|end_char=1216
+12	zwei	zwei	NUM	CARD	NumType=Card	13	nummod	_	start_char=1217|end_char=1221
+13	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	start_char=1222|end_char=1228
+14	nach	nach	ADP	APPR	_	15	case	_	start_char=1229|end_char=1233
+15	Einzug	Einzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=1234|end_char=1240
+16	in	in	ADP	APPR	_	18	case	_	start_char=1241|end_char=1243
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=1244|end_char=1247
+18	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	start_char=1248|end_char=1255
+19	ummelden	ummelden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1256|end_char=1264
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=1264|end_char=1265
+
+# text = *
+# sent_id = 12
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1266|end_char=1267
+
+# text = Die Ummeldung ist kostenlos (das bedeutet, dass Sie nichts bezahlen müssen).
+# sent_id = 13
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1268|end_char=1271
+2	Ummeldung	Ummeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1272|end_char=1281
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1282|end_char=1285
+4	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1286|end_char=1295
+5	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=1296|end_char=1297
+6	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=1297|end_char=1300
+7	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|start_char=1301|end_char=1309
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=1309|end_char=1310
+9	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=1311|end_char=1315
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	start_char=1316|end_char=1319
+11	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	12	obj	_	start_char=1320|end_char=1326
+12	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	start_char=1327|end_char=1335
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=1336|end_char=1342
+14	)	)	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=1342|end_char=1343
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=1343|end_char=1344
+
+# text = * Wenn Sie einen Termin gebucht haben, aber nicht kommen können, stornieren Sie den Termin rechtzeitig.
+# sent_id = 14
+1	*	*	PUNCT	$(	_	14	punct	_	start_char=1345|end_char=1346
+2	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1347|end_char=1351
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	start_char=1352|end_char=1355
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1356|end_char=1361
+5	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1362|end_char=1368
+6	gebucht	buchen	VERB	VVPP	VerbForm=Part	14	advcl	_	start_char=1369|end_char=1376
+7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=1377|end_char=1382
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=1382|end_char=1383
+9	aber	aber	CCONJ	KON	_	11	cc	_	start_char=1384|end_char=1388
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=1389|end_char=1394
+11	kommen	kommen	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=1395|end_char=1401
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|start_char=1402|end_char=1408
+13	,	,	PUNCT	$,	_	6	punct	_	start_char=1408|end_char=1409
+14	stornieren	stornieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1410|end_char=1420
+15	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=1421|end_char=1424
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=1425|end_char=1428
+17	Termin	Termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=1429|end_char=1435
+18	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	14	advmod	_	SpaceAfter=No|start_char=1436|end_char=1447
+19	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=1447|end_char=1448
+
+# text = **Kontakt** Wenn Sie Fragen haben, können Sie die Service-Hotline anrufen.
+# sent_id = 15
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1450|end_char=1452
+2	Kontakt	Kontakt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|start_char=1452|end_char=1459
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1459|end_char=1460
+4	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=1460|end_char=1461
+5	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1463|end_char=1467
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=1468|end_char=1471
+7	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1472|end_char=1478
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=1479|end_char=1484
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=1484|end_char=1485
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1486|end_char=1492
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=1493|end_char=1496
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1497|end_char=1500
+13	Service	Service	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	compound	_	SpaceAfter=No|start_char=1501|end_char=1508
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=1508|end_char=1509
+15	Hotline	Hotline	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=1509|end_char=1516
+16	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1517|end_char=1524
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=1524|end_char=1525
+
+# text = Sie finden alle Informationen hier: https://www.goettingen.de/buergerservice/personen/service-hotline-einwohnermeldehalle-900001583-25480.html
+# sent_id = 16
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1526|end_char=1529
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1530|end_char=1536
+3	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	4	det	_	start_char=1537|end_char=1541
+4	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1542|end_char=1555
+5	hier	hier	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1556|end_char=1560
+6	:	:	PUNCT	$.	_	7	punct	_	start_char=1560|end_char=1561
+7	https://www.goettingen.de/buergerservice/personen/service-hotline-einwohnermeldehalle-900001583-25480.html	https://www.goettingen.de/buergerservice/personen/service-hotline-einwohnermeldehalle-900001583-25480.html	X	NE	Case=Nom|Number=Sing	2	dep	_	SpaceAfter=No|start_char=1562|end_char=1668
+

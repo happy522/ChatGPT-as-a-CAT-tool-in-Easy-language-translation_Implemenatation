@@ -1,0 +1,520 @@
+# text = **Fersensporn** Das ist eine Erklärung, was ein Fersensporn ist.
+# sent_id = 0
+1-2	*	_	_	_	_	_	_	_	SpaceAfter=No|start_char=0|end_char=1
+1	<SOS>n	<SOS>n	X	NE	Case=Nom|Number=Sing	10	dep	_	_
+2	de*	de*	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1|end_char=2
+4	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	SpaceAfter=No|start_char=2|end_char=13
+5	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=13|end_char=14
+6	*	*	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\s|start_char=14|end_char=15
+7	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=17|end_char=20
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=21|end_char=24
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=25|end_char=29
+10	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=30|end_char=39
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=39|end_char=40
+12	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	14	nsubj	_	start_char=41|end_char=44
+13	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=45|end_char=48
+14	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	acl	_	start_char=49|end_char=60
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|start_char=61|end_char=64
+16	.	.	PUNCT	$.	_	10	punct	_	start_char=64|end_char=65
+
+# text = Es hilft, wenn die Ferse wehtut.
+# sent_id = 1
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=66|end_char=68
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=69|end_char=74
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=74|end_char=75
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=76|end_char=80
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=81|end_char=84
+6	Ferse	Ferse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=85|end_char=90
+7	wehtut	wehtun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=91|end_char=97
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=97|end_char=98
+
+# text = **Was ist ein Fersensporn?**
+# sent_id = 2
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=100|end_char=102
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=102|end_char=105
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=106|end_char=109
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=110|end_char=113
+5	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=114|end_char=125
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=125|end_char=126
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=126|end_char=127
+8	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=127|end_char=128
+
+# text = Der Fuß hat viele Knochen.
+# sent_id = 3
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=130|end_char=133
+2	Fuß	Fuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=134|end_char=137
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=138|end_char=141
+4	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=142|end_char=147
+5	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No|start_char=148|end_char=155
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=155|end_char=156
+
+# text = Einer ist das Fersenbein.
+# sent_id = 4
+1	Einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	nsubj	_	start_char=157|end_char=162
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=163|end_char=166
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=167|end_char=170
+4	Fersenbein	Fersenbein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=171|end_char=181
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=181|end_char=182
+
+# text = Manchmal wächst ein kleiner Knochen daran.
+# sent_id = 5
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=183|end_char=191
+2	wächst	wachsen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=192|end_char=198
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=199|end_char=202
+4	kleiner	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=203|end_char=210
+5	Knochen	Knochen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=211|end_char=218
+6	daran	daran	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No|start_char=219|end_char=224
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=224|end_char=225
+
+# text = Das ist ein Fersensporn.
+# sent_id = 6
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=226|end_char=229
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=230|end_char=233
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=234|end_char=237
+4	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=238|end_char=249
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=249|end_char=250
+
+# text = Ein Fersensporn entsteht, wenn die Ferse oft belastet wird.
+# sent_id = 7
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=251|end_char=254
+2	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=255|end_char=266
+3	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=267|end_char=275
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=275|end_char=276
+5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=277|end_char=281
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=282|end_char=285
+7	Ferse	Ferse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	start_char=286|end_char=291
+8	oft	oft	ADV	ADV	_	9	advmod	_	start_char=292|end_char=295
+9	belastet	belasten	VERB	VVPP	VerbForm=Part	3	advcl	_	start_char=296|end_char=304
+10	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	SpaceAfter=No|start_char=305|end_char=309
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=309|end_char=310
+
+# text = Frauen bekommen oft Fersensporne.
+# sent_id = 8
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=311|end_char=317
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=318|end_char=326
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=327|end_char=330
+4	Fersensporne	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=331|end_char=343
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=343|end_char=344
+
+# text = Meistens bekommen Menschen zwischen 50 und 60 Jahren einen Fersensporn.
+# sent_id = 9
+1	Meistens	meistens	ADV	ADV	_	2	advmod	_	start_char=345|end_char=353
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=354|end_char=362
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=363|end_char=371
+4	zwischen	zwischen	ADP	APPR	_	8	case	_	start_char=372|end_char=380
+5	50	50	NUM	CARD	NumType=Card	8	nummod	_	start_char=381|end_char=383
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=384|end_char=387
+7	60	60	NUM	CARD	NumType=Card	5	conj	_	start_char=388|end_char=390
+8	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=391|end_char=397
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=398|end_char=403
+10	Fersensporn	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=404|end_char=415
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=415|end_char=416
+
+# text = Es gibt zwei Arten: - Der untere Fersensporn ist häufig.
+# sent_id = 10
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=418|end_char=420
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=421|end_char=425
+3	zwei	zwei	NUM	CARD	NumType=Card	4	nummod	_	start_char=426|end_char=430
+4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=431|end_char=436
+5	:	:	PUNCT	$.	_	11	punct	_	start_char=436|end_char=437
+6	-	-	PUNCT	$(	_	11	punct	_	start_char=438|end_char=439
+7	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=440|end_char=443
+8	untere	unter	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=444|end_char=450
+9	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=451|end_char=462
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=463|end_char=466
+11	häufig	häufig	ADJ	ADJD	Degree=Pos	2	parataxis	_	SpaceAfter=No|start_char=467|end_char=473
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=473|end_char=474
+
+# text = Er ist an der Unterseite der Ferse.
+# sent_id = 11
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=475|end_char=477
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=478|end_char=481
+3	an	an	ADP	APPR	_	5	case	_	start_char=482|end_char=484
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=485|end_char=488
+5	Unterseite	Unterseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=489|end_char=499
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=500|end_char=503
+7	Ferse	Ferse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=504|end_char=509
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=509|end_char=510
+
+# text = - Der obere Fersensporn ist selten.
+# sent_id = 12
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=511|end_char=512
+2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=513|end_char=516
+3	obere	ober	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=517|end_char=522
+4	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=523|end_char=534
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=535|end_char=538
+6	selten	selten	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=539|end_char=545
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=545|end_char=546
+
+# text = Er ist an der Rückseite der Ferse.
+# sent_id = 13
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=547|end_char=549
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=550|end_char=553
+3	an	an	ADP	APPR	_	5	case	_	start_char=554|end_char=556
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=557|end_char=560
+5	Rückseite	Rückseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=561|end_char=570
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=571|end_char=574
+7	Ferse	Ferse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=575|end_char=580
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=580|end_char=581
+
+# text = Ein Fersensporn tut manchmal nicht weh.
+# sent_id = 14
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=583|end_char=586
+2	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=587|end_char=598
+3	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=599|end_char=602
+4	manchmal	manchmal	ADV	ADV	_	3	advmod	_	start_char=603|end_char=611
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=612|end_char=617
+6	weh	weh	ADV	PTKVZ	_	3	advmod	_	SpaceAfter=No|start_char=618|end_char=621
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=621|end_char=622
+
+# text = Dann braucht er keine Behandlung.
+# sent_id = 15
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=623|end_char=627
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=628|end_char=635
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=636|end_char=638
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	5	det	_	start_char=639|end_char=644
+5	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=645|end_char=655
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=655|end_char=656
+
+# text = **Wie erkennt man einen Fersensporn?**
+# sent_id = 16
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=658|end_char=660
+2	Wie	wie	ADV	PWAV	_	3	advmod	_	start_char=660|end_char=663
+3	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=664|end_char=671
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=672|end_char=675
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=676|end_char=681
+6	Fersensporn	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=682|end_char=693
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=693|end_char=694
+8	*	*	X	XY	_	3	dep	_	SpaceAfter=No|start_char=694|end_char=695
+9	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=695|end_char=696
+
+# text = Ein Fersensporn macht Schmerzen in der Ferse.
+# sent_id = 17
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=698|end_char=701
+2	Fersensporn	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=702|end_char=713
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=714|end_char=719
+4	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=720|end_char=729
+5	in	in	ADP	APPR	_	7	case	_	start_char=730|end_char=732
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=733|end_char=736
+7	Ferse	Ferse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=737|end_char=742
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=742|end_char=743
+
+# text = Die Schmerzen können stechen oder brennen.
+# sent_id = 18
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=744|end_char=747
+2	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=748|end_char=757
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=758|end_char=764
+4	stechen	stechen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=765|end_char=772
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=773|end_char=777
+6	brennen	brennen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No|start_char=778|end_char=785
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=785|end_char=786
+
+# text = Sie sind oft morgens stark.
+# sent_id = 19
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=787|end_char=790
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=791|end_char=795
+3	oft	oft	ADV	ADV	_	5	advmod	_	start_char=796|end_char=799
+4	morgens	morgens	ADV	ADV	_	5	advmod	_	start_char=800|end_char=807
+5	stark	stark	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=808|end_char=813
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=813|end_char=814
+
+# text = Wenn man auf die Ferse drückt, tut es weh.
+# sent_id = 20
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=815|end_char=819
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=820|end_char=823
+3	auf	auf	ADP	APPR	_	5	case	_	start_char=824|end_char=827
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=828|end_char=831
+5	Ferse	Ferse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=832|end_char=837
+6	drückt	drücken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=838|end_char=844
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=844|end_char=845
+8	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=846|end_char=849
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=850|end_char=852
+10	weh	weh	ADV	PTKVZ	_	8	compound:prt	_	SpaceAfter=No|start_char=853|end_char=856
+11	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=856|end_char=857
+
+# text = Wenn es unter der Ferse weht, hat man wahrscheinlich einen unteren Fersensporn.
+# sent_id = 21
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=859|end_char=863
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=864|end_char=866
+3	unter	unter	ADP	APPR	_	5	case	_	start_char=867|end_char=872
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=873|end_char=876
+5	Ferse	Ferse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=877|end_char=882
+6	weht	wehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=883|end_char=887
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=887|end_char=888
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=889|end_char=892
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=893|end_char=896
+10	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	8	advmod	_	start_char=897|end_char=911
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=912|end_char=917
+12	unteren	unter	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=918|end_char=925
+13	Fersensporn	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|start_char=926|end_char=937
+14	.	.	PUNCT	$.	_	8	punct	_	start_char=937|end_char=938
+
+# text = Wenn es hinten an der Ferse weht, hat man wahrscheinlich einen oberen Fersensporn.
+# sent_id = 22
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=939|end_char=943
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=944|end_char=946
+3	hinten	hinten	ADV	ADV	_	7	advmod	_	start_char=947|end_char=953
+4	an	an	ADP	APPR	_	6	case	_	start_char=954|end_char=956
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=957|end_char=960
+6	Ferse	Ferse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=961|end_char=966
+7	weht	wehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No|start_char=967|end_char=971
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=971|end_char=972
+9	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=973|end_char=976
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=977|end_char=980
+11	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	9	advmod	_	start_char=981|end_char=995
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=996|end_char=1001
+13	oberen	ober	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1002|end_char=1008
+14	Fersensporn	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|start_char=1009|end_char=1020
+15	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1020|end_char=1021
+
+# text = Manchmal sieht man den Fersensporn auf einem Röntgenbild.
+# sent_id = 23
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	start_char=1023|end_char=1031
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1032|end_char=1037
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=1038|end_char=1041
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1042|end_char=1045
+5	Fersensporn	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1046|end_char=1057
+6	auf	auf	ADP	APPR	_	8	case	_	start_char=1058|end_char=1061
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1062|end_char=1067
+8	Röntgenbild	Röntgenbild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1068|end_char=1079
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1079|end_char=1080
+
+# text = Ein Röntgenbild ist ein Bild, das Ärzte machen, um Knochen zu sehen.
+# sent_id = 24
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=1081|end_char=1084
+2	Röntgenbild	Röntgenbild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=1085|end_char=1096
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1097|end_char=1100
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1101|end_char=1104
+5	Bild	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1105|end_char=1109
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=1109|end_char=1110
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=1111|end_char=1114
+8	Ärzte	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=1115|end_char=1120
+9	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No|start_char=1121|end_char=1127
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=1127|end_char=1128
+11	um	um	ADP	KOUI	_	14	mark	_	start_char=1129|end_char=1131
+12	Knochen	Knochen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	start_char=1132|end_char=1139
+13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=1140|end_char=1142
+14	sehen	sehen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No|start_char=1143|end_char=1148
+15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1148|end_char=1149
+
+# text = **Was sind die Ursachen eines Fersensporns?** Fersensporne entstehen, wenn die Ferse oft belastet wird.
+# sent_id = 25
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1151|end_char=1153
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=1153|end_char=1156
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1157|end_char=1161
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1162|end_char=1165
+5	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=1166|end_char=1174
+6	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1175|end_char=1180
+7	Fersensporns	Fersensporn	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=1181|end_char=1193
+8	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1193|end_char=1194
+9	*	*	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=1194|end_char=1195
+10	*	*	PUNCT	$(	_	12	punct	_	SpacesAfter=\s\s|start_char=1195|end_char=1196
+11	Fersensporne	Fersensporn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=1198|end_char=1210
+12	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1211|end_char=1220
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=1220|end_char=1221
+14	wenn	wenn	SCONJ	KOUS	_	18	mark	_	start_char=1222|end_char=1226
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=1227|end_char=1230
+16	Ferse	Ferse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj:pass	_	start_char=1231|end_char=1236
+17	oft	oft	ADV	ADV	_	18	advmod	_	start_char=1237|end_char=1240
+18	belastet	belasten	VERB	VVPP	VerbForm=Part	12	advcl	_	start_char=1241|end_char=1249
+19	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux:pass	_	SpaceAfter=No|start_char=1250|end_char=1254
+20	.	.	PUNCT	$.	_	3	punct	_	start_char=1254|end_char=1255
+
+# text = Das kann passieren, wenn man viel steht oder geht.
+# sent_id = 26
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=1256|end_char=1259
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1260|end_char=1264
+3	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1265|end_char=1274
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=1274|end_char=1275
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1276|end_char=1280
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1281|end_char=1284
+7	viel	viel	DET	PIS	PronType=Ind	8	obj	_	start_char=1285|end_char=1289
+8	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=1290|end_char=1295
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=1296|end_char=1300
+10	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No|start_char=1301|end_char=1305
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=1305|end_char=1306
+
+# text = Auch falsche Schuhe oder Übergewicht können dazu führen.
+# sent_id = 27
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=1307|end_char=1311
+2	falsche	falsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=1312|end_char=1319
+3	Schuhe	Schuh	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=1320|end_char=1326
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=1327|end_char=1331
+5	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	start_char=1332|end_char=1343
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1344|end_char=1350
+7	dazu	dazu	ADV	PAV	PronType=Dem	8	advmod	_	start_char=1351|end_char=1355
+8	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1356|end_char=1362
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1362|end_char=1363
+
+# text = **Was kann man tun?**
+# sent_id = 28
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1365|end_char=1367
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=1367|end_char=1370
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1371|end_char=1375
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1376|end_char=1379
+5	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1380|end_char=1383
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1383|end_char=1384
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1384|end_char=1385
+8	*	*	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=1385|end_char=1386
+
+# text = Wenn man einen Fersensporn hat, sollte man den Fuß schonen.
+# sent_id = 29
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1388|end_char=1392
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1393|end_char=1396
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1397|end_char=1402
+4	Fersensporn	Fersensporn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1403|end_char=1414
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No|start_char=1415|end_char=1418
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=1418|end_char=1419
+7	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	start_char=1420|end_char=1426
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=1427|end_char=1430
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1431|end_char=1434
+10	Fuß	Fuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=1435|end_char=1438
+11	schonen	schonen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1439|end_char=1446
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1446|end_char=1447
+
+# text = Man sollte keinen intensiven Sport machen und nicht lange zu Fuß gehen.
+# sent_id = 30
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1448|end_char=1451
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=1452|end_char=1458
+3	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	start_char=1459|end_char=1465
+4	intensiven	intensiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1466|end_char=1476
+5	Sport	Sport	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1477|end_char=1482
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1483|end_char=1489
+7	und	und	CCONJ	KON	_	12	cc	_	start_char=1490|end_char=1493
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=1494|end_char=1499
+9	lange	lange	ADV	ADV	_	12	advmod	_	start_char=1500|end_char=1505
+10	zu	zu	ADP	APPR	_	11	case	_	start_char=1506|end_char=1508
+11	Fuß	Fuß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1509|end_char=1512
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No|start_char=1513|end_char=1518
+13	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1518|end_char=1519
+
+# text = Man kann auch: - gepolsterte Fersenkissen tragen, - Schuhe mit hohem Absatz wählen, - Schmerzmittel nehmen (aber man sollte vorher den Arzt fragen).
+# sent_id = 31
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1521|end_char=1524
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1525|end_char=1529
+3	auch	auch	ADV	ADV	_	8	advmod	_	SpaceAfter=No|start_char=1530|end_char=1534
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=1534|end_char=1535
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=1536|end_char=1537
+6	gepolsterte	gepolstert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1538|end_char=1549
+7	Fersenkissen	Fersenkissen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	start_char=1550|end_char=1562
+8	tragen	tragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1563|end_char=1569
+9	,	,	PUNCT	$,	_	15	punct	_	start_char=1569|end_char=1570
+10	-	-	PUNCT	$(	_	11	punct	_	start_char=1571|end_char=1572
+11	Schuhe	Schuh	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	start_char=1573|end_char=1579
+12	mit	mit	ADP	APPR	_	14	case	_	start_char=1580|end_char=1583
+13	hohem	hoch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1584|end_char=1589
+14	Absatz	Absatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	start_char=1590|end_char=1596
+15	wählen	wählen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No|start_char=1597|end_char=1603
+16	,	,	PUNCT	$,	_	19	punct	_	start_char=1603|end_char=1604
+17	-	-	PUNCT	$(	_	19	punct	_	start_char=1605|end_char=1606
+18	Schmerzmittel	Schmerzmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=1607|end_char=1620
+19	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	15	conj	_	start_char=1621|end_char=1627
+20	(	(	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=1628|end_char=1629
+21	aber	aber	CCONJ	KON	_	27	cc	_	start_char=1629|end_char=1633
+22	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	27	nsubj	_	start_char=1634|end_char=1637
+23	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	start_char=1638|end_char=1644
+24	vorher	vorher	ADV	ADV	_	27	advmod	_	start_char=1645|end_char=1651
+25	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=1652|end_char=1655
+26	Arzt	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	start_char=1656|end_char=1660
+27	fragen	fragen	VERB	VVINF	VerbForm=Inf	19	conj	_	SpaceAfter=No|start_char=1661|end_char=1667
+28	)	)	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=1667|end_char=1668
+29	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1668|end_char=1669
+
+# text = Langfristig kann man: - Einlagen für die Schuhe benutzen, - Übergewicht reduzieren, - Muskeln und Sehnen dehnen, - bequeme Schuhe tragen.
+# sent_id = 32
+1	Langfristig	langfristig	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=1671|end_char=1682
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1683|end_char=1687
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	SpaceAfter=No|start_char=1688|end_char=1691
+4	:	:	PUNCT	$.	_	10	punct	_	start_char=1691|end_char=1692
+5	-	-	PUNCT	$(	_	6	punct	_	start_char=1693|end_char=1694
+6	Einlagen	Einlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=1695|end_char=1703
+7	für	für	ADP	APPR	_	9	case	_	start_char=1704|end_char=1707
+8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=1708|end_char=1711
+9	Schuhe	Schuh	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=1712|end_char=1718
+10	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1719|end_char=1727
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=1727|end_char=1728
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=1729|end_char=1730
+13	Übergewicht	Übergewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	start_char=1731|end_char=1742
+14	reduzieren	reduzieren	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=1743|end_char=1753
+15	,	,	PUNCT	$,	_	20	punct	_	start_char=1753|end_char=1754
+16	-	-	PUNCT	$(	_	17	punct	_	start_char=1755|end_char=1756
+17	Muskeln	Muskel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	obj	_	start_char=1757|end_char=1764
+18	und	und	CCONJ	KON	_	19	cc	_	start_char=1765|end_char=1768
+19	Sehnen	Sehne	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	conj	_	start_char=1769|end_char=1775
+20	dehnen	dehnen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=1776|end_char=1782
+21	,	,	PUNCT	$,	_	25	punct	_	start_char=1782|end_char=1783
+22	-	-	PUNCT	$(	_	25	punct	_	start_char=1784|end_char=1785
+23	bequeme	bequemen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	start_char=1786|end_char=1793
+24	Schuhe	Schuh	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	start_char=1794|end_char=1800
+25	tragen	tragen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No|start_char=1801|end_char=1807
+26	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=1807|end_char=1808
+
+# text = **Wo bekommt man mehr Infos?**
+# sent_id = 33
+1	**	**	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1810|end_char=1812
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=1812|end_char=1814
+3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1815|end_char=1822
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1823|end_char=1826
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=1827|end_char=1831
+6	Infos	Info	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No|start_char=1832|end_char=1837
+7	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=1837|end_char=1838
+8	*	*	X	XY	_	3	dep	_	SpaceAfter=No|start_char=1838|end_char=1839
+9	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=1839|end_char=1840
+
+# text = Will man mehr über Fersensporne wissen, sucht man hier nach weiteren Informationen.
+# sent_id = 34
+1	Will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1842|end_char=1846
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1847|end_char=1850
+3	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=1851|end_char=1855
+4	über	über	ADP	APPR	_	5	case	_	start_char=1856|end_char=1860
+5	Fersensporne	Fersensporn	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=1861|end_char=1873
+6	wissen	wissen	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No|start_char=1874|end_char=1880
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=1880|end_char=1881
+8	sucht	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1882|end_char=1887
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=1888|end_char=1891
+10	hier	hier	ADV	ADV	_	8	advmod	_	start_char=1892|end_char=1896
+11	nach	nach	ADP	APPR	_	13	case	_	start_char=1897|end_char=1901
+12	weiteren	weit	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur	13	amod	_	start_char=1902|end_char=1910
+13	Informationen	Information	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|start_char=1911|end_char=1924
+14	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1924|end_char=1925
+
+# text = Achtung: Dieser Text gibt nur allgemeine Infos.
+# sent_id = 35
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1927|end_char=1934
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=1934|end_char=1935
+3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=1936|end_char=1942
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1943|end_char=1947
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=1948|end_char=1952
+6	nur	nur	ADV	ADV	_	5	advmod	_	start_char=1953|end_char=1956
+7	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=1957|end_char=1967
+8	Infos	Info	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No|start_char=1968|end_char=1973
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=1973|end_char=1974
+
+# text = Ist man krank oder hat Fragen, geht man zum Arzt.
+# sent_id = 36
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1975|end_char=1978
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=1979|end_char=1982
+3	krank	krank	ADJ	ADJD	Degree=Pos	8	ccomp	_	start_char=1983|end_char=1988
+4	oder	oder	CCONJ	KON	_	5	cc	_	start_char=1989|end_char=1993
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=1994|end_char=1997
+6	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|start_char=1998|end_char=2004
+7	,	,	PUNCT	$,	_	3	punct	_	start_char=2004|end_char=2005
+8	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2006|end_char=2010
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=2011|end_char=2014
+10-11	zum	_	_	_	_	_	_	_	start_char=2015|end_char=2018
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|start_char=2019|end_char=2023
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=2023|end_char=2024
+
+# text = Nur der Arzt kann genau helfen.
+# sent_id = 37
+1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=2025|end_char=2028
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=2029|end_char=2032
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=2033|end_char=2037
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2038|end_char=2042
+5	genau	genau	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=2043|end_char=2048
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2049|end_char=2055
+7	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=2055|end_char=2056
+

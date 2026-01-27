@@ -1,0 +1,268 @@
+# text = **Heiraten in Göttingen** **Was Sie tun müssen** Sie möchten heiraten?
+# sent_id = 0
+1-2	*	_	_	_	_	_	_	_	SpaceAfter=No|start_char=0|end_char=1
+1	<SOS>n	<SOS>n	X	NE	Case=Nom|Number=Sing	18	dep	_	_
+2	de*	de*	X	XY	Number=Sing	4	dep	_	_
+3	*	*	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=1|end_char=2
+4	Heiraten	Heirat	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	dep	_	start_char=2|end_char=10
+5	in	in	ADP	APPR	_	6	case	_	start_char=11|end_char=13
+6	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=14|end_char=23
+7	*	*	X	$(	_	6	appos	_	SpaceAfter=No|start_char=23|end_char=24
+8	*	*	X	XY	_	12	dep	_	SpacesAfter=\s\s|start_char=24|end_char=25
+9	**	**	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=27|end_char=29
+10	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	12	obj	_	start_char=29|end_char=32
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=33|end_char=36
+12	tun	tun	VERB	VVINF	VerbForm=Inf	4	parataxis	_	start_char=37|end_char=40
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=41|end_char=47
+14	*	*	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=47|end_char=48
+15	*	*	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s|start_char=48|end_char=49
+16	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	nsubj	_	start_char=51|end_char=54
+17	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=55|end_char=62
+18	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=63|end_char=71
+19	?	?	PUNCT	$.	_	18	punct	_	start_char=71|end_char=72
+
+# text = Dann müssen Sie zum Standesamt gehen.
+# sent_id = 1
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=73|end_char=77
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=78|end_char=84
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=85|end_char=88
+4-5	zum	_	_	_	_	_	_	_	start_char=89|end_char=92
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=93|end_char=103
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=104|end_char=109
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=109|end_char=110
+
+# text = Das ist der erste Schritt.
+# sent_id = 2
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=111|end_char=114
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=115|end_char=118
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=119|end_char=122
+4	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	start_char=123|end_char=128
+5	Schritt	Schritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=129|end_char=136
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s\s|start_char=136|end_char=137
+
+# text = **Wichtige Unterlagen** Sie brauchen bestimmte Papiere.
+# sent_id = 3
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=140|end_char=142
+2	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=142|end_char=150
+3	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No|start_char=151|end_char=161
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=161|end_char=162
+5	*	*	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s|start_char=162|end_char=163
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=165|end_char=168
+7	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=169|end_char=177
+8	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=178|end_char=187
+9	Papiere	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|start_char=188|end_char=195
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=195|end_char=196
+
+# text = Wenn Sie beide Deutsche sind und in Göttingen wohnen, benötigen Sie nur Ihren **Personalausweis** (ein Ausweis, der Ihre Identität bestätigt) oder **Reisepass** (ein Dokument, das Sie auf Reisen ausweist).
+# sent_id = 4
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=197|end_char=201
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=202|end_char=205
+3	beide	beide	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	4	det	_	start_char=206|end_char=211
+4	Deutsche	deutsch	NOUN	NN	Case=Nom|Number=Plur	11	advcl	_	start_char=212|end_char=220
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=221|end_char=225
+6	und	und	CCONJ	KON	_	9	cc	_	start_char=226|end_char=229
+7	in	in	ADP	APPR	_	8	case	_	start_char=230|end_char=232
+8	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=233|end_char=242
+9	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No|start_char=243|end_char=249
+10	,	,	PUNCT	$,	_	4	punct	_	start_char=249|end_char=250
+11	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=251|end_char=260
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=261|end_char=264
+13	nur	nur	ADV	ADV	_	11	advmod	_	start_char=265|end_char=268
+14	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=269|end_char=274
+15	*	*	PUNCT	$(	_	11	obj	_	SpaceAfter=No|start_char=275|end_char=276
+16	*	*	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=276|end_char=277
+17	Personalausweis	Personalausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|start_char=277|end_char=292
+18	*	*	PUNCT	$(	_	22	punct	_	SpaceAfter=No|start_char=292|end_char=293
+19	*	*	PUNCT	$(	_	22	punct	_	start_char=293|end_char=294
+20	(	(	PUNCT	$(	_	22	punct	_	SpaceAfter=No|start_char=295|end_char=296
+21	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	22	det	_	start_char=296|end_char=299
+22	Ausweis	Ausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No|start_char=300|end_char=307
+23	,	,	PUNCT	$,	_	27	punct	_	start_char=307|end_char=308
+24	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	27	nsubj	_	start_char=309|end_char=312
+25	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	start_char=313|end_char=317
+26	Identität	Identität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=318|end_char=327
+27	bestätigt	bestätigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	SpaceAfter=No|start_char=328|end_char=337
+28	)	)	PUNCT	$(	_	22	punct	_	start_char=337|end_char=338
+29	oder	oder	CCONJ	KON	_	32	cc	_	start_char=339|end_char=343
+30	*	*	X	XY	_	32	conj	_	SpaceAfter=No|start_char=344|end_char=345
+31	*	*	PUNCT	$(	_	32	punct	_	SpaceAfter=No|start_char=345|end_char=346
+32	Reisepass	Reisepass	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|start_char=346|end_char=355
+33	*	*	PUNCT	$(	_	32	punct	_	SpaceAfter=No|start_char=355|end_char=356
+34	*	*	PUNCT	$(	_	37	punct	_	start_char=356|end_char=357
+35	(	(	PUNCT	$(	_	37	punct	_	SpaceAfter=No|start_char=358|end_char=359
+36	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	37	det	_	start_char=359|end_char=362
+37	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	32	appos	_	SpaceAfter=No|start_char=363|end_char=371
+38	,	,	PUNCT	$,	_	43	punct	_	start_char=371|end_char=372
+39	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	43	obj	_	start_char=373|end_char=376
+40	Sie	sie	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	43	nsubj	_	start_char=377|end_char=380
+41	auf	auf	ADP	APPR	_	42	case	_	start_char=381|end_char=384
+42	Reisen	Reise	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	43	obl	_	start_char=385|end_char=391
+43	ausweist	ausweisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl	_	SpaceAfter=No|start_char=392|end_char=400
+44	)	)	PUNCT	$(	_	37	punct	_	SpaceAfter=No|start_char=400|end_char=401
+45	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s|start_char=401|end_char=402
+
+# text = Wenn Sie nicht in Göttingen geboren sind, benötigen Sie eine **beglaubigte Abschrift** (eine offizielle Kopie) aus dem **Geburtenregister** (ein Verzeichnis, in dem alle Geburten erfasst sind).
+# sent_id = 5
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=404|end_char=408
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj:pass	_	start_char=409|end_char=412
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=413|end_char=418
+4	in	in	ADP	APPR	_	5	case	_	start_char=419|end_char=421
+5	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=422|end_char=431
+6	geboren	gebären	VERB	VVPP	VerbForm=Part	9	advcl	_	start_char=432|end_char=439
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	SpaceAfter=No|start_char=440|end_char=444
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=444|end_char=445
+9	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=446|end_char=455
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=456|end_char=459
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=460|end_char=464
+12	**beglaubigte	**beglaubigt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=465|end_char=478
+13	Abschrift	Abschrift	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|start_char=479|end_char=488
+14	*	*	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=488|end_char=489
+15	*	*	PUNCT	$(	_	13	appos	_	start_char=489|end_char=490
+16	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No|start_char=491|end_char=492
+17	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	19	det	_	start_char=492|end_char=496
+18	offizielle	offiziell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=497|end_char=507
+19	Kopie	Kopie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No|start_char=508|end_char=513
+20	)	)	PUNCT	$(	_	19	punct	_	start_char=513|end_char=514
+21	aus	aus	ADP	APPR	_	25	case	_	start_char=515|end_char=518
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	start_char=519|end_char=522
+23	*	*	PUNCT	$(	_	25	compound	_	SpaceAfter=No|start_char=523|end_char=524
+24	*	*	PUNCT	$(	_	25	punct	_	SpaceAfter=No|start_char=524|end_char=525
+25	Geburtenregister	Geburtenregister	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=525|end_char=541
+26	*	*	PUNCT	$(	_	25	appos	_	SpaceAfter=No|start_char=541|end_char=542
+27	*	*	PUNCT	$(	_	30	punct	_	start_char=542|end_char=543
+28	(	(	PUNCT	$(	_	30	punct	_	SpaceAfter=No|start_char=544|end_char=545
+29	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	30	det	_	start_char=545|end_char=548
+30	Verzeichnis	Verzeichnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	25	appos	_	SpaceAfter=No|start_char=549|end_char=560
+31	,	,	PUNCT	$,	_	36	punct	_	start_char=560|end_char=561
+32	in	in	ADP	APPR	_	33	case	_	start_char=562|end_char=564
+33	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	36	obl	_	start_char=565|end_char=568
+34	alle	alle	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	35	det	_	start_char=569|end_char=573
+35	Geburten	Geburt	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	nsubj:pass	_	start_char=574|end_char=582
+36	erfasst	erfassen	VERB	VVPP	VerbForm=Part	30	acl	_	start_char=583|end_char=590
+37	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	SpaceAfter=No|start_char=591|end_char=595
+38	)	)	PUNCT	$(	_	30	punct	_	SpaceAfter=No|start_char=595|end_char=596
+39	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=596|end_char=597
+
+# text = Wenn Sie nicht in Göttingen wohnen, benötigen Sie eine **Aufenthaltsbescheinigung** (ein Dokument, das bestätigt, dass Sie an einem bestimmten Ort wohnen).
+# sent_id = 6
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=599|end_char=603
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=604|end_char=607
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=608|end_char=613
+4	in	in	ADP	APPR	_	5	case	_	start_char=614|end_char=616
+5	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=617|end_char=626
+6	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=627|end_char=633
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=633|end_char=634
+8	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=635|end_char=644
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=645|end_char=648
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=649|end_char=653
+11	**	**	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=654|end_char=656
+12	Aufenthaltsbescheinigung	Aufenthaltsbescheinigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|start_char=656|end_char=680
+13	*	*	PUNCT	$(	_	12	appos	_	SpaceAfter=No|start_char=680|end_char=681
+14	*	*	PUNCT	$(	_	12	appos	_	start_char=681|end_char=682
+15	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=683|end_char=684
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=684|end_char=687
+17	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	appos	_	SpaceAfter=No|start_char=688|end_char=696
+18	,	,	PUNCT	$,	_	20	punct	_	start_char=696|end_char=697
+19	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	20	nsubj	_	start_char=698|end_char=701
+20	bestätigt	bestätigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	SpaceAfter=No|start_char=702|end_char=711
+21	,	,	PUNCT	$,	_	28	punct	_	start_char=711|end_char=712
+22	dass	dass	SCONJ	KOUS	_	28	mark	_	start_char=713|end_char=717
+23	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	28	nsubj	_	start_char=718|end_char=721
+24	an	an	ADP	APPR	_	27	case	_	start_char=722|end_char=724
+25	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	27	det	_	start_char=725|end_char=730
+26	bestimmten	bestimmt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=731|end_char=741
+27	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	start_char=742|end_char=745
+28	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	20	ccomp	_	SpaceAfter=No|start_char=746|end_char=752
+29	)	)	PUNCT	$(	_	28	punct	_	SpaceAfter=No|start_char=752|end_char=753
+30	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=753|end_char=754
+
+# text = **Gebühren und Fristen** Es gibt **Gebühren** (Kosten), die Sie zahlen müssen.
+# sent_id = 7
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=756|end_char=758
+2	Gebühren	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=758|end_char=766
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=767|end_char=770
+4	Fristen	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No|start_char=771|end_char=778
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=778|end_char=779
+6	*	*	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\s|start_char=779|end_char=780
+7	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=782|end_char=784
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=785|end_char=789
+9	**	**	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=790|end_char=792
+10	Gebühren	Gebühr	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No|start_char=792|end_char=800
+11	*	*	PUNCT	$(	_	10	appos	_	SpaceAfter=No|start_char=800|end_char=801
+12	*	*	PUNCT	$(	_	10	appos	_	start_char=801|end_char=802
+13	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=803|end_char=804
+14	Kosten	Kosten	NOUN	NN	Case=Nom|Number=Plur	10	appos	_	SpaceAfter=No|start_char=804|end_char=810
+15	)	)	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=810|end_char=811
+16	,	,	PUNCT	$,	_	19	punct	_	start_char=811|end_char=812
+17	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	19	obj	_	start_char=813|end_char=816
+18	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	19	nsubj	_	start_char=817|end_char=820
+19	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	10	acl	_	start_char=821|end_char=827
+20	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No|start_char=828|end_char=834
+21	.	.	PUNCT	$.	_	8	punct	_	start_char=834|end_char=835
+
+# text = Die Höhe der Gebühren wird bei der Anmeldung geklärt.
+# sent_id = 8
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=836|end_char=839
+2	Höhe	Höhe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	start_char=840|end_char=844
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=845|end_char=848
+4	Gebühren	Gebühr	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=849|end_char=857
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=858|end_char=862
+6	bei	bei	ADP	APPR	_	8	case	_	start_char=863|end_char=866
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=867|end_char=870
+8	Anmeldung	Anmeldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=871|end_char=880
+9	geklärt	klären	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=881|end_char=888
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=888|end_char=889
+
+# text = Es gibt auch **Fristen** (Zeitlimits), die Sie beachten müssen.
+# sent_id = 9
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=890|end_char=892
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=893|end_char=897
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=898|end_char=902
+4	*	*	PUNCT	$(	_	2	advmod	_	SpaceAfter=No|start_char=903|end_char=904
+5	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=904|end_char=905
+6	Fristen	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=905|end_char=912
+7	*	*	PUNCT	$(	_	6	appos	_	SpaceAfter=No|start_char=912|end_char=913
+8	*	*	PUNCT	$(	_	10	punct	_	start_char=913|end_char=914
+9	(	(	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=915|end_char=916
+10	Zeitlimits	Zeitlimit	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	appos	_	SpaceAfter=No|start_char=916|end_char=926
+11	)	)	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=926|end_char=927
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=927|end_char=928
+13	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	15	obj	_	start_char=929|end_char=932
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	start_char=933|end_char=936
+15	beachten	beachen	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=937|end_char=945
+16	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No|start_char=946|end_char=952
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=952|end_char=953
+
+# text = **Kontakt** Für Fragen und Anliegen steht Ihnen Frau S. Menges zur Verfügung.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=955|end_char=957
+2	Kontakt	Kontakt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|start_char=957|end_char=964
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=964|end_char=965
+4	*	*	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\s|start_char=965|end_char=966
+5	Für	für	ADP	APPR	_	6	case	_	start_char=968|end_char=971
+6	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nmod	_	start_char=972|end_char=978
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=979|end_char=982
+8	Anliegen	Anliegen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	start_char=983|end_char=991
+9	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=992|end_char=997
+10	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	9	obl:arg	_	start_char=998|end_char=1003
+11	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1004|end_char=1008
+12	S.	S.	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	start_char=1009|end_char=1011
+13	Menges	Menge	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	flat	_	start_char=1012|end_char=1018
+14-15	zur	_	_	_	_	_	_	_	start_char=1019|end_char=1022
+14	zu	zu	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|start_char=1023|end_char=1032
+17	.	.	PUNCT	$.	_	9	punct	_	start_char=1032|end_char=1033
+
+# text = Sie können sie unter https://www.goettingen.de/buergerservice/personen/s-menges-900000049-25480.html kontaktieren.
+# sent_id = 11
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1034|end_char=1037
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1038|end_char=1044
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	start_char=1045|end_char=1048
+4	unter	unter	ADP	APPR	_	5	case	_	start_char=1049|end_char=1054
+5	https://www.goettingen.de/buergerservice/personen/s-menges-900000049-25480.html	getzennaht	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=1055|end_char=1134
+6	kontaktieren	kontaktieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1135|end_char=1147
+7	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=1147|end_char=1148
+

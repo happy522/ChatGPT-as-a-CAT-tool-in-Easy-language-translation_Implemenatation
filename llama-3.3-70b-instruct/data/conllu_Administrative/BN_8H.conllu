@@ -1,0 +1,464 @@
+# text = **Anmeldung für eine Hochzeit** Sie möchten heiraten?
+# sent_id = 0
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=2
+2	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=11
+3	für	für	ADP	APPR	_	5	case	_	start_char=12|end_char=15
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=16|end_char=20
+5	Hochzeit	Hochzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=21|end_char=29
+6	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=29|end_char=30
+7	*	*	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\s|start_char=30|end_char=31
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=33|end_char=36
+9	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=37|end_char=44
+10	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	2	parataxis	_	SpaceAfter=No|start_char=45|end_char=53
+11	?	?	PUNCT	$.	_	10	punct	_	start_char=53|end_char=54
+
+# text = Dann müssen Sie das beim Standesamt anmelden.
+# sent_id = 1
+1	Dann	dann	ADV	ADV	_	8	advmod	_	start_char=55|end_char=59
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=60|end_char=66
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	start_char=67|end_char=70
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	obj	_	start_char=71|end_char=74
+5-6	beim	_	_	_	_	_	_	_	start_char=75|end_char=79
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=80|end_char=90
+8	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=91|end_char=99
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s\s|start_char=99|end_char=100
+
+# text = Sie können sich 6 Monate vor der Hochzeit anmelden.
+# sent_id = 2
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=103|end_char=106
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=107|end_char=113
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=114|end_char=118
+4	6	6	NUM	CARD	NumType=Card	5	nummod	_	start_char=119|end_char=120
+5	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	start_char=121|end_char=127
+6	vor	vor	ADP	APPR	_	8	case	_	start_char=128|end_char=131
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=132|end_char=135
+8	Hochzeit	Hochzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=136|end_char=144
+9	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=145|end_char=153
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=153|end_char=154
+
+# text = Wenn Sie am Freitag oder Wochenende anmelden möchten, kommen Sie am nächsten Montag.
+# sent_id = 3
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=155|end_char=159
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	start_char=160|end_char=163
+3-4	am	_	_	_	_	_	_	_	start_char=164|end_char=166
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=167|end_char=174
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=175|end_char=179
+7	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	conj	_	start_char=180|end_char=190
+8	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	11	advcl	_	start_char=191|end_char=199
+9	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No|start_char=200|end_char=207
+10	,	,	PUNCT	$,	_	8	punct	_	start_char=207|end_char=208
+11	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=209|end_char=215
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=216|end_char=219
+13-14	am	_	_	_	_	_	_	_	start_char=220|end_char=222
+13	an	an	ADP	APPR	_	16	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	16	amod	_	start_char=223|end_char=231
+16	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|start_char=232|end_char=238
+17	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s|start_char=238|end_char=239
+
+# text = Beide Verlobten sollten zusammen zum Standesamt kommen.
+# sent_id = 4
+1	Beide	beide	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	2	det	_	start_char=241|end_char=246
+2	Verlobten	Verlobte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=247|end_char=256
+3	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=257|end_char=264
+4	zusammen	zusammen	ADV	ADV	_	8	advmod	_	start_char=265|end_char=273
+5-6	zum	_	_	_	_	_	_	_	start_char=274|end_char=277
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=278|end_char=288
+8	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=289|end_char=295
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=295|end_char=296
+
+# text = Wenn einer nicht kommen kann, kann er/sie eine Erklärung unterschreiben.
+# sent_id = 5
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=297|end_char=301
+2	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	nsubj	_	start_char=302|end_char=307
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=308|end_char=313
+4	kommen	kommen	VERB	VVINF	VerbForm=Inf	11	advcl	_	start_char=314|end_char=320
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No|start_char=321|end_char=325
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=325|end_char=326
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=327|end_char=331
+8	er/sie	er/sie	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=332|end_char=338
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=339|end_char=343
+10	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=344|end_char=353
+11	unterschreiben	unterschreiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=354|end_char=368
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s\s|start_char=368|end_char=369
+
+# text = Der Standesbeamte nimmt die Anmeldung entgegen.
+# sent_id = 6
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=372|end_char=375
+2	Standesbeamte	Standesbeamter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=376|end_char=389
+3	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=390|end_char=395
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=396|end_char=399
+5	Anmeldung	Anmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=400|end_char=409
+6	entgegen	entgegen	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=410|end_char=418
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=418|end_char=419
+
+# text = Wenn Sie warten müssen, bitte haben Sie Verständnis.
+# sent_id = 7
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=420|end_char=424
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=425|end_char=428
+3	warten	warten	VERB	VVINF	VerbForm=Inf	7	advcl	_	start_char=429|end_char=435
+4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No|start_char=436|end_char=442
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=442|end_char=443
+6	bitte	bitten	INTJ	VVFIN	_	7	advmod	_	start_char=444|end_char=449
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=450|end_char=455
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=456|end_char=459
+9	Verständnis	Verständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|start_char=460|end_char=471
+10	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=471|end_char=472
+
+# text = **Was ist ein Standesbeamter?**
+# sent_id = 8
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=474|end_char=476
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=476|end_char=479
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=480|end_char=483
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=484|end_char=487
+5	Standesbeamter	Standesbeamte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=488|end_char=502
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=502|end_char=503
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=503|end_char=504
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=504|end_char=505
+
+# text = Ein Standesbeamter ist ein Mitarbeiter des Standesamtes, der für die Anmeldung und Durchführung von Hochzeiten zuständig ist.
+# sent_id = 9
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=506|end_char=509
+2	Standesbeamter	Standesbeamte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=510|end_char=524
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=525|end_char=528
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=529|end_char=532
+5	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=533|end_char=544
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=545|end_char=548
+7	Standesamtes	Standesamt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=549|end_char=561
+8	,	,	PUNCT	$,	_	17	punct	_	start_char=561|end_char=562
+9	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=563|end_char=566
+10	für	für	ADP	APPR	_	12	case	_	start_char=567|end_char=570
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=571|end_char=574
+12	Anmeldung	Anmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	start_char=575|end_char=584
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=585|end_char=588
+14	Durchführung	Durchführung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	start_char=589|end_char=601
+15	von	von	ADP	APPR	_	16	case	_	start_char=602|end_char=605
+16	Hochzeiten	Hochzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	start_char=606|end_char=616
+17	zuständig	zuständig	ADJ	ADJD	Degree=Pos	7	acl	_	start_char=617|end_char=626
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No|start_char=627|end_char=630
+19	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=630|end_char=631
+
+# text = **Hochzeitstermin** Wenn Sie beide Deutsche seid und alle Fragen geklärt sind, können Sie sich montags bis donnerstags zum Standesamt anmelden.
+# sent_id = 10
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=633|end_char=635
+2	Hochzeitstermin	Hochzeitstermin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	parataxis	_	SpaceAfter=No|start_char=635|end_char=650
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=650|end_char=651
+4	*	*	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\s|start_char=651|end_char=652
+5	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=654|end_char=658
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=659|end_char=662
+7	beide	beide	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	8	det	_	start_char=663|end_char=668
+8	Deutsche	deutsch	NOUN	NN	Case=Nom|Number=Plur	9	obj	_	start_char=669|end_char=677
+9	seid	sein	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=678|end_char=682
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=683|end_char=686
+11	alle	alle	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	12	det	_	start_char=687|end_char=691
+12	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	_	start_char=692|end_char=698
+13	geklärt	klären	VERB	VVPP	VerbForm=Part	9	conj	_	start_char=699|end_char=706
+14	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	SpaceAfter=No|start_char=707|end_char=711
+15	,	,	PUNCT	$,	_	2	punct	_	start_char=711|end_char=712
+16	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=713|end_char=719
+17	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	25	nsubj	_	start_char=720|end_char=723
+18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	start_char=724|end_char=728
+19	montags	montags	ADJ	ADJD	Degree=Pos	25	advmod	_	start_char=729|end_char=736
+20	bis	bis	ADP	APPR	_	21	case	_	start_char=737|end_char=740
+21	donnerstags	donnerstags	ADV	ADV	_	25	advmod	_	start_char=741|end_char=752
+22-23	zum	_	_	_	_	_	_	_	start_char=753|end_char=756
+22	zu	zu	ADP	APPR	_	24	case	_	_
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	start_char=757|end_char=767
+25	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=768|end_char=776
+26	.	.	PUNCT	$.	_	25	punct	_	start_char=776|end_char=777
+
+# text = Dann wird auch der Hochzeitstermin besprochen.
+# sent_id = 11
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=778|end_char=782
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=783|end_char=787
+3	auch	auch	ADV	ADV	_	6	advmod	_	start_char=788|end_char=792
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=793|end_char=796
+5	Hochzeitstermin	Hochzeitstermin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	start_char=797|end_char=812
+6	besprochen	besprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=813|end_char=823
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=823|end_char=824
+
+# text = **Was ist ein Hochzeitstermin?**
+# sent_id = 12
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=826|end_char=828
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=828|end_char=831
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=832|end_char=835
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=836|end_char=839
+5	Hochzeitstermin	Hochzeitstermin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=840|end_char=855
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=855|end_char=856
+7	*	*	PUNCT	$(	_	5	dep	_	SpaceAfter=No|start_char=856|end_char=857
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=857|end_char=858
+
+# text = Ein Hochzeitstermin ist der Tag und die Uhrzeit, an dem die Hochzeit stattfinden wird.
+# sent_id = 13
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=859|end_char=862
+2	Hochzeitstermin	Hochzeitstermin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=863|end_char=878
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=879|end_char=882
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=883|end_char=886
+5	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=887|end_char=890
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=891|end_char=894
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=895|end_char=898
+8	Uhrzeit	Uhrzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|start_char=899|end_char=906
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=906|end_char=907
+10	an	an	ADP	APPR	_	11	case	_	start_char=908|end_char=910
+11	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	obl	_	start_char=911|end_char=914
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=915|end_char=918
+13	Hochzeit	Hochzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=919|end_char=927
+14	stattfinden	stattfinden	VERB	VVPP	VerbForm=Inf	8	acl	_	start_char=928|end_char=939
+15	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	SpaceAfter=No|start_char=940|end_char=944
+16	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=944|end_char=945
+
+# text = **Persönliche Beratung** Wir empfehlen eine persönliche Beratung, wenn: * einer von Ihnen eine ausländische Staatsangehörigkeit hat * einer von Ihnen minderjährige Kinder hat * einer von Ihnen schon einmal verheiratet war **Was ist eine ausländische Staatsangehörigkeit?**
+# sent_id = 14
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=947|end_char=949
+2	Persönliche	persönlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=949|end_char=960
+3	Beratung	Beratung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=961|end_char=969
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=969|end_char=970
+5	*	*	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s|start_char=970|end_char=971
+6	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=973|end_char=976
+7	empfehlen	empfehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=977|end_char=986
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=987|end_char=991
+9	persönliche	persönlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=992|end_char=1003
+10	Beratung	Beratung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|start_char=1004|end_char=1012
+11	,	,	PUNCT	$,	_	21	punct	_	start_char=1012|end_char=1013
+12	wenn	wenn	SCONJ	KOUS	_	21	mark	_	SpaceAfter=No|start_char=1014|end_char=1018
+13	:	:	PUNCT	$.	_	21	punct	_	SpacesAfter=\s\s|start_char=1018|end_char=1019
+14	*	*	PUNCT	$(	_	21	mark	_	start_char=1021|end_char=1022
+15	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	21	nsubj	_	start_char=1023|end_char=1028
+16	von	von	ADP	APPR	_	17	case	_	start_char=1029|end_char=1032
+17	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	21	obl	_	start_char=1033|end_char=1038
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=1039|end_char=1043
+19	ausländische	ausländisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1044|end_char=1056
+20	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=1057|end_char=1076
+21	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=1077|end_char=1080
+22	*	*	PUNCT	$(	_	28	punct	_	start_char=1081|end_char=1082
+23	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	28	nsubj	_	start_char=1083|end_char=1088
+24	von	von	ADP	APPR	_	25	case	_	start_char=1089|end_char=1092
+25	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	26	nmod	_	start_char=1093|end_char=1098
+26	minderjährige	minderjährig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	27	amod	_	start_char=1099|end_char=1112
+27	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	start_char=1113|end_char=1119
+28	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	_	start_char=1120|end_char=1123
+29	*	*	PUNCT	$(	_	35	mark	_	start_char=1124|end_char=1125
+30	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	35	nsubj	_	start_char=1126|end_char=1131
+31	von	von	ADP	APPR	_	32	case	_	start_char=1132|end_char=1135
+32	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	35	nmod	_	start_char=1136|end_char=1141
+33	schon	schon	ADV	ADV	_	34	advmod	_	start_char=1142|end_char=1147
+34	einmal	einmal	ADV	ADV	_	35	advmod	_	start_char=1148|end_char=1154
+35	verheiratet	verheiraten	ADJ	ADJD	Degree=Pos|VerbForm=Part	28	ccomp	_	start_char=1155|end_char=1166
+36	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	_	SpacesAfter=\s\s|start_char=1167|end_char=1170
+37	**	**	PUNCT	$(	_	42	punct	_	SpaceAfter=No|start_char=1172|end_char=1174
+38	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	42	nsubj	_	start_char=1174|end_char=1177
+39	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	start_char=1178|end_char=1181
+40	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	42	det	_	start_char=1182|end_char=1186
+41	ausländische	ausländisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=1187|end_char=1199
+42	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	parataxis	_	SpaceAfter=No|start_char=1200|end_char=1219
+43	?	?	PUNCT	$.	_	42	punct	_	SpaceAfter=No|start_char=1219|end_char=1220
+44	*	*	PUNCT	$(	_	42	punct	_	SpaceAfter=No|start_char=1220|end_char=1221
+45	*	*	PUNCT	$(	_	3	punct	_	start_char=1221|end_char=1222
+
+# text = Eine ausländische Staatsangehörigkeit bedeutet, dass jemand die Staatsbürgerschaft eines anderen Landes besitzt.
+# sent_id = 15
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1223|end_char=1227
+2	ausländische	ausländisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1228|end_char=1240
+3	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1241|end_char=1260
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1261|end_char=1269
+5	,	,	PUNCT	$,	_	13	punct	_	start_char=1269|end_char=1270
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=1271|end_char=1275
+7	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	start_char=1276|end_char=1282
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1283|end_char=1286
+9	Staatsbürgerschaft	Staatsbürgerschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=1287|end_char=1305
+10	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=1306|end_char=1311
+11	anderen	anderer	DET	ADJA	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	12	det	_	start_char=1312|end_char=1319
+12	Landes	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=1320|end_char=1326
+13	besitzt	besitzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No|start_char=1327|end_char=1334
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=1334|end_char=1335
+
+# text = **Trauzimmer** Hochzeiten finden normalerweise im historischen Trauzimmer im Alten Rathaus statt.
+# sent_id = 16
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1337|end_char=1339
+2	Trauzimmer	Trauzimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	dep	_	SpaceAfter=No|start_char=1339|end_char=1349
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1349|end_char=1350
+4	*	*	SYM	XY	_	5	cc	_	SpacesAfter=\s\s|start_char=1350|end_char=1351
+5	Hochzeiten	Hochzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=1353|end_char=1363
+6	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1364|end_char=1370
+7	normalerweise	normalerweise	ADV	ADV	_	6	advmod	_	start_char=1371|end_char=1384
+8-9	im	_	_	_	_	_	_	_	start_char=1385|end_char=1387
+8	in	in	ADP	APPR	_	11	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+10	historischen	historisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=1388|end_char=1400
+11	Trauzimmer	Trauzimmer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=1401|end_char=1411
+12-13	im	_	_	_	_	_	_	_	start_char=1412|end_char=1414
+12	in	in	ADP	APPR	_	15	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+14	Alten	alt	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	15	amod	_	start_char=1415|end_char=1420
+15	Rathaus	Rathaus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=1421|end_char=1428
+16	statt	statt	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No|start_char=1429|end_char=1434
+17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1434|end_char=1435
+
+# text = **Was ist ein Trauzimmer?**
+# sent_id = 17
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1437|end_char=1439
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=1439|end_char=1442
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1443|end_char=1446
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1447|end_char=1450
+5	Trauzimmer	Trauzimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1451|end_char=1461
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1461|end_char=1462
+7	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1462|end_char=1463
+8	*	*	PUNCT	$(	_	5	punct	_	start_char=1463|end_char=1464
+
+# text = Ein Trauzimmer ist ein Raum, in dem Hochzeiten durchgeführt werden.
+# sent_id = 18
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=1465|end_char=1468
+2	Trauzimmer	Trauzimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=1469|end_char=1479
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1480|end_char=1483
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1484|end_char=1487
+5	Raum	Raum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=1488|end_char=1492
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=1492|end_char=1493
+7	in	in	ADP	APPR	_	8	case	_	start_char=1494|end_char=1496
+8	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	obl	_	start_char=1497|end_char=1500
+9	Hochzeiten	Hochzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nsubj:pass	_	start_char=1501|end_char=1511
+10	durchgeführt	durchführen	VERB	VVPP	VerbForm=Part	5	acl	_	start_char=1512|end_char=1524
+11	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	SpaceAfter=No|start_char=1525|end_char=1531
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=1531|end_char=1532
+
+# text = **Trauzeiten** Hochzeiten finden normalerweise montags bis freitags von 9:30 Uhr bis 11:30 Uhr statt.
+# sent_id = 19
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1534|end_char=1536
+2	Trauzeiten	Trauzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No|start_char=1536|end_char=1546
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1546|end_char=1547
+4	*	*	SYM	XY	_	5	cc	_	SpacesAfter=\s\s|start_char=1547|end_char=1548
+5	Hochzeiten	Hochzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=1550|end_char=1560
+6	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1561|end_char=1567
+7	normalerweise	normalerweise	ADV	ADV	_	6	advmod	_	start_char=1568|end_char=1581
+8	montags	montags	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=1582|end_char=1589
+9	bis	bis	ADP	APPR	_	10	case	_	start_char=1590|end_char=1593
+10	freitags	freitags	ADV	ADV	_	6	advmod	_	start_char=1594|end_char=1602
+11	von	von	ADP	APPR	_	13	case	_	start_char=1603|end_char=1606
+12	9:30	9:30	NUM	CARD	NumType=Card	13	nummod	_	start_char=1607|end_char=1611
+13	Uhr	Uhr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=1612|end_char=1615
+14	bis	bis	ADP	APPR	_	16	case	_	start_char=1616|end_char=1619
+15	11:30	11:30	NUM	CARD	NumType=Card	16	nummod	_	start_char=1620|end_char=1625
+16	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=1626|end_char=1629
+17	statt	statt	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No|start_char=1630|end_char=1635
+18	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=1635|end_char=1636
+
+# text = **Was muss ich mitbringen?**
+# sent_id = 20
+1	**	**	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=1638|end_char=1640
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=1640|end_char=1643
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1644|end_char=1648
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1649|end_char=1652
+5	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1653|end_char=1663
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=1663|end_char=1664
+7	**	**	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\s|start_char=1664|end_char=1666
+
+# text = Sie benötigen Unterlagen für die Anmeldung.
+# sent_id = 21
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1668|end_char=1671
+2	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1672|end_char=1681
+3	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1682|end_char=1692
+4	für	für	ADP	APPR	_	6	case	_	start_char=1693|end_char=1696
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1697|end_char=1700
+6	Anmeldung	Anmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1701|end_char=1710
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1710|end_char=1711
+
+# text = Bitte wenden Sie sich an das Standesamt, um zu erfahren, was Sie benötigen.
+# sent_id = 22
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	start_char=1712|end_char=1717
+2	wenden	wenden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1718|end_char=1724
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=1725|end_char=1728
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=1729|end_char=1733
+5	an	an	ADP	APPR	_	7	case	_	start_char=1734|end_char=1736
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=1737|end_char=1740
+7	Standesamt	Standesamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1741|end_char=1751
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=1751|end_char=1752
+9	um	um	ADP	KOUI	_	11	mark	_	start_char=1753|end_char=1755
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=1756|end_char=1758
+11	erfahren	erfahren	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=1759|end_char=1767
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=1767|end_char=1768
+13	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	15	obj	_	start_char=1769|end_char=1772
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	15	nsubj	_	start_char=1773|end_char=1776
+15	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No|start_char=1777|end_char=1786
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=1786|end_char=1787
+
+# text = **Gebühren** Die Kosten für eine Hochzeit können nicht pauschal festgelegt werden.
+# sent_id = 23
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1789|end_char=1791
+2	Gebühren	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	dep	_	SpaceAfter=No|start_char=1791|end_char=1799
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1799|end_char=1800
+4	*	*	PUNCT	$(	_	13	punct	_	SpacesAfter=\s\s|start_char=1800|end_char=1801
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1803|end_char=1806
+6	Kosten	Kosten	NOUN	NN	Case=Nom|Number=Plur	13	nsubj:pass	_	start_char=1807|end_char=1813
+7	für	für	ADP	APPR	_	9	case	_	start_char=1814|end_char=1817
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=1818|end_char=1822
+9	Hochzeit	Hochzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=1823|end_char=1831
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=1832|end_char=1838
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=1839|end_char=1844
+12	pauschal	pauschal	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=1845|end_char=1853
+13	festgelegt	festlegen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1854|end_char=1864
+14	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	13	aux:pass	_	SpaceAfter=No|start_char=1865|end_char=1871
+15	.	.	PUNCT	$.	_	13	punct	_	start_char=1871|end_char=1872
+
+# text = Es fallen normalerweise folgende Gebühren an: * 50,00 Euro, wenn beide Brautleute Deutsche sind * 40,00 Euro pro ausländisches Eheschließungsrecht **Was ist ein Eheschließungsrecht?**
+# sent_id = 24
+1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1873|end_char=1875
+2	fallen	fallen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1876|end_char=1882
+3	normalerweise	normalerweise	ADV	ADV	_	2	advmod	_	start_char=1883|end_char=1896
+4	folgende	folgend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1897|end_char=1905
+5	Gebühren	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1906|end_char=1914
+6	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=1915|end_char=1917
+7	:	:	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=1917|end_char=1918
+8	*	*	PUNCT	$(	_	10	advmod	_	start_char=1920|end_char=1921
+9	50,00	50,00	NUM	CARD	NumType=Card	10	nummod	_	start_char=1922|end_char=1927
+10	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No|start_char=1928|end_char=1932
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=1932|end_char=1933
+12	wenn	wenn	SCONJ	KOUS	_	15	mark	_	start_char=1934|end_char=1938
+13	beide	beide	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	14	det	_	start_char=1939|end_char=1944
+14	Brautleute	Brautleute	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=1945|end_char=1955
+15	Deutsche	deutsch	NOUN	NN	Case=Nom|Number=Plur	2	advcl	_	start_char=1956|end_char=1964
+16	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=1965|end_char=1969
+17	*	*	SYM	XY	_	19	cop	_	start_char=1970|end_char=1971
+18	40,00	40,00	NUM	CARD	NumType=Card	19	nummod	_	start_char=1972|end_char=1977
+19	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	15	appos	_	start_char=1978|end_char=1982
+20	pro	pro	ADP	APPR	_	22	case	_	start_char=1983|end_char=1986
+21	ausländisches	ausländisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=1987|end_char=2000
+22	Eheschließungsrecht	Eheschließungsrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	SpacesAfter=\s\s|start_char=2001|end_char=2020
+23	**	**	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=2022|end_char=2024
+24	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	27	nsubj	_	start_char=2024|end_char=2027
+25	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=2028|end_char=2031
+26	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	27	det	_	start_char=2032|end_char=2035
+27	Eheschließungsrecht	Eheschließungsrecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=2036|end_char=2055
+28	?	?	PUNCT	$.	_	27	punct	_	SpaceAfter=No|start_char=2055|end_char=2056
+29	*	*	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=2056|end_char=2057
+30	*	*	PUNCT	$(	_	2	punct	_	start_char=2057|end_char=2058
+
+# text = Ein Eheschließungsrecht ist das Recht, eine Ehe zu schließen, das von einem Land oder einer Regierung festgelegt wird.
+# sent_id = 25
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=2059|end_char=2062
+2	Eheschließungsrecht	Eheschließungsrecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=2063|end_char=2082
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2083|end_char=2086
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2087|end_char=2090
+5	Recht	Recht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=2091|end_char=2096
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=2096|end_char=2097
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=2098|end_char=2102
+8	Ehe	Ehe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=2103|end_char=2106
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=2107|end_char=2109
+10	schließen	schließen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|start_char=2110|end_char=2119
+11	,	,	PUNCT	$,	_	19	punct	_	start_char=2119|end_char=2120
+12	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	19	nsubj:pass	_	start_char=2121|end_char=2124
+13	von	von	ADP	APPR	_	15	case	_	start_char=2125|end_char=2128
+14	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=2129|end_char=2134
+15	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl:agent	_	start_char=2135|end_char=2139
+16	oder	oder	CCONJ	KON	_	18	cc	_	start_char=2140|end_char=2144
+17	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=2145|end_char=2150
+18	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	conj	_	start_char=2151|end_char=2160
+19	festgelegt	festlegen	VERB	VVPP	VerbForm=Part	8	acl	_	start_char=2161|end_char=2171
+20	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	aux:pass	_	SpaceAfter=No|start_char=2172|end_char=2176
+21	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=2176|end_char=2177
+

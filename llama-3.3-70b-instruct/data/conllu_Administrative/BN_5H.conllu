@@ -1,0 +1,423 @@
+# text = Hier ist der reformulierte Text: **Elterngeld und Elternzeit** **Was ist Elterngeld?**
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=9|end_char=12
+4	reformulierte	reformuliert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=13|end_char=26
+5	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=27|end_char=31
+6	:	:	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=31|end_char=32
+7	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=34|end_char=35
+8	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=35|end_char=36
+9	Elterngeld	Elterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	start_char=36|end_char=46
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=47|end_char=50
+11	Elternzeit	Elternzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|start_char=51|end_char=61
+12	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=61|end_char=62
+13	*	*	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s|start_char=62|end_char=63
+14	*	*	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=65|end_char=66
+15	*	*	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=66|end_char=67
+16	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	18	nsubj	_	start_char=67|end_char=70
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=71|end_char=74
+18	Elterngeld	Elterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No|start_char=75|end_char=85
+19	?	?	PUNCT	$.	_	18	punct	_	SpaceAfter=No|start_char=85|end_char=86
+20	*	*	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=86|end_char=87
+21	*	*	PUNCT	$(	_	9	punct	_	start_char=87|end_char=88
+
+# text = Elterngeld ist Geld vom Staat für Eltern.
+# sent_id = 1
+1	Elterngeld	Elterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=89|end_char=99
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=100|end_char=103
+3	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=104|end_char=108
+4-5	vom	_	_	_	_	_	_	_	start_char=109|end_char=112
+4	von	von	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	start_char=113|end_char=118
+7	für	für	ADP	APPR	_	8	case	_	start_char=119|end_char=122
+8	Eltern	Eltern	NOUN	NN	Case=Acc|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=123|end_char=129
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=129|end_char=130
+
+# text = Es hilft, Kinder zu erziehen und zu betreuen.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=131|end_char=133
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=134|end_char=139
+3	,	,	PUNCT	$,	_	6	punct	_	start_char=139|end_char=140
+4	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=141|end_char=147
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=148|end_char=150
+6	erziehen	erziehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=151|end_char=159
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=160|end_char=163
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=164|end_char=166
+9	betreuen	betreuen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No|start_char=167|end_char=175
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=175|end_char=176
+
+# text = **Arten von Elterngeld** Es gibt drei Arten: Basiselterngeld, ElterngeldPlus und Partnerschaftsbonusmonate.
+# sent_id = 3
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=178|end_char=180
+2	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=180|end_char=185
+3	von	von	ADP	APPR	_	4	case	_	start_char=186|end_char=189
+4	Elterngeld	Elterngeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=190|end_char=200
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=200|end_char=201
+6	*	*	PUNCT	$(	_	8	punct	_	start_char=201|end_char=202
+7	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=203|end_char=205
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=206|end_char=210
+9	drei	drei	NUM	CARD	NumType=Card	10	nummod	_	start_char=211|end_char=215
+10	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|start_char=216|end_char=221
+11	:	:	PUNCT	$.	_	12	punct	_	start_char=221|end_char=222
+12	Basiselterngeld	Basiselterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	appos	_	SpaceAfter=No|start_char=223|end_char=238
+13	,	,	PUNCT	$,	_	14	punct	_	start_char=238|end_char=239
+14	ElterngeldPlus	ElterngeldPlus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	conj	_	start_char=240|end_char=254
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=255|end_char=258
+16	Partnerschaftsbonusmonate	Partnerschaftsbonusmonat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	conj	_	SpaceAfter=No|start_char=259|end_char=284
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=284|end_char=285
+
+# text = Diese können kombiniert werden.
+# sent_id = 4
+1	Diese	dieser	DET	PDS	Case=Nom|Number=Plur|PronType=Dem	3	nsubj:pass	_	start_char=286|end_char=291
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=292|end_char=298
+3	kombiniert	kombinieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=299|end_char=309
+4	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	3	aux:pass	_	SpaceAfter=No|start_char=310|end_char=316
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=316|end_char=317
+
+# text = **Basiselterngeld** Basiselterngeld wird für maximal 14 Monate gezahlt.
+# sent_id = 5
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=319|end_char=321
+2	Basiselterngeld	Basiselterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	SpaceAfter=No|start_char=321|end_char=336
+3	*	*	PUNCT	$(	_	2	appos	_	SpaceAfter=No|start_char=336|end_char=337
+4	*	*	PUNCT	$(	_	2	punct	_	start_char=337|end_char=338
+5	Basiselterngeld	Basiselterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	start_char=339|end_char=354
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=355|end_char=359
+7	für	für	ADP	APPR	_	10	case	_	start_char=360|end_char=363
+8	maximal	maximal	ADV	ADV	_	9	advmod	_	start_char=364|end_char=371
+9	14	14	NUM	CARD	NumType=Card	10	nummod	_	start_char=372|end_char=374
+10	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	start_char=375|end_char=381
+11	gezahlt	zahlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=382|end_char=389
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=389|end_char=390
+
+# text = Väter und Mütter können den Zeitraum teilen.
+# sent_id = 6
+1	Väter	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=391|end_char=396
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=397|end_char=400
+3	Mütter	Mutter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=401|end_char=407
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=408|end_char=414
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=415|end_char=418
+6	Zeitraum	Zeitraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=419|end_char=427
+7	teilen	teilen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=428|end_char=434
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=434|end_char=435
+
+# text = Die Mindestzeit ist 2 Monate, die Maximalzeit 12 Monate.
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=436|end_char=439
+2	Mindestzeit	Mindestzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=440|end_char=451
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=452|end_char=455
+4	2	2	NUM	CARD	NumType=Card	5	nummod	_	start_char=456|end_char=457
+5	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|start_char=458|end_char=464
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=464|end_char=465
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=466|end_char=469
+8	Maximalzeit	Maximalzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	start_char=470|end_char=481
+9	12	12	NUM	CARD	NumType=Card	10	nummod	_	start_char=482|end_char=484
+10	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No|start_char=485|end_char=491
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=491|end_char=492
+
+# text = **ElterngeldPlus** ElterngeldPlus kann für einen längeren Zeitraum bezogen werden.
+# sent_id = 8
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=494|end_char=496
+2	ElterngeldPlus	ElterngeldPlus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	SpaceAfter=No|start_char=496|end_char=510
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=510|end_char=511
+4	*	*	PUNCT	$(	_	5	punct	_	start_char=511|end_char=512
+5	ElterngeldPlus	ElterngeldPlus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	start_char=513|end_char=527
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=528|end_char=532
+7	für	für	ADP	APPR	_	10	case	_	start_char=533|end_char=536
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=537|end_char=542
+9	längeren	lang	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	10	amod	_	start_char=543|end_char=551
+10	Zeitraum	Zeitraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=552|end_char=560
+11	bezogen	beziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=561|end_char=568
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	SpaceAfter=No|start_char=569|end_char=575
+13	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s|start_char=575|end_char=576
+
+# text = **Höhe des Elterngeldes** Die Höhe hängt von den Einkünften vor der Geburt ab.
+# sent_id = 9
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=578|end_char=580
+2	Höhe	Höhe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	dep	_	start_char=580|end_char=584
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=585|end_char=588
+4	Elterngeldes	Elterngeld	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=589|end_char=601
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=601|end_char=602
+6	*	*	PUNCT	$(	_	9	punct	_	start_char=602|end_char=603
+7	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=604|end_char=607
+8	Höhe	Höhe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=608|end_char=612
+9	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=613|end_char=618
+10	von	von	ADP	APPR	_	12	case	_	start_char=619|end_char=622
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=623|end_char=626
+12	Einkünften	Einkunft	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	start_char=627|end_char=637
+13	vor	vor	ADP	APPR	_	15	case	_	start_char=638|end_char=641
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=642|end_char=645
+15	Geburt	Geburt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	start_char=646|end_char=652
+16	ab	ab	ADP	PTKVZ	_	9	compound:prt	_	SpaceAfter=No|start_char=653|end_char=655
+17	.	.	PUNCT	$.	_	9	punct	_	start_char=655|end_char=656
+
+# text = Das Elterngeld ersetzt das Einkommen.
+# sent_id = 10
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=657|end_char=660
+2	Elterngeld	Elterngeld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=661|end_char=671
+3	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=672|end_char=679
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=680|end_char=683
+5	Einkommen	Einkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|start_char=684|end_char=693
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=693|end_char=694
+
+# text = Die Ersatzrate ist gestaffelt und beträgt mindestens 300 Euro und höchstens 1.800 Euro pro Monat.
+# sent_id = 11
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=695|end_char=698
+2	Ersatzrate	Ersatzrate	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=699|end_char=709
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=710|end_char=713
+4	gestaffelt	staffeln	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=714|end_char=724
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=725|end_char=728
+6	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=729|end_char=736
+7	mindestens	mindestens	ADV	ADV	_	8	advmod	_	start_char=737|end_char=747
+8	300	300	NUM	CARD	NumType=Card	9	nummod	_	start_char=748|end_char=751
+9	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=752|end_char=756
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=757|end_char=760
+11	höchstens	höchstens	ADV	ADV	_	12	advmod	_	start_char=761|end_char=770
+12	1.800	1.800	NUM	CARD	NumType=Card	13	nummod	_	start_char=771|end_char=776
+13	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	start_char=777|end_char=781
+14	pro	pro	ADP	APPR	_	15	case	_	start_char=782|end_char=785
+15	Monat	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=786|end_char=791
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=791|end_char=792
+
+# text = **Einkünfte**: Das sind die Gelder, die man vor der Geburt verdient hat.
+# sent_id = 12
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=794|end_char=796
+2	Einkünfte	Einkunft	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No|start_char=796|end_char=805
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=805|end_char=806
+4	*	*	PUNCT	$(	_	2	appos	_	SpaceAfter=No|start_char=806|end_char=807
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=807|end_char=808
+6	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=809|end_char=812
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=813|end_char=817
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=818|end_char=821
+9	Gelder	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|start_char=822|end_char=828
+10	,	,	PUNCT	$,	_	16	punct	_	start_char=828|end_char=829
+11	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	16	obj	_	start_char=830|end_char=833
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=834|end_char=837
+13	vor	vor	ADP	APPR	_	15	case	_	start_char=838|end_char=841
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=842|end_char=845
+15	Geburt	Geburt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=846|end_char=852
+16	verdient	verdienen	VERB	VVPP	VerbForm=Part	9	acl	_	start_char=853|end_char=861
+17	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No|start_char=862|end_char=865
+18	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=865|end_char=866
+
+# text = **Ersatzrate**: Das ist der Betrag, den das Elterngeld ersetzt.
+# sent_id = 13
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=868|end_char=870
+2	Ersatzrate	Ersatzrate	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=870|end_char=880
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=880|end_char=881
+4	*	*	PUNCT	$(	_	2	appos	_	SpaceAfter=No|start_char=881|end_char=882
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=882|end_char=883
+6	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=884|end_char=887
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=888|end_char=891
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=892|end_char=895
+9	Betrag	Betrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=896|end_char=902
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=902|end_char=903
+11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	14	obj	_	start_char=904|end_char=907
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=908|end_char=911
+13	Elterngeld	Elterngeld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	nsubj	_	start_char=912|end_char=922
+14	ersetzt	ersetzen	VERB	VVPP	VerbForm=Part	9	acl	_	SpaceAfter=No|start_char=923|end_char=930
+15	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=930|end_char=931
+
+# text = **Antrag auf Elterngeld** Der Antrag muss schriftlich nach der Geburt gestellt werden.
+# sent_id = 14
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=933|end_char=935
+2	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	dep	_	start_char=935|end_char=941
+3	auf	auf	ADP	APPR	_	4	case	_	start_char=942|end_char=945
+4	Elterngeld	Elterngeld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=946|end_char=956
+5	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=956|end_char=957
+6	*	*	PUNCT	$(	_	14	punct	_	start_char=957|end_char=958
+7	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=959|end_char=962
+8	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	start_char=963|end_char=969
+9	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=970|end_char=974
+10	schriftlich	schriftlich	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=975|end_char=986
+11	nach	nach	ADP	APPR	_	13	case	_	start_char=987|end_char=991
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=992|end_char=995
+13	Geburt	Geburt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	start_char=996|end_char=1002
+14	gestellt	stellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1003|end_char=1011
+15	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	14	aux:pass	_	SpaceAfter=No|start_char=1012|end_char=1018
+16	.	.	PUNCT	$.	_	14	punct	_	start_char=1018|end_char=1019
+
+# text = Es ist ratsam, sich vorher beraten zu lassen.
+# sent_id = 15
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=1020|end_char=1022
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1023|end_char=1026
+3	ratsam	ratsam	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1027|end_char=1033
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=1033|end_char=1034
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1035|end_char=1039
+6	vorher	vorher	ADV	ADV	_	7	advmod	_	start_char=1040|end_char=1046
+7	beraten	beraten	VERB	VVINF	VerbForm=Inf	9	xcomp	_	start_char=1047|end_char=1054
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=1055|end_char=1057
+9	lassen	lassen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|start_char=1058|end_char=1064
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1064|end_char=1065
+
+# text = **Elternzeit** Elternzeit ist eine unbezahlte Auszeit für die Betreuung und Erziehung des Kindes.
+# sent_id = 16
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1067|end_char=1069
+2	Elternzeit	Elternzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=1069|end_char=1079
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1079|end_char=1080
+4	*	*	PUNCT	$(	_	5	punct	_	start_char=1080|end_char=1081
+5	Elternzeit	Elternzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=1082|end_char=1092
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1093|end_char=1096
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=1097|end_char=1101
+8	unbezahlte	unbezahlt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=1102|end_char=1112
+9	Auszeit	Auszeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1113|end_char=1120
+10	für	für	ADP	APPR	_	12	case	_	start_char=1121|end_char=1124
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1125|end_char=1128
+12	Betreuung	Betreuung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=1129|end_char=1138
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=1139|end_char=1142
+14	Erziehung	Erziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	start_char=1143|end_char=1152
+15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	start_char=1153|end_char=1156
+16	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=1157|end_char=1163
+17	.	.	PUNCT	$.	_	9	punct	_	start_char=1163|end_char=1164
+
+# text = Jeder Elternteil kann bis zu drei Jahre Elternzeit nehmen.
+# sent_id = 17
+1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	start_char=1165|end_char=1170
+2	Elternteil	Elternteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1171|end_char=1181
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1182|end_char=1186
+4	bis	bis	ADP	ADV	_	7	case	_	start_char=1187|end_char=1190
+5	zu	zu	ADP	ADV	_	4	fixed	_	start_char=1191|end_char=1193
+6	drei	drei	NUM	CARD	NumType=Card	7	nummod	_	start_char=1194|end_char=1198
+7	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	start_char=1199|end_char=1204
+8	Elternzeit	Elternzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1205|end_char=1215
+9	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1216|end_char=1222
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=1222|end_char=1223
+
+# text = **Voraussetzungen für Elternzeit** Elternzeit kann genommen werden, wenn: * Man Arbeitnehmer ist *
+# sent_id = 18
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1225|end_char=1227
+2	Voraussetzungen	Voraussetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	start_char=1227|end_char=1242
+3	für	für	ADP	APPR	_	4	case	_	start_char=1243|end_char=1246
+4	Elternzeit	Elternzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=1247|end_char=1257
+5	*	*	PUNCT	$(	_	4	appos	_	SpaceAfter=No|start_char=1257|end_char=1258
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=1258|end_char=1259
+7	Elternzeit	Elternzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	start_char=1260|end_char=1270
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1271|end_char=1275
+9	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1276|end_char=1284
+10	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	SpaceAfter=No|start_char=1285|end_char=1291
+11	,	,	PUNCT	$,	_	17	punct	_	start_char=1291|end_char=1292
+12	wenn	wenn	SCONJ	KOUS	_	17	mark	_	SpaceAfter=No|start_char=1293|end_char=1297
+13	:	:	PUNCT	$.	_	16	punct	_	SpacesAfter=\s\s|start_char=1297|end_char=1298
+14	*	*	PUNCT	$(	_	16	mark	_	start_char=1300|end_char=1301
+15	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=1302|end_char=1305
+16	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=1306|end_char=1318
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=1319|end_char=1322
+18	*	*	PUNCT	$(	_	9	punct	_	start_char=1323|end_char=1324
+
+# text = Man das Kind selbst betreut und erzieht *
+# sent_id = 19
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=1325|end_char=1328
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=1329|end_char=1332
+3	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=1333|end_char=1337
+4	selbst	selbst	ADV	ADV	_	5	advmod	_	start_char=1338|end_char=1344
+5	betreut	betreuen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1345|end_char=1352
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1353|end_char=1356
+7	erzieht	erziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=1357|end_char=1364
+8	*	*	PUNCT	$(	_	7	compound:prt	_	start_char=1365|end_char=1366
+
+# text = Man während der Elternzeit nicht mehr als 30 Stunden pro Woche arbeitet **Arbeitnehmer**:
+# sent_id = 20
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=1367|end_char=1370
+2	während	während	ADP	APPR	_	4	case	_	start_char=1371|end_char=1378
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1379|end_char=1382
+4	Elternzeit	Elternzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	start_char=1383|end_char=1393
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=1394|end_char=1399
+6	mehr	mehr	ADV	ADV	_	8	advmod	_	start_char=1400|end_char=1404
+7	als	als	ADP	KOKOM	_	9	case	_	start_char=1405|end_char=1408
+8	30	30	NUM	CARD	NumType=Card	9	nummod	_	start_char=1409|end_char=1411
+9	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	start_char=1412|end_char=1419
+10	pro	pro	ADP	APPR	_	11	case	_	start_char=1420|end_char=1423
+11	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=1424|end_char=1429
+12	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s|start_char=1430|end_char=1438
+13	*	*	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=1440|end_char=1441
+14	*	*	PUNCT	$(	_	15	advmod	_	SpaceAfter=No|start_char=1441|end_char=1442
+15	Arbeitnehmer	Arbeitnehmer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|start_char=1442|end_char=1454
+16	*	*	PUNCT	$(	_	12	dep	_	SpaceAfter=No|start_char=1454|end_char=1455
+17	*	*	PUNCT	$(	_	12	compound:prt	_	SpaceAfter=No|start_char=1455|end_char=1456
+18	:	:	PUNCT	$.	_	17	punct	_	start_char=1456|end_char=1457
+
+# text = Das ist jemand, der für einen Arbeitgeber arbeitet.
+# sent_id = 21
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=1458|end_char=1461
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1462|end_char=1465
+3	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No|start_char=1466|end_char=1472
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=1472|end_char=1473
+5	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=1474|end_char=1477
+6	für	für	ADP	APPR	_	8	case	_	start_char=1478|end_char=1481
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1482|end_char=1487
+8	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=1488|end_char=1499
+9	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No|start_char=1500|end_char=1508
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1508|end_char=1509
+
+# text = **Anmeldung der Elternzeit** Die Anmeldung sollte schriftlich beim Arbeitgeber erfolgen.
+# sent_id = 22
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=1511|end_char=1513
+2	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1513|end_char=1522
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1523|end_char=1526
+4	Elternzeit	Elternzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=1527|end_char=1537
+5	*	*	PUNCT	$(	_	2	dep	_	SpaceAfter=No|start_char=1537|end_char=1538
+6	*	*	PUNCT	$(	_	14	punct	_	start_char=1538|end_char=1539
+7	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1540|end_char=1543
+8	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1544|end_char=1553
+9	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=1554|end_char=1560
+10	schriftlich	schriftlich	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=1561|end_char=1572
+11-12	beim	_	_	_	_	_	_	_	start_char=1573|end_char=1577
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=1578|end_char=1589
+14	erfolgen	erfolgen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1590|end_char=1598
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=1598|end_char=1599
+
+# text = Sie muss spätestens sieben Wochen vor Antritt der Elternzeit erfolgen.
+# sent_id = 23
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=1600|end_char=1603
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1604|end_char=1608
+3	spätestens	spätestens	ADV	ADV	_	4	advmod	_	start_char=1609|end_char=1619
+4	sieben	sieben	NUM	CARD	NumType=Card	5	nummod	_	start_char=1620|end_char=1626
+5	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	start_char=1627|end_char=1633
+6	vor	vor	ADP	APPR	_	7	case	_	start_char=1634|end_char=1637
+7	Antritt	Antritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1638|end_char=1645
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1646|end_char=1649
+9	Elternzeit	Elternzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=1650|end_char=1660
+10	erfolgen	erfolgen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1661|end_char=1669
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=1669|end_char=1670
+
+# text = Ich habe den Text wie folgt vereinfacht: * Entfernt unwichtige Informationen (Textebene) * Verwendet einfache syntaktische Strukturen und keine Nebensätze (Satzebene) * Hinzugefügt Erklärungen für schwierige Wörter (Wortebene)
+# sent_id = 24
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=1672|end_char=1675
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1676|end_char=1680
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1681|end_char=1684
+4	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=1685|end_char=1689
+5	wie	wie	ADP	KOKOM	_	6	case	_	start_char=1690|end_char=1693
+6	folgt	folgen	VERB	ADJD	_	7	xcomp	_	start_char=1694|end_char=1699
+7	vereinfacht	vereinfachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1700|end_char=1711
+8	:	:	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=1711|end_char=1712
+9	*	*	PUNCT	$(	_	12	punct	_	start_char=1714|end_char=1715
+10	Entfernt	entfernt	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=1716|end_char=1724
+11	unwichtige	unwichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1725|end_char=1735
+12	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	parataxis	_	start_char=1736|end_char=1749
+13	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=1750|end_char=1751
+14	Textebene	Textebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No|start_char=1751|end_char=1760
+15	)	)	PUNCT	$(	_	14	punct	_	start_char=1760|end_char=1761
+16	*	*	PUNCT	$(	_	17	punct	_	start_char=1762|end_char=1763
+17	Verwendet	verwenden	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=1764|end_char=1773
+18	einfache	einfach	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=1774|end_char=1782
+19	syntaktische	syntaktisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=1783|end_char=1795
+20	Strukturen	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	obj	_	start_char=1796|end_char=1806
+21	und	und	CCONJ	KON	_	23	cc	_	start_char=1807|end_char=1810
+22	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	23	det	_	start_char=1811|end_char=1816
+23	Nebensätze	Nebensatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	conj	_	start_char=1817|end_char=1827
+24	(	(	PUNCT	$(	_	25	punct	_	SpaceAfter=No|start_char=1828|end_char=1829
+25	Satzebene	Satzebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	appos	_	SpaceAfter=No|start_char=1829|end_char=1838
+26	)	)	PUNCT	$(	_	25	punct	_	start_char=1838|end_char=1839
+27	*	*	PUNCT	$(	_	28	punct	_	start_char=1840|end_char=1841
+28	Hinzugefügt	hinzufügen	VERB	VVIMP	VerbForm=Fin	7	conj	_	start_char=1842|end_char=1853
+29	Erklärungen	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	obj	_	start_char=1854|end_char=1865
+30	für	für	ADP	APPR	_	32	case	_	start_char=1866|end_char=1869
+31	schwierige	schwierig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	start_char=1870|end_char=1880
+32	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	29	nmod	_	start_char=1881|end_char=1887
+33	(	(	PUNCT	$(	_	34	punct	_	SpaceAfter=No|start_char=1888|end_char=1889
+34	Wortebene	Wortebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No|start_char=1889|end_char=1898
+35	)	)	PUNCT	$(	_	34	punct	_	SpaceAfter=No|start_char=1898|end_char=1899
+
