@@ -1,0 +1,59 @@
+# text = Diabetes Typ 2 Dieser Text erklärt Diabetes Typ 2 in sehr einfacher Sprache.
+# sent_id = 0
+1	Diabetes	Diabetes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	start_char=0|end_char=8
+2	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=9|end_char=12
+3	2	2	PROPN	CARD	NumType=Card	2	appos	_	start_char=13|end_char=14
+4	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=15|end_char=21
+5	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	start_char=22|end_char=26
+6	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=27|end_char=34
+7	Diabetes	Diabetes	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=35|end_char=43
+8	Typ	Typ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=44|end_char=47
+9	2	2	PROPN	CARD	NumType=Card	8	appos	_	start_char=48|end_char=49
+10	in	in	ADP	APPR	_	13	case	_	start_char=50|end_char=52
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	start_char=53|end_char=57
+12	einfacher	einfach	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=58|end_char=67
+13	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|start_char=68|end_char=75
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=75|end_char=76
+
+# text = Hinweis: Dieser Text gibt nur allgemeine Informationen.
+# sent_id = 1
+1	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=77|end_char=84
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=84|end_char=85
+3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=86|end_char=92
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=93|end_char=97
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=98|end_char=102
+6	nur	nur	ADV	ADV	_	5	advmod	_	start_char=103|end_char=106
+7	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=107|end_char=117
+8	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|start_char=118|end_char=131
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=131|end_char=132
+
+# text = Er ersetzt nicht den Besuch beim Arzt.
+# sent_id = 2
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=133|end_char=135
+2	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=136|end_char=143
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=144|end_char=149
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=150|end_char=153
+5	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=154|end_char=160
+6-7	beim	_	_	_	_	_	_	_	start_char=161|end_char=165
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=166|end_char=170
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=170|end_char=171
+
+# text = Wenn Sie sich krank fühlen, gehen Sie bitte zum Arzt.
+# sent_id = 3
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=172|end_char=176
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=177|end_char=180
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	start_char=181|end_char=185
+4	krank	krank	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=186|end_char=191
+5	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=192|end_char=198
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=198|end_char=199
+7	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=200|end_char=205
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=206|end_char=209
+9	bitte	bitten	ADV	ADV	_	7	advmod	_	start_char=210|end_char=215
+10-11	zum	_	_	_	_	_	_	_	start_char=216|end_char=219
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|start_char=220|end_char=224
+13	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=224|end_char=225
+

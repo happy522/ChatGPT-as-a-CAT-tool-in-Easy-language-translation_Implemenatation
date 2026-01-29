@@ -1,0 +1,1633 @@
+# text = Hier ist der Text in **Leichter Sprache**.
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	10	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=13|end_char=17
+5	in	in	ADP	APPR	_	8	case	_	start_char=18|end_char=20
+6	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=21|end_char=23
+7	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=23|end_char=31
+8	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=32|end_char=39
+9	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=39|end_char=40
+10	*	*	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=40|end_char=41
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=41|end_char=42
+
+# text = Ich habe Fachwörter erklärt und die Sätze einfacher gemacht.
+# sent_id = 1
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=43|end_char=46
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=47|end_char=51
+3	Fachwörter	Fachwort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=52|end_char=62
+4	erklärt	erklären	VERB	VVPP	VerbForm=Part	0	root	_	start_char=63|end_char=70
+5	und	und	CCONJ	KON	_	9	cc	_	start_char=71|end_char=74
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=75|end_char=78
+7	Sätze	Satz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=79|end_char=84
+8	einfacher	einfach	ADJ	ADJD	Degree=Cmp	9	xcomp	_	start_char=85|end_char=94
+9	gemacht	machen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No|start_char=95|end_char=102
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=102|end_char=103
+
+# text = --- ## Hämorrhoiden Dieser Text informiert in Leichter Sprache über Hämorrhoiden.
+# sent_id = 2
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=104|end_char=107
+2	##	##	X	XY	_	6	dep	_	start_char=108|end_char=110
+3	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=111|end_char=123
+4	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=124|end_char=130
+5	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=131|end_char=135
+6	informiert	informieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=136|end_char=146
+7	in	in	ADP	APPR	_	9	case	_	start_char=147|end_char=149
+8	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=150|end_char=158
+9	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=159|end_char=166
+10	über	über	ADP	APPR	_	11	case	_	start_char=167|end_char=171
+11	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|start_char=172|end_char=184
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=184|end_char=185
+
+# text = Inhalt: - Was sind Hämorrhoiden? - Woran erkennen Sie vergrößerte Hämorrhoiden?
+# sent_id = 3
+1	Inhalt	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|start_char=186|end_char=192
+2	:	:	PUNCT	$.	_	10	punct	_	start_char=192|end_char=193
+3	-	-	PUNCT	$(	_	6	punct	_	start_char=194|end_char=195
+4	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=196|end_char=199
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=200|end_char=204
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	appos	_	SpaceAfter=No|start_char=205|end_char=217
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=217|end_char=218
+8	-	-	PUNCT	$(	_	6	punct	_	start_char=219|end_char=220
+9	Woran	woran	ADV	ADV	PronType=Int	10	advmod	_	start_char=221|end_char=226
+10	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=227|end_char=235
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=236|end_char=239
+12	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=240|end_char=251
+13	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|start_char=252|end_char=264
+14	?	?	PUNCT	$.	_	10	punct	_	start_char=264|end_char=265
+
+# text = - Wie entstehen vergrößerte Hämorrhoiden?
+# sent_id = 4
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=266|end_char=267
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=268|end_char=271
+3	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=272|end_char=281
+4	vergrößerte	vergrößert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=282|end_char=293
+5	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=294|end_char=306
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=306|end_char=307
+
+# text = - Was sind Ursachen für vergrößerte Hämorrhoiden?
+# sent_id = 5
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=308|end_char=309
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=310|end_char=313
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=314|end_char=318
+4	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=319|end_char=327
+5	für	für	ADP	APPR	_	7	case	_	start_char=328|end_char=331
+6	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=332|end_char=343
+7	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=344|end_char=356
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=356|end_char=357
+
+# text = - Was können Sie gegen vergrößerte Hämorrhoiden tun?
+# sent_id = 6
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=358|end_char=359
+2	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=360|end_char=363
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=364|end_char=370
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=371|end_char=374
+5	gegen	gegen	ADP	APPR	_	7	case	_	start_char=375|end_char=380
+6	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=381|end_char=392
+7	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	start_char=393|end_char=405
+8	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=406|end_char=409
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=409|end_char=410
+
+# text = - Wie können Sie Hämorrhoiden vermeiden?
+# sent_id = 7
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=411|end_char=412
+2	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=413|end_char=416
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=417|end_char=423
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=424|end_char=427
+5	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=428|end_char=440
+6	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=441|end_char=450
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=450|end_char=451
+
+# text = - Wo bekommen Sie mehr Informationen?
+# sent_id = 8
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=452|end_char=453
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=454|end_char=456
+3	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=457|end_char=465
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=466|end_char=469
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=470|end_char=474
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=475|end_char=488
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=488|end_char=489
+
+# text = --- ## Was sind Hämorrhoiden?
+# sent_id = 9
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=490|end_char=493
+2	##	##	X	XY	_	0	root	_	start_char=494|end_char=496
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=497|end_char=500
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=501|end_char=505
+5	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	parataxis	_	SpaceAfter=No|start_char=506|end_char=518
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=518|end_char=519
+
+# text = Alle Menschen haben Hämorrhoiden.
+# sent_id = 10
+1	Alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	2	det	_	start_char=520|end_char=524
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=525|end_char=533
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=534|end_char=539
+4	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=540|end_char=552
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=552|end_char=553
+
+# text = Hämorrhoiden gehören zum Körper dazu.
+# sent_id = 11
+1	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=554|end_char=566
+2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=567|end_char=574
+3-4	zum	_	_	_	_	_	_	_	start_char=575|end_char=578
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=579|end_char=585
+6	dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No|start_char=586|end_char=590
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=590|end_char=591
+
+# text = Hämorrhoiden sind **normal**.
+# sent_id = 12
+1	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=592|end_char=604
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=605|end_char=609
+3	**normal	**normal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=610|end_char=618
+4	*	*	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=618|end_char=619
+5	*	*	PUNCT	$(	_	3	appos	_	SpaceAfter=No|start_char=619|end_char=620
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=620|end_char=621
+
+# text = Hämorrhoiden sind **keine Krankheit**.
+# sent_id = 13
+1	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=622|end_char=634
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=635|end_char=639
+3	*	*	PUNCT	$(	_	6	advmod	_	SpaceAfter=No|start_char=640|end_char=641
+4	*	*	PUNCT	$(	_	6	advmod	_	SpaceAfter=No|start_char=641|end_char=642
+5	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	6	det	_	start_char=642|end_char=647
+6	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=648|end_char=657
+7	*	*	PUNCT	$(	_	6	dep	_	SpaceAfter=No|start_char=657|end_char=658
+8	*	*	PUNCT	$(	_	6	dep	_	SpaceAfter=No|start_char=658|end_char=659
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=659|end_char=660
+
+# text = Hämorrhoiden sind ein weiches Gewebe am Ende vom Darm.
+# sent_id = 14
+1	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=661|end_char=673
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=674|end_char=678
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=679|end_char=682
+4	weiches	weich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=683|end_char=690
+5	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=691|end_char=697
+6-7	am	_	_	_	_	_	_	_	start_char=698|end_char=700
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=701|end_char=705
+9-10	vom	_	_	_	_	_	_	_	start_char=706|end_char=709
+9	von	von	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Darm	Darm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=710|end_char=714
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=714|end_char=715
+
+# text = Dieses Gewebe liegt direkt am Ausgang vom Darm.
+# sent_id = 15
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=716|end_char=722
+2	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=723|end_char=729
+3	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=730|end_char=735
+4	direkt	direkt	ADJ	ADJD	Degree=Pos	7	amod	_	start_char=736|end_char=742
+5-6	am	_	_	_	_	_	_	_	start_char=743|end_char=745
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ausgang	Ausgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=746|end_char=753
+8-9	vom	_	_	_	_	_	_	_	start_char=754|end_char=757
+8	von	von	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Darm	Darm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=758|end_char=762
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=762|end_char=763
+
+# text = Der Ausgang vom Darm heißt After.
+# sent_id = 16
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=764|end_char=767
+2	Ausgang	Ausgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=768|end_char=775
+3-4	vom	_	_	_	_	_	_	_	start_char=776|end_char=779
+3	von	von	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Darm	Darm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=780|end_char=784
+6	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=785|end_char=790
+7	After	After	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No|start_char=791|end_char=796
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=796|end_char=797
+
+# text = Hämorrhoiden haben eine wichtige Aufgabe: Sie helfen, den After zu verschließen.
+# sent_id = 17
+1	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=798|end_char=810
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=811|end_char=816
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=817|end_char=821
+4	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=822|end_char=830
+5	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=831|end_char=838
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=838|end_char=839
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=840|end_char=843
+8	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No|start_char=844|end_char=850
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=850|end_char=851
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=852|end_char=855
+11	After	After	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=856|end_char=861
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=862|end_char=864
+13	verschließen	verschließen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|start_char=865|end_char=877
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=877|end_char=878
+
+# text = So kann kein Stuhl einfach herauslaufen.
+# sent_id = 18
+1	So	so	ADV	ADV	_	6	advmod	_	start_char=879|end_char=881
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=882|end_char=886
+3	kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	4	det	_	start_char=887|end_char=891
+4	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=892|end_char=897
+5	einfach	einfach	ADV	ADV	_	6	advmod	_	start_char=898|end_char=905
+6	herauslaufen	herauslaufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=906|end_char=918
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=918|end_char=919
+
+# text = Darum sind Hämorrhoiden meistens etwas dick und geschwollen.
+# sent_id = 19
+1	Darum	darum	ADV	PAV	PronType=Dem	6	advmod	_	start_char=920|end_char=925
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=926|end_char=930
+3	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=931|end_char=943
+4	meistens	meistens	ADV	ADV	_	6	advmod	_	start_char=944|end_char=952
+5	etwas	etwas	ADV	ADV	PronType=Ind	6	advmod	_	start_char=953|end_char=958
+6	dick	dick	ADJ	ADJD	Degree=Pos	0	root	_	start_char=959|end_char=963
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=964|end_char=967
+8	geschwollen	schwellen	ADJ	ADJD	Degree=Pos|VerbForm=Part	6	conj	_	SpaceAfter=No|start_char=968|end_char=979
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=979|end_char=980
+
+# text = Beim Stuhlgang (wenn Sie auf die Toilette gehen) wird die Schwellung kleiner.
+# sent_id = 20
+1-2	Beim	_	_	_	_	_	_	_	start_char=981|end_char=985
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Stuhlgang	Stuhlgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	start_char=986|end_char=995
+4	(	(	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=996|end_char=997
+5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=997|end_char=1001
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=1002|end_char=1005
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=1006|end_char=1009
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1010|end_char=1013
+9	Toilette	Toilette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=1014|end_char=1022
+10	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=1023|end_char=1028
+11	)	)	PUNCT	$(	_	10	punct	_	start_char=1028|end_char=1029
+12	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1030|end_char=1034
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=1035|end_char=1038
+14	Schwellung	Schwellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1039|end_char=1049
+15	kleiner	klein	ADJ	ADJD	Degree=Cmp	12	xcomp	_	SpaceAfter=No|start_char=1050|end_char=1057
+16	.	.	PUNCT	$.	_	12	punct	_	start_char=1057|end_char=1058
+
+# text = Dann kann der Stuhl gut durch den After nach draußen.
+# sent_id = 21
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1059|end_char=1063
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1064|end_char=1068
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1069|end_char=1072
+4	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1073|end_char=1078
+5	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=1079|end_char=1082
+6	durch	durch	ADP	APPR	_	8	case	_	start_char=1083|end_char=1088
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1089|end_char=1092
+8	After	After	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=1093|end_char=1098
+9	nach	nach	ADP	APPR	_	10	case	_	start_char=1099|end_char=1103
+10	draußen	draußen	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1104|end_char=1111
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=1111|end_char=1112
+
+# text = Nach dem Stuhlgang schwellen die Hämorrhoiden wieder an.
+# sent_id = 22
+1	Nach	nach	ADP	APPR	_	3	case	_	start_char=1113|end_char=1117
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1118|end_char=1121
+3	Stuhlgang	Stuhlgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=1122|end_char=1131
+4	schwellen	schwellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1132|end_char=1141
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1142|end_char=1145
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1146|end_char=1158
+7	wieder	wieder	ADV	ADV	_	4	advmod	_	start_char=1159|end_char=1165
+8	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=1166|end_char=1168
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1168|end_char=1169
+
+# text = Dann ist der After wieder dicht.
+# sent_id = 23
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=1170|end_char=1174
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1175|end_char=1178
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1179|end_char=1182
+4	After	After	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1183|end_char=1188
+5	wieder	wieder	ADV	ADV	_	6	advmod	_	start_char=1189|end_char=1195
+6	dicht	dicht	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1196|end_char=1201
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1201|end_char=1202
+
+# text = --- ## Wenn Hämorrhoiden zu groß werden Manchmal werden Hämorrhoiden größer als normal.
+# sent_id = 24
+1	---	---	PUNCT	$(	_	11	punct	_	start_char=1203|end_char=1206
+2	##	##	PUNCT	$(	_	6	punct	_	start_char=1207|end_char=1209
+3	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1210|end_char=1214
+4	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1215|end_char=1227
+5	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=1228|end_char=1230
+6	groß	groß	ADJ	ADJD	Degree=Pos	11	advcl	_	start_char=1231|end_char=1235
+7	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	start_char=1236|end_char=1242
+8	Manchmal	manchmal	ADV	ADV	_	6	advmod	_	start_char=1243|end_char=1251
+9	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	start_char=1252|end_char=1258
+10	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=1259|end_char=1271
+11	größer	groß	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=1272|end_char=1278
+12	als	als	ADP	KOKOM	_	13	case	_	start_char=1279|end_char=1282
+13	normal	normal	ADJ	ADJD	Degree=Pos	11	amod	_	SpaceAfter=No|start_char=1283|end_char=1289
+14	.	.	PUNCT	$.	_	11	punct	_	start_char=1289|end_char=1290
+
+# text = Das heißt: Sie sind **vergrößert**.
+# sent_id = 25
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1291|end_char=1294
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1295|end_char=1300
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=1300|end_char=1301
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1302|end_char=1305
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1306|end_char=1310
+6	**vergrößert	**vergrößert	ADJ	ADJD	Degree=Pos	2	parataxis	_	SpaceAfter=No|start_char=1311|end_char=1323
+7	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1323|end_char=1324
+8	*	*	PUNCT	$(	_	6	dep	_	SpaceAfter=No|start_char=1324|end_char=1325
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1325|end_char=1326
+
+# text = Vergrößerte Hämorrhoiden können unangenehm sein.
+# sent_id = 26
+1	Vergrößerte	vergrößert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=1327|end_char=1338
+2	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1339|end_char=1351
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1352|end_char=1358
+4	unangenehm	unangenehm	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1359|end_char=1369
+5	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No|start_char=1370|end_char=1374
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=1374|end_char=1375
+
+# text = Sehr viele Menschen haben Probleme mit vergrößerten Hämorrhoiden.
+# sent_id = 27
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	start_char=1376|end_char=1380
+2	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=1381|end_char=1386
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1387|end_char=1395
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1396|end_char=1401
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=1402|end_char=1410
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=1411|end_char=1414
+7	vergrößerten	vergrößern	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1415|end_char=1427
+8	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|start_char=1428|end_char=1440
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1440|end_char=1441
+
+# text = Dieses Problem ist also häufig.
+# sent_id = 28
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=1442|end_char=1448
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=1449|end_char=1456
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1457|end_char=1460
+4	also	also	ADV	ADV	_	5	advmod	_	start_char=1461|end_char=1465
+5	häufig	häufig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1466|end_char=1472
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1472|end_char=1473
+
+# text = --- ## Woran erkennen Sie vergrößerte Hämorrhoiden?
+# sent_id = 29
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=1474|end_char=1477
+2	##	##	X	XY	_	4	advmod	_	start_char=1478|end_char=1480
+3	Woran	woran	ADV	PWAV	PronType=Int	4	advmod	_	start_char=1481|end_char=1486
+4	erkennen	erkennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1487|end_char=1495
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=1496|end_char=1499
+6	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1500|end_char=1511
+7	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|start_char=1512|end_char=1524
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=1524|end_char=1525
+
+# text = Vergrößerte Hämorrhoiden können verschiedene Beschwerden am After machen: - Juckreiz am After - Nässe am After - Schleim am After oder am Toilettenpapier - Blut am Toilettenpapier oder im Stuhl - Druckgefühl am After - Schmerzen am After Wichtig: Diese Beschwerden können auch andere Gründe haben.
+# sent_id = 30
+1	Vergrößerte	vergrößert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=1526|end_char=1537
+2	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=1538|end_char=1550
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1551|end_char=1557
+4	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1558|end_char=1570
+5	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	start_char=1571|end_char=1582
+6-7	am	_	_	_	_	_	_	_	start_char=1583|end_char=1585
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=1586|end_char=1591
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1592|end_char=1598
+10	:	:	PUNCT	$.	_	12	punct	_	start_char=1598|end_char=1599
+11	-	-	PUNCT	$(	_	12	punct	_	start_char=1600|end_char=1601
+12	Juckreiz	Juckreiz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	start_char=1602|end_char=1610
+13-14	am	_	_	_	_	_	_	_	start_char=1611|end_char=1613
+13	an	an	ADP	APPR	_	17	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	compound	_	start_char=1614|end_char=1619
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=1620|end_char=1621
+17	Nässe	Nässe	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	start_char=1622|end_char=1627
+18-19	am	_	_	_	_	_	_	_	start_char=1628|end_char=1630
+18	an	an	ADP	APPR	_	22	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+20	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	compound	_	start_char=1631|end_char=1636
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=1637|end_char=1638
+22	Schleim	Schleim	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=1639|end_char=1646
+23-24	am	_	_	_	_	_	_	_	start_char=1647|end_char=1649
+23	an	an	ADP	APPR	_	25	case	_	_
+24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	start_char=1650|end_char=1655
+26	oder	oder	CCONJ	KON	_	31	cc	_	start_char=1656|end_char=1660
+27-28	am	_	_	_	_	_	_	_	start_char=1661|end_char=1663
+27	an	an	ADP	APPR	_	31	case	_	_
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	_
+29	Toilettenpapier	Toilettenpapier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	compound	_	start_char=1664|end_char=1679
+30	-	-	PUNCT	$(	_	29	punct	_	start_char=1680|end_char=1681
+31	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	conj	_	start_char=1682|end_char=1686
+32-33	am	_	_	_	_	_	_	_	start_char=1687|end_char=1689
+32	an	an	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
+34	Toilettenpapier	Toilettenpapier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	nmod	_	start_char=1690|end_char=1705
+35	oder	oder	CCONJ	KON	_	40	cc	_	start_char=1706|end_char=1710
+36-37	im	_	_	_	_	_	_	_	start_char=1711|end_char=1713
+36	in	in	ADP	APPR	_	40	case	_	_
+37	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+38	Stuhl	Stuhl	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	40	compound	_	start_char=1714|end_char=1719
+39	-	-	PUNCT	$(	_	38	punct	_	start_char=1720|end_char=1721
+40	Druckgefühl	Druckgefühl	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	conj	_	start_char=1722|end_char=1733
+41-42	am	_	_	_	_	_	_	_	start_char=1734|end_char=1736
+41	an	an	ADP	APPR	_	45	case	_	_
+42	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+43	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	45	compound	_	start_char=1737|end_char=1742
+44	-	-	PUNCT	$(	_	43	punct	_	start_char=1743|end_char=1744
+45	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	40	nmod	_	start_char=1745|end_char=1754
+46-47	am	_	_	_	_	_	_	_	start_char=1755|end_char=1757
+46	an	an	ADP	APPR	_	48	case	_	_
+47	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	45	nmod	_	start_char=1758|end_char=1763
+49	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	12	acl	_	SpaceAfter=No|start_char=1764|end_char=1771
+50	:	:	PUNCT	$.	_	57	punct	_	start_char=1771|end_char=1772
+51	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	52	det	_	start_char=1773|end_char=1778
+52	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	57	nsubj	_	start_char=1779|end_char=1790
+53	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	start_char=1791|end_char=1797
+54	auch	auch	ADV	ADV	_	57	advmod	_	start_char=1798|end_char=1802
+55	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	56	det	_	start_char=1803|end_char=1809
+56	Gründe	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	57	obj	_	start_char=1810|end_char=1816
+57	haben	haben	VERB	VAINF	VerbForm=Inf	49	parataxis	_	SpaceAfter=No|start_char=1817|end_char=1822
+58	.	.	PUNCT	$.	_	9	punct	_	start_char=1822|end_char=1823
+
+# text = Andere Krankheiten können dieselben Beschwerden machen.
+# sent_id = 31
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=1824|end_char=1830
+2	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=1831|end_char=1842
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1843|end_char=1849
+4	dieselben	derselbe	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=1850|end_char=1859
+5	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=1860|end_char=1871
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1872|end_char=1878
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1878|end_char=1879
+
+# text = Darum gilt: Wenn Sie solche Beschwerden haben, gehen Sie **immer** zu einem Arzt oder zu einer Ärztin.
+# sent_id = 32
+1	Darum	darum	ADV	PAV	PronType=Dem	2	advmod	_	start_char=1880|end_char=1885
+2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1886|end_char=1890
+3	:	:	PUNCT	$.	_	10	punct	_	start_char=1890|end_char=1891
+4	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1892|end_char=1896
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=1897|end_char=1900
+6	solche	solcher	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=1901|end_char=1907
+7	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1908|end_char=1919
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|start_char=1920|end_char=1925
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=1925|end_char=1926
+10	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1927|end_char=1932
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=1933|end_char=1936
+12	**immer	**immer	NOUN	NN	Case=Nom|Number=Sing	10	obj	_	SpaceAfter=No|start_char=1937|end_char=1944
+13	*	*	PUNCT	$(	_	10	advmod	_	SpaceAfter=No|start_char=1944|end_char=1945
+14	*	*	PUNCT	$(	_	10	advmod	_	start_char=1945|end_char=1946
+15	zu	zu	ADP	APPR	_	17	case	_	start_char=1947|end_char=1949
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=1950|end_char=1955
+17	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1956|end_char=1960
+18	oder	oder	CCONJ	KON	_	21	cc	_	start_char=1961|end_char=1965
+19	zu	zu	ADP	APPR	_	21	case	_	start_char=1966|end_char=1968
+20	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	21	det	_	start_char=1969|end_char=1974
+21	Ärztin	Ärztin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No|start_char=1975|end_char=1981
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=1981|end_char=1982
+
+# text = Die Beschwerden hängen oft von der Größe der Hämorrhoiden ab: Sind die Hämorrhoiden sehr groß?
+# sent_id = 33
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1983|end_char=1986
+2	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1987|end_char=1998
+3	hängen	hängen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1999|end_char=2005
+4	oft	oft	ADV	ADV	_	3	advmod	_	start_char=2006|end_char=2009
+5	von	von	ADP	APPR	_	7	case	_	start_char=2010|end_char=2013
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2014|end_char=2017
+7	Größe	Größe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=2018|end_char=2023
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2024|end_char=2027
+9	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=2028|end_char=2040
+10	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=2041|end_char=2043
+11	:	:	PUNCT	$.	_	16	punct	_	start_char=2043|end_char=2044
+12	Sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=2045|end_char=2049
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=2050|end_char=2053
+14	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=2054|end_char=2066
+15	sehr	sehr	ADV	ADV	_	16	advmod	_	start_char=2067|end_char=2071
+16	groß	groß	ADJ	ADJD	Degree=Pos	3	parataxis	_	SpaceAfter=No|start_char=2072|end_char=2076
+17	?	?	PUNCT	$.	_	16	punct	_	start_char=2076|end_char=2077
+
+# text = Dann sind die Beschwerden oft stärker.
+# sent_id = 34
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=2078|end_char=2082
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2083|end_char=2087
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2088|end_char=2091
+4	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=2092|end_char=2103
+5	oft	oft	ADV	ADV	_	6	advmod	_	start_char=2104|end_char=2107
+6	stärker	stark	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=2108|end_char=2115
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2115|end_char=2116
+
+# text = Die Beschwerden können mit der Zeit auch schlimmer werden.
+# sent_id = 35
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=2117|end_char=2120
+2	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=2121|end_char=2132
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2133|end_char=2139
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=2140|end_char=2143
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2144|end_char=2147
+6	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=2148|end_char=2152
+7	auch	auch	ADV	ADV	_	9	advmod	_	start_char=2153|end_char=2157
+8	schlimmer	schlimm	ADJ	ADJD	Degree=Cmp	9	xcomp	_	start_char=2158|end_char=2167
+9	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2168|end_char=2174
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2174|end_char=2175
+
+# text = Es gibt 4 Stufen von vergrößerten Hämorrhoiden: ### Stufe 1 - Die Hämorrhoiden sind vergrößert.
+# sent_id = 36
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2176|end_char=2178
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2179|end_char=2183
+3	4	4	NUM	CARD	NumType=Card	4	nummod	_	start_char=2184|end_char=2185
+4	Stufen	Stufe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2186|end_char=2192
+5	von	von	ADP	APPR	_	7	case	_	start_char=2193|end_char=2196
+6	vergrößerten	vergrößern	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=2197|end_char=2209
+7	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=2210|end_char=2222
+8	:	:	PUNCT	$.	_	10	punct	_	start_char=2222|end_char=2223
+9	###	###	PUNCT	$(	_	10	punct	_	start_char=2224|end_char=2227
+10	Stufe	Stufe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	start_char=2228|end_char=2233
+11	1	1	NUM	CARD	NumType=Card	10	appos	_	start_char=2234|end_char=2235
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=2236|end_char=2237
+13	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=2238|end_char=2241
+14	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=2242|end_char=2254
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=2255|end_char=2259
+16	vergrößert	vergrößern	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	parataxis	_	SpaceAfter=No|start_char=2260|end_char=2270
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=2270|end_char=2271
+
+# text = - Sie bleiben aber **innen im Körper**. - Viele Menschen haben dann **keine Beschwerden** oder nur sehr leichte Beschwerden.
+# sent_id = 37
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2272|end_char=2273
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2274|end_char=2277
+3	bleiben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2278|end_char=2285
+4	aber	aber	ADV	ADV	_	3	advmod	_	start_char=2286|end_char=2290
+5	*	*	PUNCT	$(	_	6	advmod	_	SpaceAfter=No|start_char=2291|end_char=2292
+6	*innen	*inn	NOUN	NN	Number=Plur	3	obj	_	start_char=2292|end_char=2298
+7-8	im	_	_	_	_	_	_	_	start_char=2299|end_char=2301
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|start_char=2302|end_char=2308
+10	**.	**.	PUNCT	$(	_	14	punct	_	start_char=2308|end_char=2311
+11	-	-	PUNCT	$(	_	14	punct	_	start_char=2312|end_char=2313
+12	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	start_char=2314|end_char=2319
+13	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=2320|end_char=2328
+14	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=2329|end_char=2334
+15	dann	dann	ADV	ADV	_	14	advmod	_	start_char=2335|end_char=2339
+16	*	*	PUNCT	$(	_	14	advmod	_	SpaceAfter=No|start_char=2340|end_char=2341
+17	*keine	*kein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=2341|end_char=2347
+18	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No|start_char=2348|end_char=2359
+19	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=2359|end_char=2360
+20	*	*	PUNCT	$(	_	18	appos	_	start_char=2360|end_char=2361
+21	oder	oder	CCONJ	KON	_	25	cc	_	start_char=2362|end_char=2366
+22	nur	nur	ADV	ADV	_	25	advmod	_	start_char=2367|end_char=2370
+23	sehr	sehr	ADV	ADV	_	24	advmod	_	start_char=2371|end_char=2375
+24	leichte	leicht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=2376|end_char=2383
+25	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No|start_char=2384|end_char=2395
+26	.	.	PUNCT	$.	_	3	punct	_	start_char=2395|end_char=2396
+
+# text = ### Stufe 2 - Die Hämorrhoiden sind vergrößert.
+# sent_id = 38
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=2397|end_char=2400
+2	Stufe	Stufe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2401|end_char=2406
+3	2	2	NUM	CARD	NumType=Card	2	nummod	_	start_char=2407|end_char=2408
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=2409|end_char=2410
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2411|end_char=2414
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=2415|end_char=2427
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2428|end_char=2432
+8	vergrößert	vergrößern	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2433|end_char=2443
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2443|end_char=2444
+
+# text = - Sie kommen manchmal beim Stuhlgang **durch den After nach draußen**. - Danach gehen die Hämorrhoiden **von selbst wieder hinein** in den Darm.
+# sent_id = 39
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2445|end_char=2446
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2447|end_char=2450
+3	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2451|end_char=2457
+4	manchmal	manchmal	ADV	ADV	_	3	advmod	_	start_char=2458|end_char=2466
+5-6	beim	_	_	_	_	_	_	_	start_char=2467|end_char=2471
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Stuhlgang	Stuhlgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=2472|end_char=2481
+8	**durch	**durch	ADV	ADV	_	3	advmod	_	start_char=2482|end_char=2489
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=2490|end_char=2493
+10	After	After	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=2494|end_char=2499
+11	nach	nach	ADP	APPR	_	12	case	_	start_char=2500|end_char=2504
+12	draußen	draußen	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=2505|end_char=2512
+13	**.	**.	PUNCT	$(	_	16	punct	_	start_char=2512|end_char=2515
+14	-	-	PUNCT	$(	_	16	punct	_	start_char=2516|end_char=2517
+15	Danach	danach	ADV	PAV	_	16	advmod	_	start_char=2518|end_char=2524
+16	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=2525|end_char=2530
+17	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=2531|end_char=2534
+18	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=2535|end_char=2547
+19	*	*	PUNCT	$(	_	16	advmod	_	SpaceAfter=No|start_char=2548|end_char=2549
+20	*von	*von	NOUN	NN	_	16	advmod	_	start_char=2549|end_char=2553
+21	selbst	selbst	ADV	ADV	_	20	advmod	_	start_char=2554|end_char=2560
+22	wieder	wieder	ADV	ADV	_	16	advmod	_	start_char=2561|end_char=2567
+23	hinein	hinein	ADV	ADV	_	16	advmod	_	SpaceAfter=No|start_char=2568|end_char=2574
+24	*	*	PUNCT	$(	_	16	advmod	_	SpaceAfter=No|start_char=2574|end_char=2575
+25	*	*	PUNCT	$(	_	16	advmod	_	start_char=2575|end_char=2576
+26	in	in	ADP	APPR	_	28	case	_	start_char=2577|end_char=2579
+27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=2580|end_char=2583
+28	Darm	Darm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|start_char=2584|end_char=2588
+29	.	.	PUNCT	$.	_	3	punct	_	start_char=2588|end_char=2589
+
+# text = ### Stufe 3 - Die Hämorrhoiden kommen durch den After nach draußen.
+# sent_id = 40
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=2590|end_char=2593
+2	Stufe	Stufe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2594|end_char=2599
+3	3	3	NUM	CARD	NumType=Card	2	appos	_	start_char=2600|end_char=2601
+4	-	-	PUNCT	$(	_	2	punct	_	start_char=2602|end_char=2603
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2604|end_char=2607
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=2608|end_char=2620
+7	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2621|end_char=2627
+8	durch	durch	ADP	APPR	_	10	case	_	start_char=2628|end_char=2633
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=2634|end_char=2637
+10	After	After	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=2638|end_char=2643
+11	nach	nach	ADP	APPR	_	12	case	_	start_char=2644|end_char=2648
+12	draußen	draußen	ADV	ADV	_	7	advmod	_	SpaceAfter=No|start_char=2649|end_char=2656
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=2656|end_char=2657
+
+# text = - Sie gehen aber **nicht von allein** wieder in den Darm zurück.
+# sent_id = 41
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2658|end_char=2659
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2660|end_char=2663
+3	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2664|end_char=2669
+4	aber	aber	ADV	ADV	_	3	advmod	_	start_char=2670|end_char=2674
+5	*	*	PUNCT	$(	_	3	advmod	_	SpaceAfter=No|start_char=2675|end_char=2676
+6	*nicht	*nicht	ADV	ADV	_	3	advmod	_	start_char=2676|end_char=2682
+7	von	von	ADP	APPR	_	8	case	_	start_char=2683|end_char=2686
+8	allein	allein	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=2687|end_char=2693
+9	*	*	PUNCT	$(	_	3	advmod	_	SpaceAfter=No|start_char=2693|end_char=2694
+10	*	*	X	XY	_	3	dep	_	start_char=2694|end_char=2695
+11	wieder	wieder	ADV	ADV	_	3	advmod	_	start_char=2696|end_char=2702
+12	in	in	ADP	APPR	_	14	case	_	start_char=2703|end_char=2705
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=2706|end_char=2709
+14	Darm	Darm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=2710|end_char=2714
+15	zurück	zurück	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=2715|end_char=2721
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=2721|end_char=2722
+
+# text = - Oft kann man die Hämorrhoiden mit den Fingern vorsichtig wieder hineinschieben.
+# sent_id = 42
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2723|end_char=2724
+2	Oft	oft	ADV	ADV	_	12	advmod	_	start_char=2725|end_char=2728
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2729|end_char=2733
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=2734|end_char=2737
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2738|end_char=2741
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=2742|end_char=2754
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=2755|end_char=2758
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2759|end_char=2762
+9	Fingern	Finger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	start_char=2763|end_char=2770
+10	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=2771|end_char=2781
+11	wieder	wieder	ADV	ADV	_	12	advmod	_	start_char=2782|end_char=2788
+12	hineinschieben	hineinschieben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2789|end_char=2803
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=2803|end_char=2804
+
+# text = ### Stufe 4 - Die Hämorrhoiden bleiben **immer außerhalb** vom After.
+# sent_id = 43
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=2805|end_char=2808
+2	Stufe	Stufe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2809|end_char=2814
+3	4	4	NUM	CARD	NumType=Card	2	appos	_	start_char=2815|end_char=2816
+4	-	-	PUNCT	$(	_	2	punct	_	start_char=2817|end_char=2818
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2819|end_char=2822
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=2823|end_char=2835
+7	bleiben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2836|end_char=2843
+8	*	*	PUNCT	$(	_	7	advmod	_	SpaceAfter=No|start_char=2844|end_char=2845
+9	*immer	*imm	NOUN	NN	Case=Nom|Number=Sing	7	xcomp	_	start_char=2845|end_char=2851
+10	außerhalb	außerhalb	ADP	APPR	_	11	case	_	SpaceAfter=No|start_char=2852|end_char=2861
+11	*	*	PUNCT	$(	_	7	obl	_	SpaceAfter=No|start_char=2861|end_char=2862
+12	*	*	PUNCT	$(	_	7	xcomp	_	start_char=2862|end_char=2863
+13-14	vom	_	_	_	_	_	_	_	start_char=2864|end_char=2867
+13	von	von	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=2868|end_char=2873
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=2873|end_char=2874
+
+# text = - Sie gehen nicht von selbst hinein.
+# sent_id = 44
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2875|end_char=2876
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2877|end_char=2880
+3	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2881|end_char=2886
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=2887|end_char=2892
+5	von	von	ADP	APPR	_	6	case	_	start_char=2893|end_char=2896
+6	selbst	selbst	ADV	ADV	_	3	advmod	_	start_char=2897|end_char=2903
+7	hinein	hinein	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=2904|end_char=2910
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2910|end_char=2911
+
+# text = - Man kann sie auch **nicht** mit den Fingern hineinschieben.
+# sent_id = 45
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2912|end_char=2913
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=2914|end_char=2917
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2918|end_char=2922
+4	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=2923|end_char=2926
+5	auch	auch	ADV	ADV	_	12	advmod	_	start_char=2927|end_char=2931
+6	**nicht	**nicht	PROPN	XY	_	12	obj	_	SpaceAfter=No|start_char=2932|end_char=2939
+7	*	*	PUNCT	$(	_	6	case	_	SpaceAfter=No|start_char=2939|end_char=2940
+8	*	*	PUNCT	$(	_	6	advmod	_	start_char=2940|end_char=2941
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=2942|end_char=2945
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=2946|end_char=2949
+11	Fingern	Finger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	start_char=2950|end_char=2957
+12	hineinschieben	hineinschieben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2958|end_char=2972
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=2972|end_char=2973
+
+# text = - Die Beschwerden sind oft sehr stark.
+# sent_id = 46
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2974|end_char=2975
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=2976|end_char=2979
+3	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=2980|end_char=2991
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2992|end_char=2996
+5	oft	oft	ADV	ADV	_	7	advmod	_	start_char=2997|end_char=3000
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	start_char=3001|end_char=3005
+7	stark	stark	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3006|end_char=3011
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3011|end_char=3012
+
+# text = --- ## Wie entstehen vergrößerte Hämorrhoiden?
+# sent_id = 47
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=3013|end_char=3016
+2	##	##	X	XY	_	4	advmod	_	start_char=3017|end_char=3019
+3	Wie	wie	ADV	PWAV	PronType=Int	4	advmod	_	start_char=3020|end_char=3023
+4	entstehen	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3024|end_char=3033
+5	vergrößerte	vergrößert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=3034|end_char=3045
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No|start_char=3046|end_char=3058
+7	?	?	PUNCT	$.	_	4	punct	_	start_char=3058|end_char=3059
+
+# text = In den Hämorrhoiden sind viele Blutgefäße.
+# sent_id = 48
+1	In	in	ADP	APPR	_	3	case	_	start_char=3060|end_char=3062
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3063|end_char=3066
+3	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=3067|end_char=3079
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3080|end_char=3084
+5	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	start_char=3085|end_char=3090
+6	Blutgefäße	Blutgefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No|start_char=3091|end_char=3101
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=3101|end_char=3102
+
+# text = Blutgefäße sind Röhren, in denen das Blut fließt.
+# sent_id = 49
+1	Blutgefäße	Blutgefäß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3103|end_char=3113
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=3114|end_char=3118
+3	Röhren	Röhre	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=3119|end_char=3125
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=3125|end_char=3126
+5	in	in	ADP	APPR	_	6	case	_	start_char=3127|end_char=3129
+6	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	9	obl	_	start_char=3130|end_char=3135
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=3136|end_char=3139
+8	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=3140|end_char=3144
+9	fließt	fließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No|start_char=3145|end_char=3151
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=3151|end_char=3152
+
+# text = Manchmal werden diese Blutgefäße größer.
+# sent_id = 50
+1	Manchmal	manchmal	ADV	ADV	_	5	advmod	_	start_char=3153|end_char=3161
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	start_char=3162|end_char=3168
+3	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=3169|end_char=3174
+4	Blutgefäße	Blutgefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=3175|end_char=3185
+5	größer	groß	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=3186|end_char=3192
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3192|end_char=3193
+
+# text = Dann kann das Gewebe ausleiern.
+# sent_id = 51
+1	Dann	dann	ADV	ADV	_	5	advmod	_	start_char=3194|end_char=3198
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3199|end_char=3203
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=3204|end_char=3207
+4	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=3208|end_char=3214
+5	ausleiern	ausleiern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3215|end_char=3224
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3224|end_char=3225
+
+# text = Das bedeutet: Das Gewebe wird zu weit und zu locker.
+# sent_id = 52
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3226|end_char=3229
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3230|end_char=3238
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=3238|end_char=3239
+4	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=3240|end_char=3243
+5	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=3244|end_char=3250
+6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=3251|end_char=3255
+7	zu	zu	ADV	PTKA	_	6	advmod	_	start_char=3256|end_char=3258
+8	weit	weit	ADJ	ADJD	Degree=Pos	6	xcomp	_	start_char=3259|end_char=3263
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=3264|end_char=3267
+10	zu	zu	ADV	PTKA	_	11	advmod	_	start_char=3268|end_char=3270
+11	locker	locker	ADJ	ADJD	Degree=Pos	8	conj	_	SpaceAfter=No|start_char=3271|end_char=3277
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3277|end_char=3278
+
+# text = Dann vergrößern sich die Hämorrhoiden.
+# sent_id = 53
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=3279|end_char=3283
+2	vergrößern	vergrößern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3284|end_char=3294
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=3295|end_char=3299
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3300|end_char=3303
+5	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=3304|end_char=3316
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=3316|end_char=3317
+
+# text = --- ## Was sind Ursachen für vergrößerte Hämorrhoiden?
+# sent_id = 54
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=3318|end_char=3321
+2	##	##	X	XY	_	5	dep	_	start_char=3322|end_char=3324
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=3325|end_char=3328
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3329|end_char=3333
+5	Ursachen	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=3334|end_char=3342
+6	für	für	ADP	APPR	_	8	case	_	start_char=3343|end_char=3346
+7	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=3347|end_char=3358
+8	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|start_char=3359|end_char=3371
+9	?	?	PUNCT	$.	_	5	punct	_	start_char=3371|end_char=3372
+
+# text = Die genaue Ursache ist nicht sicher bekannt.
+# sent_id = 55
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3373|end_char=3376
+2	genaue	genau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=3377|end_char=3383
+3	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=3384|end_char=3391
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=3392|end_char=3395
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=3396|end_char=3401
+6	sicher	sicher	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=3402|end_char=3408
+7	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3409|end_char=3416
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3416|end_char=3417
+
+# text = Viele Ärzte sagen: Die wichtigste Ursache ist wahrscheinlich **starkes Pressen beim Stuhlgang**.
+# sent_id = 56
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3418|end_char=3423
+2	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3424|end_char=3429
+3	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3430|end_char=3435
+4	:	:	PUNCT	$.	_	11	punct	_	start_char=3435|end_char=3436
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3437|end_char=3440
+6	wichtigste	wichtig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	7	amod	_	start_char=3441|end_char=3451
+7	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=3452|end_char=3459
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3460|end_char=3463
+9	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	11	amod	_	start_char=3464|end_char=3478
+10	**starkes	**stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=3479|end_char=3488
+11	Pressen	Presse	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	parataxis	_	start_char=3489|end_char=3496
+12-13	beim	_	_	_	_	_	_	_	start_char=3497|end_char=3501
+12	bei	bei	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Stuhlgang	Stuhlgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=3502|end_char=3511
+15	*	*	PUNCT	$(	_	14	appos	_	SpaceAfter=No|start_char=3511|end_char=3512
+16	*	*	PUNCT	$(	_	11	dep	_	SpaceAfter=No|start_char=3512|end_char=3513
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=3513|end_char=3514
+
+# text = Warum presst man stark?
+# sent_id = 57
+1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	start_char=3515|end_char=3520
+2	presst	pressen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3521|end_char=3527
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=3528|end_char=3531
+4	stark	stark	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=3532|end_char=3537
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=3537|end_char=3538
+
+# text = Oft wegen **Verstopfung**.
+# sent_id = 58
+1	Oft	oft	ADV	ADV	_	3	advmod	_	start_char=3539|end_char=3542
+2	wegen	wegen	ADP	APPR	_	5	case	_	start_char=3543|end_char=3548
+3	*	*	PUNCT	$(	_	5	compound	_	SpaceAfter=No|start_char=3549|end_char=3550
+4	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=3550|end_char=3551
+5	Verstopfung	Verstopfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=3551|end_char=3562
+6	*	*	PUNCT	$(	_	5	dep	_	SpaceAfter=No|start_char=3562|end_char=3563
+7	*	*	PUNCT	$(	_	5	dep	_	SpaceAfter=No|start_char=3563|end_char=3564
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3564|end_char=3565
+
+# text = Das bedeutet: Der Stuhl ist zu hart und kommt nur schwer heraus.
+# sent_id = 59
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3566|end_char=3569
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3570|end_char=3578
+3	:	:	PUNCT	$.	_	8	punct	_	start_char=3578|end_char=3579
+4	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=3580|end_char=3583
+5	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3584|end_char=3589
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3590|end_char=3593
+7	zu	zu	ADV	PTKA	_	8	advmod	_	start_char=3594|end_char=3596
+8	hart	hart	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=3597|end_char=3601
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=3602|end_char=3605
+10	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=3606|end_char=3611
+11	nur	nur	ADV	ADV	_	12	advmod	_	start_char=3612|end_char=3615
+12	schwer	schwer	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=3616|end_char=3622
+13	heraus	heraus	ADV	PTKVZ	_	10	compound:prt	_	SpaceAfter=No|start_char=3623|end_char=3629
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=3629|end_char=3630
+
+# text = Beim starken Pressen fließt sehr viel Blut in die Hämorrhoiden.
+# sent_id = 60
+1-2	Beim	_	_	_	_	_	_	_	start_char=3631|end_char=3635
+1	Bei	bei	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	starken	stark	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=3636|end_char=3643
+4	Pressen	Presse	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=3644|end_char=3651
+5	fließt	fließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3652|end_char=3658
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	start_char=3659|end_char=3663
+7	viel	viel	DET	PIAT	PronType=Ind	8	det	_	start_char=3664|end_char=3668
+8	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nsubj	_	start_char=3669|end_char=3673
+9	in	in	ADP	APPR	_	11	case	_	start_char=3674|end_char=3676
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=3677|end_char=3680
+11	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No|start_char=3681|end_char=3693
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=3693|end_char=3694
+
+# text = Dadurch können die Blutgefäße ausleiern.
+# sent_id = 61
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	5	advmod	_	start_char=3695|end_char=3702
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3703|end_char=3709
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3710|end_char=3713
+4	Blutgefäße	Blutgefäß	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=3714|end_char=3724
+5	ausleiern	ausleiern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3725|end_char=3734
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=3734|end_char=3735
+
+# text = So werden die Hämorrhoiden nach und nach größer.
+# sent_id = 62
+1	So	so	ADV	ADV	_	8	advmod	_	start_char=3736|end_char=3738
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	start_char=3739|end_char=3745
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3746|end_char=3749
+4	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=3750|end_char=3762
+5	nach	nach	ADP	ADV	_	8	advmod	_	start_char=3763|end_char=3767
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=3768|end_char=3771
+7	nach	nach	ADV	ADV	_	5	fixed	_	start_char=3772|end_char=3776
+8	größer	groß	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=3777|end_char=3783
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3783|end_char=3784
+
+# text = Es gibt auch andere Auslöser für vergrößerte Hämorrhoiden, zum Beispiel: - sehr langes Sitzen auf der Toilette - häufiger Durchfall - starker und langer Husten - schweres Krafttraining - Übergewicht - Schwangerschaft Manche Menschen haben ein höheres Risiko für vergrößerte Hämorrhoiden.
+# sent_id = 63
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3785|end_char=3787
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3788|end_char=3792
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=3793|end_char=3797
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=3798|end_char=3804
+5	Auslöser	Auslöser	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3805|end_char=3813
+6	für	für	ADP	APPR	_	8	case	_	start_char=3814|end_char=3817
+7	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=3818|end_char=3829
+8	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|start_char=3830|end_char=3842
+9	,	,	PUNCT	$,	_	17	punct	_	start_char=3842|end_char=3843
+10-11	zum	_	_	_	_	_	_	_	start_char=3844|end_char=3847
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=3848|end_char=3856
+13	:	:	PUNCT	$.	_	17	punct	_	start_char=3856|end_char=3857
+14	-	-	PUNCT	$(	_	16	punct	_	start_char=3858|end_char=3859
+15	sehr	sehr	ADV	ADV	_	16	advmod	_	start_char=3860|end_char=3864
+16	langes	lang	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=3865|end_char=3871
+17	Sitzen	Sitz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	start_char=3872|end_char=3878
+18	auf	auf	ADP	APPR	_	20	case	_	start_char=3879|end_char=3882
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=3883|end_char=3886
+20	Toilette	Toilette	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	start_char=3887|end_char=3895
+21	-	-	PUNCT	$(	_	28	punct	_	start_char=3896|end_char=3897
+22	häufiger	häufig	ADJ	ADJD	Degree=Cmp	25	advmod	_	start_char=3898|end_char=3906
+23	Durchfall	Durchfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	compound	_	start_char=3907|end_char=3916
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=3917|end_char=3918
+25	starker	stark	ADJ	ADJA	Degree=Pos|Number=Sing	35	amod	_	start_char=3919|end_char=3926
+26	und	und	CCONJ	KON	_	27	cc	_	start_char=3927|end_char=3930
+27	langer	lang	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	conj	_	start_char=3931|end_char=3937
+28	Husten	Husten	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	compound	_	start_char=3938|end_char=3944
+29	-	-	PUNCT	$(	_	25	punct	_	start_char=3945|end_char=3946
+30	schweres	schwer	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	start_char=3947|end_char=3955
+31	Krafttraining	Krafttraining	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	35	compound	_	start_char=3956|end_char=3969
+32	-	-	PUNCT	$(	_	31	punct	_	start_char=3970|end_char=3971
+33	Übergewicht	Übergewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	35	compound	_	start_char=3972|end_char=3983
+34	-	-	PUNCT	$(	_	33	punct	_	start_char=3984|end_char=3985
+35	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	start_char=3986|end_char=4001
+36	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	37	det	_	start_char=4002|end_char=4008
+37	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	38	nsubj	_	start_char=4009|end_char=4017
+38	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4018|end_char=4023
+39	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	41	det	_	start_char=4024|end_char=4027
+40	höheres	hoch	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	41	amod	_	start_char=4028|end_char=4035
+41	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	38	obj	_	start_char=4036|end_char=4042
+42	für	für	ADP	APPR	_	44	case	_	start_char=4043|end_char=4046
+43	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	44	amod	_	start_char=4047|end_char=4058
+44	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No|start_char=4059|end_char=4071
+45	.	.	PUNCT	$.	_	2	punct	_	start_char=4071|end_char=4072
+
+# text = Diese Menschen bekommen leichter vergrößerte Hämorrhoiden, zum Beispiel: - Menschen mit **chronischer Verstopfung** (chronisch = sehr lange oder immer wieder) - Menschen mit **chronischem Durchfall** - Menschen mit **chronischem Husten** - Menschen mit **Übergewicht** - Menschen mit **schwachem Bindegewebe** (Bindegewebe hält Gewebe und Organe im Körper zusammen) - alte Menschen - schwangere Frauen --- ## Was können Sie gegen vergrößerte Hämorrhoiden tun?
+# sent_id = 64
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=4073|end_char=4078
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4079|end_char=4087
+3	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4088|end_char=4096
+4	leichter	leicht	ADJ	ADJD	Degree=Cmp	5	advmod	_	start_char=4097|end_char=4105
+5	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=4106|end_char=4117
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=4118|end_char=4130
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=4130|end_char=4131
+8-9	zum	_	_	_	_	_	_	_	start_char=4132|end_char=4135
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=4136|end_char=4144
+11	:	:	PUNCT	$.	_	13	punct	_	start_char=4144|end_char=4145
+12	-	-	PUNCT	$(	_	10	punct	_	start_char=4146|end_char=4147
+13	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=4148|end_char=4156
+14	mit	mit	ADP	APPR	_	16	case	_	start_char=4157|end_char=4160
+15	**chronischer	**chronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=4161|end_char=4174
+16	Verstopfung	Verstopfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=4175|end_char=4186
+17	*	*	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=4186|end_char=4187
+18	*	*	PUNCT	$(	_	20	punct	_	start_char=4187|end_char=4188
+19	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=4189|end_char=4190
+20	chronisch	chronisch	ADJ	ADJD	Degree=Pos	13	appos	_	start_char=4190|end_char=4199
+21	=	=	PUNCT	$(	_	23	punct	_	start_char=4200|end_char=4201
+22	sehr	sehr	ADV	ADV	_	23	advmod	_	start_char=4202|end_char=4206
+23	lange	lang	ADJ	ADJD	Degree=Pos	20	conj	_	start_char=4207|end_char=4212
+24	oder	oder	CCONJ	KON	_	26	cc	_	start_char=4213|end_char=4217
+25	immer	immer	ADV	ADV	_	26	advmod	_	start_char=4218|end_char=4223
+26	wieder	wieder	ADV	ADV	_	20	conj	_	SpaceAfter=No|start_char=4224|end_char=4230
+27	)	)	PUNCT	$(	_	20	punct	_	start_char=4230|end_char=4231
+28	-	-	PUNCT	$(	_	29	punct	_	start_char=4232|end_char=4233
+29	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	start_char=4234|end_char=4242
+30	mit	mit	ADP	APPR	_	32	case	_	start_char=4243|end_char=4246
+31	**chronischem	**chronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	start_char=4247|end_char=4260
+32	Durchfall	Durchfall	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No|start_char=4261|end_char=4270
+33	*	*	PUNCT	$(	_	36	punct	_	SpaceAfter=No|start_char=4270|end_char=4271
+34	*	*	PUNCT	$(	_	36	compound	_	start_char=4271|end_char=4272
+35	-	-	PUNCT	$(	_	34	punct	_	start_char=4273|end_char=4274
+36	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	conj	_	start_char=4275|end_char=4283
+37	mit	mit	ADP	APPR	_	39	case	_	start_char=4284|end_char=4287
+38	**chronischem	**chronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	start_char=4288|end_char=4301
+39	Husten	Husten	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	36	nmod	_	SpaceAfter=No|start_char=4302|end_char=4308
+40	*	*	PUNCT	$(	_	43	punct	_	SpaceAfter=No|start_char=4308|end_char=4309
+41	*	*	PUNCT	$(	_	43	compound	_	start_char=4309|end_char=4310
+42	-	-	PUNCT	$(	_	41	punct	_	start_char=4311|end_char=4312
+43	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	36	conj	_	start_char=4313|end_char=4321
+44	mit	mit	ADP	APPR	_	45	case	_	start_char=4322|end_char=4325
+45	*	*	X	XY	_	43	nmod	_	SpaceAfter=No|start_char=4326|end_char=4327
+46	*	*	PUNCT	$(	_	47	punct	_	SpaceAfter=No|start_char=4327|end_char=4328
+47	Übergewicht	Übergewicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	43	appos	_	SpaceAfter=No|start_char=4328|end_char=4339
+48	*	*	PUNCT	$(	_	51	punct	_	SpaceAfter=No|start_char=4339|end_char=4340
+49	*	*	PUNCT	$(	_	51	compound	_	start_char=4340|end_char=4341
+50	-	-	PUNCT	$(	_	49	punct	_	start_char=4342|end_char=4343
+51	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	43	appos	_	start_char=4344|end_char=4352
+52	mit	mit	ADP	APPR	_	54	case	_	start_char=4353|end_char=4356
+53	**schwachem	**schwachem	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	54	amod	_	start_char=4357|end_char=4368
+54	Bindegewebe	Bindegewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	51	nmod	_	SpaceAfter=No|start_char=4369|end_char=4380
+55	*	*	PUNCT	$(	_	59	punct	_	SpaceAfter=No|start_char=4380|end_char=4381
+56	*	*	PUNCT	$(	_	59	punct	_	start_char=4381|end_char=4382
+57	(	(	PUNCT	$(	_	59	punct	_	SpaceAfter=No|start_char=4383|end_char=4384
+58	Bindegewebe	Bindegewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	59	nsubj	_	start_char=4384|end_char=4395
+59	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	parataxis	_	start_char=4396|end_char=4400
+60	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	59	obj	_	start_char=4401|end_char=4407
+61	und	und	CCONJ	KON	_	62	cc	_	start_char=4408|end_char=4411
+62	Organe	Organ	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	60	conj	_	start_char=4412|end_char=4418
+63-64	im	_	_	_	_	_	_	_	start_char=4419|end_char=4421
+63	in	in	ADP	APPR	_	65	case	_	_
+64	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	59	obl	_	start_char=4422|end_char=4428
+66	zusammen	zusammen	ADV	ADV	_	59	advmod	_	SpaceAfter=No|start_char=4429|end_char=4437
+67	)	)	PUNCT	$(	_	59	punct	_	start_char=4437|end_char=4438
+68	-	-	PUNCT	$(	_	73	punct	_	start_char=4439|end_char=4440
+69	alte	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	73	amod	_	start_char=4441|end_char=4445
+70	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	73	compound	_	start_char=4446|end_char=4454
+71	-	-	PUNCT	$(	_	70	punct	_	start_char=4455|end_char=4456
+72	schwangere	schwanger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	73	amod	_	start_char=4457|end_char=4467
+73	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=4468|end_char=4474
+74	-	-	PUNCT	$(	_	83	punct	_	SpaceAfter=No|start_char=4475|end_char=4476
+75	--	--	PUNCT	$(	_	83	punct	_	start_char=4476|end_char=4478
+76	##	##	PUNCT	$(	_	83	punct	_	start_char=4479|end_char=4481
+77	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	83	obj	_	start_char=4482|end_char=4485
+78	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	83	aux	_	start_char=4486|end_char=4492
+79	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	83	nsubj	_	start_char=4493|end_char=4496
+80	gegen	gegen	ADP	APPR	_	82	case	_	start_char=4497|end_char=4502
+81	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	82	amod	_	start_char=4503|end_char=4514
+82	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	83	obl	_	start_char=4515|end_char=4527
+83	tun	tun	VERB	VVINF	VerbForm=Inf	73	parataxis	_	SpaceAfter=No|start_char=4528|end_char=4531
+84	?	?	PUNCT	$.	_	83	punct	_	start_char=4531|end_char=4532
+
+# text = Sie haben Beschwerden am After?
+# sent_id = 65
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4533|end_char=4536
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4537|end_char=4542
+3	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=4543|end_char=4554
+4-5	am	_	_	_	_	_	_	_	start_char=4555|end_char=4557
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	After	After	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=4558|end_char=4563
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=4563|end_char=4564
+
+# text = Dann gehen Sie zu einem Arzt oder einer Ärztin.
+# sent_id = 66
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4565|end_char=4569
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4570|end_char=4575
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4576|end_char=4579
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=4580|end_char=4582
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=4583|end_char=4588
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4589|end_char=4593
+7	oder	oder	CCONJ	KON	_	9	cc	_	start_char=4594|end_char=4598
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=4599|end_char=4604
+9	Ärztin	Ärztin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|start_char=4605|end_char=4611
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=4611|end_char=4612
+
+# text = Vielleicht haben Sie eine andere Krankheit.
+# sent_id = 67
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=4613|end_char=4623
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4624|end_char=4629
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=4630|end_char=4633
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=4634|end_char=4638
+5	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	start_char=4639|end_char=4645
+6	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=4646|end_char=4655
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=4655|end_char=4656
+
+# text = Diese Krankheit kann gefährlich sein.
+# sent_id = 68
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=4657|end_char=4662
+2	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4663|end_char=4672
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=4673|end_char=4677
+4	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4678|end_char=4688
+5	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No|start_char=4689|end_char=4693
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=4693|end_char=4694
+
+# text = Oder die andere Krankheit macht die Hämorrhoiden größer.
+# sent_id = 69
+1	Oder	Oder	CCONJ	KON	_	5	cc	_	start_char=4695|end_char=4699
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4700|end_char=4703
+3	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	start_char=4704|end_char=4710
+4	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=4711|end_char=4720
+5	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4721|end_char=4726
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=4727|end_char=4730
+7	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	start_char=4731|end_char=4743
+8	größer	groß	ADJ	ADJD	Degree=Cmp	5	xcomp	_	SpaceAfter=No|start_char=4744|end_char=4750
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=4750|end_char=4751
+
+# text = Vergrößerte Hämorrhoiden kann man unterschiedlich behandeln.
+# sent_id = 70
+1	Vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=4752|end_char=4763
+2	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=4764|end_char=4776
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=4777|end_char=4781
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=4782|end_char=4785
+5	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=4786|end_char=4801
+6	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=4802|end_char=4811
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4811|end_char=4812
+
+# text = Der Arzt behandelt: - Ihre Beschwerden - und die Ursache für die vergrößerten Hämorrhoiden.
+# sent_id = 71
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=4813|end_char=4816
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=4817|end_char=4821
+3	behandelt	behandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=4822|end_char=4831
+4	:	:	PUNCT	$.	_	7	punct	_	start_char=4831|end_char=4832
+5	-	-	PUNCT	$(	_	7	punct	_	start_char=4833|end_char=4834
+6	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=4835|end_char=4839
+7	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	start_char=4840|end_char=4851
+8	-	-	PUNCT	$(	_	11	punct	_	start_char=4852|end_char=4853
+9	und	und	CCONJ	KON	_	11	cc	_	start_char=4854|end_char=4857
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=4858|end_char=4861
+11	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=4862|end_char=4869
+12	für	für	ADP	APPR	_	15	case	_	start_char=4870|end_char=4873
+13	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=4874|end_char=4877
+14	vergrößerten	vergrößern	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=4878|end_char=4890
+15	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No|start_char=4891|end_char=4903
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=4903|end_char=4904
+
+# text = Zuerst prüft der Arzt: - Welche Beschwerden haben Sie genau? - Wie stark sind die Hämorrhoiden vergrößert?
+# sent_id = 72
+1	Zuerst	zuerst	ADV	ADV	_	2	advmod	_	start_char=4905|end_char=4911
+2	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4912|end_char=4917
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=4918|end_char=4921
+4	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=4922|end_char=4926
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=4926|end_char=4927
+6	-	-	PUNCT	$(	_	9	punct	_	start_char=4928|end_char=4929
+7	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	8	det	_	start_char=4930|end_char=4936
+8	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=4937|end_char=4948
+9	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4949|end_char=4954
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=4955|end_char=4958
+11	genau?	genau?	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=4959|end_char=4965
+12	-	-	PUNCT	$(	_	18	punct	_	start_char=4966|end_char=4967
+13	Wie	wie	ADV	PWAV	PronType=Int	18	advmod	_	start_char=4968|end_char=4971
+14	stark	stark	ADJ	ADJD	Degree=Pos	18	advmod	_	start_char=4972|end_char=4977
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=4978|end_char=4982
+16	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=4983|end_char=4986
+17	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	start_char=4987|end_char=4999
+18	vergrößert	vergrößern	ADJ	VVPP	Degree=Pos|VerbForm=Part	9	conj	_	SpaceAfter=No|start_char=5000|end_char=5010
+19	?	?	PUNCT	$.	_	9	punct	_	start_char=5010|end_char=5011
+
+# text = - Haben Sie andere Krankheiten?
+# sent_id = 73
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5012|end_char=5013
+2	Haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5014|end_char=5019
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5020|end_char=5023
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=5024|end_char=5030
+5	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=5031|end_char=5042
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=5042|end_char=5043
+
+# text = Wenn der Arzt diese Dinge weiß, kann der Arzt eine passende Behandlung vorschlagen.
+# sent_id = 74
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=5044|end_char=5048
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=5049|end_char=5052
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=5053|end_char=5057
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	5	det	_	start_char=5058|end_char=5063
+5	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=5064|end_char=5069
+6	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No|start_char=5070|end_char=5074
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=5074|end_char=5075
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=5076|end_char=5080
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=5081|end_char=5084
+10	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=5085|end_char=5089
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=5090|end_char=5094
+12	passende	passend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=5095|end_char=5103
+13	Behandlung	Behandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=5104|end_char=5114
+14	vorschlagen	vorschlagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5115|end_char=5126
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=5126|end_char=5127
+
+# text = Wichtig: Verlassen Sie sich nicht nur auf Informationen aus dem Internet.
+# sent_id = 75
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5128|end_char=5135
+2	:	:	PUNCT	$.	_	3	punct	_	start_char=5135|end_char=5136
+3	Verlassen	Verlassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=5137|end_char=5146
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=5147|end_char=5150
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=5151|end_char=5155
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=5156|end_char=5161
+7	nur	nur	ADV	ADV	_	3	advmod	_	start_char=5162|end_char=5165
+8	auf	auf	ADP	APPR	_	9	case	_	start_char=5166|end_char=5169
+9	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	start_char=5170|end_char=5183
+10	aus	aus	ADP	APPR	_	12	case	_	start_char=5184|end_char=5187
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=5188|end_char=5191
+12	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=5192|end_char=5200
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=5200|end_char=5201
+
+# text = Lassen Sie sich immer von einem Arzt oder einer Ärztin untersuchen und beraten.
+# sent_id = 76
+1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5202|end_char=5208
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5209|end_char=5212
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=5213|end_char=5217
+4	immer	immer	ADV	ADV	_	1	advmod	_	start_char=5218|end_char=5223
+5	von	von	ADP	APPR	_	7	case	_	start_char=5224|end_char=5227
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=5228|end_char=5233
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=5234|end_char=5238
+8	oder	oder	CCONJ	KON	_	10	cc	_	start_char=5239|end_char=5243
+9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=5244|end_char=5249
+10	Ärztin	Ärztin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=5250|end_char=5256
+11	untersuchen	untersuchen	VERB	VVINF	VerbForm=Inf	1	xcomp	_	start_char=5257|end_char=5268
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=5269|end_char=5272
+13	beraten	beraten	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No|start_char=5273|end_char=5280
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=5280|end_char=5281
+
+# text = --- ## Wie können Sie Hämorrhoiden vermeiden?
+# sent_id = 77
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=5282|end_char=5285
+2	##	##	X	XY	_	7	advmod	_	start_char=5286|end_char=5288
+3	Wie	wie	ADV	PWAV	PronType=Int	7	advmod	_	start_char=5289|end_char=5292
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5293|end_char=5299
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=5300|end_char=5303
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=5304|end_char=5316
+7	vermeiden	vermeiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5317|end_char=5326
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=5326|end_char=5327
+
+# text = Sie können Ihr Risiko für vergrößerte Hämorrhoiden kleiner machen.
+# sent_id = 78
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=5328|end_char=5331
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5332|end_char=5338
+3	Ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=5339|end_char=5342
+4	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=5343|end_char=5349
+5	für	für	ADP	APPR	_	7	case	_	start_char=5350|end_char=5353
+6	vergrößerte	vergrößert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=5354|end_char=5365
+7	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=5366|end_char=5378
+8	kleiner	klein	ADJ	ADJD	Degree=Cmp	9	xcomp	_	start_char=5379|end_char=5386
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5387|end_char=5393
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5393|end_char=5394
+
+# text = Achten Sie besonders auf diese Punkte: - **Zwingen** Sie den Stuhlgang nicht.
+# sent_id = 79
+1	Achten	Achten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5395|end_char=5401
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5402|end_char=5405
+3	besonders	besonders	ADV	ADV	_	1	advmod	_	start_char=5406|end_char=5415
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=5416|end_char=5419
+5	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	start_char=5420|end_char=5425
+6	Punkte	Punkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No|start_char=5426|end_char=5432
+7	:	:	PUNCT	$.	_	11	punct	_	start_char=5432|end_char=5433
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=5434|end_char=5435
+9	*	*	X	XY	_	1	parataxis	_	SpaceAfter=No|start_char=5436|end_char=5437
+10	*	*	X	XY	_	11	parataxis	_	SpaceAfter=No|start_char=5437|end_char=5438
+11	Zwingen	Zwingen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|start_char=5438|end_char=5445
+12	*	*	X	XY	_	11	parataxis	_	SpaceAfter=No|start_char=5445|end_char=5446
+13	*	*	PUNCT	$(	_	11	punct	_	start_char=5446|end_char=5447
+14	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=5448|end_char=5451
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=5452|end_char=5455
+16	Stuhlgang	Stuhlgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=5456|end_char=5465
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	SpaceAfter=No|start_char=5466|end_char=5471
+18	.	.	PUNCT	$.	_	1	punct	_	start_char=5471|end_char=5472
+
+# text = - **Pressen** Sie nicht stark.
+# sent_id = 80
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5473|end_char=5474
+2	*	*	X	XY	_	9	dep	_	SpaceAfter=No|start_char=5475|end_char=5476
+3	*	*	SYM	XY	_	4	cc	_	SpaceAfter=No|start_char=5476|end_char=5477
+4	Pressen	Presse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	dep	_	SpaceAfter=No|start_char=5477|end_char=5484
+5	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=5484|end_char=5485
+6	*	*	PUNCT	$(	_	9	cop	_	start_char=5485|end_char=5486
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=5487|end_char=5490
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=5491|end_char=5496
+9	stark	stark	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5497|end_char=5502
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=5502|end_char=5503
+
+# text = Der Stuhl sollte leicht herauskommen.
+# sent_id = 81
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=5504|end_char=5507
+2	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=5508|end_char=5513
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=5514|end_char=5520
+4	leicht	leicht	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=5521|end_char=5527
+5	herauskommen	herauskommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5528|end_char=5540
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=5540|end_char=5541
+
+# text = Viele Ärzte empfehlen einen **Toilettenhocker**: Stellen Sie Ihre Füße beim Stuhlgang auf einen kleinen Hocker.
+# sent_id = 82
+1	Viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5542|end_char=5547
+2	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5548|end_char=5553
+3	empfehlen	empfehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5554|end_char=5563
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=5564|end_char=5569
+5	*	*	PUNCT	$(	_	3	obj	_	SpaceAfter=No|start_char=5570|end_char=5571
+6	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=5571|end_char=5572
+7	Toilettenhocker	Toilettenhocker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=5572|end_char=5587
+8	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=5587|end_char=5588
+9	*	*	PUNCT	$(	_	3	compound:prt	_	SpaceAfter=No|start_char=5588|end_char=5589
+10	:	:	PUNCT	$.	_	11	punct	_	start_char=5589|end_char=5590
+11	Stellen	Stelle	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=5591|end_char=5598
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=5599|end_char=5602
+13	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=5603|end_char=5607
+14	Füße	Fuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=5608|end_char=5612
+15-16	beim	_	_	_	_	_	_	_	start_char=5613|end_char=5617
+15	bei	bei	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Stuhlgang	Stuhlgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=5618|end_char=5627
+18	auf	auf	ADP	APPR	_	21	case	_	start_char=5628|end_char=5631
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	21	det	_	start_char=5632|end_char=5637
+20	kleinen	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=5638|end_char=5645
+21	Hocker	Hocker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|start_char=5646|end_char=5652
+22	.	.	PUNCT	$.	_	3	punct	_	start_char=5652|end_char=5653
+
+# text = Dann ist Ihre Sitzhaltung anders.
+# sent_id = 83
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=5654|end_char=5658
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5659|end_char=5662
+3	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=5663|end_char=5667
+4	Sitzhaltung	Sitzhaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=5668|end_char=5679
+5	anders	anders	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=5680|end_char=5686
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=5686|end_char=5687
+
+# text = Diese Haltung macht den Stuhlgang leichter.
+# sent_id = 84
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=5688|end_char=5693
+2	Haltung	Haltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5694|end_char=5701
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5702|end_char=5707
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5708|end_char=5711
+5	Stuhlgang	Stuhlgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=5712|end_char=5721
+6	leichter	leicht	ADJ	ADJD	Degree=Cmp	3	advmod	_	SpaceAfter=No|start_char=5722|end_char=5730
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5730|end_char=5731
+
+# text = Wichtig ist vor allem ein **gesunder Stuhl**: - Ihr Stuhlgang sollte **regelmäßig** sein.
+# sent_id = 85
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5732|end_char=5739
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=5740|end_char=5743
+3	vor	vor	ADP	APPR	_	4	case	_	start_char=5744|end_char=5747
+4	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	1	nmod	_	start_char=5748|end_char=5753
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=5754|end_char=5757
+6	*	*	PUNCT	$(	_	7	advmod	_	SpaceAfter=No|start_char=5758|end_char=5759
+7	*gesunder	*gesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=5759|end_char=5768
+8	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|start_char=5769|end_char=5774
+9	*	*	PUNCT	$(	_	8	appos	_	SpaceAfter=No|start_char=5774|end_char=5775
+10	*	*	PUNCT	$(	_	1	advmod	_	SpaceAfter=No|start_char=5775|end_char=5776
+11	:	:	PUNCT	$.	_	16	punct	_	start_char=5776|end_char=5777
+12	-	-	PUNCT	$(	_	16	punct	_	start_char=5778|end_char=5779
+13	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=5780|end_char=5783
+14	Stuhlgang	Stuhlgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=5784|end_char=5793
+15	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=5794|end_char=5800
+16	**regelmäßig	**regelmäßig	ADJ	ADJD	Degree=Pos	1	parataxis	_	SpaceAfter=No|start_char=5801|end_char=5813
+17	**	**	X	XY	_	16	cop	_	start_char=5813|end_char=5815
+18	sein	sein	AUX	VAINF	VerbForm=Inf	17	cop	_	SpaceAfter=No|start_char=5816|end_char=5820
+19	.	.	PUNCT	$.	_	1	punct	_	start_char=5820|end_char=5821
+
+# text = Manche Menschen haben jeden Tag Stuhlgang.
+# sent_id = 86
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5822|end_char=5828
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5829|end_char=5837
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5838|end_char=5843
+4	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	start_char=5844|end_char=5849
+5	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=5850|end_char=5853
+6	Stuhlgang	Stuhlgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=5854|end_char=5863
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5863|end_char=5864
+
+# text = Andere Menschen haben nur alle 3 Tage Stuhlgang.
+# sent_id = 87
+1	Andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=5865|end_char=5871
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5872|end_char=5880
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5881|end_char=5886
+4	nur	nur	ADV	ADV	_	3	advmod	_	start_char=5887|end_char=5890
+5	alle	alle	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	start_char=5891|end_char=5895
+6	3	3	NUM	CARD	NumType=Card	7	nummod	_	start_char=5896|end_char=5897
+7	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	start_char=5898|end_char=5902
+8	Stuhlgang	Stuhlgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=5903|end_char=5912
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=5912|end_char=5913
+
+# text = Beides kann normal sein.
+# sent_id = 88
+1	Beides	beide	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=5914|end_char=5920
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=5921|end_char=5925
+3	normal	normal	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5926|end_char=5932
+4	sein	sein	AUX	VAINF	VerbForm=Inf	3	cop	_	SpaceAfter=No|start_char=5933|end_char=5937
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=5937|end_char=5938
+
+# text = - Der Stuhl sollte **nicht zu hart** sein.
+# sent_id = 89
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5939|end_char=5940
+2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=5941|end_char=5944
+3	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=5945|end_char=5950
+4	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=5951|end_char=5957
+5	*	*	PUNCT	$(	_	8	advmod	_	SpaceAfter=No|start_char=5958|end_char=5959
+6	*nicht	*nicht	ADV	ADV	_	8	advmod	_	start_char=5959|end_char=5965
+7	zu	zu	ADP	APPR	_	8	case	_	start_char=5966|end_char=5968
+8	hart	hart	ADJ	ADJD	Degree=Pos	10	xcomp	_	SpaceAfter=No|start_char=5969|end_char=5973
+9	*	*	PUNCT	$(	_	8	case	_	SpaceAfter=No|start_char=5973|end_char=5974
+10	*	*	PUNCT	$(	_	0	root	_	start_char=5974|end_char=5975
+11	sein	sein	AUX	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No|start_char=5976|end_char=5980
+12	.	.	PUNCT	$.	_	10	punct	_	start_char=5980|end_char=5981
+
+# text = Sie haben oft Verstopfung?
+# sent_id = 90
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5982|end_char=5985
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5986|end_char=5991
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=5992|end_char=5995
+4	Verstopfung	Verstopfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=5996|end_char=6007
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=6007|end_char=6008
+
+# text = Gehen Sie zum Arzt. - Der Stuhl sollte **nicht zu weich** sein.
+# sent_id = 91
+1	Gehen	Gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6009|end_char=6014
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=6015|end_char=6018
+3-4	zum	_	_	_	_	_	_	_	start_char=6019|end_char=6022
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Arzt.	Arzt.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=6023|end_char=6028
+6	-	-	PUNCT	$(	_	13	punct	_	start_char=6029|end_char=6030
+7	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=6031|end_char=6034
+8	Stuhl	Stuhl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=6035|end_char=6040
+9	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=6041|end_char=6047
+10	*	*	PUNCT	$(	_	13	advmod	_	SpaceAfter=No|start_char=6048|end_char=6049
+11	*nicht	*nicht	ADV	ADV	_	13	advmod	_	start_char=6049|end_char=6055
+12	zu	zu	ADP	APPR	_	13	case	_	start_char=6056|end_char=6058
+13	weich	weich	ADJ	ADJD	Degree=Pos	1	conj	_	SpaceAfter=No|start_char=6059|end_char=6064
+14	*	*	PUNCT	$(	_	13	advmod	_	SpaceAfter=No|start_char=6064|end_char=6065
+15	*	*	PUNCT	$(	_	13	cop	_	start_char=6065|end_char=6066
+16	sein	sein	AUX	VAINF	VerbForm=Inf	15	aux:pass	_	SpaceAfter=No|start_char=6067|end_char=6071
+17	.	.	PUNCT	$.	_	1	punct	_	start_char=6071|end_char=6072
+
+# text = Sie haben oft Durchfall?
+# sent_id = 92
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6073|end_char=6076
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6077|end_char=6082
+3	oft	oft	ADV	ADV	_	2	advmod	_	start_char=6083|end_char=6086
+4	Durchfall	Durchfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=6087|end_char=6096
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=6096|end_char=6097
+
+# text = Gehen Sie zum Arzt. - Essen Sie **gesund**.
+# sent_id = 93
+1	Gehen	Gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6098|end_char=6103
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=6104|end_char=6107
+3-4	zum	_	_	_	_	_	_	_	start_char=6108|end_char=6111
+3	zu	zu	ADP	APPR	_	7	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+5	Arzt.	Arzt.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=6112|end_char=6117
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=6118|end_char=6119
+7	Essen	Essen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=6120|end_char=6125
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	appos	_	start_char=6126|end_char=6129
+9	*	*	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=6130|end_char=6131
+10	*gesund	*gesund	X	NE	_	1	dep	_	SpaceAfter=No|start_char=6131|end_char=6138
+11	*	*	PUNCT	$(	_	10	dep	_	SpaceAfter=No|start_char=6138|end_char=6139
+12	*	*	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=6139|end_char=6140
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=6140|end_char=6141
+
+# text = Eine gesunde Ernährung ist wichtig für einen gesunden Stuhl.
+# sent_id = 94
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=6142|end_char=6146
+2	gesunde	gesund	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=6147|end_char=6154
+3	Ernährung	Ernährung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=6155|end_char=6164
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6165|end_char=6168
+5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6169|end_char=6176
+6	für	für	ADP	APPR	_	9	case	_	start_char=6177|end_char=6180
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=6181|end_char=6186
+8	gesunden	gesund	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=6187|end_char=6195
+9	Stuhl	Stuhl	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=6196|end_char=6201
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=6201|end_char=6202
+
+# text = Ihr Arzt oder Ihre Ärztin kann Sie dazu beraten.
+# sent_id = 95
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=6203|end_char=6206
+2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	start_char=6207|end_char=6211
+3	oder	oder	CCONJ	KON	_	5	cc	_	start_char=6212|end_char=6216
+4	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=6217|end_char=6221
+5	Ärztin	Ärztin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=6222|end_char=6228
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6229|end_char=6233
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=6234|end_char=6237
+8	dazu	dazu	ADV	PAV	PronType=Dem	9	advmod	_	start_char=6238|end_char=6242
+9	beraten	beraten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6243|end_char=6250
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6250|end_char=6251
+
+# text = --- ## Wo bekommen Sie noch mehr Informationen?
+# sent_id = 96
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=6252|end_char=6255
+2	##	##	X	XY	_	4	dep	_	start_char=6256|end_char=6258
+3	Wo	wo	ADV	PWAV	PronType=Int	4	advmod	_	start_char=6259|end_char=6261
+4	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6262|end_char=6270
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=6271|end_char=6274
+6	noch	noch	ADV	ADV	_	4	advmod	_	start_char=6275|end_char=6279
+7	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	8	det	_	start_char=6280|end_char=6284
+8	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|start_char=6285|end_char=6298
+9	?	?	PUNCT	$.	_	4	punct	_	start_char=6298|end_char=6299
+
+# text = Sie möchten noch mehr über Hämorrhoiden lesen?
+# sent_id = 97
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=6300|end_char=6303
+2	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=6304|end_char=6311
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=6312|end_char=6316
+4	mehr	mehr	ADV	ADV	_	7	advmod	_	start_char=6317|end_char=6321
+5	über	über	ADP	APPR	_	6	case	_	start_char=6322|end_char=6326
+6	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	start_char=6327|end_char=6339
+7	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6340|end_char=6345
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=6345|end_char=6346
+
+# text = Weitere Informationen über Hämorrhoiden finden Sie über einen Link im Internet.
+# sent_id = 98
+1	Weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	2	amod	_	start_char=6347|end_char=6354
+2	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	obj	_	start_char=6355|end_char=6368
+3	über	über	ADP	APPR	_	4	case	_	start_char=6369|end_char=6373
+4	Hämorrhoiden	Hämorrhoide	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nmod	_	start_char=6374|end_char=6386
+5	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6387|end_char=6393
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=6394|end_char=6397
+7	über	über	ADP	APPR	_	9	case	_	start_char=6398|end_char=6402
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=6403|end_char=6408
+9	Link	Link	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=6409|end_char=6413
+10-11	im	_	_	_	_	_	_	_	start_char=6414|end_char=6416
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=6417|end_char=6425
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=6425|end_char=6426
+
+# text = Achtung: Die Informationen dort sind **nicht** in Leichter Sprache.
+# sent_id = 99
+1	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=6427|end_char=6434
+2	:	:	PUNCT	$.	_	7	punct	_	start_char=6434|end_char=6435
+3	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=6436|end_char=6439
+4	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=6440|end_char=6453
+5	dort	dort	ADV	ADV	_	4	advmod	_	start_char=6454|end_char=6458
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=6459|end_char=6463
+7	**nicht	**nicht	ADJ	ADJD	Degree=Pos	1	appos	_	SpaceAfter=No|start_char=6464|end_char=6471
+8	*	*	PUNCT	$(	_	7	cop	_	SpaceAfter=No|start_char=6471|end_char=6472
+9	*	*	PUNCT	$(	_	7	parataxis	_	start_char=6472|end_char=6473
+10	in	in	ADP	APPR	_	12	case	_	start_char=6474|end_char=6476
+11	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=6477|end_char=6485
+12	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=6486|end_char=6493
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=6493|end_char=6494
+
+# text = Wichtig: Dieser Text gibt nur **allgemeine Informationen**.
+# sent_id = 100
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6495|end_char=6502
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=6502|end_char=6503
+3	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=6504|end_char=6510
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=6511|end_char=6515
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=6516|end_char=6520
+6	nur	nur	ADV	ADV	_	5	advmod	_	start_char=6521|end_char=6524
+7	*	*	PUNCT	$(	_	5	advmod	_	SpaceAfter=No|start_char=6525|end_char=6526
+8	*allgemeine	*allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=6526|end_char=6537
+9	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|start_char=6538|end_char=6551
+10	*	*	PUNCT	$(	_	9	appos	_	SpaceAfter=No|start_char=6551|end_char=6552
+11	*	*	PUNCT	$(	_	5	compound:prt	_	SpaceAfter=No|start_char=6552|end_char=6553
+12	.	.	PUNCT	$.	_	1	punct	_	start_char=6553|end_char=6554
+
+# text = Dieser Text ersetzt **nicht** den Besuch bei einem Arzt oder einer Ärztin.
+# sent_id = 101
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=6555|end_char=6561
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6562|end_char=6566
+3	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6567|end_char=6574
+4	**nicht	**nicht	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=6575|end_char=6582
+5	*	*	PUNCT	$(	_	4	appos	_	SpaceAfter=No|start_char=6582|end_char=6583
+6	*	*	PUNCT	$(	_	4	flat	_	start_char=6583|end_char=6584
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=6585|end_char=6588
+8	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=6589|end_char=6595
+9	bei	bei	ADP	APPR	_	11	case	_	start_char=6596|end_char=6599
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=6600|end_char=6605
+11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=6606|end_char=6610
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=6611|end_char=6615
+13	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=6616|end_char=6621
+14	Ärztin	Ärztin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|start_char=6622|end_char=6628
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=6628|end_char=6629
+
+# text = Nur ein Arzt oder eine Ärztin kann eine genaue Untersuchung machen.
+# sent_id = 102
+1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=6630|end_char=6633
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=6634|end_char=6637
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=6638|end_char=6642
+4	oder	oder	CCONJ	KON	_	6	cc	_	start_char=6643|end_char=6647
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=6648|end_char=6652
+6	Ärztin	Ärztin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=6653|end_char=6659
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6660|end_char=6664
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=6665|end_char=6669
+9	genaue	genau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=6670|end_char=6676
+10	Untersuchung	Untersuchung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=6677|end_char=6689
+11	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6690|end_char=6696
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=6696|end_char=6697
+
+# text = Nur ein Arzt oder eine Ärztin kann sagen, welche Krankheit Sie haben.
+# sent_id = 103
+1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=6698|end_char=6701
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=6702|end_char=6705
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=6706|end_char=6710
+4	oder	oder	CCONJ	KON	_	6	cc	_	start_char=6711|end_char=6715
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=6716|end_char=6720
+6	Ärztin	Ärztin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=6721|end_char=6727
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=6728|end_char=6732
+8	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6733|end_char=6738
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=6738|end_char=6739
+10	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	det	_	start_char=6740|end_char=6746
+11	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=6747|end_char=6756
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	obj	_	start_char=6757|end_char=6760
+13	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No|start_char=6761|end_char=6766
+14	.	.	PUNCT	$.	_	8	punct	_	start_char=6766|end_char=6767
+
+# text = Sie fühlen sich krank?
+# sent_id = 104
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6768|end_char=6771
+2	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6772|end_char=6778
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	nsubj	_	start_char=6779|end_char=6783
+4	krank	krank	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No|start_char=6784|end_char=6789
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=6789|end_char=6790
+
+# text = Oder Sie haben Fragen zu einer Krankheit?
+# sent_id = 105
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=6791|end_char=6795
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=6796|end_char=6799
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6800|end_char=6805
+4	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=6806|end_char=6812
+5	zu	zu	ADP	APPR	_	7	case	_	start_char=6813|end_char=6815
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=6816|end_char=6821
+7	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=6822|end_char=6831
+8	?	?	PUNCT	$.	_	3	punct	_	start_char=6831|end_char=6832
+
+# text = Dann gehen Sie bitte immer zu einem Arzt oder zu einer Ärztin.
+# sent_id = 106
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=6833|end_char=6837
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6838|end_char=6843
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6844|end_char=6847
+4	bitte	bitten	ADV	ADV	_	5	advmod	_	start_char=6848|end_char=6853
+5	immer	immer	ADV	ADV	_	2	advmod	_	start_char=6854|end_char=6859
+6	zu	zu	ADP	APPR	_	8	case	_	start_char=6860|end_char=6862
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=6863|end_char=6868
+8	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=6869|end_char=6873
+9	oder	oder	CCONJ	KON	_	12	cc	_	start_char=6874|end_char=6878
+10	zu	zu	ADP	APPR	_	12	case	_	start_char=6879|end_char=6881
+11	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=6882|end_char=6887
+12	Ärztin	Ärztin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|start_char=6888|end_char=6894
+13	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=6894|end_char=6895
+

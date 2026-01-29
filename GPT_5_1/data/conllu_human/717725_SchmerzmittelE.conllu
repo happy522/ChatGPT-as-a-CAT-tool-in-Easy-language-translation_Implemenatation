@@ -1,0 +1,1862 @@
+# text = Hier ist der Text in **Leichter Sprache**.
+# sent_id = 0
+1	Hier	hier	ADV	ADV	_	10	advmod	_	start_char=0|end_char=4
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=5|end_char=8
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=13|end_char=17
+5	in	in	ADP	APPR	_	8	case	_	start_char=18|end_char=20
+6	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=21|end_char=23
+7	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=23|end_char=31
+8	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=32|end_char=39
+9	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=39|end_char=40
+10	*	*	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=40|end_char=41
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=41|end_char=42
+
+# text = Ich benutze kurze Sätze und einfache Wörter.
+# sent_id = 1
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=43|end_char=46
+2	benutze	benutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=47|end_char=54
+3	kurze	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=55|end_char=60
+4	Sätze	Satz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=61|end_char=66
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=67|end_char=70
+6	einfache	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=71|end_char=79
+7	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No|start_char=80|end_char=86
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=86|end_char=87
+
+# text = Fachwörter erkläre ich. --- ## Schmerz‑Mittel – welches hilft wann?
+# sent_id = 2
+1	Fachwörter	Fachwort	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	start_char=88|end_char=98
+2	erkläre	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=99|end_char=106
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No|start_char=107|end_char=110
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=110|end_char=111
+5	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=112|end_char=113
+6	--	--	PUNCT	$(	_	9	punct	_	start_char=113|end_char=115
+7	##	##	X	XY	_	9	advmod	_	start_char=116|end_char=118
+8	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=119|end_char=126
+9	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=126|end_char=133
+10	–	–	PUNCT	$(	_	12	punct	_	start_char=134|end_char=135
+11	welches	welcher	DET	PWAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=136|end_char=143
+12	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=144|end_char=149
+13	wann	wann	ADV	ADV	_	12	advmod	_	SpaceAfter=No|start_char=150|end_char=154
+14	?	?	PUNCT	$.	_	2	punct	_	start_char=154|end_char=155
+
+# text = Dieser Text ist über: **Schmerz‑Mittel**.
+# sent_id = 3
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=156|end_char=162
+2	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=163|end_char=167
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=168|end_char=171
+4	über	über	ADP	PTKVZ	_	0	root	_	SpaceAfter=No|start_char=172|end_char=176
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=176|end_char=177
+6	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=178|end_char=180
+7	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|start_char=180|end_char=187
+8	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No|start_char=187|end_char=194
+9	*	*	PUNCT	$(	_	8	appos	_	SpaceAfter=No|start_char=194|end_char=195
+10	*	*	PUNCT	$(	_	8	dep	_	SpaceAfter=No|start_char=195|end_char=196
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=196|end_char=197
+
+# text = Schmerz‑Mittel sind Medikamente gegen Schmerzen.
+# sent_id = 4
+1	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=198|end_char=205
+2	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=205|end_char=212
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=213|end_char=217
+4	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=218|end_char=229
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=230|end_char=235
+6	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=236|end_char=245
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=245|end_char=246
+
+# text = --- ## Inhalte * Was sind Schmerz‑Mittel?
+# sent_id = 5
+1	---	---	PUNCT	$(	_	3	punct	_	start_char=247|end_char=250
+2	##	##	PUNCT	$(	_	3	punct	_	start_char=251|end_char=253
+3	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=254|end_char=261
+4	*	*	PUNCT	$(	_	8	punct	_	start_char=262|end_char=263
+5	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=264|end_char=267
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=268|end_char=272
+7	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=273|end_char=280
+8	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	SpaceAfter=No|start_char=280|end_char=287
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=287|end_char=288
+
+# text = * Wie wirken Schmerz‑Mittel?
+# sent_id = 6
+1	*	*	PUNCT	$(	_	3	punct	_	start_char=289|end_char=290
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	start_char=291|end_char=294
+3	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=295|end_char=301
+4	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=302|end_char=309
+5	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=309|end_char=316
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=316|end_char=317
+
+# text = * Was ist Acetylsalicylsäure (ASS)?
+# sent_id = 7
+1	*	*	PUNCT	$(	_	4	punct	_	start_char=318|end_char=319
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=320|end_char=323
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=324|end_char=327
+4	Acetylsalicylsäure	Acetylsalicylsäure	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=328|end_char=346
+5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=347|end_char=348
+6	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|start_char=348|end_char=351
+7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=351|end_char=352
+8	?	?	PUNCT	$.	_	4	punct	_	start_char=352|end_char=353
+
+# text = * Was ist Ibuprofen?
+# sent_id = 8
+1	*	*	PUNCT	$(	_	4	punct	_	start_char=354|end_char=355
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=356|end_char=359
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=360|end_char=363
+4	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=364|end_char=373
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=373|end_char=374
+
+# text = * Was ist Diclofenac? * Was ist Paracetamol?
+# sent_id = 9
+1	*	*	PUNCT	$(	_	4	punct	_	start_char=375|end_char=376
+2	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=377|end_char=380
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=381|end_char=384
+4	Diclofenac?	Diclofenac?	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=385|end_char=396
+5	*	*	PUNCT	$(	_	8	punct	_	start_char=397|end_char=398
+6	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=399|end_char=402
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=403|end_char=406
+8	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No|start_char=407|end_char=418
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=418|end_char=419
+
+# text = * Welche Neben‑Wirkungen kann es geben?
+# sent_id = 10
+1	*	*	PUNCT	$(	_	7	punct	_	start_char=420|end_char=421
+2	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	4	det	_	start_char=422|end_char=428
+3	Neben	neben	ADP	APPR	_	4	case	_	SpaceAfter=No|start_char=429|end_char=434
+4	‑Wirkungen	‑Wirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	start_char=434|end_char=444
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=445|end_char=449
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=450|end_char=452
+7	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=453|end_char=458
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=458|end_char=459
+
+# text = * Wo bekommen Sie mehr Informationen?
+# sent_id = 11
+1	*	*	PUNCT	$(	_	3	punct	_	start_char=460|end_char=461
+2	Wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	start_char=462|end_char=464
+3	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=465|end_char=473
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=474|end_char=477
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=478|end_char=482
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=483|end_char=496
+7	?	?	PUNCT	$.	_	3	punct	_	start_char=496|end_char=497
+
+# text = --- ## Was sind Schmerz‑Mittel?
+# sent_id = 12
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=498|end_char=501
+2	##	##	X	XY	_	0	root	_	start_char=502|end_char=504
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=505|end_char=508
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=509|end_char=513
+5	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|start_char=514|end_char=521
+6	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=521|end_char=528
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=528|end_char=529
+
+# text = Schmerz‑Mittel sind Medikamente gegen Schmerzen.
+# sent_id = 13
+1	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=530|end_char=537
+2	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=537|end_char=544
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=545|end_char=549
+4	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=550|end_char=561
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=562|end_char=567
+6	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=568|end_char=577
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=577|end_char=578
+
+# text = Sie helfen zum Beispiel bei: * Kopf‑Schmerzen * Erkältung * Fieber Es gibt 2 Arten von Schmerz‑Mitteln: ### 1. Schmerz‑Mittel **ohne Rezept** Diese Schmerz‑Mittel können Sie in der Apotheke kaufen.
+# sent_id = 14
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=579|end_char=582
+2	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=583|end_char=589
+3-4	zum	_	_	_	_	_	_	_	start_char=590|end_char=593
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=594|end_char=602
+6	bei	bei	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=603|end_char=606
+7	:	:	PUNCT	$.	_	10	punct	_	start_char=606|end_char=607
+8	*	*	PUNCT	$(	_	10	punct	_	start_char=608|end_char=609
+9	Kopf	Kopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No|start_char=610|end_char=614
+10	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=614|end_char=624
+11	*	*	PUNCT	$(	_	12	punct	_	start_char=625|end_char=626
+12	Erkältung	Erkältung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	start_char=627|end_char=636
+13	*	*	PUNCT	$(	_	16	punct	_	start_char=637|end_char=638
+14	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	start_char=639|end_char=645
+15	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	start_char=646|end_char=648
+16	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=649|end_char=653
+17	2	2	NUM	CARD	NumType=Card	18	nummod	_	start_char=654|end_char=655
+18	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=656|end_char=661
+19	von	von	ADP	APPR	_	20	case	_	start_char=662|end_char=665
+20	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No|start_char=666|end_char=673
+21	‑Mitteln	‑Mittel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	appos	_	SpaceAfter=No|start_char=673|end_char=681
+22	:	:	PUNCT	$.	_	26	punct	_	start_char=681|end_char=682
+23	###	###	PUNCT	$(	_	24	punct	_	start_char=683|end_char=686
+24	1	1	NUM	CARD	NumType=Card	26	nummod	_	SpaceAfter=No|start_char=687|end_char=688
+25	.	.	PUNCT	$.	_	24	punct	_	start_char=688|end_char=689
+26	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No|start_char=690|end_char=697
+27	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	start_char=697|end_char=704
+28	*	*	PUNCT	$(	_	30	punct	_	SpaceAfter=No|start_char=705|end_char=706
+29	*ohne	*ohn	NOUN	NN	Case=Nom|Number=Sing	30	punct	_	start_char=706|end_char=711
+30	Rezept	Rezept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	appos	_	SpaceAfter=No|start_char=712|end_char=718
+31	*	*	PUNCT	$(	_	30	punct	_	SpaceAfter=No|start_char=718|end_char=719
+32	*	*	PUNCT	$(	_	41	punct	_	start_char=719|end_char=720
+33	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	34	det	_	start_char=721|end_char=726
+34	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	SpaceAfter=No|start_char=727|end_char=734
+35	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	41	nsubj	_	start_char=734|end_char=741
+36	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	start_char=742|end_char=748
+37	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	41	obj	_	start_char=749|end_char=752
+38	in	in	ADP	APPR	_	40	case	_	start_char=753|end_char=755
+39	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=756|end_char=759
+40	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	41	obl	_	start_char=760|end_char=768
+41	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	2	parataxis	_	SpaceAfter=No|start_char=769|end_char=775
+42	.	.	PUNCT	$.	_	2	punct	_	start_char=775|end_char=776
+
+# text = Sie brauchen **kein** Rezept vom Arzt.
+# sent_id = 15
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=777|end_char=780
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=781|end_char=789
+3	*	*	PUNCT	$(	_	2	advmod	_	SpaceAfter=No|start_char=790|end_char=791
+4	*kein	*kein	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=791|end_char=796
+5	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=796|end_char=797
+6	*	*	PUNCT	$(	_	7	punct	_	start_char=797|end_char=798
+7	Rezept	Rezept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	start_char=799|end_char=805
+8-9	vom	_	_	_	_	_	_	_	start_char=806|end_char=809
+8	von	von	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=810|end_char=814
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=814|end_char=815
+
+# text = Zum Beispiel: * Paracetamol * Acetylsalicylsäure (kurz: ASS) * Ibuprofen * Diclofenac ### 2. Schmerz‑Mittel **mit Rezept** Diese Schmerz‑Mittel sind sehr stark.
+# sent_id = 16
+1-2	Zum	_	_	_	_	_	_	_	start_char=816|end_char=819
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No|start_char=820|end_char=828
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=828|end_char=829
+5	*	*	PUNCT	$(	_	6	punct	_	start_char=830|end_char=831
+6	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	start_char=832|end_char=843
+7	*	*	PUNCT	$(	_	8	punct	_	start_char=844|end_char=845
+8	Acetylsalicylsäure	Acetylsalicylsäure	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	start_char=846|end_char=864
+9	(	(	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=865|end_char=866
+10	kurz	kurz	ADJ	ADJD	Degree=Pos	6	appos	_	SpaceAfter=No|start_char=866|end_char=870
+11	:	:	PUNCT	$.	_	12	punct	_	start_char=870|end_char=871
+12	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No|start_char=872|end_char=875
+13	)	)	PUNCT	$(	_	10	punct	_	start_char=875|end_char=876
+14	*	*	PUNCT	$(	_	15	punct	_	start_char=877|end_char=878
+15	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	start_char=879|end_char=888
+16	*	*	PUNCT	$(	_	17	punct	_	start_char=889|end_char=890
+17	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	start_char=891|end_char=901
+18	###	###	PUNCT	$(	_	20	punct	_	start_char=902|end_char=905
+19	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	20	amod	_	start_char=906|end_char=908
+20	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No|start_char=909|end_char=916
+21	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	start_char=916|end_char=923
+22	*	*	PUNCT	$(	_	21	punct	_	SpaceAfter=No|start_char=924|end_char=925
+23	*mit	*mit	ADP	APPR	_	24	case	_	start_char=925|end_char=929
+24	Rezept	Rezept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|start_char=930|end_char=936
+25	*	*	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=936|end_char=937
+26	*	*	PUNCT	$(	_	32	punct	_	start_char=937|end_char=938
+27	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	28	det	_	start_char=939|end_char=944
+28	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpaceAfter=No|start_char=945|end_char=952
+29	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	start_char=952|end_char=959
+30	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	start_char=960|end_char=964
+31	sehr	sehr	ADV	ADV	_	32	advmod	_	start_char=965|end_char=969
+32	stark	stark	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=970|end_char=975
+33	.	.	PUNCT	$.	_	32	punct	_	start_char=975|end_char=976
+
+# text = Sie bekommen sie nur mit Rezept vom Arzt.
+# sent_id = 17
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=977|end_char=980
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=981|end_char=989
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=990|end_char=993
+4	nur	nur	ADV	ADV	_	2	advmod	_	start_char=994|end_char=997
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=998|end_char=1001
+6	Rezept	Rezept	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=1002|end_char=1008
+7-8	vom	_	_	_	_	_	_	_	start_char=1009|end_char=1012
+7	von	von	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=1013|end_char=1017
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1017|end_char=1018
+
+# text = Diese starken Schmerz‑Mittel heißen: **Opioide**.
+# sent_id = 18
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=1019|end_char=1024
+2	starken	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=1025|end_char=1032
+3	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=1033|end_char=1040
+4	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	appos	_	start_char=1040|end_char=1047
+5	heißen	heißen	VERB	VVFIN	Number=Plur|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1048|end_char=1054
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=1054|end_char=1055
+7	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1056|end_char=1058
+8	Opioide	Opioid	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|start_char=1058|end_char=1065
+9	*	*	PUNCT	$(	_	8	dep	_	SpaceAfter=No|start_char=1065|end_char=1066
+10	*	*	PUNCT	$(	_	8	dep	_	SpaceAfter=No|start_char=1066|end_char=1067
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1067|end_char=1068
+
+# text = --- ### Wichtiger Hinweis Jedes Schmerz‑Mittel hat andere Wirk‑Stoffe.
+# sent_id = 19
+1	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=1069|end_char=1070
+2	--	--	PUNCT	$(	_	9	punct	_	start_char=1070|end_char=1072
+3	###	###	PUNCT	$(	_	5	punct	_	start_char=1073|end_char=1076
+4	Wichtiger	Wichtiger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1077|end_char=1086
+5	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	start_char=1087|end_char=1094
+6	Jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	7	det	_	start_char=1095|end_char=1100
+7	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=1101|end_char=1108
+8	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	start_char=1108|end_char=1115
+9	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1116|end_char=1119
+10	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	12	det	_	start_char=1120|end_char=1126
+11	Wirk	Wirk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	compound	_	SpaceAfter=No|start_char=1127|end_char=1131
+12	‑Stoffe	‑Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|start_char=1131|end_char=1138
+13	.	.	PUNCT	$.	_	9	punct	_	start_char=1138|end_char=1139
+
+# text = Darum wirkt jedes Schmerz‑Mittel anders.
+# sent_id = 20
+1	Darum	darum	ADV	PAV	PronType=Dem	2	advmod	_	start_char=1140|end_char=1145
+2	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1146|end_char=1151
+3	jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	det	_	start_char=1152|end_char=1157
+4	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=1158|end_char=1165
+5	‑Mittel	‑Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=1165|end_char=1172
+6	anders	anders	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1173|end_char=1179
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1179|end_char=1180
+
+# text = Das bedeutet: * Nicht jedes Schmerz‑Mittel hilft bei allen Schmerzen.
+# sent_id = 21
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1181|end_char=1184
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1185|end_char=1193
+3	:	:	PUNCT	$.	_	9	punct	_	start_char=1193|end_char=1194
+4	*	*	PUNCT	$(	_	9	punct	_	start_char=1195|end_char=1196
+5	Nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=1197|end_char=1202
+6	jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	7	det	_	start_char=1203|end_char=1208
+7	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=1209|end_char=1216
+8	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=1216|end_char=1223
+9	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1224|end_char=1229
+10	bei	bei	ADP	APPR	_	12	case	_	start_char=1230|end_char=1233
+11	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	12	det	_	start_char=1234|end_char=1239
+12	Schmerzen	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|start_char=1240|end_char=1249
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=1249|end_char=1250
+
+# text = * Ein Schmerz‑Mittel kann bei einer Person gut helfen.
+# sent_id = 22
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1251|end_char=1252
+2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1253|end_char=1256
+3	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|start_char=1257|end_char=1264
+4	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1264|end_char=1271
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1272|end_char=1276
+6	bei	bei	ADP	APPR	_	8	case	_	start_char=1277|end_char=1280
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1281|end_char=1286
+8	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=1287|end_char=1293
+9	gut	gut	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=1294|end_char=1297
+10	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1298|end_char=1304
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1304|end_char=1305
+
+# text = *
+# sent_id = 23
+1	*	*	PUNCT	$(	_	0	root	_	start_char=1306|end_char=1307
+
+# text = Bei einer anderen Person hilft es vielleicht nicht gut.
+# sent_id = 24
+1	Bei	bei	ADP	APPR	_	4	case	_	start_char=1308|end_char=1311
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1312|end_char=1317
+3	anderen	anderer	DET	ADJA	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	start_char=1318|end_char=1325
+4	Person	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=1326|end_char=1332
+5	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1333|end_char=1338
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=1339|end_char=1341
+7	vielleicht	vielleicht	ADV	ADV	_	5	advmod	_	start_char=1342|end_char=1352
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=1353|end_char=1358
+9	gut	gut	ADJ	ADJD	Degree=Pos	5	advmod	_	SpaceAfter=No|start_char=1359|end_char=1362
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=1362|end_char=1363
+
+# text = Lassen Sie sich beraten: * in der Apotheke * oder beim Arzt --- ## Wie wirken Schmerz‑Mittel?
+# sent_id = 25
+1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1364|end_char=1370
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1371|end_char=1374
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=1375|end_char=1379
+4	beraten	beraten	VERB	VVINF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No|start_char=1380|end_char=1387
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=1387|end_char=1388
+6	*	*	PUNCT	$(	_	9	punct	_	start_char=1389|end_char=1390
+7	in	in	ADP	APPR	_	9	case	_	start_char=1391|end_char=1393
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1394|end_char=1397
+9	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=1398|end_char=1406
+10	*	*	PUNCT	$(	_	9	punct	_	start_char=1407|end_char=1408
+11	oder	oder	CCONJ	KON	_	14	cc	_	start_char=1409|end_char=1413
+12-13	beim	_	_	_	_	_	_	_	start_char=1414|end_char=1418
+12	bei	bei	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=1419|end_char=1423
+15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=1424|end_char=1425
+16	--	--	PUNCT	$(	_	19	punct	_	start_char=1425|end_char=1427
+17	##	##	X	XY	_	19	advmod	_	start_char=1428|end_char=1430
+18	Wie	wie	ADV	PWAV	PronType=Int	19	advmod	_	start_char=1431|end_char=1434
+19	wirken	wirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	start_char=1435|end_char=1441
+20	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No|start_char=1442|end_char=1449
+21	‑Mittel	‑Mittel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No|start_char=1449|end_char=1456
+22	?	?	PUNCT	$.	_	19	punct	_	start_char=1456|end_char=1457
+
+# text = Wenn Sie sich verletzen, kann Gewebe im Körper kaputt gehen.
+# sent_id = 26
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=1458|end_char=1462
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1463|end_char=1466
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1467|end_char=1471
+4	verletzen	verletzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=1472|end_char=1481
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1481|end_char=1482
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1483|end_char=1487
+7	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=1488|end_char=1494
+8-9	im	_	_	_	_	_	_	_	start_char=1495|end_char=1497
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1498|end_char=1504
+11	kaputt	kaputt	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=1505|end_char=1511
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1512|end_char=1517
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=1517|end_char=1518
+
+# text = Gewebe sind Teile im Körper.
+# sent_id = 27
+1	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=1519|end_char=1525
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1526|end_char=1530
+3	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=1531|end_char=1536
+4-5	im	_	_	_	_	_	_	_	start_char=1537|end_char=1539
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1540|end_char=1546
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1546|end_char=1547
+
+# text = Zum Beispiel: Haut, Muskeln, Organe.
+# sent_id = 28
+1-2	Zum	_	_	_	_	_	_	_	start_char=1548|end_char=1551
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=1552|end_char=1560
+4	:	:	PUNCT	$.	_	5	punct	_	start_char=1560|end_char=1561
+5	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1562|end_char=1566
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=1566|end_char=1567
+7	Muskeln	Muskel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No|start_char=1568|end_char=1575
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=1575|end_char=1576
+9	Organe	Organ	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No|start_char=1577|end_char=1583
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=1583|end_char=1584
+
+# text = Auch eine Entzündung kann Gewebe kaputt machen.
+# sent_id = 29
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=1585|end_char=1589
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1590|end_char=1594
+3	Entzündung	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=1595|end_char=1605
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1606|end_char=1610
+5	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=1611|end_char=1617
+6	kaputt	kaputt	ADJ	ADJD	Degree=Pos	7	xcomp	_	start_char=1618|end_char=1624
+7	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1625|end_char=1631
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1631|end_char=1632
+
+# text = Dann macht der Körper Stoffe.
+# sent_id = 30
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1633|end_char=1637
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1638|end_char=1643
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1644|end_char=1647
+4	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1648|end_char=1654
+5	Stoffe	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=1655|end_char=1661
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=1661|end_char=1662
+
+# text = Diese Stoffe heißen: **Prostaglandine**.
+# sent_id = 31
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=1663|end_char=1668
+2	Stoffe	Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1669|end_char=1675
+3	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1676|end_char=1682
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=1682|end_char=1683
+5	**	**	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1684|end_char=1686
+6	Prostaglandine	Prostaglandine	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|start_char=1686|end_char=1700
+7	*	*	PUNCT	$(	_	6	appos	_	SpaceAfter=No|start_char=1700|end_char=1701
+8	*	*	PUNCT	$(	_	6	dep	_	SpaceAfter=No|start_char=1701|end_char=1702
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1702|end_char=1703
+
+# text = Prostaglandine sind Boten‑Stoffe.
+# sent_id = 32
+1	Prostaglandine	Prostaglandine	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1704|end_char=1718
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1719|end_char=1723
+3	Boten	Bote	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	SpaceAfter=No|start_char=1724|end_char=1729
+4	‑Stoffe	‑Stoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=1729|end_char=1736
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1736|end_char=1737
+
+# text = Das bedeutet: * Sie leiten Informationen weiter.
+# sent_id = 33
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=1738|end_char=1741
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1742|end_char=1750
+3	:	:	PUNCT	$.	_	6	punct	_	start_char=1750|end_char=1751
+4	*	*	PUNCT	$(	_	6	punct	_	start_char=1752|end_char=1753
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=1754|end_char=1757
+6	leiten	leiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1758|end_char=1764
+7	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=1765|end_char=1778
+8	weiter	weiter	ADV	PTKVZ	_	6	compound:prt	_	SpaceAfter=No|start_char=1779|end_char=1785
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=1785|end_char=1786
+
+# text = * Sie sagen dem Körper: Hier ist Schmerz.
+# sent_id = 34
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1787|end_char=1788
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1789|end_char=1792
+3	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1793|end_char=1798
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1799|end_char=1802
+5	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No|start_char=1803|end_char=1809
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=1809|end_char=1810
+7	Hier	hier	ADV	ADV	_	9	advmod	_	start_char=1811|end_char=1815
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1816|end_char=1819
+9	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	SpaceAfter=No|start_char=1820|end_char=1827
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=1827|end_char=1828
+
+# text = * Sie senden den Schmerz an das Gehirn.
+# sent_id = 35
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=1829|end_char=1830
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1831|end_char=1834
+3	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1835|end_char=1841
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1842|end_char=1845
+5	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=1846|end_char=1853
+6	an	an	ADP	APPR	_	8	case	_	start_char=1854|end_char=1856
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=1857|end_char=1860
+8	Gehirn	Gehirn	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|start_char=1861|end_char=1867
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1867|end_char=1868
+
+# text = * Dann spüren wir den Schmerz.
+# sent_id = 36
+1	*	*	PUNCT	$(	_	3	punct	_	start_char=1869|end_char=1870
+2	Dann	dann	ADV	ADV	_	3	advmod	_	start_char=1871|end_char=1875
+3	spüren	spüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1876|end_char=1882
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1883|end_char=1886
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1887|end_char=1890
+6	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=1891|end_char=1898
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1898|end_char=1899
+
+# text = Schmerz‑Mittel machen Folgendes: * Sie bremsen die Herstellung von Prostaglandinen.
+# sent_id = 37
+1	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=1900|end_char=1907
+2	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1907|end_char=1914
+3	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1915|end_char=1921
+4	Folgendes	folgender	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No|start_char=1922|end_char=1931
+5	:	:	PUNCT	$.	_	8	punct	_	start_char=1931|end_char=1932
+6	*	*	PUNCT	$(	_	8	punct	_	start_char=1933|end_char=1934
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=1935|end_char=1938
+8	bremsen	bremsen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1939|end_char=1946
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1947|end_char=1950
+10	Herstellung	Herstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1951|end_char=1962
+11	von	von	ADP	APPR	_	12	case	_	start_char=1963|end_char=1966
+12	Prostaglandinen	Prostaglandine	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No|start_char=1967|end_char=1982
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=1982|end_char=1983
+
+# text = * Dann werden weniger Schmerz‑Signale an das Gehirn geschickt.
+# sent_id = 38
+1	*	*	PUNCT	$(	_	10	punct	_	start_char=1984|end_char=1985
+2	Dann	dann	ADV	ADV	_	10	advmod	_	start_char=1986|end_char=1990
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1991|end_char=1997
+4	weniger	wenig	DET	PIAT	PronType=Ind	5	det	_	start_char=1998|end_char=2005
+5	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No|start_char=2006|end_char=2013
+6	‑Signale	‑Signal	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	start_char=2013|end_char=2021
+7	an	an	ADP	APPR	_	9	case	_	start_char=2022|end_char=2024
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=2025|end_char=2028
+9	Gehirn	Gehirn	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=2029|end_char=2035
+10	geschickt	schicken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2036|end_char=2045
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2045|end_char=2046
+
+# text = *
+# sent_id = 39
+1	*	*	PUNCT	$(	_	0	root	_	start_char=2047|end_char=2048
+
+# text = Wir spüren den Schmerz weniger oder gar nicht – für eine bestimmte Zeit.
+# sent_id = 40
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=2049|end_char=2052
+2	spüren	spüren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2053|end_char=2059
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2060|end_char=2063
+4	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2064|end_char=2071
+5	weniger	weniger	ADV	ADV	_	2	advmod	_	start_char=2072|end_char=2079
+6	oder	oder	CCONJ	KON	_	8	cc	_	start_char=2080|end_char=2084
+7	gar	gar	ADV	ADV	_	8	advmod	_	start_char=2085|end_char=2088
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	conj	_	start_char=2089|end_char=2094
+9	–	–	PUNCT	$(	_	13	punct	_	start_char=2095|end_char=2096
+10	für	für	ADP	APPR	_	13	case	_	start_char=2097|end_char=2100
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=2101|end_char=2105
+12	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=2106|end_char=2115
+13	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=2116|end_char=2120
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=2120|end_char=2121
+
+# text = Aber: Prostaglandine sind auch wichtig für andere Dinge im Körper.
+# sent_id = 41
+1	Aber	aber	ADV	ADV	_	6	advmod	_	SpaceAfter=No|start_char=2122|end_char=2126
+2	:	:	PUNCT	$.	_	6	punct	_	start_char=2126|end_char=2127
+3	Prostaglandine	Prostaglandine	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=2128|end_char=2142
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2143|end_char=2147
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=2148|end_char=2152
+6	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2153|end_char=2160
+7	für	für	ADP	APPR	_	9	case	_	start_char=2161|end_char=2164
+8	andere	anderer	DET	ADJA	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	start_char=2165|end_char=2171
+9	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nmod	_	start_char=2172|end_char=2177
+10-11	im	_	_	_	_	_	_	_	start_char=2178|end_char=2180
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=2181|end_char=2187
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=2187|end_char=2188
+
+# text = Darum können Schmerz‑Mittel auch **Neben‑Wirkungen** haben.
+# sent_id = 42
+1	Darum	darum	ADV	PAV	PronType=Dem	10	advmod	_	start_char=2189|end_char=2194
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2195|end_char=2201
+3	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=2202|end_char=2209
+4	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	start_char=2209|end_char=2216
+5	auch	auch	ADV	ADV	_	10	advmod	_	start_char=2217|end_char=2221
+6	**	**	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=2222|end_char=2224
+7	Neben	neben	ADP	APPR	_	8	case	_	SpaceAfter=No|start_char=2224|end_char=2229
+8	‑Wirkungen	‑Wirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|start_char=2229|end_char=2239
+9	*	*	X	XY	_	8	appos	_	SpaceAfter=No|start_char=2239|end_char=2240
+10	*	*	PUNCT	$(	_	0	root	_	start_char=2240|end_char=2241
+11	haben	haben	AUX	VAINF	VerbForm=Inf	10	aux	_	SpaceAfter=No|start_char=2242|end_char=2247
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2247|end_char=2248
+
+# text = Neben‑Wirkungen sind unerwünschte Wirkungen.
+# sent_id = 43
+1	Neben	neben	ADP	APPR	_	2	case	_	SpaceAfter=No|start_char=2249|end_char=2254
+2	‑Wirkungen	‑Wirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=2254|end_char=2264
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2265|end_char=2269
+4	unerwünschte	unerwünscht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2270|end_char=2282
+5	Wirkungen	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=2283|end_char=2292
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2292|end_char=2293
+
+# text = Zum Beispiel: Bauch‑Schmerzen, Ausschlag, Übelkeit.
+# sent_id = 44
+1-2	Zum	_	_	_	_	_	_	_	start_char=2294|end_char=2297
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=2298|end_char=2306
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=2306|end_char=2307
+5	Bauch	Bauch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=2308|end_char=2313
+6	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|start_char=2313|end_char=2323
+7	,	,	PUNCT	$,	_	8	punct	_	start_char=2323|end_char=2324
+8	Ausschlag	Ausschlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|start_char=2325|end_char=2334
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=2334|end_char=2335
+10	Übelkeit	Übelkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|start_char=2336|end_char=2344
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=2344|end_char=2345
+
+# text = --- ## Was ist Acetylsalicylsäure (ASS)?
+# sent_id = 45
+1	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2346|end_char=2347
+2	--	--	PUNCT	$(	_	6	punct	_	start_char=2347|end_char=2349
+3	##	##	X	XY	Case=Nom|Number=Sing	6	dep	_	start_char=2350|end_char=2352
+4	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=2353|end_char=2356
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2357|end_char=2360
+6	Acetylsalicylsäure	Acetylsalicylsäure	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2361|end_char=2379
+7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=2380|end_char=2381
+8	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|start_char=2381|end_char=2384
+9	)	)	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=2384|end_char=2385
+10	?	?	PUNCT	$.	_	6	punct	_	start_char=2385|end_char=2386
+
+# text = Acetylsalicylsäure nennt man kurz: **ASS**.
+# sent_id = 46
+1	Acetylsalicylsäure	Acetylsalicylsäure	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2387|end_char=2405
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2406|end_char=2411
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=2412|end_char=2415
+4	kurz	kurz	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No|start_char=2416|end_char=2420
+5	:	:	PUNCT	$.	_	6	punct	_	start_char=2420|end_char=2421
+6	**ASS	**ASS	PROPN	NE	Case=Nom|Number=Sing	4	appos	_	SpaceAfter=No|start_char=2422|end_char=2427
+7	*	*	PUNCT	$(	_	6	appos	_	SpaceAfter=No|start_char=2427|end_char=2428
+8	*	*	PUNCT	$(	_	6	dep	_	SpaceAfter=No|start_char=2428|end_char=2429
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=2429|end_char=2430
+
+# text = ASS hilft gut bei: * starken Kopf‑Schmerzen * Beschwerden bei Erkältung * Fieber * Entzündungen im Körper ASS kann: * Schmerzen lindern * Fieber senken * Entzündungen verringern Aber: Bei **Zahn‑Schmerzen** soll man ASS **nicht** nehmen.
+# sent_id = 47
+1	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2431|end_char=2434
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2435|end_char=2440
+3	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2441|end_char=2444
+4	bei	bei	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=2445|end_char=2448
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=2448|end_char=2449
+6	*	*	PUNCT	$(	_	9	punct	_	start_char=2450|end_char=2451
+7	starken	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=2452|end_char=2459
+8	Kopf	Kopf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No|start_char=2460|end_char=2464
+9	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	parataxis	_	start_char=2464|end_char=2474
+10	*	*	PUNCT	$(	_	11	punct	_	start_char=2475|end_char=2476
+11	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	start_char=2477|end_char=2488
+12	bei	bei	ADP	APPR	_	13	case	_	start_char=2489|end_char=2492
+13	Erkältung	Erkältung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	start_char=2493|end_char=2502
+14	*	*	PUNCT	$(	_	15	punct	_	start_char=2503|end_char=2504
+15	Fieber	Fieber	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	appos	_	start_char=2505|end_char=2511
+16	*	*	PUNCT	$(	_	17	punct	_	start_char=2512|end_char=2513
+17	Entzündungen	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	start_char=2514|end_char=2526
+18-19	im	_	_	_	_	_	_	_	start_char=2527|end_char=2529
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=2530|end_char=2536
+21	ASS	ASS	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	20	appos	_	start_char=2537|end_char=2540
+22	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No|start_char=2541|end_char=2545
+23	:	:	PUNCT	$.	_	26	punct	_	start_char=2545|end_char=2546
+24	*	*	PUNCT	$(	_	26	punct	_	start_char=2547|end_char=2548
+25	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	start_char=2549|end_char=2558
+26	lindern	lindern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2559|end_char=2566
+27	*	*	PUNCT	$(	_	29	punct	_	start_char=2567|end_char=2568
+28	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	start_char=2569|end_char=2575
+29	senken	senken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	start_char=2576|end_char=2582
+30	*	*	PUNCT	$(	_	32	punct	_	start_char=2583|end_char=2584
+31	Entzündungen	Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	start_char=2585|end_char=2597
+32	verringern	verringern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	start_char=2598|end_char=2608
+33	Aber	aber	ADV	ADV	_	32	advmod	_	SpaceAfter=No|start_char=2609|end_char=2613
+34	:	:	PUNCT	$.	_	47	punct	_	start_char=2613|end_char=2614
+35	Bei	bei	ADP	APPR	_	37	case	_	start_char=2615|end_char=2618
+36	**	**	PUNCT	$(	_	38	punct	_	SpaceAfter=No|start_char=2619|end_char=2621
+37	Zahn	Zahn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No|start_char=2621|end_char=2625
+38	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No|start_char=2625|end_char=2635
+39	*	*	PUNCT	$(	_	38	punct	_	SpaceAfter=No|start_char=2635|end_char=2636
+40	*	*	PUNCT	$(	_	38	punct	_	start_char=2636|end_char=2637
+41	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	start_char=2638|end_char=2642
+42	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	47	nsubj	_	start_char=2643|end_char=2646
+43	ASS	ASS	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	47	obj	_	start_char=2647|end_char=2650
+44	**nicht	**nicht	PROPN	NE	_	43	flat	_	SpaceAfter=No|start_char=2651|end_char=2658
+45	*	*	PUNCT	$(	_	44	punct	_	SpaceAfter=No|start_char=2658|end_char=2659
+46	*	*	PUNCT	$(	_	47	advmod	_	start_char=2659|end_char=2660
+47	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	32	ccomp	_	SpaceAfter=No|start_char=2661|end_char=2667
+48	.	.	PUNCT	$.	_	2	punct	_	start_char=2667|end_char=2668
+
+# text = Frauen sollen ASS **nicht** bei Regel‑Schmerzen nehmen.
+# sent_id = 48
+1	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=2669|end_char=2675
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2676|end_char=2682
+3	ASS	ASS	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	start_char=2683|end_char=2686
+4	**nicht	**nicht	PROPN	NE	_	3	flat	_	SpaceAfter=No|start_char=2687|end_char=2694
+5	*	*	PUNCT	$(	_	3	case	_	SpaceAfter=No|start_char=2694|end_char=2695
+6	*	*	PUNCT	$(	_	8	case	_	start_char=2695|end_char=2696
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=2697|end_char=2700
+8	Regel	Regel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|start_char=2701|end_char=2706
+9	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=2706|end_char=2716
+10	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2717|end_char=2723
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2723|end_char=2724
+
+# text = Der Grund: ASS verändert die **Blut‑Gerinnung**.
+# sent_id = 49
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=2725|end_char=2728
+2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=2729|end_char=2734
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=2734|end_char=2735
+4	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=2736|end_char=2739
+5	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2740|end_char=2749
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2750|end_char=2753
+7	*	*	PUNCT	$(	_	5	obj	_	SpaceAfter=No|start_char=2754|end_char=2755
+8	*	*	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=2755|end_char=2756
+9	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|start_char=2756|end_char=2760
+10	‑	‑	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=2760|end_char=2761
+11	Gerinnung	Gerinnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No|start_char=2761|end_char=2770
+12	*	*	PUNCT	$(	_	11	dep	_	SpaceAfter=No|start_char=2770|end_char=2771
+13	*	*	PUNCT	$(	_	11	dep	_	SpaceAfter=No|start_char=2771|end_char=2772
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=2772|end_char=2773
+
+# text = Blut‑Gerinnung bedeutet: *
+# sent_id = 50
+1	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=2774|end_char=2778
+2	‑Gerinnung	‑Gerinnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=2778|end_char=2788
+3	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=2789|end_char=2797
+4	:	:	PUNCT	$.	_	3	punct	_	start_char=2797|end_char=2798
+5	*	*	PUNCT	$(	_	3	punct	_	start_char=2799|end_char=2800
+
+# text = Das Blut kann bei einer Verletzung einen „Propf“ bilden.
+# sent_id = 51
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=2801|end_char=2804
+2	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=2805|end_char=2809
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2810|end_char=2814
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=2815|end_char=2818
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=2819|end_char=2824
+6	Verletzung	Verletzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=2825|end_char=2835
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=2836|end_char=2841
+8	„	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=2842|end_char=2843
+9	Propf	Propf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|start_char=2843|end_char=2848
+10	“	"	PUNCT	$(	_	9	punct	_	start_char=2848|end_char=2849
+11	bilden	bilden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2850|end_char=2856
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2856|end_char=2857
+
+# text = * Dann hört die Blutung auf.
+# sent_id = 52
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=2858|end_char=2859
+2	Dann	dann	ADV	ADV	_	3	advmod	_	start_char=2860|end_char=2864
+3	hört	hören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2865|end_char=2869
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2870|end_char=2873
+5	Blutung	Blutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2874|end_char=2881
+6	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=2882|end_char=2885
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2885|end_char=2886
+
+# text = ASS sorgt dafür, dass das Blut **schlechter gerinnt**.
+# sent_id = 53
+1	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2887|end_char=2890
+2	sorgt	sorgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2891|end_char=2896
+3	dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No|start_char=2897|end_char=2902
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=2902|end_char=2903
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=2904|end_char=2908
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2909|end_char=2912
+7	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=2913|end_char=2917
+8	**schlechter	**schlecht	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=2918|end_char=2930
+9	gerinnt	gerinnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|start_char=2931|end_char=2938
+10	*	*	PUNCT	$(	_	9	aux	_	SpaceAfter=No|start_char=2938|end_char=2939
+11	*	*	PUNCT	$(	_	9	aux	_	SpaceAfter=No|start_char=2939|end_char=2940
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=2940|end_char=2941
+
+# text = Diese Wirkung hält **lange** an.
+# sent_id = 54
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=2942|end_char=2947
+2	Wirkung	Wirkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2948|end_char=2955
+3	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2956|end_char=2960
+4	**lange	**lange	PROPN	NE	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=2961|end_char=2968
+5	*	*	PUNCT	$(	_	3	xcomp	_	SpaceAfter=No|start_char=2968|end_char=2969
+6	*	*	PUNCT	$(	_	3	advmod	_	start_char=2969|end_char=2970
+7	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=2971|end_char=2973
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=2973|end_char=2974
+
+# text = ### Wichtiger Hinweis zu ASS * Sie sind schwanger?
+# sent_id = 55
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=2975|end_char=2978
+2	Wichtiger	Wichtiger	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=2979|end_char=2988
+3	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2989|end_char=2996
+4	zu	zu	ADP	APPR	_	5	case	_	start_char=2997|end_char=2999
+5	ASS	ASS	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=3000|end_char=3003
+6	*	*	PUNCT	$(	_	9	punct	_	start_char=3004|end_char=3005
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=3006|end_char=3009
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3010|end_char=3014
+9	schwanger	schwanger	ADJ	ADJD	Degree=Pos	3	parataxis	_	SpaceAfter=No|start_char=3015|end_char=3024
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=3024|end_char=3025
+
+# text = Sprechen Sie **vorher** mit Ihrem Arzt, bevor Sie ASS nehmen.
+# sent_id = 56
+1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3026|end_char=3034
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=3035|end_char=3038
+3	**vorher	**vorher	X	NE	_	1	advmod	_	SpaceAfter=No|start_char=3039|end_char=3047
+4	*	*	PUNCT	$(	_	1	advmod	_	SpaceAfter=No|start_char=3047|end_char=3048
+5	*	*	PUNCT	$(	_	8	punct	_	start_char=3048|end_char=3049
+6	mit	mit	ADP	APPR	_	8	case	_	start_char=3050|end_char=3053
+7	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=3054|end_char=3059
+8	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|start_char=3060|end_char=3064
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=3064|end_char=3065
+10	bevor	bevor	SCONJ	KOUS	_	13	mark	_	start_char=3066|end_char=3071
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=3072|end_char=3075
+12	ASS	ASS	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=3076|end_char=3079
+13	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No|start_char=3080|end_char=3086
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=3086|end_char=3087
+
+# text = * Kinder und Jugendliche dürfen **kein** ASS nehmen.
+# sent_id = 57
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=3088|end_char=3089
+2	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=3090|end_char=3096
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=3097|end_char=3100
+4	Jugendliche	Jugendliche	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=3101|end_char=3112
+5	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=3113|end_char=3119
+6	*	*	PUNCT	$(	_	11	advmod	_	SpaceAfter=No|start_char=3120|end_char=3121
+7	*kein	*kein	NOUN	NN	_	11	obj	_	SpaceAfter=No|start_char=3121|end_char=3126
+8	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=3126|end_char=3127
+9	*	*	PUNCT	$(	_	11	advmod	_	start_char=3127|end_char=3128
+10	ASS	ASS	PROPN	NE	Case=Acc|Number=Sing	11	obj	_	start_char=3129|end_char=3132
+11	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3133|end_char=3139
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=3139|end_char=3140
+
+# text = Warum?
+# sent_id = 58
+1	Warum	warum	ADV	PWAV	PronType=Int	0	root	_	SpaceAfter=No|start_char=3141|end_char=3146
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=3146|end_char=3147
+
+# text = ASS kann bei Kindern und Jugendlichen eine seltene Krankheit auslösen: Das **Reye‑Syndrom**.
+# sent_id = 59
+1	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=3148|end_char=3151
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3152|end_char=3156
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=3157|end_char=3160
+4	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=3161|end_char=3168
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=3169|end_char=3172
+6	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	4	conj	_	start_char=3173|end_char=3185
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=3186|end_char=3190
+8	seltene	selten	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3191|end_char=3198
+9	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=3199|end_char=3208
+10	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3209|end_char=3217
+11	:	:	PUNCT	$.	_	13	punct	_	start_char=3217|end_char=3218
+12	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=3219|end_char=3222
+13	*	*	PUNCT	$(	_	10	appos	_	SpaceAfter=No|start_char=3223|end_char=3224
+14	*	*	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=3224|end_char=3225
+15	Reye	Reye	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	13	appos	_	SpaceAfter=No|start_char=3225|end_char=3229
+16	‑Syndrom	‑Syndrom	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	15	flat	_	SpaceAfter=No|start_char=3229|end_char=3237
+17	*	*	PUNCT	$(	_	15	appos	_	SpaceAfter=No|start_char=3237|end_char=3238
+18	*	*	PUNCT	$(	_	15	dep	_	SpaceAfter=No|start_char=3238|end_char=3239
+19	.	.	PUNCT	$.	_	10	punct	_	start_char=3239|end_char=3240
+
+# text = Das Reye‑Syndrom: * ist sehr selten * kann Gehirn und Leber schädigen * ist sehr gefährlich Darum: Kinder und Jugendliche sollen **kein ASS** bekommen.
+# sent_id = 60
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=3241|end_char=3244
+2	Reye	Reye	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=3245|end_char=3249
+3	‑Syndrom	‑Syndrom	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	SpaceAfter=No|start_char=3249|end_char=3257
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=3257|end_char=3258
+5	*	*	PUNCT	$(	_	8	nsubj	_	start_char=3259|end_char=3260
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3261|end_char=3264
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	start_char=3265|end_char=3269
+8	selten	selten	ADJ	ADJD	Degree=Pos	14	parataxis	_	start_char=3270|end_char=3276
+9	*	*	PUNCT	$(	_	14	punct	_	start_char=3277|end_char=3278
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=3279|end_char=3283
+11	Gehirn	Gehirn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	obj	_	start_char=3284|end_char=3290
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=3291|end_char=3294
+13	Leber	Leber	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=3295|end_char=3300
+14	schädigen	schädigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3301|end_char=3310
+15	*	*	PUNCT	$(	_	18	punct	_	start_char=3311|end_char=3312
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=3313|end_char=3316
+17	sehr	sehr	ADV	ADV	_	18	advmod	_	start_char=3317|end_char=3321
+18	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	14	conj	_	start_char=3322|end_char=3332
+19	Darum	darum	ADV	PAV	PronType=Dem	18	advmod	_	SpaceAfter=No|start_char=3333|end_char=3338
+20	:	:	PUNCT	$.	_	30	punct	_	start_char=3338|end_char=3339
+21	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	30	nsubj	_	start_char=3340|end_char=3346
+22	und	und	CCONJ	KON	_	23	cc	_	start_char=3347|end_char=3350
+23	Jugendliche	Jugendliche	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	conj	_	start_char=3351|end_char=3362
+24	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=3363|end_char=3369
+25	*	*	PUNCT	$(	_	30	advmod	_	SpaceAfter=No|start_char=3370|end_char=3371
+26	*kein	*kein	X	XY	_	30	advmod	_	start_char=3371|end_char=3376
+27	ASS	ASS	PROPN	NE	Case=Nom|Number=Sing	26	flat	_	SpaceAfter=No|start_char=3377|end_char=3380
+28	*	*	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=3380|end_char=3381
+29	*	*	PUNCT	$(	_	27	punct	_	start_char=3381|end_char=3382
+30	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	18	parataxis	_	SpaceAfter=No|start_char=3383|end_char=3391
+31	.	.	PUNCT	$.	_	14	punct	_	start_char=3391|end_char=3392
+
+# text = --- ## Was ist Ibuprofen?
+# sent_id = 61
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=3393|end_char=3396
+2	##	##	X	XY	_	5	dep	_	start_char=3397|end_char=3399
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=3400|end_char=3403
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3404|end_char=3407
+5	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=3408|end_char=3417
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=3417|end_char=3418
+
+# text = **Ibuprofen** ist auch ein Schmerz‑Mittel.
+# sent_id = 62
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=3419|end_char=3421
+2	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=3421|end_char=3430
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=3430|end_char=3431
+4	*	*	PUNCT	$(	_	2	appos	_	start_char=3431|end_char=3432
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3433|end_char=3436
+6	auch	auch	ADV	ADV	_	8	advmod	_	start_char=3437|end_char=3441
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=3442|end_char=3445
+8	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=3446|end_char=3453
+9	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No|start_char=3453|end_char=3460
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=3460|end_char=3461
+
+# text = Ibuprofen hilft besonders bei: * rheumatoider Arthritis (das ist eine entzündliche Krankheit in den Gelenken) * akuter Mittel‑Ohr‑Entzündung * Mandel‑Entzündung * Kopf‑Schmerzen * Schmerzen bei Erkältung Ibuprofen hat zwei wichtige Eigenschaften: * Es verändert die Blut‑Gerinnung **weniger** als ASS.
+# sent_id = 63
+1	Ibuprofen	Ibuprofen	NOUN	NN	Number=Sing	2	nsubj	_	start_char=3462|end_char=3471
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3472|end_char=3477
+3	besonders	besonders	ADV	ADV	_	2	advmod	_	start_char=3478|end_char=3487
+4	bei	bei	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=3488|end_char=3491
+5	:	:	PUNCT	$.	_	8	punct	_	start_char=3491|end_char=3492
+6	*	*	PUNCT	$(	_	8	punct	_	start_char=3493|end_char=3494
+7	rheumatoider	rheumatoid	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=3495|end_char=3507
+8	Arthritis	Arthritis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	appos	_	start_char=3508|end_char=3517
+9	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=3518|end_char=3519
+10	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	nsubj	_	start_char=3519|end_char=3522
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=3523|end_char=3526
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=3527|end_char=3531
+13	entzündliche	entzündlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=3532|end_char=3544
+14	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	start_char=3545|end_char=3554
+15	in	in	ADP	APPR	_	17	case	_	start_char=3555|end_char=3557
+16	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=3558|end_char=3561
+17	Gelenken	Gelenk	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No|start_char=3562|end_char=3570
+18	)	)	PUNCT	$(	_	14	punct	_	start_char=3570|end_char=3571
+19	*	*	PUNCT	$(	_	21	punct	_	start_char=3572|end_char=3573
+20	akuter	akut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=3574|end_char=3580
+21	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|start_char=3581|end_char=3587
+22	‑Ohr	‑Ohr	NOUN	NN	Case=Nom|Number=Sing	21	appos	_	SpaceAfter=No|start_char=3587|end_char=3591
+23	‑Entzündung	‑Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	appos	_	start_char=3591|end_char=3602
+24	*	*	PUNCT	$(	_	26	punct	_	start_char=3603|end_char=3604
+25	Mandel	Mandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No|start_char=3605|end_char=3611
+26	‑Entzündung	‑Entzündung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	appos	_	start_char=3611|end_char=3622
+27	*	*	PUNCT	$(	_	29	punct	_	start_char=3623|end_char=3624
+28	Kopf	Kopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	compound	_	SpaceAfter=No|start_char=3625|end_char=3629
+29	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	appos	_	start_char=3629|end_char=3639
+30	*	*	PUNCT	$(	_	31	punct	_	start_char=3640|end_char=3641
+31	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	start_char=3642|end_char=3651
+32	bei	bei	ADP	APPR	_	33	case	_	start_char=3652|end_char=3655
+33	Erkältung	Erkältung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	start_char=3656|end_char=3665
+34	Ibuprofen	Ibuprofen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	33	flat	_	start_char=3666|end_char=3675
+35	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=3676|end_char=3679
+36	zwei	zwei	NUM	CARD	NumType=Card	38	nummod	_	start_char=3680|end_char=3684
+37	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=3685|end_char=3693
+38	Eigenschaften	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	35	obj	_	SpaceAfter=No|start_char=3694|end_char=3707
+39	:	:	PUNCT	$.	_	42	punct	_	start_char=3707|end_char=3708
+40	*	*	PUNCT	$(	_	42	punct	_	start_char=3709|end_char=3710
+41	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	expl	_	start_char=3711|end_char=3713
+42	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis	_	start_char=3714|end_char=3723
+43	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	start_char=3724|end_char=3727
+44	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	42	nsubj	_	SpaceAfter=No|start_char=3728|end_char=3732
+45	‑Gerinnung	‑Gerinnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	appos	_	start_char=3732|end_char=3742
+46	**weniger	**weniger	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	45	appos	_	SpaceAfter=No|start_char=3743|end_char=3752
+47	*	*	PUNCT	$(	_	46	appos	_	SpaceAfter=No|start_char=3752|end_char=3753
+48	*	*	PUNCT	$(	_	46	appos	_	start_char=3753|end_char=3754
+49	als	als	ADP	KOKOM	_	50	case	_	start_char=3755|end_char=3758
+50	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No|start_char=3759|end_char=3762
+51	.	.	PUNCT	$.	_	2	punct	_	start_char=3762|end_char=3763
+
+# text = * Es wirkt **stärker gegen Entzündungen** als ASS.
+# sent_id = 64
+1	*	*	PUNCT	$(	_	3	punct	_	start_char=3764|end_char=3765
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=3766|end_char=3768
+3	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3769|end_char=3774
+4	**stärker	**stärker	NOUN	NN	Number=Sing	3	obj	_	start_char=3775|end_char=3784
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=3785|end_char=3790
+6	Entzündungen	Entzündung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=3791|end_char=3803
+7	*	*	PUNCT	$(	_	6	case	_	SpaceAfter=No|start_char=3803|end_char=3804
+8	*	*	PUNCT	$(	_	6	appos	_	start_char=3804|end_char=3805
+9	als	als	ADP	KOKOM	_	10	case	_	start_char=3806|end_char=3809
+10	ASS	ASS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=3810|end_char=3813
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3813|end_char=3814
+
+# text = Darum hilft Ibuprofen gut bei **Entzündungs‑Schmerzen**.
+# sent_id = 65
+1	Darum	darum	ADV	PAV	PronType=Dem	2	advmod	_	start_char=3815|end_char=3820
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3821|end_char=3826
+3	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=3827|end_char=3836
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=3837|end_char=3840
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=3841|end_char=3844
+6	**	**	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=3845|end_char=3847
+7	Entzündungs	Entzündungs	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=3847|end_char=3858
+8	‑	‑	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=3858|end_char=3859
+9	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No|start_char=3859|end_char=3868
+10	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=3868|end_char=3869
+11	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=3869|end_char=3870
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3870|end_char=3871
+
+# text = ### Ibuprofen bei Kindern Kinder dürfen Ibuprofen bekommen.
+# sent_id = 66
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=3872|end_char=3875
+2	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=3876|end_char=3885
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=3886|end_char=3889
+4	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	start_char=3890|end_char=3897
+5	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=3898|end_char=3904
+6	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3905|end_char=3911
+7	Ibuprofen	Ibuprofen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=3912|end_char=3921
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3922|end_char=3930
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=3930|end_char=3931
+
+# text = Aber: * Sehr wichtig ist die **richtige Menge**.
+# sent_id = 67
+1	Aber	aber	ADV	KON	_	5	advmod	_	SpaceAfter=No|start_char=3932|end_char=3936
+2	:	:	PUNCT	$.	_	5	punct	_	start_char=3936|end_char=3937
+3	*	*	PUNCT	$(	_	5	punct	_	start_char=3938|end_char=3939
+4	Sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=3940|end_char=3944
+5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3945|end_char=3952
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3953|end_char=3956
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3957|end_char=3960
+8	*	*	PUNCT	$(	_	9	advmod	_	SpaceAfter=No|start_char=3961|end_char=3962
+9	*richtige	*richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=3962|end_char=3971
+10	Menge	Menge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=3972|end_char=3977
+11	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=3977|end_char=3978
+12	*	*	PUNCT	$(	_	5	dep	_	SpaceAfter=No|start_char=3978|end_char=3979
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=3979|end_char=3980
+
+# text = * Die Menge hängt vom Alter und vom Gewicht des Kindes ab.
+# sent_id = 68
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=3981|end_char=3982
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3983|end_char=3986
+3	Menge	Menge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=3987|end_char=3992
+4	hängt	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3993|end_char=3998
+5-6	vom	_	_	_	_	_	_	_	start_char=3999|end_char=4002
+5	von	von	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=4003|end_char=4008
+8	und	und	CCONJ	KON	_	11	cc	_	start_char=4009|end_char=4012
+9-10	vom	_	_	_	_	_	_	_	start_char=4013|end_char=4016
+9	von	von	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gewicht	Gewicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	start_char=4017|end_char=4024
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=4025|end_char=4028
+13	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=4029|end_char=4035
+14	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=4036|end_char=4038
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=4038|end_char=4039
+
+# text = Fragen Sie in der Apotheke: Der Apotheker sagt Ihnen, wie Sie Ibuprofen bei Kindern richtig anwenden.
+# sent_id = 69
+1	Fragen	Frage	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4040|end_char=4046
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=4047|end_char=4050
+3	in	in	ADP	APPR	_	5	case	_	start_char=4051|end_char=4053
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4054|end_char=4057
+5	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|start_char=4058|end_char=4066
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=4066|end_char=4067
+7	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=4068|end_char=4071
+8	Apotheker	Apotheker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=4072|end_char=4081
+9	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=4082|end_char=4086
+10	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	obl:arg	_	SpaceAfter=No|start_char=4087|end_char=4092
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=4092|end_char=4093
+12	wie	wie	SCONJ	KOUS	_	18	mark	_	start_char=4094|end_char=4097
+13	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	18	nsubj	_	start_char=4098|end_char=4101
+14	Ibuprofen	Ibuprofen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=4102|end_char=4111
+15	bei	bei	ADP	APPR	_	16	case	_	start_char=4112|end_char=4115
+16	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	obl	_	start_char=4116|end_char=4123
+17	richtig	richtig	ADJ	ADJD	Degree=Pos	18	advmod	_	start_char=4124|end_char=4131
+18	anwenden	anwenden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No|start_char=4132|end_char=4140
+19	.	.	PUNCT	$.	_	1	punct	_	start_char=4140|end_char=4141
+
+# text = ### Ibuprofen in der Schwangerschaft Schwangere Frauen sollen mit ihrem Arzt sprechen, bevor sie Ibuprofen nehmen.
+# sent_id = 70
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=4142|end_char=4145
+2	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=4146|end_char=4155
+3	in	in	ADP	APPR	_	5	case	_	start_char=4156|end_char=4158
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4159|end_char=4162
+5	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=4163|end_char=4178
+6	Schwangere	Schwangere	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=4179|end_char=4189
+7	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nmod	_	start_char=4190|end_char=4196
+8	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=4197|end_char=4203
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=4204|end_char=4207
+10	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=4208|end_char=4213
+11	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=4214|end_char=4218
+12	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=4219|end_char=4227
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=4227|end_char=4228
+14	bevor	bevor	SCONJ	KOUS	_	17	mark	_	start_char=4229|end_char=4234
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=4235|end_char=4238
+16	Ibuprofen	Ibuprofen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=4239|end_char=4248
+17	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=4249|end_char=4255
+18	.	.	PUNCT	$.	_	12	punct	_	start_char=4255|end_char=4256
+
+# text = *
+# sent_id = 71
+1	*	*	PUNCT	$(	_	0	root	_	start_char=4257|end_char=4258
+
+# text = In den ersten Monaten: Ibuprofen ist meist ungefährlich.
+# sent_id = 72
+1	In	in	ADP	APPR	_	4	case	_	start_char=4259|end_char=4261
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=4262|end_char=4265
+3	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	start_char=4266|end_char=4272
+4	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|start_char=4273|end_char=4280
+5	:	:	PUNCT	$.	_	9	punct	_	start_char=4280|end_char=4281
+6	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=4282|end_char=4291
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=4292|end_char=4295
+8	meist	meist	ADV	ADV	_	9	advmod	_	start_char=4296|end_char=4301
+9	ungefährlich	ungefährlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4302|end_char=4314
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=4314|end_char=4315
+
+# text = * Ab der **28. Schwangerschafts‑Woche** sollen Schwangere **kein** Ibuprofen mehr nehmen.
+# sent_id = 73
+1	*	*	PUNCT	$(	_	18	punct	_	start_char=4316|end_char=4317
+2	Ab	ab	ADP	APPR	_	7	case	_	start_char=4318|end_char=4320
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4321|end_char=4324
+4	**28	**28	NUM	CARD	NumType=Card	6	compound	_	SpaceAfter=No|start_char=4325|end_char=4329
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=4329|end_char=4330
+6	Schwangerschafts	Schwangerschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=4331|end_char=4347
+7	‑Woche	‑Woche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|start_char=4347|end_char=4353
+8	*	*	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=4353|end_char=4354
+9	*	*	PUNCT	$(	_	7	appos	_	start_char=4354|end_char=4355
+10	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=4356|end_char=4362
+11	Schwangere	Schwangere	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=4363|end_char=4373
+12	*	*	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=4374|end_char=4375
+13	*kein	*kein	X	XY	_	18	parataxis	_	SpaceAfter=No|start_char=4375|end_char=4380
+14	*	*	PUNCT	$(	_	13	advmod	_	SpaceAfter=No|start_char=4380|end_char=4381
+15	*	*	PUNCT	$(	_	16	punct	_	start_char=4381|end_char=4382
+16	Ibuprofen	Ibuprofen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=4383|end_char=4392
+17	mehr	mehr	ADV	ADV	_	16	advmod	_	start_char=4393|end_char=4397
+18	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=4398|end_char=4404
+19	.	.	PUNCT	$.	_	18	punct	_	start_char=4404|end_char=4405
+
+# text = --- ## Was ist Diclofenac?
+# sent_id = 74
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=4406|end_char=4409
+2	##	##	X	XY	_	5	dep	_	start_char=4410|end_char=4412
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=4413|end_char=4416
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4417|end_char=4420
+5	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=4421|end_char=4431
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=4431|end_char=4432
+
+# text = **Diclofenac** ist auch ein Schmerz‑Mittel.
+# sent_id = 75
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=4433|end_char=4435
+2	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=4435|end_char=4445
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=4445|end_char=4446
+4	*	*	PUNCT	$(	_	2	appos	_	start_char=4446|end_char=4447
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4448|end_char=4451
+6	auch	auch	ADV	ADV	_	8	advmod	_	start_char=4452|end_char=4456
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=4457|end_char=4460
+8	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=4461|end_char=4468
+9	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No|start_char=4468|end_char=4475
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=4475|end_char=4476
+
+# text = Diclofenac wirkt ähnlich wie Ibuprofen.
+# sent_id = 76
+1	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4477|end_char=4487
+2	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4488|end_char=4493
+3	ähnlich	ähnlich	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=4494|end_char=4501
+4	wie	wie	ADP	KOKOM	_	5	case	_	start_char=4502|end_char=4505
+5	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=4506|end_char=4515
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4515|end_char=4516
+
+# text = Manche Menschen vertragen Ibuprofen nicht gut.
+# sent_id = 77
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=4517|end_char=4523
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4524|end_char=4532
+3	vertragen	vertragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4533|end_char=4542
+4	Ibuprofen	Ibuprofen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=4543|end_char=4552
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=4553|end_char=4558
+6	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=4559|end_char=4562
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4562|end_char=4563
+
+# text = Diese Menschen vertragen vielleicht Diclofenac besser.
+# sent_id = 78
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=4564|end_char=4569
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4570|end_char=4578
+3	vertragen	vertragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4579|end_char=4588
+4	vielleicht	vielleicht	ADV	ADV	_	3	advmod	_	start_char=4589|end_char=4599
+5	Diclofenac	Diclofenac	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=4600|end_char=4610
+6	besser	gut	ADJ	ADJD	Degree=Cmp	3	advmod	_	SpaceAfter=No|start_char=4611|end_char=4617
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4617|end_char=4618
+
+# text = Das liegt daran: Diclofenac hat andere Wirk‑Stoffe als Ibuprofen.
+# sent_id = 79
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=4619|end_char=4622
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4623|end_char=4628
+3	daran	daran	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No|start_char=4629|end_char=4634
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=4634|end_char=4635
+5	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=4636|end_char=4646
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4647|end_char=4650
+7	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	start_char=4651|end_char=4657
+8	Wirk	Wirk	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	compound	_	SpaceAfter=No|start_char=4658|end_char=4662
+9	‑Stoffe	‑Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=4662|end_char=4669
+10	als	als	ADP	KOKOM	_	11	case	_	start_char=4670|end_char=4673
+11	Ibuprofen	Ibuprofen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|start_char=4674|end_char=4683
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4683|end_char=4684
+
+# text = Diclofenac hilft zum Beispiel bei: * Gelenk‑Schmerzen * rheumatischen Beschwerden * Rücken‑Schmerzen * Prellungen * Zerrungen * Verstauchungen ### Diclofenac als Salbe Diclofenac gibt es auch als **Salbe** für die Haut.
+# sent_id = 80
+1	Diclofenac	Diclofena	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4685|end_char=4695
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4696|end_char=4701
+3-4	zum	_	_	_	_	_	_	_	start_char=4702|end_char=4705
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=4706|end_char=4714
+6	bei	bei	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=4715|end_char=4718
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=4718|end_char=4719
+8	*	*	PUNCT	$(	_	9	punct	_	start_char=4720|end_char=4721
+9	Gelenk	Gelenk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=4722|end_char=4728
+10	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	start_char=4728|end_char=4738
+11	*	*	PUNCT	$(	_	13	punct	_	start_char=4739|end_char=4740
+12	rheumatischen	rheumatisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=4741|end_char=4754
+13	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	appos	_	start_char=4755|end_char=4766
+14	*	*	PUNCT	$(	_	16	punct	_	start_char=4767|end_char=4768
+15	Rücken	Rücken	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No|start_char=4769|end_char=4775
+16	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	start_char=4775|end_char=4785
+17	*	*	PUNCT	$(	_	18	punct	_	start_char=4786|end_char=4787
+18	Prellungen	Prellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	appos	_	start_char=4788|end_char=4798
+19	*	*	PUNCT	$(	_	20	punct	_	start_char=4799|end_char=4800
+20	Zerrungen	Zerrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	appos	_	start_char=4801|end_char=4810
+21	*	*	PUNCT	$(	_	22	punct	_	start_char=4811|end_char=4812
+22	Verstauchungen	Verstauchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	appos	_	start_char=4813|end_char=4827
+23	###	###	PUNCT	$(	_	28	punct	_	start_char=4828|end_char=4831
+24	Diclofenac	Diclofena	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	start_char=4832|end_char=4842
+25	als	als	ADP	KOKOM	_	26	case	_	start_char=4843|end_char=4846
+26	Salbe	Salbe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nmod	_	start_char=4847|end_char=4852
+27	Diclofenac	Diclofenac	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	26	flat	_	start_char=4853|end_char=4863
+28	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4864|end_char=4868
+29	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	expl	_	start_char=4869|end_char=4871
+30	auch	auch	ADV	ADV	_	28	advmod	_	start_char=4872|end_char=4876
+31	als	als	ADP	KOKOM	_	28	xcomp	_	start_char=4877|end_char=4880
+32	**	**	PUNCT	$(	_	33	punct	_	SpaceAfter=No|start_char=4881|end_char=4883
+33	Salbe	Salbe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No|start_char=4883|end_char=4888
+34	*	*	PUNCT	$(	_	33	punct	_	SpaceAfter=No|start_char=4888|end_char=4889
+35	*	*	PUNCT	$(	_	33	punct	_	start_char=4889|end_char=4890
+36	für	für	ADP	APPR	_	38	case	_	start_char=4891|end_char=4894
+37	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=4895|end_char=4898
+38	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No|start_char=4899|end_char=4903
+39	.	.	PUNCT	$.	_	2	punct	_	start_char=4903|end_char=4904
+
+# text = Aber: Nicht alle Menschen vertragen diese Salbe auf der Haut.
+# sent_id = 81
+1	Aber	aber	ADV	KON	_	6	advmod	_	SpaceAfter=No|start_char=4905|end_char=4909
+2	:	:	PUNCT	$.	_	6	punct	_	start_char=4909|end_char=4910
+3	Nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=4911|end_char=4916
+4	alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	start_char=4917|end_char=4921
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=4922|end_char=4930
+6	vertragen	vertragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4931|end_char=4940
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=4941|end_char=4946
+8	Salbe	Salbe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=4947|end_char=4952
+9	auf	auf	ADP	APPR	_	11	case	_	start_char=4953|end_char=4956
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=4957|end_char=4960
+11	Haut	Haut	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|start_char=4961|end_char=4965
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=4965|end_char=4966
+
+# text = Darum: Sprechen Sie mit einem Arzt, bevor Sie Diclofenac nehmen oder auf die Haut auftragen.
+# sent_id = 82
+1	Darum	darum	ADV	PAV	PronType=Dem	3	advmod	_	SpaceAfter=No|start_char=4967|end_char=4972
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=4972|end_char=4973
+3	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4974|end_char=4982
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=4983|end_char=4986
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=4987|end_char=4990
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=4991|end_char=4996
+7	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|start_char=4997|end_char=5001
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=5001|end_char=5002
+9	bevor	bevor	SCONJ	KOUS	_	12	mark	_	start_char=5003|end_char=5008
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	start_char=5009|end_char=5012
+11	Diclofenac	Diclofenac	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=5013|end_char=5023
+12	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=5024|end_char=5030
+13	oder	oder	CCONJ	KON	_	17	cc	_	start_char=5031|end_char=5035
+14	auf	auf	ADP	APPR	_	16	case	_	start_char=5036|end_char=5039
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=5040|end_char=5043
+16	Haut	Haut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=5044|end_char=5048
+17	auftragen	auftragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	12	conj	_	SpaceAfter=No|start_char=5049|end_char=5058
+18	.	.	PUNCT	$.	_	3	punct	_	start_char=5058|end_char=5059
+
+# text = --- ## Was ist Paracetamol?
+# sent_id = 83
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=5060|end_char=5063
+2	##	##	X	XY	_	5	dep	_	start_char=5064|end_char=5066
+3	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=5067|end_char=5070
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5071|end_char=5074
+5	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=5075|end_char=5086
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=5086|end_char=5087
+
+# text = **Paracetamol** ist ein Schmerz‑Mittel.
+# sent_id = 84
+1	**	**	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=5088|end_char=5090
+2	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=5090|end_char=5101
+3	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=5101|end_char=5102
+4	*	*	PUNCT	$(	_	2	appos	_	start_char=5102|end_char=5103
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5104|end_char=5107
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=5108|end_char=5111
+7	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=5112|end_char=5119
+8	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No|start_char=5119|end_char=5126
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=5126|end_char=5127
+
+# text = Paracetamol hilft vor allem bei: *
+# sent_id = 85
+1	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=5128|end_char=5139
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5140|end_char=5145
+3	vor	vor	ADP	APPR	_	4	case	_	start_char=5146|end_char=5149
+4	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	2	obl	_	start_char=5150|end_char=5155
+5	bei	bei	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=5156|end_char=5159
+6	:	:	PUNCT	$.	_	7	punct	_	start_char=5159|end_char=5160
+7	*	*	PUNCT	$(	_	2	punct	_	start_char=5161|end_char=5162
+
+# text = Zahn‑Schmerzen * Regel‑Schmerzen * Kopf‑Schmerzen Paracetamol kann auch: * Fieber senken * bei Grippe helfen Paracetamol hat zwei Vorteile: * Es verändert die Blut‑Gerinnung **nicht**.
+# sent_id = 86
+1	Zahn	Zahn	NOUN	NN	Case=Nom|Number=Sing	2	compound	_	SpaceAfter=No|start_char=5163|end_char=5167
+2	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=5167|end_char=5177
+3	*	*	PUNCT	$(	_	4	punct	_	start_char=5178|end_char=5179
+4	Regel	Regel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|start_char=5180|end_char=5185
+5	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=5185|end_char=5195
+6	*	*	PUNCT	$(	_	5	punct	_	start_char=5196|end_char=5197
+7	Kopf	Kopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No|start_char=5198|end_char=5202
+8	‑Schmerzen	‑Schmerz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	start_char=5202|end_char=5212
+9	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=5213|end_char=5224
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5225|end_char=5229
+11	auch	auch	ADV	ADV	_	15	advmod	_	SpaceAfter=No|start_char=5230|end_char=5234
+12	:	:	PUNCT	$.	_	15	punct	_	start_char=5234|end_char=5235
+13	*	*	PUNCT	$(	_	15	punct	_	start_char=5236|end_char=5237
+14	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=5238|end_char=5244
+15	senken	senken	VERB	VVINF	VerbForm=Inf	10	parataxis	_	start_char=5245|end_char=5251
+16	*	*	PUNCT	$(	_	19	punct	_	start_char=5252|end_char=5253
+17	bei	bei	ADP	APPR	_	18	case	_	start_char=5254|end_char=5257
+18	Grippe	Grippe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	start_char=5258|end_char=5264
+19	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	start_char=5265|end_char=5271
+20	Paracetamol	Paracetamol	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	nsubj	_	start_char=5272|end_char=5283
+21	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	start_char=5284|end_char=5287
+22	zwei	zwei	NUM	CARD	NumType=Card	23	nummod	_	start_char=5288|end_char=5292
+23	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No|start_char=5293|end_char=5301
+24	:	:	PUNCT	$.	_	27	punct	_	start_char=5301|end_char=5302
+25	*	*	PUNCT	$(	_	27	punct	_	start_char=5303|end_char=5304
+26	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	start_char=5305|end_char=5307
+27	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	_	start_char=5308|end_char=5317
+28	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=5318|end_char=5321
+29	Blut	Blut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	SpaceAfter=No|start_char=5322|end_char=5326
+30	‑	‑	PUNCT	$(	_	31	punct	_	SpaceAfter=No|start_char=5326|end_char=5327
+31	Gerinnung	Gerinnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	appos	_	start_char=5327|end_char=5336
+32	*	*	PUNCT	$(	_	33	punct	_	SpaceAfter=No|start_char=5337|end_char=5338
+33	*nicht	*nicht	X	XY	_	27	dep	_	SpaceAfter=No|start_char=5338|end_char=5344
+34	*	*	PUNCT	$(	_	33	punct	_	SpaceAfter=No|start_char=5344|end_char=5345
+35	*	*	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=5345|end_char=5346
+36	.	.	PUNCT	$.	_	10	punct	_	start_char=5346|end_char=5347
+
+# text = * Es schädigt die Magenschleimhaut **nicht**.
+# sent_id = 87
+1	*	*	PUNCT	$(	_	3	punct	_	start_char=5348|end_char=5349
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=5350|end_char=5352
+3	schädigt	schädigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5353|end_char=5361
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5362|end_char=5365
+5	Magenschleimhaut	Magenschleimhaut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=5366|end_char=5382
+6	**nicht	**nicht	PROPN	NE	Number=Sing	5	appos	_	SpaceAfter=No|start_char=5383|end_char=5390
+7	*	*	PUNCT	$(	_	6	appos	_	SpaceAfter=No|start_char=5390|end_char=5391
+8	*	*	PUNCT	$(	_	3	compound:prt	_	SpaceAfter=No|start_char=5391|end_char=5392
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=5392|end_char=5393
+
+# text = Die Magenschleimhaut schützt den Magen von innen.
+# sent_id = 88
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5394|end_char=5397
+2	Magenschleimhaut	Magenschleimhaut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5398|end_char=5414
+3	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5415|end_char=5422
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=5423|end_char=5426
+5	Magen	Magen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=5427|end_char=5432
+6	von	von	ADP	APPR	_	7	case	_	start_char=5433|end_char=5436
+7	innen	innen	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=5437|end_char=5442
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=5442|end_char=5443
+
+# text = ### Paracetamol in der Schwangerschaft und bei Kindern * Schwangere Frauen dürfen Paracetamol nehmen.
+# sent_id = 89
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=5444|end_char=5447
+2	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	dep	_	start_char=5448|end_char=5459
+3	in	in	ADP	APPR	_	5	case	_	start_char=5460|end_char=5462
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5463|end_char=5466
+5	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=5467|end_char=5482
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=5483|end_char=5486
+7	bei	bei	ADP	APPR	_	8	case	_	start_char=5487|end_char=5490
+8	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	conj	_	start_char=5491|end_char=5498
+9	*	*	PUNCT	$(	_	11	cc	_	start_char=5499|end_char=5500
+10	Schwangere	Schwangere	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=5501|end_char=5511
+11	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=5512|end_char=5518
+12	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=5519|end_char=5525
+13	Paracetamol	Paracetamol	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	start_char=5526|end_char=5537
+14	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5538|end_char=5544
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=5544|end_char=5545
+
+# text = * Kinder dürfen auch Paracetamol nehmen.
+# sent_id = 90
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=5546|end_char=5547
+2	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=5548|end_char=5554
+3	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5555|end_char=5561
+4	auch	auch	ADV	ADV	_	6	advmod	_	start_char=5562|end_char=5566
+5	Paracetamol	Paracetamol	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=5567|end_char=5578
+6	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5579|end_char=5585
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=5585|end_char=5586
+
+# text = Trotzdem wichtig: Sprechen Sie vorher mit einem Arzt, bevor Sie Paracetamol nehmen.
+# sent_id = 91
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=5587|end_char=5595
+2	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5596|end_char=5603
+3	:	:	PUNCT	$.	_	4	punct	_	start_char=5603|end_char=5604
+4	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	start_char=5605|end_char=5613
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=5614|end_char=5617
+6	vorher	vorher	ADV	ADV	_	4	advmod	_	start_char=5618|end_char=5624
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=5625|end_char=5628
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=5629|end_char=5634
+9	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|start_char=5635|end_char=5639
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=5639|end_char=5640
+11	bevor	bevor	SCONJ	KOUS	_	14	mark	_	start_char=5641|end_char=5646
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=5647|end_char=5650
+13	Paracetamol	Paracetamol	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=5651|end_char=5662
+14	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No|start_char=5663|end_char=5669
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=5669|end_char=5670
+
+# text = Sprechen Sie auch mit einem Arzt, bevor ein Kind Paracetamol bekommt.
+# sent_id = 92
+1	Sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5671|end_char=5679
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5680|end_char=5683
+3	auch	auch	ADV	ADV	_	1	advmod	_	start_char=5684|end_char=5688
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=5689|end_char=5692
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=5693|end_char=5698
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|start_char=5699|end_char=5703
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=5703|end_char=5704
+8	bevor	bevor	SCONJ	KOUS	_	12	mark	_	start_char=5705|end_char=5710
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=5711|end_char=5714
+10	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=5715|end_char=5719
+11	Paracetamol	Paracetamol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	obj	_	start_char=5720|end_char=5731
+12	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No|start_char=5732|end_char=5739
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=5739|end_char=5740
+
+# text = ### Achtung bei der Menge Paracetamol Zu viel Paracetamol ist gefährlich.
+# sent_id = 93
+1	###	###	PUNCT	$(	_	2	punct	_	start_char=5741|end_char=5744
+2	Achtung	Achtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=5745|end_char=5752
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=5753|end_char=5756
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5757|end_char=5760
+5	Menge	Menge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	compound	_	start_char=5761|end_char=5766
+6	Paracetamol	Paracetamol	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=5767|end_char=5778
+7	Zu	zu	ADP	APPR	_	9	case	_	start_char=5779|end_char=5781
+8	viel	viel	DET	PIAT	PronType=Ind	9	det	_	start_char=5782|end_char=5786
+9	Paracetamol	Paracetamol	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=5787|end_char=5798
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=5799|end_char=5802
+11	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5803|end_char=5813
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=5813|end_char=5814
+
+# text = Wenn Sie zu viel Paracetamol nehmen, kann das passieren: *
+# sent_id = 94
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=5815|end_char=5819
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=5820|end_char=5823
+3	zu	zu	ADV	PTKA	_	4	advmod	_	start_char=5824|end_char=5826
+4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	start_char=5827|end_char=5831
+5	Paracetamol	Paracetamol	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obj	_	start_char=5832|end_char=5843
+6	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|start_char=5844|end_char=5850
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=5850|end_char=5851
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5852|end_char=5856
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=5857|end_char=5860
+10	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5861|end_char=5870
+11	:	:	PUNCT	$.	_	10	punct	_	start_char=5870|end_char=5871
+12	*	*	PUNCT	$(	_	10	punct	_	start_char=5872|end_char=5873
+
+# text = Die Leber wird geschädigt.
+# sent_id = 95
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5874|end_char=5877
+2	Leber	Leber	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=5878|end_char=5883
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=5884|end_char=5888
+4	geschädigt	schädigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=5889|end_char=5899
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=5899|end_char=5900
+
+# text = * Es kann sogar **Leber‑Versagen** geben.
+# sent_id = 96
+1	*	*	PUNCT	$(	_	10	punct	_	start_char=5901|end_char=5902
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=5903|end_char=5905
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5906|end_char=5910
+4	sogar	sogar	ADV	ADV	_	10	advmod	_	start_char=5911|end_char=5916
+5	**	**	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=5917|end_char=5919
+6	Leber	Leber	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|start_char=5919|end_char=5924
+7	‑Versagen	‑Versagen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|start_char=5924|end_char=5933
+8	*	*	PUNCT	$(	_	7	appos	_	SpaceAfter=No|start_char=5933|end_char=5934
+9	*	*	PUNCT	$(	_	10	advmod	_	start_char=5934|end_char=5935
+10	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5936|end_char=5941
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5941|end_char=5942
+
+# text = Leber‑Versagen ist sehr gefährlich.
+# sent_id = 97
+1	Leber	Leber	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	compound	_	SpaceAfter=No|start_char=5943|end_char=5948
+2	‑Versagen	‑Versagen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=5948|end_char=5957
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5958|end_char=5961
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=5962|end_char=5966
+5	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5967|end_char=5977
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=5977|end_char=5978
+
+# text = Darum: * Achten Sie immer genau auf die **richtige Menge**.
+# sent_id = 98
+1	Darum	darum	ADV	PAV	PronType=Dem	4	advmod	_	SpaceAfter=No|start_char=5979|end_char=5984
+2	:	:	PUNCT	$.	_	4	punct	_	start_char=5984|end_char=5985
+3	*	*	PUNCT	$(	_	4	punct	_	start_char=5986|end_char=5987
+4	Achten	Achten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5988|end_char=5994
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=5995|end_char=5998
+6	immer	immer	ADV	ADV	_	7	advmod	_	start_char=5999|end_char=6004
+7	genau	genau	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=6005|end_char=6010
+8	auf	auf	ADP	APPR	_	12	case	_	start_char=6011|end_char=6014
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=6015|end_char=6018
+10	*	*	PUNCT	$(	_	11	advmod	_	SpaceAfter=No|start_char=6019|end_char=6020
+11	*richtige	*richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=6020|end_char=6029
+12	Menge	Menge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|start_char=6030|end_char=6035
+13	*	*	PUNCT	$(	_	4	compound:prt	_	SpaceAfter=No|start_char=6035|end_char=6036
+14	*.	*.	PUNCT	$(	_	4	punct	_	start_char=6036|end_char=6038
+
+# text = * Lesen Sie den Beipackzettel.
+# sent_id = 99
+1	*	*	X	XY	_	2	advmod	_	start_char=6039|end_char=6040
+2	Lesen	Lesen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6041|end_char=6046
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6047|end_char=6050
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=6051|end_char=6054
+5	Beipackzettel	Beipackzettel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=6055|end_char=6068
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=6068|end_char=6069
+
+# text = * Fragen Sie in der Apotheke oder beim Arzt.
+# sent_id = 100
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=6070|end_char=6071
+2	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=6072|end_char=6078
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6079|end_char=6082
+4	in	in	ADP	APPR	_	6	case	_	start_char=6083|end_char=6085
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=6086|end_char=6089
+6	Apotheke	Apotheke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=6090|end_char=6098
+7	oder	oder	CCONJ	KON	_	10	cc	_	start_char=6099|end_char=6103
+8-9	beim	_	_	_	_	_	_	_	start_char=6104|end_char=6108
+8	bei	bei	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|start_char=6109|end_char=6113
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=6113|end_char=6114
+
+# text = --- ## Welche Neben‑Wirkungen kann es geben?
+# sent_id = 101
+1	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=6115|end_char=6116
+2	--	--	PUNCT	$(	_	9	punct	_	start_char=6116|end_char=6118
+3	##	##	X	XY	Number=Sing	9	parataxis	_	start_char=6119|end_char=6121
+4	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	6	det	_	start_char=6122|end_char=6128
+5	Neben	neben	ADP	APPR	_	6	case	_	SpaceAfter=No|start_char=6129|end_char=6134
+6	‑Wirkungen	‑Wirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=6134|end_char=6144
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6145|end_char=6149
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=6150|end_char=6152
+9	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6153|end_char=6158
+10	?	?	PUNCT	$.	_	9	punct	_	start_char=6158|end_char=6159
+
+# text = Alle Schmerz‑Mittel können **Neben‑Wirkungen** haben.
+# sent_id = 102
+1	Alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	2	det	_	start_char=6160|end_char=6164
+2	Schmerz	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No|start_char=6165|end_char=6172
+3	‑Mittel	‑Mittel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=6172|end_char=6179
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6180|end_char=6186
+5	**	**	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=6187|end_char=6189
+6	Neben	neben	ADP	APPR	_	7	case	_	SpaceAfter=No|start_char=6189|end_char=6194
+7	‑Wirkungen	‑Wirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|start_char=6194|end_char=6204
+8	*	*	X	XY	_	7	appos	_	SpaceAfter=No|start_char=6204|end_char=6205
+9	*	*	PUNCT	$(	_	7	appos	_	start_char=6205|end_char=6206
+10	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6207|end_char=6212
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=6212|end_char=6213
+
+# text = Neben‑Wirkungen können sein: * leichte Beschwerden * aber manchmal auch gefährliche Probleme Darum ist wichtig: * Seien Sie vorsichtig mit Schmerz‑Mitteln.
+# sent_id = 103
+1	Neben	neben	ADP	APPR	_	2	case	_	SpaceAfter=No|start_char=6214|end_char=6219
+2	‑Wirkungen	‑Wirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=6219|end_char=6229
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6230|end_char=6236
+4	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6237|end_char=6241
+5	:	:	PUNCT	$.	_	8	punct	_	start_char=6241|end_char=6242
+6	*	*	PUNCT	$(	_	8	punct	_	start_char=6243|end_char=6244
+7	leichte	leicht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=6245|end_char=6252
+8	Beschwerden	Beschwerde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	parataxis	_	start_char=6253|end_char=6264
+9	*	*	PUNCT	$(	_	17	punct	_	start_char=6265|end_char=6266
+10	aber	aber	CCONJ	KON	_	17	cc	_	start_char=6267|end_char=6271
+11	manchmal	manchmal	ADV	ADV	_	17	advmod	_	start_char=6272|end_char=6280
+12	auch	auch	ADV	ADV	_	14	advmod	_	start_char=6281|end_char=6285
+13	gefährliche	gefährlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	start_char=6286|end_char=6297
+14	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	nsubj	_	start_char=6298|end_char=6306
+15	Darum	darum	ADV	PAV	PronType=Dem	17	advmod	_	start_char=6307|end_char=6312
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=6313|end_char=6316
+17	wichtig	wichtig	ADJ	ADJD	Degree=Pos	8	conj	_	SpaceAfter=No|start_char=6317|end_char=6324
+18	:	:	PUNCT	$.	_	22	punct	_	start_char=6324|end_char=6325
+19	*	*	PUNCT	$(	_	22	punct	_	start_char=6326|end_char=6327
+20	Seien	seien	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=6328|end_char=6333
+21	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	22	nsubj	_	start_char=6334|end_char=6337
+22	vorsichtig	vorsichtig	ADJ	ADJD	Degree=Pos	17	parataxis	_	start_char=6338|end_char=6348
+23	mit	mit	ADP	APPR	_	24	case	_	start_char=6349|end_char=6352
+24	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	compound	_	SpaceAfter=No|start_char=6353|end_char=6360
+25	‑Mitteln	‑Mittel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No|start_char=6360|end_char=6368
+26	.	.	PUNCT	$.	_	4	punct	_	start_char=6368|end_char=6369
+
+# text = * Nehmen Sie Schmerz‑Mittel **nicht zu oft**.
+# sent_id = 104
+1	*	*	X	XY	_	2	dep	_	start_char=6370|end_char=6371
+2	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6372|end_char=6378
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6379|end_char=6382
+4	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=6383|end_char=6390
+5	‑	‑	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=6390|end_char=6391
+6	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	start_char=6391|end_char=6397
+7	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=6398|end_char=6399
+8	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=6399|end_char=6400
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=6400|end_char=6405
+10	zu	zu	ADP	APPR	_	11	case	_	start_char=6406|end_char=6408
+11	oft	oft	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=6409|end_char=6412
+12	**	**	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=6412|end_char=6414
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=6414|end_char=6415
+
+# text = * Nehmen Sie Schmerz‑Mittel **nicht zu lange**.
+# sent_id = 105
+1	*	*	X	XY	_	2	dep	_	start_char=6416|end_char=6417
+2	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6418|end_char=6424
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6425|end_char=6428
+4	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=6429|end_char=6436
+5	‑	‑	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=6436|end_char=6437
+6	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	start_char=6437|end_char=6443
+7	*	*	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=6444|end_char=6445
+8	*	*	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=6445|end_char=6446
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=6446|end_char=6451
+10	zu	zu	ADP	APPR	_	11	case	_	start_char=6452|end_char=6454
+11	lange	lang	ADJ	ADJD	Degree=Pos	6	conj	_	SpaceAfter=No|start_char=6455|end_char=6460
+12	*	*	PUNCT	$(	_	11	dep	_	SpaceAfter=No|start_char=6460|end_char=6461
+13	*	*	PUNCT	$(	_	2	compound:prt	_	SpaceAfter=No|start_char=6461|end_char=6462
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=6462|end_char=6463
+
+# text = So gehen Sie gut mit Schmerz‑Mitteln um: 1. Informieren Sie sich zuerst über das Schmerz‑Mittel.
+# sent_id = 106
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=6464|end_char=6466
+2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6467|end_char=6472
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6473|end_char=6476
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=6477|end_char=6480
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=6481|end_char=6484
+6	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=6485|end_char=6492
+7	‑Mitteln	‑Mittel	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obj	_	start_char=6492|end_char=6500
+8	um	um	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=6501|end_char=6503
+9	:	:	PUNCT	$.	_	11	punct	_	start_char=6503|end_char=6504
+10	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	11	advmod	_	start_char=6505|end_char=6507
+11	Informieren	informieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=6508|end_char=6519
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	start_char=6520|end_char=6523
+13	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	start_char=6524|end_char=6528
+14	zuerst	zuerst	ADV	ADV	_	11	advmod	_	start_char=6529|end_char=6535
+15	über	über	ADP	APPR	_	17	case	_	start_char=6536|end_char=6540
+16	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	start_char=6541|end_char=6544
+17	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|start_char=6545|end_char=6552
+18	‑Mittel	‑Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|start_char=6552|end_char=6559
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=6559|end_char=6560
+
+# text = 2. Benutzen Sie das Medikament **verantwortungsvoll**.
+# sent_id = 107
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=6561|end_char=6563
+2	Benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6564|end_char=6572
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6573|end_char=6576
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=6577|end_char=6580
+5	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=6581|end_char=6591
+6	**verantwortungsvoll	**verantwortungsvoll	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=6592|end_char=6612
+7	*	*	PUNCT	$(	_	2	advmod	_	SpaceAfter=No|start_char=6612|end_char=6613
+8	*	*	PUNCT	$(	_	2	compound:prt	_	SpaceAfter=No|start_char=6613|end_char=6614
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=6614|end_char=6615
+
+# text = 3. Nehmen Sie nur die **richtige Menge**.
+# sent_id = 108
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=6616|end_char=6618
+2	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6619|end_char=6625
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6626|end_char=6629
+4	nur	nur	ADV	ADV	_	2	advmod	_	start_char=6630|end_char=6633
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6634|end_char=6637
+6	*	*	PUNCT	$(	_	7	advmod	_	SpaceAfter=No|start_char=6638|end_char=6639
+7	*richtige	*richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=6639|end_char=6648
+8	Menge	Menge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=6649|end_char=6654
+9	*	*	PUNCT	$(	_	8	appos	_	SpaceAfter=No|start_char=6654|end_char=6655
+10	*	*	PUNCT	$(	_	2	compound:prt	_	SpaceAfter=No|start_char=6655|end_char=6656
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=6656|end_char=6657
+
+# text = 4. Nehmen Sie das Schmerz‑Mittel nur so **kurz wie möglich**.
+# sent_id = 109
+1	4.	4.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=6658|end_char=6660
+2	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6661|end_char=6667
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6668|end_char=6671
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=6672|end_char=6675
+5	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=6676|end_char=6683
+6	‑Mittel	‑Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=6683|end_char=6690
+7	nur	nur	ADV	ADV	_	8	advmod	_	start_char=6691|end_char=6694
+8	so	so	ADV	ADV	_	9	advmod	_	start_char=6695|end_char=6697
+9	**kurz	**kurz	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=6698|end_char=6704
+10	wie	wie	ADP	KOKOM	_	11	case	_	start_char=6705|end_char=6708
+11	möglich	möglich	ADJ	ADJD	Degree=Pos	9	conj	_	SpaceAfter=No|start_char=6709|end_char=6716
+12	*	*	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=6716|end_char=6717
+13	*	*	PUNCT	$(	_	9	dep	_	SpaceAfter=No|start_char=6717|end_char=6718
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=6718|end_char=6719
+
+# text = 5. Gehen Sie zum Arzt, wenn Ihre Schmerzen **mehrere Tage** dauern.
+# sent_id = 110
+1	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=6720|end_char=6722
+2	Gehen	Gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6723|end_char=6728
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6729|end_char=6732
+4-5	zum	_	_	_	_	_	_	_	start_char=6733|end_char=6736
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=6737|end_char=6741
+7	,	,	PUNCT	$,	_	16	punct	_	start_char=6741|end_char=6742
+8	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=6743|end_char=6747
+9	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=6748|end_char=6752
+10	Schmerzen	Schmerz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=6753|end_char=6762
+11	*	*	PUNCT	$(	_	13	case	_	SpaceAfter=No|start_char=6763|end_char=6764
+12	*mehrere	*mehrer	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=6764|end_char=6772
+13	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|start_char=6773|end_char=6777
+14	*	*	PUNCT	$(	_	13	case	_	SpaceAfter=No|start_char=6777|end_char=6778
+15	*	*	PUNCT	$(	_	16	advmod	_	start_char=6778|end_char=6779
+16	dauern	dauern	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=6780|end_char=6786
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=6786|end_char=6787
+
+# text = --- ## Wo bekommen Sie noch mehr Informationen?
+# sent_id = 111
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=6788|end_char=6791
+2	##	##	X	XY	_	4	dep	_	start_char=6792|end_char=6794
+3	Wo	wo	ADV	PWAV	PronType=Int	4	advmod	_	start_char=6795|end_char=6797
+4	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6798|end_char=6806
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=6807|end_char=6810
+6	noch	noch	ADV	ADV	_	4	advmod	_	start_char=6811|end_char=6815
+7	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	8	det	_	start_char=6816|end_char=6820
+8	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|start_char=6821|end_char=6834
+9	?	?	PUNCT	$.	_	4	punct	_	start_char=6834|end_char=6835
+
+# text = Sie möchten mehr über Schmerz‑Mittel wissen?
+# sent_id = 112
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=6836|end_char=6839
+2	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6840|end_char=6847
+3	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	7	advmod	_	start_char=6848|end_char=6852
+4	über	über	ADP	APPR	_	5	case	_	start_char=6853|end_char=6857
+5	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|start_char=6858|end_char=6865
+6	‑Mittel	‑Mittel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=6865|end_char=6872
+7	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6873|end_char=6879
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=6879|end_char=6880
+
+# text = Es gibt weitere Informationen im Internet.
+# sent_id = 113
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=6881|end_char=6883
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6884|end_char=6888
+3	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	4	amod	_	start_char=6889|end_char=6896
+4	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=6897|end_char=6910
+5-6	im	_	_	_	_	_	_	_	start_char=6911|end_char=6913
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=6914|end_char=6922
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=6922|end_char=6923
+
+# text = In dem anderen Text ist die Sprache **nicht** mehr einfach.
+# sent_id = 114
+1	In	in	ADP	APPR	_	4	case	_	start_char=6924|end_char=6926
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=6927|end_char=6930
+3	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	start_char=6931|end_char=6938
+4	Text	Text	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	start_char=6939|end_char=6943
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=6944|end_char=6947
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6948|end_char=6951
+7	Sprache	Sprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=6952|end_char=6959
+8	**nicht	**nicht	PROPN	NE	Case=Nom|Number=Sing	12	advmod	_	SpaceAfter=No|start_char=6960|end_char=6967
+9	*	*	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=6967|end_char=6968
+10	*	*	PUNCT	$(	_	12	advmod	_	start_char=6968|end_char=6969
+11	mehr	mehr	ADV	ADV	_	12	advmod	_	start_char=6970|end_char=6974
+12	einfach	einfach	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6975|end_char=6982
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=6982|end_char=6983
+
+# text = Der andere Text ist **nicht** in Leichter oder Einfacher Sprache.
+# sent_id = 115
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6984|end_char=6987
+2	andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	start_char=6988|end_char=6994
+3	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=6995|end_char=6999
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7000|end_char=7003
+5	**nicht	**nicht	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=7004|end_char=7011
+6	*	*	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=7011|end_char=7012
+7	*	*	PUNCT	$(	_	5	advmod	_	start_char=7012|end_char=7013
+8	in	in	ADP	APPR	_	12	case	_	start_char=7014|end_char=7016
+9	Leichter	Leichter	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=7017|end_char=7025
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=7026|end_char=7030
+11	Einfacher	Einfacher	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	start_char=7031|end_char=7040
+12	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=7041|end_char=7048
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=7048|end_char=7049
+
+# text = Wichtig: * Dieser Text hier gibt nur allgemeine Informationen.
+# sent_id = 116
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=7050|end_char=7057
+2	:	:	PUNCT	$.	_	7	punct	_	start_char=7057|end_char=7058
+3	*	*	PUNCT	$(	_	7	punct	_	start_char=7059|end_char=7060
+4	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=7061|end_char=7067
+5	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=7068|end_char=7072
+6	hier	hier	ADV	ADV	_	7	advmod	_	start_char=7073|end_char=7077
+7	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=7078|end_char=7082
+8	nur	nur	ADV	ADV	_	7	advmod	_	start_char=7083|end_char=7086
+9	allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=7087|end_char=7097
+10	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No|start_char=7098|end_char=7111
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=7111|end_char=7112
+
+# text = * Dieser Text ersetzt **nicht** den Besuch beim Arzt.
+# sent_id = 117
+1	*	*	PUNCT	$(	_	2	punct	_	start_char=7113|end_char=7114
+2	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=7115|end_char=7121
+3	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=7122|end_char=7126
+4	ersetzt	ersetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7127|end_char=7134
+5	**nicht	**nicht	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|start_char=7135|end_char=7142
+6	*	*	PUNCT	$(	_	5	appos	_	SpaceAfter=No|start_char=7142|end_char=7143
+7	*	*	PUNCT	$(	_	5	flat	_	start_char=7143|end_char=7144
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=7145|end_char=7148
+9	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=7149|end_char=7155
+10-11	beim	_	_	_	_	_	_	_	start_char=7156|end_char=7160
+10	bei	bei	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=7161|end_char=7165
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=7165|end_char=7166
+
+# text = Nur ein Arzt kann Sie genau beraten.
+# sent_id = 118
+1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=7167|end_char=7170
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=7171|end_char=7174
+3	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	start_char=7175|end_char=7179
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=7180|end_char=7184
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	start_char=7185|end_char=7188
+6	genau	genau	ADV	ADV	_	7	advmod	_	start_char=7189|end_char=7194
+7	beraten	beraten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=7195|end_char=7202
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=7202|end_char=7203
+
+# text = Sie fühlen sich krank?
+# sent_id = 119
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=7204|end_char=7207
+2	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7208|end_char=7214
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	nsubj	_	start_char=7215|end_char=7219
+4	krank	krank	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No|start_char=7220|end_char=7225
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=7225|end_char=7226
+
+# text = Oder Sie haben Fragen zu einer Krankheit?
+# sent_id = 120
+1	Oder	Oder	CCONJ	KON	_	3	cc	_	start_char=7227|end_char=7231
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=7232|end_char=7235
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7236|end_char=7241
+4	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=7242|end_char=7248
+5	zu	zu	ADP	APPR	_	7	case	_	start_char=7249|end_char=7251
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=7252|end_char=7257
+7	Krankheit	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=7258|end_char=7267
+8	?	?	PUNCT	$.	_	3	punct	_	start_char=7267|end_char=7268
+
+# text = Dann gilt: * Gehen Sie immer zu einem Arzt.
+# sent_id = 121
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=7269|end_char=7273
+2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=7274|end_char=7278
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=7278|end_char=7279
+4	*	*	PUNCT	$(	_	5	punct	_	start_char=7280|end_char=7281
+5	Gehen	Gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=7282|end_char=7287
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=7288|end_char=7291
+7	immer	immer	ADV	ADV	_	5	advmod	_	start_char=7292|end_char=7297
+8	zu	zu	ADP	APPR	_	10	case	_	start_char=7298|end_char=7300
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=7301|end_char=7306
+10	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|start_char=7307|end_char=7311
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=7311|end_char=7312
+
+# text = * Verlassen Sie sich nicht nur auf Informationen aus dem Internet.
+# sent_id = 122
+1	*	*	PUNCT	$(	_	2	advmod	_	start_char=7313|end_char=7314
+2	Verlassen	Verlassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7315|end_char=7324
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=7325|end_char=7328
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=7329|end_char=7333
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=7334|end_char=7339
+6	nur	nur	ADV	ADV	_	2	advmod	_	start_char=7340|end_char=7343
+7	auf	auf	ADP	APPR	_	8	case	_	start_char=7344|end_char=7347
+8	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=7348|end_char=7361
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=7362|end_char=7365
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=7366|end_char=7369
+11	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=7370|end_char=7378
+12	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=7378|end_char=7379
+
