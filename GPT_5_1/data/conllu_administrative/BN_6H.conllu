@@ -1,263 +1,1402 @@
-# text = Hier ist der Text, nach Ihren Vorgaben (vereinfachter Satzbau, keine Nebensätze, nur die wichtigsten Informationen):
+# text = Führungszeugnis – Einfache Erklärung mit Wort-Erklärungen Hinweis zu den Sprachebenen: - Textebene: Nur wichtige Informationen.
 # sent_id = 0
-1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
-2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=8
-3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
-4	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=13|end_char=17|SpaceAfter=No
-5	,	,	PUNCT	$,	_	8	punct	_	start_char=17|end_char=18
-6	nach	nach	ADP	APPR	_	8	case	_	start_char=19|end_char=23
-7	Ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=24|end_char=29
-8	Vorgaben	Vorgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=30|end_char=38
-9	(	(	PUNCT	$(	_	11	punct	_	start_char=39|end_char=40|SpaceAfter=No
-10	vereinfachter	vereinfacht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=40|end_char=53
-11	Satzbau	Satzbau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	start_char=54|end_char=61|SpaceAfter=No
-12	,	,	PUNCT	$,	_	14	punct	_	start_char=61|end_char=62
-13	keine	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Neg	14	det	_	start_char=63|end_char=68
-14	Nebensätze	Nebensatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	start_char=69|end_char=79|SpaceAfter=No
-15	,	,	PUNCT	$,	_	19	punct	_	start_char=79|end_char=80
-16	nur	nur	ADV	ADV	_	19	advmod	_	start_char=81|end_char=84
-17	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=85|end_char=88
-18	wichtigsten	wichtig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	19	amod	_	start_char=89|end_char=100
-19	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	start_char=101|end_char=114|SpaceAfter=No
-20	)	)	PUNCT	$(	_	11	punct	_	start_char=114|end_char=115|SpaceAfter=No
-21	:	:	PUNCT	$.	_	2	punct	_	start_char=115|end_char=116|SpacesAfter=\n\n
+1	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=15
+2	–	–	PUNCT	$(	_	4	punct	_	start_char=16|end_char=17
+3	Einfache	einfach	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=18|end_char=26
+4	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=27|end_char=36
+5	mit	mit	ADP	APPR	_	8	case	_	start_char=37|end_char=40
+6	Wort	Wort	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No|start_char=41|end_char=45
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=45|end_char=46
+8	Erklärungen	Erklärung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=46|end_char=57
+9	Hinweis	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=58|end_char=65
+10	zu	zu	ADP	APPR	_	12	case	_	start_char=66|end_char=68
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=69|end_char=72
+12	Sprachebenen	Sprachebene	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No|start_char=73|end_char=85
+13	:	:	PUNCT	$.	_	15	punct	_	start_char=85|end_char=86
+14	-	-	PUNCT	$(	_	15	punct	_	start_char=87|end_char=88
+15	Textebene	Textebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No|start_char=89|end_char=98
+16	:	:	PUNCT	$.	_	19	punct	_	start_char=98|end_char=99
+17	Nur	nur	ADV	ADV	_	19	advmod	_	start_char=100|end_char=103
+18	wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=104|end_char=112
+19	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	appos	_	SpaceAfter=No|start_char=113|end_char=126
+20	.	.	PUNCT	$.	_	1	punct	_	start_char=126|end_char=127
 
-# text = **Führungszeugnis – Informationen
+# text = - Satzebene: Kurze Sätze.
 # sent_id = 1
-1-2	*	_	_	_	_	_	_	_	start_char=118|end_char=119|SpaceAfter=No
-1	<SOS>n	<SOS>n	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-2	de*	de*	PUNCT	$(	_	3	punct	_	_
-3-4	*	_	_	_	_	_	_	_	start_char=119|end_char=120|SpaceAfter=No
-3	<SOS>n	<SOS>n	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
-4	de*	de*	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	start_char=120|end_char=135
-6	–	–	PUNCT	$(	_	7	punct	_	start_char=136|end_char=137
-7	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	dep	_	start_char=138|end_char=151|SpaceAfter=No
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=128|end_char=129
+2	Satzebene	Satzebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=130|end_char=139
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=139|end_char=140
+4	Kurze	kurz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=141|end_char=146
+5	Sätze	Satz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No|start_char=147|end_char=152
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=152|end_char=153
 
-# text = *
+# text = Keine Nebensätze.
 # sent_id = 2
-1	*	*	PUNCT	$(	_	0	root	_	start_char=151|end_char=152|SpaceAfter=No
+1	Keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg	2	det	_	start_char=154|end_char=159
+2	Nebensätze.	Nebensätze.	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=160|end_char=171
 
-# text = *
+# text = - Wortebene: Schwierige Wörter werden erklärt.
 # sent_id = 3
-1	*	*	PUNCT	$(	_	0	root	_	start_char=152|end_char=153|SpacesAfter=\n\n
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=172|end_char=173
+2	Wortebene	Wortebene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=174|end_char=183
+3	:	:	PUNCT	$.	_	7	punct	_	start_char=183|end_char=184
+4	Schwierige	schwierig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=185|end_char=195
+5	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	start_char=196|end_char=202
+6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	start_char=203|end_char=209
+7	erklärt	erklären	VERB	VVPP	VerbForm=Part	2	appos	_	SpaceAfter=No|start_char=210|end_char=217
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=217|end_char=218
 
-# text = Ein Führungszeugnis ist ein offizielles Papier.
+# text = --- ### 1.
 # sent_id = 4
-1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=155|end_char=158
-2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=159|end_char=174
-3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=175|end_char=178
-4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=179|end_char=182
-5	offizielles	offiziell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=183|end_char=194
-6	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=195|end_char=201|SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	start_char=201|end_char=202
+1	---	---	PUNCT	$(	_	3	punct	_	start_char=219|end_char=222
+2	###	###	PUNCT	$(	_	3	punct	_	start_char=223|end_char=226
+3	1	1	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No|start_char=227|end_char=228
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=228|end_char=229
 
-# text = Es zeigt, ob eine Person vorbestraft ist.
+# text = Was ist ein Führungszeugnis?
 # sent_id = 5
-1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=203|end_char=205
-2	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=206|end_char=211|SpaceAfter=No
-3	,	,	PUNCT	$,	_	7	punct	_	start_char=211|end_char=212
-4	ob	ob	SCONJ	KOUS	_	7	mark	_	start_char=213|end_char=215
-5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=216|end_char=220
-6	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=221|end_char=227
-7	vorbestraft	vorbestraft	ADJ	ADJD	Degree=Pos	2	ccomp	_	start_char=228|end_char=239
-8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=240|end_char=243|SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	start_char=243|end_char=244|SpacesAfter=\n\n
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=230|end_char=233
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=234|end_char=237
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=238|end_char=241
+4	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=242|end_char=257
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=257|end_char=258
 
-# text = Es gibt mehrere Arten: - Für private Zwecke.
+# text = Ein Führungszeugnis ist ein amtliches Dokument.
 # sent_id = 6
-1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=246|end_char=248
-2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=249|end_char=253
-3	mehrere	mehr	DET	PIAT	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	start_char=254|end_char=261
-4	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=262|end_char=267|SpaceAfter=No
-5	:	:	PUNCT	$.	_	9	punct	_	start_char=267|end_char=268|SpacesAfter=\n
-6	-	-	PUNCT	$(	_	9	punct	_	start_char=269|end_char=270
-7	Für	für	ADP	APPR	_	9	case	_	start_char=271|end_char=274
-8	private	privat	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=275|end_char=282
-9	Zwecke	Zweck	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	start_char=283|end_char=289|SpaceAfter=No
-10	.	.	PUNCT	$.	_	2	punct	_	start_char=289|end_char=290
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=259|end_char=262
+2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=263|end_char=278
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=279|end_char=282
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=283|end_char=286
+5	amtliches	amtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=287|end_char=296
+6	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=297|end_char=305
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=305|end_char=306
 
-# text = Das bekommt die Person selbst.
+# text = „amtlich“ = es kommt von einer Behörde.
 # sent_id = 7
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=291|end_char=294
-2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=295|end_char=302
-3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=303|end_char=306
-4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=307|end_char=313
-5	selbst	selbst	ADV	ADV	_	2	advmod	_	start_char=314|end_char=320|SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	start_char=320|end_char=321|SpacesAfter=\n
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=307|end_char=308
+2	amtlich	amtlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=308|end_char=315
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=315|end_char=316
+4	=	=	PUNCT	$(	_	6	punct	_	start_char=317|end_char=318
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=319|end_char=321
+6	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=322|end_char=327
+7	von	von	ADP	APPR	_	9	case	_	start_char=328|end_char=331
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=332|end_char=337
+9	Behörde	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|start_char=338|end_char=345
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=345|end_char=346
 
-# text = - Für Behörden.
+# text = „Dokument“ = ein wichtiges Papier.
 # sent_id = 8
-1	-	-	PUNCT	$(	_	3	punct	_	start_char=322|end_char=323
-2	Für	für	ADP	APPR	_	3	case	_	start_char=324|end_char=327
-3	Behörden	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	start_char=328|end_char=336|SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	start_char=336|end_char=337
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=347|end_char=348
+2	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=348|end_char=356
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=356|end_char=357
+4	=	=	PUNCT	$(	_	7	punct	_	start_char=358|end_char=359
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=360|end_char=363
+6	wichtiges	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=364|end_char=373
+7	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No|start_char=374|end_char=380
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=380|end_char=381
 
-# text = Die Behörde bekommt das Papier direkt.
+# text = Das Führungszeugnis zeigt Einträge über Straftaten einer Person.
 # sent_id = 9
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=338|end_char=341
-2	Behörde	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=342|end_char=349
-3	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=350|end_char=357
-4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=358|end_char=361
-5	Papier	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=362|end_char=368
-6	direkt	direkt	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=369|end_char=375|SpaceAfter=No
-7	.	.	PUNCT	$.	_	3	punct	_	start_char=375|end_char=376|SpacesAfter=\n
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=382|end_char=385
+2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=386|end_char=401
+3	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=402|end_char=407
+4	Einträge	Eintrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=408|end_char=416
+5	über	über	ADP	APPR	_	6	case	_	start_char=417|end_char=421
+6	Straftaten	Straftat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=422|end_char=432
+7	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=433|end_char=438
+8	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=439|end_char=445
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=445|end_char=446
 
-# text = - Erweitertes Führungszeugnis.
+# text = „Straftaten“ = Dinge, die gegen das Gesetz sind.
 # sent_id = 10
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=377|end_char=378
-2	Erweitertes	erweitert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=379|end_char=390
-3	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=391|end_char=406|SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	start_char=406|end_char=407
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=447|end_char=448
+2	Straftaten	Straftat	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=448|end_char=458
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=458|end_char=459
+4	=	=	PUNCT	$(	_	5	punct	_	start_char=460|end_char=461
+5	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	SpaceAfter=No|start_char=462|end_char=467
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=467|end_char=468
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=469|end_char=472
+8	gegen	gegen	ADP	APPR	_	10	case	_	start_char=473|end_char=478
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=479|end_char=482
+10	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	start_char=483|end_char=489
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No|start_char=490|end_char=494
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=494|end_char=495
 
-# text = Das braucht man zum Beispiel bei Arbeit mit Kindern.
+# text = Das Führungszeugnis kommt vom Bundeszentralregister in Bonn.
 # sent_id = 11
-1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=408|end_char=411
-2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=412|end_char=419
-3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=420|end_char=423
-4-5	zum	_	_	_	_	_	_	_	start_char=424|end_char=427
-4	zu	zu	ADP	APPR	_	6	case	_	_
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=496|end_char=499
+2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=500|end_char=515
+3	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=516|end_char=521
+4-5	vom	_	_	_	_	_	_	_	start_char=522|end_char=525
+4	von	von	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=428|end_char=436
-7	bei	bei	ADP	APPR	_	8	case	_	start_char=437|end_char=440
-8	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=441|end_char=447
-9	mit	mit	ADP	APPR	_	10	case	_	start_char=448|end_char=451
-10	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	start_char=452|end_char=459|SpaceAfter=No
-11	.	.	PUNCT	$.	_	2	punct	_	start_char=459|end_char=460|SpacesAfter=\n\n
+6	Bundeszentralregister	Bundeszentralregister	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=526|end_char=547
+7	in	in	ADP	APPR	_	8	case	_	start_char=548|end_char=550
+8	Bonn	Bonn	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=551|end_char=555
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=555|end_char=556
 
-# text = Ein Führungszeugnis kann jeder ab 14 Jahren beantragen.
+# text = „Bundeszentralregister“ = eine Stelle in Deutschland.
 # sent_id = 12
-1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=462|end_char=465
-2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	start_char=466|end_char=481
-3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=482|end_char=486
-4	jeder	jeder	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	8	nsubj	_	start_char=487|end_char=492
-5	ab	ab	ADP	APPR	_	7	case	_	start_char=493|end_char=495
-6	14	14	NUM	CARD	NumType=Card	7	nummod	_	start_char=496|end_char=498
-7	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	start_char=499|end_char=505
-8	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=506|end_char=516|SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	start_char=516|end_char=517
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=557|end_char=558
+2	Bundeszentralregister	Bundeszentralregister	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=558|end_char=579
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=579|end_char=580
+4	=	=	PUNCT	$(	_	6	punct	_	start_char=581|end_char=582
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=583|end_char=587
+6	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	start_char=588|end_char=594
+7	in	in	ADP	APPR	_	8	case	_	start_char=595|end_char=597
+8	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=598|end_char=609
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=609|end_char=610
 
-# text = Wohnen in Braunschweig ist Pflicht.
+# text = Diese Stelle sammelt Daten über Straftaten von Personen.
 # sent_id = 13
-1	Wohnen	Wohnen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=518|end_char=524
-2	in	in	ADP	APPR	_	3	case	_	start_char=525|end_char=527
-3	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	start_char=528|end_char=540
-4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=541|end_char=544
-5	Pflicht	Pflicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=545|end_char=552|SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	start_char=552|end_char=553|SpacesAfter=\n\n
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=611|end_char=616
+2	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=617|end_char=623
+3	sammelt	sammeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=624|end_char=631
+4	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=632|end_char=637
+5	über	über	ADP	APPR	_	6	case	_	start_char=638|end_char=642
+6	Straftaten	Straftat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=643|end_char=653
+7	von	von	ADP	APPR	_	8	case	_	start_char=654|end_char=657
+8	Personen	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=658|end_char=666
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=666|end_char=667
 
-# text = So kann man das Führungszeugnis bekommen: - Online auf der Internet-Seite von Braunschweig.
+# text = --- ### 2. Welche Arten von Führungszeugnissen gibt es?
 # sent_id = 14
-1	So	so	ADV	ADV	_	6	advmod	_	start_char=555|end_char=557
-2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=558|end_char=562
-3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=563|end_char=566
-4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=567|end_char=570
-5	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=571|end_char=586
-6	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=587|end_char=595|SpaceAfter=No
-7	:	:	PUNCT	$.	_	9	punct	_	start_char=595|end_char=596|SpacesAfter=\n
-8	-	-	PUNCT	$(	_	9	punct	_	start_char=597|end_char=598
-9	Online	Online	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	start_char=599|end_char=605
-10	auf	auf	ADP	APPR	_	14	case	_	start_char=606|end_char=609
-11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=610|end_char=613
-12	Internet	Internet	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	compound	_	start_char=614|end_char=622|SpaceAfter=No
-13	-	-	PUNCT	$(	_	12	punct	_	start_char=622|end_char=623|SpaceAfter=No
-14	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=623|end_char=628
-15	von	von	ADP	APPR	_	16	case	_	start_char=629|end_char=632
-16	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=633|end_char=645|SpaceAfter=No
-17	.	.	PUNCT	$.	_	6	punct	_	start_char=645|end_char=646|SpacesAfter=\n
+1	---	---	PUNCT	$(	_	8	punct	_	start_char=668|end_char=671
+2	###	###	PUNCT	$(	_	8	punct	_	start_char=672|end_char=675
+3	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	8	dep	_	start_char=676|end_char=678
+4	Welche	welcher	DET	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	5	det	_	start_char=679|end_char=685
+5	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	start_char=686|end_char=691
+6	von	von	ADP	APPR	_	7	case	_	start_char=692|end_char=695
+7	Führungszeugnissen	Führungszeugnis	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	start_char=696|end_char=714
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=715|end_char=719
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	SpaceAfter=No|start_char=720|end_char=722
+10	?	?	PUNCT	$.	_	8	punct	_	start_char=722|end_char=723
 
-# text = - Direkt beim Bundesamt für Justiz.
+# text = Es gibt vier wichtige Arten.
 # sent_id = 15
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=647|end_char=648
-2	Direkt	direkt	ADJ	ADJD	Degree=Pos	0	root	_	start_char=649|end_char=655
-3-4	beim	_	_	_	_	_	_	_	start_char=656|end_char=660
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=724|end_char=726
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=727|end_char=731
+3	vier	vier	NUM	CARD	NumType=Card	5	nummod	_	start_char=732|end_char=736
+4	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=737|end_char=745
+5	Arten	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=746|end_char=751
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=751|end_char=752
+
+# text = 1. Führungszeugnis für private Zwecke - Sie bekommen das Papier selbst per Post.
+# sent_id = 16
+1	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	amod	_	start_char=753|end_char=755
+2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=756|end_char=771
+3	für	für	ADP	APPR	_	5	case	_	start_char=772|end_char=775
+4	private	privat	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=776|end_char=783
+5	Zwecke	Zweck	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	start_char=784|end_char=790
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=791|end_char=792
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nmod	_	start_char=793|end_char=796
+8	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=797|end_char=805
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=806|end_char=809
+10	Papier	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=810|end_char=816
+11	selbst	selbst	ADV	ADV	_	8	advmod	_	start_char=817|end_char=823
+12	per	per	ADP	APPR	_	13	case	_	start_char=824|end_char=827
+13	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|start_char=828|end_char=832
+14	.	.	PUNCT	$.	_	8	punct	_	start_char=832|end_char=833
+
+# text = - Meist wollen Arbeitgeber dieses Papier sehen.
+# sent_id = 17
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=834|end_char=835
+2	Meist	meist	ADV	ADV	_	7	advmod	_	start_char=836|end_char=841
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=842|end_char=848
+4	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=849|end_char=860
+5	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	start_char=861|end_char=867
+6	Papier	Papier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=868|end_char=874
+7	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=875|end_char=880
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=880|end_char=881
+
+# text = - „Arbeitgeber“ = eine Person oder Firma, die Menschen Arbeit gibt.
+# sent_id = 18
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=882|end_char=883
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=884|end_char=885
+3	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=885|end_char=896
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=896|end_char=897
+5	=	=	PUNCT	$(	_	7	punct	_	start_char=898|end_char=899
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=900|end_char=904
+7	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=905|end_char=911
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=912|end_char=916
+9	Firma	Firma	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No|start_char=917|end_char=922
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=922|end_char=923
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj	_	start_char=924|end_char=927
+12	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	start_char=928|end_char=936
+13	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=937|end_char=943
+14	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No|start_char=944|end_char=948
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=948|end_char=949
+
+# text = - Der Arbeitgeber will wissen, ob Sie vorbestraft sind.
+# sent_id = 19
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=950|end_char=951
+2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=952|end_char=955
+3	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=956|end_char=967
+4	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=968|end_char=972
+5	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=973|end_char=979
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=979|end_char=980
+7	ob	ob	SCONJ	KOUS	_	9	mark	_	start_char=981|end_char=983
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=984|end_char=987
+9	vorbestraft	vorbestraft	ADJ	ADJD	Degree=Pos	5	ccomp	_	start_char=988|end_char=999
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No|start_char=1000|end_char=1004
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1004|end_char=1005
+
+# text = - „vorbestraft“ = es gab schon eine Strafe durch ein Gericht.
+# sent_id = 20
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=1006|end_char=1007
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1008|end_char=1009
+3	vorbestraft	vorbestraft	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1009|end_char=1020
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=1020|end_char=1021
+5	=	=	PUNCT	$(	_	7	punct	_	start_char=1022|end_char=1023
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	start_char=1024|end_char=1026
+7	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	start_char=1027|end_char=1030
+8	schon	schon	ADV	ADV	_	7	advmod	_	start_char=1031|end_char=1036
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1037|end_char=1041
+10	Strafe	Strafe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	start_char=1042|end_char=1048
+11	durch	durch	ADP	APPR	_	13	case	_	start_char=1049|end_char=1054
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=1055|end_char=1058
+13	Gericht	Gericht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=1059|end_char=1066
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=1066|end_char=1067
+
+# text = 2. Führungszeugnis für eine Behörde - „Behörde“ = ein Amt, zum Beispiel Rathaus, Ausländerbehörde.
+# sent_id = 21
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=1068|end_char=1070
+2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1071|end_char=1086
+3	für	für	ADP	APPR	_	5	case	_	start_char=1087|end_char=1090
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1091|end_char=1095
+5	Behörde	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1096|end_char=1103
+6	-	-	PUNCT	$(	_	8	punct	_	start_char=1104|end_char=1105
+7	„	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=1106|end_char=1107
+8	Behörde	Behörde	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|start_char=1107|end_char=1114
+9	“	"	PUNCT	$(	_	8	punct	_	start_char=1114|end_char=1115
+10	=	=	PUNCT	$(	_	12	punct	_	start_char=1116|end_char=1117
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=1118|end_char=1121
+12	Amt	Amt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|start_char=1122|end_char=1125
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=1125|end_char=1126
+14-15	zum	_	_	_	_	_	_	_	start_char=1127|end_char=1130
+14	zu	zu	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=1131|end_char=1139
+17	Rathaus	Rathaus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	appos	_	SpaceAfter=No|start_char=1140|end_char=1147
+18	,	,	PUNCT	$,	_	19	punct	_	start_char=1147|end_char=1148
+19	Ausländerbehörde	Ausländerbehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No|start_char=1149|end_char=1165
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=1165|end_char=1166
+
+# text = - Dieses Führungszeugnis geht direkt an die Behörde.
+# sent_id = 22
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1167|end_char=1168
+2	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=1169|end_char=1175
+3	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1176|end_char=1191
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1192|end_char=1196
+5	direkt	direkt	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=1197|end_char=1203
+6	an	an	ADP	APPR	_	8	case	_	start_char=1204|end_char=1206
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1207|end_char=1210
+8	Behörde	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|start_char=1211|end_char=1218
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1218|end_char=1219
+
+# text = - Sie brauchen es zum Beispiel, wenn Sie bei einer Behörde arbeiten wollen.
+# sent_id = 23
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1220|end_char=1221
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1222|end_char=1225
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1226|end_char=1234
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=1235|end_char=1237
+5-6	zum	_	_	_	_	_	_	_	start_char=1238|end_char=1241
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|start_char=1242|end_char=1250
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=1250|end_char=1251
+9	wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=1252|end_char=1256
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=1257|end_char=1260
+11	bei	bei	ADP	APPR	_	13	case	_	start_char=1261|end_char=1264
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=1265|end_char=1270
+13	Behörde	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	start_char=1271|end_char=1278
+14	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=1279|end_char=1287
+15	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No|start_char=1288|end_char=1294
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=1294|end_char=1295
+
+# text = - Oder wenn Sie eine Erlaubnis vom Amt brauchen.
+# sent_id = 24
+1	-	-	PUNCT	$(	_	10	punct	_	start_char=1296|end_char=1297
+2	Oder	Oder	CCONJ	KON	_	10	cc	_	start_char=1298|end_char=1302
+3	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=1303|end_char=1307
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	start_char=1308|end_char=1311
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=1312|end_char=1316
+6	Erlaubnis	Erlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1317|end_char=1326
+7-8	vom	_	_	_	_	_	_	_	start_char=1327|end_char=1330
+7	von	von	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1331|end_char=1334
+10	brauchen	brauchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1335|end_char=1343
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1343|end_char=1344
+
+# text = - „Erlaubnis“ = eine offizielle Genehmigung.
+# sent_id = 25
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=1345|end_char=1346
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1347|end_char=1348
+3	Erlaubnis	Erlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	dep	_	SpaceAfter=No|start_char=1348|end_char=1357
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=1357|end_char=1358
+5	=	=	PUNCT	$(	_	8	cop	_	start_char=1359|end_char=1360
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1361|end_char=1365
+7	offizielle	offiziell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=1366|end_char=1376
+8	Genehmigung	Genehmigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1377|end_char=1388
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1388|end_char=1389
+
+# text = - Beispiel: Erlaubnis zum Betreiben einer Gaststätte (Restaurant, Kneipe).
+# sent_id = 26
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1390|end_char=1391
+2	Beispiel	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1392|end_char=1400
+3	:	:	PUNCT	$.	_	4	punct	_	start_char=1400|end_char=1401
+4	Erlaubnis	Erlaubnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=1402|end_char=1411
+5-6	zum	_	_	_	_	_	_	_	start_char=1412|end_char=1415
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Betreiben	Betreiben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=1416|end_char=1425
+8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=1426|end_char=1431
+9	Gaststätte	Gaststätte	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=1432|end_char=1442
+10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1443|end_char=1444
+11	Restaurant	Restaurant	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	SpaceAfter=No|start_char=1444|end_char=1454
+12	,	,	PUNCT	$,	_	13	punct	_	start_char=1454|end_char=1455
+13	Kneipe	Kneipe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|start_char=1456|end_char=1462
+14	)	)	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1462|end_char=1463
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=1463|end_char=1464
+
+# text = - Sie müssen die genaue Adresse der Behörde angeben.
+# sent_id = 27
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1465|end_char=1466
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=1467|end_char=1470
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1471|end_char=1477
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1478|end_char=1481
+5	genaue	genau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1482|end_char=1488
+6	Adresse	Adresse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1489|end_char=1496
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1497|end_char=1500
+8	Behörde	Behörde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1501|end_char=1508
+9	angeben	angeben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1509|end_char=1516
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=1516|end_char=1517
+
+# text = - Ein Postfach reicht nicht.
+# sent_id = 28
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1518|end_char=1519
+2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=1520|end_char=1523
+3	Postfach	Postfach	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1524|end_char=1532
+4	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1533|end_char=1539
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	SpaceAfter=No|start_char=1540|end_char=1545
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=1545|end_char=1546
+
+# text = 3. Erweitertes Führungszeugnis - „erweitert“ = enthält mehr Informationen.
+# sent_id = 29
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	3	dep	_	start_char=1547|end_char=1549
+2	Erweitertes	erweitert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=1550|end_char=1561
+3	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=1562|end_char=1577
+4	-	-	PUNCT	$(	_	6	punct	_	start_char=1578|end_char=1579
+5	„	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1580|end_char=1581
+6	erweitert	erweitern	VERB	VVPP	VerbForm=Part	3	parataxis	_	SpaceAfter=No|start_char=1581|end_char=1590
+7	“	"	PUNCT	$(	_	6	punct	_	start_char=1590|end_char=1591
+8	=	=	PUNCT	$(	_	6	punct	_	start_char=1592|end_char=1593
+9	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1594|end_char=1601
+10	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	11	det	_	start_char=1602|end_char=1606
+11	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|start_char=1607|end_char=1620
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=1620|end_char=1621
+
+# text = - Ein erweitertes Führungszeugnis ist strenger.
+# sent_id = 30
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1622|end_char=1623
+2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=1624|end_char=1627
+3	erweitertes	erweitert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=1628|end_char=1639
+4	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1640|end_char=1655
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1656|end_char=1659
+6	strenger	streng	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=1660|end_char=1668
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1668|end_char=1669
+
+# text = - Es wird oft verlangt, wenn Sie mit Kindern oder Jugendlichen arbeiten.
+# sent_id = 31
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1670|end_char=1671
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	start_char=1672|end_char=1674
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=1675|end_char=1679
+4	oft	oft	ADV	ADV	_	5	advmod	_	start_char=1680|end_char=1683
+5	verlangt	verlangen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1684|end_char=1692
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=1692|end_char=1693
+7	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=1694|end_char=1698
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1699|end_char=1702
+9	mit	mit	ADP	APPR	_	10	case	_	start_char=1703|end_char=1706
+10	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	start_char=1707|end_char=1714
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=1715|end_char=1719
+12	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	10	conj	_	start_char=1720|end_char=1732
+13	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No|start_char=1733|end_char=1741
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=1741|end_char=1742
+
+# text = - Für das erweiterte Führungszeugnis brauchen Sie ein Schreiben vom Arbeitgeber oder von einer Organisation.
+# sent_id = 32
+1	-	-	PUNCT	$(	_	6	punct	_	start_char=1743|end_char=1744
+2	Für	für	ADP	APPR	_	5	case	_	start_char=1745|end_char=1748
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1749|end_char=1752
+4	erweiterte	erweitert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1753|end_char=1763
+5	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	start_char=1764|end_char=1779
+6	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1780|end_char=1788
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=1789|end_char=1792
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=1793|end_char=1796
+9	Schreiben	Schreiben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=1797|end_char=1806
+10-11	vom	_	_	_	_	_	_	_	start_char=1807|end_char=1810
+10	von	von	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=1811|end_char=1822
+13	oder	oder	CCONJ	KON	_	16	cc	_	start_char=1823|end_char=1827
+14	von	von	ADP	APPR	_	16	case	_	start_char=1828|end_char=1831
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=1832|end_char=1837
+16	Organisation	Organisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|start_char=1838|end_char=1850
+17	.	.	PUNCT	$.	_	6	punct	_	start_char=1850|end_char=1851
+
+# text = - „Organisation“ = eine Einrichtung wie ein Verein oder eine soziale Trägerorganisation.
+# sent_id = 33
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=1852|end_char=1853
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1854|end_char=1855
+3	Organisation	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1855|end_char=1867
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=1867|end_char=1868
+5	=	=	PUNCT	$(	_	7	punct	_	start_char=1869|end_char=1870
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1871|end_char=1875
+7	Einrichtung	Einrichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=1876|end_char=1887
+8	wie	wie	ADP	KOKOM	_	10	case	_	start_char=1888|end_char=1891
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1892|end_char=1895
+10	Verein	Verein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	start_char=1896|end_char=1902
+11	oder	oder	CCONJ	KON	_	14	cc	_	start_char=1903|end_char=1907
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1908|end_char=1912
+13	soziale	sozial	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=1913|end_char=1920
+14	Trägerorganisation	Trägerorganisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|start_char=1921|end_char=1939
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=1939|end_char=1940
+
+# text = - In dem Schreiben stehen: - Name und Daten der Organisation - eine Bestätigung, dass die gesetzlichen Voraussetzungen erfüllt sind - Name, Vorname, Geburtsdatum und Adresse von Ihnen - welche Art von Führungszeugnis gewünscht ist - wenn nötig: Adresse der Behörde, die das Führungszeugnis bekommen soll 4.
+# sent_id = 34
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=1941|end_char=1942
+2	In	in	ADP	APPR	_	4	case	_	start_char=1943|end_char=1945
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=1946|end_char=1949
+4	Schreiben	Schreiben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=1950|end_char=1959
+5	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1960|end_char=1966
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=1966|end_char=1967
+7	-	-	PUNCT	$(	_	8	punct	_	start_char=1968|end_char=1969
+8	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1970|end_char=1974
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=1975|end_char=1978
+10	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	conj	_	start_char=1979|end_char=1984
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1985|end_char=1988
+12	Organisation	Organisation	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=1989|end_char=2001
+13	-	-	PUNCT	$(	_	15	punct	_	start_char=2002|end_char=2003
+14	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=2004|end_char=2008
+15	Bestätigung	Bestätigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|start_char=2009|end_char=2020
+16	,	,	PUNCT	$,	_	21	punct	_	start_char=2020|end_char=2021
+17	dass	dass	SCONJ	KOUS	_	21	mark	_	start_char=2022|end_char=2026
+18	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=2027|end_char=2030
+19	gesetzlichen	gesetzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=2031|end_char=2043
+20	Voraussetzungen	Voraussetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nsubj:pass	_	start_char=2044|end_char=2059
+21	erfüllt	erfüllen	VERB	VVPP	VerbForm=Part	15	ccomp	_	start_char=2060|end_char=2067
+22	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	start_char=2068|end_char=2072
+23	-	-	PUNCT	$(	_	24	punct	_	start_char=2073|end_char=2074
+24	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No|start_char=2075|end_char=2079
+25	,	,	PUNCT	$,	_	26	punct	_	start_char=2079|end_char=2080
+26	Vorname	Vorname	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No|start_char=2081|end_char=2088
+27	,	,	PUNCT	$,	_	28	punct	_	start_char=2088|end_char=2089
+28	Geburtsdatum	Geburtsdaten	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	start_char=2090|end_char=2102
+29	und	und	CCONJ	KON	_	30	cc	_	start_char=2103|end_char=2106
+30	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	start_char=2107|end_char=2114
+31	von	von	ADP	APPR	_	32	case	_	start_char=2115|end_char=2118
+32	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	30	nmod	_	start_char=2119|end_char=2124
+33	-	-	PUNCT	$(	_	38	punct	_	start_char=2125|end_char=2126
+34	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	35	det	_	start_char=2127|end_char=2133
+35	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	nsubj:pass	_	start_char=2134|end_char=2137
+36	von	von	ADP	APPR	_	37	case	_	start_char=2138|end_char=2141
+37	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	35	nmod	_	start_char=2142|end_char=2157
+38	gewünscht	wünschen	VERB	VVPP	VerbForm=Part	24	acl	_	start_char=2158|end_char=2167
+39	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux:pass	_	start_char=2168|end_char=2171
+40	-	-	PUNCT	$(	_	42	punct	_	start_char=2172|end_char=2173
+41	wenn	wenn	SCONJ	KOUS	_	42	mark	_	start_char=2174|end_char=2178
+42	nötig	nötig	ADJ	ADJD	Degree=Pos	5	advcl	_	SpaceAfter=No|start_char=2179|end_char=2184
+43	:	:	PUNCT	$.	_	44	punct	_	start_char=2184|end_char=2185
+44	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	42	appos	_	start_char=2186|end_char=2193
+45	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	start_char=2194|end_char=2197
+46	Behörde	Behörde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No|start_char=2198|end_char=2205
+47	,	,	PUNCT	$,	_	51	punct	_	start_char=2205|end_char=2206
+48	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	51	nsubj	_	start_char=2207|end_char=2210
+49	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	50	det	_	start_char=2211|end_char=2214
+50	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	51	obj	_	start_char=2215|end_char=2230
+51	bekommen	bekommen	VERB	VVPP	VerbForm=Part	46	acl	_	start_char=2231|end_char=2239
+52	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	start_char=2240|end_char=2244
+53	4	4	NUM	CARD	NumType=Card	44	dep	_	SpaceAfter=No|start_char=2245|end_char=2246
+54	.	.	PUNCT	$.	_	15	punct	_	start_char=2246|end_char=2247
+
+# text = Europäisches Führungszeugnis - „europäisch“ = es bezieht sich auf die Europäische Union (EU).
+# sent_id = 35
+1	Europäisches	Europäisches	PROPN	ADJA	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	start_char=2248|end_char=2260
+2	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=2261|end_char=2276
+3	-	-	PUNCT	$(	_	5	punct	_	start_char=2277|end_char=2278
+4	„	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=2279|end_char=2280
+5	europäisch	europäisch	ADJ	ADJD	Degree=Pos	2	appos	_	SpaceAfter=No|start_char=2280|end_char=2290
+6	“	"	PUNCT	$(	_	5	punct	_	start_char=2290|end_char=2291
+7	=	=	PUNCT	$(	_	9	punct	_	start_char=2292|end_char=2293
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=2294|end_char=2296
+9	bezieht	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2297|end_char=2304
+10	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=2305|end_char=2309
+11	auf	auf	ADP	APPR	_	14	case	_	start_char=2310|end_char=2313
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2314|end_char=2317
+13	Europäische	europäisch	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	start_char=2318|end_char=2329
+14	Union	Union	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=2330|end_char=2335
+15	(	(	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=2336|end_char=2337
+16	EU	EU	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No|start_char=2337|end_char=2339
+17	)	)	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=2339|end_char=2340
+18	.	.	PUNCT	$.	_	9	punct	_	start_char=2340|end_char=2341
+
+# text = - Dieses Führungszeugnis ist für Bürger der EU. - Auch Deutsche können es bekommen.
+# sent_id = 36
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2342|end_char=2343
+2	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=2344|end_char=2350
+3	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	start_char=2351|end_char=2366
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2367|end_char=2370
+5	für	für	ADP	APPR	_	6	case	_	start_char=2371|end_char=2374
+6	Bürger	Bürger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	start_char=2375|end_char=2381
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2382|end_char=2385
+8	EU.	EU.	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=2386|end_char=2389
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=2390|end_char=2391
+10	Auch	auch	ADV	ADV	_	11	advmod	_	start_char=2392|end_char=2396
+11	Deutsche	deutsch	NOUN	NN	Case=Nom|Number=Plur	8	conj	_	start_char=2397|end_char=2405
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2406|end_char=2412
+13	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=2413|end_char=2415
+14	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2416|end_char=2424
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=2424|end_char=2425
+
+# text = - Voraussetzung:
+# sent_id = 37
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2426|end_char=2427
+2	Voraussetzung	Voraussetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2428|end_char=2441
+3	:	:	PUNCT	$.	_	2	punct	_	start_char=2441|end_char=2442
+
+# text = Die Person hat zusätzlich eine Staatsangehörigkeit eines anderen EU-Landes.
+# sent_id = 38
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2443|end_char=2446
+2	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2447|end_char=2453
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2454|end_char=2457
+4	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=2458|end_char=2468
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=2469|end_char=2473
+6	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=2474|end_char=2493
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=2494|end_char=2499
+8	anderen	anderer	DET	ADJA	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	9	det	_	start_char=2500|end_char=2507
+9	EU	EU	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=2508|end_char=2510
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=2510|end_char=2511
+11	Landes	Land	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	flat	_	SpaceAfter=No|start_char=2511|end_char=2517
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=2517|end_char=2518
+
+# text = - „Staatsangehörigkeit“ = Zugehörigkeit zu einem Staat, zum Beispiel Deutschland, Frankreich.
+# sent_id = 39
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=2519|end_char=2520
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=2521|end_char=2522
+3	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2522|end_char=2541
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=2541|end_char=2542
+5	=	=	PUNCT	$(	_	6	punct	_	start_char=2543|end_char=2544
+6	Zugehörigkeit	Zugehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=2545|end_char=2558
+7	zu	zu	ADP	APPR	_	9	case	_	start_char=2559|end_char=2561
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=2562|end_char=2567
+9	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=2568|end_char=2573
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=2573|end_char=2574
+11-12	zum	_	_	_	_	_	_	_	start_char=2575|end_char=2578
+11	zu	zu	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=2579|end_char=2587
+14	Deutschland	Deutschland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	SpaceAfter=No|start_char=2588|end_char=2599
+15	,	,	PUNCT	$,	_	16	punct	_	start_char=2599|end_char=2600
+16	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No|start_char=2601|end_char=2611
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=2611|end_char=2612
+
+# text = --- ### 3.
+# sent_id = 40
+1	---	---	PUNCT	$(	_	3	punct	_	start_char=2613|end_char=2616
+2	###	###	PUNCT	$(	_	3	punct	_	start_char=2617|end_char=2620
+3	3	3	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No|start_char=2621|end_char=2622
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=2622|end_char=2623
+
+# text = Wer darf ein Führungszeugnis beantragen?
+# sent_id = 41
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=2624|end_char=2627
+2	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2628|end_char=2632
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=2633|end_char=2636
+4	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=2637|end_char=2652
+5	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2653|end_char=2663
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=2663|end_char=2664
+
+# text = „beantragen“ = offiziell verlangen, ein Formular ausfüllen.
+# sent_id = 42
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=2665|end_char=2666
+2	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	10	parataxis	_	SpaceAfter=No|start_char=2666|end_char=2676
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=2676|end_char=2677
+4	=	=	PUNCT	$(	_	6	punct	_	start_char=2678|end_char=2679
+5	offiziell	offiziell	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=2680|end_char=2689
+6	verlangen	verlangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	parataxis	_	SpaceAfter=No|start_char=2690|end_char=2699
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=2699|end_char=2700
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=2701|end_char=2704
+9	Formular	Formular	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=2705|end_char=2713
+10	ausfüllen	ausfüllen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2714|end_char=2723
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=2723|end_char=2724
+
+# text = Sie dürfen ein Führungszeugnis beantragen, wenn: - Sie mindestens 14 Jahre alt sind.
+# sent_id = 43
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2725|end_char=2728
+2	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2729|end_char=2735
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=2736|end_char=2739
+4	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=2740|end_char=2755
+5	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2756|end_char=2766
+6	,	,	PUNCT	$,	_	14	punct	_	start_char=2766|end_char=2767
+7	wenn	wenn	SCONJ	KOUS	_	14	mark	_	SpaceAfter=No|start_char=2768|end_char=2772
+8	:	:	PUNCT	$.	_	14	punct	_	start_char=2772|end_char=2773
+9	-	-	PUNCT	$(	_	14	punct	_	start_char=2774|end_char=2775
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	start_char=2776|end_char=2779
+11	mindestens	mindestens	ADV	ADV	_	12	advmod	_	start_char=2780|end_char=2790
+12	14	14	NUM	CARD	NumType=Card	13	nummod	_	start_char=2791|end_char=2793
+13	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	nmod	_	start_char=2794|end_char=2799
+14	alt	alt	ADJ	ADJD	Degree=Pos	5	ccomp	_	start_char=2800|end_char=2803
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|start_char=2804|end_char=2808
+16	.	.	PUNCT	$.	_	5	punct	_	start_char=2808|end_char=2809
+
+# text = - Bis 18 Jahre können auch die gesetzlichen Vertreter den Antrag stellen.
+# sent_id = 44
+1	-	-	PUNCT	$(	_	12	punct	_	start_char=2810|end_char=2811
+2	Bis	bis	ADP	APPR	_	4	case	_	start_char=2812|end_char=2815
+3	18	18	NUM	CARD	NumType=Card	4	nummod	_	start_char=2816|end_char=2818
+4	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	start_char=2819|end_char=2824
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2825|end_char=2831
+6	auch	auch	ADV	ADV	_	12	advmod	_	start_char=2832|end_char=2836
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2837|end_char=2840
+8	gesetzlichen	gesetzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=2841|end_char=2853
+9	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=2854|end_char=2863
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=2864|end_char=2867
+11	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=2868|end_char=2874
+12	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2875|end_char=2882
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=2882|end_char=2883
+
+# text = - „gesetzlicher Vertreter“ = zum Beispiel Eltern oder Vormund.
+# sent_id = 45
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=2884|end_char=2885
+2	„	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=2886|end_char=2887
+3	gesetzlicher	gesetzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=2887|end_char=2899
+4	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=2900|end_char=2909
+5	“	"	PUNCT	$(	_	4	punct	_	start_char=2909|end_char=2910
+6	=	=	PUNCT	$(	_	10	punct	_	start_char=2911|end_char=2912
+7-8	zum	_	_	_	_	_	_	_	start_char=2913|end_char=2916
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	start_char=2917|end_char=2925
+10	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	4	appos	_	start_char=2926|end_char=2932
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=2933|end_char=2937
+12	Vormund	Vormund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No|start_char=2938|end_char=2945
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=2945|end_char=2946
+
+# text = - Sie in Braunschweig gemeldet sind.
+# sent_id = 46
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2947|end_char=2948
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2949|end_char=2952
+3	in	in	ADP	APPR	_	4	case	_	start_char=2953|end_char=2955
+4	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=2956|end_char=2968
+5	gemeldet	melden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2969|end_char=2977
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	SpaceAfter=No|start_char=2978|end_char=2982
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=2982|end_char=2983
+
+# text = - „gemeldet“ = Ihre Adresse ist bei der Stadt registriert.
+# sent_id = 47
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=2984|end_char=2985
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=2986|end_char=2987
+3	gemeldet	melden	VERB	VVPP	VerbForm=Part	12	csubj	_	SpaceAfter=No|start_char=2987|end_char=2995
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=2995|end_char=2996
+5	=	=	PUNCT	$(	_	12	punct	_	start_char=2997|end_char=2998
+6	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=2999|end_char=3003
+7	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=3004|end_char=3011
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=3012|end_char=3015
+9	bei	bei	ADP	APPR	_	11	case	_	start_char=3016|end_char=3019
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=3020|end_char=3023
+11	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	start_char=3024|end_char=3029
+12	registriert	registrieren	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=3030|end_char=3041
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=3041|end_char=3042
+
+# text = - Es reicht Hauptwohnung oder Nebenwohnung in Braunschweig.
+# sent_id = 48
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3043|end_char=3044
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=3045|end_char=3047
+3	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3048|end_char=3054
+4	Hauptwohnung	Hauptwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=3055|end_char=3067
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=3068|end_char=3072
+6	Nebenwohnung	Nebenwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=3073|end_char=3085
+7	in	in	ADP	APPR	_	8	case	_	start_char=3086|end_char=3088
+8	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|start_char=3089|end_char=3101
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=3101|end_char=3102
+
+# text = --- ### 4.
+# sent_id = 49
+1	---	---	PUNCT	$(	_	3	punct	_	start_char=3103|end_char=3106
+2	###	###	PUNCT	$(	_	3	punct	_	start_char=3107|end_char=3110
+3	4	4	PROPN	CARD	NumType=Card	0	root	_	SpaceAfter=No|start_char=3111|end_char=3112
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3112|end_char=3113
+
+# text = Wie kann man ein Führungszeugnis beantragen?
+# sent_id = 50
+1	Wie	wie	ADV	PWAV	PronType=Int	6	advmod	_	start_char=3114|end_char=3117
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3118|end_char=3122
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=3123|end_char=3126
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=3127|end_char=3130
+5	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=3131|end_char=3146
+6	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3147|end_char=3157
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=3157|end_char=3158
+
+# text = Es gibt drei Wege: 1. Online über die Abteilung Bürgerangelegenheiten - „Bürgerangelegenheiten“ = Bereich im Rathaus für Anliegen der Einwohner.
+# sent_id = 51
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3159|end_char=3161
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3162|end_char=3166
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	start_char=3167|end_char=3171
+4	Wege	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=3172|end_char=3176
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=3176|end_char=3177
+6	1.	1.	ADJ	ADJA	Degree=Pos|NumType=Ord	7	amod	_	start_char=3178|end_char=3180
+7	Online	Online	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	start_char=3181|end_char=3187
+8	über	über	ADP	APPR	_	10	case	_	start_char=3188|end_char=3192
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3193|end_char=3196
+10	Abteilung	Abteilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=3197|end_char=3206
+11	Bürgerangelegenheiten	Bürgerangelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	appos	_	start_char=3207|end_char=3228
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=3229|end_char=3230
+13	„	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=3231|end_char=3232
+14	Bürgerangelegenheiten	Bürgerangelegenheit	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	11	appos	_	SpaceAfter=No|start_char=3232|end_char=3253
+15	“	"	PUNCT	$(	_	14	punct	_	start_char=3253|end_char=3254
+16	=	=	PUNCT	$(	_	17	punct	_	start_char=3255|end_char=3256
+17	Bereich	Bereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=3257|end_char=3264
+18-19	im	_	_	_	_	_	_	_	start_char=3265|end_char=3267
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Rathaus	Rathaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=3268|end_char=3275
+21	für	für	ADP	APPR	_	22	case	_	start_char=3276|end_char=3279
+22	Anliegen	Anliegen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nmod	_	start_char=3280|end_char=3288
+23	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	24	det	_	start_char=3289|end_char=3292
+24	Einwohner	Einwohner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No|start_char=3293|end_char=3302
+25	.	.	PUNCT	$.	_	2	punct	_	start_char=3302|end_char=3303
+
+# text = - Sie brauchen hier keine Online-Ausweisfunktion.
+# sent_id = 52
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3304|end_char=3305
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=3306|end_char=3309
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3310|end_char=3318
+4	hier	hier	ADV	ADV	_	3	advmod	_	start_char=3319|end_char=3323
+5	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	8	det	_	start_char=3324|end_char=3329
+6	Online	Online	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=3330|end_char=3336
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=3336|end_char=3337
+8	Ausweisfunktion	Ausweisfunktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=3337|end_char=3352
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=3352|end_char=3353
+
+# text = 2. Online beim Bundesamt für Justiz - „Bundesamt für Justiz“ = eine Bundesbehörde für Recht und Gesetze.
+# sent_id = 53
+1	2.	2.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=3354|end_char=3356
+2	Online	Online	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3357|end_char=3363
+3-4	beim	_	_	_	_	_	_	_	start_char=3364|end_char=3368
 3	bei	bei	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Bundesamt	Bundesamt	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=661|end_char=670
-6	für	für	ADP	APPR	_	7	case	_	start_char=671|end_char=674
-7	Justiz	Justiz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=675|end_char=681|SpaceAfter=No
-8	.	.	PUNCT	$.	_	2	punct	_	start_char=681|end_char=682|SpacesAfter=\n
+5	Bundesamt	Bundesamt	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=3369|end_char=3378
+6	für	für	ADP	APPR	_	7	case	_	start_char=3379|end_char=3382
+7	Justiz	Justiz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=3383|end_char=3389
+8	-	-	PUNCT	$(	_	10	punct	_	start_char=3390|end_char=3391
+9	„	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=3392|end_char=3393
+10	Bundesamt	Bundesamt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	start_char=3393|end_char=3402
+11	für	für	ADP	APPR	_	12	case	_	start_char=3403|end_char=3406
+12	Justiz	Justiz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=3407|end_char=3413
+13	“	"	PUNCT	$(	_	10	punct	_	start_char=3413|end_char=3414
+14	=	=	PUNCT	$(	_	16	punct	_	start_char=3415|end_char=3416
+15	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=3417|end_char=3421
+16	Bundesbehörde	Bundesbehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=3422|end_char=3435
+17	für	für	ADP	APPR	_	18	case	_	start_char=3436|end_char=3439
+18	Recht	Recht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	start_char=3440|end_char=3445
+19	und	und	CCONJ	KON	_	20	cc	_	start_char=3446|end_char=3449
+20	Gesetze	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No|start_char=3450|end_char=3457
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=3457|end_char=3458
 
-# text = - Persönlich im Bürgerbüro.
-# sent_id = 16
-1	-	-	PUNCT	$(	_	2	punct	_	start_char=683|end_char=684
-2	Persönlich	persönlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=685|end_char=695
-3-4	im	_	_	_	_	_	_	_	start_char=696|end_char=698
-3	in	in	ADP	APPR	_	5	case	_	_
-4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Bürgerbüro	Bürgerbüro	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=699|end_char=709|SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	start_char=709|end_char=710|SpacesAfter=\n\n
+# text = - Hier brauchen Sie die Online-Ausweisfunktion Ihres Ausweises.
+# sent_id = 54
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=3459|end_char=3460
+2	Hier	hier	ADV	ADV	_	3	advmod	_	start_char=3461|end_char=3465
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3466|end_char=3474
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=3475|end_char=3478
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=3479|end_char=3482
+6	Online	Online	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=3483|end_char=3489
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=3489|end_char=3490
+8	Ausweisfunktion	Ausweisfunktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=3490|end_char=3505
+9	Ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=3506|end_char=3511
+10	Ausweises	Ausweis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=3512|end_char=3521
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3521|end_char=3522
 
-# text = Das kostet 13 Euro.
-# sent_id = 17
-1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=712|end_char=715
-2	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=716|end_char=722
-3	13	13	NUM	CARD	NumType=Card	4	nummod	_	start_char=723|end_char=725
-4	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=726|end_char=730|SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	start_char=730|end_char=731|SpacesAfter=\n\n
+# text = - „Online-Ausweisfunktion“ = elektronische Funktion im Personalausweis.
+# sent_id = 55
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=3523|end_char=3524
+2	„	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=3525|end_char=3526
+3	Online	Online	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No|start_char=3526|end_char=3532
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=3532|end_char=3533
+5	Ausweisfunktion	Ausweisfunktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=3533|end_char=3548
+6	“	"	PUNCT	$(	_	5	punct	_	start_char=3548|end_char=3549
+7	=	=	PUNCT	$(	_	9	punct	_	start_char=3550|end_char=3551
+8	elektronische	elektronisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3552|end_char=3565
+9	Funktion	Funktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=3566|end_char=3574
+10-11	im	_	_	_	_	_	_	_	start_char=3575|end_char=3577
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Personalausweis	Personalausweis	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=3578|end_char=3593
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=3593|end_char=3594
 
-# text = Man braucht: - Ausweis oder Pass - Bei Behördensachen: Adresse und Aktenzeichen der Behörde - Für erweitert: Brief vom Arbeitgeber oder von der Einrichtung
-# sent_id = 18
-1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=733|end_char=736
-2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=737|end_char=744|SpaceAfter=No
-3	:	:	PUNCT	$.	_	5	punct	_	start_char=744|end_char=745|SpacesAfter=\n
-4	-	-	PUNCT	$(	_	5	punct	_	start_char=746|end_char=747
-5	Ausweis	Ausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	start_char=748|end_char=755
-6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=756|end_char=760
-7	Pass	Paß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=761|end_char=765|SpacesAfter=\n
-8	-	-	PUNCT	$(	_	7	punct	_	start_char=766|end_char=767
-9	Bei	bei	ADP	APPR	_	10	case	_	start_char=768|end_char=771
-10	Behördensachen	Behördensache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=772|end_char=786|SpaceAfter=No
-11	:	:	PUNCT	$.	_	12	punct	_	start_char=786|end_char=787
-12	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=788|end_char=795
-13	und	und	CCONJ	KON	_	14	cc	_	start_char=796|end_char=799
-14	Aktenzeichen	Aktenzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	conj	_	start_char=800|end_char=812
-15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=813|end_char=816
-16	Behörde	Behörde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=817|end_char=824|SpacesAfter=\n
-17	-	-	PUNCT	$(	_	16	punct	_	start_char=825|end_char=826
-18	Für	für	ADP	APPR	_	19	xcomp	_	start_char=827|end_char=830
-19	erweitert	erweitern	VERB	VVPP	VerbForm=Part	2	conj	_	start_char=831|end_char=840|SpaceAfter=No
-20	:	:	PUNCT	$.	_	21	punct	_	start_char=840|end_char=841
-21	Brief	Brief	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	start_char=842|end_char=847
-22-23	vom	_	_	_	_	_	_	_	start_char=848|end_char=851
-22	von	von	ADP	APPR	_	24	case	_	_
-23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	start_char=852|end_char=863
-25	oder	oder	CCONJ	KON	_	28	cc	_	start_char=864|end_char=868
-26	von	von	ADP	APPR	_	28	case	_	start_char=869|end_char=872
-27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=873|end_char=876
-28	Einrichtung	Einrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	conj	_	start_char=877|end_char=888|SpacesAfter=\n\n
+# text = 3. Persönlich - Sie gehen zu der zuständigen Stelle und sprechen dort vor.
+# sent_id = 56
+1	3.	3.	ADJ	ADJA	Degree=Pos|NumType=Ord	2	dep	_	start_char=3595|end_char=3597
+2	Persönlich	persönlich	ADJ	ADJD	Degree=Pos	4	amod	_	start_char=3598|end_char=3608
+3	-	-	PUNCT	$(	_	2	punct	_	start_char=3609|end_char=3610
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=3611|end_char=3614
+5	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3615|end_char=3620
+6	zu	zu	ADP	APPR	_	9	case	_	start_char=3621|end_char=3623
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3624|end_char=3627
+8	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=3628|end_char=3639
+9	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=3640|end_char=3646
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=3647|end_char=3650
+11	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=3651|end_char=3659
+12	dort	dort	ADV	ADV	_	11	advmod	_	start_char=3660|end_char=3664
+13	vor.	vor.	PUNCT	$.	_	5	punct	_	start_char=3665|end_char=3669
 
-# text = Das Papier kommt nach dem Antrag per Post.
-# sent_id = 19
-1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=890|end_char=893
-2	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=894|end_char=900
-3	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=901|end_char=906
-4	nach	nach	ADP	APPR	_	6	case	_	start_char=907|end_char=911
-5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=912|end_char=915
-6	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=916|end_char=922
-7	per	per	ADP	APPR	_	8	case	_	start_char=923|end_char=926
-8	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=927|end_char=931|SpaceAfter=No
-9	.	.	PUNCT	$.	_	3	punct	_	start_char=931|end_char=932|SpacesAfter=\n\n
+# text = - „zuständig“ = verantwortlich.
+# sent_id = 57
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=3670|end_char=3671
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=3672|end_char=3673
+3	zuständig	zuständig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3673|end_char=3682
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=3682|end_char=3683
+5	=	=	PUNCT	$(	_	6	punct	_	start_char=3684|end_char=3685
+6	verantwortlich	verantwortlich	ADJ	ADJD	Degree=Pos	3	conj	_	SpaceAfter=No|start_char=3686|end_char=3700
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=3700|end_char=3701
 
-# text = Nur offizielle Stellen können ein Führungszeugnis ausstellen.
-# sent_id = 20
-1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=934|end_char=937
-2	offizielle	offiziell	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=938|end_char=948
-3	Stellen	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=949|end_char=956
-4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=957|end_char=963
-5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=964|end_char=967
-6	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=968|end_char=983
-7	ausstellen	ausstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=984|end_char=994|SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	start_char=994|end_char=995
+# text = --- ### 5. Welche Unterlagen brauchen Sie? „Unterlagen“ = wichtige Papiere, die Sie mitbringen müssen.
+# sent_id = 58
+1	---	---	PUNCT	$(	_	6	punct	_	start_char=3702|end_char=3705
+2	###	###	PUNCT	$(	_	6	punct	_	start_char=3706|end_char=3709
+3	5.	5.	ADJ	ADJA	Degree=Pos|NumType=Ord	6	dep	_	start_char=3710|end_char=3712
+4	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	5	det	_	start_char=3713|end_char=3719
+5	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	start_char=3720|end_char=3730
+6	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3731|end_char=3739
+7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	SpaceAfter=No|start_char=3740|end_char=3743
+8	?	?	PUNCT	$.	_	10	punct	_	start_char=3743|end_char=3744
+9	„	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=3745|end_char=3746
+10	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|start_char=3746|end_char=3756
+11	“	"	PUNCT	$(	_	10	punct	_	start_char=3756|end_char=3757
+12	=	=	PUNCT	$(	_	14	punct	_	start_char=3758|end_char=3759
+13	wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	start_char=3760|end_char=3768
+14	Papiere	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No|start_char=3769|end_char=3776
+15	,	,	PUNCT	$,	_	18	punct	_	start_char=3776|end_char=3777
+16	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	18	obj	_	start_char=3778|end_char=3781
+17	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	18	nsubj	_	start_char=3782|end_char=3785
+18	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	14	acl	_	start_char=3786|end_char=3796
+19	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No|start_char=3797|end_char=3803
+20	.	.	PUNCT	$.	_	6	punct	_	start_char=3803|end_char=3804
 
-# text = Internetanbieter mit Abo sind nicht offiziell.
-# sent_id = 21
-1	Internetanbieter	Internetanbieter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=996|end_char=1012
-2	mit	mit	ADP	APPR	_	3	case	_	start_char=1013|end_char=1016
-3	Abo	Abo	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	start_char=1017|end_char=1020
-4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1021|end_char=1025
-5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1026|end_char=1031
-6	offiziell	offiziell	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1032|end_char=1041|SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	start_char=1041|end_char=1042|SpaceAfter=No
+# text = Sie brauchen: - Personalausweis oder Reisepass oder Kinderreisepass oder Führerschein.
+# sent_id = 59
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3805|end_char=3808
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3809|end_char=3817
+3	:	:	PUNCT	$.	_	5	punct	_	start_char=3817|end_char=3818
+4	-	-	PUNCT	$(	_	5	punct	_	start_char=3819|end_char=3820
+5	Personalausweis	Personalausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	start_char=3821|end_char=3836
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=3837|end_char=3841
+7	Reisepass	Reisepass	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=3842|end_char=3851
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=3852|end_char=3856
+9	Kinderreisepass	Kinderreisepass	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=3857|end_char=3872
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=3873|end_char=3877
+11	Führerschein	Führerschein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|start_char=3878|end_char=3890
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3890|end_char=3891
+
+# text = Für ein Führungszeugnis für eine Behörde zusätzlich: - die genaue Adresse der Behörde (kein Postfach) - wenn vorhanden: das Aktenzeichen.
+# sent_id = 60
+1	Für	für	ADP	APPR	_	3	case	_	start_char=3892|end_char=3895
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=3896|end_char=3899
+3	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	start_char=3900|end_char=3915
+4	für	für	ADP	APPR	_	6	case	_	start_char=3916|end_char=3919
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=3920|end_char=3924
+6	Behörde	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=3925|end_char=3932
+7	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	3	amod	_	SpaceAfter=No|start_char=3933|end_char=3943
+8	:	:	PUNCT	$.	_	12	punct	_	start_char=3943|end_char=3944
+9	-	-	PUNCT	$(	_	12	punct	_	start_char=3945|end_char=3946
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3947|end_char=3950
+11	genaue	genau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=3951|end_char=3957
+12	Adresse	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3958|end_char=3965
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=3966|end_char=3969
+14	Behörde	Behörde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=3970|end_char=3977
+15	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=3978|end_char=3979
+16	kein	kein	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	17	det	_	start_char=3979|end_char=3983
+17	Postfach	Postfach	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	SpaceAfter=No|start_char=3984|end_char=3992
+18	)	)	PUNCT	$(	_	17	punct	_	start_char=3992|end_char=3993
+19	-	-	PUNCT	$(	_	21	punct	_	start_char=3994|end_char=3995
+20	wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=3996|end_char=4000
+21	vorhanden	vorhanden	ADJ	ADJD	Degree=Pos	12	advcl	_	SpaceAfter=No|start_char=4001|end_char=4010
+22	:	:	PUNCT	$.	_	24	punct	_	start_char=4010|end_char=4011
+23	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	start_char=4012|end_char=4015
+24	Aktenzeichen	Aktenzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	appos	_	SpaceAfter=No|start_char=4016|end_char=4028
+25	.	.	PUNCT	$.	_	12	punct	_	start_char=4028|end_char=4029
+
+# text = - „Aktenzeichen“ = Nummer einer Sache bei der Behörde.
+# sent_id = 61
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=4030|end_char=4031
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=4032|end_char=4033
+3	Aktenzeichen	Aktenzeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=4033|end_char=4045
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=4045|end_char=4046
+5	=	=	PUNCT	$(	_	6	punct	_	start_char=4047|end_char=4048
+6	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=4049|end_char=4055
+7	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=4056|end_char=4061
+8	Sache	Sache	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=4062|end_char=4067
+9	bei	bei	ADP	APPR	_	11	case	_	start_char=4068|end_char=4071
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=4072|end_char=4075
+11	Behörde	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=4076|end_char=4083
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=4083|end_char=4084
+
+# text = Bei schriftlicher Beantragung: - „schriftliche Beantragung“ =
+# sent_id = 62
+1	Bei	bei	ADP	APPR	_	3	case	_	start_char=4085|end_char=4088
+2	schriftlicher	schriftlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4089|end_char=4102
+3	Beantragung	Beantragung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=4103|end_char=4114
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=4114|end_char=4115
+5	-	-	PUNCT	$(	_	8	punct	_	start_char=4116|end_char=4117
+6	„	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=4118|end_char=4119
+7	schriftliche	schriftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=4119|end_char=4131
+8	Beantragung	Beantragung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|start_char=4132|end_char=4143
+9	“	"	PUNCT	$(	_	8	punct	_	start_char=4143|end_char=4144
+10	=	=	PUNCT	$(	_	8	punct	_	start_char=4145|end_char=4146
+
+# text = Sie schicken den Antrag per Post.
+# sent_id = 63
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4147|end_char=4150
+2	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4151|end_char=4159
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=4160|end_char=4163
+4	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=4164|end_char=4170
+5	per	per	ADP	APPR	_	6	case	_	start_char=4171|end_char=4174
+6	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=4175|end_char=4179
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=4179|end_char=4180
+
+# text = - Ihre Unterschrift muss beglaubigt sein.
+# sent_id = 64
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4181|end_char=4182
+2	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=4183|end_char=4187
+3	Unterschrift	Unterschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=4188|end_char=4200
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4201|end_char=4205
+5	beglaubigt	beglaubigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4206|end_char=4216
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	aux:pass	_	SpaceAfter=No|start_char=4217|end_char=4221
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=4221|end_char=4222
+
+# text = - „beglaubigt“ = ein Notar oder eine Behörde bestätigt:
+# sent_id = 65
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=4223|end_char=4224
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=4225|end_char=4226
+3	beglaubigt	beglaubigen	VERB	VVPP	VerbForm=Part	11	acl	_	SpaceAfter=No|start_char=4226|end_char=4236
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=4236|end_char=4237
+5	=	=	PUNCT	$(	_	7	punct	_	start_char=4238|end_char=4239
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=4240|end_char=4243
+7	Notar	Notar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	start_char=4244|end_char=4249
+8	oder	oder	CCONJ	KON	_	10	cc	_	start_char=4250|end_char=4254
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=4255|end_char=4259
+10	Behörde	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=4260|end_char=4267
+11	bestätigt	bestätigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=4268|end_char=4277
+12	:	:	PUNCT	$.	_	11	punct	_	start_char=4277|end_char=4278
+
+# text = Die Unterschrift ist echt.
+# sent_id = 66
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4279|end_char=4282
+2	Unterschrift	Unterschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4283|end_char=4295
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4296|end_char=4299
+4	echt	echt	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4300|end_char=4304
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=4304|end_char=4305
+
+# text = Für ein erweitertes Führungszeugnis zusätzlich: - das Anforderungsschreiben vom Arbeitgeber oder von der Einrichtung oder vom Träger.
+# sent_id = 67
+1	Für	für	ADP	APPR	_	4	case	_	start_char=4306|end_char=4309
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=4310|end_char=4313
+3	erweitertes	erweitert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=4314|end_char=4325
+4	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	start_char=4326|end_char=4341
+5	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4342|end_char=4352
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=4352|end_char=4353
+7	-	-	PUNCT	$(	_	9	punct	_	start_char=4354|end_char=4355
+8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=4356|end_char=4359
+9	Anforderungsschreiben	Anforderungsschreiben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	start_char=4360|end_char=4381
+10-11	vom	_	_	_	_	_	_	_	start_char=4382|end_char=4385
+10	von	von	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	start_char=4386|end_char=4397
+13	oder	oder	CCONJ	KON	_	16	cc	_	start_char=4398|end_char=4402
+14	von	von	ADP	APPR	_	16	case	_	start_char=4403|end_char=4406
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=4407|end_char=4410
+16	Einrichtung	Einrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	start_char=4411|end_char=4422
+17	oder	oder	CCONJ	KON	_	20	cc	_	start_char=4423|end_char=4427
+18-19	vom	_	_	_	_	_	_	_	start_char=4428|end_char=4431
+18	von	von	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Träger	Träger	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|start_char=4432|end_char=4438
+21	.	.	PUNCT	$.	_	5	punct	_	start_char=4438|end_char=4439
+
+# text = - „Träger“ = Organisation, die eine Einrichtung betreibt, zum Beispiel ein Wohlfahrtsverband.
+# sent_id = 68
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=4440|end_char=4441
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=4442|end_char=4443
+3	Träger	Träger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	dep	_	SpaceAfter=No|start_char=4443|end_char=4449
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=4449|end_char=4450
+5	=	=	PUNCT	$(	_	6	punct	_	start_char=4451|end_char=4452
+6	Organisation	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|start_char=4453|end_char=4465
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=4465|end_char=4466
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=4467|end_char=4470
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=4471|end_char=4475
+10	Einrichtung	Einrichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=4476|end_char=4487
+11	betreibt	betreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=4488|end_char=4496
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=4496|end_char=4497
+13-14	zum	_	_	_	_	_	_	_	start_char=4498|end_char=4501
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=4502|end_char=4510
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=4511|end_char=4514
+17	Wohlfahrtsverband	Wohlfahrtsverband	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=4515|end_char=4532
+18	.	.	PUNCT	$.	_	3	punct	_	start_char=4532|end_char=4533
+
+# text = --- ### 6.
+# sent_id = 69
+1	---	---	PUNCT	$(	_	3	punct	_	start_char=4534|end_char=4537
+2	###	###	PUNCT	$(	_	3	punct	_	start_char=4538|end_char=4541
+3	6	6	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No|start_char=4542|end_char=4543
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=4543|end_char=4544
+
+# text = Was kostet das Führungszeugnis?
+# sent_id = 70
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=4545|end_char=4548
+2	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4549|end_char=4555
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4556|end_char=4559
+4	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=4560|end_char=4575
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=4575|end_char=4576
+
+# text = Die Gebühr ist 13,00 Euro.
+# sent_id = 71
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4577|end_char=4580
+2	Gebühr	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=4581|end_char=4587
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4588|end_char=4591
+4	13,00	13,00	NUM	CARD	NumType=Card	5	nummod	_	start_char=4592|end_char=4597
+5	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=4598|end_char=4602
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=4602|end_char=4603
+
+# text = „Gebühr“ = Geld, das Sie an die Behörde zahlen müssen.
+# sent_id = 72
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=4604|end_char=4605
+2	Gebühr	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=4605|end_char=4611
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=4611|end_char=4612
+4	=	=	PUNCT	$(	_	5	punct	_	start_char=4613|end_char=4614
+5	Geld	Geld	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|start_char=4615|end_char=4619
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=4619|end_char=4620
+7	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	12	obj	_	start_char=4621|end_char=4624
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	start_char=4625|end_char=4628
+9	an	an	ADP	APPR	_	11	case	_	start_char=4629|end_char=4631
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=4632|end_char=4635
+11	Behörde	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=4636|end_char=4643
+12	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=4644|end_char=4650
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=4651|end_char=4657
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=4657|end_char=4658
+
+# text = --- ### 7.
+# sent_id = 73
+1	---	---	PUNCT	$(	_	2	punct	_	start_char=4659|end_char=4662
+2	###	###	X	XY	_	0	root	_	start_char=4663|end_char=4666
+3	7	7	NUM	CARD	NumType=Card	2	dep	_	SpaceAfter=No|start_char=4667|end_char=4668
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=4668|end_char=4669
+
+# text = Wie lange dauert die Bearbeitung?
+# sent_id = 74
+1	Wie	wie	ADV	KOUS	PronType=Int	2	advmod	_	start_char=4670|end_char=4673
+2	lange	lange	ADV	ADV	_	3	advmod	_	start_char=4674|end_char=4679
+3	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4680|end_char=4686
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4687|end_char=4690
+5	Bearbeitung	Bearbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=4691|end_char=4702
+6	?	?	PUNCT	$.	_	3	punct	_	start_char=4702|end_char=4703
+
+# text = „Bearbeitung“ = der Antrag wird geprüft und verarbeitet.
+# sent_id = 75
+1	„	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=4704|end_char=4705
+2	Bearbeitung	Bearbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	dep	_	SpaceAfter=No|start_char=4705|end_char=4716
+3	“	"	PUNCT	$(	_	2	punct	_	start_char=4716|end_char=4717
+4	=	=	PUNCT	$(	_	8	punct	_	start_char=4718|end_char=4719
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4720|end_char=4723
+6	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=4724|end_char=4730
+7	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=4731|end_char=4735
+8	geprüft	prüfen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4736|end_char=4743
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=4744|end_char=4747
+10	verarbeitet	verarbeiten	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No|start_char=4748|end_char=4759
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=4759|end_char=4760
+
+# text = - Die Stelle bearbeitet Ihren Antrag sofort.
+# sent_id = 76
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4761|end_char=4762
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4763|end_char=4766
+3	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4767|end_char=4773
+4	bearbeitet	bearbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4774|end_char=4784
+5	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=4785|end_char=4790
+6	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=4791|end_char=4797
+7	sofort	sofort	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=4798|end_char=4804
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=4804|end_char=4805
+
+# text = - Danach geht der Antrag an das Bundesamt für Justiz in Bonn.
+# sent_id = 77
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4806|end_char=4807
+2	Danach	danach	ADV	PAV	_	3	advmod	_	start_char=4808|end_char=4814
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4815|end_char=4819
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=4820|end_char=4823
+5	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=4824|end_char=4830
+6	an	an	ADP	APPR	_	8	case	_	start_char=4831|end_char=4833
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=4834|end_char=4837
+8	Bundesamt	Bundesamt	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=4838|end_char=4847
+9	für	für	ADP	APPR	_	10	case	_	start_char=4848|end_char=4851
+10	Justiz	Justiz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=4852|end_char=4858
+11	in	in	ADP	APPR	_	12	case	_	start_char=4859|end_char=4861
+12	Bonn	Bonn	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=4862|end_char=4866
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=4866|end_char=4867
+
+# text = - Dort wird das Führungszeugnis erstellt und verschickt.
+# sent_id = 78
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=4868|end_char=4869
+2	Dort	dort	ADV	ADV	_	6	advmod	_	start_char=4870|end_char=4874
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=4875|end_char=4879
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=4880|end_char=4883
+5	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	start_char=4884|end_char=4899
+6	erstellt	erstellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4900|end_char=4908
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=4909|end_char=4912
+8	verschickt	verschicken	VERB	VVPP	VerbForm=Part	6	conj	_	SpaceAfter=No|start_char=4913|end_char=4923
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=4923|end_char=4924
+
+# text = --- ### 8. Gebührenbefreiung bei Online-Antrag „Gebührenbefreiung“ =
+# sent_id = 79
+1	---	---	PUNCT	$(	_	4	punct	_	start_char=4925|end_char=4928
+2	###	###	PUNCT	$(	_	4	punct	_	start_char=4929|end_char=4932
+3	8.	8.	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	start_char=4933|end_char=4935
+4	Gebührenbefreiung	Gebührenbefreiung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4936|end_char=4953
+5	bei	bei	ADP	APPR	_	8	case	_	start_char=4954|end_char=4957
+6	Online	Online	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No|start_char=4958|end_char=4964
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=4964|end_char=4965
+8	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=4965|end_char=4971
+9	„	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=4972|end_char=4973
+10	Gebührenbefreiung	Gebührenbefreiung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No|start_char=4973|end_char=4990
+11	“	"	PUNCT	$(	_	10	punct	_	start_char=4990|end_char=4991
+12	=	=	PUNCT	$(	_	4	punct	_	start_char=4992|end_char=4993
+
+# text = Sie müssen keine Gebühr zahlen.
+# sent_id = 80
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=4994|end_char=4997
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4998|end_char=5004
+3	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	4	det	_	start_char=5005|end_char=5010
+4	Gebühr	Gebühr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=5011|end_char=5017
+5	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5018|end_char=5024
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=5024|end_char=5025
+
+# text = - Manchmal müssen Sie die 13 Euro nicht zahlen.
+# sent_id = 81
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5026|end_char=5027
+2	Manchmal	manchmal	ADV	ADV	_	9	advmod	_	start_char=5028|end_char=5036
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5037|end_char=5043
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	start_char=5044|end_char=5047
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5048|end_char=5051
+6	13	13	NUM	CARD	NumType=Card	7	nummod	_	start_char=5052|end_char=5054
+7	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=5055|end_char=5059
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=5060|end_char=5065
+9	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5066|end_char=5072
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5072|end_char=5073
+
+# text = - Dann brauchen Sie einen Nachweis.
+# sent_id = 82
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5074|end_char=5075
+2	Dann	dann	ADV	ADV	_	3	advmod	_	start_char=5076|end_char=5080
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5081|end_char=5089
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=5090|end_char=5093
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=5094|end_char=5099
+6	Nachweis	Nachweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|start_char=5100|end_char=5108
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=5108|end_char=5109
+
+# text = - „Nachweis“ = ein Dokument, das etwas belegt, zum Beispiel Bescheinigung über Sozialleistungen.
+# sent_id = 83
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=5110|end_char=5111
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=5112|end_char=5113
+3	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=5113|end_char=5121
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=5121|end_char=5122
+5	=	=	PUNCT	$(	_	7	punct	_	start_char=5123|end_char=5124
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=5125|end_char=5128
+7	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	SpaceAfter=No|start_char=5129|end_char=5137
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=5137|end_char=5138
+9	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=5139|end_char=5142
+10	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	start_char=5143|end_char=5148
+11	belegt	belegen	VERB	VVPP	VerbForm=Part	7	acl	_	SpaceAfter=No|start_char=5149|end_char=5155
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=5155|end_char=5156
+13-14	zum	_	_	_	_	_	_	_	start_char=5157|end_char=5160
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	start_char=5161|end_char=5169
+16	Bescheinigung	Bescheinigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=5170|end_char=5183
+17	über	über	ADP	APPR	_	18	case	_	start_char=5184|end_char=5188
+18	Sozialleistungen	Sozialleistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No|start_char=5189|end_char=5205
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=5205|end_char=5206
+
+# text = - Wenn Sie ein gebührenfreies Führungszeugnis online beantragen: - Sie müssen den Nachweis gleichzeitig mit dem Antrag mitschicken.
+# sent_id = 84
+1	-	-	PUNCT	$(	_	8	punct	_	start_char=5207|end_char=5208
+2	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=5209|end_char=5213
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	start_char=5214|end_char=5217
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=5218|end_char=5221
+5	gebührenfreies	gebührenfrei	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=5222|end_char=5236
+6	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=5237|end_char=5252
+7	online	online	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=5253|end_char=5259
+8	beantragen	beantragen	VERB	VVFIN	VerbForm=Inf	19	advcl	_	SpaceAfter=No|start_char=5260|end_char=5270
+9	:	:	PUNCT	$.	_	19	punct	_	start_char=5270|end_char=5271
+10	-	-	PUNCT	$(	_	19	punct	_	start_char=5272|end_char=5273
+11	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=5274|end_char=5277
+12	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=5278|end_char=5284
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=5285|end_char=5288
+14	Nachweis	Nachweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=5289|end_char=5297
+15	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	19	advmod	_	start_char=5298|end_char=5310
+16	mit	mit	ADP	APPR	_	18	case	_	start_char=5311|end_char=5314
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=5315|end_char=5318
+18	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=5319|end_char=5325
+19	mitschicken	mitschicken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5326|end_char=5337
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=5337|end_char=5338
+
+# text = - Wenn kein Nachweis vorliegt oder der Nachweis nicht ausreicht: - Die Behörde lehnt den Antrag ab.
+# sent_id = 85
+1	-	-	PUNCT	$(	_	15	punct	_	start_char=5339|end_char=5340
+2	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=5341|end_char=5345
+3	kein	kein	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	4	det	_	start_char=5346|end_char=5350
+4	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=5351|end_char=5359
+5	vorliegt	vorliegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=5360|end_char=5368
+6	oder	oder	CCONJ	KON	_	10	cc	_	start_char=5369|end_char=5373
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=5374|end_char=5377
+8	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=5378|end_char=5386
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=5387|end_char=5392
+10	ausreicht	ausreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No|start_char=5393|end_char=5402
+11	:	:	PUNCT	$.	_	15	punct	_	start_char=5402|end_char=5403
+12	-	-	PUNCT	$(	_	15	punct	_	start_char=5404|end_char=5405
+13	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=5406|end_char=5409
+14	Behörde	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=5410|end_char=5417
+15	lehnt	lehnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5418|end_char=5423
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=5424|end_char=5427
+17	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=5428|end_char=5434
+18	ab.	ab.	ADP	PTKVZ	_	15	compound:prt	_	start_char=5435|end_char=5438
+
+# text = - „ablehnen“ = nein sagen, Antrag nicht annehmen.
+# sent_id = 86
+1	-	-	PUNCT	$(	_	3	punct	_	start_char=5439|end_char=5440
+2	„	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=5441|end_char=5442
+3	ablehnen	ablehnen	VERB	VVINF	VerbForm=Inf	11	parataxis	_	SpaceAfter=No|start_char=5442|end_char=5450
+4	“	"	PUNCT	$(	_	3	punct	_	start_char=5450|end_char=5451
+5	=	=	PUNCT	$(	_	7	punct	_	start_char=5452|end_char=5453
+6	nein	nein	ADV	ADV	_	7	advmod	_	start_char=5454|end_char=5458
+7	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No|start_char=5459|end_char=5464
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=5464|end_char=5465
+9	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=5466|end_char=5472
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=5473|end_char=5478
+11	annehmen	annehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5479|end_char=5487
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=5487|end_char=5488
+
+# text = --- ### 9. Wichtige Warnung zu privaten Internetseiten - Es gibt private Internetseiten, zum Beispiel - „www.amtsweg.com“ - „www.fuehrungszeugnis.net“.
+# sent_id = 87
+1	---	---	PUNCT	$(	_	5	punct	_	start_char=5489|end_char=5492
+2	###	###	PUNCT	$(	_	5	punct	_	start_char=5493|end_char=5496
+3	9.	9.	ADJ	ADJA	Degree=Pos|NumType=Ord	5	dep	_	start_char=5497|end_char=5499
+4	Wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5500|end_char=5508
+5	Warnung	Warnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=5509|end_char=5516
+6	zu	zu	ADP	APPR	_	8	case	_	start_char=5517|end_char=5519
+7	privaten	privat	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=5520|end_char=5528
+8	Internetseiten	Internetseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=5529|end_char=5543
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=5544|end_char=5545
+10	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	start_char=5546|end_char=5548
+11	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=5549|end_char=5553
+12	private	privat	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=5554|end_char=5561
+13	Internetseiten	Internetseite	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No|start_char=5562|end_char=5576
+14	,	,	PUNCT	$,	_	20	punct	_	start_char=5576|end_char=5577
+15-16	zum	_	_	_	_	_	_	_	start_char=5578|end_char=5581
+15	zu	zu	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	start_char=5582|end_char=5590
+18	-	-	PUNCT	$(	_	20	punct	_	start_char=5591|end_char=5592
+19	„	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=5593|end_char=5594
+20	www.amtsweg.com“	www.amtsweg.com“	PROPN	NE	Case=Nom|Number=Sing	13	appos	_	start_char=5594|end_char=5610
+21	-	-	PUNCT	$(	_	23	punct	_	start_char=5611|end_char=5612
+22	„	"	PUNCT	$(	_	23	punct	_	SpaceAfter=No|start_char=5613|end_char=5614
+23	www.fuehrungszeugnis.net“.	www.fuehrungszeugnis.net“.	X	NE	_	20	dep	_	start_char=5614|end_char=5640
+
+# text = - Diese Seiten machen Werbung.
+# sent_id = 88
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5641|end_char=5642
+2	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=5643|end_char=5648
+3	Seiten	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=5649|end_char=5655
+4	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5656|end_char=5662
+5	Werbung	Werbung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|start_char=5663|end_char=5670
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=5670|end_char=5671
+
+# text = - Sie sagen: Man kann dort ein Führungszeugnis beantragen.
+# sent_id = 89
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5672|end_char=5673
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=5674|end_char=5677
+3	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=5678|end_char=5683
+4	:	:	PUNCT	$.	_	10	punct	_	start_char=5683|end_char=5684
+5	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=5685|end_char=5688
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5689|end_char=5693
+7	dort	dort	ADV	ADV	_	10	advmod	_	start_char=5694|end_char=5698
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=5699|end_char=5702
+9	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=5703|end_char=5718
+10	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No|start_char=5719|end_char=5729
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=5729|end_char=5730
+
+# text = - In Wirklichkeit bekommt man dort nur ein kostenpflichtiges Abo. - „Abo“ (Abonnement) =
+# sent_id = 90
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=5731|end_char=5732
+2	In	in	ADP	APPR	_	3	case	_	start_char=5733|end_char=5735
+3	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=5736|end_char=5748
+4	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5749|end_char=5756
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=5757|end_char=5760
+6	dort	dort	ADV	ADV	_	4	advmod	_	start_char=5761|end_char=5765
+7	nur	nur	ADV	ADV	_	4	advmod	_	start_char=5766|end_char=5769
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=5770|end_char=5773
+9	kostenpflichtiges	kostenpflichtiges	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=5774|end_char=5791
+10	Abo.	Abo.	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=5792|end_char=5796
+11	-	-	PUNCT	$(	_	13	punct	_	start_char=5797|end_char=5798
+12	„	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=5799|end_char=5800
+13	Abo	Abo	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	10	appos	_	SpaceAfter=No|start_char=5800|end_char=5803
+14	“	"	PUNCT	$(	_	13	punct	_	start_char=5803|end_char=5804
+15	(	(	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=5805|end_char=5806
+16	Abonnement	Abonnement	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	appos	_	SpaceAfter=No|start_char=5806|end_char=5816
+17	)	)	PUNCT	$(	_	16	punct	_	start_char=5816|end_char=5817
+18	=	=	PUNCT	$(	_	4	punct	_	start_char=5818|end_char=5819
+
+# text = Sie zahlen regelmäßig Geld, oft monatlich.
+# sent_id = 91
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5820|end_char=5823
+2	zahlen	zahlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5824|end_char=5830
+3	regelmäßig	regelmäßig	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=5831|end_char=5841
+4	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=5842|end_char=5846
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=5846|end_char=5847
+6	oft	oft	ADV	ADV	_	7	advmod	_	start_char=5848|end_char=5851
+7	monatlich	monatlich	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=5852|end_char=5861
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=5861|end_char=5862
+
+# text = - Über diese Seiten erhalten Sie kein Führungszeugnis.
+# sent_id = 92
+1	-	-	PUNCT	$(	_	5	punct	_	start_char=5863|end_char=5864
+2	Über	über	ADP	APPR	_	4	case	_	start_char=5865|end_char=5869
+3	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=5870|end_char=5875
+4	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	start_char=5876|end_char=5882
+5	erhalten	erhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5883|end_char=5891
+6	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=5892|end_char=5895
+7	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	8	det	_	start_char=5896|end_char=5900
+8	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|start_char=5901|end_char=5916
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=5916|end_char=5917
+
+# text = - Nutzen Sie nur offizielle Stellen: - Stadt oder Bürgeramt - oder das Bundesamt für Justiz.
+# sent_id = 93
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=5918|end_char=5919
+2	Nutzen	Nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5920|end_char=5926
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5927|end_char=5930
+4	nur	nur	ADV	ADV	_	2	advmod	_	start_char=5931|end_char=5934
+5	offizielle	offiziell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=5935|end_char=5945
+6	Stellen	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=5946|end_char=5953
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=5953|end_char=5954
+8	-	-	PUNCT	$(	_	9	punct	_	start_char=5955|end_char=5956
+9	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	start_char=5957|end_char=5962
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=5963|end_char=5967
+11	Bürgeramt	Bürgeramt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=5968|end_char=5977
+12	-	-	PUNCT	$(	_	15	punct	_	start_char=5978|end_char=5979
+13	oder	oder	CCONJ	KON	_	15	cc	_	start_char=5980|end_char=5984
+14	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=5985|end_char=5988
+15	Bundesamt	Bundesamt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=5989|end_char=5998
+16	für	für	ADP	APPR	_	17	case	_	start_char=5999|end_char=6002
+17	Justiz	Justiz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|start_char=6003|end_char=6009
+18	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=6009|end_char=6010
 
